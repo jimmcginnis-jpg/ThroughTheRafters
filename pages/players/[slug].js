@@ -17,11 +17,62 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
 
   const hasBio = player.bio && (player.bio.road || player.bio.duke || player.bio.after || player.bio.now);
 
-  // Convert \n to paragraphs
+  // Build player name → slug lookup for auto-linking (only completed profiles, not self)
+  const linkablePlayers = data.players
+    .filter(p => p.status === 'done' && p.id !== player.id)
+    .map(p => ({ name: p.name, slug: p.slug }))
+    .sort((a, b) => b.name.length - a.name.length); // longest names first to avoid partial matches
+
+  // Convert paragraph text into React elements with auto-linked player names
+  const linkifyParagraph = (text, paragraphIndex) => {
+    if (!linkablePlayers.length) return text;
+
+    const parts = [];
+    let remaining = text;
+    let keyCounter = 0;
+
+    while (remaining.length > 0) {
+      let earliestMatch = null;
+      let earliestIndex = remaining.length;
+
+      for (const lp of linkablePlayers) {
+        const idx = remaining.indexOf(lp.name);
+        if (idx !== -1 && idx < earliestIndex) {
+          earliestIndex = idx;
+          earliestMatch = lp;
+        }
+      }
+
+      if (earliestMatch) {
+        // Add text before the match
+        if (earliestIndex > 0) {
+          parts.push(remaining.substring(0, earliestIndex));
+        }
+        // Add the linked name
+        parts.push(
+          <Link
+            key={`${paragraphIndex}-${keyCounter++}`}
+            href={`/players/${earliestMatch.slug}/`}
+            className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+          >
+            {earliestMatch.name}
+          </Link>
+        );
+        remaining = remaining.substring(earliestIndex + earliestMatch.name.length);
+      } else {
+        parts.push(remaining);
+        remaining = '';
+      }
+    }
+
+    return parts;
+  };
+
+  // Convert \n to paragraphs with auto-linked player names
   const renderBio = (text) => {
     if (!text) return <p className="text-gray-500 italic">Profile coming soon.</p>;
     return text.split('\n').filter(p => p.trim()).map((paragraph, i) => (
-      <p key={i}>{paragraph}</p>
+      <p key={i}>{linkifyParagraph(paragraph, i)}</p>
     ));
   };
 
