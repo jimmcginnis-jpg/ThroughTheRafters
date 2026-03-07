@@ -176,7 +176,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
         {hasBio ? (
           <>
             {/* Tab Navigation */}
-            <div className="flex gap-1 border-b border-gray-200 mb-8 overflow-x-auto">
+            <div id="bio-tabs" className="flex gap-1 border-b border-gray-200 mb-8 overflow-x-auto">
               {BIO_TABS.map(tab => (
                 <button
                   key={tab.key}
@@ -192,6 +192,26 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <article className="bio-content font-body text-duke-slate leading-relaxed">
               {renderBio(player.bio[activeTab])}
             </article>
+
+            {/* Continue to next section */}
+            {(() => {
+              const currentIndex = BIO_TABS.findIndex(t => t.key === activeTab);
+              const nextTab = currentIndex < BIO_TABS.length - 1 ? BIO_TABS[currentIndex + 1] : null;
+              if (!nextTab || !player.bio[nextTab.key]) return null;
+              return (
+                <div className="mt-8 pt-4 border-t border-gray-200">
+                  <button
+                    onClick={() => {
+                      setActiveTab(nextTab.key);
+                      document.getElementById('bio-tabs')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="font-mono text-sm text-duke-navy hover:text-duke-gold transition-colors cursor-pointer"
+                  >
+                    Continue to: {nextTab.label} &rarr;
+                  </button>
+                </div>
+              );
+            })()}
           </>
         ) : (
           <div className="text-center py-16">
