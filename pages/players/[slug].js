@@ -20,12 +20,33 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
   // Build player name → slug lookup for auto-linking (only completed profiles, not self)
   const linkablePlayers = data.players
     .filter(p => p.status === 'done' && p.id !== player.id)
-    .map(p => ({ name: p.name, slug: p.slug }))
-    .sort((a, b) => b.name.length - a.name.length); // longest names first to avoid partial matches
+    .map(p => ({ name: p.name, href: `/players/${p.slug}/`, type: 'player' }));
 
-  // Convert paragraph text into React elements with auto-linked player names
+  // Build charity/foundation name → URL lookup from all players' charity data
+  const charityLinks = data.players
+    .filter(p => p.charity && p.charity.name && p.charity.url)
+    .map(p => ({ name: p.charity.name, href: p.charity.url, type: 'charity' }));
+
+  // Add well-known charities/orgs mentioned in profiles that aren't player-specific
+  const knownOrgs = [
+    { name: 'V Foundation', href: 'https://www.jimmyv.org/donate/', type: 'charity' },
+    { name: 'Jimmy V Foundation', href: 'https://www.jimmyv.org/donate/', type: 'charity' },
+    { name: 'Emily K Center', href: 'https://emilyk.org/donate/', type: 'charity' },
+    { name: 'Ronald McDonald House', href: 'https://www.rmhc.org/donate', type: 'charity' },
+    { name: 'Susan G. Komen Foundation', href: 'https://www.komen.org/donate/', type: 'charity' },
+    { name: 'Susan G. Komen', href: 'https://www.komen.org/donate/', type: 'charity' },
+    { name: 'Duke Children\u2019s Hospital', href: 'https://www.dukechildrens.org/giving', type: 'charity' },
+  ];
+
+  // Combine all linkable items, deduplicate by name, sort longest first
+  const seen = new Set();
+  const allLinkable = [...linkablePlayers, ...charityLinks, ...knownOrgs]
+    .filter(item => { if (seen.has(item.name)) return false; seen.add(item.name); return true; })
+    .sort((a, b) => b.name.length - a.name.length);
+
+  // Convert paragraph text into React elements with auto-linked player names AND charity links
   const linkifyParagraph = (text, paragraphIndex) => {
-    if (!linkablePlayers.length) return text;
+    if (!allLinkable.length) return text;
 
     const parts = [];
     let remaining = text;
@@ -35,29 +56,42 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
       let earliestMatch = null;
       let earliestIndex = remaining.length;
 
-      for (const lp of linkablePlayers) {
-        const idx = remaining.indexOf(lp.name);
+      for (const item of allLinkable) {
+        const idx = remaining.indexOf(item.name);
         if (idx !== -1 && idx < earliestIndex) {
           earliestIndex = idx;
-          earliestMatch = lp;
+          earliestMatch = item;
         }
       }
 
       if (earliestMatch) {
-        // Add text before the match
         if (earliestIndex > 0) {
           parts.push(remaining.substring(0, earliestIndex));
         }
-        // Add the linked name
-        parts.push(
-          <Link
-            key={`${paragraphIndex}-${keyCounter++}`}
-            href={`/players/${earliestMatch.slug}/`}
-            className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
-          >
-            {earliestMatch.name}
-          </Link>
-        );
+        if (earliestMatch.type === 'player') {
+          parts.push(
+            <Link
+              key={`${paragraphIndex}-${keyCounter++}`}
+              href={earliestMatch.href}
+              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+            >
+              {earliestMatch.name}
+            </Link>
+          );
+        } else {
+          parts.push(
+            <a
+              key={`${paragraphIndex}-${keyCounter++}`}
+              href={earliestMatch.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+              title={`Donate to ${earliestMatch.name}`}
+            >
+              {earliestMatch.name}
+            </a>
+          );
+        }
         remaining = remaining.substring(earliestIndex + earliestMatch.name.length);
       } else {
         parts.push(remaining);
@@ -165,6 +199,57 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <p className="font-body text-gray-500">
               {player.name}&rsquo;s full documentary profile is in development.
             </p>
+          </div>
+        )}
+
+        {/* SOURCES */}
+        {player.sources && player.sources.length > 0 && (
+          <div className="mt-12 pt-6 border-t border-gray-200">
+            <h3 className="font-mono text-xs text-gray-400 uppercase tracking-widest mb-3">Sources</h3>
+            <ul className="space-y-1">
+              {player.sources.map((source, i) => (
+                <li key={i} className="font-body text-sm text-gray-500 leading-relaxed">
+                  {source.url ? (
+                    <a href={source.url} target="_blank" rel="noopener noreferrer"
+                       className="hover:text-duke-navy transition-colors underline decoration-gray-300 hover:decoration-duke-gold">
+                      {source.label}
+                    </a>
+                  ) : (
+                    source.label
+                  )}
+                </li>
+              ))}
+            </ul>
+            <p className="font-body text-xs text-gray-400 mt-4 italic">
+              All quotes are sourced from published interviews and reporting. 
+              <Link href="/methodology/" className="underline hover:text-duke-navy ml-1">
+                Read about our research methodology.
+              </Link>
+            </p>
+          </div>
+        )}
+
+        {/* GIVE BACK */}
+        {player.status === 'done' && (
+          <div className="mt-12 pt-6 border-t border-gray-200">
+            <div className="bg-duke-cream border border-duke-gold/30 p-6">
+              <h3 className="font-display text-lg text-duke-navy mb-2">
+                {player.charity ? player.charity.label : 'Support the Brotherhood'}
+              </h3>
+              <p className="font-body text-sm text-gray-600 leading-relaxed mb-4">
+                {player.charity ? player.charity.description : (
+                  `Duke\u2019s Brotherhood Run supports Duke Children\u2019s Hospital, continuing the program\u2019s long-standing commitment to the Durham community. Consider making a donation in honor of ${player.name} and the Brotherhood.`
+                )}
+              </p>
+              <a
+                href={player.charity ? player.charity.url : 'https://www.dukechildrens.org/giving'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-duke-navy text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 hover:bg-duke-navyDark transition-colors"
+              >
+                {player.charity ? `Donate to ${player.charity.name}` : 'Donate to Duke Children\u2019s Hospital'}
+              </a>
+            </div>
           </div>
         )}
 
