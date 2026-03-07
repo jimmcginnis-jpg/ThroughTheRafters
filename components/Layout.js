@@ -106,10 +106,14 @@ export default function Layout({ children, title, description, canonical }) {
             </div>
             <div>
               <h3 className="font-display text-duke-gold text-lg mb-3">About</h3>
-              <p className="text-sm leading-relaxed opacity-80">
+              <p className="text-sm leading-relaxed opacity-80 mb-3">
                 An independent project documenting the lives and careers of Duke basketball
                 players, from their road to Durham to where they are now.
               </p>
+              <div className="space-y-1 text-sm">
+                <Link href="/about/" className="block hover:text-duke-gold transition-colors">About This Project</Link>
+                <Link href="/methodology/" className="block hover:text-duke-gold transition-colors">Sources &amp; Methodology</Link>
+              </div>
             </div>
           </div>
           <div className="era-divider mt-8 mb-4" />
