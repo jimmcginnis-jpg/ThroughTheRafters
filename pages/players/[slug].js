@@ -232,10 +232,10 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                   {source.url ? (
                     <a href={source.url} target="_blank" rel="noopener noreferrer"
                        className="hover:text-duke-navy transition-colors underline decoration-gray-300 hover:decoration-duke-gold">
-                      {source.label}
+                      {source.title}
                     </a>
                   ) : (
-                    source.label
+                    source.title
                   )}
                 </li>
               ))}
