@@ -91,7 +91,7 @@ export default function Layout({ children, title, description, canonical }) {
             <Link href="/lists/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               Lists
             </Link>
-            <Link href="/viz/height/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
+            <Link href="/viz/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               Viz
             </Link>
             <Link href="/about/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
@@ -138,7 +138,7 @@ export default function Layout({ children, title, description, canonical }) {
             <Link href="/lists/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               Lists
             </Link>
-            <Link href="/viz/height/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+            <Link href="/viz/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               Viz
             </Link>
             <Link href="/about/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
