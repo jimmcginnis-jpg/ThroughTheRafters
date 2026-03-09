@@ -1,0 +1,96 @@
+{
+  "seasons": [
+    {
+      "season": "1985-86",
+      "era": "foundation",
+      "record": "37-3",
+      "accRecord": "12-2",
+      "coach": "Mike Krzyzewski",
+      "ranking": { "preseason": 6, "final": 2 },
+      "accTournament": "Champions",
+      "ncaaTournament": "National Runner-Up (#1 seed, East)",
+      "tagline": "The year Duke arrived. 37 wins, Dawkins' coronation, and one half short of a happy ending.",
+      "overview": "The 1985-86 season was the dawn of the Krzyzewski empire. Four seniors — Johnny Dawkins, Mark Alarie, Jay Bilas, and David Henderson — who had gone 11-17 as freshmen returned hardened and hungry. With junior Tommy Amaker running point and freshmen Danny Ferry and Billy King off the bench, the Blue Devils won 21 consecutive games, captured Duke's first sole ACC regular-season title in 20 years, won the ACC Tournament, and entered the NCAA Tournament as the #1 overall seed.\n\nDawkins was named the Naismith National Player of the Year — the first in Duke history — averaging 20.2 points per game. The Blue Devils rattled off tournament wins over Mississippi Valley State, Old Dominion, DePaul, and Navy before beating #1-seeded Kansas 71-67 in the Final Four semifinal. In the championship game against Louisville, Dawkins scored 24 points, but freshman Pervis Ellison's 25-point, 11-rebound performance carried the Cardinals to a 72-69 victory.\n\nThe defeat still stings. But this team set the table for everything that followed. As Krzyzewski later said: 'The '86 team is really the rock for our program, and I love all those guys.'",
+      "unc": [
+        {
+          "date": "1986-01-18",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "L",
+          "score": "92-95",
+          "dukeRank": 3,
+          "uncRank": 1,
+          "story": "The first game ever played in the brand-new Dean Smith Center. #1 North Carolina christened their new home with a 95-92 victory over #3 Duke in a high-scoring shootout. The Tar Heels' building opened with a statement win, but the Blue Devils proved they could go toe-to-toe with Dean Smith's squad."
+        },
+        {
+          "date": "1986-02-05",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "L",
+          "score": "76-82",
+          "dukeRank": 3,
+          "uncRank": 1,
+          "story": "UNC swept the regular season series, winning at Cameron 82-76. One of only three losses all season for Duke. The Blue Devils would not lose again — reeling off 21 straight wins through the ACC Tournament and into the NCAA championship game."
+        }
+      ],
+      "march": {
+        "accTourney": [
+          { "round": "Quarterfinal", "date": "1986-03-07", "opponent": "Wake Forest", "result": "W", "score": "68-60", "story": "" },
+          { "round": "Semifinal", "date": "1986-03-08", "opponent": "Virginia", "result": "W", "score": "67-57", "story": "" },
+          { "round": "Final", "date": "1986-03-09", "opponent": "Georgia Tech", "result": "W", "score": "68-67", "story": "A one-point nail-biter gave Duke its first ACC Tournament title under Krzyzewski. Dawkins was named tournament MVP." }
+        ],
+        "ncaaTourney": [
+          { "round": "R64", "date": "1986-03-14", "opponent": "Mississippi Valley State", "seed": 16, "result": "W", "score": "85-78", "story": "" },
+          { "round": "R32", "date": "1986-03-16", "opponent": "Old Dominion", "seed": 8, "result": "W", "score": "89-61", "story": "" },
+          { "round": "Sweet 16", "date": "1986-03-21", "opponent": "DePaul", "seed": 12, "result": "W", "score": "74-67", "story": "" },
+          { "round": "Elite 8", "date": "1986-03-23", "opponent": "Navy", "seed": 7, "result": "W", "score": "71-50", "story": "David Robinson's Navy team was no match. Duke cruised to the Final Four." },
+          { "round": "Final Four", "date": "1986-03-29", "opponent": "Kansas", "seed": 1, "result": "W", "score": "71-67", "story": "A war. Dawkins scored 24 and Henderson added 20 as Duke outlasted Larry Brown's Jayhawks. The Blue Devils were headed to the championship game." },
+          { "round": "Championship", "date": "1986-03-31", "opponent": "Louisville", "seed": 2, "result": "L", "score": "69-72", "story": "Dawkins scored 24 points — he'd averaged 25.5 for the entire tournament — but Louisville freshman Pervis Ellison had 25 and 11 to carry the Cardinals. Duke ran out of gas in the final ten minutes. 'I've never rewatched that game,' Dawkins said 30 years later. 'There's a good chance I won't ever get over it.'" }
+        ]
+      }
+    },
+    {
+      "season": "1990-91",
+      "era": "dynasty1",
+      "record": "32-7",
+      "accRecord": "11-3",
+      "coach": "Mike Krzyzewski",
+      "ranking": { "preseason": 7, "final": 1 },
+      "accTournament": "Semifinal loss",
+      "ncaaTournament": "National Champions (#2 seed, Midwest)",
+      "tagline": "The breakthrough. Duke's first national championship, and the end of the UNLV ghost.",
+      "overview": "A year after being demolished 103-73 by UNLV in the championship game — the worst title-game loss in NCAA history — Duke came back with a vengeance. Christian Laettner was now a junior, Bobby Hurley a sophomore, and freshman Grant Hill arrived as the missing athletic piece. The Blue Devils were picked seventh in the preseason, but the motivation from the UNLV humiliation drove them all season.\n\nThe signature moment came in the Final Four semifinal: Duke upset undefeated, #1-ranked UNLV 79-77, ending the Runnin' Rebels' 45-game winning streak and exorcising the demons from the year before. Laettner hit a critical late free throw, and the Blue Devils' defense — anchored by Grant Hill, Thomas Hill, and Billy McCaffrey — stifled UNLV's high-powered offense.\n\nTwo nights later, Duke defeated Kansas 72-65 for the program's first national championship. Laettner scored 18 points in the title game. For Krzyzewski, it was validation of everything he'd been building for a decade. For the Brotherhood, it was the beginning of a dynasty.",
+      "unc": [
+        {
+          "date": "1991-02-02",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "W",
+          "score": "74-60",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "Duke dominated at home, winning by 14 in a statement game."
+        },
+        {
+          "date": "1991-03-10",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "L",
+          "score": "74-83",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "UNC won the regular-season finale at home. It would be Duke's last loss of the season — the Blue Devils won seven straight in March to claim the national title."
+        }
+      ],
+      "march": {
+        "accTourney": [
+          { "round": "Semifinal", "date": "1991-03-10", "opponent": "Virginia", "result": "L", "score": "74-78", "story": "An early exit from the ACC Tournament. It didn't matter — Duke was saving its best for March." }
+        ],
+        "ncaaTourney": [
+          { "round": "R64", "date": "1991-03-15", "opponent": "Northeast Louisiana", "seed": 15, "result": "W", "score": "102-73", "story": "" },
+          { "round": "R32", "date": "1991-03-17", "opponent": "Iowa", "seed": 7, "result": "W", "score": "85-70", "story": "" },
+          { "round": "Sweet 16", "date": "1991-03-22", "opponent": "Connecticut", "seed": 11, "result": "W", "score": "81-67", "story": "" },
+          { "round": "Elite 8", "date": "1991-03-24", "opponent": "St. John's", "seed": 6, "result": "W", "score": "78-61", "story": "" },
+          { "round": "Final Four", "date": "1991-03-30", "opponent": "UNLV", "seed": 1, "result": "W", "score": "79-77", "story": "The upset of the decade. Undefeated, defending champion UNLV — the team that had beaten Duke by 30 in the previous year's title game — fell 79-77. Laettner hit critical free throws, and Duke's defense held UNLV scoreless in the final minute. The ghosts were gone." },
+          { "round": "Championship", "date": "1991-04-01", "opponent": "Kansas", "seed": 3, "result": "W", "score": "72-65", "story": "Duke's first national championship. Laettner scored 18, Hurley had 12 assists, and the Blue Devils controlled the game from start to finish. Krzyzewski had his title. The dynasty was born." }
+        ]
+      }
+    }
+  ]
+}
