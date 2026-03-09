@@ -1,4 +1,5 @@
 // Layout.js — updated 2026-03-09
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -6,6 +7,7 @@ import data from '../data/players.json';
 
 export default function Layout({ children, title, description, canonical }) {
   const router = useRouter();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const donePlayers = data.players.filter(p => p.status === 'done');
 
   const goToRandomPlayer = () => {
@@ -55,14 +57,8 @@ export default function Layout({ children, title, description, canonical }) {
             </div>
           </Link>
 
-          <div className="flex gap-6 items-center font-mono text-xs tracking-wider uppercase">
-            <button
-              onClick={goToRandomPlayer}
-              className="bg-duke-gold text-duke-navyDark px-3 py-1.5 hover:bg-duke-goldLight transition-colors cursor-pointer"
-              title="Random Player Generator — inspired by Wilco"
-            >
-              &#9861; Random Player
-            </button>
+          {/* Desktop nav */}
+          <div className="hidden md:flex gap-6 items-center font-mono text-xs tracking-wider uppercase">
             <Link href="/players/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               All Players
             </Link>
@@ -79,7 +75,45 @@ export default function Layout({ children, title, description, canonical }) {
               About
             </Link>
           </div>
+
+          {/* Mobile hamburger button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden text-duke-goldLight hover:text-duke-gold transition-colors p-2"
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            ) : (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            )}
+          </button>
         </nav>
+
+        {/* Mobile menu dropdown */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-white/10 px-4 py-4 font-mono text-sm tracking-wider uppercase space-y-4">
+            <Link href="/players/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              All Players
+            </Link>
+            <Link href="/eras/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              Eras
+            </Link>
+            <Link href="/lists/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              Lists
+            </Link>
+            <Link href="/viz/height/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              Viz
+            </Link>
+            <Link href="/about/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              About
+            </Link>
+          </div>
+        )}
       </header>
 
       {/* MAIN CONTENT */}
