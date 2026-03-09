@@ -8,6 +8,7 @@ export default function PlayersIndex({ eras, players }) {
   const router = useRouter();
   const [filterEra, setFilterEra] = useState('all');
   const [filterStatus, setFilterStatus] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const donePlayers = players.filter(p => p.status === 'done');
   const goToRandomPlayer = () => {
@@ -18,6 +19,11 @@ export default function PlayersIndex({ eras, players }) {
   const filtered = players.filter(p => {
     if (filterEra !== 'all' && p.era !== filterEra) return false;
     if (filterStatus !== 'all' && p.status !== filterStatus) return false;
+    if (searchQuery.trim().length >= 2) {
+      const q = searchQuery.toLowerCase().trim();
+      const searchable = [p.name, p.pos, p.years, p.hometown || '', p.highSchool || '', p.tagline || ''].join(' ').toLowerCase();
+      if (!searchable.includes(q)) return false;
+    }
     return true;
   });
 
@@ -47,6 +53,16 @@ export default function PlayersIndex({ eras, players }) {
       <section className="max-w-5xl mx-auto px-4 py-8">
         {/* Filters */}
         <div className="flex flex-wrap gap-4 mb-8">
+          <div className="flex-1 min-w-[200px]">
+            <label className="font-mono text-xs text-gray-500 uppercase tracking-wider block mb-1">Search</label>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
+              placeholder="Search by name, hometown, school..."
+              className="border border-gray-300 px-3 py-2 font-body text-sm bg-white w-full"
+            />
+          </div>
           <div>
             <label className="font-mono text-xs text-gray-500 uppercase tracking-wider block mb-1">Era</label>
             <select
@@ -138,6 +154,8 @@ export async function getStaticProps() {
     height: p.height,
     tagline: p.tagline,
     status: p.status,
+    hometown: p.hometown || '',
+    highSchool: p.highSchool || '',
   }));
 
   return {
