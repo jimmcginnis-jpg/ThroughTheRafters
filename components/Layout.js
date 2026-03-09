@@ -1,14 +1,28 @@
 // Layout.js — updated 2026-03-09
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import data from '../data/players.json';
+import SearchOverlay from './SearchOverlay';
 
 export default function Layout({ children, title, description, canonical }) {
   const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const donePlayers = data.players.filter(p => p.status === 'done');
+
+  // Cmd+K / Ctrl+K keyboard shortcut to open search
+  useEffect(() => {
+    const handleKey = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, []);
 
   const goToRandomPlayer = () => {
     const random = donePlayers[Math.floor(Math.random() * donePlayers.length)];
@@ -59,6 +73,15 @@ export default function Layout({ children, title, description, canonical }) {
 
           {/* Desktop nav */}
           <div className="hidden md:flex gap-6 items-center font-mono text-xs tracking-wider uppercase">
+            <button
+              onClick={() => setSearchOpen(true)}
+              className="text-duke-goldLight hover:text-duke-gold transition-colors"
+              title="Search players (⌘K)"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" strokeLinecap="round" />
+              </svg>
+            </button>
             <Link href="/players/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               All Players
             </Link>
@@ -97,6 +120,15 @@ export default function Layout({ children, title, description, canonical }) {
         {/* Mobile menu dropdown */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-white/10 px-4 py-4 font-mono text-sm tracking-wider uppercase space-y-4">
+            <button
+              onClick={() => { setSearchOpen(true); setMobileMenuOpen(false); }}
+              className="flex items-center gap-2 text-duke-goldLight hover:text-duke-gold transition-colors py-1 w-full text-left"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" strokeLinecap="round" />
+              </svg>
+              Search Players
+            </button>
             <Link href="/players/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               All Players
             </Link>
@@ -176,6 +208,9 @@ export default function Layout({ children, title, description, canonical }) {
           </p>
         </div>
       </footer>
+
+      {/* Search Overlay */}
+      <SearchOverlay isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
 }
