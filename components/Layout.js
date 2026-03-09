@@ -1,3 +1,4 @@
+// Layout.js — updated 2026-03-09
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
