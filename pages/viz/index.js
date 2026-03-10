@@ -17,6 +17,18 @@ const vizzes = [
     desc: 'Where Duke gets its players — 200 hometowns pinned from Los Angeles to South Sudan.',
     stat: '200 hometowns',
   },
+  {
+    slug: 'nba',
+    title: 'Duke in the NBA',
+    desc: 'How many Brotherhood members were in the league each season — from 2 in 1986 to 23 at the peak.',
+    stat: '41 seasons',
+  },
+  {
+    slug: 'nba-teams',
+    title: 'Duke by NBA Team',
+    desc: 'Every NBA franchise\u2019s Duke connection — all-time rosters and who\u2019s playing right now.',
+    stat: '30 teams',
+  },
 ];
 
 export default function VizIndex() {
