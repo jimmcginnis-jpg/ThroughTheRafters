@@ -524,7 +524,7 @@ export default function SeasonPage({ team, roster }) {
             sport: 'Basketball',
             coach: { '@type': 'Person', name: team.coach },
             memberOf: { '@type': 'SportsOrganization', name: 'Atlantic Coast Conference' },
-            url: `https://dukebrotherhood.com/teams/${team.season}/`,
+            url: `https://www.dukebrotherhood.com/teams/${team.season}/`,
             description: team.tagline,
           }),
         }}
@@ -536,9 +536,9 @@ export default function SeasonPage({ team, roster }) {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://dukebrotherhood.com/' },
-              { '@type': 'ListItem', position: 2, name: 'Teams', item: 'https://dukebrotherhood.com/teams/' },
-              { '@type': 'ListItem', position: 3, name: team.season, item: `https://dukebrotherhood.com/teams/${team.season}/` },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.dukebrotherhood.com/' },
+              { '@type': 'ListItem', position: 2, name: 'Teams', item: 'https://www.dukebrotherhood.com/teams/' },
+              { '@type': 'ListItem', position: 3, name: team.season, item: `https://www.dukebrotherhood.com/teams/${team.season}/` },
             ],
           }),
         }}
