@@ -715,6 +715,498 @@
       ]
     },
     {
+      "season": "1986-87",
+      "era": "dynasty1",
+      "record": "24-9",
+      "accRecord": "9-5",
+      "coach": "Mike Krzyzewski",
+      "ranking": {
+        "preseason": null,
+        "final": 17
+      },
+      "accTournament": "Quarterfinal loss (NC State)",
+      "ncaaTournament": "Sweet Sixteen (#5 seed Midwest)",
+      "tagline": "The validation season. Four starters gone, everyone counted them out — and they made the Sweet Sixteen anyway.",
+      "overview": "Mike Krzyzewski lost four starters from the 1986 national runner-up team: Johnny Dawkins, Mark Alarie, Jay Bilas, and David Henderson. Only 43.9% of minutes played and 27.0% of scoring returned. Every pundit in America expected a significant step back. They were wrong.\n\nThe 1986-87 Blue Devils went 24-9 and reached the Sweet Sixteen before falling to Bob Knight's Indiana Hoosiers — the eventual national champions. It was, in K's own words, the season that demonstrated Duke basketball had built something sustainable. The '86 team wasn't a fluke. Duke wasn't going anywhere.\n\nThe team was rebuilt around senior point guard Tommy Amaker, the only returning starter, and sophomore forward Danny Ferry, who emerged as the go-to scorer. Junior Billy King brought the defensive intensity that would earn him the National Defensive Player of the Year award the following season. A talented freshman class arrived featuring Quin Snyder, Phil Henderson, Robert Brickey, and Alaa Abdelnaby — all of whom would become major figures in the dynasty years ahead.\n\nThis was also the first season of the three-point line in college basketball, and Amaker — the team's defensive ace — led Duke in three-point shooting, an irony that delighted K. Amaker earned NABC National Defensive Player of the Year honors (the first ever given) and was named a Third Team All-American. He and Ferry shared team MVP honors.\n\nThe ACC was stacked. North Carolina, featuring freshman J.R. Reid and senior Kenny Smith, went undefeated in conference play. Duke finished third at 9-5 but had the program's future in place. The freshmen who arrived this year — Snyder, Henderson, Brickey, Abdelnaby — would combine with Ferry to make the Final Four in three of the next four seasons and win back-to-back national championships in 1991 and 1992.\n\nThe 1986-87 season is the bridge. Without it, the dynasty doesn't happen.",
+      "unc": [
+        {
+          "date": "1987-01-17",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "L",
+          "score": "72-75",
+          "dukeRank": null,
+          "uncRank": 3,
+          "story": "North Carolina came to Cameron riding a 10-game winning streak with freshman J.R. Reid already looking like a star. Duke matched them streak for streak — the Blue Devils had won 10 straight themselves. It was early-season proof that Duke was legitimate even without the four departed seniors. The Tar Heels pulled away late behind Kenny Smith and Reid, but the game was competitive throughout, and the Cameron Crazies saw their young team go toe-to-toe with one of the best teams in the country. Carolina would go undefeated in ACC play this season."
+        },
+        {
+          "date": "1987-02-28",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "L",
+          "score": "67-72",
+          "dukeRank": null,
+          "uncRank": 1,
+          "story": "The regular season finale in Chapel Hill against the top-ranked Tar Heels. UNC was completing an undefeated run through the ACC — 14-0, one of only a handful of teams in conference history to accomplish that feat. Duke competed but couldn't quite close the gap. Ferry had a strong game, and Amaker ran the offense with his usual precision, but Carolina's depth and talent were too much. The loss meant Duke finished 9-5 in conference, third in the ACC."
+        }
+      ],
+      "theGame": {
+        "title": "The Apprentice Meets the Master",
+        "date": "1987-03-20",
+        "location": "Riverfront Coliseum, Cincinnati",
+        "opponent": "Indiana",
+        "result": "L",
+        "score": "82-88",
+        "dukeRank": null,
+        "opponentRank": 1,
+        "headline": "Bob Knight's Indiana ends Duke's season in the Sweet Sixteen — a student-vs-teacher battle that previewed a decade of rivalry.",
+        "story": "It was the first time Duke and Indiana had ever met in the NCAA Tournament, and the matchup was impossible to ignore: Mike Krzyzewski, who had played for and coached under Bob Knight at West Point, facing his mentor with a Sweet Sixteen berth on the line.\n\nDuke started brilliantly, racing to a 29-21 lead behind a 4-for-4 barrage from the three-point line — the new weapon in its first NCAA Tournament ever. Indiana looked rattled, with Steve Alford held to a single point in the opening stretch. But Knight's team responded with a devastating 14-2 run, and the Hoosiers closed the first half with a 49-39 lead after a 28-10 surge.\n\nDuke fought back in the second half but could never recover. Tommy Amaker, playing his final college game, scored 23 points in a valiant effort — the most by any player on either team. Danny Ferry added 18. But Indiana was simply too deep and too talented, with Keith Smart and Ricky Calloway leading a balanced Hoosier attack.\n\nThe 88-82 final score didn't reflect how close it felt in the second half. Indiana would go on to win the national championship on Smart's iconic baseline jumper against Syracuse.\n\nFor Duke, the loss was bittersweet. Amaker's career was over, but the program had passed the critical test: after losing four starters from a title-game team, Duke had won 24 games and reached the Sweet Sixteen. K would later call this the season that proved Duke's rise was permanent. The apprentice had lost to the master — but the student was building something the teacher would envy for the next two decades."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "1987-03-06",
+            "opponent": "NC State",
+            "result": "L",
+            "score": "",
+            "story": "An early exit from the ACC Tournament, falling to NC State in the quarterfinals. The loss stung — but Duke was a lock for the NCAA field regardless, and K refocused the team immediately for the Big Dance."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round (Midwest)",
+            "date": "1987-03-12",
+            "opponent": "Texas A&M",
+            "seed": "#5 vs #12",
+            "result": "W",
+            "score": "58-51",
+            "story": "A workmanlike victory over the Aggies in Indianapolis. Duke's defense — the program's calling card under K — held Texas A&M to 51 points. Amaker controlled the tempo, and King hounded the opposing guards. Not flashy, but effective."
+          },
+          {
+            "round": "Second Round (Midwest)",
+            "date": "1987-03-14",
+            "opponent": "Xavier",
+            "seed": "#5 vs #13",
+            "result": "W",
+            "score": "65-60",
+            "story": "Another tight defensive struggle, another Duke win. Xavier was a dangerous 13 seed that had already upset Missouri, but Duke's discipline and experience carried the day. Ferry was excellent, and the Blue Devils advanced to the Sweet Sixteen — far further than anyone had predicted after losing four starters."
+          },
+          {
+            "round": "Sweet Sixteen (Midwest)",
+            "date": "1987-03-20",
+            "opponent": "Indiana",
+            "seed": "#5 vs #1",
+            "result": "L",
+            "score": "82-88",
+            "story": "The student vs. the teacher. Krzyzewski vs. Knight. Duke jumped ahead early behind new three-point shooting but Indiana stormed back. Amaker scored 23 in his final game. Indiana would win the national title. Duke had proven it was no one-year wonder."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "1986-87 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/1987.html"
+        },
+        {
+          "title": "1986-87 Duke Schedule — GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/schedule/1986-87"
+        },
+        {
+          "title": "1986-87 Duke Season — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Tommy Amaker — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Amaker"
+        },
+        {
+          "title": "Tommy Amaker — Duke Hall of Fame",
+          "url": "https://goduke.com/honors/duke-athletics-hall-of-fame/tommy-amaker/40"
+        },
+        {
+          "title": "1987 NCAA Tournament — NCAA.com",
+          "url": "https://www.ncaa.com/news/basketball-men/article/2020-05-13/1987-ncaa-tournament-bracket-scores-stats-records"
+        },
+        {
+          "title": "Indiana vs. Duke 1987 Sweet Sixteen — The Daily Hoosier",
+          "url": "https://www.thedailyhoosier.com/this-date-in-hoosier-history-indiana-claims-1987-sweet-sixteen-victory-over-duke/"
+        },
+        {
+          "title": "ESPN Feature on 1986-87 Duke — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2022/9/14/23348456/youtube-gold-espn-feature-on-dukes-1986-87-team-tommy-amaker-danny-ferry-mike-krzyzewski"
+        },
+        {
+          "title": "Coach K and Duke Rise in the 1980s — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2022/3/5/22961191/youtube-gold-coach-k-and-duke-in-the-1980s-tommy-maker-johnny-dawkins-jay-bilas-david-henderson-acc"
+        },
+        {
+          "title": "Coach K Official Site — Duke Basketball History",
+          "url": "https://coachk.com/duke-basketball/"
+        },
+        {
+          "title": "Danny Ferry Impact on Duke — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2023/7/18/23798536/danny-ferry-duke-basketball-mike-krzyzewski-blue-devils"
+        }
+      ]
+    },
+    {
+      "season": "1987-88",
+      "era": "dynasty1",
+      "record": "28-7",
+      "accRecord": "9-5",
+      "coach": "Mike Krzyzewski",
+      "ranking": {
+        "preseason": null,
+        "final": 7
+      },
+      "accTournament": "Champions (beat UNC 65-61 in final)",
+      "ncaaTournament": "Final Four (#2 seed, lost to Kansas 66-59)",
+      "tagline": "The Triple Crown. Duke swept Carolina 3-0 for the first time in 22 years, won the ACC Tournament, and launched a five-year Final Four streak.",
+      "overview": "With 76.3% of minutes played and 78.1% of scoring returning from the 1986-87 team, Duke entered the season with legitimate expectations for the first time since the seniors of '86 had graduated. This was no longer a rebuilding project. This was a program.\n\nJunior Danny Ferry emerged as one of the best players in America, averaging 19.1 points per game with a versatile game that combined size, shooting, and passing in a 6-foot-10 package. Senior Billy King — Duke's defensive enforcer — won the NABC National Defensive Player of the Year award, making it two consecutive years a Blue Devil had claimed the honor (after Tommy Amaker in 1987). Senior Kevin Strickland averaged 16.3 points as the team's second scorer. Sophomore point guard Quin Snyder ran the offense, and sophomores Robert Brickey, Phil Henderson, and Alaa Abdelnaby provided the depth that would power Duke for years to come.\n\nThe Blue Devils went 28-7 and finished third in the ACC at 9-5, but the signature achievement was the sweep of North Carolina — something Duke hadn't accomplished in 22 years. Duke won 70-69 in Chapel Hill on a gritty road performance, then demolished the Tar Heels 96-81 at Cameron on Senior Day for King and Strickland, and completed the 'Triple Crown' with a 65-61 victory over UNC in the ACC Tournament championship game in Greensboro. It was the moment the rivalry shifted. Dean Smith's program was no longer the undisputed king of Tobacco Road. Ferry's shot with 1:25 left and Snyder's two free throws with four seconds remaining sealed the tournament title.\n\nIn the NCAA Tournament, Duke was seeded #2 in the East Regional. The Blue Devils survived a scare from 11-seed Rhode Island, winning 73-72, before dominating #1 seed Temple 63-53 in the Regional Final to earn a trip to Kansas City and the Final Four.\n\nThere, they met Danny Manning and Kansas — 'Danny and the Miracles,' a team that had lost 11 games during the regular season but was carried by the most dominant player in the country. Manning scored 25 points and Ferry had 19, but Kansas won 66-59. Manning would go on to lead Kansas to the national championship two days later, one of the great individual tournament runs in history.\n\nThe Final Four loss stung, but the season was transformational. Duke had swept UNC, won the ACC Tournament for the first time in the K era's dynasty run, and reached the Final Four for the second time in three years. It was the beginning of an unprecedented streak: Duke would make the Final Four five consecutive years from 1988 to 1992, winning national championships in 1991 and 1992. The 1987-88 team lit the fuse.",
+      "unc": [
+        {
+          "date": "1988-01-21",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "W",
+          "score": "70-69",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "Duke won in Chapel Hill by a single point — the kind of road victory that announces a program has arrived. The Blue Devils were poised and disciplined, with Ferry and King leading on both ends. It was the first game of what would become an historic three-game sweep, and it sent a message to the entire ACC: the power dynamic on Tobacco Road was shifting."
+        },
+        {
+          "date": "1988-02-27",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "W",
+          "score": "96-81",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "Senior Day for Billy King and Kevin Strickland — and what a sendoff. Duke destroyed North Carolina by 15 points at Cameron, with the Crazies in full throat. It was the second leg of the Triple Crown and by far the most decisive. UNC's J.R. Reid and the Tar Heels had no answer for Ferry's scoring and King's defensive intensity. The blowout made the ACC Tournament final feel inevitable."
+        },
+        {
+          "date": "1988-03-13",
+          "location": "Greensboro Coliseum, Greensboro",
+          "result": "W",
+          "score": "65-61",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "The Triple Crown — Duke's first 3-0 season sweep of North Carolina in 22 years, completed in the ACC Tournament championship game. Carolina led for much of the contest, but Duke's defense clamped down in the final minutes. Ferry's clutch basket with 1:25 remaining and Snyder's two free throws with four seconds left sealed the victory. Kevin Strickland scored 22 points. Sports Illustrated later ranked this among the most significant games in the rivalry's history. Duke hadn't swept UNC since 1966. The balance of power had officially shifted."
+        }
+      ],
+      "theGame": {
+        "title": "Danny and the Miracles",
+        "date": "1988-04-02",
+        "location": "Kemper Arena, Kansas City",
+        "opponent": "Kansas",
+        "result": "L",
+        "score": "59-66",
+        "dukeRank": null,
+        "opponentRank": null,
+        "headline": "Danny Manning carries an 11-loss Kansas team past Duke in the Final Four — one of the great individual performances in tournament history.",
+        "story": "It should not have worked. Kansas had lost 11 games during the regular season. They'd lost four times by double digits. They'd gone nearly a month without beating a Division I opponent. But they had Danny Manning, and in March, that was enough.\n\nDuke entered the Final Four riding the high of its greatest season in the K era: the Triple Crown sweep of UNC, the ACC Tournament title, and dominant wins over Boston University, SMU, Rhode Island, and #1 seed Temple to reach Kansas City. Ferry, Brickey, Henderson, Snyder, and King were playing the best basketball of their lives.\n\nBut Manning was transcendent. The 6-foot-10 senior scored 25 points and pulled down 10 rebounds, controlling both ends of the floor. Ferry fought valiantly with 19 points, but the Kansas defense — inspired by Manning's will — held Duke to 37% shooting. The 66-59 final was a testament to how far one superstar can carry a team.\n\nTwo days later, Manning led Kansas to the national championship over Oklahoma, cementing one of the most improbable runs in tournament history. For Duke, the loss was painful — they were the better team on paper — but it was no shame to lose to greatness.\n\nMore importantly, the season had launched what would become the most dominant stretch in Duke basketball history. Five consecutive Final Fours. Two national championships. The '88 team was the one that proved Duke belonged at college basketball's highest table — not as a guest, but as a permanent resident."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "1988-03-10",
+            "opponent": "Maryland",
+            "result": "W",
+            "score": "",
+            "story": "Duke opened ACC Tournament play with a win over Maryland. The Terps had pulled off one of their rare victories over Duke during the regular season (72-69, their lone win in a 22-game stretch of the series from 1985-94), but the tournament was a different story."
+          },
+          {
+            "round": "Semifinal",
+            "date": "1988-03-12",
+            "opponent": "NC State",
+            "result": "W",
+            "score": "",
+            "story": "A semifinal victory over NC State set up the showdown everyone wanted: Duke vs. North Carolina for the ACC championship."
+          },
+          {
+            "round": "Championship",
+            "date": "1988-03-13",
+            "opponent": "North Carolina",
+            "result": "W",
+            "score": "65-61",
+            "story": "The Triple Crown. Strickland scored 22, Ferry hit the go-ahead basket, and Snyder iced it at the line. Duke's first 3-0 sweep of Carolina in 22 years, completed on the biggest stage the ACC had to offer. The dynasty was no longer coming — it had arrived."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round (East)",
+            "date": "1988-03-17",
+            "opponent": "Boston University",
+            "seed": "#2 vs #15",
+            "result": "W",
+            "score": "85-69",
+            "story": "A comfortable opening win in Chapel Hill. The Blue Devils were loose and confident after the ACC Tournament title, and they dispatched Boston University without drama."
+          },
+          {
+            "round": "Second Round (East)",
+            "date": "1988-03-19",
+            "opponent": "SMU",
+            "seed": "#2 vs #7",
+            "result": "W",
+            "score": "94-79",
+            "story": "Duke's offense exploded for 94 points against SMU, with Ferry leading a balanced attack. The Blue Devils shot their way into the Sweet Sixteen."
+          },
+          {
+            "round": "Sweet Sixteen (East)",
+            "date": "1988-03-24",
+            "opponent": "Rhode Island",
+            "seed": "#2 vs #11",
+            "result": "W",
+            "score": "73-72",
+            "story": "The scare that almost ended everything. Rhode Island, an 11-seed led by guard Tom Garrick, pushed Duke to the absolute limit. The Rams had the ball with a chance to win in the final seconds. Duke survived 73-72 in one of the most harrowing wins of the K era. The dynasty nearly died before it ever started."
+          },
+          {
+            "round": "Elite Eight (East)",
+            "date": "1988-03-26",
+            "opponent": "Temple",
+            "seed": "#2 vs #1",
+            "result": "W",
+            "score": "63-53",
+            "story": "After the Rhode Island scare, Duke regrouped and delivered a masterclass against top-seeded Temple. Billy King's defense was smothering. The Blue Devils held Temple to 53 points and earned their ticket to Kansas City. It was Duke's first Final Four since the 1986 championship game."
+          },
+          {
+            "round": "Final Four",
+            "date": "1988-04-02",
+            "opponent": "Kansas",
+            "seed": "#2 vs #6",
+            "result": "L",
+            "score": "59-66",
+            "story": "Danny Manning scored 25 and willed an 11-loss Kansas team past Duke. Ferry had 19 but Duke shot just 37%. Manning would win the national title two days later. The loss hurt, but the season launched five straight Final Fours."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "1987-88 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/1988.html"
+        },
+        {
+          "title": "1987-88 Duke Schedule — GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/schedule/1987-88"
+        },
+        {
+          "title": "1987-88 Duke Season — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Duke Basketball History — CoachK.com",
+          "url": "https://coachk.com/duke-basketball/"
+        },
+        {
+          "title": "Duke-UNC 1988: All Three Games — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2021/6/10/22525448/youtube-gold-duke-unc-1988-danny-ferry-jr-reid-mike-krzyzewski-dean-smith-acc-basketball-champions"
+        },
+        {
+          "title": "Duke-UNC 1988 ACC Tournament Finals — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2024/11/16/24297780/youtube-gold-duke-unc-1988-acc-tournament-finals-danny-ferry-dean-smith-mike-krzyzewski-jr-reid"
+        },
+        {
+          "title": "Duke Got to the Final Four in 1988 — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2024/11/26/24305312/youtube-gold-duke-basketball-rhode-island-1988-danny-ferry-mike-krzyzewski-tommy-amaker-final-four"
+        },
+        {
+          "title": "1988 NCAA Tournament Capsules — UPI",
+          "url": "https://www.upi.com/Archives/1988/03/21/NCAA-BASKETBALL-CAPSULES/4522574923600/"
+        },
+        {
+          "title": "Carolina-Duke Rivalry — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
+        },
+        {
+          "title": "Best Games in Duke-UNC History — Sports Illustrated",
+          "url": "https://www.si.com/college/2022/03/31/duke-unc-rivalry-best-games-wins-coach-k"
+        },
+        {
+          "title": "1987-88 College Basketball Season — College Hoopedia",
+          "url": "https://collegehoopedia.com/seasons/1987-88"
+        }
+      ]
+    },
+    {
+      "season": "1988-89",
+      "era": "dynasty1",
+      "record": "28-8",
+      "accRecord": "9-5",
+      "coach": "Mike Krzyzewski",
+      "ranking": {
+        "preseason": 1,
+        "final": 7
+      },
+      "accTournament": "Runner-up (lost to UNC 77-74 in final)",
+      "ncaaTournament": "Final Four (#2 seed East, lost to Seton Hall 95-78)",
+      "tagline": "Ferry's masterpiece. Preseason #1, National Player of the Year, 58 points in a single game, a Georgetown takedown — and the rivalry with Carolina that turned personal.",
+      "overview": "Duke entered the 1988-89 season ranked #1 in the preseason polls for the first time in the Krzyzewski era. Senior Danny Ferry was the best player in America, and he had an extraordinary supporting cast: senior point guard Quin Snyder, senior John Smith, juniors Phil Henderson, Robert Brickey, and Alaa Abdelnaby, and a freshman from Angola, New York, named Christian Laettner.\n\nFerry delivered on every expectation. He averaged 22.6 points, 7.4 rebounds, and 4.7 assists per game — becoming the first player in ACC history to reach 2,000 points, 1,000 rebounds, and 500 assists in a career. He won the Naismith, USBWA, and UPI National Player of the Year awards. On December 10, 1988, Ferry scored 58 points against Miami — a Duke single-game record that still stands more than 35 years later. His teammates told him during a timeout to stop fouling. He stopped fouling and kept shooting. It was the kind of night that happens once in a generation.\n\nThe Blue Devils ripped off 13 consecutive wins to start the season before a stunning loss: North Carolina came into Cameron and obliterated undefeated, #1-ranked Duke 91-71. The game became infamous for a Cameron Crazies sign that read 'J.R. Can't Reid' — a play on Tar Heels star J.R. Reid's name that Dean Smith publicly called racist. Smith then revealed that Reid and Scott Williams had higher combined SAT scores than Ferry and Christian Laettner. Krzyzewski was furious that Smith had discussed students' academic records publicly. The rivalry between the two coaches, simmering for years, had turned deeply personal.\n\nDuke avenged the loss in the regular season finale, winning 88-86 in Chapel Hill. The rubber match came in the ACC Tournament championship — a brutal affair that saw 49 fouls called. UNC's Reid outplayed Ferry, and Carolina won 77-74. Ferry's three-quarter-court heave at the buzzer hit the back of the rim. Dean Smith called it the most draining victory of his career.\n\nIn the NCAA Tournament, Duke was the #2 seed in the East. They dispatched South Carolina State, West Virginia, and Minnesota before facing top-seeded Georgetown in the Regional Final at the Meadowlands. Ferry scored 34 points and was named East Regional MVP as Duke upset the Hoyas 85-77 to reach the Final Four for the third time in four years.\n\nIn Seattle, Seton Hall — a school nobody outside New Jersey had heard of two years earlier — dismantled Duke 95-78. The Pirates held Duke to 36% shooting and scored 62 second-half points. It was a humbling end to Ferry's extraordinary career.\n\nBut the season's legacy extends far beyond the Final Four loss. Ferry graduated as Duke's all-time greatest player to that point. Laettner had arrived. Henderson, Brickey, and Abdelnaby would be seniors the following year. And K had proven that Duke could reload, not rebuild — the dynasty was no longer a streak. It was a system.",
+      "unc": [
+        {
+          "date": "1989-01-18",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "L",
+          "score": "71-91",
+          "dukeRank": 1,
+          "uncRank": null,
+          "story": "The game that changed the rivalry forever. Undefeated, #1-ranked Duke was humiliated at home by North Carolina, 91-71 — a 20-point blowout at Cameron. J.R. Reid dominated. But the game's lasting significance had nothing to do with the score. A Cameron Crazies sign reading 'J.R. Can't Reid' set off a firestorm. Dean Smith publicly called the sign racist and revealed that Reid and Scott Williams had higher SAT scores than Ferry and Laettner. Krzyzewski was incensed. The rivalry between the two coaches, already intense, became deeply personal. The Blue Devils' 13-0 start was shattered, and the war with Carolina was now about more than basketball."
+        },
+        {
+          "date": "1989-03-04",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "W",
+          "score": "88-86",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "Duke won the regular season finale in Chapel Hill, avenging the Cameron humiliation. It was a taut, physical game decided in the final seconds. The victory ensured the season series would require a tiebreaker — which came the following week in the ACC Tournament final."
+        },
+        {
+          "date": "1989-03-12",
+          "location": "Omni Coliseum, Atlanta",
+          "result": "L",
+          "score": "74-77",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "The most intense game in the history of the rivalry. The ACC Tournament championship in Atlanta had the atmosphere of a heavyweight title fight. Forty-nine fouls were called. Reid outplayed Ferry. King Rice hit four straight free throws in the final minute. Ferry's three-quarter-court heave at the buzzer hit the back of the rim. Carolina won 77-74. Dean Smith called it the most draining win of his career. The tensions between Smith and K — the SAT scores, the 'Can't Reid' sign, the screaming at each other's players — had reached a boiling point. This was no longer just a basketball rivalry. It was personal."
+        }
+      ],
+      "theGame": {
+        "title": "The Georgetown Takedown",
+        "date": "1989-03-26",
+        "location": "Brendan Byrne Arena (Meadowlands), East Rutherford, NJ",
+        "opponent": "Georgetown",
+        "result": "W",
+        "score": "85-77",
+        "dukeRank": null,
+        "opponentRank": 1,
+        "headline": "Ferry scores 34 as Duke topples top-seeded Georgetown to reach a third Final Four in four years.",
+        "story": "The East Regional Final at the Meadowlands paired #2 Duke against top-seeded Georgetown — John Thompson's Hoyas, led by Alonzo Mourning and Charles Smith. Georgetown was the tournament's overall #1 seed and had steamrolled through its bracket.\n\nDanny Ferry chose the biggest stage of his career to deliver one of his greatest performances. He scored 34 points, pulled down 10 rebounds, and controlled the game from the high post with the combination of shooting, passing, and basketball intelligence that had made him the National Player of the Year. Duke built a lead and never let Georgetown get comfortable.\n\nThe 85-77 victory sent Duke to the Final Four for the third time in four years. Ferry was named East Regional MVP for the second time in his career — the only Duke player to achieve that distinction. It was his signature game: not the 58-point explosion against Miami, but the 34-point masterclass against the best team in the country when everything was on the line.\n\nK called the Georgetown win one of the most complete games his program had ever played. The seniors — Ferry, Snyder, Smith — had willed Duke back to the Final Four despite the emotional drain of the Carolina trilogy and the pressures of a season that had begun with a #1 ranking and a target on their backs."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "1989-03-09",
+            "opponent": "Maryland",
+            "result": "W",
+            "score": "",
+            "story": "Duke dispatched Maryland to open ACC Tournament play, setting up another deep run."
+          },
+          {
+            "round": "Semifinal",
+            "date": "1989-03-11",
+            "opponent": "NC State",
+            "result": "W",
+            "score": "",
+            "story": "A semifinal win over NC State put Duke in the ACC championship game for the second consecutive year."
+          },
+          {
+            "round": "Championship",
+            "date": "1989-03-12",
+            "opponent": "North Carolina",
+            "result": "L",
+            "score": "74-77",
+            "story": "The 49-foul war. Reid outdueled Ferry. Rice's free throws sealed it. Ferry's desperation heave hit the back rim. The most intense game the rivalry has ever produced — and the emotional climax of a season-long feud between Smith and K."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round (East)",
+            "date": "1989-03-16",
+            "opponent": "South Carolina State",
+            "seed": "#2 vs #15",
+            "result": "W",
+            "score": "90-69",
+            "story": "Duke shot 64% and blew out South Carolina State in Greensboro. After the emotional ACC Tournament loss, the Blue Devils looked sharp and focused. The NCAA Tournament was a fresh start."
+          },
+          {
+            "round": "Second Round (East)",
+            "date": "1989-03-18",
+            "opponent": "West Virginia",
+            "seed": "#2 vs #7",
+            "result": "W",
+            "score": "70-63",
+            "story": "West Virginia was physical and competitive, but Ferry's 20 points and 8 rebounds carried Duke through. The Blue Devils advanced to the Sweet Sixteen for the fourth time in five years."
+          },
+          {
+            "round": "Sweet Sixteen (East)",
+            "date": "1989-03-24",
+            "opponent": "Minnesota",
+            "seed": "#2 vs #11",
+            "result": "W",
+            "score": "87-70",
+            "story": "Henderson and Brickey each scored 21 as Duke demolished 11-seed Minnesota at the Meadowlands. Duke led by 15 at halftime and never looked back. The Elite Eight awaited — and Georgetown."
+          },
+          {
+            "round": "Elite Eight (East)",
+            "date": "1989-03-26",
+            "opponent": "Georgetown",
+            "seed": "#2 vs #1",
+            "result": "W",
+            "score": "85-77",
+            "story": "Ferry's masterpiece: 34 points, 10 rebounds against top-seeded Georgetown and Alonzo Mourning. Named East Regional MVP for the second time. Duke headed to the Final Four in Seattle. K called it one of the most complete games his team had ever played."
+          },
+          {
+            "round": "Final Four",
+            "date": "1989-04-01",
+            "opponent": "Seton Hall",
+            "seed": "#2 vs #3",
+            "result": "L",
+            "score": "78-95",
+            "story": "The dream died in Seattle. Seton Hall — a school that hadn't even made the NCAA Tournament until 1988 — demolished Duke 95-78. The Pirates held Duke to 36% shooting and poured in 62 second-half points. Ferry scored 34 in his final game but it wasn't enough. John Morton and the Pirates were simply unstoppable. It was a bitter end to Ferry's magnificent career — but the Final Four was now simply where Duke went every March."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "1988-89 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/1989.html"
+        },
+        {
+          "title": "1988-89 Duke Schedule — GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/schedule/1988-89"
+        },
+        {
+          "title": "Danny Ferry — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Danny_Ferry"
+        },
+        {
+          "title": "Duke Basketball History — CoachK.com",
+          "url": "https://coachk.com/duke-basketball/"
+        },
+        {
+          "title": "1989 NCAA Tournament — NCAA.com",
+          "url": "https://www.ncaa.com/news/basketball-men/article/2020-05-12/1989-ncaa-tournament-bracket-scores-stats-records"
+        },
+        {
+          "title": "The Road to the 1989 Final Four — OUAT Sports",
+          "url": "https://ouatsports.com/1989-final-four-sports-history-articles/"
+        },
+        {
+          "title": "Danny Ferry 58 Points vs Miami — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2022/9/19/23358874/youtube-gold-danny-ferrys-big-night-miami-hurricanes-duke-basketball-acc"
+        },
+        {
+          "title": "1989 ACC Tournament Final — Tar Heel Blog",
+          "url": "https://www.tarheelblog.com/unc-tar-heels-basketball/2019/7/2/20678168/north-carolina-tar-heels-basketball-1989-acc-title-game-reid-ferry-smith-coach-k"
+        },
+        {
+          "title": "Duke-UNC 1988 All Three Games — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2021/6/10/22525448/youtube-gold-duke-unc-1988-danny-ferry-jr-reid-mike-krzyzewski-dean-smith-acc-basketball-champions"
+        },
+        {
+          "title": "1989 ACC Final: Was It As Physical As We Remember? — 247Sports",
+          "url": "https://247sports.com/college/north-carolina/article/unc-basketball-1989-acc-tournament-final-against-duke-as-physical-as-we-remember-233264177/"
+        },
+        {
+          "title": "Carolina-Duke Rivalry — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
+        },
+        {
+          "title": "1988-89 College Basketball — College Hoopedia",
+          "url": "https://collegehoopedia.com/seasons/1988-89"
+        }
+      ]
+    },
+    {
       "season": "1990-91",
       "era": "dynasty1",
       "record": "32-7",
