@@ -2573,6 +2573,389 @@
           "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
         }
       ]
+    },
+    {
+      "season": "1998-99",
+      "era": "dynasty2",
+      "record": "37-2",
+      "accRecord": "16-0",
+      "coach": "Mike Krzyzewski",
+      "ranking": {
+        "preseason": 1,
+        "final": 1
+      },
+      "accTournament": "Champions (beat UNC 96-73 in final)",
+      "ncaaTournament": "Championship Game (#1 overall seed, lost to UConn 77-74)",
+      "tagline": "The best team that didn’t win it all. 37-2. 16-0 in the ACC. A 32-game winning streak. Five future NBA lottery picks. And Rip Hamilton broke their hearts.",
+      "overview": "The 1998-99 Duke Blue Devils may be the greatest team in program history that didn’t win a national championship. They went 37-2 — tying the school record for wins — went 16-0 in the ACC (the first undefeated conference season since 1963), won the ACC Tournament with double-digit victories in all three games, and carried a 32-game winning streak into the national championship game. They led the nation in scoring (91.8 ppg) and scoring margin (+24.6). They beat all 19 ACC opponents by double digits.\n\nThe roster was absurd. Five future top-15 NBA Draft picks shared the floor: sophomore Elton Brand (17.7 ppg, 9.8 rpg, consensus National Player of the Year, #1 overall pick), senior Trajan Langdon (17.3 ppg, First Team All-American, the Alaskan Assassin at his peak), sophomore William Avery (14.9 ppg, future lottery pick), freshman Corey Maggette (10.6 ppg off the bench, future lottery pick), and sophomore Shane Battier (NABC Defensive Player of the Year, the conscience of the team). Junior Chris Carrawell (the future ACC Player of the Year), sophomore Nate James, and senior guard Steve Wojciechowski’s successor at the point completed the rotation.\n\nThe coaching staff was equally loaded: Quin Snyder as associate head coach, Johnny Dawkins as assistant, David Henderson as assistant. Three Brotherhood legends building the next generation.\n\nDuke’s only regular season loss came in the Great Alaska Shootout against Cincinnati, 77-75, on a brilliant last-second play. After that, the Blue Devils won 32 straight — a run that included road wins at #9 Michigan State, #3 Kentucky (71-60, avenging the previous year’s Elite Eight loss), and #8 St. John’s. The ACC Tournament was a coronation: Virginia by 37, Georgia Tech by 17, and North Carolina 96-73 in the championship game — the most dominant conference tournament performance in memory.\n\nThe NCAA Tournament was almost as easy. Duke dispatched Florida A&M, Tulsa, Southwest Missouri State, and Temple before beating Michigan State in the Final Four. The only thing standing between Duke and a third national championship was UConn.\n\nThe championship game on March 29 at Tropicana Field in St. Petersburg was supposed to be a formality. Duke was favored by nine and a half points — the largest spread in title game history. Merchandise vendors in Durham were already selling championship T-shirts. ESPN ran a special from a gas station selling Duke memorabilia as though the title were already won.\n\nUConn didn’t care.\n\nRichard ‘Rip’ Hamilton scored 27 points, using his off-ball movement and mid-range game to dissect Duke’s defense. Khalid El-Amin hit clutch shots and free throws down the stretch. Duke got outmuscled on the boards 38-27. Langdon scored 25 and Brand had 15 points and 13 rebounds, but Battier (6 points on 2-of-7), Avery (2-of-9 from three), and Maggette (8 points in 11 minutes) couldn’t find their rhythm.\n\nWith Duke trailing 75-74 and 5.4 seconds remaining, Langdon — one of the best three-point shooters in college basketball history — committed a traveling violation. El-Amin was fouled immediately and made both free throws. 77-74 UConn. Duke’s final possession produced no shot. The 32-game winning streak was over.\n\nK told Langdon after the game: ‘If I had the exact same situation, the ball is in your hands. It will always be in your hands.’\n\nThe loss was devastating. This team was supposed to be the one that validated everything — the comeback from 13-18, the rebuild through the Transition, the arrival of Brand and Battier. Instead, it became the greatest team that didn’t finish the job.\n\nBrand left for the NBA as the #1 overall pick. Avery and Maggette followed as lottery selections. Three underclassmen gone in one offseason. But Battier, Carrawell, and James returned — and the championship that this team deserved would finally come in 2001, when Battier led Duke to the title as a senior. The 1998-99 season didn’t produce a banner for the rafters. But it produced something more lasting: the template for the Second Dynasty.",
+      "unc": [
+        {
+          "date": "1999-01-14",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "W",
+          "score": "89-77",
+          "dukeRank": 2,
+          "uncRank": null,
+          "story": "The first of three demolitions. Duke handled Carolina at Cameron with ease, a preview of the complete dominance the Blue Devils would exert over the Tar Heels this season. Brand was overwhelming inside and Langdon hit from everywhere. The rivalry, which had tilted so heavily toward UNC during the Transition, had swung violently back to Duke."
+        },
+        {
+          "date": "1999-02-18",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "W",
+          "score": "",
+          "dukeRank": null,
+          "uncRank": null,
+          "story": "Duke won in Chapel Hill to complete the regular season sweep. The Tar Heels, now coached by Bill Guthridge in his second season after Dean Smith’s retirement, simply didn’t have the talent to compete with the most loaded roster in college basketball. The three Duke-UNC games this season were decided by an average of 21 points."
+        },
+        {
+          "date": "1999-03-14",
+          "location": "Charlotte Coliseum, Charlotte",
+          "result": "W",
+          "score": "96-73",
+          "dukeRank": 1,
+          "uncRank": null,
+          "story": "The exclamation point. Duke destroyed UNC 96-73 in the ACC Tournament championship game — the third and most lopsided victory over the Tar Heels this season. Brand, Langdon, and Avery were unstoppable. It was the most dominant performance in ACC Tournament final history and completed a perfect 19-0 conference season (16 regular season + 3 tournament). Duke fans remembered the eight-game losing streak just two years earlier and savored every second."
+        }
+      ],
+      "theGame": {
+        "title": "The Upset That Shouldn’t Have Happened",
+        "date": "1999-03-29",
+        "location": "Tropicana Field, St. Petersburg, FL",
+        "opponent": "Connecticut",
+        "result": "L",
+        "score": "74-77",
+        "dukeRank": 1,
+        "opponentRank": 1,
+        "headline": "37-1 and a 32-game winning streak. Nine-and-a-half-point favorites. Championship T-shirts already printing. Then Rip Hamilton scores 27 and Langdon travels with 5.4 seconds left.",
+        "story": "They were selling the championship merchandise before the game started. In Durham, a gas station had T-shirts, newspapers, and magazines celebrating Duke’s coronation. ESPN ran a segment from the store. The spread was nine and a half points — the largest in championship game history. The Blue Devils had won 32 straight games. They had five future lottery picks. They had beaten every ACC opponent by double digits. They were, by any statistical or observational measure, the most dominant team in college basketball.\n\nConnecticut didn’t care.\n\nRip Hamilton was the best player on the floor. The UConn junior scored 27 points using a relentless off-ball game that Duke’s switches couldn’t contain. He floated through screens, hit mid-range jumpers, and refused to be denied. Khalid El-Amin — a bulldog freshman point guard — scored 12 points and hit clutch shots in the final minutes. UConn outrebounded Duke 38-27, winning the physical battle that the Blue Devils had dominated all season.\n\nDuke fought. Langdon scored 25. Brand had 15 points and 13 rebounds. But Battier shot 2-of-7 for just 6 points. Avery was 2-of-9 from three. Maggette had 8 points in only 11 minutes. The depth and firepower that had obliterated the ACC all season simply didn’t show up.\n\nThe game came down to the final seconds. Duke trailed 75-74 with possession and 5.4 seconds on the clock. Trajan Langdon — the senior, the Alaskan Assassin, the man K trusted with the ball in every pressure moment — caught the ball and took a step. The referee’s whistle blew. Travel. Turnover. Langdon’s face went white.\n\nEl-Amin was immediately fouled and made both free throws. 77-74 UConn. Duke had one final possession with 2.1 seconds left, but Langdon never got a clean look. The buzzer sounded. UConn had its first national championship. Duke had its most painful loss since UNLV in 1990.\n\nKrzyzewski found Langdon in the locker room. ‘If I had the exact same situation, the ball is in your hands,’ K told him. ‘It will always be in your hands.’\n\nThe 37-2 season remains Duke’s best winning percentage in program history. The 16-0 ACC record has been matched but never bettered. The 32-game winning streak was the longest of the K era. And it ended without a championship banner. Some wounds never fully heal.\n\nBut the loss did something else: it hardened the players who returned. Battier, Carrawell, and James carried the memory of Tropicana Field into 2000 and 2001. When Duke finally won its third national championship in 2001 — with Battier as the National Player of the Year and Nate James as a senior captain — the roots of that title ran directly back to this night in St. Petersburg.\n\nThe best team that didn’t win it all built the team that did.",
+        "performances": [
+          {
+            "player": "Trajan Langdon",
+            "line": "25 pts, late traveling violation with 5.4 sec left"
+          },
+          {
+            "player": "Elton Brand",
+            "line": "15 pts, 13 reb"
+          },
+          {
+            "player": "Shane Battier",
+            "line": "6 pts, 2-7 FG (uncharacteristic off night)"
+          },
+          {
+            "player": "Rip Hamilton (UConn)",
+            "line": "27 pts, 7-13 FG, tournament MOP"
+          },
+          {
+            "player": "Khalid El-Amin (UConn)",
+            "line": "12 pts, clinching free throws"
+          }
+        ],
+        "significance": "The largest point-spread upset in championship game history at the time. The end of a 32-game winning streak and the best season (by winning percentage) in Duke history. Three underclassmen — Brand (#1), Avery (#14), Maggette (#13) — left for the NBA Draft, but the players who stayed (Battier, Carrawell, James) used the pain to fuel Duke’s 2001 national championship. This is widely considered the best Duke team that never won a title."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "1999-03-12",
+            "opponent": "Virginia",
+            "result": "W",
+            "score": "85-48",
+            "story": "Duke destroyed Virginia by 37 points in the ACC Tournament quarterfinal. It was the kind of annihilation that had become routine — the Blue Devils had beaten every ACC opponent by double digits all season."
+          },
+          {
+            "round": "Semifinal",
+            "date": "1999-03-13",
+            "opponent": "Georgia Tech",
+            "result": "W",
+            "score": "83-66",
+            "story": "A 17-point win over Georgia Tech in the semifinal. Duke was ruthlessly efficient, with Brand, Langdon, and Avery all contributing. The championship game against UNC awaited."
+          },
+          {
+            "round": "Championship",
+            "date": "1999-03-14",
+            "opponent": "North Carolina",
+            "result": "W",
+            "score": "96-73",
+            "story": "A 23-point destruction of North Carolina to complete the perfect conference season. 19-0 in ACC play (16 regular season + 3 tournament). The most dominant league performance of the K era. Brand and Langdon combined for 42 points. Duke entered the NCAA Tournament as the #1 overall seed."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round",
+            "date": "1999-03-11",
+            "opponent": "Florida A&M",
+            "seed": "#1 vs #16",
+            "result": "W",
+            "score": "99-58",
+            "story": "A 41-point blowout to open the NCAA Tournament. Duke was the #1 overall seed and looked like it."
+          },
+          {
+            "round": "Second Round",
+            "date": "1999-03-13",
+            "opponent": "Tulsa",
+            "seed": "#1 vs #8",
+            "result": "W",
+            "score": "97-56",
+            "story": "Another blowout — 41 points again. Duke was operating on a different plane than the rest of college basketball."
+          },
+          {
+            "round": "Sweet Sixteen",
+            "date": "1999-03-18",
+            "opponent": "SW Missouri State",
+            "seed": "#1 vs #5",
+            "result": "W",
+            "score": "78-61",
+            "story": "Duke won by 17, extending the winning streak to 31 games. The Blue Devils were cruising."
+          },
+          {
+            "round": "Elite Eight",
+            "date": "1999-03-21",
+            "opponent": "Temple",
+            "seed": "#1 vs #6",
+            "result": "W",
+            "score": "85-64",
+            "story": "A dominant 21-point win over Temple to reach the Final Four. Brand and Langdon were superb. Duke was headed to St. Petersburg for a chance to cap the greatest season in program history."
+          },
+          {
+            "round": "Final Four",
+            "date": "1999-03-27",
+            "opponent": "Michigan State",
+            "seed": "#1 vs #1",
+            "result": "W",
+            "score": "68-62",
+            "story": "Duke beat Tom Izzo’s Michigan State — a team they had also beaten during the regular season — to reach the championship game. The 32-game winning streak was intact. One game from perfection."
+          },
+          {
+            "round": "Championship Game",
+            "date": "1999-03-29",
+            "opponent": "Connecticut",
+            "seed": "#1 vs #1",
+            "result": "L",
+            "score": "74-77",
+            "story": "The upset that shouldn’t have happened. Rip Hamilton scored 27. Duke was outrebounded 38-27. Langdon traveled with 5.4 seconds left and Duke trailing by one. El-Amin’s free throws sealed it, 77-74. The 32-game streak, the 37-win season, the five future lottery picks — all of it ended three points short. Championship T-shirts had already been printed. They never shipped."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "1998-99 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/1999.html"
+        },
+        {
+          "title": "1998-99 Duke Season — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "1999 NCAA Championship Game — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1999_NCAA_Division_I_men%27s_basketball_championship_game"
+        },
+        {
+          "title": "1998-99 Duke Season — Grokipedia",
+          "url": "https://grokipedia.com/page/1998%E2%80%9399_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Twenty Years Later: UConn’s Upset — ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/26415034/twenty-years-later-uconn-upset-duke-reverberates"
+        },
+        {
+          "title": "Elton Brand: Naismith Player of the Year — CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/news/before-becoming-an-nba-all-star-and-gm-of-the-sixers-elton-brand-was-naismith-player-of-the-year-at-duke/"
+        },
+        {
+          "title": "Duke-Kentucky 1998 Payback — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2023/6/9/23750526/youtube-gold-duke-kentucky-1998-jimmy-v-classic-elton-brand-shane-battier-trajan-langdon-blue-devils"
+        },
+        {
+          "title": "K’s 11 Best Teams Ranked — NCAA.com",
+          "url": "https://www.ncaa.com/news/basketball-men/article/2022-04-03/duke-basketball-ranking-best-teams-mike-krzyzewski-era"
+        },
+        {
+          "title": "Duke Basketball History — CoachK.com",
+          "url": "https://coachk.com/duke-basketball/"
+        },
+        {
+          "title": "Duke’s Record Point Differential — Ball Durham",
+          "url": "https://balldurham.com/duke-basketball-s-record-setting-point-differential-this-season-foreshadows-national-title-game-hopes-01jnre63js8q"
+        },
+        {
+          "title": "Elton Brand — Wooden Award",
+          "url": "https://www.woodenaward.com/athletes/elton-brand/"
+        }
+      ]
+    },
+    {
+      "season": "1999-00",
+      "era": "dynasty2",
+      "record": "29-5",
+      "accRecord": "15-1",
+      "coach": "Mike Krzyzewski",
+      "ranking": {
+        "preseason": 10,
+        "final": 1
+      },
+      "accTournament": "Champions (beat Maryland 81-68 in final)",
+      "ncaaTournament": "Sweet Sixteen (#1 seed East, lost to Florida 87-78)",
+      "tagline": "The Exodus Reboot. Brand, Avery, Maggette, and Langdon all gone — seven freshmen arrive, Carrawell becomes ACC Player of the Year, and Duke finishes #1 anyway.",
+      "overview": "Nobody expected this. After the heartbreak of the 1999 national championship game loss to UConn, Duke suffered the most devastating talent drain in program history. Elton Brand, William Avery, and Corey Maggette became the first Blue Devil underclassmen to leave early for the NBA Draft. Trajan Langdon graduated. Chris Burgess transferred. Only 34.2% of minutes played and 26.0% of scoring returned from the 37-2 juggernaut.\n\nThe roster was rebuilt overnight. Seven freshmen arrived — the most on any Duke team in school history — headlined by point guard Jason Williams from Plainfield, New Jersey, power forward Carlos Boozer from Juneau, Alaska, and wing Mike Dunleavy Jr. from Portland, Oregon. They joined returning junior Shane Battier, who moved from defensive specialist to two-way star, and senior Chris Carrawell, the St. Louis kid who'd been waiting four years for his moment.\n\nThe season opened with a disaster. Duke dropped back-to-back games at Madison Square Garden in the Coaches vs. Cancer Classic — an 80-79 overtime loss to Stanford where the Blue Devils shot a K-era worst 28.2% from the field, followed by a 71-66 loss to defending national champion UConn. Duke fell to 0-2 for the first time since 1958-59. Krzyzewski joked about hoping his athletic director wasn't a fair-weather fan.\n\nThen the Blue Devils caught fire. They rattled off 18 consecutive victories, a streak that revealed the character of the team. Carrawell was magnificent, posting 13 20-point games and becoming the ninth Duke player to win ACC Player of the Year. Battier earned his second consecutive National Defensive Player of the Year award (shared with Cincinnati's Kenyon Martin), averaging 17.4 points while leading the team with 70 blocks and 20 charges taken. He became Duke's first men's basketball Academic All-American since Quin Snyder in 1989.\n\nThe freshmen were extraordinary. Williams led the team in assists at 5.4 per game, scoring 14.5 points while starting every game. Boozer powered his way to 13.0 points and 6.3 rebounds, earning ACC All-Freshman honors. Dunleavy averaged 10.1 off the bench. As a class, the freshmen accounted for 46% of Duke's scoring, 44% of the rebounding, and 56% of the assists. Duke led the nation in scoring at 88.0 points per game for the second consecutive season.\n\nAll five starters averaged double figures — a hallmark of K's best teams and something no previous Coach K team had achieved. A sixth player, Dunleavy, came off the bench averaging double digits too. Nate James, the junior tri-captain, doubled his scoring from the prior year to 11.0 points per game and anchored the lineup late in the season.\n\nDuke rolled to its fourth consecutive outright ACC regular season championship at 15-1, its second consecutive ACC Tournament title with Jason Williams earning tournament MVP as a freshman, and the #1 ranking in the final AP poll. In the NCAA Tournament, the Blue Devils survived a brutal second-round test against Kansas — Battier blocked eight shots (a career-high and Kansas opponent record), Boozer grabbed 13 rebounds, and Carrawell's clutch free throws sealed a 69-64 win despite Duke shooting 2-of-17 from three. But the run ended in the Sweet Sixteen at the Carrier Dome in Syracuse, where fifth-seeded Florida overwhelmed Duke 87-78. Duke committed 22 turnovers, Williams went 6-of-20, and Boozer fouled out with 11 points. Florida would go on to reach the national championship game.\n\nThe loss was a bitter end to Carrawell's career — 116 victories, the second-most by any player in ACC history. He became just the second Duke player (after Grant Hill) to record 1,000 points, 600 rebounds, 100 blocks, and 300 assists. But the season had accomplished something remarkable: it proved Duke could lose four starters to the NBA and still finish #1 in America. The freshmen who arrived in 1999 — Williams, Boozer, Dunleavy, Casey Sanders — would be the foundation of the 2001 national championship team. The exodus didn't break Duke. It rebuilt it.",
+      "unc": [
+        {
+          "date": "2000-02-03",
+          "location": "Dean Smith Center, Chapel Hill",
+          "result": "W",
+          "score": "90-86 OT",
+          "dukeRank": 3,
+          "uncRank": null,
+          "story": "Bill Guthridge's Tar Heels were struggling at 13-8, but Chapel Hill is always dangerous. Duke raced to a stunning 41-24 halftime lead, dominating in every phase. Then Carolina stormed back. Joseph Forte hit a three near the buzzer to force overtime and the Dean Dome erupted. But this team had character — Duke had already won three overtime games this season. Carrawell scored 23, Battier had 25 points and 10 rebounds, and freshman Boozer scored seven of Duke's overtime points. The 90-86 win extended Duke's ACC record to 30 consecutive regular season victories. Carrawell captured the team's identity perfectly: 'Last year's team was great, but when it got tough we lost. This year's team is building some character in overtime.' It was UNC's fourth home loss of the season — the most at the Smith Center since 1951-52."
+        },
+        {
+          "date": "2000-03-04",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "W",
+          "score": "90-76",
+          "dukeRank": 4,
+          "uncRank": null,
+          "story": "Carrawell's final game against North Carolina, and he and Battier made it a masterpiece. Duke stormed to a 42-27 halftime lead and never let Carolina back in. Battier erupted for 30 points — his highest total against UNC — while Carrawell added 21. Freshman Joe Forte scored 24 for the Tar Heels but it wasn't enough against Duke's suffocating defense. The 90-76 victory was Duke's fifth win in the last six meetings with Carolina, and it gave Carrawell a fitting sendoff at Cameron: the ACC Player of the Year, standing at center court, having won four consecutive outright ACC regular season championships."
+        }
+      ],
+      "theGame": {
+        "title": "Gator Aid: Florida Ends the Run",
+        "date": "2000-03-24",
+        "location": "Carrier Dome, Syracuse, NY",
+        "opponent": "Florida",
+        "result": "L",
+        "score": "78-87",
+        "dukeRank": 1,
+        "opponentRank": 11,
+        "headline": "Fifth-seeded Florida overwhelms top-ranked Duke in the Sweet Sixteen, ending Chris Carrawell’s career and exposing the limits of the rebuilt roster.",
+        "story": "It was supposed to be the year Duke exorcised its tournament demons — the year the #1-ranked Blue Devils, who'd lost the national title game to UConn just twelve months earlier, would complete the journey. Instead, it ended in Syracuse against a Florida team nobody outside Gainesville believed in.\n\nThe Gators, seeded fifth in the East, were led by Teddy Dupay, Donnell Harvey, Udonis Haslem, and Brett Nelson — a roster built on depth and athleticism rather than star power. They'd already upset fourth-seeded Illinois 93-76 in the previous round, and they came to the Carrier Dome ready to run.\n\nDuke fell behind 40-33 at halftime, struggling with turnovers and cold shooting. Williams, the brilliant freshman point guard, went 6-of-20 from the field and 1-of-9 from three-point range while committing five turnovers. Boozer fouled out with just 11 points. Florida had 21 assists to Duke's 12, moving the ball with a purpose that exposed Duke's youth.\n\nBattier was magnificent in defeat — 20 points, 9 rebounds, 4 blocks — and Carrawell contributed 16 points and 3 steals in his final college game. But the turnovers were lethal: 22 for the game, leading to easy Florida baskets in transition. Brett Nelson scored 15 points with three triples, and the Gators shot 46.9% from the floor.\n\nThe 87-78 final ended Chris Carrawell's Duke career at 116 victories — tied for third-most in ACC history at the time — and snapped Duke's 26-game NCAA Tournament East Region winning streak. Florida would go on to beat Oklahoma State and North Carolina before falling to Michigan State in the national championship game.\n\nFor Duke, the loss stung. But the freshmen who struggled that night in Syracuse — Williams, Boozer, Dunleavy, Sanders — would return the next season and, led by senior Battier, would win the 2001 national championship. The Florida loss wasn't the end. It was the last lesson before the coronation."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "2000-03-09",
+            "opponent": "NC State",
+            "result": "W",
+            "score": "",
+            "story": "Duke opened ACC Tournament play in Charlotte with a win over NC State, a team they'd already beaten in a wild 92-88 overtime thriller during the regular season. The Blue Devils were the #1 seed for the fourth consecutive year."
+          },
+          {
+            "round": "Semifinal",
+            "date": "2000-03-11",
+            "opponent": "Wake Forest",
+            "result": "W",
+            "score": "",
+            "story": "A semifinal win over Wake Forest set up the championship game against Maryland. Duke was rolling, with all five starters and Dunleavy contributing scoring from every angle."
+          },
+          {
+            "round": "Championship",
+            "date": "2000-03-12",
+            "opponent": "Maryland",
+            "result": "W",
+            "score": "81-68",
+            "story": "Duke claimed its second consecutive ACC Tournament title and 11th overall with a dominant 81-68 victory over Maryland. Boozer scored 21 points in the title game, Carrawell and Battier were named first-team All-Tournament for the second straight year, and freshman Jason Williams earned the Everett Case Award as tournament MVP — becoming just one of four freshmen in ACC history to win the honor. Six Blue Devils earned All-Tournament recognition, a testament to the team's remarkable depth."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round (East)",
+            "date": "2000-03-16",
+            "opponent": "Lamar",
+            "seed": "#1 vs #16",
+            "result": "W",
+            "score": "82-55",
+            "story": "Duke opened its NCAA Tournament run in Winston-Salem with a comfortable 27-point win over Lamar. The Blue Devils' defense was smothering, and the victory was never in doubt. A warm-up for what lay ahead."
+          },
+          {
+            "round": "Second Round (East)",
+            "date": "2000-03-19",
+            "opponent": "Kansas",
+            "seed": "#1 vs #8",
+            "result": "W",
+            "score": "69-64",
+            "story": "A brutal, physical game that showcased everything great about this Duke team — and everything that still needed polishing. Duke shot just 37% from the floor and went 2-of-17 from three, while committing a season-high 23 turnovers. But the defense was extraordinary: Battier blocked eight Kansas shots, a career high and a Kansas opponent record. Duke fell behind 13-4 early but clawed back to lead 35-35 at halftime. Kansas tied it at 59 with a 9-0 run, but Boozer made the play of the game — a crucial steal that led to two Carrawell free throws for a 67-64 lead. Williams iced it from the line. Boozer's double-double (15 points, 13 rebounds) carried Duke through a night when nothing came easy."
+          },
+          {
+            "round": "Sweet Sixteen (East)",
+            "date": "2000-03-24",
+            "opponent": "Florida",
+            "seed": "#1 vs #5",
+            "result": "L",
+            "score": "78-87",
+            "story": "The end of the road. Florida's depth and athleticism overwhelmed a Duke team that committed 22 turnovers and shot 3-of-19 from three. Williams went 1-of-9 from deep, Boozer fouled out, and the Gators' 21 assists exposed Duke's youth. Battier (20 pts, 9 reb, 4 blk) and Carrawell (16 pts, 3 stl) were superb in defeat, but it wasn't enough. Florida would reach the national title game. For Duke, it was the last lesson before the 2001 championship."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Season Review: 1999-2000 — GoDuke",
+          "url": "https://goduke.com/news/2000/4/17/139956.aspx"
+        },
+        {
+          "title": "1999-00 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/2000.html"
+        },
+        {
+          "title": "1999-00 Duke Schedule — GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/schedule/1999-00"
+        },
+        {
+          "title": "2000 NCAA Tournament — NCAA.com",
+          "url": "https://www.ncaa.com/news/basketball-men/article/2020-05-07/2000-ncaa-tournament-bracket-scores-stats-rounds"
+        },
+        {
+          "title": "Chris Carrawell — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chris_Carrawell"
+        },
+        {
+          "title": "Carrawell's Toughness Defined His Career — 247Sports",
+          "url": "https://247sports.com/college/duke/Article/chris-carrawell-duke-assistant-coach-guarded-tim-duncan-acc-player-of-the-year-profiled-145631746/"
+        },
+        {
+          "title": "Duke vs. Florida Box Score — GoDuke",
+          "url": "https://goduke.com/sports/2000/3/24/139819"
+        },
+        {
+          "title": "Duke vs. Florida Sweet 16 Preview — GoDuke",
+          "url": "https://goduke.com/sports/2000/3/20/139794"
+        },
+        {
+          "title": "Duke vs. UNC Preview — GoDuke",
+          "url": "https://goduke.com/sports/2000/2/1/139524"
+        },
+        {
+          "title": "UNC Mounts Comeback But Falls to Duke in OT — GoHeels",
+          "url": "https://goheels.com/news/2000/2/3/205478529"
+        },
+        {
+          "title": "Duke vs. UConn Rematch — GoDuke",
+          "url": "https://goduke.com/sports/1999/11/12/139288"
+        },
+        {
+          "title": "UConn Beats Duke Again — CBS News",
+          "url": "https://www.cbsnews.com/news/uconn-beats-duke-again-12-11-1999/"
+        },
+        {
+          "title": "ACC Vault: Duke vs. UNC — ACC",
+          "url": "https://theacc.com/news/2012/2/8/51d0c346a0ee267cf05f76ed_131481025433133491.aspx"
+        },
+        {
+          "title": "4. 2001 Duke — Mudville Analytics",
+          "url": "https://mudvilleanalytics.com/acc-greatest-teams/4-2001-duke/"
+        },
+        {
+          "title": "Duke Basketball History — CoachK.com",
+          "url": "https://coachk.com/duke-basketball/"
+        },
+        {
+          "title": "Boozer Demolishes Army (Blast from the Past) — Duke Chronicle",
+          "url": "https://dukechronicle.com/article/duke-mens-basketball-blast-from-the-past-carlos-boozer-army-krzyzewski-stanford-cameron-cayden-alaska-20251029"
+        },
+        {
+          "title": "Duke Poll: Favorite Duke-UNC Moments — GoDuke",
+          "url": "https://goduke.com/news/2004/2/5/146952.aspx"
+        }
+      ]
     }
   ]
 }
