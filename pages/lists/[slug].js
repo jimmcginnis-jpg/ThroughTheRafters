@@ -257,7 +257,7 @@ function RenderNo1Picks() {
       rows={data.map(p => [
         pLink(p), p.nba.draftYear, p.nba.draftTeam,
         p.nba.games || '—', p.nba.ppg || '—', p.nba.rpg || '—',
-        (p.nba.highlights || []).slice(0, 2).join('; ') || p.now || '—',
+        (p.nba.highlights || []).slice(0, 2).map(h => typeof h === 'string' ? h : h.note || '').join('; ') || p.now || '—',
       ])}
     />
   );
