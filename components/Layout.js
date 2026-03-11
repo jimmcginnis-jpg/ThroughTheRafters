@@ -41,14 +41,14 @@ export default function Layout({ children, title, description, canonical }) {
         <title>{fullTitle}</title>
         <meta name="description" content={fullDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {canonical && <link rel="canonical" href={`https://dukebrotherhood.com${canonical}`} />}
+        {canonical && <link rel="canonical" href={`https://www.dukebrotherhood.com${canonical}`} />}
 
         {/* Open Graph */}
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={fullDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Duke's Brotherhood" />
-        {canonical && <meta property="og:url" content={`https://dukebrotherhood.com${canonical}`} />}
+        {canonical && <meta property="og:url" content={`https://www.dukebrotherhood.com${canonical}`} />}
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -65,11 +65,11 @@ export default function Layout({ children, title, description, canonical }) {
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               name: "Duke's Brotherhood: Where Are They Now?",
-              url: 'https://dukebrotherhood.com/',
+              url: 'https://www.dukebrotherhood.com/',
               description: "Comprehensive profiles of every significant Duke basketball player from 1981 to present — where they came from, what made them special, and where they are now.",
               potentialAction: {
                 '@type': 'SearchAction',
-                target: 'https://dukebrotherhood.com/search?q={search_term_string}',
+                target: 'https://www.dukebrotherhood.com/search?q={search_term_string}',
                 'query-input': 'required name=search_term_string',
               },
             }),
