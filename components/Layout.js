@@ -217,6 +217,7 @@ export default function Layout({ children, title, description, canonical }) {
                 <Link href="/lists/coaches/" className="block hover:text-duke-gold transition-colors">Players Who Became Coaches</Link>
                 <Link href="/lists/top-nba-scorers/" className="block hover:text-duke-gold transition-colors">Top NBA Scorers</Link>
                 <Link href="/lists/draft-history/" className="block hover:text-duke-gold transition-colors">Draft History</Link>
+                <Link href="/lists/charities/" className="block hover:text-duke-gold transition-colors">Charities We Support</Link>
                 <Link href="/lists/" className="block hover:text-duke-gold transition-colors font-medium mt-2">All Lists &rarr;</Link>
               </div>
             </div>
