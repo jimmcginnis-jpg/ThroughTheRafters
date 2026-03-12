@@ -4639,26 +4639,6 @@
           "notes": "Defensive-minded guard from Gonzaga (DC); would become a valued defensive specialist"
         }
       ],
-      "uncGames": [
-        {
-          "date": "February 9, 2011",
-          "location": "Cameron Indoor Stadium",
-          "result": "W 79-73",
-          "notes": "Nolan Smith erupts for career-high 34 points; Duke leads by double digits for most of the game; Smith's 13 field goals set a personal record; UNC enters at 16-7 ranked #20; Smith's performance cements his ACC POY candidacy"
-        },
-        {
-          "date": "March 5, 2011",
-          "location": "Dean E. Smith Center (Chapel Hill)",
-          "result": "L 67-81",
-          "notes": "UNC Senior Night; Harrison Barnes 18 pts, Kendall Marshall 15 pts/11 ast; Tar Heels lead 51-39 at half and pull away; Smith scores 30, Curry 20 (50 of Duke's 67 points); UNC clinches outright ACC regular-season title; Duke finishes as co-champions"
-        },
-        {
-          "date": "March 13, 2011",
-          "location": "ACC Tournament Championship, Greensboro",
-          "result": "W (ACC Tournament Finals)",
-          "notes": "Duke beats UNC to claim record 19th ACC Tournament title and 3rd straight; completes tournament wins over Maryland, Virginia Tech, and UNC; Duke's dominance of the tournament continues"
-        }
-      ],
       "milestones": [
         "K's 900th career victory (vs Michigan, NCAA Tournament second round, March 20, 2011) — only the 4th coach to reach 900",
         "Nolan Smith becomes first player in ACC history to lead conference in both scoring and assists in same season",
@@ -4666,6 +4646,122 @@
         "Seven future NBA players on roster: Irving (#1 pick), Smith (#21), Singler (#33), Mason Plumlee (#22 in 2013), Miles Plumlee (#26 in 2012), Seth Curry (undrafted, 11-year NBA career), Ryan Kelly (#48 in 2013)",
         "Kyrie Irving's 11-game Duke career: averaged 17.4/5.1/3.8 before injury; still went #1 overall in 2011 NBA Draft",
         "Defending national champions — entered season as AP #1"
+      ],
+      "unc": [
+        {
+          "date": "2011-02-09",
+          "location": "Cameron Indoor Stadium",
+          "result": "W",
+          "score": "79-73",
+          "dukeRank": 3,
+          "uncRank": 20,
+          "story": "Nolan Smith erupts for career-high 34 points; Duke leads by double digits for most of the game; Smith's 13 field goals set a personal record; UNC enters at 16-7 ranked #20; Smith's performance cements his ACC POY candidacy"
+        },
+        {
+          "date": "2011-03-05",
+          "location": "Dean E. Smith Center (Chapel Hill)",
+          "result": "L",
+          "score": "67-81",
+          "dukeRank": 6,
+          "uncRank": null,
+          "story": "UNC Senior Night; Harrison Barnes 18 pts, Kendall Marshall 15 pts/11 ast; Tar Heels lead 51-39 at half and pull away; Smith scores 30, Curry 20 (50 of Duke's 67 points); UNC clinches outright ACC regular-season title; Duke finishes as co-champions"
+        },
+        {
+          "date": "2011-03-13",
+          "location": "ACC Tournament Championship, Greensboro",
+          "result": "W",
+          "score": "(ACC Tournament Finals)",
+          "dukeRank": 4,
+          "uncRank": 8,
+          "story": "Duke beats UNC to claim record 19th ACC Tournament title and 3rd straight; completes tournament wins over Maryland, Virginia Tech, and UNC; Duke's dominance of the tournament continues"
+        }
+      ],
+      "theGame": {
+        "title": "Derrick Williams Ends the Dream",
+        "date": "2011-03-24",
+        "location": "Honda Center, Anaheim, California",
+        "opponent": "Arizona",
+        "result": "L",
+        "score": "77-93",
+        "dukeRank": 1,
+        "opponentRank": 5,
+        "headline": "The defending national champions, the #1 seed, with Kyrie Irving back from injury — undone by one of the greatest individual performances in NCAA Tournament history. Derrick Williams scores 32 with 13 rebounds. Kyrie scores 28 in defeat. The what-if season ends in Anaheim.",
+        "story": "Duke led 44-38 at halftime despite Williams scoring 25 first-half points, including going 5-for-5 from three-point range. But in the second half, Arizona erupted for 55 points. Williams finished with 32 and 13 rebounds in a career-defining performance. Irving, playing in only his eleventh game of the season, was magnificent in defeat — 28 points on 8-of-17 shooting — but the chemistry that might have existed with a full season of development simply wasn't there. Arizona won 93-77. 'I've never seen Duke get beat like this,' Kenny Smith said on the broadcast. 'I've never seen a Duke team this rattled.' The greatest what-if in Duke basketball history ended 2,500 miles from Cameron Indoor."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "2011-03-10",
+            "opponent": "Maryland",
+            "result": "W",
+            "score": "",
+            "story": "Duke handled Maryland in the quarters to begin its ACC Tournament title defense."
+          },
+          {
+            "round": "Semifinal",
+            "date": "2011-03-11",
+            "opponent": "Virginia Tech",
+            "result": "W",
+            "score": "",
+            "story": "Duke dispatched Virginia Tech to advance to the championship game for the third straight year."
+          },
+          {
+            "round": "Championship",
+            "date": "2011-03-13",
+            "opponent": "UNC",
+            "result": "W",
+            "score": "",
+            "story": "Duke beat UNC to claim the program's record 19th ACC Tournament championship and its third in a row. After losing at Chapel Hill on Senior Night a week earlier, the Blue Devils exacted revenge on the biggest stage."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "Second Round (West)",
+            "date": "2011-03-18",
+            "opponent": "Hampton",
+            "seed": "#1 vs #16",
+            "result": "W",
+            "score": "87-45",
+            "story": "A 42-point blowout — and the return of Kyrie Irving. After missing 26 games with a toe injury, Irving came off the bench and led Duke with 14 points in 20 minutes. The freshman looked sharp, and Duke fans dared to dream about what a healthy Irving could do in March."
+          },
+          {
+            "round": "Third Round (West)",
+            "date": "2011-03-20",
+            "opponent": "Michigan",
+            "seed": "#1 vs #8",
+            "result": "W",
+            "score": "73-71",
+            "story": "A two-point survival against the Wolverines. Nolan Smith scored 24 to lead Duke, but Michigan refused to go away after trailing by 15 in the second half. The victory gave K his 900th career win — only the fourth coach in history to reach that milestone."
+          },
+          {
+            "round": "Sweet Sixteen (West)",
+            "date": "2011-03-24",
+            "opponent": "Arizona",
+            "seed": "#1 vs #5",
+            "result": "L",
+            "score": "77-93",
+            "story": "Derrick Williams' masterpiece. The Arizona sophomore scored 32 points with 13 rebounds — including 25 first-half points and 5-for-5 from three — in one of the greatest individual tournament performances in history. Irving scored 28 in his final Duke game, but the chemistry with a team that had learned to win without him wasn't there. The season that began with championship dreams ended in Anaheim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "2010-11 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/2011.html"
+        },
+        {
+          "title": "2010-11 Duke Blue Devils — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Kyrie Irving Duke Bio — GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/roster/kyrie-irving/4338"
+        },
+        {
+          "title": "Kyrie Irving: One and Done to No. 1 — Andscape",
+          "url": "https://andscape.com/features/boston-celtics-kyrie-irving-duke-2010-ncaa-tournament-nba-draft-oral-history/"
+        }
       ]
     },
     {
@@ -4756,20 +4852,6 @@
           "notes": "Third Plumlee brother; 7-0 center; would contribute as a senior in 2015-16"
         }
       ],
-      "uncGames": [
-        {
-          "date": "February 8, 2012",
-          "location": "Dean E. Smith Center (Chapel Hill)",
-          "result": "W 85-84",
-          "notes": "One of the most iconic shots in rivalry history. Duke trails by 10 with 3 minutes left. Furious rally — Thornton 3, Kelly baseline jumper, UNC misses free throws. Tyler Zeller accidentally tips in an errant Duke 3-point attempt, cutting lead to 1. Austin Rivers catches on the right wing as time expires and buries the game-winning three at the buzzer. Rivers finishes with 29 points. Bedlam at midcourt."
-        },
-        {
-          "date": "March 3, 2012",
-          "location": "Cameron Indoor Stadium (Senior Night)",
-          "result": "L 70-88",
-          "notes": "UNC never trails; dominant wire-to-wire victory; Tar Heels clinch outright ACC regular-season championship; Miles Plumlee's Senior Night; UNC too deep and too talented"
-        }
-      ],
       "milestones": [
         "K's 903rd career victory — all-time record — vs Michigan State at MSG (Nov. 15, 2011); breaks Bob Knight's record; mentor and protégé embrace at midcourt",
         "Austin Rivers' buzzer-beating three at UNC (Feb. 8, 2012) — one of the five most replayed shots in rivalry history",
@@ -4778,6 +4860,87 @@
         "Austin Rivers: unanimous ACC Rookie of the Year; first Duke freshman All-American in program history",
         "#15-seed Lehigh upset in Round of 64 — C.J. McCollum's 30 points; only 4th first-round upset in 28 K-era tournament appearances",
         "Six future NBA players on roster: Rivers (#10), Miles Plumlee (#26), Mason Plumlee (#22 in 2013), Seth Curry (undrafted, 11-year career), Ryan Kelly (#48 in 2013), Quinn Cook (undrafted, NBA champion 2018)"
+      ],
+      "unc": [
+        {
+          "date": "2012-02-08",
+          "location": "Dean E. Smith Center (Chapel Hill)",
+          "result": "W",
+          "score": "85-84",
+          "dukeRank": 9,
+          "uncRank": 5,
+          "story": "One of the most iconic shots in rivalry history. Duke trails by 10 with 3 minutes left. Furious rally — Thornton 3, Kelly baseline jumper, UNC misses free throws. Tyler Zeller accidentally tips in an errant Duke 3-point attempt, cutting lead to 1. Austin Rivers catches on the right wing as time expires and buries the game-winning three at the buzzer. Rivers finishes with 29 points. Bedlam at midcourt."
+        },
+        {
+          "date": "2012-03-03",
+          "location": "Cameron Indoor Stadium (Senior Night)",
+          "result": "L",
+          "score": "70-88",
+          "dukeRank": 5,
+          "uncRank": 5,
+          "story": "UNC never trails; dominant wire-to-wire victory; Tar Heels clinch outright ACC regular-season championship; Miles Plumlee's Senior Night; UNC too deep and too talented"
+        }
+      ],
+      "theGame": {
+        "title": "The Austin Rivers Game",
+        "date": "2012-02-08",
+        "location": "Dean E. Smith Center, Chapel Hill",
+        "opponent": "North Carolina",
+        "result": "W",
+        "score": "85-84",
+        "dukeRank": 9,
+        "opponentRank": 5,
+        "headline": "Down 10 with three minutes left at Chapel Hill. Tyler Thornton hits a three. Ryan Kelly scores on the baseline. UNC misses free throws. Tyler Zeller accidentally tips in an errant Duke three-point attempt. Then Austin Rivers catches on the right wing as time expires and buries the game-winning three. Duke 85, North Carolina 84.",
+        "story": "It is one of the most iconic shots in the history of the rivalry. Duke trailed #5 North Carolina by 10 points with three minutes remaining at the Dean Smith Center. The Tar Heels, led by Tyler Zeller's dominant first half, appeared to have the game sealed. But Duke launched a furious rally. Tyler Thornton hit a three. Ryan Kelly scored on a baseline jumper. UNC missed critical free throws. In one of the strangest plays in rivalry history, Zeller accidentally tipped in an errant Duke three-point attempt, cutting the lead to one. And then, with time expiring, Austin Rivers — the freshman, Doc's kid, the one everyone said couldn't carry a team — caught the ball on the right wing, rose up, and buried a three-pointer as the buzzer sounded. He finished with 29 points. The celebration at midcourt was bedlam. It remains one of the five most replayed shots in the history of Tobacco Road basketball."
+      },
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinal",
+            "date": "2012-03-09",
+            "opponent": "Virginia Tech",
+            "result": "W",
+            "score": "",
+            "story": "Duke dispatched Virginia Tech to advance to the ACC Tournament semifinals."
+          },
+          {
+            "round": "Semifinal",
+            "date": "2012-03-10",
+            "opponent": "Florida State",
+            "result": "L",
+            "score": "",
+            "story": "Florida State built a double-digit second-half lead. Duke rallied furiously — Rivers' layup with 42 seconds left brought Duke within one. But FSU answered, and Rivers badly missed a long three with 6 seconds left. Curry's desperation heave after a loose ball scramble rimmed out. Florida State won by 3 and went on to beat UNC for the tournament title."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "Round of 64 (South)",
+            "date": "2012-03-16",
+            "opponent": "Lehigh",
+            "seed": "#2 vs #15",
+            "result": "L",
+            "score": "70-75",
+            "story": "The most painful first-round loss of the Krzyzewski era. #15-seed Lehigh, the Patriot League champion, stunned Duke behind C.J. McCollum's 30 points — including 18 in the second half. McCollum, a future NBA starter, dismantled Duke's defense with a performance that announced his own stardom. Mason Plumlee and Rivers each scored 19, but it wasn't enough. It was only the fourth first-round upset in 28 K-era tournament appearances. 'The game is a great game,' K said. 'I've been in it for 37 years, and it takes you to incredible highs. And it also takes you to incredible lows. And tonight's one of those lows.'"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "2011-12 Duke Roster & Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/2012.html"
+        },
+        {
+          "title": "2011-12 Duke Blue Devils — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "2011-12 Season In Review — GoDuke",
+          "url": "https://goduke.com/sports/2012/4/3/205408100"
+        },
+        {
+          "title": "Duke Basketball Report: 2011 ACC Championship Highlights",
+          "url": "https://www.dukebasketballreport.com/2024/10/3/24260031/youtube-gold-duke-2011-acc-tournament-championship-unc-kyrie-irving-mason-plumlee-nolan-smith"
+        }
       ]
     }
   ]
