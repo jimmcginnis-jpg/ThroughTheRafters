@@ -80,18 +80,24 @@ export default function Home({ eras, recentProfiles }) {
       <section className="bg-white py-16">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="font-display text-3xl text-duke-navy text-center mb-10">
-            Featured Profiles
+            Recently Updated
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {recentProfiles.map(player => {
               const era = data.eras.find(e => e.key === player.era);
+              const dateStr = player.lastUpdated
+                ? new Date(player.lastUpdated + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                : null;
               return (
                 <Link
                   key={player.id}
                   href={`/players/${player.slug}/`}
                   className="player-card block bg-duke-cream border border-gray-200 p-5 hover:border-duke-gold"
                 >
-                  <span className="font-mono text-xs text-duke-gold">{era?.name}</span>
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="font-mono text-xs text-duke-gold">{era?.name}</span>
+                    {dateStr && <span className="font-mono text-xs text-gray-400">{dateStr}</span>}
+                  </div>
                   <h3 className="font-display text-lg text-duke-navy mt-1 mb-1">{player.name}</h3>
                   <p className="font-body text-sm text-gray-600 italic mb-2">{player.tagline}</p>
                   <div className="font-mono text-xs text-gray-400">{player.pos} &bull; {player.years}</div>
@@ -106,12 +112,12 @@ export default function Home({ eras, recentProfiles }) {
 }
 
 export async function getStaticProps() {
-  // Pick a few featured profiles — mix of eras and fame levels
-  const featured = ['flagg', 'lively', 'laettner', 'grant-hill', 'jay-williams', 'luol-deng'];
-  const recentProfiles = featured
-    .map(slug => data.players.find(p => p.slug === slug))
-    .filter(Boolean)
-    .map(p => ({ id: p.id, slug: p.slug, name: p.name, tagline: p.tagline, pos: p.pos, years: p.years, era: p.era }));
+  // Pick the 3 most recently updated profiles
+  const recentProfiles = data.players
+    .filter(p => p.status === 'done' && p.lastUpdated)
+    .sort((a, b) => b.lastUpdated.localeCompare(a.lastUpdated))
+    .slice(0, 3)
+    .map(p => ({ id: p.id, slug: p.slug, name: p.name, tagline: p.tagline, pos: p.pos, years: p.years, era: p.era, lastUpdated: p.lastUpdated }));
 
   return {
     props: {
