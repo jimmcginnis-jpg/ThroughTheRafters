@@ -29,6 +29,12 @@ const vizzes = [
     desc: 'Every NBA franchise\u2019s Duke connection — all-time rosters and who\u2019s playing right now.',
     stat: '30 teams',
   },
+  {
+    slug: 'chain',
+    title: 'Brotherhood Chain',
+    desc: 'Degrees of separation between any two Duke players — the unbroken chain of teammates from 1978 to today.',
+    stat: '14 max degrees',
+  },
 ];
 
 export default function VizIndex() {
