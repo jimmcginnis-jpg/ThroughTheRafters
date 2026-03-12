@@ -125,7 +125,14 @@
       "highSchool": "Coronado HS",
       "rsci": "",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "engelland",
@@ -205,7 +212,14 @@
       "highSchool": "Palisades HS",
       "rsci": "",
       "weight": "175",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "dawkins",
@@ -307,7 +321,14 @@
       "highSchool": "Mackin Catholic HS",
       "rsci": "",
       "weight": "170",
-      "lastUpdated": "2026-02-27"
+      "lastUpdated": "2026-02-27",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "alarie",
@@ -396,7 +417,14 @@
       "highSchool": "Brophy Prep",
       "rsci": "",
       "weight": "220",
-      "lastUpdated": "2026-02-27"
+      "lastUpdated": "2026-02-27",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "bilas",
@@ -478,7 +506,14 @@
       "highSchool": "Rolling Hills HS",
       "rsci": "",
       "weight": "225",
-      "lastUpdated": "2026-02-27"
+      "lastUpdated": "2026-02-27",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "henderson_d",
@@ -551,7 +586,14 @@
       "highSchool": "Warren County HS",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-02-27"
+      "lastUpdated": "2026-02-27",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "amaker",
@@ -641,7 +683,14 @@
       "highSchool": "W.T. Woodson HS",
       "rsci": "",
       "weight": "155",
-      "lastUpdated": "2026-02-27"
+      "lastUpdated": "2026-02-27",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "nessley",
@@ -714,7 +763,14 @@
       "highSchool": "Whitehall-Yearling HS",
       "rsci": "",
       "weight": "260",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "king",
@@ -787,7 +843,14 @@
       "highSchool": "Sterling Park / Park View HS",
       "rsci": "",
       "weight": "205",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "smith",
@@ -860,7 +923,14 @@
       "highSchool": "Friendly HS",
       "rsci": "",
       "weight": "225",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "tom_emma",
@@ -970,7 +1040,14 @@
       "highSchool": "",
       "rsci": "",
       "weight": "215",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "richard_ford",
@@ -1618,7 +1695,14 @@
       "highSchool": "DeMatha Catholic HS",
       "rsci": "",
       "weight": "230",
-      "lastUpdated": "2026-02-26"
+      "lastUpdated": "2026-02-26",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "snyder",
@@ -1708,7 +1792,14 @@
       "highSchool": "Mercer Island HS",
       "rsci": "",
       "weight": "180",
-      "lastUpdated": "2026-02-26"
+      "lastUpdated": "2026-02-26",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "abdelnaby",
@@ -1813,7 +1904,14 @@
       "highSchool": "Bloomfield HS",
       "rsci": "",
       "weight": "240",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "henderson_p",
@@ -1893,7 +1991,14 @@
       "highSchool": "Crete-Monee HS",
       "rsci": "",
       "weight": "180",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "brickey",
@@ -2050,7 +2155,14 @@
       "highSchool": "E.E. Smith HS",
       "rsci": "",
       "weight": "210",
-      "lastUpdated": "2026-02-26"
+      "lastUpdated": "2026-02-26",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "laettner",
@@ -2176,7 +2288,14 @@
       "highSchool": "Nichols School",
       "rsci": "",
       "weight": "235",
-      "lastUpdated": "2026-02-28"
+      "lastUpdated": "2026-02-28",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "davis_b",
@@ -2262,7 +2381,14 @@
       "highSchool": "Bladensburg HS",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-02-25"
+      "lastUpdated": "2026-02-25",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "hurley",
@@ -2367,7 +2493,14 @@
       "highSchool": "St. Anthony HS",
       "rsci": "",
       "weight": "165",
-      "lastUpdated": "2026-02-28"
+      "lastUpdated": "2026-02-28",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "hill_t",
@@ -2454,7 +2587,14 @@
       "highSchool": "Lancaster HS",
       "rsci": "",
       "weight": "200",
-      "lastUpdated": "2026-03-11"
+      "lastUpdated": "2026-03-11",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "mccaffrey",
@@ -2567,7 +2707,14 @@
       "highSchool": "Allentown Central Catholic",
       "rsci": "",
       "weight": "175",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "hill",
@@ -2697,7 +2844,14 @@
       "highSchool": "South Lakes HS",
       "rsci": "",
       "weight": "225",
-      "lastUpdated": "2026-02-28"
+      "lastUpdated": "2026-02-28",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "lang",
@@ -2796,7 +2950,14 @@
       "highSchool": "LeFlore HS",
       "rsci": "",
       "weight": "205",
-      "lastUpdated": "2026-02-25"
+      "lastUpdated": "2026-02-25",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "blakeney",
@@ -2931,7 +3092,14 @@
       "highSchool": "Landon School",
       "rsci": "",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "parks",
@@ -3031,7 +3199,14 @@
       "highSchool": "Huntington Beach HS",
       "rsci": "",
       "weight": "245",
-      "lastUpdated": "2026-02-25"
+      "lastUpdated": "2026-02-25",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "collins_c",
@@ -3136,7 +3311,14 @@
       "highSchool": "Glenbrook North HS",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "jon_goodman",
@@ -3634,7 +3816,14 @@
       "highSchool": "Fayetteville HS",
       "rsci": "",
       "weight": "200",
-      "lastUpdated": "2026-02-25"
+      "lastUpdated": "2026-02-25",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "newton",
@@ -3745,7 +3934,14 @@
       "highSchool": "New Castle Chrysler HS",
       "rsci": "",
       "weight": "240",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "wallace_c",
@@ -3822,7 +4018,14 @@
       "highSchool": "Capitol HS",
       "rsci": "",
       "weight": "215",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "wojo",
@@ -3907,7 +4110,14 @@
       "highSchool": "Calvert Hall College HS",
       "rsci": "",
       "weight": "170",
-      "lastUpdated": "2026-03-09"
+      "lastUpdated": "2026-03-09",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "langdon",
@@ -4005,7 +4215,14 @@
       "highSchool": "East Anchorage HS",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-02-25"
+      "lastUpdated": "2026-02-25",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "price",
@@ -4083,7 +4300,14 @@
       "highSchool": "Northeast HS",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "carrawell",
@@ -4170,7 +4394,14 @@
       "highSchool": "Cardinal Ritter HS",
       "rsci": "",
       "weight": "210",
-      "lastUpdated": "2026-02-24"
+      "lastUpdated": "2026-02-24",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "mcleod",
@@ -4293,7 +4524,14 @@
       "highSchool": "St. Anthony HS",
       "rsci": "",
       "weight": "220",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "james_n",
@@ -4454,7 +4692,14 @@
       "highSchool": "Rainier Beach HS",
       "rsci": "",
       "weight": "215",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "jay_heaps",
@@ -4829,7 +5074,14 @@
       "highSchool": "Country Day School",
       "rsci": "",
       "weight": "220",
-      "lastUpdated": "2026-03-10"
+      "lastUpdated": "2026-03-10",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "brand",
@@ -4958,7 +5210,14 @@
       "highSchool": "Peekskill HS",
       "rsci": "",
       "weight": "260",
-      "lastUpdated": "2026-03-11"
+      "lastUpdated": "2026-03-11",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "avery",
@@ -5077,7 +5336,14 @@
       "highSchool": "Oak Hill Academy",
       "rsci": "",
       "weight": "195",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-07",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "maggette",
@@ -5554,7 +5820,14 @@
       "highSchool": "Jesuit HS",
       "rsci": "26",
       "weight": "220",
-      "lastUpdated": "2026-02-24"
+      "lastUpdated": "2026-02-24",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "duhon",
@@ -5832,7 +6105,14 @@
       "highSchool": "Trenton Central HS",
       "rsci": "91",
       "weight": "210",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "deng",
@@ -6571,7 +6851,14 @@
       "highSchool": "Cave Spring HS",
       "rsci": "11",
       "weight": "190",
-      "lastUpdated": "2026-02-28"
+      "lastUpdated": "2026-02-28",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "swilliams",
@@ -6682,7 +6969,14 @@
       "highSchool": "Midwest City HS",
       "rsci": "8",
       "weight": "250",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "nelson",
@@ -6817,7 +7111,14 @@
       "highSchool": "Elk Grove HS",
       "rsci": "18",
       "weight": "200",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "mcroberts",
@@ -6930,7 +7231,14 @@
       "highSchool": "Carmel HS",
       "rsci": "1",
       "weight": "240",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "paulus",
@@ -7033,7 +7341,14 @@
       "highSchool": "Christian Brothers Academy",
       "rsci": "13",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "ghenderson",
@@ -7138,7 +7453,14 @@
       "highSchool": "Merion Mercy Academy",
       "rsci": "10",
       "weight": "215",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "scheyer",
@@ -7245,7 +7567,14 @@
       "highSchool": "Glenbrook North HS",
       "rsci": "28",
       "weight": "190",
-      "lastUpdated": "2026-03-02"
+      "lastUpdated": "2026-03-02",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "nsmith",
@@ -7364,7 +7693,14 @@
       "highSchool": "Oak Hill Academy",
       "rsci": "18",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "kirving",
@@ -8187,7 +8523,14 @@
       "highSchool": "Christ School",
       "rsci": "81",
       "weight": "245",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "mplumlee",
@@ -8333,7 +8676,14 @@
       "highSchool": "Christ School",
       "rsci": "18",
       "weight": "235",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "scurry",
@@ -8406,7 +8756,14 @@
       "highSchool": "Charlotte Christian",
       "rsci": "",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "arivers",
@@ -8538,7 +8895,14 @@
       "highSchool": "Winter Park HS",
       "rsci": "2",
       "weight": "200",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "cook",
@@ -8611,7 +8975,14 @@
       "highSchool": "Oak Hill Academy",
       "rsci": "31",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "marshall_p",
@@ -8713,7 +9084,14 @@
       "highSchool": "Christ School",
       "rsci": "61",
       "weight": "255",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "parker_j",
@@ -8870,7 +9248,14 @@
       "highSchool": "Simeon Career Academy",
       "rsci": "3",
       "weight": "235",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "hood",
@@ -9000,7 +9385,14 @@
       "highSchool": "Meridian HS",
       "rsci": "27",
       "weight": "215",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "allen",
@@ -9232,7 +9624,14 @@
       "highSchool": "Whitney Young HS",
       "rsci": "1",
       "weight": "270",
-      "lastUpdated": "2026-03-09"
+      "lastUpdated": "2026-03-09",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "tjones",
@@ -9640,7 +10039,14 @@
       "highSchool": "Ravenscroft School",
       "rsci": "14",
       "weight": "230",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-08",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "todd_zafirovski",
@@ -9978,7 +10384,14 @@
       "highSchool": "Ottawa High School",
       "rsci": "32",
       "weight": "235",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-08",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "matt_jones",
@@ -10145,7 +10558,14 @@
       "highSchool": "Kinston HS",
       "rsci": "4",
       "weight": "190",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-04",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "kennard",
@@ -10270,7 +10690,14 @@
       "highSchool": "Franklin HS",
       "rsci": "21",
       "weight": "180",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-04",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "tatum",
@@ -10380,7 +10807,14 @@
       "highSchool": "Chaminade College Prep",
       "rsci": "3",
       "weight": "205",
-      "lastUpdated": "2026-02-23"
+      "lastUpdated": "2026-02-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "bagley",
@@ -10502,7 +10936,14 @@
       "highSchool": "Sierra Canyon School",
       "rsci": "1",
       "weight": "234",
-      "lastUpdated": "2026-02-22"
+      "lastUpdated": "2026-02-22",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "wcarter",
@@ -10609,7 +11050,14 @@
       "highSchool": "Pace Academy",
       "rsci": "7",
       "weight": "259",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "zion",
@@ -10709,7 +11157,14 @@
       "highSchool": "Spartanburg Day School",
       "rsci": "4",
       "weight": "285",
-      "lastUpdated": "2026-03-09"
+      "lastUpdated": "2026-03-09",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "barrett",
@@ -10807,7 +11262,14 @@
       "highSchool": "Montverde Academy",
       "rsci": "1",
       "weight": "202",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "trejones",
@@ -10908,7 +11370,14 @@
       "highSchool": "Apple Valley HS",
       "rsci": "13",
       "weight": "185",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "reddish",
@@ -11027,8 +11496,9 @@
       },
       "charity": {
         "name": "Norristown Recreation Center",
-        "url": "https://www.norristownrec.org/",
-        "note": "Home of the Cam Reddish Room. Cam donated $10,000 to create a gaming and community space for Norristown youth. Non-profit youth recreation center offering basketball leagues, camps, and community programs."
+        "label": "Support the Norristown Rec Center",
+        "description": "Home of the Cam Reddish Room. Cam donated $10,000 to create a gaming and community space for Norristown youth. The non-profit recreation center offers basketball leagues, camps, and community programs in his hometown.",
+        "url": "https://www.norristownrec.org/"
       },
       "hometown": "Norristown, PA",
       "jersey": "2",
@@ -11108,7 +11578,14 @@
       "highSchool": "Paul VI HS",
       "rsci": "20",
       "weight": "175",
-      "lastUpdated": "2026-03-09"
+      "lastUpdated": "2026-03-09",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "banchero",
@@ -11205,7 +11682,14 @@
       "highSchool": "O'Dea HS",
       "rsci": "2",
       "weight": "250",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "griffin_aj",
@@ -11303,7 +11787,14 @@
       "highSchool": "Archbishop Stepinac HS",
       "rsci": "18",
       "weight": "222",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "sean_obi",
@@ -11724,7 +12215,14 @@
       "highSchool": "Apple Valley HS (MN); Prolific Prep (CA)",
       "rsci": "8",
       "weight": "209",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-08",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "trevon_duval",
@@ -12212,7 +12710,14 @@
       "highSchool": "Nicolet High School",
       "rsci": "11",
       "weight": "220",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-07",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "mark_williams",
@@ -12381,7 +12886,14 @@
       "highSchool": "Harvard-Westlake School",
       "rsci": "",
       "weight": "160",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "henry_coleman",
@@ -12548,7 +13060,14 @@
       "highSchool": "Wilbraham & Monson Academy",
       "rsci": "4",
       "weight": "230",
-      "lastUpdated": "2026-03-05"
+      "lastUpdated": "2026-03-05",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "lively",
@@ -12737,7 +13256,14 @@
       "highSchool": "Centennial HS",
       "rsci": "12",
       "weight": "197",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "flagg",
@@ -12910,7 +13436,14 @@
       "highSchool": "Wisconsin Lutheran HS",
       "rsci": "14",
       "weight": "217",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "evans_isaiah",
@@ -12981,7 +13514,14 @@
       "highSchool": "North Mecklenburg HS",
       "rsci": "16",
       "weight": "175",
-      "lastUpdated": "2026-02-20"
+      "lastUpdated": "2026-02-20",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "cameron_boozer",
@@ -13258,7 +13798,14 @@
       "highSchool": "Bishop Miege HS / Sunrise Christian Academy",
       "rsci": "28",
       "weight": "230",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-08",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "tyrese_proctor",
@@ -13648,7 +14195,14 @@
       "highSchool": "Hickory Ridge HS / Oak Hill Academy / Notre Dame HS (CA)",
       "rsci": "17",
       "weight": "205",
-      "lastUpdated": "2026-03-12"
+      "lastUpdated": "2026-03-12",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "sean_stewart",
@@ -13864,7 +14418,13 @@
       "rsci": "51",
       "weight": "250",
       "profileNumber": 95,
-      "lastUpdated": "2026-03-12"
+      "lastUpdated": "2026-03-12",
+      "charity": {
+        "name": "Luol Deng Foundation",
+        "label": "Support the Luol Deng Foundation",
+        "description": "The foundation that changed Khaman Maluach’s life. Luol Deng — the former Duke star and NBA All-Star — founded the organization to use basketball as a tool for empowerment across Africa. A Deng Foundation camp in Uganda in 2019 introduced Maluach to basketball at age 13, launching the journey from Kawempe to Cameron Indoor to the NBA.",
+        "url": "https://www.luoldeng.com/foundation"
+      }
     },
     {
       "id": "maliq_brown",
@@ -13977,7 +14537,14 @@
       "rsci": "24",
       "weight": "250",
       "profileNumber": 96,
-      "lastUpdated": "2026-03-12"
+      "lastUpdated": "2026-03-12",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "mason_gillis",
@@ -14115,7 +14682,14 @@
       "rsci": "81",
       "weight": "190",
       "profileNumber": 97,
-      "lastUpdated": "2026-03-12"
+      "lastUpdated": "2026-03-12",
+      "charity": {
+        "name": "The V Foundation for Cancer Research",
+        "label": "Support The V Foundation",
+        "description": "Founded by Jim Valvano during his iconic 1993 ESPY speech — delivered just weeks before his death from cancer — the V Foundation has raised over $350 million for cancer research. Valvano coached NC State, but the foundation's roots run through ACC basketball, and Duke's program has been one of its most consistent supporters. Don't give up. Don't ever give up.",
+        "url": "https://www.v.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "nikolas_khamenia",
@@ -14196,7 +14770,14 @@
       "rsci": "16",
       "weight": "215",
       "profileNumber": 98,
-      "lastUpdated": "2026-03-12"
+      "lastUpdated": "2026-03-12",
+      "charity": {
+        "name": "Duke Children's Hospital & Health Center",
+        "label": "Support Duke Children's Hospital",
+        "description": "Duke Children's Hospital provides world-class pediatric care to children and families across North Carolina and beyond. The Duke basketball program has maintained a deep, personal connection to the hospital for decades — players visit patients, host fundraisers, and consider the kids honorary members of the Brotherhood.",
+        "url": "https://www.dukechildrens.org/giving",
+        "isDefault": true
+      }
     },
     {
       "id": "sebastian_wilkins",
