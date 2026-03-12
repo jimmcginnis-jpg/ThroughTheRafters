@@ -183,11 +183,15 @@ export default function Layout({ children, title, description, canonical }) {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-display text-duke-gold text-lg mb-3">Duke&rsquo;s Brotherhood</h3>
-              <p className="font-body text-sm leading-relaxed opacity-80">
-                A comprehensive documentary profile series covering every significant player
-                across eight eras of Duke basketball.
+              <h3 className="font-display text-duke-gold text-lg mb-3">About</h3>
+              <p className="font-body text-sm leading-relaxed opacity-80 mb-3">
+                An independent project documenting the lives and careers of Duke basketball
+                players, from their road to Durham to where they are now.
               </p>
+              <div className="space-y-1 text-sm">
+                <Link href="/about/" className="block hover:text-duke-gold transition-colors">About This Project</Link>
+                <Link href="/methodology/" className="block hover:text-duke-gold transition-colors">Sources &amp; Methodology</Link>
+              </div>
             </div>
             <div>
               <h3 className="font-display text-duke-gold text-lg mb-3">Eras</h3>
@@ -216,14 +220,14 @@ export default function Layout({ children, title, description, canonical }) {
               </div>
             </div>
             <div>
-              <h3 className="font-display text-duke-gold text-lg mb-3">About</h3>
-              <p className="text-sm leading-relaxed opacity-80 mb-3">
-                An independent project documenting the lives and careers of Duke basketball
-                players, from their road to Durham to where they are now.
-              </p>
+              <h3 className="font-display text-duke-gold text-lg mb-3">Visualizations</h3>
               <div className="space-y-1 text-sm">
-                <Link href="/about/" className="block hover:text-duke-gold transition-colors">About This Project</Link>
-                <Link href="/methodology/" className="block hover:text-duke-gold transition-colors">Sources &amp; Methodology</Link>
+                <Link href="/viz/height/" className="block hover:text-duke-gold transition-colors">All Players by Height</Link>
+                <Link href="/viz/map/" className="block hover:text-duke-gold transition-colors">Recruiting Map</Link>
+                <Link href="/viz/nba/" className="block hover:text-duke-gold transition-colors">Duke in the NBA</Link>
+                <Link href="/viz/nba-teams/" className="block hover:text-duke-gold transition-colors">Duke by NBA Team</Link>
+                <Link href="/viz/chain/" className="block hover:text-duke-gold transition-colors">Brotherhood Chain</Link>
+                <Link href="/viz/" className="block hover:text-duke-gold transition-colors font-medium mt-2">All Viz &rarr;</Link>
               </div>
             </div>
           </div>
