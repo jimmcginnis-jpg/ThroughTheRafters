@@ -177,6 +177,11 @@ const listConfigs = {
     subtitle: `Key stats and milestones across all ${players.length} players — ${profiledCount} profiled so far.`,
     meta: `Stats and milestones from Duke's Brotherhood — ${players.length} players, 8 eras, 40+ years.`,
   },
+  'charities': {
+    title: 'Charities the Brotherhood Supports',
+    subtitle: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.`,
+    meta: `Charitable organizations supported by Duke's Brotherhood — from player-specific foundations to Duke-connected causes across ${profiledCount} profiled players.`,
+  },
 };
 
 // ── Static generation ──
@@ -416,6 +421,132 @@ function RenderByTheNumbers() {
   );
 }
 
+function RenderCharities() {
+  const charityPlayers = players.filter(p => p.status === 'done' && p.charity);
+  const customPlayers = charityPlayers.filter(p => !p.charity.isDefault);
+  const defaultPlayers = charityPlayers.filter(p => p.charity.isDefault);
+
+  // Group custom charities by URL (shared charities like Luol Deng Foundation)
+  const customGroups = {};
+  customPlayers.forEach(p => {
+    const key = p.charity.url;
+    if (!customGroups[key]) customGroups[key] = { ...p.charity, players: [] };
+    customGroups[key].players.push(p);
+  });
+  const customList = Object.values(customGroups);
+
+  // Group defaults into 3 foundations with player counts
+  const defaultGroups = {};
+  defaultPlayers.forEach(p => {
+    const key = p.charity.name;
+    if (!defaultGroups[key]) defaultGroups[key] = { ...p.charity, players: [] };
+    defaultGroups[key].players.push(p);
+  });
+  const defaultList = Object.values(defaultGroups);
+
+  return (
+    <>
+      <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-10 pb-6 border-b border-gray-200">
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-3 h-3 rounded-full bg-[#C5A258]"></span>
+          <span><strong className="text-[#001A57]">{customList.length}</strong> player-specific foundations</span>
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-3 h-3 rounded-full bg-[#001A57]"></span>
+          <span><strong className="text-[#001A57]">{defaultList.length}</strong> Duke-connected charities</span>
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-3 h-3 rounded-full bg-gray-300"></span>
+          <span><strong className="text-gray-700">{charityPlayers.length}</strong> total players with charity links</span>
+        </span>
+      </div>
+
+      {/* Player-Specific Foundations */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#001A57] mb-1">Player-Specific Foundations</h2>
+        <p className="text-gray-500 mb-6">
+          These charities are directly tied to a Brotherhood player&apos;s personal story &mdash; causes they
+          founded, survived, or championed.
+        </p>
+        <div className="grid gap-5 md:grid-cols-2">
+          {customList.map(c => (
+            <div key={c.url} className="rounded-xl border border-[#C5A258] bg-gradient-to-br from-[#001A57]/[0.02] to-[#C5A258]/[0.04] p-6 hover:shadow-lg transition-shadow">
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="text-lg font-bold text-[#001A57]">{c.name}</h3>
+                <svg className="w-5 h-5 text-[#C5A258] flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed mb-4">{c.description}</p>
+              <div className="mb-4">
+                <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Connected to</span>
+                <div className="flex flex-wrap gap-1.5 mt-1.5">
+                  {c.players.map(p => (
+                    p.status === 'done' ? (
+                      <Link key={p.slug} href={`/players/${p.slug}`} className="inline-block text-xs bg-[#001A57]/10 text-[#001A57] px-2 py-0.5 rounded-full hover:bg-[#001A57] hover:text-white transition-colors">
+                        {p.name}
+                      </Link>
+                    ) : (
+                      <span key={p.name} className="inline-block text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">{p.name}</span>
+                    )
+                  ))}
+                </div>
+              </div>
+              <a href={c.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm font-semibold text-[#C5A258] hover:text-[#001A57] transition-colors">
+                {c.label}
+                <svg className="inline w-3.5 h-3.5 ml-1 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Duke-Connected Charities */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#001A57] mb-1">Duke-Connected Charities</h2>
+        <p className="text-gray-500 mb-6">
+          For players without a specific personal foundation, we rotate among three organizations
+          with deep ties to the Duke basketball family.
+        </p>
+        <div className="grid gap-5 md:grid-cols-3">
+          {defaultList.map(c => (
+            <div key={c.url} className="rounded-xl border border-gray-200 bg-white p-5 hover:shadow-lg transition-shadow">
+              <h3 className="text-base font-bold text-gray-800 mb-2">{c.name}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">{c.description}</p>
+              <p className="text-xs text-gray-400 mb-3">
+                Featured on <strong className="text-gray-600">{c.players.length}</strong> Brotherhood profiles
+              </p>
+              <a href={c.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm font-semibold text-[#001A57] hover:text-[#C5A258] transition-colors">
+                {c.label}
+                <svg className="inline w-3.5 h-3.5 ml-1 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="bg-[#001A57]/[0.03] rounded-xl p-6 md:p-8">
+        <h2 className="text-xl font-bold text-[#001A57] mb-3">How Charity Links Work on This Site</h2>
+        <div className="text-sm text-gray-600 space-y-2 leading-relaxed">
+          <p>
+            Every profiled Brotherhood player has a charity link at the bottom of their profile page.
+            When we can tie a player to a specific cause &mdash; a foundation they started, a disease they or their
+            family faced, or an organization that shaped their journey &mdash; we feature that charity directly.
+          </p>
+          <p>
+            For players where we haven&apos;t yet identified a personal cause, we rotate among three
+            Duke-connected organizations: <strong>Duke Children&apos;s Hospital</strong>,
+            the <strong>Emily Krzyzewski Center</strong>, and <strong>The V Foundation for Cancer Research</strong>.
+          </p>
+          <p>
+            The Duke Brotherhood project is not affiliated with any of these organizations.
+            All links go directly to each charity&apos;s official donation page.
+          </p>
+        </div>
+      </section>
+    </>
+  );
+}
+
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -429,6 +560,7 @@ const renderers = {
   'undrafted': RenderUndrafted,
   'draft-history': RenderDraftHistory,
   'by-the-numbers': RenderByTheNumbers,
+  'charities': RenderCharities,
 };
 
 // ── Page component ──
