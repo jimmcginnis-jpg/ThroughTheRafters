@@ -56,7 +56,7 @@ export default function HeightViz() {
   return (
     <Layout
       title="All Players by Height"
-      description="Interactive visualization of all 219 Duke basketball players by height, from 1981 to present."
+      description={`Interactive visualization of all ${totalMeasured} Duke basketball players by height, from 1981 to present.`}
       canonical="/viz/height/"
     >
       <Head>
@@ -91,7 +91,8 @@ export default function HeightViz() {
           </div>
 
           {/* Chart */}
-          <div className="flex items-end gap-1 md:gap-1.5" style={{ height: 320, paddingBottom: 32 }}>
+          <div className="overflow-x-auto -mx-4 px-4" style={{ WebkitOverflowScrolling: "touch" }}>
+          <div className="flex items-end gap-1 md:gap-1.5" style={{ height: 320, paddingBottom: 32, minWidth: dist.length * 38 }}>
             {dist.map((d, i) => {
               const profiledH = (d.profiled / maxCount) * 260;
               const stubH = (d.stub / maxCount) * 260;
@@ -150,8 +151,7 @@ export default function HeightViz() {
               );
             })}
           </div>
-
-          {/* Player names panel */}
+          </div>
           {active !== null && (
             <div className="rounded-lg p-4 md:p-5 mt-2" style={{ background: "#111d33", border: "1px solid #2a4a7f" }}>
               <div className="font-display text-duke-gold text-lg font-bold mb-3">
