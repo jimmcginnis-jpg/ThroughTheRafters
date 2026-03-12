@@ -205,7 +205,7 @@ export default function Layout({ children, title, description, canonical }) {
             <div>
               <h3 className="font-display text-duke-gold text-lg mb-3">Lists</h3>
               <div className="space-y-1 text-sm">
-                <Link href="/lists/all-players/" className="block hover:text-duke-gold transition-colors">All 86 Players</Link>
+                <Link href="/lists/all-players/" className="block hover:text-duke-gold transition-colors">All {data.players.length} Players</Link>
                 <Link href="/lists/currently-in-nba/" className="block hover:text-duke-gold transition-colors">Currently in the NBA</Link>
                 <Link href="/lists/lottery-picks/" className="block hover:text-duke-gold transition-colors">NBA Lottery Picks</Link>
                 <Link href="/lists/mcdonalds-all-americans/" className="block hover:text-duke-gold transition-colors">McDonald&rsquo;s All-Americans</Link>
