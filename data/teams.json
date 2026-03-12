@@ -3661,7 +3661,7 @@
     },
     {
       "season": "2004-05",
-      "era": "transition",
+      "era": "between",
       "record": "27-6",
       "accRecord": "11-5",
       "coach": "Mike Krzyzewski",
@@ -3827,7 +3827,7 @@
     },
     {
       "season": "2005-06",
-      "era": "transition",
+      "era": "between",
       "record": "32-4",
       "accRecord": "14-2",
       "coach": "Mike Krzyzewski",
@@ -3993,7 +3993,7 @@
     },
     {
       "season": "2006-07",
-      "era": "transition",
+      "era": "between",
       "record": "22-11",
       "accRecord": "8-8",
       "coach": "Mike Krzyzewski",
@@ -4117,7 +4117,7 @@
     },
     {
       "season": "2007-08",
-      "era": "transition",
+      "era": "between",
       "record": "28-6",
       "accRecord": "13-3",
       "coach": "Mike Krzyzewski",
@@ -4246,7 +4246,7 @@
     },
     {
       "season": "2008-09",
-      "era": "transition",
+      "era": "between",
       "record": "30-7",
       "accRecord": "11-5",
       "coach": "Mike Krzyzewski",
