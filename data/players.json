@@ -80,20 +80,20 @@
       },
       "sources": [
         {
-          "label": "Lexington African American Sports Hall of Fame: Vince Taylor biography",
-          "url": "https://laashof.com/vince-taylor/"
+          "url": "https://laashof.com/vince-taylor/",
+          "title": "Lexington African American Sports Hall of Fame: Vince Taylor biography"
         },
         {
-          "label": "Texas Tech Athletics: Vince Taylor coaching bio"
+          "title": "Texas Tech Athletics: Vince Taylor coaching bio"
         },
         {
-          "label": "UCF Athletics: Vince Taylor coaching bio"
+          "title": "UCF Athletics: Vince Taylor coaching bio"
         },
         {
-          "label": "HoopDirt: Vince Taylor joins Tennessee State Basketball Staff (Aug 2025)"
+          "title": "HoopDirt: Vince Taylor joins Tennessee State Basketball Staff (Aug 2025)"
         },
         {
-          "label": "Basketball Reference: Vince Taylor career stats"
+          "title": "Basketball Reference: Vince Taylor career stats"
         }
       ],
       "seasons": [
@@ -156,24 +156,24 @@
       },
       "sources": [
         {
-          "label": "Grantland: The Shot Doctor (2014)",
-          "url": "https://grantland.com/features/the-shot-doctor/"
+          "url": "https://grantland.com/features/the-shot-doctor/",
+          "title": "Grantland: The Shot Doctor (2014)"
         },
         {
-          "label": "The Ringer: A Flick of the Wrist — NBA shooting coaches (2016)",
-          "url": "https://www.theringer.com/2016/10/10/nba/nba-shooting-coaches-kent-bazemore-kawhi-leonard-8660e9939680"
+          "url": "https://www.theringer.com/2016/10/10/nba/nba-shooting-coaches-kent-bazemore-kawhi-leonard-8660e9939680",
+          "title": "The Ringer: A Flick of the Wrist — NBA shooting coaches (2016)"
         },
         {
-          "label": "Yahoo Sports/Oklahoman: Shooting coach Chip Engelland already impacting OKC Thunder (Oct 2022)"
+          "title": "Yahoo Sports/Oklahoman: Shooting coach Chip Engelland already impacting OKC Thunder (Oct 2022)"
         },
         {
-          "label": "SPIN.ph: NBA’s top Shot Doctor still adores everything about the Philippines"
+          "title": "SPIN.ph: NBA’s top Shot Doctor still adores everything about the Philippines"
         },
         {
-          "label": "Bleacher Report: How an NBA Shot Whisperer Transformed Kawhi Leonard (2016)"
+          "title": "Bleacher Report: How an NBA Shot Whisperer Transformed Kawhi Leonard (2016)"
         },
         {
-          "label": "SI Duke Blue Devils: Thunder hire one of first Duke basketball players under Coach K (July 2022)"
+          "title": "SI Duke Blue Devils: Thunder hire one of first Duke basketball players under Coach K (July 2022)"
         }
       ],
       "seasons": [
@@ -1074,7 +1074,7 @@
       "nba": null,
       "sources": [],
       "jersey": "23",
-      "hometown": "",
+      "hometown": "Washington, DC",
       "highSchool": "",
       "rsci": "",
       "weight": "155"
@@ -1103,7 +1103,7 @@
       "nba": null,
       "sources": [],
       "jersey": "31",
-      "hometown": "",
+      "hometown": "Fairfax, VA",
       "highSchool": "",
       "rsci": "",
       "weight": "231"
@@ -1189,7 +1189,7 @@
       "nba": null,
       "sources": [],
       "jersey": "21",
-      "hometown": "",
+      "hometown": "Winston-Salem, NC",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -1217,7 +1217,7 @@
       "nba": null,
       "sources": [],
       "jersey": "55",
-      "hometown": "",
+      "hometown": "Princeton, WV",
       "highSchool": "",
       "rsci": "",
       "weight": "220"
@@ -1243,7 +1243,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "King, NC",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -1269,7 +1269,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "East Point, GA",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -1353,7 +1353,7 @@
       "nba": null,
       "sources": [],
       "jersey": "25",
-      "hometown": "",
+      "hometown": "Livonia, MI",
       "highSchool": "",
       "rsci": "",
       "weight": "205"
@@ -1935,24 +1935,24 @@
       },
       "sources": [
         {
-          "label": "Chicago Tribune: Former Duke, Crete-Monee star Phil Henderson dies at 44 (Feb 2013)",
-          "url": "https://www.chicagotribune.com/2013/02/18/former-duke-crete-monee-star-phil-henderson-dies-at-44/"
+          "url": "https://www.chicagotribune.com/2013/02/18/former-duke-crete-monee-star-phil-henderson-dies-at-44/",
+          "title": "Chicago Tribune: Former Duke, Crete-Monee star Phil Henderson dies at 44 (Feb 2013)"
         },
         {
-          "label": "Charlotte Observer: Phil Henderson obituary (Feb 2013)"
+          "title": "Charlotte Observer: Phil Henderson obituary (Feb 2013)"
         },
         {
-          "label": "ESPN: Duke Blue Devils mourn death of former star Phil Henderson (Feb 2013)"
+          "title": "ESPN: Duke Blue Devils mourn death of former star Phil Henderson (Feb 2013)"
         },
         {
-          "label": "Duke Basketball Report: Phil Henderson Steps Into Legend (Jan 2020)",
-          "url": "https://www.dukebasketballreport.com/2020/1/3/21047782/you-tube-gold-phil-henderson-georgetown-eastern-regional-finals-1989"
+          "url": "https://www.dukebasketballreport.com/2020/1/3/21047782/you-tube-gold-phil-henderson-georgetown-eastern-regional-finals-1989",
+          "title": "Duke Basketball Report: Phil Henderson Steps Into Legend (Jan 2020)"
         },
         {
-          "label": "NWI Times: Where Are They Now? Phil Henderson"
+          "title": "NWI Times: Where Are They Now? Phil Henderson"
         },
         {
-          "label": "Basketball Museum of Illinois: Phil Henderson Hall of Fame induction (2015)"
+          "title": "Basketball Museum of Illinois: Phil Henderson Hall of Fame induction (2015)"
         }
       ],
       "seasons": [
@@ -2022,30 +2022,30 @@
       "stat": "4 Duke seasons • 1,299 pts • 649 reb • 55.0% FG • 147 dunks (school record) • 3 Final Fours • 1990 team captain",
       "sources": [
         {
-          "label": "WRAL: Robert Brickey on Coach K’s final home game (2022)",
-          "url": "https://www.wralsportsfan.com/former-duke-player-robert-brickey-on-coach-k-s-final-home-game-it-s-the-end-of-an-era/20169254/"
+          "url": "https://www.wralsportsfan.com/former-duke-player-robert-brickey-on-coach-k-s-final-home-game-it-s-the-end-of-an-era/20169254/",
+          "title": "WRAL: Robert Brickey on Coach K’s final home game (2022)"
         },
         {
-          "label": "Charlotte Observer: Phil Henderson obituary (Brickey quotes, 2013)",
-          "url": "https://www.legacy.com/us/obituaries/charlotte/name/phil-henderson-obituary?pid=163164808"
+          "url": "https://www.legacy.com/us/obituaries/charlotte/name/phil-henderson-obituary?pid=163164808",
+          "title": "Charlotte Observer: Phil Henderson obituary (Brickey quotes, 2013)"
         },
         {
-          "label": "Duke Basketball Report: Brickey on being recruited by Duke (2025)",
-          "url": "https://www.dukebasketballreport.com/2025/5/22/24434312/blue-devil-robert-brickey-duke-basketball-mike-krzyzewski-wake-forest-carl-tacy-bob-staack"
+          "url": "https://www.dukebasketballreport.com/2025/5/22/24434312/blue-devil-robert-brickey-duke-basketball-mike-krzyzewski-wake-forest-carl-tacy-bob-staack",
+          "title": "Duke Basketball Report: Brickey on being recruited by Duke (2025)"
         },
         {
-          "label": "Fayetteville Observer: Stingers name Brickey head coach (2022)"
+          "title": "Fayetteville Observer: Stingers name Brickey head coach (2022)"
         },
         {
-          "label": "GoDuke.com: Robert Brickey player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/robert-brickey/14399"
+          "url": "https://goduke.com/sports/mens-basketball/roster/robert-brickey/14399",
+          "title": "GoDuke.com: Robert Brickey player bio"
         },
         {
-          "label": "NCCU Athletics: Robert Brickey coaching bio",
-          "url": "https://nccueaglepride.com/sports/mens-basketball/roster/coaches/robert-brickey/76"
+          "url": "https://nccueaglepride.com/sports/mens-basketball/roster/coaches/robert-brickey/76",
+          "title": "NCCU Athletics: Robert Brickey coaching bio"
         },
         {
-          "label": "Wikipedia: Robert Brickey"
+          "title": "Wikipedia: Robert Brickey"
         }
       ],
       "nba": {
@@ -2616,22 +2616,22 @@
       "stat": "2 Duke seasons • 1991 NCAA Champion • All-Tournament Team • 16 pts in title game • Vanderbilt: 20.6 PPG • 2x All-American",
       "sources": [
         {
-          "label": "SI Vault: Vandy’s Handy Dandy — Billy McCaffrey (1993)",
-          "url": "https://vault.si.com/vault/1993/03/15/vandys-handy-dandy-billy-mccaffrey-is-doing-it-all-for-vanderbilt-the-surprising-regular-season-sec-champion"
+          "url": "https://vault.si.com/vault/1993/03/15/vandys-handy-dandy-billy-mccaffrey-is-doing-it-all-for-vanderbilt-the-surprising-regular-season-sec-champion",
+          "title": "SI Vault: Vandy’s Handy Dandy — Billy McCaffrey (1993)"
         },
         {
-          "label": "Morning Call: In 1991, CCHS product Billy McCaffrey leaves Duke",
-          "url": "https://www.mcall.com/2016/04/11/in-1991-cchs-product-billy-mccaffrey-announces-hes-leaving-duke/"
+          "url": "https://www.mcall.com/2016/04/11/in-1991-cchs-product-billy-mccaffrey-announces-hes-leaving-duke/",
+          "title": "Morning Call: In 1991, CCHS product Billy McCaffrey leaves Duke"
         },
         {
-          "label": "College Hoopedia: Billy McCaffrey",
-          "url": "https://collegehoopedia.com/players/billy-mccaffrey"
+          "url": "https://collegehoopedia.com/players/billy-mccaffrey",
+          "title": "College Hoopedia: Billy McCaffrey"
         },
         {
-          "label": "Wikipedia: Billy McCaffrey"
+          "title": "Wikipedia: Billy McCaffrey"
         },
         {
-          "label": "St. Bonaventure Athletics: Billy McCaffrey coaching bio"
+          "title": "St. Bonaventure Athletics: Billy McCaffrey coaching bio"
         }
       ],
       "nba": {
@@ -2982,29 +2982,29 @@
       "stat": "5 years at Duke • 93 games • 2x NCAA Champion (1991, 1992) • Senior Captain • Howard HC • 2x MEAC Tournament titles",
       "sources": [
         {
-          "label": "Howard Athletics: Kenneth Blakeney coaching bio",
-          "url": "https://hubison.com/sports/mens-basketball/roster/coaches/kenneth-blakeney/978"
+          "url": "https://hubison.com/sports/mens-basketball/roster/coaches/kenneth-blakeney/978",
+          "title": "Howard Athletics: Kenneth Blakeney coaching bio"
         },
         {
-          "label": "The Hilltop: The Life of Kenneth Blakeney (2023)",
-          "url": "https://thehilltoponline.com/2023/05/09/the-life-of-kenneth-blakeney-how-one-chance-turned-into-a-basketball-championship/"
+          "url": "https://thehilltoponline.com/2023/05/09/the-life-of-kenneth-blakeney-how-one-chance-turned-into-a-basketball-championship/",
+          "title": "The Hilltop: The Life of Kenneth Blakeney (2023)"
         },
         {
-          "label": "SI: Blakeney hires Nate James at Howard (2025)",
-          "url": "https://www.si.com/college/duke/blue-devils-jon-scheyer-mike-krzyzewski-austin-peay-nate-james-tyler-thornton-kenny-blakeney-"
+          "url": "https://www.si.com/college/duke/blue-devils-jon-scheyer-mike-krzyzewski-austin-peay-nate-james-tyler-thornton-kenny-blakeney-",
+          "title": "SI: Blakeney hires Nate James at Howard (2025)"
         },
         {
-          "label": "Columbia Athletics: Kenny Blakeney coaching bio",
-          "url": "https://gocolumbialions.com/sports/mens-basketball/roster/coaches/kenny-blakeney/1184"
+          "url": "https://gocolumbialions.com/sports/mens-basketball/roster/coaches/kenny-blakeney/1184",
+          "title": "Columbia Athletics: Kenny Blakeney coaching bio"
         },
         {
-          "label": "Howard Dig: Blakeney recognized by ALL IN Democracy Challenge (2023)"
+          "title": "Howard Dig: Blakeney recognized by ALL IN Democracy Challenge (2023)"
         },
         {
-          "label": "Wikipedia: Kenny Blakeney"
+          "title": "Wikipedia: Kenny Blakeney"
         },
         {
-          "label": "Sports Reference: Kenneth Blakeney college stats"
+          "title": "Sports Reference: Kenneth Blakeney college stats"
         }
       ],
       "nba": {
@@ -3230,26 +3230,26 @@
       "stat": "4 Duke seasons • All-ACC Freshman • 2nd Team All-ACC • Team Captain • Duke MVP • 13 seasons on Coach K’s staff • Northwestern HC",
       "sources": [
         {
-          "label": "Chicago Tribune: Chris Collins’ incredible journey (2017)",
-          "url": "https://www.chicagotribune.com/sports/college/ct-chris-collins-northwestern-life-journey-spt-0308-20170307-story.html"
+          "url": "https://www.chicagotribune.com/sports/college/ct-chris-collins-northwestern-life-journey-spt-0308-20170307-story.html",
+          "title": "Chicago Tribune: Chris Collins’ incredible journey (2017)"
         },
         {
-          "label": "Chicago Tribune: From Bulls ball boy to Northwestern coach (2023)",
-          "url": "https://www.chicagotribune.com/2023/03/10/column-chris-collins-journey-from-bulls-ball-boy-to-northwestern-coach-brings-him-to-the-united-center/"
+          "url": "https://www.chicagotribune.com/2023/03/10/column-chris-collins-journey-from-bulls-ball-boy-to-northwestern-coach-brings-him-to-the-united-center/",
+          "title": "Chicago Tribune: From Bulls ball boy to Northwestern coach (2023)"
         },
         {
-          "label": "Chicago Magazine: How Chris Collins Made a Winner of Northwestern (2017)",
-          "url": "https://www.chicagomag.com/chicago-magazine/november-2017/how-chris-collins-made-a-winner-of-northwestern-basketball/"
+          "url": "https://www.chicagomag.com/chicago-magazine/november-2017/how-chris-collins-made-a-winner-of-northwestern-basketball/",
+          "title": "Chicago Magazine: How Chris Collins Made a Winner of Northwestern (2017)"
         },
         {
-          "label": "FOX 32: Collins talks father’s Hall of Fame induction (2024)"
+          "title": "FOX 32: Collins talks father’s Hall of Fame induction (2024)"
         },
         {
-          "label": "Northwestern Athletics: Chris Collins coaching bio",
-          "url": "https://nusports.com/sports/mens-basketball/roster/coaches/chris-collins/3436"
+          "url": "https://nusports.com/sports/mens-basketball/roster/coaches/chris-collins/3436",
+          "title": "Northwestern Athletics: Chris Collins coaching bio"
         },
         {
-          "label": "Wikipedia: Chris Collins, Doug Collins"
+          "title": "Wikipedia: Chris Collins, Doug Collins"
         }
       ],
       "nba": {
@@ -3486,7 +3486,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Kansas City, MO",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -3573,7 +3573,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Escondido, CA",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -3688,7 +3688,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Waynesville, NC",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -3847,25 +3847,25 @@
       "stat": "4 Duke seasons • 107 games • 12.2 PPG/8.2 RPG (best season) • Team Captain • Canadian National Team • 2000 Olympics",
       "sources": [
         {
-          "label": "Virginia Pilot: Newton Is Pulling His Weight at Duke (1996)",
-          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1996/vp960211/02110228.htm"
+          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1996/vp960211/02110228.htm",
+          "title": "Virginia Pilot: Newton Is Pulling His Weight at Duke (1996)"
         },
         {
-          "label": "Duke Basketball Report: 1997 Team — Catching Up With Wake Forest and Tim Duncan",
-          "url": "https://www.dukebasketballreport.com/2021/7/4/22561661/duke-basketball-1997-team-part-iii-chris-carrawell-greg-newton-tim-duncan-dave-odom-mike-krzyzewski"
+          "url": "https://www.dukebasketballreport.com/2021/7/4/22561661/duke-basketball-1997-team-part-iii-chris-carrawell-greg-newton-tim-duncan-dave-odom-mike-krzyzewski",
+          "title": "Duke Basketball Report: 1997 Team — Catching Up With Wake Forest and Tim Duncan"
         },
         {
-          "label": "From Way Downtown: Tim Duncan — The Can’t-Miss Kid (1997)",
-          "url": "https://from-way-downtown.com/2024/09/03/tim-duncan-the-cant-miss-kid-1997/"
+          "url": "https://from-way-downtown.com/2024/09/03/tim-duncan-the-cant-miss-kid-1997/",
+          "title": "From Way Downtown: Tim Duncan — The Can’t-Miss Kid (1997)"
         },
         {
-          "label": "Wikipedia: Greg Newton"
+          "title": "Wikipedia: Greg Newton"
         },
         {
-          "label": "Eurobasket: Greg Newton professional stats"
+          "title": "Eurobasket: Greg Newton professional stats"
         },
         {
-          "label": "Sports Reference: Greg Newton college stats"
+          "title": "Sports Reference: Greg Newton college stats"
         }
       ],
       "nba": {
@@ -3965,28 +3965,28 @@
       "stat": "4 Duke seasons • 82 games • 3.4 PPG • 43.3% 3PT • Team Captain 1997 • ACC Champions",
       "sources": [
         {
-          "label": "FOX Sports: NFL Agent Carmen Wallace Draft Blog (2014)",
-          "url": "https://www.foxsports.com/stories/nfl/blog-nfl-agent-carmen-wallace-offers-new-perspective-on-draft-day"
+          "url": "https://www.foxsports.com/stories/nfl/blog-nfl-agent-carmen-wallace-offers-new-perspective-on-draft-day",
+          "title": "FOX Sports: NFL Agent Carmen Wallace Draft Blog (2014)"
         },
         {
-          "label": "Duke Alumni Magazine: Hoop Profiles — Carmen Wallace",
-          "url": "https://alumni.duke.edu/magazine/articles/hoop-profiles-carmen-wallace"
+          "url": "https://alumni.duke.edu/magazine/articles/hoop-profiles-carmen-wallace",
+          "title": "Duke Alumni Magazine: Hoop Profiles — Carmen Wallace"
         },
         {
-          "label": "Tower Hill School: Forum Speaker Series (2014)",
-          "url": "https://www.towerhill.org/news-detail?pk=913441"
+          "url": "https://www.towerhill.org/news-detail?pk=913441",
+          "title": "Tower Hill School: Forum Speaker Series (2014)"
         },
         {
-          "label": "Duke Basketball Report: Turning Points — Duke 1997 Part I",
-          "url": "https://www.dukebasketballreport.com/2021/7/2/22558678/turning-points-dukes-1997-team-part-i-jeff-capel-chris-carrawell-nate-james-steve-wojciechowski-acc"
+          "url": "https://www.dukebasketballreport.com/2021/7/2/22558678/turning-points-dukes-1997-team-part-i-jeff-capel-chris-carrawell-nate-james-steve-wojciechowski-acc",
+          "title": "Duke Basketball Report: Turning Points — Duke 1997 Part I"
         },
         {
-          "label": "Sports Reference: Carmen Wallace college stats",
-          "url": "https://www.sports-reference.com/cbb/players/carmen-wallace-1.html"
+          "url": "https://www.sports-reference.com/cbb/players/carmen-wallace-1.html",
+          "title": "Sports Reference: Carmen Wallace college stats"
         },
         {
-          "label": "NBPA Agent Directory: Carmen Wallace",
-          "url": "https://nbpa.com/agents/directory/profile/Carmen%20Wallace"
+          "url": "https://nbpa.com/agents/directory/profile/Carmen%20Wallace",
+          "title": "NBPA Agent Directory: Carmen Wallace"
         }
       ],
       "nba": {
@@ -4423,23 +4423,23 @@
       "stat": "2 Duke seasons • 15.3 PPG/5.6 RPG (senior) • 1st Team All-ACC • 32-4 record • 20th pick • 113 NBA games",
       "sources": [
         {
-          "label": "Duke Basketball Report: Roshown McLeod’s Life Fell Apart at 25 (2020)",
-          "url": "https://www.dukebasketballreport.com/2020/7/16/21326691/roshown-mcleod-is-happy-again-duke-basketball-st-anthonys-bob-hurley"
+          "url": "https://www.dukebasketballreport.com/2020/7/16/21326691/roshown-mcleod-is-happy-again-duke-basketball-st-anthonys-bob-hurley",
+          "title": "Duke Basketball Report: Roshown McLeod’s Life Fell Apart at 25 (2020)"
         },
         {
-          "label": "Duke Basketball Report: Jim’s Look at Duke Transfers, Part II (2021)",
-          "url": "https://www.dukebasketballreport.com/2021/4/17/22388895/transfers-part-ii-the-k-era-roshown-mccleod-seth-curry-dahntay-jones"
+          "url": "https://www.dukebasketballreport.com/2021/4/17/22388895/transfers-part-ii-the-k-era-roshown-mccleod-seth-curry-dahntay-jones",
+          "title": "Duke Basketball Report: Jim’s Look at Duke Transfers, Part II (2021)"
         },
         {
-          "label": "Indiana Athletics: Roshown McLeod coaching bio",
-          "url": "https://iuhoosiers.com/sports/mens-basketball/roster/coaches/roshown-mcleod/1827"
+          "url": "https://iuhoosiers.com/sports/mens-basketball/roster/coaches/roshown-mcleod/1827",
+          "title": "Indiana Athletics: Roshown McLeod coaching bio"
         },
         {
-          "label": "Basketball Reference: Roshown McLeod career stats",
-          "url": "https://www.basketball-reference.com/players/m/mcleoro01.html"
+          "url": "https://www.basketball-reference.com/players/m/mcleoro01.html",
+          "title": "Basketball Reference: Roshown McLeod career stats"
         },
         {
-          "label": "Wikipedia: Roshown McLeod"
+          "title": "Wikipedia: Roshown McLeod"
         }
       ],
       "nba": {
@@ -4556,27 +4556,27 @@
       "stat": "5 Duke seasons • 135 games • 1,116 pts • 12.3/5.2 senior • 3rd Team All-ACC • All-Defensive • 3 title rings",
       "sources": [
         {
-          "label": "GoDuke.com: Nate James coaching bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/nate-james/3608"
+          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/nate-james/3608",
+          "title": "GoDuke.com: Nate James coaching bio"
         },
         {
-          "label": "SI: Nate James Named Head Coach at Austin Peay (2021)",
-          "url": "https://www.si.com/college/duke/basketball/nate-james-head-coach-austin-peay"
+          "url": "https://www.si.com/college/duke/basketball/nate-james-head-coach-austin-peay",
+          "title": "SI: Nate James Named Head Coach at Austin Peay (2021)"
         },
         {
-          "label": "SI: Kenny Blakeney Gives New Opportunity to Fellow Duke Champ (2025)",
-          "url": "https://www.si.com/college/duke/blue-devils-jon-scheyer-mike-krzyzewski-austin-peay-nate-james-tyler-thornton-kenny-blakeney-"
+          "url": "https://www.si.com/college/duke/blue-devils-jon-scheyer-mike-krzyzewski-austin-peay-nate-james-tyler-thornton-kenny-blakeney-",
+          "title": "SI: Kenny Blakeney Gives New Opportunity to Fellow Duke Champ (2025)"
         },
         {
-          "label": "Howard Athletics: Nate James joins Bison family (2025)",
-          "url": "https://hubison.com/news/2025/10/20/mens-basketball-mens-basketball-welcomes-nate-james-to-the-bison-family.aspx"
+          "url": "https://hubison.com/news/2025/10/20/mens-basketball-mens-basketball-welcomes-nate-james-to-the-bison-family.aspx",
+          "title": "Howard Athletics: Nate James joins Bison family (2025)"
         },
         {
-          "label": "Austin Peay Athletics: Nate James coaching bio",
-          "url": "https://letsgopeay.com/sports/mens-basketball/roster/coaches/nate-james/3931"
+          "url": "https://letsgopeay.com/sports/mens-basketball/roster/coaches/nate-james/3931",
+          "title": "Austin Peay Athletics: Nate James coaching bio"
         },
         {
-          "label": "Wikipedia: Nate James (basketball)"
+          "title": "Wikipedia: Nate James (basketball)"
         }
       ],
       "nba": {
@@ -4726,7 +4726,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Longmeadow, MA",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4782,7 +4782,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Lovington, NM",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4811,7 +4811,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Shelburne, VT",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4838,7 +4838,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Sarasota, FL",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4896,7 +4896,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Woodside, CA",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4923,7 +4923,7 @@
       "nba": null,
       "sources": [],
       "jersey": "",
-      "hometown": "",
+      "hometown": "Irvine, CA",
       "highSchool": "",
       "rsci": "",
       "weight": ""
@@ -4951,7 +4951,7 @@
       ],
       "nba": null,
       "sources": [],
-      "hometown": "",
+      "hometown": "Shelburne, VT",
       "jersey": "",
       "highSchool": "",
       "rsci": "",
@@ -5239,19 +5239,19 @@
       "stat": "2 Duke seasons • 74 games • 14.9/5.0 soph • 49.5% FG • 2nd Team All-ACC • 37-2 • Championship game",
       "sources": [
         {
-          "label": "GoDuke.com: Will Avery coaching bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/will-avery/5014"
+          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/will-avery/5014",
+          "title": "GoDuke.com: Will Avery coaching bio"
         },
         {
-          "label": "Basketball Reference: William Avery career stats",
-          "url": "https://www.basketball-reference.com/players/a/averywi01.html"
+          "url": "https://www.basketball-reference.com/players/a/averywi01.html",
+          "title": "Basketball Reference: William Avery career stats"
         },
         {
-          "label": "EuroLeague: William Avery profile",
-          "url": "https://www.euroleaguebasketball.net/euroleague/players/william-avery/profile/cpk/"
+          "url": "https://www.euroleaguebasketball.net/euroleague/players/william-avery/profile/cpk/",
+          "title": "EuroLeague: William Avery profile"
         },
         {
-          "label": "Wikipedia: William Avery (basketball)"
+          "title": "Wikipedia: William Avery (basketball)"
         }
       ],
       "nba": {
@@ -5967,27 +5967,27 @@
       "stat": "2 Duke seasons • 17.7/5.5 senior • All-ACC • 2x ACC All-Defensive • 20th pick • 624 NBA games • 2016 Champion",
       "sources": [
         {
-          "label": "GoDuke.com: Dahntay Jones player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/dahntay-jones/11549"
+          "url": "https://goduke.com/sports/mens-basketball/roster/dahntay-jones/11549",
+          "title": "GoDuke.com: Dahntay Jones player bio"
         },
         {
-          "label": "Duke Basketball Report: Jim’s Look at Duke Transfers Part II",
-          "url": "https://www.dukebasketballreport.com/2021/4/17/22388895/transfers-part-ii-the-k-era-roshown-mccleod-seth-curry-dahntay-jones"
+          "url": "https://www.dukebasketballreport.com/2021/4/17/22388895/transfers-part-ii-the-k-era-roshown-mccleod-seth-curry-dahntay-jones",
+          "title": "Duke Basketball Report: Jim’s Look at Duke Transfers Part II"
         },
         {
-          "label": "Basketball Reference: Dahntay Jones career stats",
-          "url": "https://www.basketball-reference.com/players/j/jonesda02.html"
+          "url": "https://www.basketball-reference.com/players/j/jonesda02.html",
+          "title": "Basketball Reference: Dahntay Jones career stats"
         },
         {
-          "label": "TrentonDaily: In the Paint with Dahntay Jones",
-          "url": "https://www.trentondaily.com/in-the-paint-with-dahntay-jones-a-trenton-born-nba-star/"
+          "url": "https://www.trentondaily.com/in-the-paint-with-dahntay-jones-a-trenton-born-nba-star/",
+          "title": "TrentonDaily: In the Paint with Dahntay Jones"
         },
         {
-          "label": "NBA Coaches Association: Dahntay Jones bio",
-          "url": "https://nbacoaches.com/dahntay-jones/"
+          "url": "https://nbacoaches.com/dahntay-jones/",
+          "title": "NBA Coaches Association: Dahntay Jones bio"
         },
         {
-          "label": "Wikipedia: Dahntay Jones"
+          "title": "Wikipedia: Dahntay Jones"
         }
       ],
       "nba": {
@@ -6335,7 +6335,7 @@
       ],
       "nba": null,
       "sources": [],
-      "hometown": "",
+      "hometown": "Detroit, MI",
       "jersey": "",
       "highSchool": "",
       "rsci": "",
@@ -6621,7 +6621,7 @@
       "nba": null,
       "sources": [],
       "jersey": "42",
-      "hometown": "",
+      "hometown": "Raleigh, NC",
       "highSchool": "Broughton HS",
       "rsci": "14",
       "weight": "240"
@@ -7000,27 +7000,27 @@
       "stat": "4 Duke seasons • 124 games • 14.5/5.8 senior • ACC DPOY • 1st Team All-ACC • 3rd Team All-American • Sole captain",
       "sources": [
         {
-          "label": "Simply Basketball: Mr. 3,462 — The Story of DeMarcus Nelson",
-          "url": "https://simplybasketballhq.com/mr-3462-the-story-of-demarcus-nelson/"
+          "url": "https://simplybasketballhq.com/mr-3462-the-story-of-demarcus-nelson/",
+          "title": "Simply Basketball: Mr. 3,462 — The Story of DeMarcus Nelson"
         },
         {
-          "label": "CalHiSports: DeMarcus & Dad — CA’s Scoring King",
-          "url": "https://www.calhisports.com/2004/03/15/demarcus-dad-cas-new-scoring-king/"
+          "url": "https://www.calhisports.com/2004/03/15/demarcus-dad-cas-new-scoring-king/",
+          "title": "CalHiSports: DeMarcus & Dad — CA’s Scoring King"
         },
         {
-          "label": "Times Herald: DeMarcus Nelson leaps into Vallejo Sports Hall of Fame (2024)",
-          "url": "https://www.timesheraldonline.com/2024/02/28/demarcus-nelson-leaps-into-vallejo-sports-hall-of-fame/"
+          "url": "https://www.timesheraldonline.com/2024/02/28/demarcus-nelson-leaps-into-vallejo-sports-hall-of-fame/",
+          "title": "Times Herald: DeMarcus Nelson leaps into Vallejo Sports Hall of Fame (2024)"
         },
         {
-          "label": "GoDuke.com: DeMarcus Nelson player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/demarcus-nelson/4299"
+          "url": "https://goduke.com/sports/mens-basketball/roster/demarcus-nelson/4299",
+          "title": "GoDuke.com: DeMarcus Nelson player bio"
         },
         {
-          "label": "Sports Reference: DeMarcus Nelson college stats",
-          "url": "https://www.sports-reference.com/cbb/players/demarcus-nelson-1.html"
+          "url": "https://www.sports-reference.com/cbb/players/demarcus-nelson-1.html",
+          "title": "Sports Reference: DeMarcus Nelson college stats"
         },
         {
-          "label": "Wikipedia: DeMarcus Nelson"
+          "title": "Wikipedia: DeMarcus Nelson"
         }
       ],
       "nba": {
@@ -7262,27 +7262,27 @@
       "stat": "Duke: 4 seasons • 139 games • 1,193 pts • 468 assists • 39.8% 3PT • 112-28 • 4 ACC titles | Syracuse: 12 starts • 2,024 yds • 13 TDs",
       "sources": [
         {
-          "label": "GoDuke.com: Greg Paulus player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/greg-paulus/4312"
+          "url": "https://goduke.com/sports/mens-basketball/roster/greg-paulus/4312",
+          "title": "GoDuke.com: Greg Paulus player bio"
         },
         {
-          "label": "NYSPHSAA Hall of Fame: Greg Paulus (2024)",
-          "url": "https://nysphsaa.org/hof.aspx?hof=136"
+          "url": "https://nysphsaa.org/hof.aspx?hof=136",
+          "title": "NYSPHSAA Hall of Fame: Greg Paulus (2024)"
         },
         {
-          "label": "Greater Syracuse Sports Hall of Fame: Greg Paulus",
-          "url": "https://www.greatersyracusesportshalloffame.com/gregpaulus"
+          "url": "https://www.greatersyracusesportshalloffame.com/gregpaulus",
+          "title": "Greater Syracuse Sports Hall of Fame: Greg Paulus"
         },
         {
-          "label": "GW Athletics: Greg Paulus coaching bio",
-          "url": "https://gwsports.com/sports/mens-basketball/roster/coaches/greg-paulus/33"
+          "url": "https://gwsports.com/sports/mens-basketball/roster/coaches/greg-paulus/33",
+          "title": "GW Athletics: Greg Paulus coaching bio"
         },
         {
-          "label": "Sports Reference: Greg Paulus college stats",
-          "url": "https://www.sports-reference.com/cbb/players/greg-paulus-1.html"
+          "url": "https://www.sports-reference.com/cbb/players/greg-paulus-1.html",
+          "title": "Sports Reference: Greg Paulus college stats"
         },
         {
-          "label": "Wikipedia: Greg Paulus"
+          "title": "Wikipedia: Greg Paulus"
         }
       ],
       "nba": {
@@ -7484,19 +7484,19 @@
       "stat": "Player: 4 seasons • 138 games • 18.2/4.9 senior • 2nd Team All-American • 2010 Champion | Coach: 89 wins in 3 years • 2025 Final Four",
       "sources": [
         {
-          "label": "GoDuke.com: Jon Scheyer head coach bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/jon-scheyer/5235"
+          "url": "https://goduke.com/sports/mens-basketball/roster/coaches/jon-scheyer/5235",
+          "title": "GoDuke.com: Jon Scheyer head coach bio"
         },
         {
-          "label": "FOX Sports: Duke’s new king — Jon Scheyer’s journey (2023)",
-          "url": "https://www.foxsports.com/stories/college-basketball/dukes-new-king-jon-scheyers-journey-to-one-of-basketballs-biggest-jobs"
+          "url": "https://www.foxsports.com/stories/college-basketball/dukes-new-king-jon-scheyers-journey-to-one-of-basketballs-biggest-jobs",
+          "title": "FOX Sports: Duke’s new king — Jon Scheyer’s journey (2023)"
         },
         {
-          "label": "Duke Chronicle: Before Scheyer belonged to The Brotherhood, he was the pride of Chicago basketball (2025)",
-          "url": "https://www.dukechronicle.com/article/duke-mens-basketball-jon-scheyer-chicago-feature-weber-illinois-beverley-rose-20251030"
+          "url": "https://www.dukechronicle.com/article/duke-mens-basketball-jon-scheyer-chicago-feature-weber-illinois-beverley-rose-20251030",
+          "title": "Duke Chronicle: Before Scheyer belonged to The Brotherhood, he was the pride of Chicago basketball (2025)"
         },
         {
-          "label": "Wikipedia: Jon Scheyer"
+          "title": "Wikipedia: Jon Scheyer"
         }
       ],
       "nba": {
@@ -7598,27 +7598,27 @@
       "stat": "4 Duke seasons • 143 games • 1,911 pts • 20.6/5.1 senior • ACC POY • Consensus All-American • 2010 Champion",
       "sources": [
         {
-          "label": "ESPN OTL: Lessons From My Father — Nolan Smith",
-          "url": "http://www.espn.com/espn/eticket/story?page=nolan"
+          "url": "http://www.espn.com/espn/eticket/story?page=nolan",
+          "title": "ESPN OTL: Lessons From My Father — Nolan Smith"
         },
         {
-          "label": "ESPN: Nolan Smith keeps the memory of his father close (2008)",
-          "url": "https://www.espn.com/mens-college-basketball/columns/story?id=3196773"
+          "url": "https://www.espn.com/mens-college-basketball/columns/story?id=3196773",
+          "title": "ESPN: Nolan Smith keeps the memory of his father close (2008)"
         },
         {
-          "label": "Big Red Louie: Louisville basketball runs deep for Nolan Smith (2020)",
-          "url": "https://bigredlouie.com/2020/01/17/louisville-basketball-runs-deep-nolan-smith/"
+          "url": "https://bigredlouie.com/2020/01/17/louisville-basketball-runs-deep-nolan-smith/",
+          "title": "Big Red Louie: Louisville basketball runs deep for Nolan Smith (2020)"
         },
         {
-          "label": "Hoops HQ: A Lifetime in Basketball Brings Nolan Smith to Tennessee State (2025)",
-          "url": "https://www.hoopshq.com/mid-majors/nolan-smith"
+          "url": "https://www.hoopshq.com/mid-majors/nolan-smith",
+          "title": "Hoops HQ: A Lifetime in Basketball Brings Nolan Smith to Tennessee State (2025)"
         },
         {
-          "label": "GoDuke.com: Nolan Smith player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/nolan-smith/4345"
+          "url": "https://goduke.com/sports/mens-basketball/roster/nolan-smith/4345",
+          "title": "GoDuke.com: Nolan Smith player bio"
         },
         {
-          "label": "Wikipedia: Nolan Smith"
+          "title": "Wikipedia: Nolan Smith"
         }
       ],
       "nba": {
@@ -7721,26 +7721,26 @@
       "stat": "11 Duke games • 17.5 PPG • 52.9% FG • #1 Overall Pick • NBA Champion • 9x All-Star • Olympic Gold",
       "sources": [
         {
-          "label": "Bleacher Report: Kyrie Irving, the Untold Story (2017)",
-          "url": "https://bleacherreport.com/articles/2710100-how-kyrie-irving-learned-to-love-being-himself"
+          "url": "https://bleacherreport.com/articles/2710100-how-kyrie-irving-learned-to-love-being-himself",
+          "title": "Bleacher Report: Kyrie Irving, the Untold Story (2017)"
         },
         {
-          "label": "NBA.com: Top Finals Moments — Kyrie’s Clutch 3 (2016)",
-          "url": "https://www.nba.com/news/history-finals-moments-kyrie-irving-clutch-3-2016"
+          "url": "https://www.nba.com/news/history-finals-moments-kyrie-irving-clutch-3-2016",
+          "title": "NBA.com: Top Finals Moments — Kyrie’s Clutch 3 (2016)"
         },
         {
-          "label": "NBA.com: Irving will miss remainder of 2025–26 season",
-          "url": "https://www.nba.com/news/kyrie-irving-wont-return-2025-26-season"
+          "url": "https://www.nba.com/news/kyrie-irving-wont-return-2025-26-season",
+          "title": "NBA.com: Irving will miss remainder of 2025–26 season"
         },
         {
-          "label": "Biography.com: Kyrie Irving",
-          "url": "https://www.biography.com/athletes/kyrie-irving"
+          "url": "https://www.biography.com/athletes/kyrie-irving",
+          "title": "Biography.com: Kyrie Irving"
         },
         {
-          "label": "Wikipedia: Kyrie Irving (biographical details)"
+          "title": "Wikipedia: Kyrie Irving (biographical details)"
         },
         {
-          "label": "Basketball Reference: Kyrie Irving career stats"
+          "title": "Basketball Reference: Kyrie Irving career stats"
         }
       ],
       "charity": {
@@ -8010,7 +8010,7 @@
       "nba": null,
       "sources": [],
       "jersey": "5",
-      "hometown": "",
+      "hometown": "Vilnius, Lithuania",
       "highSchool": "",
       "rsci": "53",
       "weight": "190"
@@ -8061,7 +8061,7 @@
       ],
       "nba": null,
       "sources": [],
-      "hometown": "",
+      "hometown": "London, England",
       "jersey": "2",
       "highSchool": "",
       "rsci": "39",
@@ -8253,7 +8253,7 @@
       ],
       "nba": null,
       "sources": [],
-      "hometown": "",
+      "hometown": "Gdynia, Poland",
       "jersey": "31",
       "highSchool": "",
       "rsci": "66",
@@ -8281,26 +8281,26 @@
       "stat": "4 Duke seasons • 148 games (school record) • 2,392 pts (4th all-time) • 2010 NCAA Champion • Final Four MOP • 7 pro seasons",
       "sources": [
         {
-          "label": "GoDuke.com: National Champs! Duke Beats Butler 61-59 (2010)",
-          "url": "https://goduke.com/news/2010/4/7/204923093"
+          "url": "https://goduke.com/news/2010/4/7/204923093",
+          "title": "GoDuke.com: National Champs! Duke Beats Butler 61-59 (2010)"
         },
         {
-          "label": "Medford Sports Hall of Fame: Kyle Singler (2022)",
-          "url": "https://medfordsportshalloffame.com/inductee/kyle-singler/"
+          "url": "https://medfordsportshalloffame.com/inductee/kyle-singler/",
+          "title": "Medford Sports Hall of Fame: Kyle Singler (2022)"
         },
         {
-          "label": "Southern Oregon Open: History",
-          "url": "https://unlimitedbball.org/history/"
+          "url": "https://unlimitedbball.org/history/",
+          "title": "Southern Oregon Open: History"
         },
         {
-          "label": "Washington Post: Kyle Singler videos spark concern (2024)",
-          "url": "https://www.washingtonpost.com/sports/2024/11/12/kyle-singler-video-posts-instagram-kevin-love/"
+          "url": "https://www.washingtonpost.com/sports/2024/11/12/kyle-singler-video-posts-instagram-kevin-love/",
+          "title": "Washington Post: Kyle Singler videos spark concern (2024)"
         },
         {
-          "label": "Wikipedia: Kyle Singler (biographical details)"
+          "title": "Wikipedia: Kyle Singler (biographical details)"
         },
         {
-          "label": "Basketball Reference: Kyle Singler career stats"
+          "title": "Basketball Reference: Kyle Singler career stats"
         }
       ],
       "charity": {
@@ -8419,22 +8419,22 @@
       "stat": "4 Duke seasons • 135 games • 650 pts/654 reb • 2010 NCAA Champion • 22 reb vs Maryland (Coach K record) • 7 NBA seasons",
       "sources": [
         {
-          "label": "GoDuke.com: Miles Plumlee player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/miles-plumlee/4357"
+          "url": "https://goduke.com/sports/mens-basketball/roster/miles-plumlee/4357",
+          "title": "GoDuke.com: Miles Plumlee player bio"
         },
         {
-          "label": "FOX Sports: 3 Plumlee Brothers on Duke’s Front Line (2011)",
-          "url": "https://www.foxsports.com/stories/college-basketball/3-plumlee-brothers-on-dukes-front-line"
+          "url": "https://www.foxsports.com/stories/college-basketball/3-plumlee-brothers-on-dukes-front-line",
+          "title": "FOX Sports: 3 Plumlee Brothers on Duke’s Front Line (2011)"
         },
         {
-          "label": "AJC: Plumlee Making Most of Staying at Duke (2013)"
+          "title": "AJC: Plumlee Making Most of Staying at Duke (2013)"
         },
         {
-          "label": "Wikipedia: Miles Plumlee"
+          "title": "Wikipedia: Miles Plumlee"
         },
         {
-          "label": "Basketball Reference: Miles Plumlee career stats",
-          "url": "https://www.basketball-reference.com/players/p/plumlmi01.html"
+          "url": "https://www.basketball-reference.com/players/p/plumlmi01.html",
+          "title": "Basketball Reference: Miles Plumlee career stats"
         }
       ],
       "nba": {
@@ -8560,27 +8560,27 @@
       ],
       "sources": [
         {
-          "label": "AJC: Plumlee Making Most of Staying at Duke (2013)",
-          "url": "https://www.ajc.com/sports/college-basketball/plumlee-making-most-staying-duke/vncd1DtVnkHnfrANeLyh7H/"
+          "url": "https://www.ajc.com/sports/college-basketball/plumlee-making-most-staying-duke/vncd1DtVnkHnfrANeLyh7H/",
+          "title": "AJC: Plumlee Making Most of Staying at Duke (2013)"
         },
         {
-          "label": "FOX Sports: 3 Plumlee Brothers on Duke’s Front Line (2011)",
-          "url": "https://www.foxsports.com/stories/college-basketball/3-plumlee-brothers-on-dukes-front-line"
+          "url": "https://www.foxsports.com/stories/college-basketball/3-plumlee-brothers-on-dukes-front-line",
+          "title": "FOX Sports: 3 Plumlee Brothers on Duke’s Front Line (2011)"
         },
         {
-          "label": "GoDuke.com: Winning Championships Is a Plumlee Family Tradition (2011)",
-          "url": "https://goduke.com/news/2011/7/28/205214170"
+          "url": "https://goduke.com/news/2011/7/28/205214170",
+          "title": "GoDuke.com: Winning Championships Is a Plumlee Family Tradition (2011)"
         },
         {
-          "label": "GoDuke.com: Mason Plumlee player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/mason-plumlee/4370"
+          "url": "https://goduke.com/sports/mens-basketball/roster/mason-plumlee/4370",
+          "title": "GoDuke.com: Mason Plumlee player bio"
         },
         {
-          "label": "NBA.com: Mason Plumlee bio",
-          "url": "https://www.nba.com/player/203486/mason-plumlee/bio"
+          "url": "https://www.nba.com/player/203486/mason-plumlee/bio",
+          "title": "NBA.com: Mason Plumlee bio"
         },
         {
-          "label": "Wikipedia: Mason Plumlee, Miles Plumlee, Marshall Plumlee"
+          "title": "Wikipedia: Mason Plumlee, Miles Plumlee, Marshall Plumlee"
         }
       ],
       "nba": {
@@ -8784,21 +8784,21 @@
       "stat": "1 Duke season • 34 games • 15.5 PPG/3.4 RPG/2.1 APG • Buzzer-beater at UNC • 11 NBA seasons • 707 games",
       "sources": [
         {
-          "label": "Grantland: Ball in the Family — Austin Rivers (2015)",
-          "url": "https://grantland.com/features/ball-in-the-family-austin-rivers-nba-doc-rivers-los-angeles-clippers/"
+          "url": "https://grantland.com/features/ball-in-the-family-austin-rivers-nba-doc-rivers-los-angeles-clippers/",
+          "title": "Grantland: Ball in the Family — Austin Rivers (2015)"
         },
         {
-          "label": "Basketball Reference: Austin Rivers career stats",
-          "url": "https://www.basketball-reference.com/players/r/riverau01.html"
+          "url": "https://www.basketball-reference.com/players/r/riverau01.html",
+          "title": "Basketball Reference: Austin Rivers career stats"
         },
         {
-          "label": "Wikipedia: Austin Rivers (biographical details)"
+          "title": "Wikipedia: Austin Rivers (biographical details)"
         },
         {
-          "label": "GoDuke.com: Austin Rivers player bio"
+          "title": "GoDuke.com: Austin Rivers player bio"
         },
         {
-          "label": "ESPN: Austin Rivers career coverage"
+          "title": "ESPN: Austin Rivers career coverage"
         }
       ],
       "bio": {
@@ -9007,26 +9007,26 @@
       "stat": "5 years at Duke • 124 games • 2015 NCAA Champion • Team Captain • 29 NBA games • U.S. Army Ranger • 2 Afghanistan deployments",
       "sources": [
         {
-          "label": "Stars and Stripes: Ranger School graduates include 7-foot former NBA player (2019)",
-          "url": "https://www.stripes.com/news/ranger-school-graduates-include-first-woman-in-air-force-to-earn-tab-7-foot-former-nba-player-1.596961"
+          "url": "https://www.stripes.com/news/ranger-school-graduates-include-first-woman-in-air-force-to-earn-tab-7-foot-former-nba-player-1.596961",
+          "title": "Stars and Stripes: Ranger School graduates include 7-foot former NBA player (2019)"
         },
         {
-          "label": "Task & Purpose: This pro basketball player turned Army Ranger is now going to Harvard (2022)",
-          "url": "https://taskandpurpose.com/news/marshall-plumlee-army-ranger-harvard/"
+          "url": "https://taskandpurpose.com/news/marshall-plumlee-army-ranger-harvard/",
+          "title": "Task & Purpose: This pro basketball player turned Army Ranger is now going to Harvard (2022)"
         },
         {
-          "label": "Special Operations Warrior Foundation: Marshall Plumlee bio",
-          "url": "https://specialops.org/who-we-are/board-and-staff/marshall-plumlee/"
+          "url": "https://specialops.org/who-we-are/board-and-staff/marshall-plumlee/",
+          "title": "Special Operations Warrior Foundation: Marshall Plumlee bio"
         },
         {
-          "label": "NBC Sports: Former Knick, Buck Marshall Plumlee now U.S. Army Ranger (2019)",
-          "url": "https://www.nbcsports.com/nba/news/former-knick-buck-marshall-plumlee-now-u-s-army-ranger"
+          "url": "https://www.nbcsports.com/nba/news/former-knick-buck-marshall-plumlee-now-u-s-army-ranger",
+          "title": "NBC Sports: Former Knick, Buck Marshall Plumlee now U.S. Army Ranger (2019)"
         },
         {
-          "label": "CNN: Former NBA player graduated from Army Ranger School (2019)"
+          "title": "CNN: Former NBA player graduated from Army Ranger School (2019)"
         },
         {
-          "label": "Wikipedia: Marshall Plumlee"
+          "title": "Wikipedia: Marshall Plumlee"
         }
       ],
       "nba": {
@@ -9112,33 +9112,33 @@
       "stat": "1 Duke season • 35 games • 19.1 PPG/8.7 RPG • Consensus All-American • National FOY • 8 NBA seasons • 321 games",
       "sources": [
         {
-          "label": "The Ringer: The Awakening — Jabari Parker (2017)",
-          "url": "https://www.theringer.com/2017/02/09/nba/nba-milwaukee-bucks-jabari-parker-basketball-and-political-awakening-bea7f0d34a8"
+          "url": "https://www.theringer.com/2017/02/09/nba/nba-milwaukee-bucks-jabari-parker-basketball-and-political-awakening-bea7f0d34a8",
+          "title": "The Ringer: The Awakening — Jabari Parker (2017)"
         },
         {
-          "label": "Sports Illustrated Vault: The Education of Jabari Parker (2014)",
-          "url": "https://vault.si.com/vault/2014/02/24/the-education-of-jabari-parker"
+          "url": "https://vault.si.com/vault/2014/02/24/the-education-of-jabari-parker",
+          "title": "Sports Illustrated Vault: The Education of Jabari Parker (2014)"
         },
         {
-          "label": "FC Barcelona: My Story by Jabari Parker (2025)",
-          "url": "https://www.fcbarcelona.com/en/news/4234546/my-story-by-jabari-parker-the-only-jersey-i-keep-will-be-barcas"
+          "url": "https://www.fcbarcelona.com/en/news/4234546/my-story-by-jabari-parker-the-only-jersey-i-keep-will-be-barcas",
+          "title": "FC Barcelona: My Story by Jabari Parker (2025)"
         },
         {
-          "label": "GoDuke.com: Jabari Parker player bio + draft declaration",
-          "url": "https://goduke.com/sports/mens-basketball/roster/jabari-parker/4382"
+          "url": "https://goduke.com/sports/mens-basketball/roster/jabari-parker/4382",
+          "title": "GoDuke.com: Jabari Parker player bio + draft declaration"
         },
         {
-          "label": "NBA.com: Jabari Parker finds bright side in ACL recovery (2017)"
+          "title": "NBA.com: Jabari Parker finds bright side in ACL recovery (2017)"
         },
         {
-          "label": "Chicago Sun-Times: Simeon dynasty coverage (2020–2023)"
+          "title": "Chicago Sun-Times: Simeon dynasty coverage (2020–2023)"
         },
         {
-          "label": "Basketball Reference: Jabari Parker career stats",
-          "url": "https://www.basketball-reference.com/players/p/parkeja01.html"
+          "url": "https://www.basketball-reference.com/players/p/parkeja01.html",
+          "title": "Basketball Reference: Jabari Parker career stats"
         },
         {
-          "label": "Wikipedia: Jabari Parker (biographical details)"
+          "title": "Wikipedia: Jabari Parker (biographical details)"
         }
       ],
       "nba": {
@@ -9276,23 +9276,23 @@
       "stat": "1 Duke playing season • 16.1/3.9/2.1 • 48.6% FG • 40.8% 3PT • All-ACC • 23rd pick • 8 NBA seasons • 6 teams",
       "sources": [
         {
-          "label": "ESPN: Duke’s Rodney Hood a patient leader with Southern roots (2014)",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/10354798/duke-rodney-hood-patient-leader-southern-roots"
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/10354798/duke-rodney-hood-patient-leader-southern-roots",
+          "title": "ESPN: Duke’s Rodney Hood a patient leader with Southern roots (2014)"
         },
         {
-          "label": "GoDuke.com: Rodney Hood player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/rodney-hood/4377"
+          "url": "https://goduke.com/sports/mens-basketball/roster/rodney-hood/4377",
+          "title": "GoDuke.com: Rodney Hood player bio"
         },
         {
-          "label": "Ball Durham: Former Duke star returns to school (2020)",
-          "url": "https://balldurham.com/2020/06/17/former-duke-basketball-star-returns-school-order-earn-degree/"
+          "url": "https://balldurham.com/2020/06/17/former-duke-basketball-star-returns-school-order-earn-degree/",
+          "title": "Ball Durham: Former Duke star returns to school (2020)"
         },
         {
-          "label": "Clarion Ledger: Rodney Hood retires (Nov 2024)",
-          "url": "https://www.clarionledger.com/story/sports/2024/11/21/rodney-hood-retires-nba-mississippi-state-basketball-meridian/76487700007/"
+          "url": "https://www.clarionledger.com/story/sports/2024/11/21/rodney-hood-retires-nba-mississippi-state-basketball-meridian/76487700007/",
+          "title": "Clarion Ledger: Rodney Hood retires (Nov 2024)"
         },
         {
-          "label": "Wikipedia: Rodney Hood"
+          "title": "Wikipedia: Rodney Hood"
         }
       ],
       "nba": {
@@ -9422,23 +9422,23 @@
       ],
       "sources": [
         {
-          "label": "The Players’ Tribune: Duke, by Grayson Allen (2017)",
-          "url": "https://www.theplayerstribune.com/articles/grayson-allen-duke-basketball"
+          "url": "https://www.theplayerstribune.com/articles/grayson-allen-duke-basketball",
+          "title": "The Players’ Tribune: Duke, by Grayson Allen (2017)"
         },
         {
-          "label": "Sports Illustrated: Duke’s Forgotten Freshman Saves the Season (2015)",
-          "url": "https://www.si.com/college/2015/04/07/grayson-allen-duke-blue-devils-national-championship"
+          "url": "https://www.si.com/college/2015/04/07/grayson-allen-duke-blue-devils-national-championship",
+          "title": "Sports Illustrated: Duke’s Forgotten Freshman Saves the Season (2015)"
         },
         {
-          "label": "Senior CLASS Award: Grayson Allen profile (2018)",
-          "url": "https://www.seniorclassaward.com/athletes/grayson_allen"
+          "url": "https://www.seniorclassaward.com/athletes/grayson_allen",
+          "title": "Senior CLASS Award: Grayson Allen profile (2018)"
         },
         {
-          "label": "Wikipedia: Grayson Allen (biographical details)"
+          "title": "Wikipedia: Grayson Allen (biographical details)"
         },
         {
-          "label": "Basketball Reference: Grayson Allen career stats",
-          "url": "https://www.basketball-reference.com/players/a/allengr01.html"
+          "url": "https://www.basketball-reference.com/players/a/allengr01.html",
+          "title": "Basketball Reference: Grayson Allen career stats"
         }
       ],
       "charity": {
@@ -10128,40 +10128,40 @@
       "stat": "4 Duke seasons • 121 games • 2.1 PPG, 1.5 RPG • Team-high 20 charges (2012–13) • 2011 ACC Tournament Champion • USA Basketball U18 Gold Medal",
       "sources": [
         {
-          "label": "GoDuke.com: Josh Hairston player profile (2013–14)",
-          "url": "https://goduke.com/sports/mens-basketball/roster/josh-hairston/4376"
+          "url": "https://goduke.com/sports/mens-basketball/roster/josh-hairston/4376",
+          "title": "GoDuke.com: Josh Hairston player profile (2013–14)"
         },
         {
-          "label": "GoDuke.com: Talent, Versatility & Friendships Lead Hairston to Duke (2010)",
-          "url": "https://goduke.com/news/2010/9/27/205001799"
+          "url": "https://goduke.com/news/2010/9/27/205001799",
+          "title": "GoDuke.com: Talent, Versatility & Friendships Lead Hairston to Duke (2010)"
         },
         {
-          "label": "Phenom Hoop Report: The Professional’s Perspective — Josh Hairston (2019)",
-          "url": "https://www.phenomhoopreport.com/the-professionals-perspective-josh-hairston/"
+          "url": "https://www.phenomhoopreport.com/the-professionals-perspective-josh-hairston/",
+          "title": "Phenom Hoop Report: The Professional’s Perspective — Josh Hairston (2019)"
         },
         {
-          "label": "Sports Agent Blog: Former Duke Player Josh Hairston Has Eyes Set on Becoming an NBA Agent (2020)",
-          "url": "https://sportsagentblog.com/2020/07/20/former-duke-basketball-player-josh-hairston-has-eyes-set-on-becoming-an-nba-agent/"
+          "url": "https://sportsagentblog.com/2020/07/20/former-duke-basketball-player-josh-hairston-has-eyes-set-on-becoming-an-nba-agent/",
+          "title": "Sports Agent Blog: Former Duke Player Josh Hairston Has Eyes Set on Becoming an NBA Agent (2020)"
         },
         {
-          "label": "Fredericksburg.com: Area residents chase hoop dreams overseas (2017)",
-          "url": "https://fredericksburg.com/fls/area-residents-chase-hoop-dreams-overseas/article_1ab48601-51c0-50b7-bf61-d247c41d2f36.html"
+          "url": "https://fredericksburg.com/fls/area-residents-chase-hoop-dreams-overseas/article_1ab48601-51c0-50b7-bf61-d247c41d2f36.html",
+          "title": "Fredericksburg.com: Area residents chase hoop dreams overseas (2017)"
         },
         {
-          "label": "Fredericksburg.com: Cougars’ Hairston chooses Duke (2008)",
-          "url": "https://fredericksburg.com/sportscollege_basketball/cougars-hairston-chooses-duke-college-basketball/article_0c388f8d-dab2-597b-be29-ff514509a96c.html"
+          "url": "https://fredericksburg.com/sportscollege_basketball/cougars-hairston-chooses-duke-college-basketball/article_0c388f8d-dab2-597b-be29-ff514509a96c.html",
+          "title": "Fredericksburg.com: Cougars’ Hairston chooses Duke (2008)"
         },
         {
-          "label": "Fredericksburg.com: Prep Basketball — Journey starts with AAU play (2024)",
-          "url": "https://fredericksburg.com/sports/prep-basketball-journey-starts-with-aau-play/article_68ca28c7-50ad-582e-a7df-c54a0844e0a9.html"
+          "url": "https://fredericksburg.com/sports/prep-basketball-journey-starts-with-aau-play/article_68ca28c7-50ad-582e-a7df-c54a0844e0a9.html",
+          "title": "Fredericksburg.com: Prep Basketball — Journey starts with AAU play (2024)"
         },
         {
-          "label": "Proballers: Josh Hairston career stats",
-          "url": "https://www.proballers.com/basketball/player/39063/josh-hairston"
+          "url": "https://www.proballers.com/basketball/player/39063/josh-hairston",
+          "title": "Proballers: Josh Hairston career stats"
         },
         {
-          "label": "Basketball Reference: Josh Hairston college stats",
-          "url": "https://www.sports-reference.com/cbb/players/josh-hairston-1.html"
+          "url": "https://www.sports-reference.com/cbb/players/josh-hairston-1.html",
+          "title": "Basketball Reference: Josh Hairston college stats"
         }
       ],
       "nba": {
@@ -10689,27 +10689,27 @@
       "stat": "2 Duke seasons • 19.5/5.1 soph • 50/44/86 • 1st Team All-ACC • All-American • ACC Tourney MVP • 44.2% career 3PT",
       "sources": [
         {
-          "label": "ESPN: Luke Kennard has been one of few sure things for Duke (2017)",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/18452498/luke-kennard-guided-duke-blue-devils-season"
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/18452498/luke-kennard-guided-duke-blue-devils-season",
+          "title": "ESPN: Luke Kennard has been one of few sure things for Duke (2017)"
         },
         {
-          "label": "WCPO: Franklin bursting with pride over Kennard (2017)",
-          "url": "https://www.wcpo.com/news/insider/dukes-luke-kennard-giving-his-hometown-of-franklin-plenty-of-memories-this-march"
+          "url": "https://www.wcpo.com/news/insider/dukes-luke-kennard-giving-his-hometown-of-franklin-plenty-of-memories-this-march",
+          "title": "WCPO: Franklin bursting with pride over Kennard (2017)"
         },
         {
-          "label": "WCPO: Franklin plans to retire Kennard’s No. 10 (2020)",
-          "url": "https://www.wcpo.com/sports/high-school-sports/franklin-high-school-plans-to-retire-luke-kennards-no-10-basketball-jersey"
+          "url": "https://www.wcpo.com/sports/high-school-sports/franklin-high-school-plans-to-retire-luke-kennards-no-10-basketball-jersey",
+          "title": "WCPO: Franklin plans to retire Kennard’s No. 10 (2020)"
         },
         {
-          "label": "GoDuke.com: Luke Kennard player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/luke-kennard/4419"
+          "url": "https://goduke.com/sports/mens-basketball/roster/luke-kennard/4419",
+          "title": "GoDuke.com: Luke Kennard player bio"
         },
         {
-          "label": "Basketball Reference: Luke Kennard career stats",
-          "url": "https://www.basketball-reference.com/players/k/kennalu01.html"
+          "url": "https://www.basketball-reference.com/players/k/kennalu01.html",
+          "title": "Basketball Reference: Luke Kennard career stats"
         },
         {
-          "label": "Wikipedia: Luke Kennard"
+          "title": "Wikipedia: Luke Kennard"
         }
       ],
       "nba": {
@@ -10937,28 +10937,28 @@
       "stat": "1 Duke season • 21.0/11.1 • ACC POY + ROY • Consensus All-American • 2nd pick • 8 NBA seasons • 6 teams",
       "sources": [
         {
-          "label": "ESPN: Duke sensation Marvin Bagley III is ready to take on the world (2018)",
-          "url": "https://www.espn.com/espn/feature/story/_/id/22060911/duke-sensation-marvin-bagley-iii-ready-take-world"
+          "url": "https://www.espn.com/espn/feature/story/_/id/22060911/duke-sensation-marvin-bagley-iii-ready-take-world",
+          "title": "ESPN: Duke sensation Marvin Bagley III is ready to take on the world (2018)"
         },
         {
-          "label": "ESPN: Marvin Bagley III to reclassify to Class of 2017, play at Duke",
-          "url": "https://www.espn.com/college-sports/recruiting/basketball/mens/story/_/id/20345857/marvin-bagley-iii-reclassify-2017-play-duke"
+          "url": "https://www.espn.com/college-sports/recruiting/basketball/mens/story/_/id/20345857/marvin-bagley-iii-reclassify-2017-play-duke",
+          "title": "ESPN: Marvin Bagley III to reclassify to Class of 2017, play at Duke"
         },
         {
-          "label": "Complex: Marvin Bagley III Is His Own Breed (2018)",
-          "url": "https://www.complex.com/sports/2018/06/2018-nba-draft-prospect-and-rapper-marvin-bagley-is-his-own-breed"
+          "url": "https://www.complex.com/sports/2018/06/2018-nba-draft-prospect-and-rapper-marvin-bagley-is-his-own-breed",
+          "title": "Complex: Marvin Bagley III Is His Own Breed (2018)"
         },
         {
-          "label": "GoDuke.com: Marvin Bagley III player bio",
-          "url": "https://goduke.com/sports/basketball/roster/marvin-bagley-iii/4427"
+          "url": "https://goduke.com/sports/basketball/roster/marvin-bagley-iii/4427",
+          "title": "GoDuke.com: Marvin Bagley III player bio"
         },
         {
-          "label": "Basketball Reference: Marvin Bagley III career stats",
-          "url": "https://www.basketball-reference.com/players/b/baglema01.html"
+          "url": "https://www.basketball-reference.com/players/b/baglema01.html",
+          "title": "Basketball Reference: Marvin Bagley III career stats"
         },
         {
-          "label": "D Magazine: Can Marvin Bagley Play His Way Into the Mavericks’ Plans? (Mar 2026)",
-          "url": "https://www.dmagazine.com/sports/2026/03/nba-mavericks-bagley-dallas-davis/"
+          "url": "https://www.dmagazine.com/sports/2026/03/nba-mavericks-bagley-dallas-davis/",
+          "title": "D Magazine: Can Marvin Bagley Play His Way Into the Mavericks’ Plans? (Mar 2026)"
         }
       ],
       "nba": {
@@ -11066,27 +11066,27 @@
       "stat": "1 Duke season • 13.5/9.1/2.1 blk • 56.1% FG • 2nd Team All-ACC • 7th pick • 383 NBA games • $50M deal",
       "sources": [
         {
-          "label": "CBS Sports: Duke’s Wendell Carter Jr. was born into basketball (2018)",
-          "url": "https://www.cbssports.com/college-basketball/news/dukes-wendell-carter-jr-was-born-into-basketball-en-route-to-an-nba-future/"
+          "url": "https://www.cbssports.com/college-basketball/news/dukes-wendell-carter-jr-was-born-into-basketball-en-route-to-an-nba-future/",
+          "title": "CBS Sports: Duke’s Wendell Carter Jr. was born into basketball (2018)"
         },
         {
-          "label": "Andscape: Duke signee Wendell Carter Jr. and his parents (2017)",
-          "url": "https://andscape.com/features/wendell-carter-jr-duke/"
+          "url": "https://andscape.com/features/wendell-carter-jr-duke/",
+          "title": "Andscape: Duke signee Wendell Carter Jr. and his parents (2017)"
         },
         {
-          "label": "Andscape: The NBA journey begins for Wendell Carter Jr. (2018)",
-          "url": "https://andscape.com/features/the-nba-journey-begins-for-wendell-carter-jr-and-his-family-in-chicago/"
+          "url": "https://andscape.com/features/the-nba-journey-begins-for-wendell-carter-jr-and-his-family-in-chicago/",
+          "title": "Andscape: The NBA journey begins for Wendell Carter Jr. (2018)"
         },
         {
-          "label": "NBA.com: Wendell Carter Jr. bio",
-          "url": "https://www.nba.com/player/1628976/wendell-carter-jr/bio"
+          "url": "https://www.nba.com/player/1628976/wendell-carter-jr/bio",
+          "title": "NBA.com: Wendell Carter Jr. bio"
         },
         {
-          "label": "WendellACJr.com: Official site",
-          "url": "https://wendellacjr.com/"
+          "url": "https://wendellacjr.com/",
+          "title": "WendellACJr.com: Official site"
         },
         {
-          "label": "Wikipedia: Wendell Carter Jr."
+          "title": "Wikipedia: Wendell Carter Jr."
         }
       ],
       "nba": {
@@ -11500,23 +11500,23 @@
       "stat": "1 Duke season • 13.5/3.7/1.9 • 22 pts vs Kentucky debut • GW 3 at FSU • 10th pick • 5 NBA teams",
       "sources": [
         {
-          "label": "SI: Cam Reddish Could Reset Expectations for the Modern Basketball Player (2018)",
-          "url": "https://www.si.com/college/2018/03/10/cam-reddish-westtown-high-school-duke-basketball-recruit"
+          "url": "https://www.si.com/college/2018/03/10/cam-reddish-westtown-high-school-duke-basketball-recruit",
+          "title": "SI: Cam Reddish Could Reset Expectations for the Modern Basketball Player (2018)"
         },
         {
-          "label": "PA Prep Live: Westtown’s Reddish signs NLI to attend Duke (2017)",
-          "url": "https://papreplive.com/2017/11/08/westtown-schools-reddish-signs-nli-to-attend-duke-university"
+          "url": "https://papreplive.com/2017/11/08/westtown-schools-reddish-signs-nli-to-attend-duke-university",
+          "title": "PA Prep Live: Westtown’s Reddish signs NLI to attend Duke (2017)"
         },
         {
-          "label": "GoDuke.com: Cam Reddish player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/cam-reddish/4449"
+          "url": "https://goduke.com/sports/mens-basketball/roster/cam-reddish/4449",
+          "title": "GoDuke.com: Cam Reddish player bio"
         },
         {
-          "label": "RotoWire: Cam Reddish career overview",
-          "url": "https://www.rotowire.com/basketball/player/cam-reddish-4772"
+          "url": "https://www.rotowire.com/basketball/player/cam-reddish-4772",
+          "title": "RotoWire: Cam Reddish career overview"
         },
         {
-          "label": "Wikipedia: Cam Reddish"
+          "title": "Wikipedia: Cam Reddish"
         }
       ],
       "nba": {
@@ -11631,24 +11631,24 @@
       "stat": "4 Duke seasons • 130 games • 108 starts • 1,469 pts • 14.0/3.3 senior • 42.9% 3PT • 2x captain",
       "sources": [
         {
-          "label": "GoDuke.com: Jeremy Roach player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/jeremy-roach/19450"
+          "url": "https://goduke.com/sports/mens-basketball/roster/jeremy-roach/19450",
+          "title": "GoDuke.com: Jeremy Roach player bio"
         },
         {
-          "label": "Arlington Catholic Herald: Meet the diocesan high schooler headed to Duke (2020)",
-          "url": "https://www.catholicherald.com/article/local/meet-the-diocesan-high-schooler-who-may-be-dukes-next-basketball-star/"
+          "url": "https://www.catholicherald.com/article/local/meet-the-diocesan-high-schooler-who-may-be-dukes-next-basketball-star/",
+          "title": "Arlington Catholic Herald: Meet the diocesan high schooler headed to Duke (2020)"
         },
         {
-          "label": "Hoops HQ: Jeremy Roach to face his former team (2025)",
-          "url": "https://www.hoopshq.com/acc/duke-guy-forever-jeremy-roach-to-face-off-against-his-former-team-on-sunday"
+          "url": "https://www.hoopshq.com/acc/duke-guy-forever-jeremy-roach-to-face-off-against-his-former-team-on-sunday",
+          "title": "Hoops HQ: Jeremy Roach to face his former team (2025)"
         },
         {
-          "label": "Duke Chronicle: Jeremy Roach commits to Baylor (2024)",
-          "url": "https://www.dukechronicle.com/article/2024/04/duke-mens-basketball-jeremy-roach-declares-nba-draft-enters-transfer-portal"
+          "url": "https://www.dukechronicle.com/article/2024/04/duke-mens-basketball-jeremy-roach-declares-nba-draft-enters-transfer-portal",
+          "title": "Duke Chronicle: Jeremy Roach commits to Baylor (2024)"
         },
         {
-          "label": "CBS Sports: Jeremy Roach enters transfer portal (2024)",
-          "url": "https://www.cbssports.com/college-basketball/news/jeremy-roach-enters-transfer-portal-duke-pg-also-declares-for-nba-draft-but-will-retain-eligibility/"
+          "url": "https://www.cbssports.com/college-basketball/news/jeremy-roach-enters-transfer-portal-duke-pg-also-declares-for-nba-draft-but-will-retain-eligibility/",
+          "title": "CBS Sports: Jeremy Roach enters transfer portal (2024)"
         }
       ],
       "nba": {
@@ -11812,23 +11812,23 @@
       "stat": "1 Duke season • 10.4 PPG • .493/.447 shooting • ACC All-Freshman • 16th pick • 92 NBA games • Retired at 21",
       "sources": [
         {
-          "label": "CBS Sports: AJ Griffin explains why he gave up basketball to follow Jesus (2024)",
-          "url": "https://www.cbssports.com/nba/news/former-nba-first-round-pick-a-j-griffin-explains-why-he-gave-up-basketball-to-follow-jesus/"
+          "url": "https://www.cbssports.com/nba/news/former-nba-first-round-pick-a-j-griffin-explains-why-he-gave-up-basketball-to-follow-jesus/",
+          "title": "CBS Sports: AJ Griffin explains why he gave up basketball to follow Jesus (2024)"
         },
         {
-          "label": "BET: AJ Griffin Quits the NBA to Follow Jesus (2024)",
-          "url": "https://www.bet.com/article/5t7w24/aj-griffin-quits-the-nba-to-follow-jesus-and-become-a-minister"
+          "url": "https://www.bet.com/article/5t7w24/aj-griffin-quits-the-nba-to-follow-jesus-and-become-a-minister",
+          "title": "BET: AJ Griffin Quits the NBA to Follow Jesus (2024)"
         },
         {
-          "label": "EssentiallySports: Who Is AJ Griffin? (2024)",
-          "url": "https://www.essentiallysports.com/nba-active-basketball-news-who-is-aj-griffin-meet-ex-duke-star-planning-to-retire-from-nba-at-twenty-one/"
+          "url": "https://www.essentiallysports.com/nba-active-basketball-news-who-is-aj-griffin-meet-ex-duke-star-planning-to-retire-from-nba-at-twenty-one/",
+          "title": "EssentiallySports: Who Is AJ Griffin? (2024)"
         },
         {
-          "label": "GoDuke.com: AJ Griffin player bio",
-          "url": "https://goduke.com/sports/mens-basketball/roster/aj-griffin/17231"
+          "url": "https://goduke.com/sports/mens-basketball/roster/aj-griffin/17231",
+          "title": "GoDuke.com: AJ Griffin player bio"
         },
         {
-          "label": "Wikipedia: AJ Griffin (basketball)"
+          "title": "Wikipedia: AJ Griffin (basketball)"
         }
       ],
       "nba": {
@@ -13193,28 +13193,28 @@
       },
       "sources": [
         {
-          "label": "Philadelphia Inquirer: Duke’s Dereck Lively II has risen into national stardom. His mother steered that path. (June 2023)",
-          "url": "https://www.inquirer.com/sixers/dereck-lively-westtown-graduate-duke-nba-draft-first-round-20230622.html"
+          "url": "https://www.inquirer.com/sixers/dereck-lively-westtown-graduate-duke-nba-draft-first-round-20230622.html",
+          "title": "Philadelphia Inquirer: Duke’s Dereck Lively II has risen into national stardom. His mother steered that path. (June 2023)"
         },
         {
-          "label": "Andscape: Dereck Lively II has mom in his corner and dad on his mind at the NBA draft (June 2023)",
-          "url": "https://andscape.com/features/dereck-lively-ii-has-mom-in-his-corner-and-dad-on-his-mind-at-the-nba-draft/"
+          "url": "https://andscape.com/features/dereck-lively-ii-has-mom-in-his-corner-and-dad-on-his-mind-at-the-nba-draft/",
+          "title": "Andscape: Dereck Lively II has mom in his corner and dad on his mind at the NBA draft (June 2023)"
         },
         {
-          "label": "On3: Former Duke star Dereck Lively II’s mother, Kathy Drysdale, dies after cancer battle (Apr 2024)"
+          "title": "On3: Former Duke star Dereck Lively II’s mother, Kathy Drysdale, dies after cancer battle (Apr 2024)"
         },
         {
-          "label": "Yahoo Sports: 2024 NBA Finals — Dereck Lively II stretches Dallas’s ceiling (June 2024)"
+          "title": "Yahoo Sports: 2024 NBA Finals — Dereck Lively II stretches Dallas’s ceiling (June 2024)"
         },
         {
-          "label": "CBS Sports: The rise of Dereck Lively II (May 2024)",
-          "url": "https://www.cbssports.com/nba/news/the-rise-of-dereck-lively-ii-from-late-blooming-high-school-star-to-mavericks-rookie-revelation/"
+          "url": "https://www.cbssports.com/nba/news/the-rise-of-dereck-lively-ii-from-late-blooming-high-school-star-to-mavericks-rookie-revelation/",
+          "title": "CBS Sports: The rise of Dereck Lively II (May 2024)"
         },
         {
-          "label": "Penn State Collegian: Remembering the legacy of Lady Lion great Kathy Drysdale (Apr 2025)"
+          "title": "Penn State Collegian: Remembering the legacy of Lady Lion great Kathy Drysdale (Apr 2025)"
         },
         {
-          "label": "Legacy.com: Kathy Phillips Drysdale obituary (Apr 2024)"
+          "title": "Legacy.com: Kathy Phillips Drysdale obituary (Apr 2024)"
         }
       ],
       "charity": {
@@ -13291,23 +13291,23 @@
       },
       "sources": [
         {
-          "label": "EssentiallySports: Who Are Jared McCain’s Parents? (Mar 2024)"
+          "title": "EssentiallySports: Who Are Jared McCain’s Parents? (Mar 2024)"
         },
         {
-          "label": "Pro Insight Q&A: Jared McCain (2022)",
-          "url": "https://www.prospectiveinsight.com/post/jared-mccain"
+          "url": "https://www.prospectiveinsight.com/post/jared-mccain",
+          "title": "Pro Insight Q&A: Jared McCain (2022)"
         },
         {
-          "label": "NBA.com: Thunder acquire Jared McCain in trade with Sixers (Feb 2026)"
+          "title": "NBA.com: Thunder acquire Jared McCain in trade with Sixers (Feb 2026)"
         },
         {
-          "label": "CBS Philadelphia: Sixers trade Jared McCain to Thunder (Feb 2026)"
+          "title": "CBS Philadelphia: Sixers trade Jared McCain to Thunder (Feb 2026)"
         },
         {
-          "label": "GoDuke.com: Jared McCain player bio"
+          "title": "GoDuke.com: Jared McCain player bio"
         },
         {
-          "label": "Wikipedia: Jared McCain (biographical details)"
+          "title": "Wikipedia: Jared McCain (biographical details)"
         }
       ],
       "seasons": [
@@ -13389,28 +13389,28 @@
       },
       "sources": [
         {
-          "label": "ESPN: Inside Cooper Flagg’s improbable rise (Nov 2024)",
-          "url": "https://www.espn.com/nba/story/_/id/42271118/the-tiny-town-legendary-1980s-nba-boston-celtics-team-built-cooper-flagg"
+          "url": "https://www.espn.com/nba/story/_/id/42271118/the-tiny-town-legendary-1980s-nba-boston-celtics-team-built-cooper-flagg",
+          "title": "ESPN: Inside Cooper Flagg’s improbable rise (Nov 2024)"
         },
         {
-          "label": "ESPN: Early-morning runs, autograph signings and so many dunks (Mar 2025)",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/44205844/cooper-flagg-duke-basketball-stories-dominance-maine-2025"
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/44205844/cooper-flagg-duke-basketball-stories-dominance-maine-2025",
+          "title": "ESPN: Early-morning runs, autograph signings and so many dunks (Mar 2025)"
         },
         {
-          "label": "The Ringer: The Maine, the Myth, and the Legend of Cooper Flagg (June 2025)",
-          "url": "https://www.theringer.com/2025/06/25/nba/cooper-flagg-maine-nba-draft"
+          "url": "https://www.theringer.com/2025/06/25/nba/cooper-flagg-maine-nba-draft",
+          "title": "The Ringer: The Maine, the Myth, and the Legend of Cooper Flagg (June 2025)"
         },
         {
-          "label": "Union Leader: How Cooper Flagg’s family tragedy made one charity effort personal (Dec 2024)"
+          "title": "Union Leader: How Cooper Flagg’s family tragedy made one charity effort personal (Dec 2024)"
         },
         {
-          "label": "GoDuke.com: Cooper Flagg player bio"
+          "title": "GoDuke.com: Cooper Flagg player bio"
         },
         {
-          "label": "Britannica: Cooper Flagg biography"
+          "title": "Britannica: Cooper Flagg biography"
         },
         {
-          "label": "Sports Reference: Cooper Flagg college stats"
+          "title": "Sports Reference: Cooper Flagg college stats"
         }
       ],
       "charity": {
@@ -13481,23 +13481,23 @@
       },
       "sources": [
         {
-          "label": "FOX Sports: The Legend of Kon — Inside Kon Knueppel’s burning desire to be great (Apr 2025)",
-          "url": "https://www.foxsports.com/stories/college-basketball/legend-kon-inside-kon-knueppels-burning-desire-great"
+          "url": "https://www.foxsports.com/stories/college-basketball/legend-kon-inside-kon-knueppels-burning-desire-great",
+          "title": "FOX Sports: The Legend of Kon — Inside Kon Knueppel’s burning desire to be great (Apr 2025)"
         },
         {
-          "label": "The Athletic/NBA.com: Cooper Flagg and Kon Knueppel — Friends, former roommates and now ROY favorites (Jan 2026)"
+          "title": "The Athletic/NBA.com: Cooper Flagg and Kon Knueppel — Friends, former roommates and now ROY favorites (Jan 2026)"
         },
         {
-          "label": "Yahoo Sports: Who are Kon Knueppel’s parents? (Mar 2025)"
+          "title": "Yahoo Sports: Who are Kon Knueppel’s parents? (Mar 2025)"
         },
         {
-          "label": "EssentiallySports: Who Are Kon Knueppel’s Parents? (Apr 2025)"
+          "title": "EssentiallySports: Who Are Kon Knueppel’s Parents? (Apr 2025)"
         },
         {
-          "label": "GoDuke.com: Kon Knueppel player bio"
+          "title": "GoDuke.com: Kon Knueppel player bio"
         },
         {
-          "label": "Milwaukee Journal Sentinel: What to know about Duke’s Kon Knueppel (Apr 2025)"
+          "title": "Milwaukee Journal Sentinel: What to know about Duke’s Kon Knueppel (Apr 2025)"
         }
       ],
       "seasons": [
@@ -13647,21 +13647,21 @@
       },
       "sources": [
         {
-          "label": "ESPN E60: Blood Brothers documentary (Apr 2024)"
+          "title": "ESPN E60: Blood Brothers documentary (Apr 2024)"
         },
         {
-          "label": "Andscape: Cameron and Cayden Boozer are creating their own path (Apr 2025)",
-          "url": "https://andscape.com/features/cameron-and-cayden-boozer-are-creating-their-own-path/"
+          "url": "https://andscape.com/features/cameron-and-cayden-boozer-are-creating-their-own-path/",
+          "title": "Andscape: Cameron and Cayden Boozer are creating their own path (Apr 2025)"
         },
         {
-          "label": "ESPN: 5-star brothers Cameron, Cayden Boozer commit to Duke (Oct 2024)",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/41734701/5-star-brothers-cameron-cayden-boozer-commit-duke-hoops"
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/41734701/5-star-brothers-cameron-cayden-boozer-commit-duke-hoops",
+          "title": "ESPN: 5-star brothers Cameron, Cayden Boozer commit to Duke (Oct 2024)"
         },
         {
-          "label": "CBS Miami: 14-year-old twin brothers lead basketball charge at Columbus HS (Feb 2022)"
+          "title": "CBS Miami: 14-year-old twin brothers lead basketball charge at Columbus HS (Feb 2022)"
         },
         {
-          "label": "Basketball Network: How Carlos Boozer’s twins cured their older brother (Sep 2024)"
+          "title": "Basketball Network: How Carlos Boozer’s twins cured their older brother (Sep 2024)"
         }
       ],
       "charity": {
@@ -13720,21 +13720,21 @@
       },
       "sources": [
         {
-          "label": "Andscape: Cameron and Cayden Boozer are creating their own path (Apr 2025)",
-          "url": "https://andscape.com/features/cameron-and-cayden-boozer-are-creating-their-own-path/"
+          "url": "https://andscape.com/features/cameron-and-cayden-boozer-are-creating-their-own-path/",
+          "title": "Andscape: Cameron and Cayden Boozer are creating their own path (Apr 2025)"
         },
         {
-          "label": "ESPN: 5-star brothers Cameron, Cayden Boozer commit to Duke (Oct 2024)",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/41734701/5-star-brothers-cameron-cayden-boozer-commit-duke-hoops"
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/41734701/5-star-brothers-cameron-cayden-boozer-commit-duke-hoops",
+          "title": "ESPN: 5-star brothers Cameron, Cayden Boozer commit to Duke (Oct 2024)"
         },
         {
-          "label": "Sportskeeda: Mother CeCe shares how stoic Cameron differs from loud twin Cayden (Oct 2024)"
+          "title": "Sportskeeda: Mother CeCe shares how stoic Cameron differs from loud twin Cayden (Oct 2024)"
         },
         {
-          "label": "247Sports: Cayden Boozer scouting report"
+          "title": "247Sports: Cayden Boozer scouting report"
         },
         {
-          "label": "SI High School: Cameron and Cayden Boozer make dual commitments to Duke (Oct 2024)"
+          "title": "SI High School: Cameron and Cayden Boozer make dual commitments to Duke (Oct 2024)"
         }
       ],
       "charity": {
@@ -14184,28 +14184,59 @@
       "era": "scheyer",
       "name": "Ifeanyi Ufochukwu",
       "pos": "Center",
-      "years": "2022–26",
-      "classOf": "",
-      "height": "6'10\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "years": "2025–26",
+      "classOf": "2026",
+      "height": "6’11”",
+      "tagline": "From Benin City, Nigeria, to free lunches at an after-school academy, to a bachelor’s and MBA from Rice, to five games in Duke blue before a season-ending knee injury on the number-one team in the country. Trust God. Work Hard. Stay Humble.",
+      "status": "done",
+      "now": "Recovering from season-ending knee injury (Dec 2025); graduate student at Duke; holds BS and MBA from Rice University",
       "seasons": [
-        "2022-23",
-        "2023-24",
-        "2024-25",
         "2025-26"
       ],
+      "drafted": "N/A — current player",
+      "stat": "5 Duke games • 0.8 PPG, 0.6 RPG • 50.0% FG • Prior: 25 games at Rice (2022–24) • 2.0 PPG, 1.2 RPG • AAC All-Academic • Rice BS + MBA",
+      "sources": [
+        {
+          "title": "GoDuke.com: Ifeanyi Ufochukwu player profile (2025–26)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/ifeanyi-ufochukwu/23114"
+        },
+        {
+          "title": "247Sports: Duke lands former Rice center Ifeanyi Ufochukwu via transfer portal (May 2025)",
+          "url": "https://247sports.com/college/duke/article/duke-lands-former-rice-center-ifeanyi-ufochukwu-via-transfer-portal-249701344/"
+        },
+        {
+          "title": "The Duke Chronicle: 2025–26 player preview — Ifeanyi Ufochukwu (Oct 2025)",
+          "url": "https://dukechronicle.com/article/duke-basketball-player-preview-ifeanyi-ufochukwu-scheyer-rice-gafford-covenant-20251004"
+        },
+        {
+          "title": "The Duke Chronicle: Film room — Rice transfer Ifeanyi Ufochukwu augments Duke’s big-man corps (Jul 2025)",
+          "url": "https://www.dukechronicle.com/article/2025/07/duke-mens-basketball-film-room-ifeanyi-ufochukwu-rice-transfer-scheyer"
+        },
+        {
+          "title": "Yahoo Sports: Duke basketball’s Ifeanyi Ufochukwu out for season after non-contact knee injury (Jan 2026)",
+          "url": "https://sports.yahoo.com/articles/duke-basketball-ifeanyi-ufochukwu-season-163406335.html"
+        },
+        {
+          "title": "Bradley Braves Athletics: Uche Ufochukwu player profile (sister; family details)",
+          "url": "https://bradleybraves.com/sports/womens-basketball/roster/uche-ufochukwu/12408"
+        },
+        {
+          "title": "Basketball Reference: Ifeanyi Ufochukwu college stats",
+          "url": "https://www.sports-reference.com/cbb/players/ifeanyi-ufochukwu-1.html"
+        }
+      ],
       "nba": null,
-      "sources": [],
+      "bio": {
+        "road": "Ifeanyi Prince Ufochukwu was born in Benin City, the capital of Edo State in southern Nigeria — a sprawling metropolis of over a million people, ancient in history, modern in chaos. His parents, Samuel and Grace Ufochukwu, raised five children: Onyinye Juliet, Nkechi Cynthia, Uchechi, Ifeanyi, and Nzube Micheal. Education was everything. Basketball was nothing. Ifeanyi grew up playing soccer, the way most Nigerian boys do — in the streets, with whatever ball was available, on whatever surface existed.\n\nHis older sister Uchechi was the one who found basketball first. She came to the United States in 2014, enrolled at Archbishop Carroll High School in Washington, D.C., earned team MVP honors as a senior, and went on to play Division I basketball at Winthrop and then Bradley University. She was the trailblazer — the first Ufochukwu to cross an ocean for the game. Ifeanyi followed her path, arriving in the Charlotte, North Carolina, area and connecting with a minister who ran an after-school academy. The academy provided structure, mentorship, and free lunches — the basics that a kid from Benin City needed to survive in a new country. School, his family had always emphasized, was the most important thing.\n\nIt was through that after-school program that Ifeanyi discovered Covenant Day School, a small Christian school in Matthews, North Carolina, just outside Charlotte. He enrolled and, in 2017, at roughly fifteen years old, began playing organized basketball for the first time. Think about that: he had been playing the sport for approximately three years when college coaches started calling.\n\nThe raw material was obvious. He was 6-foot-10 with long arms, a solid frame, and the lateral quickness of a former soccer player. Under coach Marty Parrish at Covenant Day, Ufochukwu developed rapidly. By his senior year, he averaged 10.4 points, 7.1 rebounds, and 1.9 blocks per game, shooting 63.4 percent from the field. He earned All-Conference honors and a three-star recruiting rating from 247Sports, ranked as the 49th-best center in the class of 2022. He played AAU ball with Team Curry on the grassroots circuit.\n\nFor a kid who had been playing basketball for only five years, the scouting reports were remarkable. Evaluators noted his footwork on the block, his touch around the rim, his feel for the game, and his ability to score with counter moves — all unusual for someone so new to the sport. They also noted what he hadn’t yet done: he had never lifted weights seriously. The ceiling was enormous.\n\nRice University in Houston offered him a scholarship, and Ufochukwu accepted. He would be the second Ufochukwu to play Division I basketball in America — following the sister who had opened the door.",
+        "duke": "Ufochukwu spent three years at Rice before arriving at Duke. At Rice, his playing time was limited — 25 appearances across two active seasons, career averages of 2.0 points and 1.2 rebounds in 3.5 minutes per game — but his development off the court was extraordinary. He completed his bachelor’s degree in three years. Then he stayed for an MBA. He was named to the 2024 AAC All-Academic Team and the 2023 Conference USA Commissioner’s Honor Roll. His LinkedIn profile describes his focus: finance, leadership, and entrepreneurship to drive impact in underserved communities in Nigeria and the United States. He redshirted his third year at Rice, the 2024–25 season.\n\nIn May 2025, Ufochukwu entered the transfer portal and committed to Duke — the second consecutive Rice player to transfer to the Blue Devils, following Cameron Sheffield the year before. He arrived in Durham as a graduate student, 6-foot-11 and 240 pounds, joining a roster that had just lost its entire starting five to the NBA Draft: Cooper Flagg, Kon Knueppel, Khaman Maluach, Tyrese Proctor, and Sion James. Head coach Jon Scheyer needed frontcourt depth behind Patrick Ngongba II and Maliq Brown. Ufochukwu was the insurance policy.\n\nEveryone knew his role. The Duke Chronicle compared his game to Dallas Maverick Daniel Gafford — an athletic rim-runner who scores on lobs, second-chance points, and pick-and-roll action, and who alters shots even when he doesn’t block them. That was the ceiling. The floor was a practice player who would mentor younger teammates and contribute veteran leadership in a locker room full of freshmen.\n\nUfochukwu scored his first points in a Duke uniform against Western Carolina on November 8, 2025. He played seven minutes against Niagara on November 21, scoring two points. Five games total. Then, in December, during a practice, he suffered a non-contact knee injury. Season over.\n\nScheyer addressed it publicly on January 12, 2026: a really unfortunate injury in practice. Non-contact. He’s been a great guy for us. He’ll be out for the remainder of the season. The coach said the team was focused on Ufochukwu’s full recovery, which would take a lot of time.\n\nFive games. Four points. Two rebounds. Zero starts. On a team that is currently 28–2, ranked number one in the country, and heading into the ACC Tournament and March Madness as the top overall seed. Ifeanyi Ufochukwu will watch from the bench in a boot or a brace, cheering for teammates who are chasing a national championship without him. That is his Duke basketball career, and it may be the most quietly powerful story in the entire Brotherhood.",
+        "now": "Ifeanyi Ufochukwu is 34 years old — no. He is not. He is twenty-four. He just carries himself like someone who has lived three lifetimes: one in Benin City, one at Rice, one at Duke. His Instagram bio reads: @DukeMBB. The Nigerian flag emoji. CLT | HTX. Trust God. Work Hard. Stay Humble.\n\nHe is recovering from a season-ending knee injury suffered in December 2025. The nature of the injury — non-contact, in practice — and Scheyer’s careful language about recovery time suggest it is significant. Whether Ufochukwu has remaining eligibility or will pursue a professional career overseas remains unclear as of March 2026. What is clear is that basketball was never the only plan.\n\nHe holds a bachelor’s degree and an MBA from Rice University, one of the most selective schools in the country. His stated professional focus — using finance, leadership, and entrepreneurship to drive impact in underserved communities in Nigeria and the U.S. — is not a platitude. It is a blueprint drawn by someone who was once the kid getting free lunches at an after-school academy, who knows exactly what it means when a minister opens a door.\n\nHis sister Uchechi played Division I basketball at Winthrop and Bradley. His parents, Samuel and Grace, raised five children and sent at least two of them across an ocean to play a sport and earn an education. The Ufochukwu family’s investment in American basketball is not a story about athleticism. It is a story about strategy, sacrifice, and the belief that education is the vehicle and basketball is the engine.\n\nIfeanyi Ufochukwu will never be the player anyone thinks of when they think of Duke basketball. He played five games. He scored four points. He suffered a devastating injury in practice while the team he was part of was building one of the greatest seasons in program history. He will not cut down any nets. He will not hear his name called on draft night.\n\nBut he has a Duke degree. He has an MBA from Rice. He has traveled from Benin City, Nigeria, to a Christian school outside Charlotte, to Houston, to Durham. He followed a sister who blazed the trail. He was fed by a minister who ran an after-school program. He was coached by Jon Scheyer on the number-one team in America. And when his knee gave out in December, his coach called him a great guy, and meant it.\n\nThe Brotherhood is not about stat lines. It never was. Ifeanyi Ufochukwu is the proof that wearing Duke blue — even for five games, even in a boot on the bench — means something. Trust God. Work Hard. Stay Humble. He has done all three."
+      },
       "hometown": "Benin City, Nigeria",
       "jersey": "15",
       "highSchool": "Covenant Day School",
       "rsci": "",
-      "weight": "220"
+      "weight": "240",
+      "lastUpdated": "2026-03-13"
     },
     {
       "id": "caleb_foster",
