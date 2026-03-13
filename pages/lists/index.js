@@ -21,6 +21,7 @@ const lists = [
   { slug: 'draft-history', title: 'Brotherhood NBA Draft History (1986–2025)', desc: `Every drafted player among the ${profiledCount} Brotherhood profiles, year by year.` },
   { slug: 'by-the-numbers', title: 'The Brotherhood: By the Numbers', desc: `Key stats and milestones across all ${totalPlayers} players — ${profiledCount} profiled so far.` },
   { slug: 'charities', title: 'Charities the Brotherhood Supports', desc: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.` },
+  { slug: 'birthdays', title: 'Brotherhood Birthdays', desc: `${profiledCount}+ birthdays tracked — tweet happy birthday to your favorite Blue Devil and link to their story.` },
 ];
 
 export default function ListsIndex() {
