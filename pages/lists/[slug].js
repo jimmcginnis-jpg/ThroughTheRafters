@@ -182,6 +182,11 @@ const listConfigs = {
     subtitle: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.`,
     meta: `Charitable organizations supported by Duke's Brotherhood — from player-specific foundations to Duke-connected causes across ${profiledCount} profiled players.`,
   },
+  'birthdays': {
+    title: 'Brotherhood Birthdays',
+    subtitle: `${players.filter(p => p.dob).length} birthdays tracked across the Brotherhood — wish them a happy birthday and share their story.`,
+    meta: `Birthday calendar for Duke's Brotherhood players. Find out which Blue Devil shares your birthday and explore their story.`,
+  },
 };
 
 // ── Static generation ──
@@ -547,6 +552,171 @@ function RenderCharities() {
   );
 }
 
+function RenderBirthdays() {
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const monthAbbr = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  const withDob = players.filter(p => p.dob).map(p => {
+    const [y, m, d] = p.dob.split('-').map(Number);
+    return { ...p, dobYear: y, dobMonth: m, dobDay: d };
+  });
+
+  const today = new Date();
+  const todayM = today.getMonth() + 1;
+  const todayD = today.getDate();
+
+  // Group by month
+  const byMonth = {};
+  monthNames.forEach((_, i) => { byMonth[i + 1] = []; });
+  withDob.forEach(p => { byMonth[p.dobMonth].push(p); });
+  // Sort within each month by day
+  Object.values(byMonth).forEach(arr => arr.sort((a, b) => a.dobDay - b.dobDay));
+
+  // Find today's and this week's birthdays
+  const todayBirthdays = withDob.filter(p => p.dobMonth === todayM && p.dobDay === todayD);
+  const weekBirthdays = withDob.filter(p => {
+    const bd = new Date(today.getFullYear(), p.dobMonth - 1, p.dobDay);
+    const diff = (bd - today) / (1000 * 60 * 60 * 24);
+    return diff > 0 && diff <= 7;
+  });
+
+  const siteUrl = 'https://www.dukebrotherhood.com';
+
+  function tweetUrl(p) {
+    const age = today.getFullYear() - p.dobYear;
+    const playerUrl = `${siteUrl}/players/${p.slug}/`;
+    const text = `🎂 Happy Birthday to Duke Brotherhood member ${p.name}! Born ${monthAbbr[p.dobMonth - 1]} ${p.dobDay}, ${p.dobYear} (${age} today). Read his story: ${playerUrl} #DukeBrotherhood #GoDuke`;
+    return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+  }
+
+  // Reorder months starting from current month
+  const monthOrder = [];
+  for (let i = 0; i < 12; i++) {
+    monthOrder.push(((todayM - 1 + i) % 12) + 1);
+  }
+
+  return (
+    <>
+      {/* Today's Birthdays */}
+      {todayBirthdays.length > 0 && (
+        <div className="mb-8 rounded-xl border-2 border-[#C5A258] bg-gradient-to-r from-[#001A57]/[0.03] to-[#C5A258]/[0.08] p-6">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-2xl">🎂</span>
+            <h2 className="text-xl font-bold text-[#001A57]">Today&apos;s Birthday{todayBirthdays.length > 1 ? 's' : ''}!</h2>
+          </div>
+          {todayBirthdays.map(p => {
+            const age = today.getFullYear() - p.dobYear;
+            return (
+              <div key={p.id} className="flex flex-wrap items-center justify-between gap-3 py-3 border-b last:border-0 border-[#C5A258]/30">
+                <div>
+                  {p.status === 'done' ? (
+                    <Link href={`/players/${p.slug}/`} className="text-lg font-bold text-[#001A57] hover:text-[#C5A258]">{p.name}</Link>
+                  ) : (
+                    <span className="text-lg font-bold text-gray-600">{p.name}</span>
+                  )}
+                  <span className="ml-2 text-sm text-gray-500">turns {age} today</span>
+                  <div className="text-sm text-gray-500">{p.pos} · {p.years} · {p.hometown || ''}</div>
+                </div>
+                <a href={tweetUrl(p)} target="_blank" rel="noopener noreferrer"
+                   className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#001A57] text-white text-sm font-semibold hover:bg-[#C5A258] transition-colors">
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  Tweet Happy Birthday
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Coming Up This Week */}
+      {weekBirthdays.length > 0 && (
+        <div className="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">
+          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Coming Up This Week</h2>
+          <div className="flex flex-wrap gap-4">
+            {weekBirthdays.map(p => (
+              <div key={p.id} className="text-sm">
+                <span className="font-mono text-[#C5A258] font-bold">{monthAbbr[p.dobMonth - 1]} {p.dobDay}</span>
+                {' '}
+                {p.status === 'done' ? (
+                  <Link href={`/players/${p.slug}/`} className="text-[#001A57] hover:text-[#C5A258] font-medium">{p.name}</Link>
+                ) : (
+                  <span className="text-gray-500">{p.name}</span>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Full Calendar by Month - starting from current month */}
+      {monthOrder.map(m => {
+        const monthPlayers = byMonth[m];
+        if (monthPlayers.length === 0) return null;
+        const isCurrent = m === todayM;
+        return (
+          <div key={m} className="mb-8" id={`month-${m}`}>
+            <h2 className={`text-2xl font-bold mb-1 ${isCurrent ? 'text-[#C5A258]' : 'text-[#001A57]'}`}>
+              {monthNames[m - 1]}
+              <span className="ml-2 text-sm font-normal text-gray-400">({monthPlayers.length} birthday{monthPlayers.length !== 1 ? 's' : ''})</span>
+              {isCurrent && <span className="ml-2 text-sm font-semibold text-[#C5A258]">← This month</span>}
+            </h2>
+            <ListTable
+              headers={['Date', 'Player', 'Born', 'Age', 'Pos', 'Years', 'Tweet']}
+              rows={monthPlayers.map(p => {
+                const age = today.getFullYear() - p.dobYear;
+                const isToday = p.dobMonth === todayM && p.dobDay === todayD;
+                const dateStr = `${monthAbbr[m - 1]} ${p.dobDay}`;
+                return [
+                  isToday ? { text: `🎂 ${dateStr}` } : dateStr,
+                  pLink(p),
+                  p.dobYear,
+                  age,
+                  p.pos,
+                  p.years,
+                  p.status === 'done' ? { text: (
+                    <a href={tweetUrl(p)} target="_blank" rel="noopener noreferrer"
+                       className="inline-flex items-center gap-1 px-2 py-1 rounded bg-[#001A57] text-white text-xs hover:bg-[#C5A258] transition-colors"
+                       onClick={e => e.stopPropagation()}>
+                      <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                      Post
+                    </a>
+                  )} : '—',
+                ];
+              })}
+            />
+          </div>
+        );
+      })}
+
+      {/* Month Quick Jump */}
+      <div className="mt-8 p-4 rounded-lg bg-gray-50 border border-gray-200">
+        <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Jump to Month</h3>
+        <div className="flex flex-wrap gap-2">
+          {monthOrder.map(m => {
+            const count = byMonth[m].length;
+            return (
+              <a key={m} href={`#month-${m}`}
+                 className={`px-3 py-1 rounded-full text-sm font-mono transition-colors ${m === todayM ? 'bg-[#C5A258] text-white' : 'bg-white border border-gray-200 text-[#001A57] hover:border-[#C5A258]'}`}>
+                {monthAbbr[m - 1]} <span className="text-xs opacity-60">({count})</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Social tip */}
+      <div className="mt-8 p-5 rounded-xl bg-[#001A57]/[0.03] border border-[#001A57]/10">
+        <h3 className="font-bold text-[#001A57] mb-2">How to Use This Page</h3>
+        <p className="text-sm text-gray-600 leading-relaxed">
+          Check back daily to see which Brotherhood member&apos;s birthday it is. Hit the Tweet button to post a birthday
+          message that links directly to their profile on the site. Tag <strong>@DukeBrotherhood</strong> and use
+          <strong> #DukeBrotherhood #GoDuke</strong> to connect with other fans celebrating.
+        </p>
+      </div>
+    </>
+  );
+}
+
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -561,6 +731,7 @@ const renderers = {
   'draft-history': RenderDraftHistory,
   'by-the-numbers': RenderByTheNumbers,
   'charities': RenderCharities,
+  'birthdays': RenderBirthdays,
 };
 
 // ── Page component ──
