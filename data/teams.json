@@ -687,8 +687,8 @@
       },
       "accTournament": "Champions",
       "ncaaTournament": "National Runner-Up (#1 seed, East)",
-      "tagline": "The year Duke arrived. 37 wins, Dawkins' coronation, and one half short of a happy ending.",
-      "overview": "The 1985-86 season was the dawn of the Krzyzewski empire. Four seniors — Johnny Dawkins, Mark Alarie, Jay Bilas, and David Henderson — who had gone 11-17 as freshmen returned hardened and hungry. With junior Tommy Amaker running point and freshmen Danny Ferry and Billy King off the bench, the Blue Devils won 21 consecutive games, captured Duke's first sole ACC regular-season title in 20 years, won the ACC Tournament, and entered the NCAA Tournament as the #1 overall seed.\n\nDawkins was named the Naismith National Player of the Year — the first in Duke history — averaging 20.2 points per game. The Blue Devils rattled off tournament wins over Mississippi Valley State, Old Dominion, DePaul, and Navy before beating #1-seeded Kansas 71-67 in the Final Four semifinal. In the championship game against Louisville, Dawkins scored 24 points, but freshman Pervis Ellison's 25-point, 11-rebound performance carried the Cardinals to a 72-69 victory.\n\nThe defeat still stings. But this team set the table for everything that followed. As Krzyzewski later said: 'The '86 team is really the rock for our program, and I love all those guys.'",
+      "tagline": "The year Duke arrived. 37 wins, Dawkins' coronation, the birth of the floor slap, and one half short of a happy ending.",
+      "overview": "The 1985-86 season was the year Duke basketball arrived on the national stage — and never left. Four seniors — Johnny Dawkins, Mark Alarie, Jay Bilas, and David Henderson — who had gone 11-17 as freshmen and endured the darkest period of the Krzyzewski era came back for one final run. They were joined by junior point guard Tommy Amaker, sophomore guard Quin Snyder, and a freshmen class headlined by 6-foot-10 Danny Ferry and defensive stopper Billy King. The talent had finally caught up with the ambition.\n\nThe turning point actually came the previous November, at the 1985 Preseason NIT in New York. Duke entered as a program still trying to prove it belonged among the elite. They beat Kansas, then St. John's — Lou Carnesecca's defending Final Four team — in Madison Square Garden to win the tournament. The Garden was rocking. The Blue Devils were on national television. Dawkins was brilliant. The confidence that crystallized in New York carried the program for the next three decades.\n\nDuke opened the regular season ranked sixth and immediately began climbing. The Blue Devils reeled off win after win, including a 21-game winning streak that remains one of the longest in program history. Dawkins was named the Naismith National Player of the Year — the first in Duke history — averaging 20.2 points per game. Alarie averaged 17.4 and was a first-team All-ACC selection. Bilas anchored the frontcourt with toughness and intelligence. Henderson provided scoring punch and big-game composure. Amaker ran the show with a defensive intensity that would become his coaching trademark.\n\nThe team's only regular-season losses came to North Carolina — both times. The first, a 95-92 loss in the inaugural game at the brand-new Dean Smith Center in Chapel Hill, was a classic. The second, an 82-76 loss at Cameron, was one of only three defeats all season. Duke would not lose again after February 5 — rattling off 21 consecutive victories through the end of March.\n\nDuke captured its first ACC regular-season championship in 20 years and its first ACC Tournament title under Krzyzewski, surviving a one-point nail-biter against Georgia Tech in the final, 68-67. That Georgia Tech game produced something that would become part of Duke's identity for the next four decades: the floor slap. Out of a timeout before the final defensive stand, the entire Duke lineup bent down and slapped the floor with both hands — a spontaneous call to action, a collective declaration that this possession belonged to the defense. Amaker, Dawkins, and the seniors ignited it. Krzyzewski later said it wasn't orchestrated — it was pure instinct. Steve Wojciechowski would make it iconic a decade later. Caleb Foster did it in 2025. But it started here, in Greensboro, with the '86 team.\n\nAs the #1 overall seed in the NCAA Tournament, Duke rolled through the East Regional — dispatching Mississippi Valley State, Old Dominion, and DePaul before crushing David Robinson's Navy squad 71-50 in the Elite Eight. In the Final Four semifinal at Reunion Arena in Dallas, Duke outlasted #1-seeded Kansas 71-67 in a war. Dawkins scored 24. Henderson added 20. The Blue Devils were headed to the national championship game for the first time in program history.\n\nThe championship game against Louisville is the one that got away. Duke led for much of the game, and Dawkins scored 24 points — he'd averaged 25.5 for the entire tournament — but Louisville freshman Pervis Ellison put up 25 points and 11 rebounds to carry Denny Crum's Cardinals to a 72-69 victory. Duke ran out of gas in the final ten minutes. Dawkins later said he has never rewatched the game and may never get over it.\n\nThe defeat was agonizing. But Krzyzewski has always maintained that the 1985-86 team is the foundation of everything that followed. 'The '86 team is really the rock for our program, and I love all those guys,' he said. They set the then-NCAA record with 37 wins. They proved that Duke could recruit, develop, and compete at the highest level. They gave birth to the floor slap. They showed the next generation — Ferry, King, Snyder, and eventually Laettner, Hurley, and Hill — what was possible. Without the 1986 team, there is no dynasty.",
       "unc": [
         {
           "date": "1986-01-18",
@@ -717,7 +717,7 @@
             "opponent": "Wake Forest",
             "result": "W",
             "score": "68-60",
-            "story": ""
+            "story": "Duke opened the ACC Tournament with a comfortable win over the Demon Deacons, setting the stage for what would become a program-defining weekend."
           },
           {
             "round": "Semifinal",
@@ -725,7 +725,7 @@
             "opponent": "Virginia",
             "result": "W",
             "score": "67-57",
-            "story": ""
+            "story": "The Blue Devils dismantled Terry Holland's Cavaliers to advance to the final. Duke's defense was suffocating — holding Virginia to their lowest output of the season."
           },
           {
             "round": "Final",
@@ -733,7 +733,7 @@
             "opponent": "Georgia Tech",
             "result": "W",
             "score": "68-67",
-            "story": "A one-point nail-biter gave Duke its first ACC Tournament title under Krzyzewski. Dawkins was named tournament MVP."
+            "story": "A one-point thriller that gave Duke its first ACC Tournament championship under Krzyzewski. Dawkins was named tournament MVP. But the lasting significance goes beyond the trophy. Out of a timeout before Georgia Tech's final possession, the entire Duke lineup bent down and slapped the court with both hands — a spontaneous, collective call to action. It wasn't planned. It wasn't choreographed. Amaker, Dawkins, Alarie, Bilas, and Henderson just did it, instinctively, as a declaration that this defensive stand was everything. They got the stop. They won the championship. And the Duke floor slap was born — a tradition that would be carried forward by Wojciechowski, Quinn Cook, Caleb Foster, and every Duke defender who has ever needed to summon something extra in a critical moment. It started right here."
           }
         ],
         "ncaaTourney": [
@@ -744,7 +744,7 @@
             "seed": 16,
             "result": "W",
             "score": "85-78",
-            "story": ""
+            "story": "The #1 overall seed opened the tournament with a win over the 16-seed Delta Devils, though Mississippi Valley State kept it closer than expected. Duke settled in and pulled away in the second half."
           },
           {
             "round": "R32",
@@ -753,7 +753,7 @@
             "seed": 8,
             "result": "W",
             "score": "89-61",
-            "story": ""
+            "story": "Duke blew out Old Dominion by 28 points, sending a message to the rest of the bracket. The Blue Devils were locked in."
           },
           {
             "round": "Sweet 16",
@@ -762,7 +762,7 @@
             "seed": 12,
             "result": "W",
             "score": "74-67",
-            "story": ""
+            "story": "Joey Meyer's Blue Demons hung tough, but Duke's senior class was too composed down the stretch. Dawkins and Henderson combined for 35 points to push Duke into the Elite Eight."
           },
           {
             "round": "Elite 8",
@@ -771,7 +771,7 @@
             "seed": 7,
             "result": "W",
             "score": "71-50",
-            "story": "David Robinson's Navy team was no match. Duke cruised to the Final Four."
+            "story": "David Robinson — the 7-foot-1 future NBA Hall of Famer — and his Navy Midshipmen were no match for Duke's depth and defensive intensity. The Blue Devils won by 21, holding Robinson well below his season average. Duke was headed to Dallas for the Final Four."
           },
           {
             "round": "Final Four",
@@ -860,6 +860,14 @@
         {
           "title": "1985-86 College Basketball Season Archive",
           "url": "https://archive.506sports.com/wiki/1985-86_College_Basketball_Season"
+        },
+        {
+          "title": "Duke Basketball Treasure Gets Real About Slapping Floor — SI",
+          "url": "https://www.si.com/college/duke/basketball/duke-basketball-treasure-real-slapping-floor-7-23"
+        },
+        {
+          "title": "Duke May Need Floor Slap — Ball Durham (floor slap history)",
+          "url": "https://balldurham.com/2019/02/20/duke-basketball-blue-devils-floor-slap/"
         }
       ]
     },
