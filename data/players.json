@@ -6675,7 +6675,15 @@
       "highSchool": "Providence Day School",
       "rsci": "",
       "weight": "225",
-      "dob": "1981-04-29"
+      "dob": "1981-04-29",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "michael_thompson",
@@ -6848,7 +6856,15 @@
       "highSchool": "Broughton HS",
       "rsci": "14",
       "weight": "240",
-      "dob": "1983-11-24"
+      "dob": "1983-11-24",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "patrick_johnson",
@@ -8397,7 +8413,15 @@
       "highSchool": "Haddonfield Memorial HS",
       "rsci": "25",
       "weight": "260",
-      "dob": "1988-04-21"
+      "dob": "1988-04-21",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "lance_thomas",
@@ -8518,7 +8542,15 @@
       "highSchool": "St. Benedict's Prep",
       "rsci": "20",
       "weight": "225",
-      "dob": "1988-04-24"
+      "dob": "1988-04-24",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "steve_johnson",
@@ -10654,7 +10686,14 @@
       "rsci": "32",
       "weight": "235",
       "lastUpdated": "2026-03-13",
-      "dob": "1992-01-12"
+      "dob": "1992-01-12",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "michael_gbinije",
@@ -14338,7 +14377,14 @@
       "rsci": "",
       "weight": "241",
       "dob": "2002-10-07",
-      "lastUpdated": "2026-03-13"
+      "lastUpdated": "2026-03-13",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "mark_mitchell",
@@ -14769,7 +14815,14 @@
       "rsci": "",
       "weight": "240",
       "lastUpdated": "2026-03-13",
-      "dob": "2002-01-12"
+      "dob": "2002-01-12",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "caleb_foster",
@@ -14984,7 +15037,15 @@
       "highSchool": "Chattahoochee HS",
       "rsci": "",
       "weight": "205",
-      "dob": null
+      "dob": null,
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "jack_scott",
@@ -15067,7 +15128,15 @@
       "highSchool": "Hun School of Princeton",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "tj_power",
@@ -15447,7 +15516,15 @@
       "highSchool": "St. Paul VI HS",
       "rsci": "35",
       "weight": "203",
-      "dob": "2005-10-01"
+      "dob": "2005-10-01",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     },
     {
       "id": "dame_sarr",
@@ -15708,7 +15785,15 @@
       "highSchool": "Brewster Academy",
       "rsci": "48",
       "weight": "220",
-      "dob": null
+      "dob": null,
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Support the Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-17"
     }
   ]
 }
