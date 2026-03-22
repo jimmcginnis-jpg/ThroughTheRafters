@@ -267,7 +267,8 @@
             "total": 45
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1981-82",
@@ -504,6 +505,23 @@
             "total": 32
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Gene Banks",
+            "id": "gene_banks",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "wouldBe": "Sophomore",
+            "draftPick": 28,
+            "draftYear": 1981
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 1,
+        "actualRecord": "10-17",
+        "actualNcaa": "Did not qualify"
       }
     },
     {
@@ -741,6 +759,23 @@
             "total": 34
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Gene Banks",
+            "id": "gene_banks",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "wouldBe": "Junior",
+            "draftPick": 28,
+            "draftYear": 1981
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 1,
+        "actualRecord": "11-17",
+        "actualNcaa": "Did not qualify"
       }
     },
     {
@@ -1029,6 +1064,23 @@
             "total": 34
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Gene Banks",
+            "id": "gene_banks",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "wouldBe": "Senior",
+            "draftPick": 28,
+            "draftYear": 1981
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 1,
+        "actualRecord": "24-10",
+        "actualNcaa": "Second Round (first-round bye, lost to Washington)"
       }
     },
     {
@@ -1297,7 +1349,8 @@
             "total": 37
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1985-86",
@@ -1648,7 +1701,8 @@
             "total": 12
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1986-87",
@@ -1937,7 +1991,8 @@
             "total": 3
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1987-88",
@@ -2269,7 +2324,8 @@
             "total": 14
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1988-89",
@@ -2605,7 +2661,8 @@
             "total": 14
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1989-90",
@@ -2921,7 +2978,8 @@
             "total": 4
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1990-91",
@@ -3236,7 +3294,8 @@
             "total": 4
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1991-92",
@@ -3576,7 +3635,8 @@
             "total": 14
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1992-93",
@@ -3859,7 +3919,8 @@
             "total": 3
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1993-94",
@@ -4186,7 +4247,8 @@
             "total": 4
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1994-95",
@@ -4482,7 +4544,8 @@
             "total": 3
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1995-96",
@@ -4768,7 +4831,8 @@
             "total": 3
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1996-97",
@@ -5059,7 +5123,8 @@
             "total": 3
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1997-98",
@@ -5368,7 +5433,8 @@
             "total": 4
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "1998-99",
@@ -5732,6 +5798,23 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Roshown McLeod",
+            "id": "mcleod",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Senior",
+            "draftPick": 20,
+            "draftYear": 1998
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 1,
+        "actualRecord": "37-2",
+        "actualNcaa": "Championship Game (#1 overall seed, lost to UConn 77-74)"
       }
     },
     {
@@ -6061,6 +6144,41 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Elton Brand",
+            "id": "brand",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "wouldBe": "Junior",
+            "draftPick": 1,
+            "draftYear": 1999
+          },
+          {
+            "name": "William Avery",
+            "id": "avery",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Junior",
+            "draftPick": 14,
+            "draftYear": 1999
+          },
+          {
+            "name": "Corey Maggette",
+            "id": "maggette",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Sophomore",
+            "draftPick": 13,
+            "draftYear": 1999
+          }
+        ],
+        "lotteryCount": 3,
+        "firstRoundCount": 3,
+        "actualRecord": "29-5",
+        "actualNcaa": "Sweet Sixteen (#1 seed East, lost to Florida 87-78)"
       }
     },
     {
@@ -6414,6 +6532,41 @@
             "total": 8
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Elton Brand",
+            "id": "brand",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "wouldBe": "Senior",
+            "draftPick": 1,
+            "draftYear": 1999
+          },
+          {
+            "name": "William Avery",
+            "id": "avery",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Senior",
+            "draftPick": 14,
+            "draftYear": 1999
+          },
+          {
+            "name": "Corey Maggette",
+            "id": "maggette",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Junior",
+            "draftPick": 13,
+            "draftYear": 1999
+          }
+        ],
+        "lotteryCount": 3,
+        "firstRoundCount": 3,
+        "actualRecord": "35-4",
+        "actualNcaa": "National Champions (#1 seed East; beat Monmouth, Missouri, UCLA, USC, Maryland, Arizona)"
       }
     },
     {
@@ -6727,6 +6880,23 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Corey Maggette",
+            "id": "maggette",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Senior",
+            "draftPick": 13,
+            "draftYear": 1999
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "31-4",
+        "actualNcaa": "Sweet Sixteen (#1 seed South; lost to Indiana 74-73)"
       }
     },
     {
@@ -7036,6 +7206,41 @@
             "total": 3
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Jay Williams",
+            "id": "jwilliams",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Senior",
+            "draftPick": 2,
+            "draftYear": 2002
+          },
+          {
+            "name": "Carlos Boozer",
+            "id": "boozer",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Senior",
+            "draftPick": 35,
+            "draftYear": 2002
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "id": "dunleavy",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Senior",
+            "draftPick": 3,
+            "draftYear": 2002
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 2,
+        "actualRecord": "26-7",
+        "actualNcaa": "Sweet Sixteen (#3 seed West; lost to Kansas 69-65)"
       }
     },
     {
@@ -7383,7 +7588,8 @@
             "total": 7
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "2004-05",
@@ -7704,6 +7910,23 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Luol Deng",
+            "id": "deng",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Sophomore",
+            "draftPick": 7,
+            "draftYear": 2004
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "27-6",
+        "actualNcaa": "Sweet Sixteen (#1 seed Austin Regional; beat Delaware State 57-46, Mississippi State 63-55; lost to Michigan State 78-68)"
       }
     },
     {
@@ -8025,6 +8248,23 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Luol Deng",
+            "id": "deng",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Junior",
+            "draftPick": 7,
+            "draftYear": 2004
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "32-4",
+        "actualNcaa": "Sweet Sixteen (#1 seed Atlanta Regional; beat Southern 80-55, George Washington 74-61; lost to LSU 62-54)"
       }
     },
     {
@@ -8304,6 +8544,23 @@
             "total": 3
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Luol Deng",
+            "id": "deng",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Senior",
+            "draftPick": 7,
+            "draftYear": 2004
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "22-11",
+        "actualNcaa": "First Round (#6 seed; lost to #11 VCU 79-77)"
       }
     },
     {
@@ -8588,6 +8845,23 @@
             "total": 3
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Josh McRoberts",
+            "id": "mcroberts",
+            "pos": "Forward",
+            "height": "6’10”",
+            "wouldBe": "Junior",
+            "draftPick": 37,
+            "draftYear": 2007
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "actualRecord": "28-6",
+        "actualNcaa": "Second Round (#2 seed West; beat Belmont 71-70; lost to West Virginia 73-67)"
       }
     },
     {
@@ -8897,6 +9171,23 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Josh McRoberts",
+            "id": "mcroberts",
+            "pos": "Forward",
+            "height": "6’10”",
+            "wouldBe": "Senior",
+            "draftPick": 37,
+            "draftYear": 2007
+          }
+        ],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "actualRecord": "30-7",
+        "actualNcaa": "Sweet Sixteen (#2 seed East; beat Binghamton 86-62, Texas 74-69; lost to Villanova 77-54)"
       }
     },
     {
@@ -9217,6 +9508,23 @@
             "total": 16
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Gerald Henderson",
+            "id": "ghenderson",
+            "pos": "Guard",
+            "height": "6’5”",
+            "wouldBe": "Senior",
+            "draftPick": 12,
+            "draftYear": 2009
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "35-5",
+        "actualNcaa": "National Champions (#1 seed South; beat Arkansas-Pine Bluff 73-44, California 68-53, Purdue 70-57, Baylor 78-71, West Virginia 78-57, Butler 61-59)"
       }
     },
     {
@@ -9573,7 +9881,8 @@
             "total": 11
           }
         ]
-      }
+      },
+      "whatIf": null
     },
     {
       "season": "2011-12",
@@ -9907,6 +10216,23 @@
             "total": 3
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Kyrie Irving",
+            "id": "kirving",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Sophomore",
+            "draftPick": 1,
+            "draftYear": 2011
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 1,
+        "actualRecord": "27-7",
+        "actualNcaa": "#2 seed South; lost to #15 Lehigh 75-70 in Round of 64"
       }
     },
     {
@@ -10274,6 +10600,32 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Kyrie Irving",
+            "id": "kirving",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Junior",
+            "draftPick": 1,
+            "draftYear": 2011
+          },
+          {
+            "name": "Austin Rivers",
+            "id": "arivers",
+            "pos": "Guard",
+            "height": "6’4”",
+            "wouldBe": "Sophomore",
+            "draftPick": 10,
+            "draftYear": 2012
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 2,
+        "actualRecord": "30-6",
+        "actualNcaa": "#2 seed Midwest; beat Albany 73-61, Creighton 66-50, Michigan State 71-61; lost to #1 Louisville 85-63 Elite Eight"
       }
     },
     {
@@ -10631,6 +10983,32 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Kyrie Irving",
+            "id": "kirving",
+            "pos": "Guard",
+            "height": "6’2”",
+            "wouldBe": "Senior",
+            "draftPick": 1,
+            "draftYear": 2011
+          },
+          {
+            "name": "Austin Rivers",
+            "id": "arivers",
+            "pos": "Guard",
+            "height": "6’4”",
+            "wouldBe": "Junior",
+            "draftPick": 10,
+            "draftYear": 2012
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 2,
+        "actualRecord": "26-9",
+        "actualNcaa": "#3 seed Midwest; lost to #14 Mercer 78-71 in Round of 64"
       }
     },
     {
@@ -11014,6 +11392,41 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Austin Rivers",
+            "id": "arivers",
+            "pos": "Guard",
+            "height": "6’4”",
+            "wouldBe": "Senior",
+            "draftPick": 10,
+            "draftYear": 2012
+          },
+          {
+            "name": "Jabari Parker",
+            "id": "parker_j",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Sophomore",
+            "draftPick": 2,
+            "draftYear": 2014
+          },
+          {
+            "name": "Rodney Hood",
+            "id": "hood",
+            "pos": "Guard/Fwd",
+            "height": "6’8”",
+            "wouldBe": "Sophomore",
+            "draftPick": 23,
+            "draftYear": 2014
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 3,
+        "actualRecord": "35-4",
+        "actualNcaa": "National Champions (#1 seed South; beat Robert Morris 85-56, San Diego State 68-49, Utah 63-57, Gonzaga 66-52, Michigan State 81-61, Wisconsin 68-63)"
       }
     },
     {
@@ -11373,6 +11786,68 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Jabari Parker",
+            "id": "parker_j",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Junior",
+            "draftPick": 2,
+            "draftYear": 2014
+          },
+          {
+            "name": "Rodney Hood",
+            "id": "hood",
+            "pos": "Guard/Fwd",
+            "height": "6’8”",
+            "wouldBe": "Junior",
+            "draftPick": 23,
+            "draftYear": 2014
+          },
+          {
+            "name": "Jahlil Okafor",
+            "id": "okafor",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Sophomore",
+            "draftPick": 3,
+            "draftYear": 2015
+          },
+          {
+            "name": "Tyus Jones",
+            "id": "tjones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "wouldBe": "Sophomore",
+            "draftPick": 24,
+            "draftYear": 2015
+          },
+          {
+            "name": "Justise Winslow",
+            "id": "winslow",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Sophomore",
+            "draftPick": 10,
+            "draftYear": 2015
+          },
+          {
+            "name": "Semi Ojeleye",
+            "id": "semi_ojeleye",
+            "pos": "Forward",
+            "height": "6'8\"",
+            "wouldBe": "Junior",
+            "draftPick": 37,
+            "draftYear": 2017
+          }
+        ],
+        "lotteryCount": 3,
+        "firstRoundCount": 5,
+        "actualRecord": "25-11",
+        "actualNcaa": "#4 seed West; beat UNC Wilmington 93-85, Yale 71-64; lost to #1 Oregon 82-68 Sweet 16"
       }
     },
     {
@@ -11765,6 +12240,77 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Jabari Parker",
+            "id": "parker_j",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Senior",
+            "draftPick": 2,
+            "draftYear": 2014
+          },
+          {
+            "name": "Rodney Hood",
+            "id": "hood",
+            "pos": "Guard/Fwd",
+            "height": "6’8”",
+            "wouldBe": "Senior",
+            "draftPick": 23,
+            "draftYear": 2014
+          },
+          {
+            "name": "Jahlil Okafor",
+            "id": "okafor",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Junior",
+            "draftPick": 3,
+            "draftYear": 2015
+          },
+          {
+            "name": "Tyus Jones",
+            "id": "tjones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "wouldBe": "Junior",
+            "draftPick": 24,
+            "draftYear": 2015
+          },
+          {
+            "name": "Justise Winslow",
+            "id": "winslow",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Junior",
+            "draftPick": 10,
+            "draftYear": 2015
+          },
+          {
+            "name": "Semi Ojeleye",
+            "id": "semi_ojeleye",
+            "pos": "Forward",
+            "height": "6'8\"",
+            "wouldBe": "Senior",
+            "draftPick": 37,
+            "draftYear": 2017
+          },
+          {
+            "name": "Brandon Ingram",
+            "id": "ingram",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Sophomore",
+            "draftPick": 2,
+            "draftYear": 2016
+          }
+        ],
+        "lotteryCount": 4,
+        "firstRoundCount": 6,
+        "actualRecord": "28-9",
+        "actualNcaa": "#2 seed South; beat Troy 110-44; lost to #7 South Carolina 88-81 in Round of 32"
       }
     },
     {
@@ -12161,6 +12707,77 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Jahlil Okafor",
+            "id": "okafor",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Senior",
+            "draftPick": 3,
+            "draftYear": 2015
+          },
+          {
+            "name": "Tyus Jones",
+            "id": "tjones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "wouldBe": "Senior",
+            "draftPick": 24,
+            "draftYear": 2015
+          },
+          {
+            "name": "Justise Winslow",
+            "id": "winslow",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Senior",
+            "draftPick": 10,
+            "draftYear": 2015
+          },
+          {
+            "name": "Brandon Ingram",
+            "id": "ingram",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Junior",
+            "draftPick": 2,
+            "draftYear": 2016
+          },
+          {
+            "name": "Luke Kennard",
+            "id": "kennard",
+            "pos": "Guard",
+            "height": "6’5”",
+            "wouldBe": "Junior",
+            "draftPick": 12,
+            "draftYear": 2017
+          },
+          {
+            "name": "Jayson Tatum",
+            "id": "tatum",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Sophomore",
+            "draftPick": 3,
+            "draftYear": 2017
+          },
+          {
+            "name": "Harry Giles III",
+            "id": "harry_giles_iii",
+            "pos": "Forward/Center",
+            "height": "6'10\"",
+            "wouldBe": "Sophomore",
+            "draftPick": 20,
+            "draftYear": 2017
+          }
+        ],
+        "lotteryCount": 5,
+        "firstRoundCount": 7,
+        "actualRecord": "29-8",
+        "actualNcaa": "#2 seed Midwest — Elite Eight (lost to #1 Kansas in OT)"
       }
     },
     {
@@ -12584,6 +13201,77 @@
             "total": 11
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Brandon Ingram",
+            "id": "ingram",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Senior",
+            "draftPick": 2,
+            "draftYear": 2016
+          },
+          {
+            "name": "Luke Kennard",
+            "id": "kennard",
+            "pos": "Guard",
+            "height": "6’5”",
+            "wouldBe": "Senior",
+            "draftPick": 12,
+            "draftYear": 2017
+          },
+          {
+            "name": "Jayson Tatum",
+            "id": "tatum",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Junior",
+            "draftPick": 3,
+            "draftYear": 2017
+          },
+          {
+            "name": "Marvin Bagley III",
+            "id": "bagley",
+            "pos": "Fwd/Center",
+            "height": "6’11”",
+            "wouldBe": "Sophomore",
+            "draftPick": 2,
+            "draftYear": 2018
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "id": "wcarter",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Sophomore",
+            "draftPick": 7,
+            "draftYear": 2018
+          },
+          {
+            "name": "Harry Giles III",
+            "id": "harry_giles_iii",
+            "pos": "Forward/Center",
+            "height": "6'10\"",
+            "wouldBe": "Junior",
+            "draftPick": 20,
+            "draftYear": 2017
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "id": "gary_trent_jr",
+            "pos": "Guard",
+            "height": "6'6\"",
+            "wouldBe": "Sophomore",
+            "draftPick": 37,
+            "draftYear": 2018
+          }
+        ],
+        "lotteryCount": 5,
+        "firstRoundCount": 6,
+        "actualRecord": "32-6",
+        "actualNcaa": "#1 overall seed (East) — Elite Eight (lost to #2 Michigan State 67-68)"
       }
     },
     {
@@ -12932,6 +13620,86 @@
             "total": 6
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Jayson Tatum",
+            "id": "tatum",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Senior",
+            "draftPick": 3,
+            "draftYear": 2017
+          },
+          {
+            "name": "Marvin Bagley III",
+            "id": "bagley",
+            "pos": "Fwd/Center",
+            "height": "6’11”",
+            "wouldBe": "Junior",
+            "draftPick": 2,
+            "draftYear": 2018
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "id": "wcarter",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Junior",
+            "draftPick": 7,
+            "draftYear": 2018
+          },
+          {
+            "name": "Zion Williamson",
+            "id": "zion",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Sophomore",
+            "draftPick": 1,
+            "draftYear": 2019
+          },
+          {
+            "name": "RJ Barrett",
+            "id": "barrett",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "wouldBe": "Sophomore",
+            "draftPick": 3,
+            "draftYear": 2019
+          },
+          {
+            "name": "Cam Reddish",
+            "id": "reddish",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Sophomore",
+            "draftPick": 10,
+            "draftYear": 2019
+          },
+          {
+            "name": "Harry Giles III",
+            "id": "harry_giles_iii",
+            "pos": "Forward/Center",
+            "height": "6'10\"",
+            "wouldBe": "Senior",
+            "draftPick": 20,
+            "draftYear": 2017
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "id": "gary_trent_jr",
+            "pos": "Guard",
+            "height": "6'6\"",
+            "wouldBe": "Junior",
+            "draftPick": 37,
+            "draftYear": 2018
+          }
+        ],
+        "lotteryCount": 6,
+        "firstRoundCount": 7,
+        "actualRecord": "25-6",
+        "actualNcaa": "Cancelled (COVID-19) — Duke projected as #3 or #4 seed"
       }
     },
     {
@@ -13293,6 +14061,77 @@
             "total": 2
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Marvin Bagley III",
+            "id": "bagley",
+            "pos": "Fwd/Center",
+            "height": "6’11”",
+            "wouldBe": "Senior",
+            "draftPick": 2,
+            "draftYear": 2018
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "id": "wcarter",
+            "pos": "Center",
+            "height": "6’10”",
+            "wouldBe": "Senior",
+            "draftPick": 7,
+            "draftYear": 2018
+          },
+          {
+            "name": "Zion Williamson",
+            "id": "zion",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Junior",
+            "draftPick": 1,
+            "draftYear": 2019
+          },
+          {
+            "name": "RJ Barrett",
+            "id": "barrett",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "wouldBe": "Junior",
+            "draftPick": 3,
+            "draftYear": 2019
+          },
+          {
+            "name": "Tre Jones",
+            "id": "trejones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "wouldBe": "Junior",
+            "draftPick": 41,
+            "draftYear": 2020
+          },
+          {
+            "name": "Cam Reddish",
+            "id": "reddish",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Junior",
+            "draftPick": 10,
+            "draftYear": 2019
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "id": "gary_trent_jr",
+            "pos": "Guard",
+            "height": "6'6\"",
+            "wouldBe": "Senior",
+            "draftPick": 37,
+            "draftYear": 2018
+          }
+        ],
+        "lotteryCount": 5,
+        "firstRoundCount": 5,
+        "actualRecord": "13-11",
+        "actualNcaa": "Did not qualify — first time Duke missed the NCAA Tournament since 1995 (ended 24-year consecutive appearance streak)"
       }
     },
     {
@@ -13710,6 +14549,59 @@
             "total": 16
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Zion Williamson",
+            "id": "zion",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Senior",
+            "draftPick": 1,
+            "draftYear": 2019
+          },
+          {
+            "name": "RJ Barrett",
+            "id": "barrett",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "wouldBe": "Senior",
+            "draftPick": 3,
+            "draftYear": 2019
+          },
+          {
+            "name": "Tre Jones",
+            "id": "trejones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "wouldBe": "Senior",
+            "draftPick": 41,
+            "draftYear": 2020
+          },
+          {
+            "name": "Cam Reddish",
+            "id": "reddish",
+            "pos": "Forward",
+            "height": "6’8”",
+            "wouldBe": "Senior",
+            "draftPick": 10,
+            "draftYear": 2019
+          },
+          {
+            "name": "Jalen Johnson",
+            "id": "jalen_johnson",
+            "pos": "Forward",
+            "height": "6'9\"",
+            "wouldBe": "Sophomore",
+            "draftPick": 20,
+            "draftYear": 2021
+          }
+        ],
+        "lotteryCount": 3,
+        "firstRoundCount": 4,
+        "actualRecord": "32-7",
+        "actualNcaa": "#2 seed West — Final Four (beat CSU Fullerton, Michigan State, Texas Tech, Arkansas; lost to North Carolina 77-81 in semifinal)"
       }
     },
     {
@@ -14084,6 +14976,50 @@
             "total": 4
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Paolo Banchero",
+            "id": "banchero",
+            "pos": "Forward",
+            "height": "6’10”",
+            "wouldBe": "Sophomore",
+            "draftPick": 1,
+            "draftYear": 2022
+          },
+          {
+            "name": "AJ Griffin",
+            "id": "griffin_aj",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Sophomore",
+            "draftPick": 16,
+            "draftYear": 2022
+          },
+          {
+            "name": "Jalen Johnson",
+            "id": "jalen_johnson",
+            "pos": "Forward",
+            "height": "6'9\"",
+            "wouldBe": "Junior",
+            "draftPick": 20,
+            "draftYear": 2021
+          },
+          {
+            "name": "Mark Williams",
+            "id": "mark_williams",
+            "pos": "Center",
+            "height": "7'0\"",
+            "wouldBe": "Junior",
+            "draftPick": 15,
+            "draftYear": 2022
+          }
+        ],
+        "lotteryCount": 1,
+        "firstRoundCount": 4,
+        "actualRecord": "27-9",
+        "actualNcaa": "#5 seed East — Round of 32 (beat Oral Roberts 74-51; lost to #4 Tennessee 52-65)"
       }
     },
     {
@@ -14464,6 +15400,59 @@
             "total": 7
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Paolo Banchero",
+            "id": "banchero",
+            "pos": "Forward",
+            "height": "6’10”",
+            "wouldBe": "Junior",
+            "draftPick": 1,
+            "draftYear": 2022
+          },
+          {
+            "name": "AJ Griffin",
+            "id": "griffin_aj",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Junior",
+            "draftPick": 16,
+            "draftYear": 2022
+          },
+          {
+            "name": "Jalen Johnson",
+            "id": "jalen_johnson",
+            "pos": "Forward",
+            "height": "6'9\"",
+            "wouldBe": "Senior",
+            "draftPick": 20,
+            "draftYear": 2021
+          },
+          {
+            "name": "Mark Williams",
+            "id": "mark_williams",
+            "pos": "Center",
+            "height": "7'0\"",
+            "wouldBe": "Senior",
+            "draftPick": 15,
+            "draftYear": 2022
+          },
+          {
+            "name": "Dereck Lively II",
+            "id": "lively",
+            "pos": "Center",
+            "height": "7’1”",
+            "wouldBe": "Sophomore",
+            "draftPick": 12,
+            "draftYear": 2023
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 5,
+        "actualRecord": "27-9",
+        "actualNcaa": "#4 seed South — Elite Eight (beat Vermont, James Madison, #1 Houston; lost to #11 NC State 64-76)"
       }
     },
     {
@@ -14892,6 +15881,59 @@
             "total": 8
           }
         ]
+      },
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Paolo Banchero",
+            "id": "banchero",
+            "pos": "Forward",
+            "height": "6’10”",
+            "wouldBe": "Senior",
+            "draftPick": 1,
+            "draftYear": 2022
+          },
+          {
+            "name": "AJ Griffin",
+            "id": "griffin_aj",
+            "pos": "Forward",
+            "height": "6’6”",
+            "wouldBe": "Senior",
+            "draftPick": 16,
+            "draftYear": 2022
+          },
+          {
+            "name": "Kyle Filipowski",
+            "id": "filipowski",
+            "pos": "Center",
+            "height": "7’0”",
+            "wouldBe": "Junior",
+            "draftPick": 32,
+            "draftYear": 2024
+          },
+          {
+            "name": "Dereck Lively II",
+            "id": "lively",
+            "pos": "Center",
+            "height": "7’1”",
+            "wouldBe": "Junior",
+            "draftPick": 12,
+            "draftYear": 2023
+          },
+          {
+            "name": "Jared McCain",
+            "id": "mccain",
+            "pos": "Guard",
+            "height": "6’3”",
+            "wouldBe": "Sophomore",
+            "draftPick": 16,
+            "draftYear": 2024
+          }
+        ],
+        "lotteryCount": 2,
+        "firstRoundCount": 4,
+        "actualRecord": "35-4",
+        "actualNcaa": "#1 seed East — Final Four (beat Mount St. Mary's, Baylor, Arizona, Alabama; lost to #1 Houston 67-70)"
       }
     }
   ]
