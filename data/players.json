@@ -219,7 +219,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": ""
     },
     {
       "id": "taylor_v",
@@ -296,7 +297,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1960-09-11"
+      "dob": "1960-09-11",
+      "twitter": ""
     },
     {
       "id": "engelland",
@@ -384,7 +386,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1961-05-09"
+      "dob": "1961-05-09",
+      "twitter": ""
     },
     {
       "id": "dawkins",
@@ -494,7 +497,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1963-09-28"
+      "dob": "1963-09-28",
+      "twitter": "Coach_Dawkins"
     },
     {
       "id": "alarie",
@@ -591,7 +595,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1963-12-11"
+      "dob": "1963-12-11",
+      "twitter": ""
     },
     {
       "id": "bilas",
@@ -681,7 +686,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1963-12-24"
+      "dob": "1963-12-24",
+      "twitter": "JayBilas"
     },
     {
       "id": "henderson_d",
@@ -762,7 +768,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1964-07-21"
+      "dob": "1964-07-21",
+      "twitter": ""
     },
     {
       "id": "amaker",
@@ -860,7 +867,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1965-06-29"
+      "dob": "1965-06-29",
+      "twitter": "TommyAmaker"
     },
     {
       "id": "nessley",
@@ -941,7 +949,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1965-03-10"
+      "dob": "1965-03-10",
+      "twitter": ""
     },
     {
       "id": "king",
@@ -1022,7 +1031,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1966-12-27"
+      "dob": "1966-12-27",
+      "twitter": ""
     },
     {
       "id": "smith",
@@ -1103,7 +1113,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1967-02-15"
+      "dob": "1967-02-15",
+      "twitter": ""
     },
     {
       "id": "tom_emma",
@@ -1133,7 +1144,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "185",
-      "dob": "1960-09-05"
+      "dob": "1960-09-05",
+      "twitter": ""
     },
     {
       "id": "dan_meagher",
@@ -1222,7 +1234,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1962-11-12"
+      "dob": "1962-11-12",
+      "twitter": ""
     },
     {
       "id": "richard_ford",
@@ -1253,7 +1266,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "155",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "mike_tissaw",
@@ -1283,7 +1297,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "231",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "ned_franke",
@@ -1313,7 +1328,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "doug_mcneely",
@@ -1343,7 +1359,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "195",
-      "dob": "1962-04-07"
+      "dob": "1962-04-07",
+      "twitter": ""
     },
     {
       "id": "gordon_whitted",
@@ -1372,7 +1389,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "allen_williams",
@@ -1401,7 +1419,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "220",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "kenny_dennard",
@@ -1529,7 +1548,8 @@
         "description": "A collaboration between the American Cancer Society and the National Association of Basketball Coaches, Coaches vs. Cancer has raised more than $70 million for cancer research and awareness. Kenny Dennard, a 30+ year testicular cancer survivor, donates a portion of his business profits to the program.",
         "url": "https://www.cancer.org/involved/fundraise/coaches-vs-cancer.html",
         "isDefault": false
-      }
+      },
+      "twitter": ""
     },
     {
       "id": "jim_suddath",
@@ -1557,7 +1577,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "jay_bryan",
@@ -1587,7 +1608,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "todd_anderson",
@@ -1616,7 +1638,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "225",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "greg_wendt",
@@ -1644,7 +1667,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "205",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "loel_payne",
@@ -1672,7 +1696,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "weldon_williams",
@@ -1702,7 +1727,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "190",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "kevin_strickland",
@@ -1732,7 +1758,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "195",
-      "dob": "1964-11-11"
+      "dob": "1964-11-11",
+      "twitter": ""
     },
     {
       "id": "bill_jackman",
@@ -1762,7 +1789,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "george_burgin",
@@ -1793,7 +1821,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "215",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "rey_essex",
@@ -1821,7 +1850,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "andy_berndt",
@@ -1849,7 +1879,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "dave_colonna",
@@ -1877,7 +1908,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "ferry",
@@ -1999,7 +2031,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1966-10-17"
+      "dob": "1966-10-17",
+      "twitter": ""
     },
     {
       "id": "snyder",
@@ -2097,7 +2130,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1966-10-30"
+      "dob": "1966-10-30",
+      "twitter": "QSnyder"
     },
     {
       "id": "abdelnaby",
@@ -2210,7 +2244,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1968-06-24"
+      "dob": "1968-06-24",
+      "twitter": "AlaaAbdelnaby"
     },
     {
       "id": "henderson_p",
@@ -2298,7 +2333,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1968-07-11"
+      "dob": "1968-07-11",
+      "twitter": ""
     },
     {
       "id": "brickey",
@@ -2463,7 +2499,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1967-08-20"
+      "dob": "1967-08-20",
+      "twitter": ""
     },
     {
       "id": "laettner",
@@ -2597,7 +2634,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1969-08-18"
+      "dob": "1969-08-18",
+      "twitter": "CLaettner"
     },
     {
       "id": "davis_b",
@@ -2691,7 +2729,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1970-06-21"
+      "dob": "1970-06-21",
+      "twitter": ""
     },
     {
       "id": "hurley",
@@ -2804,7 +2843,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1971-06-28"
+      "dob": "1971-06-28",
+      "twitter": "BobbyHurley11"
     },
     {
       "id": "hill_t",
@@ -2899,7 +2939,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1969-03-18"
+      "dob": "1969-03-18",
+      "twitter": ""
     },
     {
       "id": "mccaffrey",
@@ -3020,7 +3061,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1971-03-07"
+      "dob": "1971-03-07",
+      "twitter": ""
     },
     {
       "id": "hill",
@@ -3158,7 +3200,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1972-10-05"
+      "dob": "1972-10-05",
+      "twitter": "RealGrantHill33"
     },
     {
       "id": "lang",
@@ -3265,7 +3308,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1972-05-15"
+      "dob": "1972-05-15",
+      "twitter": "ALang21"
     },
     {
       "id": "blakeney",
@@ -3408,7 +3452,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1971-08-11"
+      "dob": "1971-08-11",
+      "twitter": "KennyBlakeney"
     },
     {
       "id": "parks",
@@ -3516,7 +3561,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1972-10-11"
+      "dob": "1972-10-11",
+      "twitter": ""
     },
     {
       "id": "collins_c",
@@ -3629,7 +3675,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1975-01-30"
+      "dob": "1975-01-30",
+      "twitter": "Coach_Collins"
     },
     {
       "id": "jon_goodman",
@@ -3657,7 +3704,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "greg_koubek",
@@ -3687,7 +3735,8 @@
       "highSchool": "Shenendehowa HS",
       "rsci": "",
       "weight": "205",
-      "dob": "1969-08-29"
+      "dob": "1969-08-29",
+      "twitter": ""
     },
     {
       "id": "clay_buckley",
@@ -3717,7 +3766,8 @@
       "highSchool": "Conestoga HS",
       "rsci": "",
       "weight": "245",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "joe_cook",
@@ -3746,7 +3796,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "crawford_palmer",
@@ -3776,7 +3827,8 @@
       "highSchool": "Washington-Lee HS",
       "rsci": "",
       "weight": "235",
-      "dob": "1969-09-21"
+      "dob": "1969-09-21",
+      "twitter": ""
     },
     {
       "id": "ron_burt",
@@ -3806,7 +3858,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "christian_ast",
@@ -3836,7 +3889,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "205",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "marty_clark",
@@ -3866,7 +3920,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "erik_meek",
@@ -3896,7 +3951,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": "1973-05-14"
+      "dob": "1973-05-14",
+      "twitter": ""
     },
     {
       "id": "kenney_brown",
@@ -3924,7 +3980,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "stan_brunson",
@@ -3955,7 +4012,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "tony_moore",
@@ -3985,7 +4043,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "baker_perry",
@@ -4015,7 +4074,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "joey_beard",
@@ -4043,7 +4103,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "capel",
@@ -4149,7 +4210,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1975-02-13"
+      "dob": "1975-02-13",
+      "twitter": "JeffCapel"
     },
     {
       "id": "newton",
@@ -4268,7 +4330,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1974-08-17"
+      "dob": "1974-08-17",
+      "twitter": ""
     },
     {
       "id": "wallace_c",
@@ -4353,7 +4416,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "wojo",
@@ -4446,7 +4510,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1976-08-09"
+      "dob": "1976-08-09",
+      "twitter": "Wojo22"
     },
     {
       "id": "langdon",
@@ -4553,7 +4618,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1976-05-13"
+      "dob": "1976-05-13",
+      "twitter": ""
     },
     {
       "id": "price",
@@ -4639,7 +4705,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1976-04-12"
+      "dob": "1976-04-12",
+      "twitter": ""
     },
     {
       "id": "carrawell",
@@ -4734,7 +4801,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1977-11-17"
+      "dob": "1977-11-17",
+      "twitter": "CCarrawell"
     },
     {
       "id": "mcleod",
@@ -4866,7 +4934,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1975-11-17"
+      "dob": "1975-11-17",
+      "twitter": ""
     },
     {
       "id": "james_n",
@@ -5035,7 +5104,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1978-01-20"
+      "dob": "1978-01-20",
+      "twitter": "CoachNateJames"
     },
     {
       "id": "jay_heaps",
@@ -5066,7 +5136,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": "1976-08-02"
+      "dob": "1976-08-02",
+      "twitter": "JayHeaps"
     },
     {
       "id": "todd_singleton",
@@ -5095,7 +5166,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "taymon_domzalski",
@@ -5124,7 +5196,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": "1976-10-28"
+      "dob": "1976-10-28",
+      "twitter": ""
     },
     {
       "id": "justin_caldbeck",
@@ -5154,7 +5227,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": "justincaldbeck"
     },
     {
       "id": "jeremy_hall",
@@ -5182,7 +5256,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "mike_chappell",
@@ -5212,7 +5287,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "jd_simpson",
@@ -5242,7 +5318,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "chris_burgess",
@@ -5270,7 +5347,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": "1979-10-27"
+      "dob": "1979-10-27",
+      "twitter": ""
     },
     {
       "id": "ryan_caldbeck",
@@ -5300,7 +5378,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": "ryancaldbeck"
     },
     {
       "id": "battier",
@@ -5427,7 +5506,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1978-09-09"
+      "dob": "1978-09-09",
+      "twitter": "ShaneBattier"
     },
     {
       "id": "brand",
@@ -5564,7 +5644,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1979-03-11"
+      "dob": "1979-03-11",
+      "twitter": "EltonBrand"
     },
     {
       "id": "avery",
@@ -5691,7 +5772,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1979-08-16"
+      "dob": "1979-08-16",
+      "twitter": ""
     },
     {
       "id": "maggette",
@@ -5822,7 +5904,8 @@
       "rsci": "16",
       "weight": "225",
       "lastUpdated": "2026-02-20",
-      "dob": "1979-11-12"
+      "dob": "1979-11-12",
+      "twitter": "CoreyMaggette"
     },
     {
       "id": "jwilliams",
@@ -5917,7 +6000,8 @@
       "rsci": "3",
       "weight": "195",
       "lastUpdated": "2026-02-20",
-      "dob": "1981-09-10"
+      "dob": "1981-09-10",
+      "twitter": "RealJayWilliams"
     },
     {
       "id": "boozer",
@@ -6043,7 +6127,8 @@
       "rsci": "8",
       "weight": "258",
       "lastUpdated": "2026-02-24",
-      "dob": "1981-11-07"
+      "dob": "1981-11-07",
+      "twitter": "MisterCBooz"
     },
     {
       "id": "dunleavy",
@@ -6179,7 +6264,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1980-09-15"
+      "dob": "1980-09-15",
+      "twitter": ""
     },
     {
       "id": "duhon",
@@ -6298,7 +6384,8 @@
       "rsci": "6",
       "weight": "185",
       "lastUpdated": "2026-02-24",
-      "dob": "1982-08-31"
+      "dob": "1982-08-31",
+      "twitter": "ChrisDuhon"
     },
     {
       "id": "jones_d",
@@ -6468,7 +6555,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1980-12-27"
+      "dob": "1980-12-27",
+      "twitter": "dahntay1"
     },
     {
       "id": "deng",
@@ -6609,7 +6697,8 @@
       "rsci": "2",
       "weight": "220",
       "lastUpdated": "2026-02-20",
-      "dob": "1985-04-16"
+      "dob": "1985-04-16",
+      "twitter": "LuolDeng9"
     },
     {
       "id": "casey_sanders",
@@ -6640,7 +6729,8 @@
       "highSchool": "Chamberlain HS",
       "rsci": "16",
       "weight": "235",
-      "dob": "1981-01-25"
+      "dob": "1981-01-25",
+      "twitter": ""
     },
     {
       "id": "matt_christensen",
@@ -6671,7 +6761,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "265",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "d_bryant",
@@ -6699,7 +6790,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "andre_buckner",
@@ -6729,7 +6821,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "170",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "andy_borman",
@@ -6760,7 +6853,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "190",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "nick_horvath",
@@ -6790,7 +6884,8 @@
       "highSchool": "Mounds View HS",
       "rsci": "",
       "weight": "250",
-      "dob": "1982-07-01"
+      "dob": "1982-07-01",
+      "twitter": ""
     },
     {
       "id": "andre_sweet",
@@ -6818,7 +6913,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "andy_means",
@@ -6847,7 +6943,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "daniel_ewing",
@@ -6877,7 +6974,8 @@
       "highSchool": "",
       "rsci": "29",
       "weight": "185",
-      "dob": "1983-05-22"
+      "dob": "1983-05-22",
+      "twitter": ""
     },
     {
       "id": "reggie_love",
@@ -6953,7 +7051,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": "ReggieLove"
     },
     {
       "id": "michael_thompson",
@@ -6982,7 +7081,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "250",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "mark_causey",
@@ -7010,7 +7110,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "210",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "shavlik_randolph",
@@ -7164,7 +7265,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": ""
     },
     {
       "id": "patrick_johnson",
@@ -7194,7 +7296,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "250",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "jordan_davidson",
@@ -7227,7 +7330,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "180",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "joe_pagliuca",
@@ -7257,7 +7361,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "185",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "redick",
@@ -7402,7 +7507,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1984-06-24"
+      "dob": "1984-06-24",
+      "twitter": "jj_redick"
     },
     {
       "id": "swilliams",
@@ -7521,7 +7627,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1983-09-05"
+      "dob": "1983-09-05",
+      "twitter": "SheldenWilliam5"
     },
     {
       "id": "nelson",
@@ -7664,7 +7771,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1985-12-12"
+      "dob": "1985-12-12",
+      "twitter": "DNelson22"
     },
     {
       "id": "mcroberts",
@@ -7785,7 +7893,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1987-06-25"
+      "dob": "1987-06-25",
+      "twitter": "JoshMcRoberts"
     },
     {
       "id": "paulus",
@@ -7896,7 +8005,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1987-08-05"
+      "dob": "1987-08-05",
+      "twitter": "GregPaulus"
     },
     {
       "id": "ghenderson",
@@ -8009,7 +8119,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1987-12-09"
+      "dob": "1987-12-09",
+      "twitter": "GHenderson_9"
     },
     {
       "id": "scheyer",
@@ -8124,7 +8235,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1988-05-08"
+      "dob": "1988-05-08",
+      "twitter": "jonscheyer"
     },
     {
       "id": "nsmith",
@@ -8251,7 +8363,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1988-04-28"
+      "dob": "1988-04-28",
+      "twitter": "NolanSmith2"
     },
     {
       "id": "kirving",
@@ -8392,7 +8505,8 @@
       "rsci": "2",
       "weight": "180",
       "lastUpdated": "2026-02-20",
-      "dob": "1992-03-23"
+      "dob": "1992-03-23",
+      "twitter": "KyrieIrving"
     },
     {
       "id": "lee_melchionni",
@@ -8422,7 +8536,8 @@
       "highSchool": "Lancaster Catholic HS",
       "rsci": "",
       "weight": "205",
-      "dob": "1983-05-15"
+      "dob": "1983-05-15",
+      "twitter": ""
     },
     {
       "id": "sean_dockery",
@@ -8452,7 +8567,8 @@
       "highSchool": "Whitney Young HS",
       "rsci": "21",
       "weight": "185",
-      "dob": "1984-02-05"
+      "dob": "1984-02-05",
+      "twitter": "SeanDockery"
     },
     {
       "id": "ross_perkins",
@@ -8482,7 +8598,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "tom_novick",
@@ -8511,7 +8628,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "david_mcclure",
@@ -8541,7 +8659,8 @@
       "highSchool": "Ridgefield HS",
       "rsci": "71",
       "weight": "215",
-      "dob": "1987-03-25"
+      "dob": "1987-03-25",
+      "twitter": ""
     },
     {
       "id": "martynas_pocius",
@@ -8571,7 +8690,8 @@
       "highSchool": "",
       "rsci": "53",
       "weight": "190",
-      "dob": "1986-04-13"
+      "dob": "1986-04-13",
+      "twitter": ""
     },
     {
       "id": "jamal_boykin",
@@ -8598,7 +8718,8 @@
       "highSchool": "",
       "rsci": "60",
       "weight": "240",
-      "dob": "1986-10-07"
+      "dob": "1986-10-07",
+      "twitter": ""
     },
     {
       "id": "eric_boateng",
@@ -8625,7 +8746,8 @@
       "highSchool": "",
       "rsci": "39",
       "weight": "257",
-      "dob": "1987-06-02"
+      "dob": "1987-06-02",
+      "twitter": ""
     },
     {
       "id": "brian_zoubek",
@@ -8721,7 +8843,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": ""
     },
     {
       "id": "lance_thomas",
@@ -8876,7 +8999,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": "LanceThomas42"
     },
     {
       "id": "steve_johnson",
@@ -8905,7 +9029,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "210",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "nick_sutton",
@@ -8933,7 +9058,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "180",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "taylor_king",
@@ -8960,7 +9086,8 @@
       "highSchool": "Huntington Beach HS",
       "rsci": "27",
       "weight": "230",
-      "dob": "1988-07-10"
+      "dob": "1988-07-10",
+      "twitter": ""
     },
     {
       "id": "elliot_williams",
@@ -8987,7 +9114,8 @@
       "highSchool": "Memphis Central HS",
       "rsci": "15",
       "weight": "180",
-      "dob": "1989-06-20"
+      "dob": "1989-06-20",
+      "twitter": ""
     },
     {
       "id": "olek_czyz",
@@ -9015,7 +9143,8 @@
       "highSchool": "",
       "rsci": "66",
       "weight": "240",
-      "dob": "1989-12-23"
+      "dob": "1989-12-23",
+      "twitter": ""
     },
     {
       "id": "singler",
@@ -9154,7 +9283,8 @@
       "rsci": "6",
       "weight": "230",
       "lastUpdated": "2026-03-02",
-      "dob": "1988-05-04"
+      "dob": "1988-05-04",
+      "twitter": "KyleSingler"
     },
     {
       "id": "miles_plumlee",
@@ -9290,7 +9420,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1988-09-01"
+      "dob": "1988-09-01",
+      "twitter": "MilesPlumlee"
     },
     {
       "id": "mplumlee",
@@ -9444,7 +9575,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1990-03-05"
+      "dob": "1990-03-05",
+      "twitter": "MasonPlumlee"
     },
     {
       "id": "scurry",
@@ -9525,7 +9657,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1990-08-23"
+      "dob": "1990-08-23",
+      "twitter": "sdotcurry"
     },
     {
       "id": "arivers",
@@ -9665,7 +9798,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1992-08-01"
+      "dob": "1992-08-01",
+      "twitter": "AustinRivers25"
     },
     {
       "id": "cook",
@@ -9746,7 +9880,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1993-03-23"
+      "dob": "1993-03-23",
+      "twitter": "QCook323"
     },
     {
       "id": "marshall_p",
@@ -9856,7 +9991,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1992-06-19"
+      "dob": "1992-06-19",
+      "twitter": "MarshallPlumlee"
     },
     {
       "id": "parker_j",
@@ -10021,7 +10157,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1995-03-15"
+      "dob": "1995-03-15",
+      "twitter": "JabariParker"
     },
     {
       "id": "hood",
@@ -10159,7 +10296,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1992-10-20"
+      "dob": "1992-10-20",
+      "twitter": "raborickey_hood"
     },
     {
       "id": "allen",
@@ -10284,7 +10422,8 @@
       "rsci": "24",
       "weight": "195",
       "lastUpdated": "2026-02-20",
-      "dob": "1995-10-08"
+      "dob": "1995-10-08",
+      "twitter": "GraysonJAllen"
     },
     {
       "id": "okafor",
@@ -10400,7 +10539,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1995-12-15"
+      "dob": "1995-12-15",
+      "twitter": "JahOkafor"
     },
     {
       "id": "tjones",
@@ -10527,7 +10667,8 @@
       "rsci": "7",
       "weight": "190",
       "lastUpdated": "2026-02-20",
-      "dob": "1996-05-10"
+      "dob": "1996-05-10",
+      "twitter": "TyusJones"
     },
     {
       "id": "winslow",
@@ -10649,7 +10790,8 @@
       "rsci": "13",
       "weight": "225",
       "lastUpdated": "2026-03-03",
-      "dob": "1996-03-26"
+      "dob": "1996-03-26",
+      "twitter": "IAmJustise"
     },
     {
       "id": "casey_peters",
@@ -10679,7 +10821,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "200",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "andre_dawkins",
@@ -10709,7 +10852,8 @@
       "highSchool": "Atlantic Shores Christian",
       "rsci": "",
       "weight": "215",
-      "dob": "1991-09-13"
+      "dob": "1991-09-13",
+      "twitter": "AndreDawkins20"
     },
     {
       "id": "ryan_kelly",
@@ -10820,7 +10964,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1991-03-07"
+      "dob": "1991-03-07",
+      "twitter": "RKelly34"
     },
     {
       "id": "todd_zafirovski",
@@ -10850,7 +10995,8 @@
       "highSchool": "Lake Forest Academy",
       "rsci": "",
       "weight": "245",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "tyler_thornton",
@@ -10880,7 +11026,8 @@
       "highSchool": "Gonzaga College HS",
       "rsci": "",
       "weight": "190",
-      "dob": "1991-09-12"
+      "dob": "1991-09-12",
+      "twitter": "TylerThornton12"
     },
     {
       "id": "josh_hairston",
@@ -11019,7 +11166,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "J_Hairston15"
     },
     {
       "id": "michael_gbinije",
@@ -11046,7 +11194,8 @@
       "highSchool": "",
       "rsci": "28",
       "weight": "200",
-      "dob": "1992-08-02"
+      "dob": "1992-08-02",
+      "twitter": "MGbinije"
     },
     {
       "id": "sean_kelly",
@@ -11076,7 +11225,8 @@
       "highSchool": "Ravenscroft",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "rasheed_sulaimon",
@@ -11105,7 +11255,8 @@
       "highSchool": "Strake Jesuit College Prep",
       "rsci": "12",
       "weight": "195",
-      "dob": "1994-04-09"
+      "dob": "1994-04-09",
+      "twitter": "RasheedSulaimon"
     },
     {
       "id": "amile_jefferson",
@@ -11136,7 +11287,8 @@
       "highSchool": "Friends Central School",
       "rsci": "21",
       "weight": "215",
-      "dob": "1993-05-07"
+      "dob": "1993-05-07",
+      "twitter": "AmileJefferson"
     },
     {
       "id": "alex_murphy",
@@ -11163,7 +11315,8 @@
       "highSchool": "South Kingstown HS",
       "rsci": "49",
       "weight": "225",
-      "dob": "1994-04-01"
+      "dob": "1994-04-01",
+      "twitter": ""
     },
     {
       "id": "semi_ojeleye",
@@ -11283,7 +11436,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1994-12-05"
+      "dob": "1994-12-05",
+      "twitter": "Semi"
     },
     {
       "id": "matt_jones",
@@ -11313,7 +11467,8 @@
       "highSchool": "DeSoto HS",
       "rsci": "34",
       "weight": "210",
-      "dob": "1995-06-13"
+      "dob": "1995-06-13",
+      "twitter": "MattJones_13"
     },
     {
       "id": "nick_pagliuca",
@@ -11343,7 +11498,8 @@
       "highSchool": "Milton Academy",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "ingram",
@@ -11460,7 +11616,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1997-09-02"
+      "dob": "1997-09-02",
+      "twitter": "B_Ingram13"
     },
     {
       "id": "kennard",
@@ -11593,7 +11750,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1996-06-24"
+      "dob": "1996-06-24",
+      "twitter": "LukeKennard5"
     },
     {
       "id": "tatum",
@@ -11711,7 +11869,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1998-03-03"
+      "dob": "1998-03-03",
+      "twitter": "jaytatum0"
     },
     {
       "id": "bagley",
@@ -11841,7 +12000,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "1999-03-14"
+      "dob": "1999-03-14",
+      "twitter": "MB3Five"
     },
     {
       "id": "wcarter",
@@ -11956,7 +12116,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "1999-04-16"
+      "dob": "1999-04-16",
+      "twitter": "wendellcarter34"
     },
     {
       "id": "zion",
@@ -12064,7 +12225,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "2000-07-06"
+      "dob": "2000-07-06",
+      "twitter": "Zion"
     },
     {
       "id": "barrett",
@@ -12170,7 +12332,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2000-06-14"
+      "dob": "2000-06-14",
+      "twitter": "RjBarrett6"
     },
     {
       "id": "trejones",
@@ -12279,7 +12442,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2000-01-08"
+      "dob": "2000-01-08",
+      "twitter": "tre3jones"
     },
     {
       "id": "reddish",
@@ -12408,7 +12572,8 @@
       "rsci": "2",
       "weight": "218",
       "lastUpdated": "2026-02-20",
-      "dob": "1999-09-01"
+      "dob": "1999-09-01",
+      "twitter": "CamReddish"
     },
     {
       "id": "roach",
@@ -12489,7 +12654,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "2001-10-10"
+      "dob": "2001-10-10",
+      "twitter": "jeremy_roach0"
     },
     {
       "id": "banchero",
@@ -12594,7 +12760,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2002-11-12"
+      "dob": "2002-11-12",
+      "twitter": "Paolobanch5"
     },
     {
       "id": "griffin_aj",
@@ -12700,7 +12867,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2003-08-25"
+      "dob": "2003-08-25",
+      "twitter": "AJGriffin_"
     },
     {
       "id": "sean_obi",
@@ -12729,7 +12897,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "270",
-      "dob": "1995-05-10"
+      "dob": "1995-05-10",
+      "twitter": ""
     },
     {
       "id": "chase_jeter",
@@ -12757,7 +12926,8 @@
       "highSchool": "Bishop Gorman HS",
       "rsci": "14",
       "weight": "240",
-      "dob": "1997-04-23"
+      "dob": "1997-04-23",
+      "twitter": "chasejeter4"
     },
     {
       "id": "derryck_thornton",
@@ -12784,7 +12954,8 @@
       "highSchool": "Findlay Prep",
       "rsci": "13",
       "weight": "195",
-      "dob": "1997-04-07"
+      "dob": "1997-04-07",
+      "twitter": "DerryckT_"
     },
     {
       "id": "antonio_vrankovic",
@@ -12814,7 +12985,8 @@
       "highSchool": "Pine Crest HS",
       "rsci": "",
       "weight": "269",
-      "dob": "1997-07-29"
+      "dob": "1997-07-29",
+      "twitter": ""
     },
     {
       "id": "brennan_besser",
@@ -12844,7 +13016,8 @@
       "highSchool": "Latin School",
       "rsci": "",
       "weight": "190",
-      "dob": null
+      "dob": null,
+      "twitter": "BrennanBesser"
     },
     {
       "id": "javin_delaurier",
@@ -12985,7 +13158,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "JavinDeLaurier"
     },
     {
       "id": "frank_jackson",
@@ -13012,7 +13186,8 @@
       "highSchool": "Lone Peak HS",
       "rsci": "14",
       "weight": "205",
-      "dob": "1998-11-04"
+      "dob": "1998-11-04",
+      "twitter": "FrankJackson_"
     },
     {
       "id": "harry_giles_iii",
@@ -13167,7 +13342,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "HGiiizzle"
     },
     {
       "id": "jack_white",
@@ -13197,7 +13373,8 @@
       "highSchool": "Australian Institute of Sport",
       "rsci": "",
       "weight": "222",
-      "dob": "1997-04-12"
+      "dob": "1997-04-12",
+      "twitter": "JackWhite41"
     },
     {
       "id": "marques_bolden",
@@ -13226,7 +13403,8 @@
       "highSchool": "DeSoto HS",
       "rsci": "11",
       "weight": "250",
-      "dob": "1999-04-14"
+      "dob": "1999-04-14",
+      "twitter": "MarquesBolden"
     },
     {
       "id": "justin_robinson",
@@ -13256,7 +13434,8 @@
       "highSchool": "San Antonio Christian School",
       "rsci": "",
       "weight": "202",
-      "dob": "1997-07-18"
+      "dob": "1997-07-18",
+      "twitter": "JRobinson_0"
     },
     {
       "id": "gary_trent_jr",
@@ -13379,7 +13558,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "1999-01-18"
+      "dob": "1999-01-18",
+      "twitter": "gtrentjr"
     },
     {
       "id": "trevon_duval",
@@ -13500,7 +13680,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "TrevonDuval"
     },
     {
       "id": "alex_oconnell",
@@ -13530,7 +13711,8 @@
       "highSchool": "Milton HS",
       "rsci": "69",
       "weight": "180",
-      "dob": "1999-06-18"
+      "dob": "1999-06-18",
+      "twitter": "AlexOConnell12"
     },
     {
       "id": "jordan_goldwire",
@@ -13560,7 +13742,8 @@
       "highSchool": "Norcross HS",
       "rsci": "",
       "weight": "184",
-      "dob": "1999-07-11"
+      "dob": "1999-07-11",
+      "twitter": "JGoldwire_"
     },
     {
       "id": "jordan_tucker",
@@ -13587,7 +13770,8 @@
       "highSchool": "Joseph Wheeler HS",
       "rsci": "59",
       "weight": "220",
-      "dob": "1999-10-15"
+      "dob": "1999-10-15",
+      "twitter": ""
     },
     {
       "id": "mike_buckmire",
@@ -13617,7 +13801,8 @@
       "highSchool": "Germantown Friends School",
       "rsci": "",
       "weight": "175",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "joey_baker",
@@ -13647,7 +13832,8 @@
       "highSchool": "Trinity Christian School",
       "rsci": "37",
       "weight": "201",
-      "dob": "2000-03-12"
+      "dob": "2000-03-12",
+      "twitter": "JoeyBaker_13"
     },
     {
       "id": "bates_jones",
@@ -13677,7 +13863,8 @@
       "highSchool": "Charlotte Latin HS",
       "rsci": "",
       "weight": "225",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "cassius_stanley",
@@ -13704,7 +13891,8 @@
       "highSchool": "Sierra Canyon School",
       "rsci": "33",
       "weight": "193",
-      "dob": "2000-08-28"
+      "dob": "2000-08-28",
+      "twitter": "cassius_stanley"
     },
     {
       "id": "vernon_carey_jr",
@@ -13731,7 +13919,8 @@
       "highSchool": "NSU University School",
       "rsci": "5",
       "weight": "270",
-      "dob": "2001-02-25"
+      "dob": "2001-02-25",
+      "twitter": "vernoncarey22"
     },
     {
       "id": "matthew_hurt",
@@ -13759,7 +13948,8 @@
       "highSchool": "John Marshall HS",
       "rsci": "12",
       "weight": "235",
-      "dob": "2001-09-27"
+      "dob": "2001-09-27",
+      "twitter": "MatthewHurt1"
     },
     {
       "id": "wendell_moore_jr",
@@ -13788,7 +13978,8 @@
       "highSchool": "Cox Mill HS",
       "rsci": "25",
       "weight": "216",
-      "dob": "2001-10-14"
+      "dob": "2001-10-14",
+      "twitter": "WendellMooreJr"
     },
     {
       "id": "michael_savarino",
@@ -13818,7 +14009,8 @@
       "highSchool": "Durham Academy",
       "rsci": "",
       "weight": "185",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "keenan_worthington",
@@ -13848,7 +14040,8 @@
       "highSchool": "Blair Academy",
       "rsci": "",
       "weight": "225",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "dj_steward",
@@ -13875,7 +14068,8 @@
       "highSchool": "Whitney Young HS",
       "rsci": "24",
       "weight": "163",
-      "dob": "2001-11-03"
+      "dob": "2001-11-03",
+      "twitter": "DJSteward2"
     },
     {
       "id": "jalen_johnson",
@@ -13983,7 +14177,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2002-12-18"
+      "dob": "2002-12-18",
+      "twitter": "JalenJohnson1"
     },
     {
       "id": "mark_williams",
@@ -14102,7 +14297,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "MarkWilliams15"
     },
     {
       "id": "jaemyn_brakefield",
@@ -14129,7 +14325,8 @@
       "highSchool": "Huntington Prep School",
       "rsci": "33",
       "weight": "216",
-      "dob": "2002-01-19"
+      "dob": "2002-01-19",
+      "twitter": "jaemyn_b"
     },
     {
       "id": "henry_coleman_iii",
@@ -14156,7 +14353,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": "2002-08-14"
+      "dob": "2002-08-14",
+      "twitter": ""
     },
     {
       "id": "patrick_tape",
@@ -14183,7 +14381,8 @@
       "highSchool": "Queens Grant HS",
       "rsci": "",
       "weight": "233",
-      "dob": "1999-07-06"
+      "dob": "1999-07-06",
+      "twitter": ""
     },
     {
       "id": "spencer_hubbard",
@@ -14255,7 +14454,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2002-05-14"
+      "dob": "2002-05-14",
+      "twitter": ""
     },
     {
       "id": "henry_coleman",
@@ -14283,7 +14483,8 @@
       "highSchool": "Trinity Episcopal",
       "rsci": "49",
       "weight": "229",
-      "dob": "2002-08-14"
+      "dob": "2002-08-14",
+      "twitter": ""
     },
     {
       "id": "trevor_keels",
@@ -14310,7 +14511,8 @@
       "highSchool": "Paul VI HS",
       "rsci": "19",
       "weight": "221",
-      "dob": "2003-02-19"
+      "dob": "2003-02-19",
+      "twitter": "TrevorKeels"
     },
     {
       "id": "theo_john",
@@ -14337,7 +14539,8 @@
       "highSchool": "Champlin Park HS",
       "rsci": "",
       "weight": "222",
-      "dob": "1999-03-04"
+      "dob": "1999-03-04",
+      "twitter": "Theojohn4"
     },
     {
       "id": "filipowski",
@@ -14433,7 +14636,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "2003-09-22"
+      "dob": "2003-09-22",
+      "twitter": "kylefilipowski"
     },
     {
       "id": "lively",
@@ -14532,7 +14736,8 @@
       "rsci": "2",
       "weight": "230",
       "lastUpdated": "2026-03-07",
-      "dob": "2004-01-10"
+      "dob": "2004-01-10",
+      "twitter": "DeijunLively"
     },
     {
       "id": "mccain",
@@ -14631,7 +14836,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2004-08-21"
+      "dob": "2004-08-21",
+      "twitter": "Jared2McCain"
     },
     {
       "id": "flagg",
@@ -14724,7 +14930,8 @@
       "rsci": "1",
       "weight": "205",
       "lastUpdated": "2026-03-05",
-      "dob": "2006-12-21"
+      "dob": "2006-12-21",
+      "twitter": "cooperflagg"
     },
     {
       "id": "knueppel",
@@ -14813,7 +15020,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2005-10-06"
+      "dob": "2005-10-06",
+      "twitter": "KonKnueppel"
     },
     {
       "id": "evans_isaiah",
@@ -14892,7 +15100,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "2005-11-03"
+      "dob": "2005-11-03",
+      "twitter": "IsaiahEvans_"
     },
     {
       "id": "cameron_boozer",
@@ -14966,7 +15175,8 @@
       "rsci": "3",
       "weight": "250",
       "lastUpdated": "2026-02-20",
-      "dob": "2006-11-04"
+      "dob": "2006-11-04",
+      "twitter": "cameronboozer_"
     },
     {
       "id": "boozer_c",
@@ -15030,7 +15240,8 @@
       "rsci": "19",
       "weight": "205",
       "lastUpdated": "2026-02-20",
-      "dob": "2006-11-04"
+      "dob": "2006-11-04",
+      "twitter": "caydenboozer_"
     },
     {
       "id": "jaylen_blakes",
@@ -15060,7 +15271,8 @@
       "highSchool": "Blair Academy HS",
       "rsci": "",
       "weight": "208",
-      "dob": "2002-10-21"
+      "dob": "2002-10-21",
+      "twitter": "jaylenblakes"
     },
     {
       "id": "stanley_borden",
@@ -15134,7 +15346,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": ""
     },
     {
       "id": "mark_mitchell",
@@ -15225,7 +15438,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2003-10-03"
+      "dob": "2003-10-03",
+      "twitter": "MarkMitchell25"
     },
     {
       "id": "tyrese_proctor",
@@ -15254,7 +15468,8 @@
       "highSchool": "NBA Global Academy",
       "rsci": "97",
       "weight": "175",
-      "dob": "2004-04-17"
+      "dob": "2004-04-17",
+      "twitter": "tyreseproctor_"
     },
     {
       "id": "ryan_young",
@@ -15282,7 +15497,8 @@
       "highSchool": "Bethlehem Catholic HS",
       "rsci": "",
       "weight": "245",
-      "dob": "1999-07-21"
+      "dob": "1999-07-21",
+      "twitter": "RyanYoung15"
     },
     {
       "id": "blake_taylor",
@@ -15310,7 +15526,8 @@
       "highSchool": "",
       "rsci": "",
       "weight": "",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "dariq_whitehead",
@@ -15337,7 +15554,8 @@
       "highSchool": "Montverde Academy",
       "rsci": "1",
       "weight": "220",
-      "dob": "2004-08-14"
+      "dob": "2004-08-14",
+      "twitter": "DariqWhitehead"
     },
     {
       "id": "jacob_grandison",
@@ -15364,7 +15582,8 @@
       "highSchool": "Phillips Exeter Academy",
       "rsci": "",
       "weight": "205",
-      "dob": "1999-04-22"
+      "dob": "1999-04-22",
+      "twitter": "JacobGrandison"
     },
     {
       "id": "jaden_schutt",
@@ -15392,7 +15611,8 @@
       "highSchool": "Yorkville Christian",
       "rsci": "59",
       "weight": "185",
-      "dob": "2004-04-10"
+      "dob": "2004-04-10",
+      "twitter": "JadenSchutt"
     },
     {
       "id": "christian_reeves",
@@ -15421,7 +15641,8 @@
       "highSchool": "Oak Hill Academy",
       "rsci": "",
       "weight": "245",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "kale_catchings",
@@ -15448,7 +15669,8 @@
       "highSchool": "Liberty HS",
       "rsci": "",
       "weight": "220",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "max_johns",
@@ -15475,7 +15697,8 @@
       "highSchool": "Woodberry Forest HS",
       "rsci": "",
       "weight": "195",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "neal_begovich",
@@ -15504,7 +15727,8 @@
       "highSchool": "St. Ignatius College Prep",
       "rsci": "",
       "weight": "225",
-      "dob": null
+      "dob": null,
+      "twitter": ""
     },
     {
       "id": "ifeanyi_ufochukwu",
@@ -15572,7 +15796,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": ""
     },
     {
       "id": "caleb_foster",
@@ -15672,7 +15897,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2005-04-28"
+      "dob": "2005-04-28",
+      "twitter": "CalebFoster_4"
     },
     {
       "id": "sean_stewart",
@@ -15699,7 +15925,8 @@
       "highSchool": "Montverde Academy",
       "rsci": "15",
       "weight": "227",
-      "dob": "2004-12-30"
+      "dob": "2004-12-30",
+      "twitter": "SeanStewart24"
     },
     {
       "id": "cameron_sheffield",
@@ -15795,7 +16022,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": ""
     },
     {
       "id": "jack_scott",
@@ -15886,7 +16114,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": ""
     },
     {
       "id": "tj_power",
@@ -15913,7 +16142,8 @@
       "highSchool": "Worcester Academy",
       "rsci": "21",
       "weight": "216",
-      "dob": "2005-12-02"
+      "dob": "2005-12-02",
+      "twitter": "tjpower_"
     },
     {
       "id": "sion_james",
@@ -15940,7 +16170,8 @@
       "highSchool": "Lanier HS",
       "rsci": "",
       "weight": "185",
-      "dob": "2004-06-22"
+      "dob": "2004-06-22",
+      "twitter": "SionJames_"
     },
     {
       "id": "khaman_maluach",
@@ -16029,7 +16260,8 @@
         "description": "The foundation that changed Khaman Maluach’s life. Luol Deng — the former Duke star and NBA All-Star — founded the organization to use basketball as a tool for empowerment across Africa. A Deng Foundation camp in Uganda in 2019 introduced Maluach to basketball at age 13, launching the journey from Kawempe to Cameron Indoor to the NBA.",
         "url": ""
       },
-      "dob": "2006-11-03"
+      "dob": "2006-11-03",
+      "twitter": "KhamanMaluach"
     },
     {
       "id": "maliq_brown",
@@ -16140,7 +16372,8 @@
         "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham’s underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "twitter": "MaliqBrown_"
     },
     {
       "id": "patrick_ngongba_ii",
@@ -16234,7 +16467,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "dob": "2005-05-31"
+      "dob": "2005-05-31",
+      "twitter": "PatrickNgongba"
     },
     {
       "id": "mason_gillis",
@@ -16261,7 +16495,8 @@
       "highSchool": "New Castle HS",
       "rsci": "",
       "weight": "230",
-      "dob": "2001-12-23"
+      "dob": "2001-12-23",
+      "twitter": "MasonGillis"
     },
     {
       "id": "darren_harris",
@@ -16357,7 +16592,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": "DarrenHarris_"
     },
     {
       "id": "dame_sarr",
@@ -16450,7 +16686,8 @@
         "url": "https://www.v.org/donate",
         "isDefault": true
       },
-      "dob": "2005-09-17"
+      "dob": "2005-09-17",
+      "twitter": "DameSarr_"
     },
     {
       "id": "nikolas_khamenia",
@@ -16539,7 +16776,8 @@
         "url": "https://www.dukechildrens.org/giving",
         "isDefault": true
       },
-      "dob": "2003-12-27"
+      "dob": "2003-12-27",
+      "twitter": ""
     },
     {
       "id": "sebastian_wilkins",
@@ -16626,7 +16864,8 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-17",
+      "twitter": ""
     }
   ]
 }
