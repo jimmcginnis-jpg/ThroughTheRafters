@@ -268,7 +268,35 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Gene Banks",
+            "id": "gene_banks",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 28,
+            "draftYear": 1981,
+            "lastSeason": true
+          },
+          {
+            "name": "Kenny Dennard",
+            "id": "kenny_dennard",
+            "pos": "Forward",
+            "height": "6'8\"",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 78,
+            "draftYear": 1981,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1981-82",
@@ -521,7 +549,20 @@
         "lotteryCount": 0,
         "firstRoundCount": 1,
         "actualRecord": "10-17",
-        "actualNcaa": "Did not qualify"
+        "actualNcaa": "Did not qualify",
+        "futurePros": [
+          {
+            "name": "Dan Meagher",
+            "id": "dan_meagher",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 126,
+            "draftYear": 1985,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -775,7 +816,64 @@
         "lotteryCount": 0,
         "firstRoundCount": 1,
         "actualRecord": "11-17",
-        "actualNcaa": "Did not qualify"
+        "actualNcaa": "Did not qualify",
+        "futurePros": [
+          {
+            "name": "Johnny Dawkins",
+            "id": "dawkins",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 10,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Mark Alarie",
+            "id": "alarie",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 18,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "David Henderson",
+            "id": "henderson_d",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 58,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Jay Bilas",
+            "id": "bilas",
+            "pos": "Center/Fwd",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": null,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Dan Meagher",
+            "id": "dan_meagher",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 126,
+            "draftYear": 1985,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -1080,7 +1178,64 @@
         "lotteryCount": 0,
         "firstRoundCount": 1,
         "actualRecord": "24-10",
-        "actualNcaa": "Second Round (first-round bye, lost to Washington)"
+        "actualNcaa": "Second Round (first-round bye, lost to Washington)",
+        "futurePros": [
+          {
+            "name": "Johnny Dawkins",
+            "id": "dawkins",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 10,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Mark Alarie",
+            "id": "alarie",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 18,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "David Henderson",
+            "id": "henderson_d",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 58,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Jay Bilas",
+            "id": "bilas",
+            "pos": "Center/Fwd",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": null,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Dan Meagher",
+            "id": "dan_meagher",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 126,
+            "draftYear": 1985,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -1350,7 +1505,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Johnny Dawkins",
+            "id": "dawkins",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 10,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Mark Alarie",
+            "id": "alarie",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 18,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "David Henderson",
+            "id": "henderson_d",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 58,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Jay Bilas",
+            "id": "bilas",
+            "pos": "Center/Fwd",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": null,
+            "draftYear": 1986,
+            "lastSeason": false
+          },
+          {
+            "name": "Dan Meagher",
+            "id": "dan_meagher",
+            "pos": "Forward",
+            "height": "6'7\"",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 126,
+            "draftYear": 1985,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1985-86",
@@ -1702,7 +1918,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Danny Ferry",
+            "id": "ferry",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 2,
+            "draftYear": 1989,
+            "lastSeason": false
+          },
+          {
+            "name": "Johnny Dawkins",
+            "id": "dawkins",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 10,
+            "draftYear": 1986,
+            "lastSeason": true
+          },
+          {
+            "name": "Mark Alarie",
+            "id": "alarie",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 18,
+            "draftYear": 1986,
+            "lastSeason": true
+          },
+          {
+            "name": "David Henderson",
+            "id": "henderson_d",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 58,
+            "draftYear": 1986,
+            "lastSeason": true
+          },
+          {
+            "name": "Jay Bilas",
+            "id": "bilas",
+            "pos": "Center/Fwd",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": null,
+            "draftYear": 1986,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1986-87",
@@ -1992,7 +2269,46 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Danny Ferry",
+            "id": "ferry",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 2,
+            "draftYear": 1989,
+            "lastSeason": false
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "id": "abdelnaby",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 25,
+            "draftYear": 1990,
+            "lastSeason": false
+          },
+          {
+            "name": "Phil Henderson",
+            "id": "henderson_p",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 49,
+            "draftYear": 1990,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1987-88",
@@ -2325,7 +2641,46 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Danny Ferry",
+            "id": "ferry",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 2,
+            "draftYear": 1989,
+            "lastSeason": false
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "id": "abdelnaby",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 25,
+            "draftYear": 1990,
+            "lastSeason": false
+          },
+          {
+            "name": "Phil Henderson",
+            "id": "henderson_p",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 49,
+            "draftYear": 1990,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1988-89",
@@ -2662,7 +3017,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Danny Ferry",
+            "id": "ferry",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 2,
+            "draftYear": 1989,
+            "lastSeason": true
+          },
+          {
+            "name": "Christian Laettner",
+            "id": "laettner",
+            "pos": "Center/Fwd",
+            "height": "6’11”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 1992,
+            "lastSeason": false
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "id": "abdelnaby",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 25,
+            "draftYear": 1990,
+            "lastSeason": false
+          },
+          {
+            "name": "Brian Davis",
+            "id": "davis_b",
+            "pos": "Guard/Fwd",
+            "height": "6’7”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 48,
+            "draftYear": 1992,
+            "lastSeason": false
+          },
+          {
+            "name": "Phil Henderson",
+            "id": "henderson_p",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 49,
+            "draftYear": 1990,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1989-90",
@@ -2979,7 +3395,79 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Christian Laettner",
+            "id": "laettner",
+            "pos": "Center/Fwd",
+            "height": "6’11”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 3,
+            "draftYear": 1992,
+            "lastSeason": false
+          },
+          {
+            "name": "Bobby Hurley",
+            "id": "hurley",
+            "pos": "Point Guard",
+            "height": "6’0”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 7,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Thomas Hill",
+            "id": "hill_t",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 11,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "id": "abdelnaby",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 25,
+            "draftYear": 1990,
+            "lastSeason": true
+          },
+          {
+            "name": "Brian Davis",
+            "id": "davis_b",
+            "pos": "Guard/Fwd",
+            "height": "6’7”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 48,
+            "draftYear": 1992,
+            "lastSeason": false
+          },
+          {
+            "name": "Phil Henderson",
+            "id": "henderson_p",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 49,
+            "draftYear": 1990,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1990-91",
@@ -3295,7 +3783,79 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Christian Laettner",
+            "id": "laettner",
+            "pos": "Center/Fwd",
+            "height": "6’11”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 3,
+            "draftYear": 1992,
+            "lastSeason": false
+          },
+          {
+            "name": "Grant Hill",
+            "id": "hill",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 1994,
+            "lastSeason": false
+          },
+          {
+            "name": "Bobby Hurley",
+            "id": "hurley",
+            "pos": "Point Guard",
+            "height": "6’0”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 7,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Thomas Hill",
+            "id": "hill_t",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 11,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Antonio Lang",
+            "id": "lang",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 29,
+            "draftYear": 1994,
+            "lastSeason": false
+          },
+          {
+            "name": "Brian Davis",
+            "id": "davis_b",
+            "pos": "Guard/Fwd",
+            "height": "6’7”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 48,
+            "draftYear": 1992,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1991-92",
@@ -3636,7 +4196,90 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Christian Laettner",
+            "id": "laettner",
+            "pos": "Center/Fwd",
+            "height": "6’11”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 3,
+            "draftYear": 1992,
+            "lastSeason": true
+          },
+          {
+            "name": "Grant Hill",
+            "id": "hill",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 3,
+            "draftYear": 1994,
+            "lastSeason": false
+          },
+          {
+            "name": "Bobby Hurley",
+            "id": "hurley",
+            "pos": "Point Guard",
+            "height": "6’0”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 7,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Thomas Hill",
+            "id": "hill_t",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 11,
+            "draftYear": 1993,
+            "lastSeason": false
+          },
+          {
+            "name": "Cherokee Parks",
+            "id": "parks",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 12,
+            "draftYear": 1995,
+            "lastSeason": false
+          },
+          {
+            "name": "Antonio Lang",
+            "id": "lang",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 29,
+            "draftYear": 1994,
+            "lastSeason": false
+          },
+          {
+            "name": "Brian Davis",
+            "id": "davis_b",
+            "pos": "Guard/Fwd",
+            "height": "6’7”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 48,
+            "draftYear": 1992,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1992-93",
@@ -3920,7 +4563,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Grant Hill",
+            "id": "hill",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 3,
+            "draftYear": 1994,
+            "lastSeason": false
+          },
+          {
+            "name": "Bobby Hurley",
+            "id": "hurley",
+            "pos": "Point Guard",
+            "height": "6’0”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 7,
+            "draftYear": 1993,
+            "lastSeason": true
+          },
+          {
+            "name": "Thomas Hill",
+            "id": "hill_t",
+            "pos": "Guard/Fwd",
+            "height": "6’5”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 11,
+            "draftYear": 1993,
+            "lastSeason": true
+          },
+          {
+            "name": "Cherokee Parks",
+            "id": "parks",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 12,
+            "draftYear": 1995,
+            "lastSeason": false
+          },
+          {
+            "name": "Antonio Lang",
+            "id": "lang",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 29,
+            "draftYear": 1994,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1993-94",
@@ -4248,7 +4952,46 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Grant Hill",
+            "id": "hill",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 3,
+            "draftYear": 1994,
+            "lastSeason": true
+          },
+          {
+            "name": "Cherokee Parks",
+            "id": "parks",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 12,
+            "draftYear": 1995,
+            "lastSeason": false
+          },
+          {
+            "name": "Antonio Lang",
+            "id": "lang",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 29,
+            "draftYear": 1994,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1994-95",
@@ -4545,7 +5288,35 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Trajan Langdon",
+            "id": "langdon",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 11,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "Cherokee Parks",
+            "id": "parks",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 12,
+            "draftYear": 1995,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1995-96",
@@ -4832,7 +5603,35 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Trajan Langdon",
+            "id": "langdon",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 11,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "Roshown McLeod",
+            "id": "mcleod",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 20,
+            "draftYear": 1998,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1996-97",
@@ -5124,7 +5923,35 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Trajan Langdon",
+            "id": "langdon",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 11,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "Roshown McLeod",
+            "id": "mcleod",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 20,
+            "draftYear": 1998,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "1997-98",
@@ -5434,7 +6261,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Elton Brand",
+            "id": "brand",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 1,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "Shane Battier",
+            "id": "battier",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 6,
+            "draftYear": 2001,
+            "lastSeason": false
+          },
+          {
+            "name": "Trajan Langdon",
+            "id": "langdon",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 11,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "William Avery",
+            "id": "avery",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 14,
+            "draftYear": 1999,
+            "lastSeason": false
+          },
+          {
+            "name": "Roshown McLeod",
+            "id": "mcleod",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 20,
+            "draftYear": 1998,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "1998-99",
@@ -5814,7 +6702,64 @@
         "lotteryCount": 0,
         "firstRoundCount": 1,
         "actualRecord": "37-2",
-        "actualNcaa": "Championship Game (#1 overall seed, lost to UConn 77-74)"
+        "actualNcaa": "Championship Game (#1 overall seed, lost to UConn 77-74)",
+        "futurePros": [
+          {
+            "name": "Elton Brand",
+            "id": "brand",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 1,
+            "draftYear": 1999,
+            "lastSeason": true
+          },
+          {
+            "name": "Shane Battier",
+            "id": "battier",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 6,
+            "draftYear": 2001,
+            "lastSeason": false
+          },
+          {
+            "name": "Trajan Langdon",
+            "id": "langdon",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Year 5",
+            "yearNum": 5,
+            "draftPick": 11,
+            "draftYear": 1999,
+            "lastSeason": true
+          },
+          {
+            "name": "Corey Maggette",
+            "id": "maggette",
+            "pos": "Forward",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 13,
+            "draftYear": 1999,
+            "lastSeason": true
+          },
+          {
+            "name": "William Avery",
+            "id": "avery",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 14,
+            "draftYear": 1999,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -6178,7 +7123,53 @@
         "lotteryCount": 3,
         "firstRoundCount": 3,
         "actualRecord": "29-5",
-        "actualNcaa": "Sweet Sixteen (#1 seed East, lost to Florida 87-78)"
+        "actualNcaa": "Sweet Sixteen (#1 seed East, lost to Florida 87-78)",
+        "futurePros": [
+          {
+            "name": "Jay Williams",
+            "id": "jwilliams",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 2,
+            "draftYear": 2002,
+            "lastSeason": false
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "id": "dunleavy",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 2002,
+            "lastSeason": false
+          },
+          {
+            "name": "Shane Battier",
+            "id": "battier",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 6,
+            "draftYear": 2001,
+            "lastSeason": false
+          },
+          {
+            "name": "Carlos Boozer",
+            "id": "boozer",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 35,
+            "draftYear": 2002,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -6566,7 +7557,75 @@
         "lotteryCount": 3,
         "firstRoundCount": 3,
         "actualRecord": "35-4",
-        "actualNcaa": "National Champions (#1 seed East; beat Monmouth, Missouri, UCLA, USC, Maryland, Arizona)"
+        "actualNcaa": "National Champions (#1 seed East; beat Monmouth, Missouri, UCLA, USC, Maryland, Arizona)",
+        "futurePros": [
+          {
+            "name": "Jay Williams",
+            "id": "jwilliams",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 2,
+            "draftYear": 2002,
+            "lastSeason": false
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "id": "dunleavy",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 3,
+            "draftYear": 2002,
+            "lastSeason": false
+          },
+          {
+            "name": "Shane Battier",
+            "id": "battier",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 6,
+            "draftYear": 2001,
+            "lastSeason": true
+          },
+          {
+            "name": "Dahntay Jones",
+            "id": "jones_d",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 20,
+            "draftYear": 2003,
+            "lastSeason": false
+          },
+          {
+            "name": "Carlos Boozer",
+            "id": "boozer",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 35,
+            "draftYear": 2002,
+            "lastSeason": false
+          },
+          {
+            "name": "Chris Duhon",
+            "id": "duhon",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 38,
+            "draftYear": 2004,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -6896,7 +7955,64 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "31-4",
-        "actualNcaa": "Sweet Sixteen (#1 seed South; lost to Indiana 74-73)"
+        "actualNcaa": "Sweet Sixteen (#1 seed South; lost to Indiana 74-73)",
+        "futurePros": [
+          {
+            "name": "Jay Williams",
+            "id": "jwilliams",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 2,
+            "draftYear": 2002,
+            "lastSeason": true
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "id": "dunleavy",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 3,
+            "draftYear": 2002,
+            "lastSeason": true
+          },
+          {
+            "name": "Dahntay Jones",
+            "id": "jones_d",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 20,
+            "draftYear": 2003,
+            "lastSeason": false
+          },
+          {
+            "name": "Carlos Boozer",
+            "id": "boozer",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 35,
+            "draftYear": 2002,
+            "lastSeason": true
+          },
+          {
+            "name": "Chris Duhon",
+            "id": "duhon",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 38,
+            "draftYear": 2004,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -7240,7 +8356,53 @@
         "lotteryCount": 2,
         "firstRoundCount": 2,
         "actualRecord": "26-7",
-        "actualNcaa": "Sweet Sixteen (#3 seed West; lost to Kansas 69-65)"
+        "actualNcaa": "Sweet Sixteen (#3 seed West; lost to Kansas 69-65)",
+        "futurePros": [
+          {
+            "name": "Shelden Williams",
+            "id": "swilliams",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 5,
+            "draftYear": 2006,
+            "lastSeason": false
+          },
+          {
+            "name": "JJ Redick",
+            "id": "redick",
+            "pos": "Shooting Guard",
+            "height": "6’3”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 11,
+            "draftYear": 2006,
+            "lastSeason": false
+          },
+          {
+            "name": "Dahntay Jones",
+            "id": "jones_d",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 20,
+            "draftYear": 2003,
+            "lastSeason": false
+          },
+          {
+            "name": "Chris Duhon",
+            "id": "duhon",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 38,
+            "draftYear": 2004,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -7589,7 +8751,68 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Shelden Williams",
+            "id": "swilliams",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 5,
+            "draftYear": 2006,
+            "lastSeason": false
+          },
+          {
+            "name": "Luol Deng",
+            "id": "deng",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 7,
+            "draftYear": 2004,
+            "lastSeason": true
+          },
+          {
+            "name": "JJ Redick",
+            "id": "redick",
+            "pos": "Shooting Guard",
+            "height": "6’3”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 11,
+            "draftYear": 2006,
+            "lastSeason": false
+          },
+          {
+            "name": "Dahntay Jones",
+            "id": "jones_d",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 20,
+            "draftYear": 2003,
+            "lastSeason": true
+          },
+          {
+            "name": "Chris Duhon",
+            "id": "duhon",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 38,
+            "draftYear": 2004,
+            "lastSeason": true
+          }
+        ]
+      }
     },
     {
       "season": "2004-05",
@@ -7926,7 +9149,31 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "27-6",
-        "actualNcaa": "Sweet Sixteen (#1 seed Austin Regional; beat Delaware State 57-46, Mississippi State 63-55; lost to Michigan State 78-68)"
+        "actualNcaa": "Sweet Sixteen (#1 seed Austin Regional; beat Delaware State 57-46, Mississippi State 63-55; lost to Michigan State 78-68)",
+        "futurePros": [
+          {
+            "name": "Shelden Williams",
+            "id": "swilliams",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 5,
+            "draftYear": 2006,
+            "lastSeason": false
+          },
+          {
+            "name": "JJ Redick",
+            "id": "redick",
+            "pos": "Shooting Guard",
+            "height": "6’3”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 11,
+            "draftYear": 2006,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -8264,7 +9511,42 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "32-4",
-        "actualNcaa": "Sweet Sixteen (#1 seed Atlanta Regional; beat Southern 80-55, George Washington 74-61; lost to LSU 62-54)"
+        "actualNcaa": "Sweet Sixteen (#1 seed Atlanta Regional; beat Southern 80-55, George Washington 74-61; lost to LSU 62-54)",
+        "futurePros": [
+          {
+            "name": "Shelden Williams",
+            "id": "swilliams",
+            "pos": "Fwd/Center",
+            "height": "6’9”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 5,
+            "draftYear": 2006,
+            "lastSeason": true
+          },
+          {
+            "name": "JJ Redick",
+            "id": "redick",
+            "pos": "Shooting Guard",
+            "height": "6’3”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 11,
+            "draftYear": 2006,
+            "lastSeason": true
+          },
+          {
+            "name": "Josh McRoberts",
+            "id": "mcroberts",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 37,
+            "draftYear": 2007,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -8560,7 +9842,31 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "22-11",
-        "actualNcaa": "First Round (#6 seed; lost to #11 VCU 79-77)"
+        "actualNcaa": "First Round (#6 seed; lost to #11 VCU 79-77)",
+        "futurePros": [
+          {
+            "name": "Gerald Henderson",
+            "id": "ghenderson",
+            "pos": "Guard",
+            "height": "6’5”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 12,
+            "draftYear": 2009,
+            "lastSeason": false
+          },
+          {
+            "name": "Josh McRoberts",
+            "id": "mcroberts",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 37,
+            "draftYear": 2007,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -8861,7 +10167,42 @@
         "lotteryCount": 0,
         "firstRoundCount": 0,
         "actualRecord": "28-6",
-        "actualNcaa": "Second Round (#2 seed West; beat Belmont 71-70; lost to West Virginia 73-67)"
+        "actualNcaa": "Second Round (#2 seed West; beat Belmont 71-70; lost to West Virginia 73-67)",
+        "futurePros": [
+          {
+            "name": "Gerald Henderson",
+            "id": "ghenderson",
+            "pos": "Guard",
+            "height": "6’5”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 12,
+            "draftYear": 2009,
+            "lastSeason": false
+          },
+          {
+            "name": "Nolan Smith",
+            "id": "nsmith",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 21,
+            "draftYear": 2011,
+            "lastSeason": false
+          },
+          {
+            "name": "Kyle Singler",
+            "id": "singler",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 33,
+            "draftYear": 2011,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -9187,7 +10528,53 @@
         "lotteryCount": 0,
         "firstRoundCount": 0,
         "actualRecord": "30-7",
-        "actualNcaa": "Sweet Sixteen (#2 seed East; beat Binghamton 86-62, Texas 74-69; lost to Villanova 77-54)"
+        "actualNcaa": "Sweet Sixteen (#2 seed East; beat Binghamton 86-62, Texas 74-69; lost to Villanova 77-54)",
+        "futurePros": [
+          {
+            "name": "Gerald Henderson",
+            "id": "ghenderson",
+            "pos": "Guard",
+            "height": "6’5”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 12,
+            "draftYear": 2009,
+            "lastSeason": true
+          },
+          {
+            "name": "Nolan Smith",
+            "id": "nsmith",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 21,
+            "draftYear": 2011,
+            "lastSeason": false
+          },
+          {
+            "name": "Miles Plumlee",
+            "id": "miles_plumlee",
+            "pos": "Forward/Center",
+            "height": "6’11”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 26,
+            "draftYear": 2012,
+            "lastSeason": false
+          },
+          {
+            "name": "Kyle Singler",
+            "id": "singler",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 33,
+            "draftYear": 2011,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -9524,7 +10911,64 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "35-5",
-        "actualNcaa": "National Champions (#1 seed South; beat Arkansas-Pine Bluff 73-44, California 68-53, Purdue 70-57, Baylor 78-71, West Virginia 78-57, Butler 61-59)"
+        "actualNcaa": "National Champions (#1 seed South; beat Arkansas-Pine Bluff 73-44, California 68-53, Purdue 70-57, Baylor 78-71, West Virginia 78-57, Butler 61-59)",
+        "futurePros": [
+          {
+            "name": "Nolan Smith",
+            "id": "nsmith",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 21,
+            "draftYear": 2011,
+            "lastSeason": false
+          },
+          {
+            "name": "Mason Plumlee",
+            "id": "mplumlee",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 22,
+            "draftYear": 2013,
+            "lastSeason": false
+          },
+          {
+            "name": "Miles Plumlee",
+            "id": "miles_plumlee",
+            "pos": "Forward/Center",
+            "height": "6’11”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 26,
+            "draftYear": 2012,
+            "lastSeason": false
+          },
+          {
+            "name": "Kyle Singler",
+            "id": "singler",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 33,
+            "draftYear": 2011,
+            "lastSeason": false
+          },
+          {
+            "name": "Ryan Kelly",
+            "id": "ryan_kelly",
+            "pos": "Forward",
+            "height": "6'11\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 48,
+            "draftYear": 2013,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -9882,7 +11326,79 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [],
+        "lotteryCount": 0,
+        "firstRoundCount": 0,
+        "futurePros": [
+          {
+            "name": "Kyrie Irving",
+            "id": "kirving",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 1,
+            "draftYear": 2011,
+            "lastSeason": true
+          },
+          {
+            "name": "Nolan Smith",
+            "id": "nsmith",
+            "pos": "Guard",
+            "height": "6’2”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 21,
+            "draftYear": 2011,
+            "lastSeason": true
+          },
+          {
+            "name": "Mason Plumlee",
+            "id": "mplumlee",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 22,
+            "draftYear": 2013,
+            "lastSeason": false
+          },
+          {
+            "name": "Miles Plumlee",
+            "id": "miles_plumlee",
+            "pos": "Forward/Center",
+            "height": "6’11”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 26,
+            "draftYear": 2012,
+            "lastSeason": false
+          },
+          {
+            "name": "Kyle Singler",
+            "id": "singler",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 33,
+            "draftYear": 2011,
+            "lastSeason": true
+          },
+          {
+            "name": "Ryan Kelly",
+            "id": "ryan_kelly",
+            "pos": "Forward",
+            "height": "6'11\"",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 48,
+            "draftYear": 2013,
+            "lastSeason": false
+          }
+        ]
+      }
     },
     {
       "season": "2011-12",
@@ -10232,7 +11748,53 @@
         "lotteryCount": 1,
         "firstRoundCount": 1,
         "actualRecord": "27-7",
-        "actualNcaa": "#2 seed South; lost to #15 Lehigh 75-70 in Round of 64"
+        "actualNcaa": "#2 seed South; lost to #15 Lehigh 75-70 in Round of 64",
+        "futurePros": [
+          {
+            "name": "Austin Rivers",
+            "id": "arivers",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 10,
+            "draftYear": 2012,
+            "lastSeason": true
+          },
+          {
+            "name": "Mason Plumlee",
+            "id": "mplumlee",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 22,
+            "draftYear": 2013,
+            "lastSeason": false
+          },
+          {
+            "name": "Miles Plumlee",
+            "id": "miles_plumlee",
+            "pos": "Forward/Center",
+            "height": "6’11”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 26,
+            "draftYear": 2012,
+            "lastSeason": true
+          },
+          {
+            "name": "Ryan Kelly",
+            "id": "ryan_kelly",
+            "pos": "Forward",
+            "height": "6'11\"",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 48,
+            "draftYear": 2013,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -10625,7 +12187,31 @@
         "lotteryCount": 2,
         "firstRoundCount": 2,
         "actualRecord": "30-6",
-        "actualNcaa": "#2 seed Midwest; beat Albany 73-61, Creighton 66-50, Michigan State 71-61; lost to #1 Louisville 85-63 Elite Eight"
+        "actualNcaa": "#2 seed Midwest; beat Albany 73-61, Creighton 66-50, Michigan State 71-61; lost to #1 Louisville 85-63 Elite Eight",
+        "futurePros": [
+          {
+            "name": "Mason Plumlee",
+            "id": "mplumlee",
+            "pos": "Center",
+            "height": "6’11”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 22,
+            "draftYear": 2013,
+            "lastSeason": true
+          },
+          {
+            "name": "Ryan Kelly",
+            "id": "ryan_kelly",
+            "pos": "Forward",
+            "height": "6'11\"",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 48,
+            "draftYear": 2013,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -11008,7 +12594,42 @@
         "lotteryCount": 2,
         "firstRoundCount": 2,
         "actualRecord": "26-9",
-        "actualNcaa": "#3 seed Midwest; lost to #14 Mercer 78-71 in Round of 64"
+        "actualNcaa": "#3 seed Midwest; lost to #14 Mercer 78-71 in Round of 64",
+        "futurePros": [
+          {
+            "name": "Jabari Parker",
+            "id": "parker_j",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 2,
+            "draftYear": 2014,
+            "lastSeason": true
+          },
+          {
+            "name": "Rodney Hood",
+            "id": "hood",
+            "pos": "Guard/Fwd",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 23,
+            "draftYear": 2014,
+            "lastSeason": true
+          },
+          {
+            "name": "Semi Ojeleye",
+            "id": "semi_ojeleye",
+            "pos": "Forward",
+            "height": "6'8\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 37,
+            "draftYear": 2017,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -11426,7 +13047,64 @@
         "lotteryCount": 2,
         "firstRoundCount": 3,
         "actualRecord": "35-4",
-        "actualNcaa": "National Champions (#1 seed South; beat Robert Morris 85-56, San Diego State 68-49, Utah 63-57, Gonzaga 66-52, Michigan State 81-61, Wisconsin 68-63)"
+        "actualNcaa": "National Champions (#1 seed South; beat Robert Morris 85-56, San Diego State 68-49, Utah 63-57, Gonzaga 66-52, Michigan State 81-61, Wisconsin 68-63)",
+        "futurePros": [
+          {
+            "name": "Jahlil Okafor",
+            "id": "okafor",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 2015,
+            "lastSeason": true
+          },
+          {
+            "name": "Justise Winslow",
+            "id": "winslow",
+            "pos": "Forward",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 10,
+            "draftYear": 2015,
+            "lastSeason": true
+          },
+          {
+            "name": "Grayson Allen",
+            "id": "allen",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 21,
+            "draftYear": 2018,
+            "lastSeason": false
+          },
+          {
+            "name": "Tyus Jones",
+            "id": "tjones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 24,
+            "draftYear": 2015,
+            "lastSeason": true
+          },
+          {
+            "name": "Semi Ojeleye",
+            "id": "semi_ojeleye",
+            "pos": "Forward",
+            "height": "6'8\"",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 37,
+            "draftYear": 2017,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -11847,7 +13525,42 @@
         "lotteryCount": 3,
         "firstRoundCount": 5,
         "actualRecord": "25-11",
-        "actualNcaa": "#4 seed West; beat UNC Wilmington 93-85, Yale 71-64; lost to #1 Oregon 82-68 Sweet 16"
+        "actualNcaa": "#4 seed West; beat UNC Wilmington 93-85, Yale 71-64; lost to #1 Oregon 82-68 Sweet 16",
+        "futurePros": [
+          {
+            "name": "Brandon Ingram",
+            "id": "ingram",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 2,
+            "draftYear": 2016,
+            "lastSeason": true
+          },
+          {
+            "name": "Luke Kennard",
+            "id": "kennard",
+            "pos": "Guard",
+            "height": "6’5”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 12,
+            "draftYear": 2017,
+            "lastSeason": false
+          },
+          {
+            "name": "Grayson Allen",
+            "id": "allen",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 21,
+            "draftYear": 2018,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -12310,7 +14023,53 @@
         "lotteryCount": 4,
         "firstRoundCount": 6,
         "actualRecord": "28-9",
-        "actualNcaa": "#2 seed South; beat Troy 110-44; lost to #7 South Carolina 88-81 in Round of 32"
+        "actualNcaa": "#2 seed South; beat Troy 110-44; lost to #7 South Carolina 88-81 in Round of 32",
+        "futurePros": [
+          {
+            "name": "Jayson Tatum",
+            "id": "tatum",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 2017,
+            "lastSeason": true
+          },
+          {
+            "name": "Luke Kennard",
+            "id": "kennard",
+            "pos": "Guard",
+            "height": "6’5”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 12,
+            "draftYear": 2017,
+            "lastSeason": true
+          },
+          {
+            "name": "Harry Giles III",
+            "id": "harry_giles_iii",
+            "pos": "Forward/Center",
+            "height": "6'10\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 20,
+            "draftYear": 2017,
+            "lastSeason": true
+          },
+          {
+            "name": "Grayson Allen",
+            "id": "allen",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Junior",
+            "yearNum": 3,
+            "draftPick": 21,
+            "draftYear": 2018,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -12777,7 +14536,53 @@
         "lotteryCount": 5,
         "firstRoundCount": 7,
         "actualRecord": "29-8",
-        "actualNcaa": "#2 seed Midwest — Elite Eight (lost to #1 Kansas in OT)"
+        "actualNcaa": "#2 seed Midwest — Elite Eight (lost to #1 Kansas in OT)",
+        "futurePros": [
+          {
+            "name": "Marvin Bagley III",
+            "id": "bagley",
+            "pos": "Fwd/Center",
+            "height": "6’11”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 2,
+            "draftYear": 2018,
+            "lastSeason": true
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "id": "wcarter",
+            "pos": "Center",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 7,
+            "draftYear": 2018,
+            "lastSeason": true
+          },
+          {
+            "name": "Grayson Allen",
+            "id": "allen",
+            "pos": "Guard",
+            "height": "6’4”",
+            "classYear": "Senior",
+            "yearNum": 4,
+            "draftPick": 21,
+            "draftYear": 2018,
+            "lastSeason": true
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "id": "gary_trent_jr",
+            "pos": "Guard",
+            "height": "6'6\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 37,
+            "draftYear": 2018,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -13271,7 +15076,53 @@
         "lotteryCount": 5,
         "firstRoundCount": 6,
         "actualRecord": "32-6",
-        "actualNcaa": "#1 overall seed (East) — Elite Eight (lost to #2 Michigan State 67-68)"
+        "actualNcaa": "#1 overall seed (East) — Elite Eight (lost to #2 Michigan State 67-68)",
+        "futurePros": [
+          {
+            "name": "Zion Williamson",
+            "id": "zion",
+            "pos": "Forward",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 1,
+            "draftYear": 2019,
+            "lastSeason": true
+          },
+          {
+            "name": "RJ Barrett",
+            "id": "barrett",
+            "pos": "Guard/Fwd",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 3,
+            "draftYear": 2019,
+            "lastSeason": true
+          },
+          {
+            "name": "Cam Reddish",
+            "id": "reddish",
+            "pos": "Forward",
+            "height": "6’8”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 10,
+            "draftYear": 2019,
+            "lastSeason": true
+          },
+          {
+            "name": "Tre Jones",
+            "id": "trejones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 41,
+            "draftYear": 2020,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -13699,7 +15550,20 @@
         "lotteryCount": 6,
         "firstRoundCount": 7,
         "actualRecord": "25-6",
-        "actualNcaa": "Cancelled (COVID-19) — Duke projected as #3 or #4 seed"
+        "actualNcaa": "Cancelled (COVID-19) — Duke projected as #3 or #4 seed",
+        "futurePros": [
+          {
+            "name": "Tre Jones",
+            "id": "trejones",
+            "pos": "Guard",
+            "height": "6’1”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 41,
+            "draftYear": 2020,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -14131,7 +15995,31 @@
         "lotteryCount": 5,
         "firstRoundCount": 5,
         "actualRecord": "13-11",
-        "actualNcaa": "Did not qualify — first time Duke missed the NCAA Tournament since 1995 (ended 24-year consecutive appearance streak)"
+        "actualNcaa": "Did not qualify — first time Duke missed the NCAA Tournament since 1995 (ended 24-year consecutive appearance streak)",
+        "futurePros": [
+          {
+            "name": "Mark Williams",
+            "id": "mark_williams",
+            "pos": "Center",
+            "height": "7'0\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 15,
+            "draftYear": 2022,
+            "lastSeason": false
+          },
+          {
+            "name": "Jalen Johnson",
+            "id": "jalen_johnson",
+            "pos": "Forward",
+            "height": "6'9\"",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 20,
+            "draftYear": 2021,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -14601,7 +16489,42 @@
         "lotteryCount": 3,
         "firstRoundCount": 4,
         "actualRecord": "32-7",
-        "actualNcaa": "#2 seed West — Final Four (beat CSU Fullerton, Michigan State, Texas Tech, Arkansas; lost to North Carolina 77-81 in semifinal)"
+        "actualNcaa": "#2 seed West — Final Four (beat CSU Fullerton, Michigan State, Texas Tech, Arkansas; lost to North Carolina 77-81 in semifinal)",
+        "futurePros": [
+          {
+            "name": "Paolo Banchero",
+            "id": "banchero",
+            "pos": "Forward",
+            "height": "6’10”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 1,
+            "draftYear": 2022,
+            "lastSeason": true
+          },
+          {
+            "name": "Mark Williams",
+            "id": "mark_williams",
+            "pos": "Center",
+            "height": "7'0\"",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 15,
+            "draftYear": 2022,
+            "lastSeason": true
+          },
+          {
+            "name": "AJ Griffin",
+            "id": "griffin_aj",
+            "pos": "Forward",
+            "height": "6’6”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 16,
+            "draftYear": 2022,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -15019,7 +16942,31 @@
         "lotteryCount": 1,
         "firstRoundCount": 4,
         "actualRecord": "27-9",
-        "actualNcaa": "#5 seed East — Round of 32 (beat Oral Roberts 74-51; lost to #4 Tennessee 52-65)"
+        "actualNcaa": "#5 seed East — Round of 32 (beat Oral Roberts 74-51; lost to #4 Tennessee 52-65)",
+        "futurePros": [
+          {
+            "name": "Dereck Lively II",
+            "id": "lively",
+            "pos": "Center",
+            "height": "7’1”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 12,
+            "draftYear": 2023,
+            "lastSeason": true
+          },
+          {
+            "name": "Kyle Filipowski",
+            "id": "filipowski",
+            "pos": "Center",
+            "height": "7’0”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 32,
+            "draftYear": 2024,
+            "lastSeason": false
+          }
+        ]
       }
     },
     {
@@ -15452,7 +17399,31 @@
         "lotteryCount": 2,
         "firstRoundCount": 5,
         "actualRecord": "27-9",
-        "actualNcaa": "#4 seed South — Elite Eight (beat Vermont, James Madison, #1 Houston; lost to #11 NC State 64-76)"
+        "actualNcaa": "#4 seed South — Elite Eight (beat Vermont, James Madison, #1 Houston; lost to #11 NC State 64-76)",
+        "futurePros": [
+          {
+            "name": "Jared McCain",
+            "id": "mccain",
+            "pos": "Guard",
+            "height": "6’3”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 16,
+            "draftYear": 2024,
+            "lastSeason": true
+          },
+          {
+            "name": "Kyle Filipowski",
+            "id": "filipowski",
+            "pos": "Center",
+            "height": "7’0”",
+            "classYear": "Sophomore",
+            "yearNum": 2,
+            "draftPick": 32,
+            "draftYear": 2024,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -15933,7 +17904,31 @@
         "lotteryCount": 2,
         "firstRoundCount": 4,
         "actualRecord": "35-4",
-        "actualNcaa": "#1 seed East — Final Four (beat Mount St. Mary's, Baylor, Arizona, Alabama; lost to #1 Houston 67-70)"
+        "actualNcaa": "#1 seed East — Final Four (beat Mount St. Mary's, Baylor, Arizona, Alabama; lost to #1 Houston 67-70)",
+        "futurePros": [
+          {
+            "name": "Cooper Flagg",
+            "id": "flagg",
+            "pos": "Forward",
+            "height": "6’9”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 1,
+            "draftYear": 2025,
+            "lastSeason": true
+          },
+          {
+            "name": "Kon Knueppel",
+            "id": "knueppel",
+            "pos": "Guard/Forward",
+            "height": "6’7”",
+            "classYear": "Freshman",
+            "yearNum": 1,
+            "draftPick": 4,
+            "draftYear": 2025,
+            "lastSeason": true
+          }
+        ]
       }
     },
     {
@@ -16317,7 +18312,8 @@
         "lotteryCount": 3,
         "firstRoundCount": 4,
         "actualRecord": "34-2*",
-        "actualNcaa": "In progress — #1 overall seed, Sweet 16"
+        "actualNcaa": "In progress — #1 overall seed, Sweet 16",
+        "futurePros": []
       }
     }
   ]
