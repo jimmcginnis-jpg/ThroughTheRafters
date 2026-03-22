@@ -1,0 +1,264 @@
+// pages/what-if.js
+// "What If They Stayed?" — hypothetical rosters if no one left early
+
+import { useState } from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import teamsData from '../data/teams.json';
+import playerData from '../data/players.json';
+
+const ERA_LABELS = {
+  foundation: 'Foundation', dynasty1: 'Dynasty I', transition: 'Transition',
+  dynasty2: 'Dynasty II', between: 'Between Crowns', resurgence: 'Resurgence',
+  superteam: 'Superteam', scheyer: 'Scheyer Era',
+};
+
+function PlayerLink({ id, name }) {
+  const p = playerData.players.find(pl => pl.id === id);
+  if (p && p.status === 'done') {
+    return <Link href={`/players/${p.slug}/`} className="text-duke-navy hover:text-duke-gold transition-colors font-semibold">{name}</Link>;
+  }
+  return <span className="text-gray-600">{name}</span>;
+}
+
+function PickBadge({ pick }) {
+  if (!pick) return null;
+  const isLottery = pick <= 14;
+  const isTop3 = pick <= 3;
+  return (
+    <span className={`font-mono text-[10px] px-1.5 py-0.5 rounded-full ${
+      isTop3 ? 'bg-duke-gold/20 text-duke-gold font-bold' :
+      isLottery ? 'bg-blue-50 text-blue-700' :
+      'bg-gray-100 text-gray-500'
+    }`}>
+      #{pick}
+    </span>
+  );
+}
+
+function SeasonCard({ season }) {
+  const { whatIf } = season;
+  if (!whatIf || !whatIf.returnees || whatIf.returnees.length === 0) return null;
+
+  const returnees = whatIf.returnees;
+  const lotteryCount = whatIf.lotteryCount || 0;
+  const actualRoster = playerData.players.filter(
+    p => p.seasons && p.seasons.includes(season.season)
+  );
+
+  // Star rating
+  const stars = lotteryCount >= 5 ? '★★★★★' : lotteryCount >= 3 ? '★★★★' : lotteryCount >= 2 ? '★★★' : lotteryCount >= 1 ? '★★' : '★';
+
+  return (
+    <div className="border border-gray-200 rounded-xl bg-white overflow-hidden">
+      {/* Header */}
+      <div className="p-5 border-b border-gray-100" style={{ background: lotteryCount >= 5 ? '#001A57' : lotteryCount >= 3 ? '#0a2a6e' : '#f8f8f5' }}>
+        <div className="flex items-start justify-between">
+          <div>
+            <Link href={`/teams/${season.season}/`} className="group">
+              <h3 className={`font-display text-2xl font-bold ${lotteryCount >= 3 ? 'text-white' : 'text-duke-navy'} group-hover:text-duke-gold transition-colors`}>
+                {season.season}
+              </h3>
+            </Link>
+            <div className={`font-mono text-xs mt-1 ${lotteryCount >= 3 ? 'text-duke-goldLight' : 'text-gray-500'}`}>
+              {ERA_LABELS[season.era]} · Actual: {season.record} · {season.ncaaTournament}
+            </div>
+          </div>
+          <div className="text-right">
+            <div className={`font-display text-lg font-bold ${lotteryCount >= 3 ? 'text-duke-gold' : 'text-duke-gold'}`}>
+              {stars}
+            </div>
+            <div className={`font-mono text-[10px] ${lotteryCount >= 3 ? 'text-duke-goldLight' : 'text-gray-400'}`}>
+              {lotteryCount} lottery · {whatIf.firstRoundCount} 1st-round
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Returnees */}
+      <div className="p-5">
+        <div className="font-mono text-[10px] text-duke-gold uppercase tracking-wider mb-3 font-bold">
+          If they had stayed
+        </div>
+        <div className="space-y-2">
+          {returnees
+            .sort((a, b) => (a.draftPick || 99) - (b.draftPick || 99))
+            .map((r, i) => (
+              <div key={i} className="flex items-center gap-3 py-1.5 border-b border-gray-50 last:border-0">
+                <div className="w-6 text-center">
+                  <PickBadge pick={r.draftPick} />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <PlayerLink id={r.id} name={r.name} />
+                    <span className="font-mono text-[10px] text-gray-400">{r.pos}</span>
+                  </div>
+                </div>
+                <div className="font-mono text-xs text-gray-400">
+                  {r.wouldBe}
+                </div>
+              </div>
+            ))}
+        </div>
+
+        {/* Context */}
+        <div className="mt-4 pt-3 border-t border-gray-100">
+          <div className="font-mono text-[10px] text-gray-400">
+            + {actualRoster.length} actual roster players that season
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function WhatIfPage({ seasons }) {
+  const [minLottery, setMinLottery] = useState(0);
+
+  const filtered = seasons.filter(s => 
+    s.whatIf && s.whatIf.returnees && s.whatIf.returnees.length > 0 &&
+    (s.whatIf.lotteryCount || 0) >= minLottery
+  );
+
+  const totalReturnees = filtered.reduce((sum, s) => sum + s.whatIf.returnees.length, 0);
+  const totalLottery = filtered.reduce((sum, s) => sum + (s.whatIf.lotteryCount || 0), 0);
+
+  return (
+    <Layout
+      title="What If They Stayed?"
+      description="Hypothetical Duke rosters if every early departure had played out their eligibility. From Elton Brand to Zion Williamson."
+      canonical="/what-if/"
+    >
+      <Head>
+        <meta property="og:title" content="What If They Stayed? | Duke's Brotherhood" />
+        <meta property="og:description" content="The most terrifying college basketball rosters that never existed." />
+      </Head>
+
+      {/* Hero */}
+      <section className="bg-duke-slate text-white py-12">
+        <div className="max-w-5xl mx-auto px-4">
+          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-duke-gold">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-duke-gold">What If They Stayed?</span>
+          </nav>
+          <h1 className="font-display text-4xl md:text-5xl font-bold mb-2">
+            What If They Stayed?
+          </h1>
+          <p className="font-body text-duke-goldLight text-lg italic max-w-2xl">
+            The most terrifying college basketball rosters that never existed. Every season, rebuilt with
+            the players who left early for the NBA Draft — as if they&apos;d played out their full eligibility.
+          </p>
+          <div className="flex gap-6 mt-6 font-mono text-sm">
+            <div>
+              <span className="text-duke-gold font-bold text-2xl">{filtered.length}</span>
+              <span className="text-duke-goldLight ml-1">seasons</span>
+            </div>
+            <div>
+              <span className="text-duke-gold font-bold text-2xl">{totalReturnees}</span>
+              <span className="text-duke-goldLight ml-1">what-if returnees</span>
+            </div>
+            <div>
+              <span className="text-duke-gold font-bold text-2xl">{totalLottery}</span>
+              <span className="text-duke-goldLight ml-1">lottery picks</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Filters */}
+      <div className="max-w-5xl mx-auto px-4 py-6">
+        <div className="flex flex-wrap gap-2 items-center">
+          <span className="font-mono text-xs text-gray-500 uppercase tracking-wider mr-2">Show:</span>
+          {[
+            { label: 'All Seasons', value: 0 },
+            { label: '1+ Lottery', value: 1 },
+            { label: '3+ Lottery', value: 3 },
+            { label: '5+ Lottery', value: 5 },
+          ].map(f => (
+            <button key={f.value} onClick={() => setMinLottery(f.value)}
+              className={`px-3 py-1 rounded-full text-xs font-mono font-semibold transition-all ${
+                minLottery === f.value ? 'bg-duke-navy text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Season Cards — reverse chronological */}
+      <section className="max-w-5xl mx-auto px-4 pb-12">
+        <div className="grid md:grid-cols-2 gap-6">
+          {filtered
+            .sort((a, b) => b.season.localeCompare(a.season))
+            .map(season => (
+              <SeasonCard key={season.season} season={season} />
+            ))}
+        </div>
+
+        {filtered.length === 0 && (
+          <div className="text-center py-12">
+            <p className="font-display text-xl text-gray-400">No seasons match this filter.</p>
+          </div>
+        )}
+      </section>
+
+      {/* The crown jewel callout */}
+      <section className="max-w-3xl mx-auto px-4 pb-12">
+        <div className="p-6 rounded-xl border-2 border-duke-gold bg-duke-gold/5 text-center">
+          <div className="font-mono text-[10px] text-duke-gold uppercase tracking-wider mb-2">The ultimate what-if</div>
+          <h2 className="font-display text-2xl font-bold text-duke-navy mb-2">
+            2019-20: Eight NBA players. One roster.
+          </h2>
+          <p className="font-body text-gray-600 text-sm max-w-xl mx-auto">
+            Jayson Tatum as a senior. Zion Williamson and RJ Barrett as sophomores.
+            Marvin Bagley III as a junior. Wendell Carter Jr. Cam Reddish. Gary Trent Jr. Harry Giles III.
+            Plus the actual roster of Vernon Carey Jr., Tre Jones, and Cassius Stanley.
+            A team that would have been favored against most NBA rosters.
+          </p>
+        </div>
+      </section>
+
+      {/* Footer nav */}
+      <section className="max-w-5xl mx-auto px-4 pb-12">
+        <div className="flex justify-between border-t border-gray-200 pt-6">
+          <Link href="/bracket/" className="font-mono text-sm text-duke-gold hover:underline">
+            &larr; Bracket Simulator
+          </Link>
+          <Link href="/lists/" className="font-mono text-sm text-duke-gold hover:underline">
+            All Lists &rarr;
+          </Link>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'What If They Stayed? — Duke Brotherhood',
+            url: 'https://www.dukebrotherhood.com/what-if/',
+            description: 'Hypothetical Duke basketball rosters if every early departure had stayed through their senior year.',
+          }),
+        }}
+      />
+    </Layout>
+  );
+}
+
+export async function getStaticProps() {
+  const seasons = teamsData.seasons
+    .filter(s => s.whatIf && s.whatIf.returnees && s.whatIf.returnees.length > 0)
+    .map(s => ({
+      season: s.season,
+      era: s.era,
+      record: s.record,
+      ncaaTournament: s.ncaaTournament || '',
+      whatIf: s.whatIf,
+    }));
+
+  return { props: { seasons } };
+}
