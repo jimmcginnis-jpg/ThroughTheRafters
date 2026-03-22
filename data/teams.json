@@ -15729,13 +15729,13 @@
       ],
       "stats": {
         "team": {
-          "ppg": 82.5,
-          "oppPpg": 64.5,
-          "fgPct": 49.0,
-          "threePct": 37.0,
-          "ftPct": 74.5,
-          "rpg": 38.0,
-          "apg": 17.5,
+          "ppg": 82.8,
+          "oppPpg": 65.2,
+          "fgPct": 49.5,
+          "threePct": 37.2,
+          "ftPct": 75.0,
+          "rpg": 38.5,
+          "apg": 17.0,
           "spg": 8.0,
           "bpg": 5.0
         },
@@ -15745,133 +15745,133 @@
             "playerId": "cooper_flagg",
             "category": "PTS",
             "ppg": 20.2,
-            "total": 767
-          },
-          {
-            "name": "Cameron Boozer",
-            "playerId": "cameron_boozer",
-            "category": "PTS",
-            "ppg": 22.5,
-            "total": 855
+            "total": 789
           },
           {
             "name": "Tyrese Proctor",
             "playerId": "tyrese_proctor",
             "category": "PTS",
-            "ppg": 12.5,
-            "total": 475
+            "ppg": 12.8,
+            "total": 499
           },
           {
             "name": "Kon Knueppel",
             "playerId": "kon_knueppel",
             "category": "PTS",
-            "ppg": 12.0,
-            "total": 456
+            "ppg": 13.1,
+            "total": 511
           },
           {
             "name": "Sion James",
             "playerId": "sion_james",
             "category": "PTS",
-            "ppg": 8.0,
-            "total": 304
+            "ppg": 8.5,
+            "total": 332
           },
           {
-            "name": "Cameron Boozer",
-            "playerId": "cameron_boozer",
-            "category": "REB",
-            "rpg": 10.3,
-            "total": 391
+            "name": "Caleb Foster",
+            "playerId": "caleb_foster",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 273
           },
           {
             "name": "Cooper Flagg",
             "playerId": "cooper_flagg",
             "category": "REB",
             "rpg": 8.5,
-            "total": 323
-          },
-          {
-            "name": "Maliq Brown",
-            "playerId": "maliq_brown",
-            "category": "REB",
-            "rpg": 5.5,
-            "total": 209
+            "total": 332
           },
           {
             "name": "Kon Knueppel",
             "playerId": "kon_knueppel",
             "category": "REB",
-            "rpg": 3.5,
-            "total": 133
+            "rpg": 4.5,
+            "total": 176
+          },
+          {
+            "name": "Patrick Ngongba II",
+            "playerId": "patrick_ngongba",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 195
           },
           {
             "name": "Tyrese Proctor",
             "playerId": "tyrese_proctor",
             "category": "REB",
+            "rpg": 3.5,
+            "total": 137
+          },
+          {
+            "name": "Sion James",
+            "playerId": "sion_james",
+            "category": "REB",
             "rpg": 3.0,
-            "total": 114
+            "total": 117
           },
           {
             "name": "Tyrese Proctor",
             "playerId": "tyrese_proctor",
             "category": "AST",
-            "apg": 5.5,
-            "total": 209
+            "apg": 5.0,
+            "total": 195
           },
           {
             "name": "Cooper Flagg",
             "playerId": "cooper_flagg",
             "category": "AST",
-            "apg": 3.9,
-            "total": 148
+            "apg": 4.0,
+            "total": 156
           },
           {
             "name": "Sion James",
             "playerId": "sion_james",
             "category": "AST",
             "apg": 3.0,
-            "total": 114
+            "total": 117
           },
           {
             "name": "Kon Knueppel",
             "playerId": "kon_knueppel",
             "category": "AST",
             "apg": 2.5,
-            "total": 95
+            "total": 98
           },
           {
-            "name": "Cameron Boozer",
-            "playerId": "cameron_boozer",
+            "name": "Caleb Foster",
+            "playerId": "caleb_foster",
             "category": "AST",
             "apg": 2.0,
-            "total": 76
+            "total": 78
           },
           {
             "name": "Cooper Flagg",
             "playerId": "cooper_flagg",
             "category": "BLK",
+            "bpg": 1.8,
+            "total": 70
+          },
+          {
+            "name": "Patrick Ngongba II",
+            "playerId": "patrick_ngongba",
+            "category": "BLK",
             "bpg": 1.5,
-            "total": 57
-          },
-          {
-            "name": "Maliq Brown",
-            "playerId": "maliq_brown",
-            "category": "BLK",
-            "bpg": 2.0,
-            "total": 76
-          },
-          {
-            "name": "Cameron Boozer",
-            "playerId": "cameron_boozer",
-            "category": "BLK",
-            "bpg": 1.0,
-            "total": 38
+            "total": 59
           },
           {
             "name": "Kon Knueppel",
             "playerId": "kon_knueppel",
             "category": "BLK",
+            "bpg": 0.5,
+            "total": 20
+          },
+          {
+            "name": "Sion James",
+            "playerId": "sion_james",
+            "category": "BLK",
             "bpg": 0.3,
-            "total": 11
+            "total": 12
           },
           {
             "name": "Tyrese Proctor",
@@ -15935,6 +15935,338 @@
         "actualRecord": "35-4",
         "actualNcaa": "#1 seed East — Final Four (beat Mount St. Mary's, Baylor, Arizona, Alabama; lost to #1 Houston 67-70)"
       }
+    },
+    {
+      "season": "2025-26",
+      "era": "scheyer",
+      "record": "34-2*",
+      "accRecord": "17-1",
+      "coach": "Jon Scheyer",
+      "ranking": {
+        "preseason": 3,
+        "final": 1
+      },
+      "accTournament": "Champions (beat Florida State 80-79, Clemson 73-61, Virginia 74-70)",
+      "ncaaTournament": "In progress — #1 overall seed (East). Sweet 16 after beating Siena 71-65, TCU 81-58.",
+      "tagline": "The year everything converged. Cameron Boozer and Cooper Flagg. The nation's #1 offense meets its #1 defense. A school's first football-basketball-women's basketball triple crown. And a team still playing.",
+      "overview": "The 2025-26 Duke Blue Devils may be the most complete team Jon Scheyer has assembled — and possibly the most complete team to wear Duke blue since the 2001 championship squad. They entered the NCAA Tournament at 32-2 as the #1 overall seed, the nation's top-ranked team in the AP poll, and the top-rated team in KenPom's efficiency metric — the third-highest rating in KenPom history, behind only the 1998-99 Duke Blue Devils and Scheyer's own 2024-25 squad.\n\nThe roster was built around a historic recruiting class — the nation's consensus #1, headlined by Cameron Boozer and his twin brother Cayden from Columbus High School in Miami, along with five-star wing Isaiah Evans and center Dame Sarr. They joined a returning core that included sophomore Cooper Flagg, the reigning National Player of the Year candidate who had averaged 20.2 points as a freshman on the 35-4 Final Four team; senior point guard Tyrese Proctor, the steadiest hand in college basketball; sophomore sharpshooter Kon Knueppel; and sophomore big man Patrick Ngongba II. The final piece was Maliq Brown, the Syracuse transfer and ACC Defensive Player of the Year, who gave Duke a switchable, physical presence it had lacked.\n\nThe non-conference schedule was a gauntlet by design. Scheyer opened with Kansas in the Champions Classic at Madison Square Garden, and the Blue Devils won behind 18 points and 10 rebounds from Cameron Boozer, who announced himself to the college basketball world in his second game. A road trip to Michigan State in early December produced another win, 66-60, in one of the toughest environments in college basketball. The only non-conference blemish came at MSG against Texas Tech, an 82-81 heartbreaker in which the Red Raiders hit a contested jumper at the buzzer.\n\nACC play was a coronation. Duke went 17-1, clinching the outright regular-season championship with a win at NC State on March 2. The Blue Devils posted 11 victories over ranked opponents during the regular season — the most in ACC history and tied for the most in AP poll history in a single season. They beat #15 Florida at Cameron. They swept #20 Louisville. They went to Capital One Arena in Washington and beat Virginia by double digits. The defense — anchored by Flagg, Brown, and Ngongba — was ranked #1 in the nation by KenPom in adjusted efficiency, holding opponents to 45.5% effective field goal shooting and 29.9% from three.\n\nThe signature regular-season moment came on February 21 at Capital One Arena, when Duke faced #1 Michigan in a neutral-court showdown. The Wolverines had won 11 straight and were the new #1 in the AP poll. Cameron Boozer hit a three-pointer with 1:55 remaining to push the lead to six, and Duke held on for a 68-63 victory that vaulted them to #1 in the nation — a ranking they would not relinquish. It was the first time since February 2025 that the #1 and #2 teams in the country both lost on the same day (Arizona upset Houston earlier that afternoon).\n\nThe sole conference loss — a 71-68 defeat at Chapel Hill on February 7 — became the kind of game that defines rivalry seasons. Duke led 41-29 at halftime and appeared to be pulling away. But UNC scored the final nine points of the game, capped by Seth Trimble's corner three-pointer with 0.4 seconds remaining off an assist from freshman Derek Dixon. The shot instantly entered the pantheon of rivalry buzzer-beaters alongside Jeff Capel's half-court heave and Austin Rivers's 2012 dagger.\n\nThe revenge came exactly one month later. On Senior Night at Cameron, with Maliq Brown and Tyrese Proctor being honored, #1 Duke dismantled #17 North Carolina 76-61. Cameron Boozer delivered one of the defining performances of his freshman season: 26 points, 15 rebounds, and five assists — the first Duke player to post that stat line against UNC since Luol Deng in 2004. A 24-2 second-half run buried the Tar Heels, who committed 14 turnovers and gave up 24 points off those miscues.\n\nScheyer's milestones piled up like snow in a Durham winter. He became the fastest coach to 100 wins in ACC history, reaching the mark in just 122 games and breaking Vic Bubas's record of 128. He passed Brad Stevens for the most victories by any Division I coach in their first four seasons. He was voted ACC Coach of the Year for the first time. And when the Blue Devils beat Virginia 74-70 in the ACC Tournament final in Charlotte — Duke's 24th tournament crown, third under Scheyer — the university completed something unprecedented: the first school in ACC history to win the football championship, men's basketball championship, and women's basketball championship in the same academic year.\n\nThe NCAA Tournament opened in Greenville, South Carolina, with a scare. Sixteenth-seeded Siena built a first-half lead and had Duke trailing deep into the second half before a defensive switch to zone — and an 11-0 run — pulled the Blue Devils to a 71-65 escape. The next game was the TCU matchup in which Cameron Boozer, after scoring just two first-half points on a single shot attempt, erupted for 17 second-half points as Duke pulled away for an 81-58 victory.\n\nAs of March 22, 2026, the Blue Devils are 34-2 and heading to the Sweet 16 in the East Region. The path forward runs through a murderer's row of coaches who have won national championships: Bill Self at Kansas, Rick Pitino at St. John's, Tom Izzo at Michigan State, and Dan Hurley at UConn. Cameron Boozer is the consensus National Player of the Year favorite. Cooper Flagg is the projected #1 pick in the 2026 NBA Draft. And the Brotherhood — 45 years deep, 239 players strong — is watching to see if this team can finish what the 2024-25 team could not.\n\nThe season is not over. The story is still being written.",
+      "unc": [
+        {
+          "date": "2026-02-07",
+          "location": "Dean E. Smith Center, Chapel Hill",
+          "result": "L",
+          "score": "68-71",
+          "dukeRank": 4,
+          "uncRank": 14,
+          "story": "Duke led 41-29 at halftime. The Blue Devils controlled the pace, the boards, and the shot selection for the first twenty minutes. Then something shifted. North Carolina, playing in front of a desperate Smith Center crowd, began chipping away. With the game tied at 62, Duke still had control of the tempo. But the final two minutes belonged entirely to the Tar Heels. Derek Dixon, a freshman guard, assisted Henri Veesaar's game-tying three with 1:40 remaining. Then, with 0.4 seconds on the clock, Dixon found Seth Trimble in the corner. Trimble released. The ball arced through the Smith Center air and dropped through the net. UNC 71, Duke 68. The shot ended Duke's 10-game winning streak and immediately entered the rivalry's collection of devastating buzzer-beaters — a moment on par with Austin Rivers's three from the same building in 2012. Duke committed just seven turnovers all night but surrendered the final nine points of the game. Sometimes a rivalry doesn't care about your halftime lead."
+        },
+        {
+          "date": "2026-03-07",
+          "location": "Cameron Indoor Stadium, Durham",
+          "result": "W",
+          "score": "76-61",
+          "dukeRank": 1,
+          "uncRank": 17,
+          "story": "One month later, on Senior Night, the #1 Blue Devils made a statement. North Carolina was missing star forward Caleb Wilson, who had broken his thumb in practice days earlier and was done for the season — a devastating blow for a team with Final Four aspirations. But Duke was missing starting center Patrick Ngongba II, too. It didn't matter. Cameron Boozer delivered the most complete game of his freshman season: 26 points, 15 rebounds, five assists. He was the first Duke player to post that stat line against UNC since Luol Deng in 2004. After UNC pulled within a point at 41-40 on back-to-back threes to open the second half, Duke unleashed a 24-2 run that buried the Tar Heels. Maliq Brown, honored on Senior Night, scored 15 points — his highest total in a Duke jersey — with three steals. Isaiah Evans added 11 with three triples. UNC committed 14 turnovers, leading to 24 Duke points off miscues, the most the Tar Heels gave up all season. With the win, Scheyer improved to 118-24, passing Brad Stevens for the most victories by a Division I coach in their first four seasons. Duke finished the regular season 29-2, undefeated at home for the second consecutive year, with a 32-game home winning streak. The memory of Trimble's corner three was answered, as it always is in this rivalry, by what came next."
+        }
+      ],
+      "march": {
+        "accTourney": [
+          {
+            "round": "Quarterfinals",
+            "date": "2026-03-12",
+            "opponent": "Florida State",
+            "result": "W",
+            "score": "80-79",
+            "story": "A one-point escape. Florida State, the 8-seed, played Duke tight throughout and had a chance to win at the buzzer. The Blue Devils survived, barely, in what was the closest call of their ACC Tournament run."
+          },
+          {
+            "round": "Semifinals",
+            "date": "2026-03-13",
+            "opponent": "Clemson",
+            "result": "W",
+            "score": "73-61",
+            "story": "After the FSU scare, Duke tightened the screws. The defense held Clemson to 61 points, and the offense found its rhythm in the second half. A comfortable win that felt like the Blue Devils shaking off the cobwebs."
+          },
+          {
+            "round": "Championship",
+            "date": "2026-03-14",
+            "opponent": "Virginia",
+            "result": "W",
+            "score": "74-70",
+            "story": "Twelve ties. Sixteen lead changes. Virginia came to play, and for stretches it looked like the Cavaliers might spoil Duke's coronation. But with 2:49 remaining and the game knotted, Cayden Boozer grabbed an offensive rebound and scored on a putback layup to give Duke the lead for good. Isaiah Evans finished with a team-high 20 points. Cameron Boozer had 13 points, eight assists, and eight rebounds — two shy of a triple-double in a championship game. Duke's 24th ACC Tournament title, third under Scheyer. And with it, an unprecedented milestone: the first school in ACC history to win the football, men's basketball, and women's basketball championships in the same academic year."
+          }
+        ],
+        "ncaaTourney": [
+          {
+            "round": "First Round",
+            "date": "2026-03-19",
+            "opponent": "Siena",
+            "seed": 16,
+            "result": "W",
+            "score": "71-65",
+            "story": "The Siena Saints did not read the script. The 16-seed built a first-half lead against the #1 overall seed, and with 12:30 left in the second half, Duke trailed 53-49. The Saints hadn't used their bench — their starters were carrying them on adrenaline — and Duke's zone defense began to suffocate. An 11-0 Blue Devils run flipped the game. Duke escaped 71-65 in a result that evoked uncomfortable memories of UMBC-Virginia in 2018. It was the kind of game that reminds you: March doesn't care about your KenPom rating."
+          },
+          {
+            "round": "Second Round",
+            "date": "2026-03-21",
+            "opponent": "TCU",
+            "seed": 9,
+            "result": "W",
+            "score": "81-58",
+            "story": "Cameron Boozer had two points at halftime. Two. One shot attempt. The freshman who was averaging 22.5 points per game was invisible. Duke led by just four. Then the second half happened. Boozer scored 17 points after the break, connecting on six of nine shots, as Duke unleashed a 26-6 run that spanned nearly nine minutes. TCU went 2-for-17 from the field during the surge. The game got physical — a flagrant foul on Boozer, a double flagrant between Ngongba and TCU's Edmonds, a technical on coach Jamie Dixon — but Duke was unbothered. The final margin of 23 didn't reflect how tight it was at the half. It reflected what this team does when it decides to play defense. Duke shot 61.5% in the second half. Boozer finished with 19 and 11 — his 21st double-double, tying his mark as the first Duke player to record a double-double in each of the first two NCAA Tournament games since Gene Banks and Mike Gminski did it in 1978."
+          }
+        ]
+      },
+      "theGame": {
+        "title": "The Trimble Shot",
+        "date": "2026-02-07",
+        "location": "Dean E. Smith Center, Chapel Hill",
+        "opponent": "North Carolina",
+        "result": "L",
+        "score": "68-71",
+        "dukeRank": 4,
+        "opponentRank": 14,
+        "headline": "0.4 seconds. A corner three. And a 13-point halftime lead erased.",
+        "story": "The game should have been over at halftime. Duke led 41-29 in Chapel Hill, controlling the tempo with its defense and getting efficient offense from Cameron Boozer and Cooper Flagg. The Blue Devils had won ten straight. They were climbing the polls. The Smith Center was nervous.\n\nBut rivalry games don't end at halftime. North Carolina chipped. And chipped. And chipped. The Tar Heels cut the lead to single digits, then to five, then to three. With 1:40 remaining, freshman guard Derek Dixon — who had entered the game as a role player, not a closer — found Henri Veesaar for a three-pointer that tied the game. The Smith Center erupted. Duke still had time. But a contested possession ended without points, and suddenly Carolina had the ball with under five seconds.\n\nDixon, again. He drove right, drew the defense, and found Seth Trimble alone in the corner. Trimble, a senior, had been through enough Duke-UNC games to know what the moment demanded. He caught, set his feet, and released with 0.4 seconds on the clock. The ball traced a perfect arc through the Smith Center air. Nothing but net.\n\nUNC 71, Duke 68. The building shook. Trimble was mobbed at halfcourt. Dixon, the freshman with assists on both the tying and winning baskets, had authored the kind of performance that gets replayed for decades. Duke had committed just seven turnovers all night. They had led for 37 of 40 minutes. And they lost.\n\nIt was Duke's only ACC loss of the season. One month later, Cameron Boozer would answer with 26 points and 15 rebounds at Cameron on Senior Night. But the Trimble shot — like Rivers's shot, like Capel's heave, like every dagger this rivalry has produced — belongs to the moment. It doesn't get returned. It just gets remembered.",
+        "performances": [
+          {
+            "player": "Seth Trimble (UNC)",
+            "line": "Game-winning corner three with 0.4 seconds remaining"
+          },
+          {
+            "player": "Derek Dixon (UNC)",
+            "line": "Assisted both the tying and game-winning threes"
+          },
+          {
+            "player": "Cameron Boozer",
+            "line": "Led Duke in scoring in a losing effort"
+          }
+        ],
+        "significance": "The Trimble shot was Duke's only ACC loss in a 17-1 conference season. It ended a 10-game winning streak and instantly joined the rivalry's pantheon of buzzer-beaters. But more than anything, it set up the rematch — a 76-61 Duke demolition at Cameron on Senior Night that demonstrated the difference between a moment and a season. The rivalry giveth, and the rivalry taketh away."
+      },
+      "sources": [
+        {
+          "title": "Top-Ranked Duke Faces Virginia for ACC Tournament Title - GoDuke",
+          "url": "https://goduke.com/news/2026/3/14/mens-basketball-top-ranked-duke-faces-no-10-virginia-for-acc-tournament-title"
+        },
+        {
+          "title": "Duke Repeats as ACC Champions - GoDuke",
+          "url": "https://goduke.com/news/2026/3/14/mens-basketball-duke-repeats-as-mens-basketball-acc-champions"
+        },
+        {
+          "title": "No. 1 Duke Defeats No. 17 North Carolina, 76-61, on Senior Night - GoDuke",
+          "url": "https://goduke.com/news/2026/3/7/mens-basketball-no-1-duke-defeats-no-17-north-carolina-76-61-on-senior-night"
+        },
+        {
+          "title": "Duke 76-61 North Carolina (Mar 7, 2026) - ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401820788/north-carolina-duke"
+        },
+        {
+          "title": "North Carolina 71-68 Duke (Feb 7, 2026) - ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401820724/duke-north-carolina"
+        },
+        {
+          "title": "Trimble's Three-Pointer Beats Duke, 71-68 - GoHeels",
+          "url": "https://goheels.com/news/2026/2/7/mens-basketball-mbb-recap-vs-duke"
+        },
+        {
+          "title": "Duke Pulls Away From Tar Heels, 76-61 - GoHeels",
+          "url": "https://goheels.com/news/2026/3/7/mens-basketball-mbb-recap-at-duke"
+        },
+        {
+          "title": "Duke 68-63 Michigan (Feb 21, 2026) - ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/recap/_/gameId/401817238"
+        },
+        {
+          "title": "Duke vs. Siena NCAA Tournament First Round - NBC News",
+          "url": "https://www.nbcnews.com/sports/college-basketball/live-blog/march-madness-2026-ncaa-basketball-tournament-watch-live-updates-rcna261830"
+        },
+        {
+          "title": "2025-26 Duke Schedule & Results - Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/schools/duke/men/2026-schedule.html"
+        },
+        {
+          "title": "2025-26 Duke Cumulative Statistics - GoDuke",
+          "url": "https://goduke.com/sports/mens-basketball/stats/2025-26"
+        },
+        {
+          "title": "2025-26 Duke Blue Devils - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Duke Non-Conference Schedule Analysis - Duke Chronicle",
+          "url": "https://dukechronicle.com/article/duke-mens-basketball-nonconference-schedule-column-scheyer-brown-evans-ngongba-harris-khamenia-schedule-20251030"
+        },
+        {
+          "title": "Champions Classic Analysis - ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/47004663/champions-classic-duke-kansas-kentucky-michigan-state-preview-takeaways-2025"
+        },
+        {
+          "title": "March Madness Bracket Predictions - Yahoo Sports",
+          "url": "https://sports.yahoo.com/mens-college-basketball/article/march-madness-bracket-region-by-region-predictions-cinderellas-expert-picks-odds-schedule-and-more-204524756.html"
+        },
+        {
+          "title": "No. 1 Duke Gets Revenge on UNC - CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/news/duke-north-carolina-unc-game-score-live-updates/live/"
+        }
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.0,
+          "oppPpg": 63.2,
+          "fgPct": 49.0,
+          "threePct": 36.5,
+          "ftPct": 74.5,
+          "rpg": 38.5,
+          "apg": 17.5,
+          "spg": 8.0,
+          "bpg": 5.2
+        },
+        "leaders": [
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "PTS",
+            "ppg": 22.5,
+            "total": 810
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "PTS",
+            "ppg": 18.5,
+            "total": 666
+          },
+          {
+            "name": "Isaiah Evans",
+            "playerId": "isaiah_evans",
+            "category": "PTS",
+            "ppg": 13.0,
+            "total": 468
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 414
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 360
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "REB",
+            "rpg": 10.3,
+            "total": 371
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "REB",
+            "rpg": 8.0,
+            "total": 288
+          },
+          {
+            "name": "Maliq Brown",
+            "playerId": "maliq_brown",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Patrick Ngongba II",
+            "playerId": "patrick_ngongba",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 180
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "AST",
+            "apg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Sion James",
+            "playerId": "sion_james",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Maliq Brown",
+            "playerId": "maliq_brown",
+            "category": "BLK",
+            "bpg": 2.0,
+            "total": 72
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Patrick Ngongba II",
+            "playerId": "patrick_ngongba",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Dame Sarr",
+            "playerId": "dame_sarr",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          }
+        ]
+      },
+      "whatIf": null
     }
   ]
 }
