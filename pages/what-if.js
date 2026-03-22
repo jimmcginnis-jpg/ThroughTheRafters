@@ -39,13 +39,13 @@ function PickBadge({ pick }) {
 
 function SeasonCard({ season }) {
   const { whatIf } = season;
-  if (!whatIf || !whatIf.returnees || whatIf.returnees.length === 0) return null;
+  if (!whatIf) return null;
+  const hasReturnees = whatIf.returnees && whatIf.returnees.length > 0;
+  const hasFuturePros = whatIf.futurePros && whatIf.futurePros.length > 0;
+  if (!hasReturnees && !hasFuturePros) return null;
 
   const returnees = whatIf.returnees;
   const lotteryCount = whatIf.lotteryCount || 0;
-  const actualRoster = playerData.players.filter(
-    p => p.seasons && p.seasons.includes(season.season)
-  );
 
   // Star rating
   const stars = lotteryCount >= 5 ? '★★★★★' : lotteryCount >= 3 ? '★★★★' : lotteryCount >= 2 ? '★★★' : lotteryCount >= 1 ? '★★' : '★';
@@ -78,34 +78,69 @@ function SeasonCard({ season }) {
 
       {/* Returnees */}
       <div className="p-5">
-        <div className="font-mono text-[10px] text-duke-gold uppercase tracking-wider mb-3 font-bold">
-          If they had stayed
-        </div>
-        <div className="space-y-2">
-          {returnees
-            .sort((a, b) => (a.draftPick || 99) - (b.draftPick || 99))
-            .map((r, i) => (
-              <div key={i} className="flex items-center gap-3 py-1.5 border-b border-gray-50 last:border-0">
-                <div className="w-6 text-center">
-                  <PickBadge pick={r.draftPick} />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2">
-                    <PlayerLink id={r.id} name={r.name} />
-                    <span className="font-mono text-[10px] text-gray-400">{r.pos}</span>
+        {returnees.length > 0 && (
+          <>
+            <div className="font-mono text-[10px] text-duke-gold uppercase tracking-wider mb-3 font-bold">
+              If they had stayed
+            </div>
+            <div className="space-y-2">
+              {returnees
+                .sort((a, b) => (a.draftPick || 99) - (b.draftPick || 99))
+                .map((r, i) => (
+                  <div key={i} className="flex items-center gap-3 py-1.5 border-b border-gray-50 last:border-0">
+                    <div className="w-6 text-center">
+                      <PickBadge pick={r.draftPick} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <PlayerLink id={r.id} name={r.name} />
+                        <span className="font-mono text-[10px] text-gray-400">{r.pos}</span>
+                      </div>
+                    </div>
+                    <div className="font-mono text-xs text-gray-400">
+                      {r.wouldBe}
+                    </div>
                   </div>
-                </div>
-                <div className="font-mono text-xs text-gray-400">
-                  {r.wouldBe}
-                </div>
-              </div>
-            ))}
-        </div>
+                ))}
+            </div>
+          </>
+        )}
 
-        {/* Context */}
-        <div className="mt-4 pt-3 border-t border-gray-100">
-          <div className="font-mono text-[10px] text-gray-400">
-            + {actualRoster.length} actual roster players that season
+        {/* Future Pros — players actually on this roster who got drafted */}
+        {whatIf.futurePros && whatIf.futurePros.length > 0 && (
+          <div className="mt-4 pt-3 border-t border-gray-100">
+            <div className="font-mono text-[10px] text-gray-500 uppercase tracking-wider mb-3 font-bold">
+              Future pros on this roster
+            </div>
+            <div className="space-y-2">
+              {whatIf.futurePros
+                .sort((a, b) => (a.draftPick || 99) - (b.draftPick || 99))
+                .map((fp, i) => (
+                  <div key={i} className="flex items-center gap-3 py-1.5 border-b border-gray-50 last:border-0">
+                    <div className="w-6 text-center">
+                      <PickBadge pick={fp.draftPick} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <PlayerLink id={fp.id} name={fp.name} />
+                        <span className="font-mono text-[10px] text-gray-400">{fp.pos}</span>
+                      </div>
+                    </div>
+                    <div className="font-mono text-xs text-gray-400 text-right">
+                      <span>{fp.classYear}</span>
+                      <span className="text-gray-300 mx-1">·</span>
+                      <span className="text-duke-gold">{fp.lastSeason ? 'left after' : `drafted '${String(fp.draftYear).slice(-2)}`}</span>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
+
+        {/* Total count */}
+        <div className="mt-3 pt-2 border-t border-gray-50">
+          <div className="font-mono text-[10px] text-gray-300">
+            {(returnees.length || 0) + (whatIf.futurePros?.length || 0)} total NBA draft picks connected to this roster
           </div>
         </div>
       </div>
@@ -116,13 +151,17 @@ function SeasonCard({ season }) {
 export default function WhatIfPage({ seasons }) {
   const [minLottery, setMinLottery] = useState(0);
 
-  const filtered = seasons.filter(s => 
-    s.whatIf && s.whatIf.returnees && s.whatIf.returnees.length > 0 &&
-    (s.whatIf.lotteryCount || 0) >= minLottery
-  );
+  const filtered = seasons.filter(s => {
+    const wi = s.whatIf;
+    const hasReturnees = wi.returnees && wi.returnees.length > 0;
+    const hasFuturePros = wi.futurePros && wi.futurePros.length > 0;
+    if (!hasReturnees && !hasFuturePros) return false;
+    return (wi.lotteryCount || 0) >= minLottery;
+  });
 
   const totalReturnees = filtered.reduce((sum, s) => sum + s.whatIf.returnees.length, 0);
   const totalLottery = filtered.reduce((sum, s) => sum + (s.whatIf.lotteryCount || 0), 0);
+  const totalFuturePros = filtered.reduce((sum, s) => sum + (s.whatIf.futurePros?.length || 0), 0);
 
   return (
     <Layout
@@ -162,6 +201,10 @@ export default function WhatIfPage({ seasons }) {
             <div>
               <span className="text-duke-gold font-bold text-2xl">{totalLottery}</span>
               <span className="text-duke-goldLight ml-1">lottery picks</span>
+            </div>
+            <div>
+              <span className="text-duke-gold font-bold text-2xl">{totalFuturePros}</span>
+              <span className="text-duke-goldLight ml-1">future pros on rosters</span>
             </div>
           </div>
         </div>
@@ -251,13 +294,24 @@ export default function WhatIfPage({ seasons }) {
 
 export async function getStaticProps() {
   const seasons = teamsData.seasons
-    .filter(s => s.whatIf && s.whatIf.returnees && s.whatIf.returnees.length > 0)
+    .filter(s => {
+      const wi = s.whatIf;
+      if (!wi) return false;
+      const hasReturnees = wi.returnees && wi.returnees.length > 0;
+      const hasFuturePros = wi.futurePros && wi.futurePros.length > 0;
+      return hasReturnees || hasFuturePros;
+    })
     .map(s => ({
       season: s.season,
       era: s.era,
       record: s.record,
       ncaaTournament: s.ncaaTournament || '',
-      whatIf: s.whatIf,
+      whatIf: {
+        returnees: s.whatIf?.returnees || [],
+        lotteryCount: s.whatIf?.lotteryCount || 0,
+        firstRoundCount: s.whatIf?.firstRoundCount || 0,
+        futurePros: s.whatIf?.futurePros || [],
+      },
     }));
 
   return { props: { seasons } };
