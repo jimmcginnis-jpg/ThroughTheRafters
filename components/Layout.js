@@ -114,6 +114,9 @@ export default function Layout({ children, title, description, canonical }) {
             <Link href="/lists/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               Lists
             </Link>
+            <Link href="/bracket/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
+              Bracket
+            </Link>
             <Link href="/viz/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               Viz
             </Link>
@@ -163,6 +166,9 @@ export default function Layout({ children, title, description, canonical }) {
             </Link>
             <Link href="/lists/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               Lists
+            </Link>
+            <Link href="/bracket/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              Bracket
             </Link>
             <Link href="/viz/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               Viz
@@ -224,6 +230,7 @@ export default function Layout({ children, title, description, canonical }) {
             <div>
               <h3 className="font-display text-duke-gold text-lg mb-3">Visualizations</h3>
               <div className="space-y-1 text-sm">
+                <Link href="/bracket/" className="block hover:text-duke-gold transition-colors font-medium">🏆 Bracket Simulator</Link>
                 <Link href="/viz/height/" className="block hover:text-duke-gold transition-colors">All Players by Height</Link>
                 <Link href="/viz/map/" className="block hover:text-duke-gold transition-colors">Recruiting Map</Link>
                 <Link href="/viz/nba/" className="block hover:text-duke-gold transition-colors">Duke in the NBA</Link>
