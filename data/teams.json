@@ -16266,7 +16266,59 @@
           }
         ]
       },
-      "whatIf": null
+      "whatIf": {
+        "returnees": [
+          {
+            "name": "Kyle Filipowski",
+            "id": "filipowski",
+            "pos": "Center",
+            "height": "7’0”",
+            "wouldBe": "Senior",
+            "draftPick": 32,
+            "draftYear": 2024
+          },
+          {
+            "name": "Dereck Lively II",
+            "id": "lively",
+            "pos": "Center",
+            "height": "7’1”",
+            "wouldBe": "Senior",
+            "draftPick": 12,
+            "draftYear": 2023
+          },
+          {
+            "name": "Jared McCain",
+            "id": "mccain",
+            "pos": "Guard",
+            "height": "6’3”",
+            "wouldBe": "Junior",
+            "draftPick": 16,
+            "draftYear": 2024
+          },
+          {
+            "name": "Cooper Flagg",
+            "id": "flagg",
+            "pos": "Forward",
+            "height": "6’9”",
+            "wouldBe": "Sophomore",
+            "draftPick": 1,
+            "draftYear": 2025
+          },
+          {
+            "name": "Kon Knueppel",
+            "id": "knueppel",
+            "pos": "Guard/Forward",
+            "height": "6’7”",
+            "wouldBe": "Sophomore",
+            "draftPick": 4,
+            "draftYear": 2025
+          }
+        ],
+        "lotteryCount": 3,
+        "firstRoundCount": 4,
+        "actualRecord": "34-2*",
+        "actualNcaa": "In progress — #1 overall seed, Sweet 16"
+      }
     }
   ]
 }
