@@ -187,6 +187,11 @@ const listConfigs = {
     subtitle: `${players.filter(p => p.dob).length} birthdays tracked across the Brotherhood — wish them a happy birthday and share their story.`,
     meta: `Birthday calendar for Duke's Brotherhood players. Find out which Blue Devil shares your birthday and explore their story.`,
   },
+  'x-handles': {
+    title: 'Follow the Brotherhood on X',
+    subtitle: `${players.filter(p => p.twitter).length} Brotherhood players and coaches on X/Twitter — follow and connect.`,
+    meta: `X/Twitter handles for Duke Brotherhood players and coaches. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
+  },
 };
 
 // ── Static generation ──
@@ -717,6 +722,53 @@ function RenderBirthdays() {
   );
 }
 
+function RenderXHandles() {
+  const withHandles = players
+    .filter(p => p.twitter)
+    .sort((a, b) => {
+      const eraIdx = (e) => eraOrder.indexOf(e);
+      if (eraIdx(a.era) !== eraIdx(b.era)) return eraIdx(a.era) - eraIdx(b.era);
+      return a.name.localeCompare(b.name);
+    });
+
+  return (
+    <>
+      <p className="text-lg text-gray-700 mb-6">
+        {withHandles.length} Brotherhood players and coaches are on X/Twitter.
+        Handles are shown without the @ for easy copying.
+      </p>
+
+      {eraOrder.map(era => {
+        const eraPlayers = withHandles.filter(p => p.era === era);
+        if (eraPlayers.length === 0) return null;
+        return (
+          <div key={era} className="mb-8">
+            <h2 className="text-xl font-bold text-[#001A57] mb-3">{eraNames[era] || era}</h2>
+            <ListTable
+              headers={['Player', 'Years', 'X Handle', 'Where They Are Now']}
+              rows={eraPlayers.map(p => [
+                pLink(p),
+                p.years,
+                { text: (
+                  <a
+                    href={`https://x.com/${p.twitter}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#001A57] hover:text-[#C5A258] font-mono"
+                  >
+                    @{p.twitter}
+                  </a>
+                )},
+                (p.now || '').substring(0, 60) || '—',
+              ])}
+            />
+          </div>
+        );
+      })}
+    </>
+  );
+}
+
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -732,6 +784,7 @@ const renderers = {
   'by-the-numbers': RenderByTheNumbers,
   'charities': RenderCharities,
   'birthdays': RenderBirthdays,
+  'x-handles': RenderXHandles,
 };
 
 // ── Page component ──
