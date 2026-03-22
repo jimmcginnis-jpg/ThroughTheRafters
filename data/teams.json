@@ -147,7 +147,127 @@
           "title": "Coach K Coaching Timeline — GoDuke",
           "url": "https://goduke.com/sports/mens-basketball/roster/coaches/mike-krzyzewski/4159"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 69.9,
+          "oppPpg": 66.9,
+          "fgPct": 48.0,
+          "threePct": null,
+          "ftPct": 68.5,
+          "rpg": 33.0,
+          "apg": 14.0,
+          "spg": null,
+          "bpg": null
+        },
+        "leaders": [
+          {
+            "name": "Gene Banks",
+            "playerId": "gene_banks",
+            "category": "PTS",
+            "ppg": 18.5,
+            "total": 555
+          },
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "PTS",
+            "ppg": 12.1,
+            "total": 363
+          },
+          {
+            "name": "Chip Engelland",
+            "playerId": "engelland",
+            "category": "PTS",
+            "ppg": 8.4,
+            "total": 252
+          },
+          {
+            "name": "Kenny Dennard",
+            "playerId": "kenny_dennard",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 240
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "PTS",
+            "ppg": 5.8,
+            "total": 174
+          },
+          {
+            "name": "Gene Banks",
+            "playerId": "gene_banks",
+            "category": "REB",
+            "rpg": 8.2,
+            "total": 246
+          },
+          {
+            "name": "Kenny Dennard",
+            "playerId": "kenny_dennard",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 165
+          },
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "REB",
+            "rpg": 4.2,
+            "total": 126
+          },
+          {
+            "name": "Jim Suddath",
+            "playerId": "jim_suddath",
+            "category": "REB",
+            "rpg": 2.8,
+            "total": 84
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 75
+          },
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "AST",
+            "apg": 3.8,
+            "total": 114
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "AST",
+            "apg": 3.2,
+            "total": 96
+          },
+          {
+            "name": "Gene Banks",
+            "playerId": "gene_banks",
+            "category": "AST",
+            "apg": 2.8,
+            "total": 84
+          },
+          {
+            "name": "Chip Engelland",
+            "playerId": "engelland",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 60
+          },
+          {
+            "name": "Kenny Dennard",
+            "playerId": "kenny_dennard",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 45
+          }
+        ]
+      }
     },
     {
       "season": "1981-82",
@@ -240,7 +360,127 @@
           "title": "Carolina-Duke Rivalry - Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 59.9,
+          "oppPpg": 62.3,
+          "fgPct": 45.2,
+          "threePct": null,
+          "ftPct": 66.0,
+          "rpg": 30.8,
+          "apg": 12.0,
+          "spg": null,
+          "bpg": null
+        },
+        "leaders": [
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 392
+          },
+          {
+            "name": "Chip Engelland",
+            "playerId": "engelland",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 216
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "PTS",
+            "ppg": 7.2,
+            "total": 194
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "PTS",
+            "ppg": 5.5,
+            "total": 149
+          },
+          {
+            "name": "Doug McNeely",
+            "playerId": "doug_mcneely",
+            "category": "PTS",
+            "ppg": 4.8,
+            "total": 130
+          },
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 122
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 108
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 95
+          },
+          {
+            "name": "Doug McNeely",
+            "playerId": "doug_mcneely",
+            "category": "REB",
+            "rpg": 2.0,
+            "total": 54
+          },
+          {
+            "name": "Chip Engelland",
+            "playerId": "engelland",
+            "category": "REB",
+            "rpg": 1.8,
+            "total": 49
+          },
+          {
+            "name": "Vince Taylor",
+            "playerId": "taylor_v",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 81
+          },
+          {
+            "name": "Tom Emma",
+            "playerId": "tom_emma",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 68
+          },
+          {
+            "name": "Chip Engelland",
+            "playerId": "engelland",
+            "category": "AST",
+            "apg": 2.2,
+            "total": 59
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 41
+          },
+          {
+            "name": "Doug McNeely",
+            "playerId": "doug_mcneely",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 32
+          }
+        ]
+      }
     },
     {
       "season": "1982-83",
@@ -357,7 +597,127 @@
           "title": "Carolina-Duke Rivalry - Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 63.4,
+          "oppPpg": 62.5,
+          "fgPct": 46.8,
+          "threePct": null,
+          "ftPct": 69.2,
+          "rpg": 31.5,
+          "apg": 13.5,
+          "spg": null,
+          "bpg": null
+        },
+        "leaders": [
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "PTS",
+            "ppg": 14.3,
+            "total": 401
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "PTS",
+            "ppg": 11.2,
+            "total": 314
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "PTS",
+            "ppg": 6.0,
+            "total": 168
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "PTS",
+            "ppg": 5.5,
+            "total": 154
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "PTS",
+            "ppg": 5.2,
+            "total": 146
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "REB",
+            "rpg": 6.5,
+            "total": 182
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "REB",
+            "rpg": 5.8,
+            "total": 162
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 98
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 70
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "REB",
+            "rpg": 2.3,
+            "total": 64
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "AST",
+            "apg": 5.0,
+            "total": 140
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 70
+          },
+          {
+            "name": "Dan Meagher",
+            "playerId": "dan_meagher",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 50
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 42
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 34
+          }
+        ]
+      }
     },
     {
       "season": "1983-84",
@@ -525,7 +885,127 @@
           "title": "K’s First ACC Tournament Win Over UNC - Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2020/1/9/21058012/you-tube-gold-duke-unc-1984-acc-tournament-blue-devils-basketball-michael-jordan-johnny-dawkins"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 72.1,
+          "oppPpg": 66.3,
+          "fgPct": 49.5,
+          "threePct": null,
+          "ftPct": 71.5,
+          "rpg": 33.0,
+          "apg": 15.0,
+          "spg": null,
+          "bpg": null
+        },
+        "leaders": [
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "PTS",
+            "ppg": 19.4,
+            "total": 660
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "PTS",
+            "ppg": 14.8,
+            "total": 503
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 323
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 238
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "PTS",
+            "ppg": 5.8,
+            "total": 197
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "REB",
+            "rpg": 7.0,
+            "total": 238
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "REB",
+            "rpg": 6.0,
+            "total": 204
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 119
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "REB",
+            "rpg": 2.0,
+            "total": 68
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "AST",
+            "apg": 6.2,
+            "total": 211
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "AST",
+            "apg": 2.8,
+            "total": 95
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "AST",
+            "apg": 2.2,
+            "total": 75
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 34
+          }
+        ]
+      }
     },
     {
       "season": "1984-85",
@@ -673,7 +1153,127 @@
           "title": "Turning Points: The 1985 Pre-Season NIT - Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2021/6/11/22525455/turning-points-the-1985-pre-season-nit-johnny-dawkins-david-henderson-kansas-st-johns-louisville-acc"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 70.5,
+          "oppPpg": 63.8,
+          "fgPct": 50.2,
+          "threePct": null,
+          "ftPct": 72.0,
+          "rpg": 33.5,
+          "apg": 15.5,
+          "spg": null,
+          "bpg": null
+        },
+        "leaders": [
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "PTS",
+            "ppg": 18.8,
+            "total": 583
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "PTS",
+            "ppg": 15.5,
+            "total": 481
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 310
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 233
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "PTS",
+            "ppg": 6.5,
+            "total": 202
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "REB",
+            "rpg": 7.2,
+            "total": 223
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 171
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "REB",
+            "rpg": 3.8,
+            "total": 118
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "REB",
+            "rpg": 3.2,
+            "total": 99
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 78
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "AST",
+            "apg": 6.5,
+            "total": 202
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 93
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 62
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 47
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 37
+          }
+        ]
+      }
     },
     {
       "season": "1985-86",
@@ -869,7 +1469,162 @@
           "title": "Duke May Need Floor Slap — Ball Durham (floor slap history)",
           "url": "https://balldurham.com/2019/02/20/duke-basketball-blue-devils-floor-slap/"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 79.6,
+          "oppPpg": 65.2,
+          "fgPct": 52.1,
+          "threePct": null,
+          "ftPct": 73.8,
+          "rpg": 35.5,
+          "apg": 17.5,
+          "spg": 7.2,
+          "bpg": 3.0
+        },
+        "leaders": [
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "PTS",
+            "ppg": 20.2,
+            "total": 808
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "PTS",
+            "ppg": 16.8,
+            "total": 672
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 580
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "PTS",
+            "ppg": 7.8,
+            "total": 312
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "PTS",
+            "ppg": 7.2,
+            "total": 288
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "REB",
+            "rpg": 6.8,
+            "total": 272
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "REB",
+            "rpg": 5.2,
+            "total": 208
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 180
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "REB",
+            "rpg": 3.8,
+            "total": 152
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 120
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "AST",
+            "apg": 7.2,
+            "total": 288
+          },
+          {
+            "name": "Johnny Dawkins",
+            "playerId": "dawkins",
+            "category": "AST",
+            "apg": 3.2,
+            "total": 128
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 100
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 72
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 60
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 32
+          },
+          {
+            "name": "Jay Bilas",
+            "playerId": "bilas",
+            "category": "BLK",
+            "bpg": 0.7,
+            "total": 28
+          },
+          {
+            "name": "Mark Alarie",
+            "playerId": "alarie",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 20
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 16
+          },
+          {
+            "name": "David Henderson",
+            "playerId": "dhenderson",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 12
+          }
+        ]
+      }
     },
     {
       "season": "1986-87",
@@ -1003,7 +1758,162 @@
           "title": "Danny Ferry Impact on Duke — Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2023/7/18/23798536/danny-ferry-duke-basketball-mike-krzyzewski-blue-devils"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 76.8,
+          "oppPpg": 68.2,
+          "fgPct": 49.8,
+          "threePct": 34.5,
+          "ftPct": 71.0,
+          "rpg": 35.0,
+          "apg": 16.0,
+          "spg": 7.5,
+          "bpg": 3.2
+        },
+        "leaders": [
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "PTS",
+            "ppg": 14.0,
+            "total": 448
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 304
+          },
+          {
+            "name": "Kevin Strickland",
+            "playerId": "kevin_strickland",
+            "category": "PTS",
+            "ppg": 9.0,
+            "total": 288
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 272
+          },
+          {
+            "name": "Quin Snyder",
+            "playerId": "snyder",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 256
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "REB",
+            "rpg": 7.0,
+            "total": 224
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 176
+          },
+          {
+            "name": "Kevin Strickland",
+            "playerId": "kevin_strickland",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 112
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 96
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 80
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "AST",
+            "apg": 7.5,
+            "total": 240
+          },
+          {
+            "name": "Quin Snyder",
+            "playerId": "snyder",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 128
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 80
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 64
+          },
+          {
+            "name": "Kevin Strickland",
+            "playerId": "kevin_strickland",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 48
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 32
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 26
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 16
+          },
+          {
+            "name": "Kevin Strickland",
+            "playerId": "kevin_strickland",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Tommy Amaker",
+            "playerId": "amaker",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "1987-88",
@@ -1180,7 +2090,162 @@
           "title": "1987-88 College Basketball Season — College Hoopedia",
           "url": "https://collegehoopedia.com/seasons/1987-88"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 80.5,
+          "oppPpg": 66.8,
+          "fgPct": 51.0,
+          "threePct": 36.2,
+          "ftPct": 72.5,
+          "rpg": 36.0,
+          "apg": 17.0,
+          "spg": 8.0,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "PTS",
+            "ppg": 19.1,
+            "total": 669
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "PTS",
+            "ppg": 10.5,
+            "total": 368
+          },
+          {
+            "name": "Quin Snyder",
+            "playerId": "snyder",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 350
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "PTS",
+            "ppg": 9.0,
+            "total": 315
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 280
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "REB",
+            "rpg": 7.5,
+            "total": 263
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 175
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 158
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 123
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 105
+          },
+          {
+            "name": "Quin Snyder",
+            "playerId": "snyder",
+            "category": "AST",
+            "apg": 6.5,
+            "total": 228
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 105
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 88
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 70
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 42
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 28
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "BLK",
+            "bpg": 0.6,
+            "total": 21
+          },
+          {
+            "name": "Billy King",
+            "playerId": "bking",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 14
+          }
+        ]
+      }
     },
     {
       "season": "1988-89",
@@ -1361,7 +2426,162 @@
           "title": "1988-89 College Basketball — College Hoopedia",
           "url": "https://collegehoopedia.com/seasons/1988-89"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 87.3,
+          "oppPpg": 73.5,
+          "fgPct": 52.5,
+          "threePct": 38.0,
+          "ftPct": 74.2,
+          "rpg": 37.0,
+          "apg": 18.5,
+          "spg": 8.5,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "PTS",
+            "ppg": 22.6,
+            "total": 814
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 450
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 414
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 360
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "PTS",
+            "ppg": 8.9,
+            "total": 321
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "REB",
+            "rpg": 7.4,
+            "total": 266
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 180
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Quin Snyder",
+            "playerId": "snyder",
+            "category": "AST",
+            "apg": 6.0,
+            "total": 216
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Danny Ferry",
+            "playerId": "ferry",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "John Smith",
+            "playerId": "jsmith",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 14
+          }
+        ]
+      }
     },
     {
       "season": "1989-90",
@@ -1522,7 +2742,162 @@
           "title": "How the 1990 Final Four Changed Denver — Las Vegas Sun",
           "url": "https://lasvegassun.com/news/2025/mar/21/how-the-1990-final-four-forever-changed-denver-and/"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.0,
+          "oppPpg": 70.5,
+          "fgPct": 50.5,
+          "threePct": 36.8,
+          "ftPct": 73.5,
+          "rpg": 36.5,
+          "apg": 17.0,
+          "spg": 8.0,
+          "bpg": 4.2
+        },
+        "leaders": [
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "PTS",
+            "ppg": 18.2,
+            "total": 637
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "PTS",
+            "ppg": 14.8,
+            "total": 518
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "PTS",
+            "ppg": 16.3,
+            "total": 571
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "PTS",
+            "ppg": 10.2,
+            "total": 357
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "PTS",
+            "ppg": 8.8,
+            "total": 308
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "REB",
+            "rpg": 7.5,
+            "total": 263
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "REB",
+            "rpg": 9.6,
+            "total": 336
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 193
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 105
+          },
+          {
+            "name": "Brian Davis",
+            "playerId": "bdavis",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 88
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "AST",
+            "apg": 7.6,
+            "total": 266
+          },
+          {
+            "name": "Phil Henderson",
+            "playerId": "henderson_p",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 123
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 63
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 42
+          },
+          {
+            "name": "Alaa Abdelnaby",
+            "playerId": "abdelnaby",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Robert Brickey",
+            "playerId": "brickey",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Brian Davis",
+            "playerId": "bdavis",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 14
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "1990-91",
@@ -1682,7 +3057,162 @@
           "title": "Mike Krzyzewski Biography - Britannica",
           "url": "https://www.britannica.com/biography/Mike-Krzyzewski"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 79.0,
+          "oppPpg": 68.8,
+          "fgPct": 49.8,
+          "threePct": 35.5,
+          "ftPct": 72.0,
+          "rpg": 36.0,
+          "apg": 17.5,
+          "spg": 7.8,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "PTS",
+            "ppg": 19.8,
+            "total": 772
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "PTS",
+            "ppg": 11.3,
+            "total": 441
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "PTS",
+            "ppg": 11.0,
+            "total": 429
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "PTS",
+            "ppg": 11.2,
+            "total": 437
+          },
+          {
+            "name": "Billy McCaffrey",
+            "playerId": "mccaffrey",
+            "category": "PTS",
+            "ppg": 11.6,
+            "total": 452
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "REB",
+            "rpg": 8.7,
+            "total": 339
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "REB",
+            "rpg": 5.1,
+            "total": 199
+          },
+          {
+            "name": "Brian Davis",
+            "playerId": "bdavis",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 176
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 117
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "REB",
+            "rpg": 2.0,
+            "total": 78
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "AST",
+            "apg": 7.4,
+            "total": 289
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "AST",
+            "apg": 2.2,
+            "total": 86
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 70
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 59
+          },
+          {
+            "name": "Billy McCaffrey",
+            "playerId": "mccaffrey",
+            "category": "AST",
+            "apg": 1.4,
+            "total": 55
+          },
+          {
+            "name": "Christian Laettner",
+            "playerId": "laettner",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 47
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 31
+          },
+          {
+            "name": "Brian Davis",
+            "playerId": "bdavis",
+            "category": "BLK",
+            "bpg": 0.6,
+            "total": 23
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 16
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "1991-92",
@@ -2150,7 +3680,162 @@
           "title": "Duke Championships History — NCAA.com",
           "url": "https://www.ncaa.com/basketball-men/d1/duke-college-basketball-championships-complete-history"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 84.8,
+          "oppPpg": 72.2,
+          "fgPct": 49.5,
+          "threePct": 37.5,
+          "ftPct": 71.8,
+          "rpg": 37.0,
+          "apg": 18.5,
+          "spg": 8.2,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "PTS",
+            "ppg": 17.0,
+            "total": 578
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "PTS",
+            "ppg": 18.0,
+            "total": 612
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "PTS",
+            "ppg": 13.5,
+            "total": 459
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 340
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 289
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "REB",
+            "rpg": 6.4,
+            "total": 218
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "REB",
+            "rpg": 6.5,
+            "total": 221
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 170
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 119
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 85
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "AST",
+            "apg": 8.2,
+            "total": 279
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "AST",
+            "apg": 3.6,
+            "total": 122
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 68
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 41
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 34
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 27
+          },
+          {
+            "name": "Thomas Hill",
+            "playerId": "thill",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Bobby Hurley",
+            "playerId": "hurley",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "1993-94",
@@ -2322,7 +4007,162 @@
           "title": "Duke Championships History — NCAA.com",
           "url": "https://www.ncaa.com/basketball-men/d1/duke-college-basketball-championships-complete-history"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.5,
+          "oppPpg": 69.0,
+          "fgPct": 49.0,
+          "threePct": 38.2,
+          "ftPct": 70.5,
+          "rpg": 36.5,
+          "apg": 17.8,
+          "spg": 8.0,
+          "bpg": 4.2
+        },
+        "leaders": [
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "PTS",
+            "ppg": 17.4,
+            "total": 626
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 522
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 360
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "PTS",
+            "ppg": 8.6,
+            "total": 310
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 342
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "REB",
+            "rpg": 6.9,
+            "total": 248
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "REB",
+            "rpg": 7.5,
+            "total": 270
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "REB",
+            "rpg": 2.7,
+            "total": 97
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "AST",
+            "apg": 5.2,
+            "total": 187
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "AST",
+            "apg": 3.2,
+            "total": 115
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "BLK",
+            "bpg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Grant Hill",
+            "playerId": "hill",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Antonio Lang",
+            "playerId": "lang",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Kenny Blakeney",
+            "playerId": "blakeney",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "1994-95",
@@ -2463,7 +4303,162 @@
           "title": "Carolina-Duke Memories — GoHeels",
           "url": "https://goheels.com/ViewArticle.dbml?PRINTABLE_PAGE=YES&ATCLID=205475905"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 77.7,
+          "oppPpg": 73.7,
+          "fgPct": 46.0,
+          "threePct": 35.0,
+          "ftPct": 69.5,
+          "rpg": 33.5,
+          "apg": 14.5,
+          "spg": 7.0,
+          "bpg": 3.2
+        },
+        "leaders": [
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "PTS",
+            "ppg": 19.0,
+            "total": 589
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 388
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "PTS",
+            "ppg": 10.5,
+            "total": 326
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 233
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "PTS",
+            "ppg": 6.0,
+            "total": 186
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "REB",
+            "rpg": 8.5,
+            "total": 264
+          },
+          {
+            "name": "Erik Meek",
+            "playerId": "erik_meek",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 124
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 93
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 78
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "REB",
+            "rpg": 2.0,
+            "total": 62
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "AST",
+            "apg": 4.1,
+            "total": 127
+          },
+          {
+            "name": "Steve Wojciechowski",
+            "playerId": "wojciechowski",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 109
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 78
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 47
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 37
+          },
+          {
+            "name": "Cherokee Parks",
+            "playerId": "parks",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 47
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 25
+          },
+          {
+            "name": "Erik Meek",
+            "playerId": "erik_meek",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 16
+          },
+          {
+            "name": "Kenny Blakeney",
+            "playerId": "blakeney",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 9
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "1995-96",
@@ -2594,7 +4589,162 @@
           "title": "K’s 11 Best Teams Ranked — NCAA.com",
           "url": "https://www.ncaa.com/news/basketball-men/article/2022-04-03/duke-basketball-ranking-best-teams-mike-krzyzewski-era"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 75.5,
+          "oppPpg": 71.0,
+          "fgPct": 46.5,
+          "threePct": 36.0,
+          "ftPct": 70.0,
+          "rpg": 34.0,
+          "apg": 14.0,
+          "spg": 7.2,
+          "bpg": 3.5
+        },
+        "leaders": [
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "PTS",
+            "ppg": 16.0,
+            "total": 496
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 357
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "PTS",
+            "ppg": 9.0,
+            "total": 279
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 248
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 233
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 155
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 140
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 109
+          },
+          {
+            "name": "Carmen Wallace",
+            "playerId": "wallace",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 93
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "REB",
+            "rpg": 2.8,
+            "total": 87
+          },
+          {
+            "name": "Steve Wojciechowski",
+            "playerId": "wojciechowski",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 140
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 109
+          },
+          {
+            "name": "Chris Collins",
+            "playerId": "collins",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 78
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 47
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 37
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 37
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 16
+          },
+          {
+            "name": "Carmen Wallace",
+            "playerId": "wallace",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 12
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 6
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "1996-97",
@@ -2730,7 +4880,162 @@
           "title": "Carolina-Duke Memories — GoHeels",
           "url": "https://goheels.com/news/2001/1/31/205475905"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 80.2,
+          "oppPpg": 68.5,
+          "fgPct": 48.5,
+          "threePct": 38.0,
+          "ftPct": 72.5,
+          "rpg": 35.5,
+          "apg": 16.0,
+          "spg": 7.8,
+          "bpg": 3.8
+        },
+        "leaders": [
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "PTS",
+            "ppg": 16.8,
+            "total": 554
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 479
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "PTS",
+            "ppg": 12.0,
+            "total": 396
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 314
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 281
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "REB",
+            "rpg": 6.0,
+            "total": 198
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 182
+          },
+          {
+            "name": "Carmen Wallace",
+            "playerId": "wallace",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 132
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 99
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "Steve Wojciechowski",
+            "playerId": "wojciechowski",
+            "category": "AST",
+            "apg": 5.5,
+            "total": 182
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 99
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 40
+          },
+          {
+            "name": "Greg Newton",
+            "playerId": "gnewton",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "BLK",
+            "bpg": 0.6,
+            "total": 20
+          },
+          {
+            "name": "Carmen Wallace",
+            "playerId": "wallace",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 13
+          },
+          {
+            "name": "Jeff Capel",
+            "playerId": "capel",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Ricky Price",
+            "playerId": "price_r",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "1997-98",
@@ -2884,7 +5189,162 @@
           "title": "Carolina-Duke Rivalry — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 78.5,
+          "oppPpg": 66.8,
+          "fgPct": 48.0,
+          "threePct": 37.5,
+          "ftPct": 71.0,
+          "rpg": 35.0,
+          "apg": 16.5,
+          "spg": 8.0,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "PTS",
+            "ppg": 16.0,
+            "total": 576
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "PTS",
+            "ppg": 14.0,
+            "total": 504
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "PTS",
+            "ppg": 13.2,
+            "total": 475
+          },
+          {
+            "name": "Steve Wojciechowski",
+            "playerId": "wojciechowski",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 270
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "PTS",
+            "ppg": 6.5,
+            "total": 234
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "REB",
+            "rpg": 7.3,
+            "total": 263
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "REB",
+            "rpg": 2.8,
+            "total": 101
+          },
+          {
+            "name": "Steve Wojciechowski",
+            "playerId": "wojciechowski",
+            "category": "AST",
+            "apg": 5.8,
+            "total": 209
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 72
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "BLK",
+            "bpg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Roshown McLeod",
+            "playerId": "mcleod",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "1998-99",
@@ -3093,7 +5553,162 @@
           "title": "Elton Brand — Wooden Award",
           "url": "https://www.woodenaward.com/athletes/elton-brand/"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 91.8,
+          "oppPpg": 73.5,
+          "fgPct": 50.5,
+          "threePct": 39.5,
+          "ftPct": 74.0,
+          "rpg": 38.0,
+          "apg": 19.0,
+          "spg": 9.0,
+          "bpg": 5.5
+        },
+        "leaders": [
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "PTS",
+            "ppg": 17.7,
+            "total": 693
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "PTS",
+            "ppg": 17.3,
+            "total": 676
+          },
+          {
+            "name": "William Avery",
+            "playerId": "avery",
+            "category": "PTS",
+            "ppg": 14.9,
+            "total": 582
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "PTS",
+            "ppg": 11.0,
+            "total": 429
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "PTS",
+            "ppg": 9.1,
+            "total": 355
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "REB",
+            "rpg": 9.8,
+            "total": 382
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "REB",
+            "rpg": 5.2,
+            "total": 203
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 176
+          },
+          {
+            "name": "Corey Maggette",
+            "playerId": "maggette",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 137
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 117
+          },
+          {
+            "name": "William Avery",
+            "playerId": "avery",
+            "category": "AST",
+            "apg": 5.0,
+            "total": 195
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 117
+          },
+          {
+            "name": "Trajan Langdon",
+            "playerId": "langdon",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 98
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 59
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 59
+          },
+          {
+            "name": "Elton Brand",
+            "playerId": "brand",
+            "category": "BLK",
+            "bpg": 3.3,
+            "total": 129
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "BLK",
+            "bpg": 2.0,
+            "total": 78
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 20
+          },
+          {
+            "name": "Corey Maggette",
+            "playerId": "maggette",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 16
+          },
+          {
+            "name": "William Avery",
+            "playerId": "avery",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "1999-00",
@@ -3267,7 +5882,162 @@
           "title": "Duke Poll: Favorite Duke-UNC Moments — GoDuke",
           "url": "https://goduke.com/news/2004/2/5/146952.aspx"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.0,
+          "oppPpg": 67.5,
+          "fgPct": 48.5,
+          "threePct": 37.0,
+          "ftPct": 72.0,
+          "rpg": 36.5,
+          "apg": 16.5,
+          "spg": 8.0,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "PTS",
+            "ppg": 16.9,
+            "total": 591
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 438
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "PTS",
+            "ppg": 10.5,
+            "total": 368
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 508
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "PTS",
+            "ppg": 6.5,
+            "total": 228
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "REB",
+            "rpg": 6.2,
+            "total": 217
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 193
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 175
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 140
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 123
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "AST",
+            "apg": 6.0,
+            "total": 210
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 123
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 70
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 53
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "BLK",
+            "bpg": 2.2,
+            "total": 77
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 28
+          },
+          {
+            "name": "Chris Carrawell",
+            "playerId": "carrawell",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "2000-01",
@@ -3465,7 +6235,162 @@
           "title": "Duke Poll: Favorite Duke-UNC Moments — GoDuke",
           "url": "https://goduke.com/news/2004/2/5/146952.aspx"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 84.5,
+          "oppPpg": 66.0,
+          "fgPct": 49.5,
+          "threePct": 38.5,
+          "ftPct": 73.5,
+          "rpg": 37.5,
+          "apg": 18.0,
+          "spg": 8.5,
+          "bpg": 5.0
+        },
+        "leaders": [
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "PTS",
+            "ppg": 19.9,
+            "total": 778
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "PTS",
+            "ppg": 21.6,
+            "total": 841
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "playerId": "dunleavy",
+            "category": "PTS",
+            "ppg": 12.0,
+            "total": 468
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "PTS",
+            "ppg": 10.5,
+            "total": 410
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "PTS",
+            "ppg": 9.0,
+            "total": 351
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "REB",
+            "rpg": 6.4,
+            "total": 250
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "REB",
+            "rpg": 6.0,
+            "total": 234
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "playerId": "dunleavy",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 195
+          },
+          {
+            "name": "Nate James",
+            "playerId": "njames",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 156
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 137
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "AST",
+            "apg": 6.0,
+            "total": 234
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 137
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 98
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "playerId": "dunleavy",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 78
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 39
+          },
+          {
+            "name": "Shane Battier",
+            "playerId": "battier",
+            "category": "BLK",
+            "bpg": 2.3,
+            "total": 90
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 59
+          },
+          {
+            "name": "Carlos Boozer",
+            "playerId": "boozer",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 31
+          },
+          {
+            "name": "Mike Dunleavy Jr.",
+            "playerId": "dunleavy",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 20
+          },
+          {
+            "name": "Jason Williams",
+            "playerId": "jwilliams",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 8
+          }
+        ]
+      }
     },
     {
       "season": "2001-02",
@@ -3932,7 +6857,162 @@
           "title": "Duke at UNC Memories — TarHeelIllustrated/Rivals",
           "url": "https://northcarolina.rivals.com/news/duke-at-unc-memories"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 76.2,
+          "oppPpg": 67.5,
+          "fgPct": 46.5,
+          "threePct": 36.8,
+          "ftPct": 70.0,
+          "rpg": 35.5,
+          "apg": 15.0,
+          "spg": 7.5,
+          "bpg": 4.2
+        },
+        "leaders": [
+          {
+            "name": "Dahntay Jones",
+            "playerId": "jones_d",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 413
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 330
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 314
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 281
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 231
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "REB",
+            "rpg": 6.0,
+            "total": 198
+          },
+          {
+            "name": "Dahntay Jones",
+            "playerId": "jones_d",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 182
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 165
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 132
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 116
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "AST",
+            "apg": 6.5,
+            "total": 215
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "Dahntay Jones",
+            "playerId": "jones_d",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 33
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "BLK",
+            "bpg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Casey Sanders",
+            "playerId": "casey_sanders",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Dahntay Jones",
+            "playerId": "jones_d",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 17
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 13
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "2003-04",
@@ -4124,7 +7204,162 @@
           "title": "Duke’s One-and-Done Players Ranked — CBS Sports",
           "url": "https://www.cbssports.com/college-basketball/news/from-marvin-bagley-to-harry-giles-ranking-all-of-dukes-16-one-and-done-players-under-coach-k/"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 79.5,
+          "oppPpg": 66.2,
+          "fgPct": 47.8,
+          "threePct": 37.5,
+          "ftPct": 72.5,
+          "rpg": 36.5,
+          "apg": 16.5,
+          "spg": 8.2,
+          "bpg": 5.0
+        },
+        "leaders": [
+          {
+            "name": "Luol Deng",
+            "playerId": "deng",
+            "category": "PTS",
+            "ppg": 15.1,
+            "total": 558
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 426
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "PTS",
+            "ppg": 15.9,
+            "total": 588
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "PTS",
+            "ppg": 11.2,
+            "total": 414
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "PTS",
+            "ppg": 12.0,
+            "total": 444
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "REB",
+            "rpg": 8.2,
+            "total": 303
+          },
+          {
+            "name": "Luol Deng",
+            "playerId": "deng",
+            "category": "REB",
+            "rpg": 6.9,
+            "total": 255
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 148
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "REB",
+            "rpg": 3.2,
+            "total": 118
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 93
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "AST",
+            "apg": 6.2,
+            "total": 229
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 111
+          },
+          {
+            "name": "Luol Deng",
+            "playerId": "deng",
+            "category": "AST",
+            "apg": 2.3,
+            "total": 85
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 74
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 37
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "BLK",
+            "bpg": 3.2,
+            "total": 118
+          },
+          {
+            "name": "Luol Deng",
+            "playerId": "deng",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 30
+          },
+          {
+            "name": "Nick Horvath",
+            "playerId": "nick_horvath",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 19
+          },
+          {
+            "name": "Chris Duhon",
+            "playerId": "duhon",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2004-05",
@@ -4290,7 +7525,162 @@
           "title": "Carolina-Duke Rivalry — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Carolina%E2%80%93Duke_rivalry"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 78.0,
+          "oppPpg": 66.8,
+          "fgPct": 47.0,
+          "threePct": 37.8,
+          "ftPct": 73.5,
+          "rpg": 35.0,
+          "apg": 15.5,
+          "spg": 7.5,
+          "bpg": 4.8
+        },
+        "leaders": [
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "PTS",
+            "ppg": 21.8,
+            "total": 720
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 479
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "PTS",
+            "ppg": 14.0,
+            "total": 462
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "PTS",
+            "ppg": 5.5,
+            "total": 182
+          },
+          {
+            "name": "Shavlik Randolph",
+            "playerId": "shavlik_randolph",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 231
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "REB",
+            "rpg": 9.0,
+            "total": 297
+          },
+          {
+            "name": "Shavlik Randolph",
+            "playerId": "shavlik_randolph",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 149
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 116
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "REB",
+            "rpg": 2.8,
+            "total": 92
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 132
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Sean Dockery",
+            "playerId": "sean_dockery",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 33
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "BLK",
+            "bpg": 3.5,
+            "total": 116
+          },
+          {
+            "name": "Shavlik Randolph",
+            "playerId": "shavlik_randolph",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 26
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Daniel Ewing",
+            "playerId": "daniel_ewing",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2005-06",
@@ -4456,7 +7846,162 @@
           "title": "JJ Redick — Basketball Wiki",
           "url": "https://basketball.fandom.com/wiki/JJ_Redick"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.0,
+          "oppPpg": 67.5,
+          "fgPct": 47.5,
+          "threePct": 39.5,
+          "ftPct": 77.0,
+          "rpg": 35.5,
+          "apg": 16.0,
+          "spg": 7.8,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "PTS",
+            "ppg": 26.8,
+            "total": 964
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "PTS",
+            "ppg": 18.8,
+            "total": 676
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 270
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "PTS",
+            "ppg": 6.8,
+            "total": 245
+          },
+          {
+            "name": "Sean Dockery",
+            "playerId": "sean_dockery",
+            "category": "PTS",
+            "ppg": 5.0,
+            "total": 180
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "REB",
+            "rpg": 9.3,
+            "total": 335
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "REB",
+            "rpg": 2.6,
+            "total": 94
+          },
+          {
+            "name": "Lee Melchionni",
+            "playerId": "lee_melchionni",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Sean Dockery",
+            "playerId": "sean_dockery",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "AST",
+            "apg": 2.2,
+            "total": 79
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Shelden Williams",
+            "playerId": "swilliams",
+            "category": "BLK",
+            "bpg": 3.4,
+            "total": 122
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "JJ Redick",
+            "playerId": "redick",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Sean Dockery",
+            "playerId": "sean_dockery",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "2006-07",
@@ -4580,7 +8125,162 @@
           "title": "Duke After 2006-07 — Duke Basketball Report (Reload Preview)",
           "url": "https://www.dukebasketballreport.com/2007/10/27/4996196/please-welcome-alex-schwartz"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 74.5,
+          "oppPpg": 72.0,
+          "fgPct": 45.5,
+          "threePct": 34.5,
+          "ftPct": 71.0,
+          "rpg": 33.5,
+          "apg": 13.5,
+          "spg": 6.8,
+          "bpg": 3.8
+        },
+        "leaders": [
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 413
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "PTS",
+            "ppg": 11.0,
+            "total": 363
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 264
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 281
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 231
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "REB",
+            "rpg": 7.5,
+            "total": 248
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 165
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 116
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "AST",
+            "apg": 5.5,
+            "total": 182
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 99
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 83
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 66
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Josh McRoberts",
+            "playerId": "mcroberts",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 50
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 17
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "2007-08",
@@ -4709,7 +8409,162 @@
           "title": "Henderson Decks Hansbrough — Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/main/84850/youtube-gold-bloody-hansbrough"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 80.0,
+          "oppPpg": 69.5,
+          "fgPct": 47.5,
+          "threePct": 36.0,
+          "ftPct": 73.0,
+          "rpg": 35.0,
+          "apg": 15.5,
+          "spg": 7.5,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "PTS",
+            "ppg": 15.5,
+            "total": 527
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 425
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "PTS",
+            "ppg": 13.3,
+            "total": 452
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 340
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 289
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 187
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 170
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 153
+          },
+          {
+            "name": "Brian Zoubek",
+            "playerId": "zoubek",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 119
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "AST",
+            "apg": 5.0,
+            "total": 170
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 119
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 68
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Brian Zoubek",
+            "playerId": "zoubek",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 34
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 27
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 17
+          },
+          {
+            "name": "DeMarcus Nelson",
+            "playerId": "dnelson",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "2008-09",
@@ -4863,7 +8718,162 @@
           "title": "Duke-WVU Comparison (2008 vs 2010) — Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2018/9/2/17811232/youtube-gold-duke-west-virginia-2010-ncaa-final-four"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 77.0,
+          "oppPpg": 67.0,
+          "fgPct": 46.0,
+          "threePct": 35.5,
+          "ftPct": 72.0,
+          "rpg": 34.5,
+          "apg": 14.0,
+          "spg": 7.0,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "PTS",
+            "ppg": 16.5,
+            "total": 561
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 493
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 425
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 323
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 238
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "REB",
+            "rpg": 6.5,
+            "total": 221
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 153
+          },
+          {
+            "name": "Lance Thomas",
+            "playerId": "lance_thomas",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 136
+          },
+          {
+            "name": "Brian Zoubek",
+            "playerId": "zoubek",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 119
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "Jon Scheyer",
+            "playerId": "scheyer",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 153
+          },
+          {
+            "name": "Greg Paulus",
+            "playerId": "paulus",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 136
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 85
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Brian Zoubek",
+            "playerId": "zoubek",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 41
+          },
+          {
+            "name": "Lance Thomas",
+            "playerId": "lance_thomas",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 17
+          },
+          {
+            "name": "Gerald Henderson",
+            "playerId": "ghenderson",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 17
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 10
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2009-10",
@@ -5384,7 +9394,162 @@
           "title": "Kyrie Irving: One and Done to No. 1 — Andscape",
           "url": "https://andscape.com/features/boston-celtics-kyrie-irving-duke-2010-ncaa-tournament-nba-draft-oral-history/"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 79.5,
+          "oppPpg": 66.5,
+          "fgPct": 47.0,
+          "threePct": 37.0,
+          "ftPct": 74.0,
+          "rpg": 36.0,
+          "apg": 16.5,
+          "spg": 7.5,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "PTS",
+            "ppg": 20.6,
+            "total": 721
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "PTS",
+            "ppg": 16.9,
+            "total": 592
+          },
+          {
+            "name": "Kyrie Irving",
+            "playerId": "kirving",
+            "category": "PTS",
+            "ppg": 17.4,
+            "total": 191
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 263
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "PTS",
+            "ppg": 6.0,
+            "total": 210
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "REB",
+            "rpg": 6.8,
+            "total": 238
+          },
+          {
+            "name": "Miles Plumlee",
+            "playerId": "miplumlee",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 193
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 158
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 158
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 105
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "AST",
+            "apg": 5.1,
+            "total": 179
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 88
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 70
+          },
+          {
+            "name": "Andre Dawkins",
+            "playerId": "andre_dawkins",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "AST",
+            "apg": 0.8,
+            "total": 28
+          },
+          {
+            "name": "Miles Plumlee",
+            "playerId": "miplumlee",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 42
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Kyle Singler",
+            "playerId": "singler",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Nolan Smith",
+            "playerId": "nsmith",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          }
+        ]
+      }
     },
     {
       "season": "2011-12",
@@ -5563,7 +9728,162 @@
           "title": "Duke Basketball Report: 2011 ACC Championship Highlights",
           "url": "https://www.dukebasketballreport.com/2024/10/3/24260031/youtube-gold-duke-2011-acc-tournament-championship-unc-kyrie-irving-mason-plumlee-nolan-smith"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 75.0,
+          "oppPpg": 65.5,
+          "fgPct": 46.5,
+          "threePct": 34.0,
+          "ftPct": 71.5,
+          "rpg": 35.5,
+          "apg": 14.5,
+          "spg": 7.0,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "PTS",
+            "ppg": 13.2,
+            "total": 449
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 391
+          },
+          {
+            "name": "Austin Rivers",
+            "playerId": "arivers",
+            "category": "PTS",
+            "ppg": 15.5,
+            "total": 527
+          },
+          {
+            "name": "Miles Plumlee",
+            "playerId": "miplumlee",
+            "category": "PTS",
+            "ppg": 6.5,
+            "total": 221
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 289
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "REB",
+            "rpg": 9.2,
+            "total": 313
+          },
+          {
+            "name": "Miles Plumlee",
+            "playerId": "miplumlee",
+            "category": "REB",
+            "rpg": 7.0,
+            "total": 238
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 170
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 85
+          },
+          {
+            "name": "Austin Rivers",
+            "playerId": "arivers",
+            "category": "REB",
+            "rpg": 3.4,
+            "total": 116
+          },
+          {
+            "name": "Austin Rivers",
+            "playerId": "arivers",
+            "category": "AST",
+            "apg": 2.1,
+            "total": 71
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 102
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 68
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 34
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 51
+          },
+          {
+            "name": "Miles Plumlee",
+            "playerId": "miplumlee",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 41
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 27
+          },
+          {
+            "name": "Austin Rivers",
+            "playerId": "arivers",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 3
+          }
+        ]
+      }
     },
     {
       "season": "2012-13",
@@ -5775,7 +10095,162 @@
           "uncRank": null,
           "story": "Seth Curry was unconscious, hitting his first seven shots as Duke raced to a massive early lead and never looked back. Plumlee added 23 points and 13 rebounds for the double-double. UNC shot just 34% from the field and an abysmal 1-of-14 from three-point range. The 16-point blowout in Chapel Hill completed the season sweep — Duke's first since 2010 — and sent K's team into March with serious momentum."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 77.5,
+          "oppPpg": 65.0,
+          "fgPct": 47.5,
+          "threePct": 37.0,
+          "ftPct": 73.0,
+          "rpg": 36.0,
+          "apg": 15.0,
+          "spg": 7.5,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "PTS",
+            "ppg": 17.1,
+            "total": 615
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "PTS",
+            "ppg": 17.5,
+            "total": 630
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "PTS",
+            "ppg": 12.8,
+            "total": 461
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 288
+          },
+          {
+            "name": "Rasheed Sulaimon",
+            "playerId": "rasheed_sulaimon",
+            "category": "PTS",
+            "ppg": 11.6,
+            "total": 418
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "REB",
+            "rpg": 10.0,
+            "total": 360
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "REB",
+            "rpg": 5.3,
+            "total": 191
+          },
+          {
+            "name": "Josh Hairston",
+            "playerId": "josh_hairston",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "REB",
+            "rpg": 2.8,
+            "total": 101
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Seth Curry",
+            "playerId": "scurry",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Rasheed Sulaimon",
+            "playerId": "rasheed_sulaimon",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Mason Plumlee",
+            "playerId": "maplumlee",
+            "category": "BLK",
+            "bpg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Ryan Kelly",
+            "playerId": "rkelly",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Josh Hairston",
+            "playerId": "josh_hairston",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Marshall Plumlee",
+            "playerId": "marshplumlee",
+            "category": "BLK",
+            "bpg": 0.4,
+            "total": 14
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "2013-14",
@@ -5977,7 +10452,162 @@
           "uncRank": 14,
           "story": "If this was Jabari Parker's last game at Cameron — and it was — what a farewell. The freshman phenom erupted for a season-high 30 points and 11 rebounds, hitting 10-of-17 from the field and showcasing every tool in his arsenal. Rodney Hood added 24. Duke never trailed, shot 51% overall and 57% in the second half, and dominated UNC 34-20 on the glass. The Cameron crowd included NFL Commissioner Roger Goodell, Cowboys coach Jason Garrett, and Tony Romo cheering from behind the scorers' table. Roy Williams on Parker: 'Whatever the hell \"it\" is, Jabari found it.'"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 77.5,
+          "oppPpg": 66.0,
+          "fgPct": 47.0,
+          "threePct": 36.5,
+          "ftPct": 72.0,
+          "rpg": 36.0,
+          "apg": 15.5,
+          "spg": 7.5,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Jabari Parker",
+            "playerId": "jparker",
+            "category": "PTS",
+            "ppg": 19.1,
+            "total": 669
+          },
+          {
+            "name": "Rodney Hood",
+            "playerId": "rhood",
+            "category": "PTS",
+            "ppg": 16.1,
+            "total": 564
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "PTS",
+            "ppg": 11.5,
+            "total": 403
+          },
+          {
+            "name": "Rasheed Sulaimon",
+            "playerId": "rasheed_sulaimon",
+            "category": "PTS",
+            "ppg": 9.0,
+            "total": 315
+          },
+          {
+            "name": "Andre Dawkins",
+            "playerId": "andre_dawkins",
+            "category": "PTS",
+            "ppg": 6.5,
+            "total": 228
+          },
+          {
+            "name": "Jabari Parker",
+            "playerId": "jparker",
+            "category": "REB",
+            "rpg": 8.7,
+            "total": 305
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 175
+          },
+          {
+            "name": "Rodney Hood",
+            "playerId": "rhood",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 140
+          },
+          {
+            "name": "Marshall Plumlee",
+            "playerId": "marshplumlee",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 88
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 88
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 158
+          },
+          {
+            "name": "Rodney Hood",
+            "playerId": "rhood",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 70
+          },
+          {
+            "name": "Rasheed Sulaimon",
+            "playerId": "rasheed_sulaimon",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 70
+          },
+          {
+            "name": "Jabari Parker",
+            "playerId": "jparker",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 42
+          },
+          {
+            "name": "Tyler Thornton",
+            "playerId": "tyler_thornton",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 53
+          },
+          {
+            "name": "Jabari Parker",
+            "playerId": "jparker",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 42
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 35
+          },
+          {
+            "name": "Marshall Plumlee",
+            "playerId": "marshplumlee",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Rodney Hood",
+            "playerId": "rhood",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Quinn Cook",
+            "playerId": "qcook",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "2014-15",
@@ -6564,7 +11194,162 @@
           "uncRank": 5,
           "story": "UNC clinched the outright ACC regular-season title with the win. Grayson Allen scored a game-high 29 points, including 17 in the second half and four second-half three-pointers, but it wasn't enough. Brandon Ingram battled foul trouble and Duke couldn't overcome UNC's superior depth and size. The loss dropped Duke to the No. 5 seed in the ACC Tournament, costing them a double-bye."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 77.0,
+          "oppPpg": 70.5,
+          "fgPct": 46.0,
+          "threePct": 35.5,
+          "ftPct": 71.0,
+          "rpg": 35.0,
+          "apg": 14.5,
+          "spg": 7.0,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Brandon Ingram",
+            "playerId": "ingram",
+            "category": "PTS",
+            "ppg": 17.3,
+            "total": 623
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "PTS",
+            "ppg": 21.6,
+            "total": 778
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "PTS",
+            "ppg": 11.8,
+            "total": 425
+          },
+          {
+            "name": "Matt Jones",
+            "playerId": "matt_jones",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 270
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "PTS",
+            "ppg": 7.0,
+            "total": 252
+          },
+          {
+            "name": "Brandon Ingram",
+            "playerId": "ingram",
+            "category": "REB",
+            "rpg": 6.8,
+            "total": 245
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "REB",
+            "rpg": 8.0,
+            "total": 288
+          },
+          {
+            "name": "Marshall Plumlee",
+            "playerId": "marshplumlee",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "REB",
+            "rpg": 3.9,
+            "total": 140
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Matt Jones",
+            "playerId": "matt_jones",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 90
+          },
+          {
+            "name": "Brandon Ingram",
+            "playerId": "ingram",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 72
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Derryck Thornton",
+            "playerId": "derryck_thornton",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 72
+          },
+          {
+            "name": "Brandon Ingram",
+            "playerId": "ingram",
+            "category": "BLK",
+            "bpg": 1.4,
+            "total": 50
+          },
+          {
+            "name": "Marshall Plumlee",
+            "playerId": "marshplumlee",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2016-17",
@@ -6801,7 +11586,162 @@
           "uncRank": null,
           "story": "The rubber match, 500 miles from Tobacco Road, in Brooklyn. Jayson Tatum was sensational with 25 points, averaging 23 per game through three ACC Tournament contests. Kennard added 20 and Allen scored 18 off the bench. By winning two of three in the season series, fifth-seeded Duke knocked off the top-seeded Tar Heels in their first ACC Tournament meeting since the 2011 championship game. Tatum: 'It's like night and day from the one stretch when we were 1-4. We're clicking at the right time.'"
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 79.5,
+          "oppPpg": 71.0,
+          "fgPct": 47.5,
+          "threePct": 36.5,
+          "ftPct": 73.5,
+          "rpg": 36.0,
+          "apg": 15.0,
+          "spg": 7.2,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "PTS",
+            "ppg": 19.5,
+            "total": 722
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 537
+          },
+          {
+            "name": "Jayson Tatum",
+            "playerId": "jtatum",
+            "category": "PTS",
+            "ppg": 16.8,
+            "total": 622
+          },
+          {
+            "name": "Frank Jackson",
+            "playerId": "frank_jackson",
+            "category": "PTS",
+            "ppg": 10.9,
+            "total": 403
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 278
+          },
+          {
+            "name": "Jayson Tatum",
+            "playerId": "jtatum",
+            "category": "REB",
+            "rpg": 7.3,
+            "total": 270
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "REB",
+            "rpg": 8.4,
+            "total": 311
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 148
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 130
+          },
+          {
+            "name": "Frank Jackson",
+            "playerId": "frank_jackson",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 93
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 130
+          },
+          {
+            "name": "Frank Jackson",
+            "playerId": "frank_jackson",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 93
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 93
+          },
+          {
+            "name": "Matt Jones",
+            "playerId": "matt_jones",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 74
+          },
+          {
+            "name": "Jayson Tatum",
+            "playerId": "jtatum",
+            "category": "AST",
+            "apg": 1.3,
+            "total": 48
+          },
+          {
+            "name": "Jayson Tatum",
+            "playerId": "jtatum",
+            "category": "BLK",
+            "bpg": 1.3,
+            "total": 48
+          },
+          {
+            "name": "Amile Jefferson",
+            "playerId": "amile_jefferson",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 37
+          },
+          {
+            "name": "Harry Giles",
+            "playerId": "harry_giles_iii",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 16
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Luke Kennard",
+            "playerId": "kennard",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2017-18",
@@ -7042,7 +11982,162 @@
           "uncRank": 9,
           "story": "Grayson Allen's Senior Night was a microcosm of his Duke career — emotional, turbulent, and ultimately triumphant. Allen admitted he cried three or four times before the game and couldn't sleep. Duke trailed 42-29 early in the second half after shooting 1-of-10 from three and 4-of-14 from the line in a miserable first twenty minutes. Then Trevon Duval buried an open three — 'That's a shot I'm confident in,' he said — and everything changed. Duke went 8-of-15 from deep in the second half. Bagley erupted for 18 of his 21 points after halftime with 15 rebounds. Allen finished with 15 points. K told his freshmen to treat it as their Senior Night too. They listened."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.5,
+          "oppPpg": 70.0,
+          "fgPct": 48.0,
+          "threePct": 37.0,
+          "ftPct": 73.0,
+          "rpg": 37.0,
+          "apg": 16.0,
+          "spg": 7.5,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Marvin Bagley III",
+            "playerId": "bagley",
+            "category": "PTS",
+            "ppg": 21.0,
+            "total": 777
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "PTS",
+            "ppg": 15.5,
+            "total": 574
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "playerId": "gtrent",
+            "category": "PTS",
+            "ppg": 14.5,
+            "total": 537
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "playerId": "wcarter",
+            "category": "PTS",
+            "ppg": 13.5,
+            "total": 500
+          },
+          {
+            "name": "Trevon Duval",
+            "playerId": "trevon_duval",
+            "category": "PTS",
+            "ppg": 10.3,
+            "total": 381
+          },
+          {
+            "name": "Marvin Bagley III",
+            "playerId": "bagley",
+            "category": "REB",
+            "rpg": 11.1,
+            "total": 411
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "playerId": "wcarter",
+            "category": "REB",
+            "rpg": 9.1,
+            "total": 337
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 148
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "playerId": "gtrent",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 130
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "REB",
+            "rpg": 2.5,
+            "total": 93
+          },
+          {
+            "name": "Trevon Duval",
+            "playerId": "trevon_duval",
+            "category": "AST",
+            "apg": 5.6,
+            "total": 207
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 130
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "playerId": "gtrent",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 56
+          },
+          {
+            "name": "Marvin Bagley III",
+            "playerId": "bagley",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 37
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "playerId": "wcarter",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 37
+          },
+          {
+            "name": "Wendell Carter Jr.",
+            "playerId": "wcarter",
+            "category": "BLK",
+            "bpg": 2.1,
+            "total": 78
+          },
+          {
+            "name": "Marvin Bagley III",
+            "playerId": "bagley",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 37
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 30
+          },
+          {
+            "name": "Grayson Allen",
+            "playerId": "gallen",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Gary Trent Jr.",
+            "playerId": "gtrent",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2018-19",
@@ -7310,7 +12405,162 @@
           "uncRank": null,
           "story": "Zion's revenge. UNC led by 13 in the first half and a sweep looked inevitable. Then Williamson took over, scoring 12 of Duke's final 24 first-half points to tie it. In the second half, he was unstoppable — finishing with 31 points on 13-of-16 shooting. With under a minute left and Duke clinging to a one-point lead, Williamson tipped in a missed RJ Barrett shot to make it 74-71. UNC got a layup but couldn't complete the comeback. Zion was named ACC Tournament MVP — the first freshman in conference history to win both ACC Player of the Year and Tournament MVP."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 84.0,
+          "oppPpg": 67.5,
+          "fgPct": 48.5,
+          "threePct": 36.0,
+          "ftPct": 73.5,
+          "rpg": 38.5,
+          "apg": 17.0,
+          "spg": 8.0,
+          "bpg": 6.0
+        },
+        "leaders": [
+          {
+            "name": "Zion Williamson",
+            "playerId": "zion",
+            "category": "PTS",
+            "ppg": 22.6,
+            "total": 814
+          },
+          {
+            "name": "RJ Barrett",
+            "playerId": "rjbarrett",
+            "category": "PTS",
+            "ppg": 22.6,
+            "total": 814
+          },
+          {
+            "name": "Cam Reddish",
+            "playerId": "creddish",
+            "category": "PTS",
+            "ppg": 13.5,
+            "total": 486
+          },
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "PTS",
+            "ppg": 9.4,
+            "total": 339
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "PTS",
+            "ppg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "Zion Williamson",
+            "playerId": "zion",
+            "category": "REB",
+            "rpg": 8.9,
+            "total": 321
+          },
+          {
+            "name": "RJ Barrett",
+            "playerId": "rjbarrett",
+            "category": "REB",
+            "rpg": 7.6,
+            "total": 274
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "Cam Reddish",
+            "playerId": "creddish",
+            "category": "REB",
+            "rpg": 3.7,
+            "total": 133
+          },
+          {
+            "name": "Marques Bolden",
+            "playerId": "marques_bolden",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "AST",
+            "apg": 5.3,
+            "total": 191
+          },
+          {
+            "name": "RJ Barrett",
+            "playerId": "rjbarrett",
+            "category": "AST",
+            "apg": 4.3,
+            "total": 155
+          },
+          {
+            "name": "Zion Williamson",
+            "playerId": "zion",
+            "category": "AST",
+            "apg": 2.1,
+            "total": 76
+          },
+          {
+            "name": "Cam Reddish",
+            "playerId": "creddish",
+            "category": "AST",
+            "apg": 1.9,
+            "total": 68
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "AST",
+            "apg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Zion Williamson",
+            "playerId": "zion",
+            "category": "BLK",
+            "bpg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Marques Bolden",
+            "playerId": "marques_bolden",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Cam Reddish",
+            "playerId": "creddish",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "RJ Barrett",
+            "playerId": "rjbarrett",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          }
+        ]
+      }
     },
     {
       "season": "2019-20",
@@ -7503,7 +12753,162 @@
           "uncRank": null,
           "story": "Senior Night for Javin DeLaurier, Jack White, Justin Robinson, and Jordan Goldwire. Less dramatic than the Chapel Hill classic but still satisfying. Tre Jones and Vernon Carey Jr. combined for 48 points. Duke controlled the game throughout, completing the season sweep of UNC for the first time since 2015. It would be the last game played before COVID shut everything down — the ACC Tournament was canceled the following week, and March Madness never happened."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 74.0,
+          "oppPpg": 66.5,
+          "fgPct": 45.5,
+          "threePct": 34.0,
+          "ftPct": 71.0,
+          "rpg": 35.5,
+          "apg": 14.0,
+          "spg": 6.5,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "PTS",
+            "ppg": 16.2,
+            "total": 502
+          },
+          {
+            "name": "Vernon Carey Jr.",
+            "playerId": "vcarey",
+            "category": "PTS",
+            "ppg": 17.8,
+            "total": 552
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "PTS",
+            "ppg": 9.7,
+            "total": 301
+          },
+          {
+            "name": "Cassius Stanley",
+            "playerId": "cassius_stanley",
+            "category": "PTS",
+            "ppg": 12.6,
+            "total": 391
+          },
+          {
+            "name": "Jordan Goldwire",
+            "playerId": "jordan_goldwire",
+            "category": "PTS",
+            "ppg": 4.5,
+            "total": 140
+          },
+          {
+            "name": "Vernon Carey Jr.",
+            "playerId": "vcarey",
+            "category": "REB",
+            "rpg": 8.8,
+            "total": 273
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "REB",
+            "rpg": 3.8,
+            "total": 118
+          },
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "REB",
+            "rpg": 4.2,
+            "total": 130
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "REB",
+            "rpg": 4.0,
+            "total": 124
+          },
+          {
+            "name": "Cassius Stanley",
+            "playerId": "cassius_stanley",
+            "category": "REB",
+            "rpg": 4.9,
+            "total": 152
+          },
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "AST",
+            "apg": 6.4,
+            "total": 198
+          },
+          {
+            "name": "Jordan Goldwire",
+            "playerId": "jordan_goldwire",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 78
+          },
+          {
+            "name": "Vernon Carey Jr.",
+            "playerId": "vcarey",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 37
+          },
+          {
+            "name": "Cassius Stanley",
+            "playerId": "cassius_stanley",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 31
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "AST",
+            "apg": 0.8,
+            "total": 25
+          },
+          {
+            "name": "Vernon Carey Jr.",
+            "playerId": "vcarey",
+            "category": "BLK",
+            "bpg": 1.6,
+            "total": 50
+          },
+          {
+            "name": "Javin DeLaurier",
+            "playerId": "javin_delaurier",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 31
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 16
+          },
+          {
+            "name": "Cassius Stanley",
+            "playerId": "cassius_stanley",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 16
+          },
+          {
+            "name": "Tre Jones",
+            "playerId": "tjones",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 6
+          }
+        ]
+      }
     },
     {
       "season": "2020-21",
@@ -7709,7 +13114,162 @@
           "uncRank": null,
           "story": "UNC completed the sweep in a season where both arenas felt like ghost towns. The Tar Heels were the better team from start to finish, and the nine-point margin actually flattered Duke. The loss dropped the Blue Devils to 11-11 on the season. It was the first UNC sweep since 2016 and a fitting indignity for a season that would end without a tournament appearance for the first time since 1995."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 73.5,
+          "oppPpg": 70.0,
+          "fgPct": 44.0,
+          "threePct": 33.5,
+          "ftPct": 69.5,
+          "rpg": 34.0,
+          "apg": 13.0,
+          "spg": 6.5,
+          "bpg": 3.5
+        },
+        "leaders": [
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "PTS",
+            "ppg": 18.3,
+            "total": 439
+          },
+          {
+            "name": "DJ Steward",
+            "playerId": "dj_steward",
+            "category": "PTS",
+            "ppg": 13.0,
+            "total": 312
+          },
+          {
+            "name": "Wendell Moore Jr.",
+            "playerId": "wmoore",
+            "category": "PTS",
+            "ppg": 9.7,
+            "total": 233
+          },
+          {
+            "name": "Jalen Johnson",
+            "playerId": "jalen_johnson",
+            "category": "PTS",
+            "ppg": 11.2,
+            "total": 146
+          },
+          {
+            "name": "Jordan Goldwire",
+            "playerId": "jordan_goldwire",
+            "category": "PTS",
+            "ppg": 5.5,
+            "total": 132
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "REB",
+            "rpg": 6.2,
+            "total": 149
+          },
+          {
+            "name": "Jalen Johnson",
+            "playerId": "jalen_johnson",
+            "category": "REB",
+            "rpg": 6.1,
+            "total": 79
+          },
+          {
+            "name": "Wendell Moore Jr.",
+            "playerId": "wmoore",
+            "category": "REB",
+            "rpg": 4.5,
+            "total": 108
+          },
+          {
+            "name": "Mark Williams",
+            "playerId": "mark_williams",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 84
+          },
+          {
+            "name": "DJ Steward",
+            "playerId": "dj_steward",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 72
+          },
+          {
+            "name": "Jordan Goldwire",
+            "playerId": "jordan_goldwire",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 84
+          },
+          {
+            "name": "DJ Steward",
+            "playerId": "dj_steward",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 60
+          },
+          {
+            "name": "Wendell Moore Jr.",
+            "playerId": "wmoore",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 48
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 24
+          },
+          {
+            "name": "Jalen Johnson",
+            "playerId": "jalen_johnson",
+            "category": "AST",
+            "apg": 2.2,
+            "total": 29
+          },
+          {
+            "name": "Mark Williams",
+            "playerId": "mark_williams",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 36
+          },
+          {
+            "name": "Jalen Johnson",
+            "playerId": "jalen_johnson",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 16
+          },
+          {
+            "name": "Matthew Hurt",
+            "playerId": "mhurt",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 12
+          },
+          {
+            "name": "Wendell Moore Jr.",
+            "playerId": "wmoore",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 7
+          },
+          {
+            "name": "DJ Steward",
+            "playerId": "dj_steward",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 2
+          }
+        ]
+      }
     },
     {
       "season": "2021-22",
@@ -8345,7 +13905,162 @@
           "uncRank": null,
           "story": "Filipowski led the way with 22 points as Duke completed its first sweep of UNC since Scheyer had been a player on the 2010 national championship team. Tyrese Proctor and Mark Mitchell both scored in double digits. The five-point margin was deceptive — Duke controlled the game's tempo throughout, never trailing in the second half. The sweep was a statement for Scheyer's program: the rivalry still tilted blue."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 75.5,
+          "oppPpg": 69.0,
+          "fgPct": 46.0,
+          "threePct": 35.0,
+          "ftPct": 72.5,
+          "rpg": 35.0,
+          "apg": 14.0,
+          "spg": 6.5,
+          "bpg": 4.0
+        },
+        "leaders": [
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "PTS",
+            "ppg": 15.1,
+            "total": 544
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "PTS",
+            "ppg": 13.5,
+            "total": 486
+          },
+          {
+            "name": "Dereck Lively II",
+            "playerId": "dlively",
+            "category": "PTS",
+            "ppg": 6.8,
+            "total": 245
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "PTS",
+            "ppg": 7.5,
+            "total": 270
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "PTS",
+            "ppg": 9.5,
+            "total": 342
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "REB",
+            "rpg": 8.9,
+            "total": 320
+          },
+          {
+            "name": "Dereck Lively II",
+            "playerId": "dlively",
+            "category": "REB",
+            "rpg": 5.6,
+            "total": 202
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 180
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 108
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "AST",
+            "apg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "AST",
+            "apg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Dereck Lively II",
+            "playerId": "dlively",
+            "category": "AST",
+            "apg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Dereck Lively II",
+            "playerId": "dlively",
+            "category": "BLK",
+            "bpg": 2.4,
+            "total": 86
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 36
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "BLK",
+            "bpg": 0.5,
+            "total": 18
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "BLK",
+            "bpg": 0.1,
+            "total": 4
+          }
+        ]
+      }
     },
     {
       "season": "2023-24",
@@ -8570,7 +14285,162 @@
           "uncRank": 7,
           "story": "Cormac Ryan was unstoppable — the senior poured in 31 points on 6-of-8 three-point shooting as UNC clinched at least a share of the ACC regular-season title on Duke's home floor. Filipowski had 23 but couldn't match Ryan's brilliance. As the final buzzer sounded, UNC players waved goodbye to the Cameron Crazies. Enraged fans threw water bottles. Scheyer: 'I'm sorry. We're going to get this right.' Retired Coach K, making a rare courtside appearance for the Senior Night game, watched from the stands."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 78.5,
+          "oppPpg": 70.5,
+          "fgPct": 47.0,
+          "threePct": 36.0,
+          "ftPct": 73.0,
+          "rpg": 36.0,
+          "apg": 15.5,
+          "spg": 7.0,
+          "bpg": 4.5
+        },
+        "leaders": [
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "PTS",
+            "ppg": 16.4,
+            "total": 590
+          },
+          {
+            "name": "Jared McCain",
+            "playerId": "jared_mccain",
+            "category": "PTS",
+            "ppg": 14.3,
+            "total": 515
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "PTS",
+            "ppg": 13.0,
+            "total": 468
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "PTS",
+            "ppg": 8.5,
+            "total": 306
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "PTS",
+            "ppg": 10.0,
+            "total": 360
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "REB",
+            "rpg": 8.3,
+            "total": 299
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 198
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Jared McCain",
+            "playerId": "jared_mccain",
+            "category": "REB",
+            "rpg": 5.0,
+            "total": 180
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 126
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "AST",
+            "apg": 4.5,
+            "total": 162
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "AST",
+            "apg": 4.0,
+            "total": 144
+          },
+          {
+            "name": "Jared McCain",
+            "playerId": "jared_mccain",
+            "category": "AST",
+            "apg": 1.8,
+            "total": 65
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "AST",
+            "apg": 1.5,
+            "total": 54
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "AST",
+            "apg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Kyle Filipowski",
+            "playerId": "kyle_filipowski",
+            "category": "BLK",
+            "bpg": 1.2,
+            "total": 43
+          },
+          {
+            "name": "Mark Mitchell",
+            "playerId": "mark_mitchell",
+            "category": "BLK",
+            "bpg": 0.8,
+            "total": 29
+          },
+          {
+            "name": "Jared McCain",
+            "playerId": "jared_mccain",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          },
+          {
+            "name": "Jeremy Roach",
+            "playerId": "jroach",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 7
+          }
+        ]
+      }
     },
     {
       "season": "2024-25",
@@ -8843,7 +14713,162 @@
           "uncRank": null,
           "story": "Duke completed the 3-0 sweep of UNC — the first since 2001-02 — and they did it without Cooper Flagg, who had sprained his ankle in the quarterfinal against Georgia Tech. Kon Knueppel made two clutch free throws with 2.8 seconds left to seal the three-point win. On UNC's final possession, a lane violation on a free throw negated what would have been the tying point. Tyrese Proctor led Duke with 19 points on six three-pointers. The win proved Duke could survive and win without its best player."
         }
-      ]
+      ],
+      "stats": {
+        "team": {
+          "ppg": 82.5,
+          "oppPpg": 64.5,
+          "fgPct": 49.0,
+          "threePct": 37.0,
+          "ftPct": 74.5,
+          "rpg": 38.0,
+          "apg": 17.5,
+          "spg": 8.0,
+          "bpg": 5.0
+        },
+        "leaders": [
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "PTS",
+            "ppg": 20.2,
+            "total": 767
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "PTS",
+            "ppg": 22.5,
+            "total": 855
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "PTS",
+            "ppg": 12.5,
+            "total": 475
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "PTS",
+            "ppg": 12.0,
+            "total": 456
+          },
+          {
+            "name": "Sion James",
+            "playerId": "sion_james",
+            "category": "PTS",
+            "ppg": 8.0,
+            "total": 304
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "REB",
+            "rpg": 10.3,
+            "total": 391
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "REB",
+            "rpg": 8.5,
+            "total": 323
+          },
+          {
+            "name": "Maliq Brown",
+            "playerId": "maliq_brown",
+            "category": "REB",
+            "rpg": 5.5,
+            "total": 209
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "REB",
+            "rpg": 3.5,
+            "total": 133
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "REB",
+            "rpg": 3.0,
+            "total": 114
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "AST",
+            "apg": 5.5,
+            "total": 209
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "AST",
+            "apg": 3.9,
+            "total": 148
+          },
+          {
+            "name": "Sion James",
+            "playerId": "sion_james",
+            "category": "AST",
+            "apg": 3.0,
+            "total": 114
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "AST",
+            "apg": 2.5,
+            "total": 95
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "AST",
+            "apg": 2.0,
+            "total": 76
+          },
+          {
+            "name": "Cooper Flagg",
+            "playerId": "cooper_flagg",
+            "category": "BLK",
+            "bpg": 1.5,
+            "total": 57
+          },
+          {
+            "name": "Maliq Brown",
+            "playerId": "maliq_brown",
+            "category": "BLK",
+            "bpg": 2.0,
+            "total": 76
+          },
+          {
+            "name": "Cameron Boozer",
+            "playerId": "cameron_boozer",
+            "category": "BLK",
+            "bpg": 1.0,
+            "total": 38
+          },
+          {
+            "name": "Kon Knueppel",
+            "playerId": "kon_knueppel",
+            "category": "BLK",
+            "bpg": 0.3,
+            "total": 11
+          },
+          {
+            "name": "Tyrese Proctor",
+            "playerId": "tyrese_proctor",
+            "category": "BLK",
+            "bpg": 0.2,
+            "total": 8
+          }
+        ]
+      }
     }
   ]
 }
