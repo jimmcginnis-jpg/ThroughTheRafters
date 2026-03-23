@@ -78,10 +78,33 @@ export default function NBAViz() {
   const peak = seasonData.reduce((a, b) => b.count > a.count ? b : a, seasonData[0]);
   const totalPlayerSeasons = seasonData.reduce((sum, s) => sum + s.count, 0);
 
+  // SEO prose stats
+  const uniqueNBAPlayers = useMemo(() => {
+    const names = new Set();
+    data.players.forEach(p => {
+      if (p.nba && p.nba.teams && Array.isArray(p.nba.teams) && p.nba.teams.length > 0) {
+        names.add(p.name);
+      }
+    });
+    return names.size;
+  }, []);
+
+  const no1Picks = useMemo(() => {
+    return data.players.filter(p => p.nba && p.nba.draftPick === 1).map(p => p.name);
+  }, []);
+
+  const lotteryPicks = useMemo(() => {
+    return data.players.filter(p => p.nba && p.nba.draftPick && p.nba.draftPick <= 14 && !p.nba.undrafted);
+  }, []);
+
+  const avgPerSeason = seasonData.length > 0
+    ? (totalPlayerSeasons / seasonData.length).toFixed(1)
+    : 0;
+
   return (
     <Layout
-      title="Duke in the NBA"
-      description="How many Duke players were in the NBA each season from 1986 to present."
+      title="How Many Duke Players Are in the NBA? | Duke in the NBA by Season"
+      description="Duke has had NBA players on opening-day rosters every season since 1983. Track how many Blue Devils were in the league each year, from Johnny Dawkins to Cooper Flagg."
       canonical="/viz/nba/"
     >
       <div className="bg-duke-slate py-12">
@@ -95,10 +118,10 @@ export default function NBAViz() {
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-1">
-            Duke in the NBA
+            Duke Players in the NBA: {currentSeason?.count} Active in {currentSeason?.label}
           </h1>
           <p className="font-body text-duke-goldLight text-lg mb-6">
-            {seasonData.length} seasons of Brotherhood representation in the league
+            {uniqueNBAPlayers} total Brotherhood members have played in the NBA across {seasonData.length} consecutive seasons of representation
           </p>
 
           {/* Stat cards */}
@@ -240,6 +263,117 @@ export default function NBAViz() {
           </div>
         </div>
       </div>
+
+      {/* ─── SEO PROSE SECTION ─── */}
+      <section className="max-w-4xl mx-auto px-4 py-12">
+        <h2 className="font-display text-2xl md:text-3xl text-duke-navy font-bold mb-4">
+          How Many Duke Players Are in the NBA?
+        </h2>
+        <div className="font-body text-gray-700 leading-relaxed space-y-4">
+          <p>
+            In the {currentSeason?.label || '2025-26'} NBA season, <strong>{currentSeason?.count || 0} former Duke
+            players</strong> are on active NBA rosters — making Duke one of the most heavily represented college
+            programs in professional basketball. Since the program began producing NBA talent under Coach Mike
+            Krzyzewski in the 1980s, <strong>{uniqueNBAPlayers} Duke players have appeared in the NBA</strong>,
+            accumulating {totalPlayerSeasons.toLocaleString()} total player-seasons across {seasonData.length} consecutive
+            years of representation.
+          </p>
+          <p>
+            Duke&apos;s peak NBA presence came in the {peak?.label || ''} season, when <strong>{peak?.count || 0} Brotherhood
+            members</strong> were on NBA rosters simultaneously. The program has averaged {avgPerSeason} players
+            per NBA season and has not had a year without at least one active NBA player since the early 1980s — a
+            streak that spans more than four decades.
+          </p>
+
+          <h3 className="font-display text-xl text-duke-navy font-bold mt-8 mb-2">
+            Duke&apos;s #1 Overall NBA Draft Picks
+          </h3>
+          <p>
+            Duke has produced <strong>{no1Picks.length} players selected first overall</strong> in the NBA Draft —
+            more than any other program in history: {no1Picks.join(', ')}. This list includes generational talents
+            who have gone on to become NBA All-Stars, All-NBA selections, and franchise cornerstones.
+          </p>
+
+          <h3 className="font-display text-xl text-duke-navy font-bold mt-8 mb-2">
+            NBA Lottery Picks from Duke
+          </h3>
+          <p>
+            Beyond the #1 picks, Duke has produced <strong>{lotteryPicks.length} total NBA lottery selections</strong> (top
+            14 picks) — the most of any college program during the Coach K and Jon Scheyer eras. These lottery picks
+            span every era of Duke basketball, from Johnny Dawkins in 1986 through Cooper Flagg in 2025, representing
+            four decades of elite NBA talent development.
+          </p>
+
+          <h3 className="font-display text-xl text-duke-navy font-bold mt-8 mb-2">
+            Duke Players Currently in the NBA ({currentSeason?.label || '2025-26'})
+          </h3>
+          <p>
+            The {currentSeason?.count || 0} Duke alumni currently active in the NBA play for {(() => {
+              const teams = new Set();
+              if (currentSeason?.players) currentSeason.players.forEach(p => teams.add(p.team));
+              return teams.size;
+            })()} different franchises. Multiple NBA teams roster more than one former Blue Devil, reflecting
+            the breadth of Duke&apos;s pipeline into professional basketball. For the full list of current Duke
+            NBA players with stats and team information, visit
+            the <a href="/lists/currently-in-nba/" className="text-duke-gold hover:text-duke-navy underline">Currently in the NBA</a> page.
+          </p>
+
+          <h3 className="font-display text-xl text-duke-navy font-bold mt-8 mb-2">
+            Duke&apos;s NBA Representation Over Time
+          </h3>
+          <p>
+            The chart above tracks every NBA season from Duke&apos;s first wave of professional talent through the
+            present day. The growth pattern tells the story of the program itself: a slow build during the
+            Foundation era of the early 1980s, a surge during the back-to-back championship years of 1991 and 1992,
+            and a sustained plateau of 15-to-25 active players per season from the 2000s onward. The one-and-done
+            era — beginning roughly in 2015 with Jahlil Okafor and accelerating through Zion Williamson, RJ Barrett,
+            and Paolo Banchero — pushed Duke&apos;s annual NBA output to new heights.
+          </p>
+          <p>
+            Under Jon Scheyer, who succeeded Krzyzewski in 2022, the pipeline has only intensified. All five starters
+            from the 2024-25 Duke team — Cooper Flagg, Kon Knueppel, Tyrese Proctor, Sion James, and Khaman Maluach — were
+            drafted, marking one of the most complete roster-to-NBA transitions in college basketball history.
+          </p>
+
+          <h3 className="font-display text-xl text-duke-navy font-bold mt-8 mb-2">
+            Duke&apos;s NBA Legacy Beyond Players
+          </h3>
+          <p>
+            Duke&apos;s NBA footprint extends well beyond the roster. Brotherhood members serve as head coaches (JJ Redick
+            with the Lakers, Quin Snyder with the Hawks), general managers (Elton Brand with the 76ers, Mike Dunleavy Jr.
+            with the Warriors, Trajan Langdon as President of Basketball Operations for the Pistons), team owners (Grant Hill,
+            co-owner of the Atlanta Hawks), and league leadership (Adam Silver, NBA Commissioner, Duke Class of 1984). Coach K
+            himself joined the NBA as a special advisor in 2024. Duke&apos;s influence on professional basketball is not just
+            measured in players — it is measured in the people running the league.
+          </p>
+          <p>
+            For complete player profiles, career narratives, and &ldquo;Where Are They Now?&rdquo; stories on every
+            Brotherhood member who played in the NBA, explore
+            the <a href="/lists/all-players/" className="text-duke-gold hover:text-duke-navy underline">full player directory</a> or
+            browse by <a href="/lists/draft-history/" className="text-duke-gold hover:text-duke-navy underline">draft history</a>.
+          </p>
+        </div>
+      </section>
+
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: `How Many Duke Players Are in the NBA? ${currentSeason?.count || ''} in ${currentSeason?.label || '2025-26'}`,
+            description: `Duke has ${currentSeason?.count || 0} players on NBA rosters in ${currentSeason?.label || '2025-26'}, with ${uniqueNBAPlayers} total alumni who have played in the league.`,
+            url: 'https://www.dukebrotherhood.com/viz/nba/',
+            publisher: {
+              '@type': 'Organization',
+              name: "Duke's Brotherhood",
+              url: 'https://www.dukebrotherhood.com/',
+            },
+            mainEntityOfPage: 'https://www.dukebrotherhood.com/viz/nba/',
+          }),
+        }}
+      />
     </Layout>
   );
 }
