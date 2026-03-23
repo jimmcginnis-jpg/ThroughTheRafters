@@ -8,14 +8,13 @@ const profiledCount = playersData.players.filter(p => p.status === 'done').lengt
 
 const totalPlayers = playersData.players.length;
 
-const players = playersData.players;
-
 const lists = [
   { slug: 'all-players', title: `All ${totalPlayers} Brotherhood Players (1981–Present)`, desc: `${profiledCount} profiled with full narratives · ${totalPlayers - profiledCount} more coming soon.` },
   { slug: 'currently-in-nba', title: 'Brotherhood Players Currently in the NBA', desc: `Active in the 2025–26 NBA season, among the ${profiledCount} players profiled.` },
   { slug: 'number-one-picks', title: '#1 Overall NBA Draft Picks Among the Brotherhood', desc: 'Five Brotherhood players were selected first overall — more than any program in history.' },
   { slug: 'lottery-picks', title: `NBA Lottery Picks Among the ${profiledCount} Brotherhood Players`, desc: 'Every Brotherhood player drafted in the top 14, from Johnny Dawkins (1986) to Cooper Flagg (2025).' },
   { slug: 'mcdonalds-all-americans', title: "McDonald's All-Americans Among the Brotherhood", desc: "Brotherhood players who earned McDonald's All-American honors before arriving at Duke." },
+  { slug: 'all-americans', title: 'Duke Consensus All-Americans (1985–2026)', desc: '23 players, 30 selections — more consensus first-team All-Americans since 2000 than any program in basketball.' },
   { slug: 'coaches', title: 'Brotherhood Players Who Became Coaches', desc: `From NBA head coaches to college builders — coaching paths among the ${profiledCount} players profiled.` },
   { slug: 'top-nba-scorers', title: 'Top NBA Scorers Among the Brotherhood', desc: `Career PPG leaders among the ${profiledCount} Brotherhood players (min. 50 games).` },
   { slug: 'nba-iron-men', title: 'Brotherhood Iron Men: 500+ NBA Games', desc: 'Brotherhood players who logged 500 or more NBA games.' },
@@ -24,7 +23,6 @@ const lists = [
   { slug: 'by-the-numbers', title: 'The Brotherhood: By the Numbers', desc: `Key stats and milestones across all ${totalPlayers} players — ${profiledCount} profiled so far.` },
   { slug: 'charities', title: 'Charities the Brotherhood Supports', desc: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.` },
   { slug: 'birthdays', title: 'Brotherhood Birthdays', desc: `${profiledCount}+ birthdays tracked — tweet happy birthday to your favorite Blue Devil and link to their story.` },
-  { slug: 'x-handles', title: 'Follow the Brotherhood on X', desc: `${players.filter(p => p.twitter).length} Brotherhood players and coaches on X/Twitter — follow and connect.` },
 ];
 
 export default function ListsIndex() {
