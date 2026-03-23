@@ -5,7 +5,13 @@
 
 import Link from 'next/link';
 import playerData from '../data/players.json';
-import teamsData from '../data/teams.json';
+
+// Generate all Duke season strings (1980-81 through 2025-26) without importing huge teams.json
+const ALL_DUKE_SEASONS = [];
+for (let y = 1980; y <= 2025; y++) {
+  const end = String(y + 1).slice(-2);
+  ALL_DUKE_SEASONS.push(`${y}-${end}`);
+}
 
 // Build lookup of profiled players, sorted longest name first to avoid partial matches
 const profiledPlayers = playerData.players
@@ -13,10 +19,16 @@ const profiledPlayers = playerData.players
   .map(p => ({ name: p.name, slug: p.slug }))
   .sort((a, b) => b.name.length - a.name.length);
 
-// Build lookup of seasons from teams.json
-const seasonLinks = (teamsData.seasons || [])
-  .map(s => s.season)
-  .filter(Boolean);
+// Build season patterns with both hyphen and en-dash variants
+const seasonLinks = [];
+const seasonToHref = {};
+ALL_DUKE_SEASONS.forEach(s => {
+  seasonLinks.push(s);
+  seasonToHref[s] = s;
+  const enDashVariant = s.replace('-', '\u2013');
+  seasonLinks.push(enDashVariant);
+  seasonToHref[enDashVariant] = s;
+});
 
 // Also match common short names / last names for very famous players
 // Only add these if they won't cause false positives
@@ -69,9 +81,10 @@ export default function LinkedText({ text, className }) {
     }
   });
 
-  // Add season patterns (e.g., "2024-25" → /teams/2024-25/)
+  // Add season patterns (e.g., "2024-25" and "2024–25" → /teams/2024-25/)
   seasonLinks.forEach(season => {
-    allPatterns.push({ pattern: season, slug: season, type: 'season' });
+    const canonical = seasonToHref[season] || season;
+    allPatterns.push({ pattern: season, slug: canonical, type: 'season' });
   });
 
   // Sort by pattern length descending to match longest first
