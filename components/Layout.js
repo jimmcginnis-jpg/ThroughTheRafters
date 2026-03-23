@@ -117,6 +117,15 @@ export default function Layout({ children, title, description, canonical }) {
             <Link href="/viz/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               Viz
             </Link>
+            <Link href="/bracket/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
+              Bracket
+            </Link>
+            <Link href="/what-if/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
+              What If?
+            </Link>
+            <Link href="/lists/x-handles/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
+              X/Twitter
+            </Link>
             <Link href="/about/" className="text-duke-goldLight hover:text-duke-gold transition-colors">
               About
             </Link>
@@ -166,6 +175,15 @@ export default function Layout({ children, title, description, canonical }) {
             </Link>
             <Link href="/viz/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               Viz
+            </Link>
+            <Link href="/bracket/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              Bracket
+            </Link>
+            <Link href="/what-if/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              What If?
+            </Link>
+            <Link href="/lists/x-handles/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
+              X/Twitter
             </Link>
             <Link href="/about/" onClick={() => setMobileMenuOpen(false)} className="block text-duke-goldLight hover:text-duke-gold transition-colors py-1">
               About
