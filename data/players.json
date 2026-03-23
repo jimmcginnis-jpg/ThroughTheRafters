@@ -13971,7 +13971,37 @@
         "2020-21",
         "2021-22"
       ],
-      "nba": null,
+      "nba": {
+        "draftYear": 2022,
+        "draftPick": 26,
+        "draftRound": 1,
+        "teams": [
+          {
+            "team": "Minnesota Timberwolves",
+            "seasons": [
+              "2022-23"
+            ]
+          },
+          {
+            "team": "Charlotte Hornets",
+            "seasons": [
+              "2023-24"
+            ]
+          },
+          {
+            "team": "Detroit Pistons",
+            "seasons": [
+              "2024-25",
+              "2025-26"
+            ]
+          }
+        ],
+        "careerYears": "2022-present",
+        "ppg": 2.3,
+        "rpg": 1.4,
+        "apg": 0.7,
+        "games": 95
+      },
       "sources": [],
       "jersey": "0",
       "hometown": "Charlotte, NC",
@@ -14504,7 +14534,30 @@
       "seasons": [
         "2021-22"
       ],
-      "nba": null,
+      "nba": {
+        "draftYear": 2022,
+        "draftPick": 42,
+        "draftRound": 2,
+        "teams": [
+          {
+            "team": "New York Knicks",
+            "seasons": [
+              "2022-23"
+            ]
+          },
+          {
+            "team": "Miami Heat",
+            "seasons": [
+              "2025-26"
+            ]
+          }
+        ],
+        "careerYears": "2022-present",
+        "ppg": 0.4,
+        "rpg": 0.6,
+        "apg": 0.0,
+        "games": 7
+      },
       "sources": [],
       "jersey": "1",
       "hometown": "Clinton, MD",
@@ -16260,17 +16313,23 @@
       "classOf": "",
       "height": "6'6\"",
       "tagline": "",
-      "status": "stub",
+      "status": "done",
       "now": "",
       "drafted": "",
       "stat": "",
-      "bio": {},
+      "bio": {
+        "road": "Five years of college basketball. Four at a school most Duke fans couldn't find on a map. One at the place every basketball player in America dreams about. Sion James took the long road to Cameron Indoor Stadium, and that's what made him exactly the player Jon Scheyer needed.\n\nJames was born on December 4, 2002, and grew up in Sugar Hill, Georgia, a quiet suburb thirty miles northeast of Atlanta. He attended Lanier High School, where he was a two-time Region 8A Player of the Year and led the Longhorns to consecutive regional titles and a trip to the state championship game as a senior in 2020. The recruiting services rated him a three-star prospect — the 59th-best point guard in the class. No blue bloods came calling. James committed to Tulane.\n\nNew Orleans became home for four years, and James became the kind of player who defines a mid-major program. He started 107 of 114 career games for the Green Wave, logging more than 34 minutes per contest — an iron man in a conference that grinds through February. He improved every season: 5.8 points as a freshman, 7.7 as a sophomore, 9.7 as a junior, 14.0 as a senior. His junior year produced a career-high 30 points and seven steals in a victory over Memphis. His senior year featured a 28-point double-double against North Texas in the AAC Tournament and a Tulane record for most blocks in a conference tournament game — six against Wichita State. He finished with 1,084 career points, 520 rebounds, 337 assists, and 187 steals.\n\nOff the court, James was even more impressive. He became the first player in AAC history to win the conference Sportsmanship Award twice, in 2023 and 2024. He was a two-time chair of the AAC Student-Athlete Advisory Committee. He completed nearly 350 hours of community service and won both the Freeman School of Business Dean's Service Award and the Newcomb-Tulane College Student-Athlete Award. The NBA came knocking after his senior season — James entered the 2024 draft — but so did Scheyer. 'I chose Duke because it gives me a chance to impact winning and compete under the brightest lights in college basketball,' James said. He withdrew his name from the draft and headed to Durham.",
+        "duke": "James arrived at Duke in the summer of 2024 as one of three transfers — alongside Syracuse's Maliq Brown and Purdue's Mason Gillis — tasked with providing veteran leadership to a roster that had been almost entirely rebuilt. Only Tyrese Proctor and Caleb Foster returned from the previous year. Cooper Flagg, the #1 recruit in America, headlined a six-man freshman class. James was the oldest player on the team. He was also, at 6-6 and 220 pounds, the most physically imposing guard.\n\nHe started the season coming off the bench, scoring in double figures in his first two games as a Blue Devil. His first start came on December 4 — his 22nd birthday — against #2 Auburn, and he delivered: nine points, five rebounds, three steals, and a key block with one minute remaining. From that point forward, James was in the starting lineup for good. 'It's not a mismatch whoever he's guarding,' Scheyer said after a win over Pittsburgh. 'He's guarding the other team's point guard, picking up full court in the whole game and then he's typically going to be the guy that switches onto a five, and it's not really a mismatch. It's a luxury to have that.'\n\nThe defensive impact was immediate and sustained. James was named to the ACC All-Defensive Team — the kind of honor that doesn't come with highlight reels but wins games in February. He frequently drew the assignment of guarding the opponent's best perimeter player and turned them into non-factors. His offensive game came alive as conference play wore on: a season-high eight assists against SMU, back-to-back 13-point performances against NC State and North Carolina, and 16 points with eight rebounds and three steals at Chapel Hill to cap the regular season.\n\nThe postseason was where James proved he belonged at this level. In the ACC Tournament championship against Louisville — played without Cooper Flagg and Maliq Brown due to injuries — James scored 10 points in a four-minute second-half burst and hit clutch free throws down the stretch of a 73-62 win. In the NCAA Tournament Sweet 16 against Arizona, he connected on a late three-pointer and two free throws in the final minutes to help seal the victory, finishing with a season-high 16 points. Against Alabama in the Elite Eight, Duke held the nation's top offense to 65 points. James was a major reason why.\n\nThe season ended in the Final Four against Houston, 70-67 — a 14-point second-half lead erased in the final eight minutes. James struggled offensively in the loss but grabbed five rebounds in a game where Duke couldn't clean the glass. He finished his Duke career with 39 games, 32 starts, and averages of 8.6 points, 4.2 rebounds, and 2.9 assists on 51.6% shooting and 41.3% from three. One season. But it counted.\n\nThe Duke Chronicle called him 'the perfect piece' for Scheyer to grab from the portal. The Chronicle's season review noted that James was selected for the inaugural Allstate NACDA Good Works Team and the Academic All-America Team — one of just 15 student-athletes in the country to earn that distinction. He was the same person at Duke that he had been at Tulane: reliable, selfless, and impossible to outwork.",
+        "after": "On June 25, 2025, the Charlotte Hornets selected James with the 33rd overall pick in the NBA Draft — the third pick of the second round. He signed a three-year, $7.23 million contract with a team option on the final year. In Charlotte, he was reunited with Kon Knueppel, his Duke teammate, whom the Hornets had taken fourth overall. Two Blue Devils, one locker room, one franchise rebuilding around young talent.",
+        "now": "On a Charlotte Hornets roster headlined by LaMelo Ball and Brandon Miller, the rookie from Sugar Hill has done what he always does: found his way into the rotation and made himself impossible to take out. James has appeared in 68 games — more than any other Hornet this season — averaging 5.4 points, 3.5 rebounds, and 1.9 assists in 23 minutes per game. He has started 14 games, typically stepping in when Knueppel or Coby White is injured, and averaged 7.0 points with 3.7 rebounds in those starts.\n\nHis coach in Charlotte, Charles Lee, put it simply: 'I love the communication that he has. He's very vocal in what he sees during the game, which I think helps his teammates and helps me as well. And then offensively, he stays within himself. He's looking to catch and shoot. He's looking to create and connect everybody on our team.'\n\nThat sentence — 'he stays within himself' — is the thread that runs through everything. A three-star kid from Georgia who was too small for the blue bloods. A four-year starter at Tulane who won sportsmanship awards and logged 350 hours of community service. A grad transfer who walked into a Duke locker room full of future lottery picks and became the starting point guard. And now a second-round pick playing 23 minutes a night for an NBA team with a winning record.\n\nSion James was never the most talented player in any room he walked into. He was always, without exception, the hardest to take off the floor."
+      },
       "seasons": [
         "2024-25"
       ],
       "nba": {
         "draftYear": 2025,
-        "draftPick": 42,
+        "draftPick": 33,
+        "draftRound": 2,
         "teams": [
           {
             "team": "Charlotte Hornets",
@@ -16279,16 +16338,77 @@
             ]
           }
         ],
-        "careerYears": "2025-present"
+        "careerYears": "2025-present",
+        "ppg": 5.4,
+        "rpg": 3.5,
+        "apg": 1.9,
+        "games": 68
       },
-      "sources": [],
+      "sources": [
+        {
+          "title": "Sion James Bio - GoDuke.com",
+          "url": "https://goduke.com/sports/mens-basketball/roster/sion-james/20756"
+        },
+        {
+          "title": "Versatile Guard James Transfers to Duke - GoDuke",
+          "url": "https://goduke.com/news/2024/5/13/mens-basketball-versatile-guard-james-transfers-to-duke"
+        },
+        {
+          "title": "Tulane Four-Star Transfer Sion James Picks Duke - 247Sports",
+          "url": "https://247sports.com/article/duke-lands-four-star-tulane-transfer-sion-james-jon-scheyer-2024-transfer-portal-basketball-recruiting-231514721/"
+        },
+        {
+          "title": "Duke Men's Basketball Player Review: Sion James - Duke Chronicle",
+          "url": "https://www.dukechronicle.com/article/2025/04/duke-mens-basketball-player-review-sion-james-ncaa-march-madness-acc-blue-devils-scheyer-cooper-flagg-kon-kneuppel"
+        },
+        {
+          "title": "Duke Men's Basketball Player Preview: Sion James - Duke Chronicle",
+          "url": "https://www.dukechronicle.com/article/2024/10/duke-mens-basketball-sion-james-player-preview-scheyer-dort-tulane"
+        },
+        {
+          "title": "Late-Season Report Card: Duke Basketball Guard Sion James - SI",
+          "url": "https://www.si.com/college/duke/basketball/late-season-card-duke-basketball-guard-sion-james-2-11-25"
+        },
+        {
+          "title": "Duke's Sion James, Tyrese Proctor Drafted - Duke Chronicle",
+          "url": "https://dukechronicle.com/article/duke-mens-basketball-nba-draft-second-round-tyrese-proctor-sion-james-scheyer-hornets-cavaliers-20250627"
+        },
+        {
+          "title": "Sion James - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sion_James"
+        },
+        {
+          "title": "Sion James NBA Stats - ESPN",
+          "url": "https://www.espn.com/nba/player/_/id/4602025/sion-james"
+        },
+        {
+          "title": "Sion James Stats - Basketball Reference",
+          "url": "https://www.basketball-reference.com/players/j/jamessi01.html"
+        },
+        {
+          "title": "Sion James NBA Stats & News - RotoWire",
+          "url": "https://www.rotowire.com/basketball/player/sion-james-6582"
+        },
+        {
+          "title": "Duke 2024-25 Roster: Sion James Commits - CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/news/duke-2024-25-roster-tulanes-sion-james-commits-to-blue-devils-out-of-transfer-portal/"
+        }
+      ],
       "jersey": "14",
-      "hometown": "Buford, GA",
+      "hometown": "Sugar Hill, GA",
       "highSchool": "Lanier HS",
       "rsci": "",
       "weight": "185",
-      "dob": "2004-06-22",
-      "twitter": "SionJames_"
+      "dob": "2002-12-04",
+      "twitter": "sionjames14",
+      "lastUpdated": "2026-03-22",
+      "charity": {
+        "name": "Boys & Girls Clubs of America",
+        "label": "Boys & Girls Clubs",
+        "description": "James completed nearly 350 hours of community service during his time at Tulane and Duke, with a focus on youth mentorship and education.",
+        "url": "https://www.bgca.org/",
+        "isDefault": true
+      }
     },
     {
       "id": "khaman_maluach",
