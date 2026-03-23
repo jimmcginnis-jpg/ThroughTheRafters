@@ -168,9 +168,9 @@ const listConfigs = {
     meta: 'Duke Brotherhood players who went undrafted — coaches, broadcasters, executives, and more.',
   },
   'draft-history': {
-    title: 'Duke NBA Draft History: Every Blue Devil Drafted (1981–2025)',
-    subtitle: `${getDraftHistory().length} Duke players have been selected in the NBA Draft across four decades — more than nearly any program in college basketball.`,
-    meta: `Complete list of every Duke basketball player drafted into the NBA from 1981 to 2025 — ${getDraftHistory().length} picks including ${getNo1Picks().length} #1 overall selections. Draft year, pick number, team, and career stats for every Blue Devil.`,
+    title: 'Brotherhood NBA Draft History (1986–2025)',
+    subtitle: `Every drafted player among the ${profiledCount} Brotherhood profiles, year by year.`,
+    meta: `NBA draft history for the ${profiledCount} Duke Brotherhood players profiled, from 1986 to 2025.`,
   },
   'by-the-numbers': {
     title: 'The Brotherhood: By the Numbers',
@@ -186,6 +186,11 @@ const listConfigs = {
     title: 'Brotherhood Birthdays',
     subtitle: `${players.filter(p => p.dob).length} birthdays tracked across the Brotherhood — wish them a happy birthday and share their story.`,
     meta: `Birthday calendar for Duke's Brotherhood players. Find out which Blue Devil shares your birthday and explore their story.`,
+  },
+  'all-americans': {
+    title: 'Duke Consensus All-Americans: Every Selection Since 1985',
+    subtitle: '23 players, 30 selections — more consensus first-team All-Americans since 2000 than any program in college basketball.',
+    meta: 'Complete list of Duke basketball consensus All-Americans under Coach K and Jon Scheyer — 23 players, 30 selections, 22 first-team honors. From Johnny Dawkins (1985) to Cameron Boozer (2026).',
   },
 };
 
@@ -373,137 +378,16 @@ function RenderUndrafted() {
 
 function RenderDraftHistory() {
   const data = getDraftHistory();
-  const no1s = getNo1Picks();
-  const lottery = getLotteryPicks();
-  const decades = {};
-  data.forEach(p => {
-    const dec = Math.floor(p.nba.draftYear / 10) * 10;
-    if (!decades[dec]) decades[dec] = [];
-    decades[dec].push(p);
-  });
-  const decadeKeys = Object.keys(decades).sort();
-  const firstRound = data.filter(p => p.nba.draftPick <= 30);
-  const topFive = data.filter(p => p.nba.draftPick <= 5);
-  const bestDraftYear = (() => {
-    const byYear = {};
-    data.forEach(p => {
-      if (!byYear[p.nba.draftYear]) byYear[p.nba.draftYear] = [];
-      byYear[p.nba.draftYear].push(p);
-    });
-    return Object.entries(byYear).sort((a,b) => b[1].length - a[1].length)[0];
-  })();
-
   return (
     <>
-      {/* Intro prose — SEO-targeted */}
-      <div className="prose prose-lg max-w-none mb-10 text-gray-700">
-        <p>
-          Since Gene Banks was selected 28th overall by the San Antonio Spurs in 1981, <strong>{data.length} Duke
-          basketball players have been drafted into the NBA</strong> — a total that ranks among the highest of any
-          college program in history. The list includes <strong>{no1s.length} players chosen first overall</strong> ({no1s.map(p => `${p.name} (${p.nba.draftYear})`).join(', ')}),{' '}
-          {lottery.length} lottery selections, and {topFive.length} top-five picks across four decades.
-        </p>
-        <p>
-          Duke&apos;s draft production has been remarkably consistent. The program has had at least one player
-          drafted in {decadeKeys.length > 0 ? `${decadeKeys.length} different decades` : 'multiple decades'},{' '}
-          with the richest single draft class coming in {bestDraftYear ? `${bestDraftYear[0]} (${bestDraftYear[1].length} players selected)` : 'recent years'}.
-          Under Coach K (1980–2022) and Jon Scheyer (2022–present), Duke has produced NBA draft picks in all but
-          a handful of years — a pipeline unmatched in consistency by any program outside of Kentucky.
-        </p>
-      </div>
-
-      {/* Stat cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
-          <div className="text-3xl font-bold text-[#C5A258]">{data.length}</div>
-          <div className="text-xs mt-1 opacity-70">Total Players Drafted</div>
-        </div>
-        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
-          <div className="text-3xl font-bold text-[#C5A258]">{no1s.length}</div>
-          <div className="text-xs mt-1 opacity-70">#1 Overall Picks</div>
-        </div>
-        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
-          <div className="text-3xl font-bold text-[#C5A258]">{lottery.length}</div>
-          <div className="text-xs mt-1 opacity-70">Lottery Picks (Top 14)</div>
-        </div>
-        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
-          <div className="text-3xl font-bold text-[#C5A258]">{firstRound.length}</div>
-          <div className="text-xs mt-1 opacity-70">First-Round Picks</div>
-        </div>
-      </div>
-
-      {/* Main table */}
-      <h2 className="text-2xl font-bold text-[#001A57] mb-4">Complete Duke NBA Draft List (1981–2025)</h2>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players have been drafted across four decades.</p>
       <ListTable
-        headers={['Year', 'Player', 'Pick', 'Team', 'Career Games', 'Career PPG']}
+        headers={['Year', 'Player', 'Pick', 'Team', 'Games', 'PPG']}
         rows={data.map(p => [
           p.nba.draftYear, pLink(p),
-          `#${p.nba.draftPick}`, p.nba.draftTeam || '—',
+          `#${p.nba.draftPick}`, p.nba.draftTeam,
           p.nba.games || '—', p.nba.ppg || '—',
         ])}
-      />
-
-      {/* Post-table SEO prose sections */}
-      <div className="prose prose-lg max-w-none mt-12 text-gray-700">
-        <h2 className="text-2xl font-bold text-[#001A57]">Duke&apos;s #1 Overall NBA Draft Picks</h2>
-        <p>
-          No program in college basketball has produced more #1 overall picks than Duke.
-          The {no1s.length} Blue Devils selected first overall are:{' '}
-          {no1s.map((p, i) => (
-            <span key={p.id}>
-              {i > 0 && (i === no1s.length - 1 ? ', and ' : ', ')}
-              {p.status === 'done' ? (
-                <Link href={`/players/${p.slug}`} className="text-[#001A57] hover:text-[#C5A258] font-medium">{p.name}</Link>
-              ) : p.name}
-              {` (${p.nba.draftYear})`}
-            </span>
-          ))}.{' '}
-          Together they have played {no1s.reduce((sum, p) => sum + (p.nba.games || 0), 0).toLocaleString()} NBA
-          games and averaged {(no1s.reduce((sum, p) => sum + (p.nba.ppg || 0), 0) / no1s.length).toFixed(1)} points
-          per game across their careers.
-        </p>
-
-        <h2 className="text-2xl font-bold text-[#001A57] mt-10">Draft Picks by Decade</h2>
-        {decadeKeys.map(dec => (
-          <p key={dec}>
-            <strong>{dec}s:</strong> Duke had {decades[dec].length} players drafted in the {dec}s,{' '}
-            including {decades[dec].filter(p => p.nba.draftPick <= 14).length} lottery selections.
-            Notable picks: {decades[dec].slice(0, 4).map(p => `${p.name} (#${p.nba.draftPick}, ${p.nba.draftYear})`).join(', ')}.
-          </p>
-        ))}
-
-        <h2 className="text-2xl font-bold text-[#001A57] mt-10">Duke&apos;s NBA Draft Legacy</h2>
-        <p>
-          Duke&apos;s draft history reflects the program&apos;s evolution from a regional power into a global
-          basketball brand. The Foundation era (1981–85) produced just a handful of picks, but by the late 1980s
-          and early 1990s — the First Dynasty under Coach K — Duke was sending multiple players to the league
-          every year. The 1999 draft saw four Blue Devils selected, including #1 pick Elton Brand and lottery
-          selections William Avery and Corey Maggette. The 2018 class produced four more, headlined by #2 pick
-          Marvin Bagley III.
-        </p>
-        <p>
-          In the Jon Scheyer era (2022–present), the pipeline has accelerated further. The 2025 draft included
-          five Duke players — Cooper Flagg (#1), Kon Knueppel (#4), Khaman Maluach (#10), Sion James (#33),
-          and Tyrese Proctor (#49) — making it one of the most prolific single-school draft classes in NCAA
-          history. For complete career narratives and &ldquo;Where Are They Now?&rdquo; profiles on every
-          drafted Blue Devil, explore the{' '}
-          <Link href="/lists/all-players/" className="text-[#C5A258] hover:text-[#001A57]">full player directory</Link>.
-        </p>
-      </div>
-
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: `Duke NBA Draft History: ${data.length} Blue Devils Drafted (1981–2025)`,
-            description: `Complete list of every Duke basketball player drafted into the NBA, including ${no1s.length} #1 overall picks and ${lottery.length} lottery selections.`,
-            url: 'https://www.dukebrotherhood.com/lists/draft-history/',
-            publisher: { '@type': 'Organization', name: "Duke's Brotherhood", url: 'https://www.dukebrotherhood.com/' },
-          }),
-        }}
       />
     </>
   );
@@ -519,10 +403,14 @@ function RenderByTheNumbers() {
   const scorers = getTopScorers();
   const drafted = getDraftHistory();
 
+  const aaCount = players.filter(p => p.allAmerican && p.allAmerican.length > 0).length;
+  const aaFirstTeam = players.reduce((sum, p) => sum + (p.allAmerican || []).filter(s => s.team === 1).length, 0);
+
   const stats = [
     ['Total Brotherhood Players', `${players.length}`],
     ['Players Profiled', `${profiledCount}`],
     ['Eras Covered', '8 (1981–present)'],
+    ['Consensus All-Americans', `${aaCount} players (${aaFirstTeam} 1st-team selections)`],
     ['NBA Draft Picks', `${drafted.length}`],
     ['Lottery Picks (Top 14)', `${lottery.length}`],
     ['#1 Overall Picks', `${players.filter(p => p.status === 'done' && p.nba && p.nba.draftPick === 1).length}`],
@@ -838,6 +726,209 @@ function RenderBirthdays() {
   );
 }
 
+// ── All-Americans render ──
+function RenderAllAmericans() {
+  const aaPlayers = players.filter(p => p.allAmerican && p.allAmerican.length > 0);
+  const allSelections = [];
+  aaPlayers.forEach(p => {
+    p.allAmerican.forEach(sel => {
+      allSelections.push({ player: p, year: sel.year, team: sel.team });
+    });
+  });
+  allSelections.sort((a, b) => a.year - b.year || a.team - b.team);
+
+  const firstTeam = allSelections.filter(s => s.team === 1);
+  const secondTeam = allSelections.filter(s => s.team === 2);
+  const since2000First = firstTeam.filter(s => s.year >= 2000);
+
+  // Same-year first-team duos
+  const yearCounts = {};
+  firstTeam.forEach(s => {
+    if (!yearCounts[s.year]) yearCounts[s.year] = [];
+    yearCounts[s.year].push(s.player.name);
+  });
+  const duos = Object.entries(yearCounts).filter(([_, names]) => names.length > 1);
+
+  // Multi-year first-teamers
+  const playerFirstYears = {};
+  firstTeam.forEach(s => {
+    if (!playerFirstYears[s.player.id]) playerFirstYears[s.player.id] = { name: s.player.name, player: s.player, years: [] };
+    playerFirstYears[s.player.id].years.push(s.year);
+  });
+  const multiYear = Object.values(playerFirstYears).filter(p => p.years.length > 1);
+
+  // Decade breakdown
+  const decades = {};
+  allSelections.forEach(s => {
+    const dec = Math.floor(s.year / 10) * 10;
+    if (!decades[dec]) decades[dec] = { first: 0, second: 0, players: new Set() };
+    if (s.team === 1) decades[dec].first++;
+    else decades[dec].second++;
+    decades[dec].players.add(s.player.name);
+  });
+
+  const decadeLabels = { 1980: '1980s', 1990: '1990s', 2000: '2000s', 2010: '2010s', 2020: '2020s' };
+
+  return (
+    <>
+      {/* Schema.org structured data */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Duke Consensus All-Americans: Every Selection Since 1985",
+        "description": `Complete list of ${aaPlayers.length} Duke consensus All-Americans — ${firstTeam.length} first-team and ${secondTeam.length} second-team selections under Coach K and Jon Scheyer.`,
+        "publisher": { "@type": "Organization", "name": "Duke's Brotherhood" },
+        "mainEntityOfPage": "https://dukebrotherhood.com/lists/all-americans/"
+      })}} />
+
+      {/* SEO prose intro */}
+      <div className="prose prose-lg max-w-none mb-10 text-gray-700 leading-relaxed">
+        <p>
+          How many Duke players have been named consensus All-Americans? Under Mike Krzyzewski and Jon Scheyer,{' '}
+          <strong>{aaPlayers.length} Blue Devils have earned {allSelections.length} total consensus All-America selections</strong> —{' '}
+          {firstTeam.length} first-team and {secondTeam.length} second-team honors. That includes{' '}
+          {since2000First.length} consensus first-team selections since 2000,{' '}
+          <strong>six more than any other program in college basketball</strong>.
+        </p>
+        <p>
+          The list begins with Johnny Dawkins, a two-time first-team pick in 1985 and 1986 who helped Coach K build Duke from
+          an 11–17 team into a Final Four contender. It continues through dynasties — Laettner, Hurley, Hill — the early
+          2000s dominance of Battier, Williams, and Redick, and the one-and-done era when freshmen like Jabari Parker, Jahlil Okafor,
+          Marvin Bagley, and Zion Williamson arrived, dominated, and departed. In the Scheyer era, Cooper Flagg (2025) and
+          Cameron Boozer (2026) became the first teammates in college basketball history to earn unanimous first-team AP
+          All-America honors in consecutive seasons as freshmen at the same school.
+        </p>
+      </div>
+
+      {/* Stat cards */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">
+        {[
+          [aaPlayers.length, 'All-Americans'],
+          [firstTeam.length, '1st-Team Selections'],
+          [since2000First.length, '1st Team Since 2000'],
+          [duos.length, 'Same-Year 1st-Team Duos'],
+        ].map(([num, label], i) => (
+          <div key={i} className="bg-[#001A57] rounded-lg text-center py-4 px-2">
+            <div className="text-2xl md:text-3xl font-bold text-[#C5A258]">{num}</div>
+            <div className="text-xs text-white/70 mt-1">{label}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Complete list heading */}
+      <h2 className="text-2xl font-bold text-[#001A57] mb-4">Complete Duke All-America Selections (1985–2026)</h2>
+      <p className="text-gray-600 mb-4">
+        Consensus All-Americans are determined by the NCAA using selections from the Associated Press, NABC, USBWA, and Sporting News.
+        A player must appear on a majority of those first teams to earn consensus first-team status.
+      </p>
+
+      <ListTable
+        headers={['Year', 'Player', 'Team', 'Class', 'At Duke', 'NBA Draft']}
+        rows={allSelections.map(s => {
+          const p = s.player;
+          const teamLabel = s.team === 1 ? '★ 1st Team' : '2nd Team';
+          const drafted = p.nba && p.nba.draftPick ? `#${p.nba.draftPick} (${p.nba.draftYear})` : '—';
+          return [
+            s.year,
+            pLink(p),
+            teamLabel,
+            p.years || '—',
+            p.pos || '—',
+            drafted,
+          ];
+        })}
+      />
+
+      {/* Same-year duos */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Same-Year First-Team Duos</h2>
+      <p className="text-gray-600 mb-4">
+        Only three times in the Coach K and Scheyer era has Duke placed two players on the consensus first team in the same season.
+        No other program has accomplished this more than once since 2000.
+      </p>
+      <div className="space-y-3 mb-10">
+        {duos.map(([year, names]) => (
+          <div key={year} className="flex items-center gap-4 p-4 rounded-lg bg-gray-50 border border-gray-200">
+            <div className="text-2xl font-bold text-[#001A57] w-16">{year}</div>
+            <div className="text-gray-800 font-medium">{names.join(' & ')}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Multi-year first-teamers */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Multiple First-Team Selections</h2>
+      <p className="text-gray-600 mb-4">
+        {multiYear.length} Duke players have earned consensus first-team honors more than once — a testament to sustained dominance
+        rather than a single breakout season.
+      </p>
+      <div className="space-y-3 mb-10">
+        {multiYear.map(p => (
+          <div key={p.name} className="flex items-center justify-between p-4 rounded-lg bg-gray-50 border border-gray-200">
+            <div className="font-medium text-[#001A57]">
+              {p.player.status === 'done' ? (
+                <Link href={`/players/${p.player.slug}`} className="hover:text-[#C5A258]">{p.name}</Link>
+              ) : p.name}
+            </div>
+            <div className="font-mono text-sm text-gray-500">{p.years.join(', ')}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Decade breakdown */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">All-Americans by Decade</h2>
+      <div className="space-y-4 mb-10">
+        {Object.entries(decades).sort(([a], [b]) => Number(a) - Number(b)).map(([dec, data]) => (
+          <div key={dec} className="p-4 rounded-lg bg-gray-50 border border-gray-200">
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="font-bold text-[#001A57]">{decadeLabels[dec] || `${dec}s`}</h3>
+              <div className="flex gap-3 text-sm">
+                <span className="text-[#C5A258] font-semibold">{data.first} 1st-team</span>
+                {data.second > 0 && <span className="text-gray-500">{data.second} 2nd-team</span>}
+              </div>
+            </div>
+            <p className="text-sm text-gray-600">{Array.from(data.players).join(', ')}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* The Freshman Takeover */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">The Freshman Takeover</h2>
+      <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed mb-10">
+        <p>
+          Duke&apos;s last seven consecutive consensus first-team All-Americans have all been freshmen: Jabari Parker (2014),
+          Jahlil Okafor (2015), Marvin Bagley III (2018), Zion Williamson (2019), RJ Barrett (2019), Cooper Flagg (2025),
+          and Cameron Boozer (2026). Of those seven, four were unanimous selections (Okafor, Williamson, Flagg, Boozer)
+          and five were #1 NBA Draft picks or projected to be. No other program in basketball history has produced
+          this kind of sustained freshman excellence at the All-America level.
+        </p>
+      </div>
+
+      {/* Duke&apos;s All-America Legacy */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Duke&apos;s All-America Legacy</h2>
+      <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed mb-6">
+        <p>
+          Duke&apos;s {allSelections.length} consensus All-America selections since 1985 place the Blue Devils among the most
+          decorated programs in NCAA history. The school&apos;s total of {firstTeam.length} first-team picks in the Coach K and Scheyer
+          era trails only the all-time totals of Kansas (28), Kentucky (26), and North Carolina (26) — programs whose records
+          extend back to the 1920s. Duke has achieved this concentration of talent in just four decades.
+        </p>
+        <p>
+          Perhaps the most remarkable stat: of Duke&apos;s {aaPlayers.length} consensus All-Americans, every single one
+          was selected in the NBA Draft. {aaPlayers.filter(p => p.nba && p.nba.draftPick && p.nba.draftPick <= 14).length} were
+          lottery picks. The Duke All-America pipeline doesn&apos;t just produce college stars — it produces professional ones.
+        </p>
+      </div>
+
+      {/* Internal links */}
+      <div className="mt-10 pt-6 border-t border-gray-200 flex flex-wrap gap-4 text-sm">
+        <Link href="/lists/lottery-picks" className="text-[#001A57] hover:text-[#C5A258] font-medium">Lottery Picks →</Link>
+        <Link href="/lists/draft-history" className="text-[#001A57] hover:text-[#C5A258] font-medium">Draft History →</Link>
+        <Link href="/lists/number-one-picks" className="text-[#001A57] hover:text-[#C5A258] font-medium">#1 Overall Picks →</Link>
+        <Link href="/players" className="text-[#001A57] hover:text-[#C5A258] font-medium">All Players →</Link>
+      </div>
+    </>
+  );
+}
+
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -853,6 +944,7 @@ const renderers = {
   'by-the-numbers': RenderByTheNumbers,
   'charities': RenderCharities,
   'birthdays': RenderBirthdays,
+  'all-americans': RenderAllAmericans,
 };
 
 // ── Page component ──
