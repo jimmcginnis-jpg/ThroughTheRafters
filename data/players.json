@@ -498,7 +498,17 @@
         "isDefault": true
       },
       "dob": "1963-09-28",
-      "twitter": "Coach_Dawkins"
+      "twitter": "Coach_Dawkins",
+      "allAmerican": [
+        {
+          "year": 1985,
+          "team": 1
+        },
+        {
+          "year": 1986,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "alarie",
@@ -2032,7 +2042,17 @@
         "isDefault": true
       },
       "dob": "1966-10-17",
-      "twitter": ""
+      "twitter": "",
+      "allAmerican": [
+        {
+          "year": 1988,
+          "team": 2
+        },
+        {
+          "year": 1989,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "snyder",
@@ -2635,7 +2655,17 @@
         "isDefault": true
       },
       "dob": "1969-08-18",
-      "twitter": "CLaettner"
+      "twitter": "CLaettner",
+      "allAmerican": [
+        {
+          "year": 1991,
+          "team": 2
+        },
+        {
+          "year": 1992,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "davis_b",
@@ -2844,7 +2874,13 @@
         "isDefault": true
       },
       "dob": "1971-06-28",
-      "twitter": "BobbyHurley11"
+      "twitter": "BobbyHurley11",
+      "allAmerican": [
+        {
+          "year": 1993,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "hill_t",
@@ -3201,7 +3237,17 @@
         "isDefault": true
       },
       "dob": "1972-10-05",
-      "twitter": "RealGrantHill33"
+      "twitter": "RealGrantHill33",
+      "allAmerican": [
+        {
+          "year": 1993,
+          "team": 2
+        },
+        {
+          "year": 1994,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "lang",
@@ -4619,7 +4665,13 @@
         "isDefault": true
       },
       "dob": "1976-05-13",
-      "twitter": ""
+      "twitter": "",
+      "allAmerican": [
+        {
+          "year": 1999,
+          "team": 2
+        }
+      ]
     },
     {
       "id": "price",
@@ -4802,7 +4854,13 @@
         "isDefault": true
       },
       "dob": "1977-11-17",
-      "twitter": "CCarrawell"
+      "twitter": "CCarrawell",
+      "allAmerican": [
+        {
+          "year": 2000,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "mcleod",
@@ -5507,7 +5565,17 @@
         "isDefault": true
       },
       "dob": "1978-09-09",
-      "twitter": "ShaneBattier"
+      "twitter": "ShaneBattier",
+      "allAmerican": [
+        {
+          "year": 2000,
+          "team": 2
+        },
+        {
+          "year": 2001,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "brand",
@@ -5645,7 +5713,13 @@
         "isDefault": true
       },
       "dob": "1979-03-11",
-      "twitter": "EltonBrand"
+      "twitter": "EltonBrand",
+      "allAmerican": [
+        {
+          "year": 1999,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "avery",
@@ -6001,7 +6075,17 @@
       "weight": "195",
       "lastUpdated": "2026-02-20",
       "dob": "1981-09-10",
-      "twitter": "RealJayWilliams"
+      "twitter": "RealJayWilliams",
+      "allAmerican": [
+        {
+          "year": 2001,
+          "team": 1
+        },
+        {
+          "year": 2002,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "boozer",
@@ -6265,7 +6349,13 @@
         "isDefault": true
       },
       "dob": "1980-09-15",
-      "twitter": ""
+      "twitter": "",
+      "allAmerican": [
+        {
+          "year": 2002,
+          "team": 2
+        }
+      ]
     },
     {
       "id": "duhon",
@@ -7508,7 +7598,17 @@
         "isDefault": true
       },
       "dob": "1984-06-24",
-      "twitter": "jj_redick"
+      "twitter": "jj_redick",
+      "allAmerican": [
+        {
+          "year": 2005,
+          "team": 1
+        },
+        {
+          "year": 2006,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "swilliams",
@@ -7628,7 +7728,13 @@
         "isDefault": true
       },
       "dob": "1983-09-05",
-      "twitter": "SheldenWilliam5"
+      "twitter": "SheldenWilliam5",
+      "allAmerican": [
+        {
+          "year": 2006,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "nelson",
@@ -8236,7 +8342,13 @@
         "isDefault": true
       },
       "dob": "1988-05-08",
-      "twitter": "jonscheyer"
+      "twitter": "jonscheyer",
+      "allAmerican": [
+        {
+          "year": 2010,
+          "team": 2
+        }
+      ]
     },
     {
       "id": "nsmith",
@@ -8364,7 +8476,13 @@
         "isDefault": true
       },
       "dob": "1988-04-28",
-      "twitter": "NolanSmith2"
+      "twitter": "NolanSmith2",
+      "allAmerican": [
+        {
+          "year": 2011,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "kirving",
@@ -9575,7 +9693,13 @@
         "isDefault": true
       },
       "dob": "1990-03-05",
-      "twitter": "MasonPlumlee"
+      "twitter": "MasonPlumlee",
+      "allAmerican": [
+        {
+          "year": 2013,
+          "team": 2
+        }
+      ]
     },
     {
       "id": "scurry",
@@ -10157,7 +10281,13 @@
         "isDefault": true
       },
       "dob": "1995-03-15",
-      "twitter": "JabariParker"
+      "twitter": "JabariParker",
+      "allAmerican": [
+        {
+          "year": 2014,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "hood",
@@ -10539,7 +10669,13 @@
         "isDefault": true
       },
       "dob": "1995-12-15",
-      "twitter": "JahOkafor"
+      "twitter": "JahOkafor",
+      "allAmerican": [
+        {
+          "year": 2015,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "tjones",
@@ -11998,7 +12134,13 @@
         "isDefault": true
       },
       "dob": "1999-03-14",
-      "twitter": "MB3Five"
+      "twitter": "MB3Five",
+      "allAmerican": [
+        {
+          "year": 2018,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "wcarter",
@@ -12223,7 +12365,13 @@
         "isDefault": true
       },
       "dob": "2000-07-06",
-      "twitter": "Zion"
+      "twitter": "Zion",
+      "allAmerican": [
+        {
+          "year": 2019,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "barrett",
@@ -12330,7 +12478,13 @@
         "isDefault": true
       },
       "dob": "2000-06-14",
-      "twitter": "RjBarrett6"
+      "twitter": "RjBarrett6",
+      "allAmerican": [
+        {
+          "year": 2019,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "trejones",
@@ -15195,7 +15349,13 @@
       "weight": "205",
       "lastUpdated": "2026-03-05",
       "dob": "2006-12-21",
-      "twitter": "cooperflagg"
+      "twitter": "cooperflagg",
+      "allAmerican": [
+        {
+          "year": 2025,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "knueppel",
@@ -15454,7 +15614,13 @@
       "weight": "250",
       "lastUpdated": "2026-03-22",
       "dob": "2007-07-18",
-      "twitter": "cameronboozer_"
+      "twitter": "cameronboozer_",
+      "allAmerican": [
+        {
+          "year": 2026,
+          "team": 1
+        }
+      ]
     },
     {
       "id": "boozer_c",
