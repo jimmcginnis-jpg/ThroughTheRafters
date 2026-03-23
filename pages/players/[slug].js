@@ -51,8 +51,14 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     .sort((a, b) => b.name.length - a.name.length);
 
   // Convert paragraph text into React elements with auto-linked player names AND charity links
-  const linkifyParagraph = (text, paragraphIndex) => {
+  // tabKey controls whether season links are active (only on 'road' and 'duke')
+  const linkifyParagraph = (text, paragraphIndex, tabKey) => {
     if (!allLinkable.length) return text;
+
+    // Filter out season links on 'after' and 'now' tabs (those reference NBA seasons, not Duke)
+    const linkable = (tabKey === 'after' || tabKey === 'now')
+      ? allLinkable.filter(item => item.type !== 'season')
+      : allLinkable;
 
     const parts = [];
     let remaining = text;
@@ -62,7 +68,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
       let earliestMatch = null;
       let earliestIndex = remaining.length;
 
-      for (const item of allLinkable) {
+      for (const item of linkable) {
         const idx = remaining.indexOf(item.name);
         if (idx !== -1 && idx < earliestIndex) {
           earliestIndex = idx;
@@ -120,10 +126,10 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
   };
 
   // Convert \n to paragraphs with auto-linked player names
-  const renderBio = (text) => {
+  const renderBio = (text, tabKey) => {
     if (!text) return <p className="text-gray-500 italic">Profile coming soon.</p>;
     return text.split('\n').filter(p => p.trim()).map((paragraph, i) => (
-      <p key={i}>{linkifyParagraph(paragraph, i)}</p>
+      <p key={i}>{linkifyParagraph(paragraph, i, tabKey)}</p>
     ));
   };
 
@@ -207,7 +213,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
 
             {/* Tab Content */}
             <article className="bio-content font-body text-duke-slate leading-relaxed">
-              {renderBio(player.bio[activeTab])}
+              {renderBio(player.bio[activeTab], activeTab)}
             </article>
 
             {/* Continue to next section */}
