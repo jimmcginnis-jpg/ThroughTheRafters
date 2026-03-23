@@ -168,9 +168,9 @@ const listConfigs = {
     meta: 'Duke Brotherhood players who went undrafted — coaches, broadcasters, executives, and more.',
   },
   'draft-history': {
-    title: 'Brotherhood NBA Draft History (1986–2025)',
-    subtitle: `Every drafted player among the ${profiledCount} Brotherhood profiles, year by year.`,
-    meta: `NBA draft history for the ${profiledCount} Duke Brotherhood players profiled, from 1986 to 2025.`,
+    title: 'Duke NBA Draft History: Every Blue Devil Drafted (1981–2025)',
+    subtitle: `${getDraftHistory().length} Duke players have been selected in the NBA Draft across four decades — more than nearly any program in college basketball.`,
+    meta: `Complete list of every Duke basketball player drafted into the NBA from 1981 to 2025 — ${getDraftHistory().length} picks including ${getNo1Picks().length} #1 overall selections. Draft year, pick number, team, and career stats for every Blue Devil.`,
   },
   'by-the-numbers': {
     title: 'The Brotherhood: By the Numbers',
@@ -186,11 +186,6 @@ const listConfigs = {
     title: 'Brotherhood Birthdays',
     subtitle: `${players.filter(p => p.dob).length} birthdays tracked across the Brotherhood — wish them a happy birthday and share their story.`,
     meta: `Birthday calendar for Duke's Brotherhood players. Find out which Blue Devil shares your birthday and explore their story.`,
-  },
-  'x-handles': {
-    title: 'Follow the Brotherhood on X',
-    subtitle: `${players.filter(p => p.twitter).length} Brotherhood players and coaches on X/Twitter — follow and connect.`,
-    meta: `X/Twitter handles for Duke Brotherhood players and coaches. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
   },
 };
 
@@ -378,16 +373,137 @@ function RenderUndrafted() {
 
 function RenderDraftHistory() {
   const data = getDraftHistory();
+  const no1s = getNo1Picks();
+  const lottery = getLotteryPicks();
+  const decades = {};
+  data.forEach(p => {
+    const dec = Math.floor(p.nba.draftYear / 10) * 10;
+    if (!decades[dec]) decades[dec] = [];
+    decades[dec].push(p);
+  });
+  const decadeKeys = Object.keys(decades).sort();
+  const firstRound = data.filter(p => p.nba.draftPick <= 30);
+  const topFive = data.filter(p => p.nba.draftPick <= 5);
+  const bestDraftYear = (() => {
+    const byYear = {};
+    data.forEach(p => {
+      if (!byYear[p.nba.draftYear]) byYear[p.nba.draftYear] = [];
+      byYear[p.nba.draftYear].push(p);
+    });
+    return Object.entries(byYear).sort((a,b) => b[1].length - a[1].length)[0];
+  })();
+
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players have been drafted across four decades.</p>
+      {/* Intro prose — SEO-targeted */}
+      <div className="prose prose-lg max-w-none mb-10 text-gray-700">
+        <p>
+          Since Gene Banks was selected 28th overall by the San Antonio Spurs in 1981, <strong>{data.length} Duke
+          basketball players have been drafted into the NBA</strong> — a total that ranks among the highest of any
+          college program in history. The list includes <strong>{no1s.length} players chosen first overall</strong> ({no1s.map(p => `${p.name} (${p.nba.draftYear})`).join(', ')}),{' '}
+          {lottery.length} lottery selections, and {topFive.length} top-five picks across four decades.
+        </p>
+        <p>
+          Duke&apos;s draft production has been remarkably consistent. The program has had at least one player
+          drafted in {decadeKeys.length > 0 ? `${decadeKeys.length} different decades` : 'multiple decades'},{' '}
+          with the richest single draft class coming in {bestDraftYear ? `${bestDraftYear[0]} (${bestDraftYear[1].length} players selected)` : 'recent years'}.
+          Under Coach K (1980–2022) and Jon Scheyer (2022–present), Duke has produced NBA draft picks in all but
+          a handful of years — a pipeline unmatched in consistency by any program outside of Kentucky.
+        </p>
+      </div>
+
+      {/* Stat cards */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
+          <div className="text-3xl font-bold text-[#C5A258]">{data.length}</div>
+          <div className="text-xs mt-1 opacity-70">Total Players Drafted</div>
+        </div>
+        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
+          <div className="text-3xl font-bold text-[#C5A258]">{no1s.length}</div>
+          <div className="text-xs mt-1 opacity-70">#1 Overall Picks</div>
+        </div>
+        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
+          <div className="text-3xl font-bold text-[#C5A258]">{lottery.length}</div>
+          <div className="text-xs mt-1 opacity-70">Lottery Picks (Top 14)</div>
+        </div>
+        <div className="bg-[#001A57] text-white rounded-lg text-center py-4">
+          <div className="text-3xl font-bold text-[#C5A258]">{firstRound.length}</div>
+          <div className="text-xs mt-1 opacity-70">First-Round Picks</div>
+        </div>
+      </div>
+
+      {/* Main table */}
+      <h2 className="text-2xl font-bold text-[#001A57] mb-4">Complete Duke NBA Draft List (1981–2025)</h2>
       <ListTable
-        headers={['Year', 'Player', 'Pick', 'Team', 'Games', 'PPG']}
+        headers={['Year', 'Player', 'Pick', 'Team', 'Career Games', 'Career PPG']}
         rows={data.map(p => [
           p.nba.draftYear, pLink(p),
-          `#${p.nba.draftPick}`, p.nba.draftTeam,
+          `#${p.nba.draftPick}`, p.nba.draftTeam || '—',
           p.nba.games || '—', p.nba.ppg || '—',
         ])}
+      />
+
+      {/* Post-table SEO prose sections */}
+      <div className="prose prose-lg max-w-none mt-12 text-gray-700">
+        <h2 className="text-2xl font-bold text-[#001A57]">Duke&apos;s #1 Overall NBA Draft Picks</h2>
+        <p>
+          No program in college basketball has produced more #1 overall picks than Duke.
+          The {no1s.length} Blue Devils selected first overall are:{' '}
+          {no1s.map((p, i) => (
+            <span key={p.id}>
+              {i > 0 && (i === no1s.length - 1 ? ', and ' : ', ')}
+              {p.status === 'done' ? (
+                <Link href={`/players/${p.slug}`} className="text-[#001A57] hover:text-[#C5A258] font-medium">{p.name}</Link>
+              ) : p.name}
+              {` (${p.nba.draftYear})`}
+            </span>
+          ))}.{' '}
+          Together they have played {no1s.reduce((sum, p) => sum + (p.nba.games || 0), 0).toLocaleString()} NBA
+          games and averaged {(no1s.reduce((sum, p) => sum + (p.nba.ppg || 0), 0) / no1s.length).toFixed(1)} points
+          per game across their careers.
+        </p>
+
+        <h2 className="text-2xl font-bold text-[#001A57] mt-10">Draft Picks by Decade</h2>
+        {decadeKeys.map(dec => (
+          <p key={dec}>
+            <strong>{dec}s:</strong> Duke had {decades[dec].length} players drafted in the {dec}s,{' '}
+            including {decades[dec].filter(p => p.nba.draftPick <= 14).length} lottery selections.
+            Notable picks: {decades[dec].slice(0, 4).map(p => `${p.name} (#${p.nba.draftPick}, ${p.nba.draftYear})`).join(', ')}.
+          </p>
+        ))}
+
+        <h2 className="text-2xl font-bold text-[#001A57] mt-10">Duke&apos;s NBA Draft Legacy</h2>
+        <p>
+          Duke&apos;s draft history reflects the program&apos;s evolution from a regional power into a global
+          basketball brand. The Foundation era (1981–85) produced just a handful of picks, but by the late 1980s
+          and early 1990s — the First Dynasty under Coach K — Duke was sending multiple players to the league
+          every year. The 1999 draft saw four Blue Devils selected, including #1 pick Elton Brand and lottery
+          selections William Avery and Corey Maggette. The 2018 class produced four more, headlined by #2 pick
+          Marvin Bagley III.
+        </p>
+        <p>
+          In the Jon Scheyer era (2022–present), the pipeline has accelerated further. The 2025 draft included
+          five Duke players — Cooper Flagg (#1), Kon Knueppel (#4), Khaman Maluach (#10), Sion James (#33),
+          and Tyrese Proctor (#49) — making it one of the most prolific single-school draft classes in NCAA
+          history. For complete career narratives and &ldquo;Where Are They Now?&rdquo; profiles on every
+          drafted Blue Devil, explore the{' '}
+          <Link href="/lists/all-players/" className="text-[#C5A258] hover:text-[#001A57]">full player directory</Link>.
+        </p>
+      </div>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: `Duke NBA Draft History: ${data.length} Blue Devils Drafted (1981–2025)`,
+            description: `Complete list of every Duke basketball player drafted into the NBA, including ${no1s.length} #1 overall picks and ${lottery.length} lottery selections.`,
+            url: 'https://www.dukebrotherhood.com/lists/draft-history/',
+            publisher: { '@type': 'Organization', name: "Duke's Brotherhood", url: 'https://www.dukebrotherhood.com/' },
+          }),
+        }}
       />
     </>
   );
@@ -722,53 +838,6 @@ function RenderBirthdays() {
   );
 }
 
-function RenderXHandles() {
-  const withHandles = players
-    .filter(p => p.twitter)
-    .sort((a, b) => {
-      const eraIdx = (e) => eraOrder.indexOf(e);
-      if (eraIdx(a.era) !== eraIdx(b.era)) return eraIdx(a.era) - eraIdx(b.era);
-      return a.name.localeCompare(b.name);
-    });
-
-  return (
-    <>
-      <p className="text-lg text-gray-700 mb-6">
-        {withHandles.length} Brotherhood players and coaches are on X/Twitter.
-        Handles are shown without the @ for easy copying.
-      </p>
-
-      {eraOrder.map(era => {
-        const eraPlayers = withHandles.filter(p => p.era === era);
-        if (eraPlayers.length === 0) return null;
-        return (
-          <div key={era} className="mb-8">
-            <h2 className="text-xl font-bold text-[#001A57] mb-3">{eraNames[era] || era}</h2>
-            <ListTable
-              headers={['Player', 'Years', 'X Handle', 'Where They Are Now']}
-              rows={eraPlayers.map(p => [
-                pLink(p),
-                p.years,
-                { text: (
-                  <a
-                    href={`https://x.com/${p.twitter}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#001A57] hover:text-[#C5A258] font-mono"
-                  >
-                    @{p.twitter}
-                  </a>
-                )},
-                (p.now || '').substring(0, 60) || '—',
-              ])}
-            />
-          </div>
-        );
-      })}
-    </>
-  );
-}
-
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -784,7 +853,6 @@ const renderers = {
   'by-the-numbers': RenderByTheNumbers,
   'charities': RenderCharities,
   'birthdays': RenderBirthdays,
-  'x-handles': RenderXHandles,
 };
 
 // ── Page component ──
