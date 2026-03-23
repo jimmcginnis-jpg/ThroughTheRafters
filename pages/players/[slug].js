@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import data from '../../data/players.json';
+import teamsData from '../../data/teams.json';
 
 const BIO_TABS = [
   { key: 'road', label: 'Road to Duke' },
@@ -38,9 +39,14 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     { name: 'Duke Children\u2019s Hospital', href: 'https://www.dukechildrens.org/giving', type: 'charity' },
   ];
 
+  // Build season → team page lookup for auto-linking
+  const seasonLinks = (teamsData.seasons || [])
+    .map(s => ({ name: s.season, href: `/teams/${s.season}/`, type: 'season' }))
+    .filter(s => s.name);
+
   // Combine all linkable items, deduplicate by name, sort longest first
   const seen = new Set();
-  const allLinkable = [...linkablePlayers, ...charityLinks, ...knownOrgs]
+  const allLinkable = [...linkablePlayers, ...charityLinks, ...knownOrgs, ...seasonLinks]
     .filter(item => { if (seen.has(item.name)) return false; seen.add(item.name); return true; })
     .sort((a, b) => b.name.length - a.name.length);
 
@@ -74,6 +80,17 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               key={`${paragraphIndex}-${keyCounter++}`}
               href={earliestMatch.href}
               className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+            >
+              {earliestMatch.name}
+            </Link>
+          );
+        } else if (earliestMatch.type === 'season') {
+          parts.push(
+            <Link
+              key={`${paragraphIndex}-${keyCounter++}`}
+              href={earliestMatch.href}
+              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+              title={`${earliestMatch.name} Duke Blue Devils season`}
             >
               {earliestMatch.name}
             </Link>
