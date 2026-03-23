@@ -2,7 +2,13 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import data from '../../data/players.json';
-import teamsData from '../../data/teams.json';
+
+// Generate all Duke season strings (1980-81 through 2025-26) without importing huge teams.json
+const ALL_DUKE_SEASONS = [];
+for (let y = 1980; y <= 2025; y++) {
+  const end = String(y + 1).slice(-2);
+  ALL_DUKE_SEASONS.push(`${y}-${end}`);
+}
 
 const BIO_TABS = [
   { key: 'road', label: 'Road to Duke' },
@@ -40,9 +46,14 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
   ];
 
   // Build season → team page lookup for auto-linking
-  const seasonLinks = (teamsData.seasons || [])
-    .map(s => ({ name: s.season, href: `/teams/${s.season}/`, type: 'season' }))
-    .filter(s => s.name);
+  // Include both hyphen (1982-83) and en-dash (1982–83) variants
+  const seasonLinks = [];
+  ALL_DUKE_SEASONS.forEach(s => {
+    seasonLinks.push({ name: s, href: `/teams/${s}/`, type: 'season' });
+    // Add en-dash variant (U+2013) — many profiles use "1982–83" instead of "1982-83"
+    const enDashVariant = s.replace('-', '\u2013');
+    seasonLinks.push({ name: enDashVariant, href: `/teams/${s}/`, type: 'season' });
+  });
 
   // Combine all linkable items, deduplicate by name, sort longest first
   const seen = new Set();
