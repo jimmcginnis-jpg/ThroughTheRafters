@@ -627,7 +627,7 @@
       "nba": {
         "draftYear": 1986,
         "draftRound": 5,
-        "draftPick": null,
+        "draftPick": 109,
         "draftTeam": "Dallas Mavericks",
         "careerYears": null,
         "games": 0,
@@ -719,7 +719,7 @@
         "draftYear": 1986,
         "draftRound": 2,
         "draftPick": 58,
-        "draftTeam": "Unknown",
+        "draftTeam": "Philadelphia 76ers",
         "careerYears": "1986-87",
         "games": 39,
         "ppg": 3.4,
@@ -8419,10 +8419,10 @@
         "draftPick": 1,
         "draftTeam": "Cleveland Cavaliers",
         "careerYears": "2011-present",
-        "games": 700,
-        "ppg": 23,
-        "rpg": 4,
-        "apg": 5.7,
+        "games": 779,
+        "ppg": 23.7,
+        "rpg": 4.1,
+        "apg": 5.6,
         "teams": [
           {
             "team": "Cleveland Cavaliers",
@@ -9480,7 +9480,7 @@
         "draftPick": 22,
         "draftTeam": "Brooklyn Nets",
         "careerYears": "2013-present",
-        "games": 874,
+        "games": 877,
         "ppg": 7.9,
         "rpg": 6.6,
         "apg": 2.4,
@@ -9610,10 +9610,10 @@
         "draftPick": null,
         "draftTeam": null,
         "careerYears": null,
-        "games": 0,
-        "ppg": 0,
-        "rpg": 0,
-        "apg": 0,
+        "games": 554,
+        "ppg": 9.9,
+        "rpg": 2.0,
+        "apg": 1.9,
         "teams": [],
         "highlights": [],
         "lastSeason": null,
@@ -10358,10 +10358,10 @@
         "draftPick": 21,
         "draftTeam": "Utah Jazz",
         "careerYears": "2018-present",
-        "games": 470,
-        "ppg": 10.5,
-        "rpg": 3,
-        "apg": 2.5,
+        "games": 447,
+        "ppg": 11.2,
+        "rpg": 3.0,
+        "apg": 2.2,
         "teams": [
           {
             "team": "Utah Jazz",
@@ -10577,10 +10577,10 @@
         "draftPick": 24,
         "draftTeam": "Cleveland Cavaliers (traded to Minnesota Timberwolves)",
         "careerYears": "2015-present",
-        "games": 620,
-        "ppg": 8.2,
-        "rpg": 2.7,
-        "apg": 4.8,
+        "games": 744,
+        "ppg": 7.3,
+        "rpg": 1.9,
+        "apg": 4.3,
         "teams": [
           {
             "team": "Minnesota Timberwolves",
@@ -11530,7 +11530,7 @@
         "draftPick": 2,
         "draftTeam": "Los Angeles Lakers",
         "careerYears": "2016-present",
-        "games": 555,
+        "games": 562,
         "ppg": 19.8,
         "rpg": 5.2,
         "apg": 4.2,
@@ -11668,9 +11668,9 @@
         "draftPick": 12,
         "draftTeam": "Detroit Pistons",
         "careerYears": "2017-present",
-        "games": 420,
-        "ppg": 9.3,
-        "rpg": 2.5,
+        "games": 527,
+        "ppg": 9.6,
+        "rpg": 2.7,
         "apg": 2.2,
         "teams": [
           {
@@ -11921,10 +11921,10 @@
         "draftPick": 2,
         "draftTeam": "Sacramento Kings",
         "careerYears": "2018-present",
-        "games": 352,
-        "ppg": 10.6,
-        "rpg": 6.2,
-        "apg": 0.9,
+        "games": 341,
+        "ppg": 11.7,
+        "rpg": 6.5,
+        "apg": 1.0,
         "teams": [
           {
             "team": "Sacramento Kings",
@@ -12051,10 +12051,10 @@
         "draftPick": 7,
         "draftTeam": "Chicago Bulls",
         "careerYears": "2018-present",
-        "games": 383,
+        "games": 449,
         "ppg": 11.9,
-        "rpg": 8.3,
-        "apg": 2,
+        "rpg": 8.2,
+        "apg": 2.0,
         "teams": [
           {
             "team": "Chicago Bulls",
@@ -12365,8 +12365,8 @@
         "draftPick": 41,
         "draftTeam": "San Antonio Spurs",
         "careerYears": "2020-present",
-        "games": 343,
-        "ppg": 8.9,
+        "games": 350,
+        "ppg": 9.1,
         "rpg": 2.8,
         "apg": 4.8,
         "teams": [
@@ -12489,10 +12489,10 @@
         "draftPick": 10,
         "draftTeam": "Atlanta Hawks",
         "careerYears": "2019-present",
-        "games": 250,
-        "ppg": 9.1,
+        "games": 254,
+        "ppg": 8.5,
         "rpg": 2.7,
-        "apg": 1.4,
+        "apg": 1.2,
         "teams": [
           {
             "team": "Atlanta Hawks",
@@ -13466,10 +13466,10 @@
         "draftPick": 37,
         "draftTeam": "Sacramento Kings",
         "careerYears": "2018-present",
-        "games": 420,
-        "ppg": 14,
-        "rpg": 3,
-        "apg": 1.8,
+        "games": 472,
+        "ppg": 13.0,
+        "rpg": 2.2,
+        "apg": 1.4,
         "teams": [
           {
             "team": "Portland Trail Blazers",
@@ -14000,7 +14000,8 @@
         "ppg": 2.3,
         "rpg": 1.4,
         "apg": 0.7,
-        "games": 95
+        "games": 95,
+        "draftTeam": "Indiana Pacers"
       },
       "sources": [],
       "jersey": "0",
@@ -14130,10 +14131,10 @@
         "draftPick": 20,
         "draftTeam": "Atlanta Hawks",
         "careerYears": "2021-present",
-        "games": 250,
-        "ppg": 22.9,
-        "rpg": 10.5,
-        "apg": 7.9,
+        "games": 247,
+        "ppg": 14.0,
+        "rpg": 7.3,
+        "apg": 4.0,
         "teams": [
           {
             "team": "Atlanta Hawks",
@@ -14240,10 +14241,10 @@
         "draftPick": 15,
         "draftTeam": "Charlotte Hornets",
         "careerYears": "2022-present",
-        "games": 106,
-        "ppg": 11.6,
-        "rpg": 8.1,
-        "apg": 1.0,
+        "games": 162,
+        "ppg": 12.0,
+        "rpg": 8.6,
+        "apg": 1.3,
         "teams": [
           {
             "team": "Charlotte Hornets",
@@ -14556,7 +14557,8 @@
         "ppg": 0.4,
         "rpg": 0.6,
         "apg": 0.0,
-        "games": 7
+        "games": 7,
+        "draftTeam": "New York Knicks"
       },
       "sources": [],
       "jersey": "1",
@@ -15549,7 +15551,8 @@
         "ppg": 4.8,
         "rpg": 1.0,
         "apg": 1.3,
-        "games": 42
+        "games": 42,
+        "draftTeam": "Cleveland Cavaliers"
       },
       "sources": [
         {
@@ -16341,8 +16344,9 @@
         "careerYears": "2025-present",
         "ppg": 5.4,
         "rpg": 3.5,
-        "apg": 1.9,
-        "games": 68
+        "apg": 2.0,
+        "games": 71,
+        "draftTeam": "Charlotte Hornets"
       },
       "sources": [
         {
@@ -16444,7 +16448,8 @@
             ]
           }
         ],
-        "careerYears": "2025-present"
+        "careerYears": "2025-present",
+        "draftTeam": "Phoenix Suns"
       },
       "sources": [
         {
