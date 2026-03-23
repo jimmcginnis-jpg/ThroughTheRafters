@@ -219,6 +219,7 @@ export default function Layout({ children, title, description, canonical }) {
                 <Link href="/lists/top-nba-scorers/" className="block hover:text-duke-gold transition-colors">Top NBA Scorers</Link>
                 <Link href="/lists/draft-history/" className="block hover:text-duke-gold transition-colors">Draft History</Link>
                 <Link href="/lists/charities/" className="block hover:text-duke-gold transition-colors">Charities We Support</Link>
+                <Link href="/lists/x-handles/" className="block hover:text-duke-gold transition-colors">X/Twitter Handles</Link>
                 <Link href="/lists/" className="block hover:text-duke-gold transition-colors font-medium mt-2">All Lists &rarr;</Link>
               </div>
             </div>
@@ -230,6 +231,8 @@ export default function Layout({ children, title, description, canonical }) {
                 <Link href="/viz/nba/" className="block hover:text-duke-gold transition-colors">Duke in the NBA</Link>
                 <Link href="/viz/nba-teams/" className="block hover:text-duke-gold transition-colors">Duke by NBA Team</Link>
                 <Link href="/viz/chain/" className="block hover:text-duke-gold transition-colors">Brotherhood Chain</Link>
+                <Link href="/bracket/" className="block hover:text-duke-gold transition-colors">Bracket Simulator</Link>
+                <Link href="/what-if/" className="block hover:text-duke-gold transition-colors">What If They Stayed?</Link>
                 <Link href="/viz/" className="block hover:text-duke-gold transition-colors font-medium mt-2">All Viz &rarr;</Link>
               </div>
             </div>
