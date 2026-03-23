@@ -80,8 +80,8 @@ export default function NBATeamsViz() {
           });
         }
 
-        // Current (2024-25 or 2025-26)
-        if (t.seasons && (t.seasons.includes('2024-25') || t.seasons.includes('2025-26'))) {
+        // Current (2025-26 only — not prior seasons)
+        if (t.seasons && t.seasons.includes('2025-26')) {
           if (!teams[franchise].current.has(p.name)) {
             teams[franchise].current.set(p.name, {
               name: p.name,
