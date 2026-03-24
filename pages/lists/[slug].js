@@ -192,6 +192,11 @@ const listConfigs = {
     subtitle: '23 players, 30 selections — more consensus first-team All-Americans since 2000 than any program in college basketball.',
     meta: 'Complete list of Duke basketball consensus All-Americans under Coach K and Jon Scheyer — 23 players, 30 selections, 22 first-team honors. From Johnny Dawkins (1985) to Cameron Boozer (2026).',
   },
+  'x-handles': {
+    title: 'Brotherhood Players on X/Twitter',
+    subtitle: `${players.filter(p => p.twitter).length} Brotherhood players and coaches on X/Twitter — follow the family.`,
+    meta: `X/Twitter handles for Duke Brotherhood players across all eras. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
+  },
 };
 
 // ── Static generation ──
@@ -929,6 +934,49 @@ function RenderAllAmericans() {
   );
 }
 
+// ── X/Twitter Handles ──
+function RenderXHandles() {
+  const withHandles = players.filter(p => p.twitter).sort((a, b) => {
+    const eraIdx = e => eraOrder.indexOf(e);
+    if (eraIdx(a.era) !== eraIdx(b.era)) return eraIdx(a.era) - eraIdx(b.era);
+    return a.name.localeCompare(b.name);
+  });
+
+  const grouped = {};
+  for (const p of withHandles) {
+    const era = p.era || 'unknown';
+    if (!grouped[era]) grouped[era] = [];
+    grouped[era].push(p);
+  }
+
+  return (
+    <>
+      <p className="font-body text-gray-600 leading-relaxed mb-8">
+        Follow the Brotherhood on X/Twitter. These are the verified and known handles
+        for {withHandles.length} Duke basketball players across all eras — from the Foundation
+        through the Scheyer Era. Click any handle to visit their profile.
+      </p>
+
+      {eraOrder.filter(era => grouped[era]?.length).map(era => (
+        <div key={era} className="mb-10">
+          <h3 className="font-display text-xl text-[#001A57] font-bold mb-4">{eraNames[era]}</h3>
+          <ListTable
+            headers={['Player', 'Years', 'Handle', 'Where They Are Now']}
+            rows={grouped[era].map(p => [
+              p.status === 'done'
+                ? { text: p.name, link: `/players/${p.slug}/` }
+                : { text: p.name, stub: true },
+              p.years || '—',
+              { text: `@${p.twitter}`, link: `https://x.com/${p.twitter}` },
+              p.now || '—',
+            ])}
+          />
+        </div>
+      ))}
+    </>
+  );
+}
+
 // ── Slug-to-renderer map ──
 const renderers = {
   'all-players': RenderAllPlayers,
@@ -945,6 +993,7 @@ const renderers = {
   'charities': RenderCharities,
   'birthdays': RenderBirthdays,
   'all-americans': RenderAllAmericans,
+  'x-handles': RenderXHandles,
 };
 
 // ── Page component ──
