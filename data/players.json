@@ -1808,31 +1808,63 @@
       "era": "foundation",
       "name": "George Burgin",
       "pos": "Center",
-      "years": "1984–89",
-      "classOf": "",
+      "years": "1985–89",
+      "classOf": "1985",
       "height": "7'0\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "tagline": "Amaker's high school teammate, part of Coach K's DC pipeline — three Final Fours, 38 games, and the foundation of a dynasty.",
+      "status": "done",
+      "now": "Systems Engineer at AT&T; Duke graduate",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "38 games • 0.7 PPG • .579 FG% • 3 Final Fours (1986, 1988, 1989) • 2 championship game appearances",
+      "bio": {
+        "road": "In the spring of 1986, a Washington Post reporter catalogued the players on Duke's roster who came from the DC metropolitan area. There were six of them — enough that the headline read \"Washington's '86 Team: Duke.\" Johnny Dawkins from Mackin High. Tommy Amaker from W.T. Woodson. Billy King from Park View. Danny Ferry from DeMatha. And two freshmen the article identified as future contributors: John Smith from Friendly High and George Burgin, a 7-foot-2 center, from W.T. Woodson — Amaker's high school teammate.\nGeorge Burgin was born on May 4, 1967, and grew up in Fairfax, Virginia, in the heart of the basketball-rich Northern Virginia and DC corridor that Coach K would mine for talent throughout the 1980s. At W.T. Woodson High School, he played alongside Amaker, who was a year ahead of him and had already committed to Duke. The pipeline was simple: Krzyzewski's wife had lived in Alexandria, he recognized the DC area's year-round organized basketball culture — AAU, summer leagues, the elite Catholic League — and once Dawkins committed in 1982, every recruit who followed made it easier to land the next one. \"Once we got Johnny, and if we could show we would develop him, then we might be able to get some others,\" Krzyzewski told the Post. Burgin was one of those others — a seven-footer from Amaker's own school who followed the trail his teammate had blazed to Durham.",
+        "duke": "Burgin arrived at Duke in the fall of 1985 as a freshman on the team that would reach the national championship game. That 1985-86 squad — led by Dawkins, Amaker, Mark Alarie, Jay Bilas, and David Henderson — went 37-3 and lost to Louisville in the title game. Burgin was a reserve, a developmental big man behind the seniors, but he was in the building for what many consider the birth of the modern Duke basketball dynasty.\nHe stayed for four years, playing through three of the most consequential seasons in program history. As a sophomore in 1986-87, Duke went 24-9. As a junior in 1987-88, the Blue Devils returned to the Final Four, losing to eventual champion Kansas. As a senior in 1988-89, Duke reached the championship game again, falling to Seton Hall in overtime — the game where Danny Ferry's legendary career ended one game short of a title.\nBurgin appeared in 38 career games across those four seasons, averaging 0.7 points and 0.4 rebounds in limited minutes. He shot 57.9 percent from the field on his sparse attempts. His role was depth — a seven-foot body who practiced against Ferry, Alarie, and the rotating cast of talented frontcourt players that defined early Coach K basketball. He was never the reason Duke won a game, but he was part of the fabric of a program that went to three Final Fours in his four years.\nThe Washington Post had predicted he \"could be a primary contributor to Duke's team in the next three years.\" The contribution was quieter than that — made in practice, in preparation, in being the big man who gave Ferry and Robert Brickey a seven-footer to work against every afternoon. But he was there for all of it: the Dawkins era, the Ferry era, the birth of everything that followed.",
+        "now": "George Burgin took his Duke degree into technology. He has built a career as a systems engineer at AT&T, working in telecommunications infrastructure — about as far from Cameron Indoor Stadium as a professional life can get, unless you count the Duke diploma on the wall and the memories of three Final Fours.\nHe is part of a specific subset of the Brotherhood: the DC pipeline players who followed Dawkins to Durham in the 1980s and built the foundation that made everything else possible. Amaker, King, Ferry, Burgin — Northern Virginia and Maryland kids who looked at Duke before Duke was Duke and said yes anyway. By the time Burgin graduated in 1989, the program had been to the Final Four four times in five years. The dynasty was no longer a promise. It was a fact.\nBurgin's stat line will never appear in a highlight reel. But his era — the era he helped build by showing up, by practicing, by being the seven-footer from Woodson who followed Amaker south — is the reason every era after it exists."
+      },
       "seasons": [
-        "1984-85",
         "1985-86",
         "1986-87",
         "1987-88",
         "1988-89"
       ],
       "nba": null,
-      "sources": [],
+      "sources": [
+        {
+          "title": "George Burgin — Sports-Reference.com",
+          "url": "https://www.sports-reference.com/cbb/players/george-burgin-1.html"
+        },
+        {
+          "title": "Washington's '86 Team: Duke — Washington Post (March 27, 1986)",
+          "url": "https://www.washingtonpost.com/archive/sports/1986/03/27/washingtons-86-team-duke/c7a7b835-a5df-4f34-8e53-96a9e07424b3/"
+        },
+        {
+          "title": "George Burgin — Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q100765515"
+        },
+        {
+          "title": "George Burgin — DukeUpdate.com Alumni",
+          "url": "http://www.dukeupdate.com/Alumni/george_burgin.htm"
+        },
+        {
+          "title": "George Burgin — LinkedIn (Systems Engineer, AT&T)",
+          "url": "https://www.linkedin.com/in/george-burgin-3182508"
+        }
+      ],
       "hometown": "Fairfax, VA",
       "jersey": "42",
       "highSchool": "",
       "rsci": "",
       "weight": "215",
-      "dob": null,
-      "twitter": ""
+      "dob": "1967-05-04",
+      "twitter": "",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "rey_essex",
@@ -14437,7 +14469,7 @@
       "era": "superteam",
       "name": "Michael Savarino",
       "pos": "Guard",
-      "years": "2019–23",
+      "years": "2019–22",
       "classOf": "",
       "height": "6'0\"",
       "tagline": "",
@@ -14449,8 +14481,7 @@
       "seasons": [
         "2019-20",
         "2020-21",
-        "2021-22",
-        "2022-23"
+        "2021-22"
       ],
       "nba": null,
       "sources": [],
@@ -14468,7 +14499,7 @@
       "era": "superteam",
       "name": "Keenan Worthington",
       "pos": "Forward",
-      "years": "2019–23",
+      "years": "2019–22",
       "classOf": "",
       "height": "6'9\"",
       "tagline": "",
@@ -14480,8 +14511,7 @@
       "seasons": [
         "2019-20",
         "2020-21",
-        "2021-22",
-        "2022-23"
+        "2021-22"
       ],
       "nba": null,
       "sources": [],
@@ -15032,26 +15062,80 @@
       "name": "Theo John",
       "pos": "Forward",
       "years": "2021–22",
-      "classOf": "",
+      "classOf": "2017",
       "height": "6'9\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "tagline": "From Wojo's Marquette to Coach K's Final Four — 191 blocks, 161 games, two coaching trees, one Brotherhood.",
+      "status": "done",
+      "now": "Professional basketball player; HAKRO Merlins Crailsheim (Germany, Bundesliga) since 2025; previously played in Netherlands, Croatia, and G League",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "38 games at Duke • 2.8 PPG • .605 FG% • 191 career blocks at Marquette (2nd in program history) • Final Four 2022",
+      "bio": {
+        "road": "One morning during his junior year at Champlin Park High School, Theo John walked out to his car and found it covered in maroon and gold streamers, surrounded by stuffed Goldy Gopher dolls and sidewalk-chalk pleas begging him to stay home and play for Minnesota. \"I asked coach, 'Do you have anything to do with this?'\" John told the Star Tribune. \"He said, 'No, that's just some loyal fans.' My parents were dying. They thought it was hilarious.\"\nTheo John was born on August 25, 1998, in Brooklyn Park, Minnesota, a suburb north of Minneapolis. He attended Champlin Park High School, where he became one of the state's most prominent basketball recruits — a 6-foot-9, 230-pound forward with a 7-foot-4 wingspan who could protect the rim, rebound, and run the floor. MaxPreps named him to the Minnesota Fab 5 in consecutive years. By his senior season, his final two schools were Minnesota and Marquette, and the entire state was watching.\nHe announced alongside his Champlin Park teammate McKinley Wright, who chose Dayton. John chose Marquette and Steve Wojciechowski — a former Duke point guard and longtime Coach K assistant who had become Marquette's head coach in 2014. The Gophers went 0-for-6 on in-state seniors they offered that year. John left Minnesota because Wojo made him feel like he could contribute immediately. \"I just felt like Marquette was the better decision for me both academically and basketball-wise,\" he said.\nThe Wojo connection is the thread that runs through Theo John's entire career. A Duke man coached him for four years at Marquette. Then the Duke man's mentor coached him for one more.",
+        "duke": "By the time John arrived at Marquette in the fall of 2017, Wojciechowski had built a program in his own image — defense-first, physically imposing, blue-collar. John was the embodiment of that vision. He played four seasons for the Golden Eagles, appearing in 123 games and starting 87 of them. He averaged 5.5 points and 4.3 rebounds per game on 57.6 percent shooting. He won Marquette's Most Improved Player award in consecutive years. But his signature was defense: 191 career blocked shots, second in program history, including an eight-block eruption against Loyola Maryland as a sophomore that announced him as one of the Big East's most fearsome rim protectors.\nAs a senior in 2020-21, John averaged career highs of 8.0 points, 5.0 rebounds, and 1.5 blocks while starting 25 of 26 games. He shot 57.2 percent from the field and opened the season with a 13-point, 12-rebound double-double against Arkansas–Pine Bluff. He scored 11 points and grabbed five boards in a win at North Carolina. He tied his career high with 16 points against St. John's. He was, by any measure, the best version of himself.\nThen Marquette fired Wojciechowski. The coach who had recruited John, developed him, and turned him into one of the most productive defensive players in Big East history was gone. John, with one year of eligibility remaining thanks to the COVID waiver, had a decision to make. He entered the transfer portal and, within days, committed to the man who had taught Wojo everything: Mike Krzyzewski.\n\"After conversations with my family, I have decided that next year I will be attending Duke University for my final year of eligibility,\" John wrote on Twitter. \"Happy to be joining #TheBrotherhood.\"\nAt Duke, John was no longer the first option. Paolo Banchero was the alpha. Mark Williams was the starting center. But Krzyzewski valued what John brought — a 6-foot-9, 242-pound graduate student with 123 games of experience who could defend, rebound, and set a tone in practice that made Williams better. \"I think Theo's one of the reasons Mark's getting better,\" Krzyzewski said following Countdown to Craziness.\nJohn appeared in all 38 of Duke's games, averaging 2.8 points, 2.5 rebounds, and shooting 60.5 percent from the field in a reduced role off the bench. He scored five points with two blocks in 22 minutes in the season opener against tenth-ranked Kentucky. He went 3-for-3 for eight points against The Citadel. He was the physical presence off the bench — the guy who came in to body up opposing bigs and give Williams a breather without losing any defensive intensity.\nThat team went 32-7, won the ACC Tournament, and reached the Final Four in New Orleans — Coach K's last stand. John was on the court for the semifinal loss to North Carolina, 81-77, the game that ended Krzyzewski's career. He had spent five years of college basketball playing for a Coach K disciple and then for Coach K himself. The circle closed in the Superdome.",
+        "after": "John went undrafted in the 2022 NBA Draft. The day before he was scheduled to debut for the Minnesota Timberwolves in Summer League — a homecoming, playing for his home-state NBA franchise — he suffered a knee injury that sidelined him. The cruelty of the timing was almost literary: the kid who left Minnesota as a high school senior, whose car had been covered in Gopher streamers by strangers begging him to stay, came back to play for the Timberwolves and got hurt before he could take the court.\nAfter recovering, John signed a G League contract with the Capital City Go-Go, the Washington Wizards' affiliate, for the 2022-23 season. The following summer, the Timberwolves gave him another chance, adding him to their 2023 Las Vegas Summer League roster where he reunited with former Duke teammate Wendell Moore Jr.\nProfessional basketball since Duke has been a journey through four countries. After the G League, John played for Donar Groningen in the Netherlands during the 2023-24 season, competing in the BNXT League and FIBA Europe Cup qualifying rounds. He posted a career-high 8 assists against Rabotnicki Skopje and a career-high 6 steals against Feyenoord — numbers that showed a player whose game had expanded well beyond the rim protection that defined him in college. He then played for KK Dubrava Furnir Zagreb in the Croatian Premijer Liga before landing with HAKRO Merlins Crailsheim in Germany's Basketball Bundesliga in 2025.",
+        "now": "Somewhere in Crailsheim, a small city in the Baden-Württemberg region of southern Germany, a twenty-seven-year-old from Brooklyn Park, Minnesota, is playing professional basketball in the Bundesliga. Theo John has been in Finland, the Netherlands, Croatia, and Germany since leaving Duke. He has never played an NBA regular-season game. He has 191 blocked shots at Marquette and a Final Four ring at Duke and a communication studies degree and a career that stretches across two continents.\nThe story has a symmetry that only the transfer portal era could produce. John was recruited by a Duke man — Wojciechowski — who taught him everything about defense and toughness at Marquette. When Wojo was fired, John transferred to the man who taught Wojo. He played his final college game in the Final Four, losing to North Carolina in the game that ended Krzyzewski's career. He left Duke having played 161 college games across five seasons, two programs, and two of the most accomplished coaching trees in the sport's history.\nThe Cameron Crazies never chanted his name the way they did Banchero's or Williams's. He was the enforcer, the depth piece, the guy who came in for six minutes to throw his body around and then sat back down. But Krzyzewski himself said John made Mark Williams better — and Williams became the ACC Defensive Player of the Year and a first-round pick. That is the Theo John legacy at Duke: he did not collect the accolades, but the player who practiced against him every day did."
+      },
       "seasons": [
         "2021-22"
       ],
       "nba": null,
-      "sources": [],
-      "hometown": "Minneapolis, MN",
+      "sources": [
+        {
+          "title": "Theo John — Duke Athletics Bio (2021-22)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/theo-john/17235"
+        },
+        {
+          "title": "Champlin Park big man Theo John to decide between Gophers and Marquette — Star Tribune",
+          "url": "http://www.startribune.com/champlin-park-big-man-theo-john-to-decide-tuesday-between-minnesota-and-marquette/393197101/"
+        },
+        {
+          "title": "Champlin Park stars turn down Gophers for Marquette, Dayton — Star Tribune",
+          "url": "http://www.startribune.com/top-recruits-theo-john-mckinley-wright-headed-out-of-state-richard-pitino-goes-0-6-in-offers-to-minnesota-seniors/393321451/"
+        },
+        {
+          "title": "Minnesota prospect Theo John feels the love but is staying level-headed — Star Tribune",
+          "url": "http://m.startribune.com/minnesota-prospect-theo-john-feels-the-love-but-is-staying-level-headed-about-upcoming-decision/377461781/"
+        },
+        {
+          "title": "Duke adds Marquette transfer Theo John to frontcourt — ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/31269484/duke-blue-devils-strengthen-frontcourt-adding-marquette-golden-eagles-transfer-theo-john"
+        },
+        {
+          "title": "Marquette Transfer Theo John Chooses Duke — SI",
+          "url": "https://www.si.com/college/duke/basketball/marquette-theo-john-transfer-duke"
+        },
+        {
+          "title": "2021-22 Duke MBB Player Preview: Theo John — 247Sports",
+          "url": "https://247sports.com/college/duke/LongFormArticle/theo-john-duke-blue-devils-basketball-2021-22-player-preview-174441916/"
+        },
+        {
+          "title": "Former Duke Basketball Enforcer Gets Another Shot — SI",
+          "url": "https://www.si.com/college/duke/nba-blue-devils/duke-basketball-enforcer-shot-impress-team-6-23"
+        },
+        {
+          "title": "Theo John — HAKRO Merlins Crailsheim",
+          "url": "https://hakro-merlins.com/profis/theo-john/"
+        },
+        {
+          "title": "Theo John — Eurobasket.com",
+          "url": "https://basketball.eurobasket.com/player/Theo-John/422641"
+        }
+      ],
+      "hometown": "Brooklyn Park, MN",
       "jersey": "12",
       "highSchool": "Champlin Park HS",
       "rsci": "",
       "weight": "222",
-      "dob": "1999-03-04",
-      "twitter": "Theojohn4"
+      "dob": "1998-08-25",
+      "twitter": "Theojohn4",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "filipowski",
@@ -15818,71 +15902,81 @@
       "name": "Stanley Borden",
       "pos": "Center",
       "years": "2021–25",
-      "classOf": "2025",
-      "height": "7’0”",
-      "tagline": "Born in New York. Raised in Istanbul. Five languages. Portuguese national team. Beşiktaş U18. Saxophone at Countdown to Craziness. 7.8km earthquake fundraiser. Computer Science degree. Zero career points. Four letters. Two Final Fours. The last active player to have played for Coach K.",
+      "classOf": "2021",
+      "height": "7'0\"",
+      "tagline": "The seven-foot walk-on from Istanbul who never scored a point — and became a Cameron Indoor legend anyway.",
       "status": "done",
-      "now": "Playing final season at UTSA (2025–26); Duke CS graduate with minors in Bioinformatics and English; Senior Night honoree March 2026",
+      "now": "Graduate transfer at UTSA (2025-26); Duke computer science degree; last Coach K player still in college",
       "seasons": [
         "2021-22",
         "2022-23",
+        "2023-24",
         "2024-25"
       ],
-      "drafted": "N/A — walk-on / current player",
-      "stat": "4 Duke seasons • 5 games • 0 career points • 4-time letterwinner • 2 Final Fours behind the scenes • 3 conference championships • Portuguese U20 National Team • ACC Top Six for Service",
+      "drafted": "",
+      "stat": "5 games • 10 career minutes • 0 points • 3 rebounds • 1 block • 0-for-1 FG • Saxophone legend",
       "sources": [
         {
-          "title": "GoDuke.com: Stanley Borden player profile (2024–25)",
+          "title": "Stanley Borden — Duke Athletics Bio (2024-25)",
           "url": "https://goduke.com/sports/mens-basketball/roster/stanley-borden/20752"
         },
         {
-          "title": "UTSA Athletics: Roadrunners add grad transfer Borden (Jul 2025)",
+          "title": "Duke walk-on Stanley Borden, last player to have played for Coach K, transfers to UTSA — AP/Yahoo Sports",
+          "url": "https://sports.yahoo.com/article/duke-walk-stanley-borden-last-175932362.html"
+        },
+        {
+          "title": "Borden, the last to play for Duke's Coach K, transfers to UTSA — ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/45552220/borden-last-play-duke-coach-k-transfers-utsa"
+        },
+        {
+          "title": "Four-Year Duke Basketball Big Man Enters Transfer Portal — SI",
+          "url": "https://www.si.com/college/duke/basketball/three-year-duke-basketball-big-man-enters-transfer-portal-4-20-25"
+        },
+        {
+          "title": "Former Duke Basketball Center Commits to Roadrunners — SI",
+          "url": "https://www.si.com/college/duke/basketball/former-duke-basketball-center-commits-roadrunners-6-20-25"
+        },
+        {
+          "title": "Roadrunners add grad transfer Borden to 2025-26 frontcourt — UTSA Athletics",
           "url": "https://goutsa.com/news/2025/07/9/mbb2025-bordensigning"
         },
         {
-          "title": "Duke Basketball Report: Duke Now Has Tallest Walk-On in Team History (Oct 2021)",
+          "title": "It's Official: Stanley Borden Joins Duke Basketball — Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2021/10/4/22710023/stanley-borden-joins-duke-basketball-mark-williams-theo-john-paolo-banchero-dikembe-mutombo"
         },
         {
-          "title": "Duke Basketball Report: Stanley Borden Helps Turkish Earthquake Victims (Feb 2023)",
+          "title": "Stanley Borden Helps Turkish Earthquake Victims — Duke Basketball Report",
           "url": "https://www.dukebasketballreport.com/2023/2/17/23603870/stanley-borden-duke-basketball-earthquake-istanbul-turkey"
         },
         {
-          "title": "Lancaster Online/AP: Duke walk-on Stanley Borden, last player to have played for Coach K, transfers to UTSA",
-          "url": "https://lancasteronline.com/sports/basketball/college/duke-walk-on-stanley-borden-last-player-in-college-to-have-played-for-coach-k/article_90e0b1af-b0fc-59fc-9d4d-38cd342ff9d6.html"
+          "title": "Stanley Borden Is Off To San Antonio — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2025/6/20/24452567/stanley-borden-duke-basketball-utsa-roadrunners-blue-devils-cameron-crazies"
         },
         {
-          "title": "Opendorse: Stanley Borden NIL Profile (Duke)",
-          "url": "https://opendorse.com/profile/stanley-borden"
-        },
-        {
-          "title": "UTSA Athletics: Senior Night vs. Wichita State (Mar 2026)",
-          "url": "https://goutsa.com/news/2026/03/01/mbb2026-wichitastate-recap"
-        },
-        {
-          "title": "Basketball Reference: Stanley Borden college stats",
-          "url": "https://www.sports-reference.com/cbb/players/stanley-borden-1.html"
+          "title": "Duke Loses First Player To The Transfer Portal — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2025/4/18/24411681/stanley-borden-transfer-portal-duke-blue-devils-mike-krzyzewski-brotherhood-basketball"
         }
       ],
       "nba": null,
       "bio": {
-        "road": "Stanley Borden was born October 7, 2002, in New York City. His father, Scott, and his mother, Rozita, had roots that stretched across continents. His grandfather — also named Stanley Borden — had played basketball at Mississippi State. His sister, Loreen, would grow up alongside him in one of the most cosmopolitan cities on earth, but it wasn't New York. The family moved to Istanbul, Turkey, where Stanley would spend his formative years in a city of sixteen million people straddling two continents, the Bosphorus splitting Europe from Asia outside his window.\n\nHe attended Istanbul International Community School, a small international school where the student body came from dozens of countries and instruction was in English. Basketball wasn't the dominant sport — soccer was, as it is everywhere in Turkey. But Stanley kept growing. By the time he was fourteen, he was approaching seven feet tall, and the basketball world in Istanbul began to notice.\n\nHe joined Beşiktaş J.K.'s U18 team — one of the storied clubs of Turkish professional basketball — and played two seasons in their youth system. Simultaneously, he led his high school varsity team to the first-ever CEESA Division A Championship, the title for the Central and Eastern European Schools Association, a league of international schools stretching from Warsaw to Ankara. He also played tennis. He was, by every measure, not a typical basketball recruit.\n\nHis passport situation was equally unusual. Born in the United States, raised in Turkey, he held dual citizenship in Portugal — through family lineage — which made him eligible to represent Portugal internationally. In the summer of 2021, he played for the Portuguese U20 National Team at the FIBA European Group A Challenger, averaging 7.6 points, 6.2 rebounds, 1.2 assists, and 1.0 steals across five games. A seven-footer from Istanbul representing Portugal at a FIBA tournament. The Brotherhood has never had anyone quite like him.\n\nHe also spoke five languages: English, Turkish, Portuguese, Spanish, and Mandarin Chinese. During the COVID-19 pandemic, when the world shut down and Istanbul's streets emptied, he taught himself to play the piano by watching YouTube tutorials. He already played the saxophone. He was studying computer science. He aspired to work in nanotechnology.\n\nIn September 2021, Stanley Borden showed up in Durham, North Carolina, and asked to walk on to the Duke men's basketball team. He was seven feet tall, 240 pounds, and had never played a minute of American high school or AAU basketball. Duke Basketball Report noted the absurdity: \"How often do you have a 7-0 player tell you he wants to walk on?\" They compared the situation to the last seven-foot walk-on anyone could remember at a major program: Dikembe Mutombo at Georgetown.",
-        "duke": "Stanley Borden played four seasons at Duke. He appeared in five games. He scored zero points. His career-high in minutes was three, against Florida State on March 1, 2023. He lettered all four years — one of the quietest four-time letterwinners in program history.\n\nThose numbers are meaningless. What matters is what happened around them.\n\nHe arrived for the 2021–22 season, Coach K's final year, and joined a roster that included Paolo Banchero, the number one overall pick in the 2022 NBA Draft; Trevor Keels; AJ Griffin; and Mark Williams. Borden's job was to be a practice body — a seven-footer for Williams and Banchero to bang against every day. Duke went to the Final Four that year, losing to North Carolina in the most dramatic possible ending to Coach K's career. Borden was there. He was the last player still in college basketball, years later, who could say he played for Mike Krzyzewski.\n\nThe 2022 Countdown to Craziness — Duke's annual preseason event — made him a campus legend. Borden walked onto the Cameron Indoor stage wearing sunglasses and a trench coat. He opened the coat to reveal a saxophone he had borrowed from a member of the Duke marching band. Then he played it. The Cameron Crazies lost their minds. The video went viral. The seven-foot walk-on from Istanbul who spoke five languages and played the saxophone in a trench coat became, overnight, one of the most beloved figures in the Duke basketball ecosystem. He didn't need minutes. He had a saxophone.\n\nThen came February 2023, and the world he grew up in was shattered. A 7.8-magnitude earthquake struck southern Turkey and northern Syria, killing more than fifty thousand people. Borden's family in Istanbul was safe, but the devastation was personal. He organized a fundraising run on Duke's campus — a 7.8-kilometer run, the distance symbolizing the magnitude of the quake — and raised $7,800 for emergency relief. The ACC honored him as part of Duke's Top Six for Service Award. Duke Basketball Report wrote that while he hadn't played much on the court, he had already emerged as one of Duke's most interesting players, and as far as Turks were concerned, probably the team's MVP.\n\nHis junior year, 2023–24, never happened on the court. He suffered an elbow injury in the preseason. Then, in a weight room accident, he injured a finger so severely it needed to be surgically reattached. He missed the entire season. Duke went to the Final Four again that year, behind Cooper Flagg, and Borden watched from the bench — his second Final Four as a Duke player without playing in a game.\n\nAs a senior in 2024–25, he returned to the roster and appeared in two games — brief minutes in blowouts. Duke won the ACC Tournament and reached the NCAA Tournament again. Behind the scenes, Borden contributed to winning at a program that won constantly: two Final Fours, three conference championships across his four years. His UTSA coach, Steve Claunch, later said it directly: he has contributed to winning behind the scenes for two Final Fours and three conference championships. You can't downplay the caliber of players, coaches, and basketball he's been around.\n\nHe practiced against Paolo Banchero. He practiced against Dereck Lively II. He practiced against Cooper Flagg. Every day, the seven-foot walk-on from Istanbul was the scout-team center trying to simulate the best big men in America for the best team in America. That is a form of service that never appears in a box score.\n\nHis Duke degree is in Computer Science, with minors in Bioinformatics and English. His Opendorse profile describes his interests: education, teaching, nanotechnology. His self-description: born in NYC but raised in Istanbul, Turkey, I have a varied international experience which has given me a nuanced perspective.",
-        "now": "In the summer of 2025, Stanley Borden entered the transfer portal. He had one year of eligibility remaining and wanted, for the first time in his college career, to actually play. A few dozen schools expressed interest. He chose UTSA — the University of Texas at San Antonio — where head coach Steve Claunch offered him something Duke never could: real minutes.\n\nHe arrived in San Antonio in July 2025. He was, officially, the last college basketball player still active who had played for Mike Krzyzewski. The Brotherhood's living link to Coach K.\n\nAt UTSA, Borden appeared in three games during the 2025–26 season, recording two rebounds and playing meaningful minutes for the first time in his college career. On March 1, 2026 — Senior Night — he was honored alongside teammates LJ Brown, Mo Njie, and Jamir Simpson. The ceremony was held at the Convocation Center. The first eight hundred fans received free Whataburger biscuits. Stanley Borden, born in New York, raised in Istanbul, educated at Duke, stood at center court in San Antonio and was celebrated for what he had given to the game.\n\nHe is twenty-three years old. He holds a Computer Science degree from Duke University with minors in Bioinformatics and English. He speaks five languages. He has played organized basketball in Turkey, Portugal, North Carolina, and Texas. He has represented Portugal at a FIBA tournament. He has played the saxophone on the Cameron Indoor stage in a trench coat. He has organized a 7.8-kilometer fundraising run for earthquake victims in his adopted homeland. He has lost a finger in a weight room and come back. He has practiced against three number-one NBA Draft picks — Banchero, Flagg, and Lively — and been the scout-team center for two Final Four teams. He has lettered four times at one of the five most successful basketball programs in American history without ever scoring a point.\n\nHis birthday is October 7. Today — March 13, 2026 — the Brotherhood Birthdays page on this site happens to feature him, because it features Stanley Borden on his birthday, the way it features every Brotherhood member on theirs. He is the reason the page exists. Because the Brotherhood is not about who scores the most points. It is about who shows up. Stanley Borden showed up from Istanbul, Turkey, with a saxophone and five languages and a willingness to be the last man on the bench for the best program in the country, and he stayed for four years, and then he went to San Antonio to play for real, and he is still showing up.\n\nTrust the process. Play the saxophone. Show up."
+        "road": "During Countdown to Craziness in October 2023, a seven-foot sophomore walked onto the Cameron Indoor Stadium stage wearing sunglasses and a trench coat. He opened the coat to reveal a saxophone he had borrowed from the Duke marching band. Then he played it — well — to the delight of several thousand screaming Cameron Crazies and a bench full of future NBA lottery picks who could not believe what they were watching. The video went viral. It remains, for many Duke fans, the defining image of Stanley Borden's time in Durham.\nStanley Scott Borden was born on October 7, 2002, in New York City, the son of Rozita and Scott Borden. He has a sister, Loreen. His grandfather, also named Stanley Borden, played basketball at Mississippi State — the game ran in the bloodline, even if the geography did not stay constant. The family relocated to Istanbul, Turkey, where Stanley grew up, attended the Istanbul International Community School, and became one of the most unusual basketball prospects in the world: a seven-foot American-born, Portuguese-citizen, Istanbul-raised teenager playing for the Besiktas J.K. U18 team in one of Europe's top professional club systems.\nHe played two seasons with Besiktas's youth program and led his international school to its first CEESA (Central-Eastern European Schools Association) Division A Championship. He also played tennis. He speaks five languages. He holds dual citizenship in Portugal, which made him eligible for the Portuguese U20 National Team — and in the summer of 2021, he represented Portugal at the FIBA European Group A Challenger, averaging 7.6 points, 6.2 rebounds, 1.2 assists, and 1.0 steals per game.\nThen, in September 2021, Stanley Borden walked into the Duke basketball offices and asked to be a walk-on.\nDuke Basketball Report captured the moment perfectly: \"How often do you have a 7-0 player tell you he wants to walk on? And how often does a guy like that play for anything like the Portuguese U20 National Team?\" The staff said yes. Mike Krzyzewski, in his 42nd and final season, was not going to turn down a seven-footer who wanted to work. The last seven-foot walk-on anyone at Duke Basketball Report could remember turning out well? Dikembe Mutombo at Georgetown.",
+        "duke": "Borden joined a roster that included Paolo Banchero, Mark Williams, Theo John, and Wendell Moore Jr. — a team that would reach the Final Four in Coach K's farewell season. He did not play. He practiced every day against a future number-one overall pick, a future lottery center, and a senior captain who would hear his name called on draft night. That was the job.\nHis career debut came in his freshman season, against Lafayette on November 19, 2021 — one minute of action, one offensive rebound. That rebound is the first statistical entry of his Duke career. He appeared in two games that year.\nAs a sophomore, Borden became a fan favorite without ever entering a game that mattered. The saxophone performance at Countdown to Craziness turned him into a Cameron Indoor folk hero, the kind of walk-on whose name gets chanted in blowouts. He was a glue guy, a culture setter, the seven-footer who showed up early and stayed late and made the stars better by being a body they had to move in practice.\nThen came the injuries. Borden's junior year — 2023-24 — was wiped out before it started. He suffered an elbow injury in the preseason, and then, in a weight room accident, a finger that needed to be surgically reattached. He sat the entire season in street clothes on the bench, watching Duke go 27-9 and reach the Elite Eight without him.\nHe returned for his senior year in 2024-25 — the season of Cooper Flagg, Kon Knueppel, and Khaman Maluach. Borden appeared in three games, grabbing a rebound and blocking a shot. His career-high was three minutes, against Florida State on March 1. He attempted one field goal in four years. He missed it. His career stat line across five games and 10 total minutes at Duke: zero points, three rebounds, one block, two turnovers, one personal foul. He shot 0-for-1 from the field.\nHe earned a degree in computer science.\nThere is a detail that frames everything: when Borden entered the transfer portal in April 2025, he became notable for a reason that had nothing to do with his stat line. He was the last basketball player still in college who had played for Mike Krzyzewski. Spencer Hubbard, the other remaining member of that 2021-22 team, had graduated. Borden was the final living thread connecting the Scheyer era to the Coach K era — the last man standing from the Final Four team, the guy who practiced against Banchero and sat next to Flagg, who bridged a dynasty in a way that no lottery pick ever could.",
+        "after": "In June 2025, Borden committed to UTSA — the University of Texas at San Antonio — as a graduate transfer with one year of eligibility remaining. The Roadrunners, who play in the American Athletic Conference, offered what Duke never could: minutes, a role, a chance to finally score his first college point.\n\"I was talking to a bunch of schools late in the process and many of them were starting their summer workouts right now,\" Borden said from Istanbul, where his family still lives. \"There's opportunity to compete for time and also develop. They want to help you get better and make you a better player.\"\nHe chose UTSA, a program that had hosted the 2025 Final Four in its city, over several dozen interested schools. The staff wanted his size, his experience, his maturity — four years of practicing against the best players in college basketball had to count for something, even if the box scores didn't show it.",
+        "now": "Somewhere in San Antonio in 2025-26, Stanley Borden is playing college basketball for the first time in any meaningful sense — a seven-footer from Istanbul with a Portuguese passport, a Duke computer science degree, a saxophone performance that went viral, an earthquake fundraising run that raised $7,800 for Turkish disaster relief, and zero career points across five games and 10 minutes in a Blue Devil uniform.\nIn February 2023, when a devastating earthquake struck Turkey and Syria, Borden had organized a fundraising run on Duke's campus despite having family in the affected region. Duke Basketball Report noted at the time that while Borden hadn't played much, he was \"probably the team's MVP\" as far as Turks were concerned. He speaks five languages. He represented a country in FIBA competition. He played for a storied Turkish club's youth team. He walked on at Duke as an eighteen-year-old, practiced against Paolo Banchero and Cooper Flagg, survived a finger reattachment surgery, learned the saxophone well enough to perform in front of thousands, and graduated with a computer science degree from one of the best universities in the world.\nThe Brotherhood is full of lottery picks and All-Americans. It also needs its Stanley Bordens — the seven-foot walk-on from Istanbul who never scored a point but carried the culture for four years, who was the last Coach K player still playing college basketball, and who reminded everyone that the Brotherhood has always been about more than what shows up in a box score."
       },
       "hometown": "Istanbul, Turkey",
-      "jersey": "52",
+      "jersey": "34",
       "highSchool": "Istanbul Int'l Community School",
       "rsci": "",
       "weight": "241",
       "dob": "2002-10-07",
-      "lastUpdated": "2026-03-13",
+      "lastUpdated": "2026-03-23",
       "charity": {
-        "name": "Emily Krzyzewski Center",
-        "label": "Support the Emily K Center",
-        "description": "Founded by Coach K and his wife Mickie in honor of his mother, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities. Since 2006, the center has helped hundreds of first-generation college students reach graduation.",
-        "url": "https://www.emilyk.org/donate",
-        "isDefault": true
+        "name": "AHBAP",
+        "label": "AHBAP Turkey Earthquake Relief",
+        "description": "AHBAP is a Turkish charitable organization that provides disaster relief, including aid following the devastating 2023 Turkey-Syria earthquake. Stanley Borden organized a Duke campus fundraising run for earthquake relief.",
+        "url": "https://ahbap.org/bagis-en",
+        "isDefault": false
       },
       "twitter": ""
     },
@@ -16136,26 +16230,98 @@
       "name": "Dariq Whitehead",
       "pos": "Forward",
       "years": "2022–23",
-      "classOf": "",
+      "classOf": "2022",
       "height": "6'7\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "tagline": "The Naismith Player of the Year whose body wouldn't cooperate — from McDonald's MVP to the G League at twenty-one.",
+      "status": "done",
+      "now": "OKC Blue (G League, Thunder affiliate) since Nov. 2025; previously drafted #22 by Brooklyn Nets (2023); 22 career NBA games",
+      "drafted": "2023 NBA Draft, Round 1, Pick 22 — Brooklyn Nets",
+      "stat": "28 games at Duke • 8.3 PPG • .429 3PT% • ACC Tournament champion • Drafted #22 overall",
+      "bio": {
+        "road": "On April 2, 2022, Dariq Whitehead experienced the full range of what basketball can do to a person in a single day. That morning, he led Montverde Academy past Link Academy 60-49 to win his second consecutive GEICO High School National Championship. That night, he watched Duke lose to North Carolina 81-77 in the Final Four — the game that ended Coach K's career and the program Whitehead had committed to nine months earlier. \"It was a bad night,\" he said. \"It really was.\"\nDariq Miller-Whitehead was born on August 1, 2004, in Newark, New Jersey. His brother Tahir was an NFL linebacker who played ten seasons for the Detroit Lions, Oakland Raiders, Carolina Panthers, and Arizona Cardinals after playing college football at Temple. Sport was the family inheritance, but Dariq chose a different field. He left Newark at thirteen years old to attend Montverde Academy in central Florida, one of the most dominant prep basketball programs in the country — the school that had produced Cade Cunningham, RJ Barrett, and Ben Simmons.\nUnder head coach Kevin Boyle, Whitehead became the best high school basketball player in America. As a junior, he averaged 9.3 points and 3.8 rebounds while helping Montverde win the GEICO national title. On the Nike EYBL circuit with Team Durant, he averaged 16.5 points on 51.0 percent shooting. As a senior, he averaged 16.5 points, 5.0 rebounds, 3.5 assists, and 1.5 steals, and the awards cascaded: Naismith High School Player of the Year, Gatorade Florida Player of the Year, Sports Illustrated All-American Player of the Year, McDonald's All-American Game MVP — where he put up 13 points, 7 rebounds, and 7 assists. He was ranked the number-one recruit in the class by Rivals and the number-two player nationally by ESPN, behind only his future Duke teammate Dereck Lively II.\nHe committed to Duke on August 1, 2021 — his seventeenth birthday — choosing the Blue Devils over Kansas, Florida State, and a substantial offer from the NBA G League Ignite. Jon Scheyer, who would be coaching his first season, landed Whitehead as the crown jewel of a class that also included Lively, Kyle Filipowski, Mark Mitchell, and Jaden Schutt. \"Right now, the main thing we talk about every day is that we're just excited to get there and get to work,\" Whitehead said. \"It's, honestly speaking, one of the most versatile groups I've ever seen.\"\nBoyle, his Montverde coach, saw the transition as seamless: \"Being at Montverde, where we've won seven of the last ten national titles, the bar is high.\" The bar at Duke would be higher.",
+        "duke": "Then the foot broke. On August 29, 2022 — four days before the start of classes — Whitehead fractured the fifth metatarsal in his right foot during a preseason workout. Surgery followed the next day. The best high school player in America, the McDonald's All-American Game MVP, the centerpiece of Scheyer's first recruiting class, was in a boot before he ever wore a Duke uniform in a game.\nHe missed the first four games of the season. He made his debut on November 18 against Delaware, scoring six points in 16 minutes off the bench. He would miss four more games later in the season with a lower leg injury. The injuries defined his freshman year — not because he was bad when he played, but because he was never fully himself.\nWhen healthy, Whitehead showed exactly why he had been the top-ranked recruit. He appeared in 28 games, starting seven, and averaged 8.3 points, 2.4 rebounds, and 1.0 assists in 20.6 minutes per game. He shot 42.1 percent from the field and 42.9 percent from three-point range — the fifth-best three-point percentage by a Duke freshman in program history. On December 10, he scored 15 points in his first career start, an 82-55 win over Maryland Eastern Shore that marked the first time Duke started five freshmen in program history. On January 7, he scored a career-high 18 points against Boston College, going 4-for-8 from beyond the arc. By mid-February, he had scored in double figures in eight of eleven games, and the three-point shot that had been inconsistent early in the season was falling with regularity.\nThe postseason Whitehead was the best version. He scored 16 points in 19 minutes in the ACC Tournament semifinal against Miami. He logged four steals in the ACC title game win over Virginia — the most by any Duke player in a game all season. In the NCAA Tournament, he went 13 points on 5-for-7 shooting against Oral Roberts, then played a career-high 33 minutes against Tennessee in the second-round loss, posting 8 points with two blocks. Duke finished 27-9, an ACC Tournament championship in Scheyer's first season, but a second-round exit that left the freshmen wanting more.\nWhitehead declared for the NBA Draft in April 2023. His stock had fallen from projected lottery pick to a likely mid-first-rounder, largely because of the injuries. But the talent was never in question.",
+        "after": "The Brooklyn Nets selected Whitehead with the 22nd overall pick in the 2023 NBA Draft. He signed a four-year rookie-scale contract worth approximately $14.7 million. The selection made him the second Blue Devil from Scheyer's first class to be drafted, after Lively went 12th to Dallas.\nThen the injuries followed him to the pros. Whitehead made his NBA debut on November 25, 2023, against the Miami Heat, scoring his first professional point on a free throw. He appeared in just two games as a rookie before undergoing surgery in January 2024 to address a stress reaction in his left shin — a different injury from the right foot that had plagued him at Duke. The surgery ended his rookie season. He was assigned to the Long Island Nets, Brooklyn's G League affiliate, where he averaged 9.0 points and 3.0 rebounds in 13 games and helped Long Island reach the Eastern Conference Finals.\nHis second season, 2024-25, was a split existence — shuttling between Brooklyn and Long Island, never establishing a consistent role with either. He appeared in 20 games for the Nets, averaging 5.7 points and 1.5 rebounds in 12.3 minutes, shooting an encouraging 44.6 percent from three. He scored a career-high 18 points in one game. He scored 17 against the Timberwolves in another. But the flashes were separated by injuries, assignments, and a Brooklyn franchise that was stockpiling young talent faster than it could develop it.\nOn October 13, 2025, the Nets waived Dariq Whitehead. He was twenty-one years old with 22 career NBA games, a $3.26 million guaranteed salary that Brooklyn ate to clear the roster spot, and a body that had betrayed him at every level since that August day before his freshman year at Duke.",
+        "now": "Four days after the Nets released him, the Oklahoma City Thunder signed Whitehead to an Exhibit 10 contract, then waived him the next day to acquire his G League rights. He joined the OKC Blue for the 2025-26 season — the G League affiliate of the defending NBA champions.\nWalking into G League Media Day, Whitehead refused to call it a demotion. He is twenty-one years old. He was the best high school basketball player in America three years ago. He shot 42.9 percent from three at Duke and 44.6 percent from three in his limited NBA minutes. The shooting has never been the problem. The body has been the problem — a right foot fracture before college, a left shin stress reaction in his first NBA season, a right knee issue that limited him in his second.\nThe OKC Blue is not the Brooklyn Nets, and the G League is not the NBA. But the Thunder's developmental pipeline is the best in basketball, and Whitehead is only three years removed from being named the Naismith High School Player of the Year.\nHis brother Tahir played ten NFL seasons despite being a seventh-round pick. The Whiteheads know something about outlasting expectations and timelines. Dariq left Newark at thirteen to chase basketball in Florida. He committed to Duke on his seventeenth birthday. He was drafted at eighteen. He was waived at twenty-one. The math says he has time. The injuries say nothing is guaranteed. The talent — the McDonald's All-American MVP talent, the 42.9 percent from three at Duke talent — says the story is not over."
+      },
       "seasons": [
         "2022-23"
       ],
-      "nba": null,
-      "sources": [],
+      "nba": {
+        "drafted": "2023 R1 Pick 22",
+        "careerYears": "2023-25",
+        "teams": [
+          {
+            "team": "Brooklyn Nets",
+            "seasons": [
+              "2023-24",
+              "2024-25"
+            ]
+          },
+          {
+            "team": "OKC Blue (G League)",
+            "seasons": [
+              "2025-26"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Dariq Whitehead — Duke Athletics Bio (2022-23)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/dariq-whitehead/18356"
+        },
+        {
+          "title": "Dariq Whitehead — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dariq_Whitehead"
+        },
+        {
+          "title": "Dariq Whitehead — NBA.com Bio",
+          "url": "https://www.nba.com/player/1641727/dariq-whitehead/bio"
+        },
+        {
+          "title": "Duke recruit Dariq Whitehead named SI Player of the Year — Sports Illustrated",
+          "url": "https://www.si.com/college/2022/04/14/dariq-whitehead-si-all-american-player-of-the-year-duke-2022"
+        },
+        {
+          "title": "Duke lands five-star Dariq Whitehead — CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/news/college-basketball-recruiting-duke-lands-five-star-dariq-whitehead-the-no-6-player-in-the-class-of-2022/"
+        },
+        {
+          "title": "Duke signee Whitehead goes off for 31 in No. 1 vs No. 2 — 247Sports",
+          "url": "https://247sports.com/college/duke/Article/dariq-whitehead-duke-blue-devils-basketball-recruiting-montverde-vs-img-177228496/"
+        },
+        {
+          "title": "Dariq Whitehead hopes to revitalize NBA career on OKC Blue — Yahoo Sports",
+          "url": "https://sports.yahoo.com/article/dariq-whitehead-hopes-revitalize-nba-010114889.html"
+        },
+        {
+          "title": "Thunder Sign Dariq Whitehead To Exhibit 10 Deal — Hoops Rumors",
+          "url": "https://www.hoopsrumors.com/2025/10/thunder-sign-dariq-whitehead.html"
+        },
+        {
+          "title": "Landing Spots for Waived Nets Wing Dariq Whitehead — SI",
+          "url": "https://www.si.com/nba/nets/onsi/news/landing-spots-for-recently-waived-nets-wing-dariq-whitehead"
+        },
+        {
+          "title": "Duke offers Montverde wing Dariq Whitehead — Zagsblog",
+          "url": "https://www.zagsblog.com/2021/06/09/duke-offers-class-of-2022-montverde-academy-wing-dariq-whitehead/"
+        }
+      ],
       "hometown": "Newark, NJ",
       "jersey": "0",
       "highSchool": "Montverde Academy",
       "rsci": "1",
       "weight": "220",
-      "dob": "2004-08-14",
-      "twitter": "DariqWhitehead"
+      "dob": "2004-08-01",
+      "twitter": "DariqWhitehead",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Pediatric Cancer Research Foundation",
+        "label": "PCRF",
+        "description": "Dariq Whitehead has volunteered as part of fundraising campaigns for pediatric cancer research and has donated his time as a basketball coach to special-needs children.",
+        "url": "https://www.pcrf-kids.org/donate",
+        "isDefault": false
+      }
     },
     {
       "id": "jacob_grandison",
@@ -16192,27 +16358,89 @@
       "name": "Jaden Schutt",
       "pos": "Guard",
       "years": "2022–24",
-      "classOf": "",
+      "classOf": "2022",
       "height": "6'5\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "tagline": "17 threes in a game at fifteen, 14 games in two years at Duke, 599 days without basketball — then Virginia Tech.",
+      "status": "done",
+      "now": "RS-Junior at Virginia Tech; 8.9 PPG, .408 3PT% in 2025-26; led Hokies in 3PM and minutes in 2024-25",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "14 games at Duke • 2.1 PPG • 7-for-20 from three • Illinois state record: 17 threes in a single game",
+      "bio": {
+        "road": "Jaden Schutt set the Illinois state record for three-pointers in a game on December 13, 2019. He was a sophomore at Yorkville Christian, a tiny Class 1A school in the western suburbs of Chicago, and he drained 17 threes against Universal — shattering a record that had stood since 1993. The number is almost absurd. Seventeen. In one game. He was fifteen years old.\nSchutt was born on April 20, 2003, in Aurora, Illinois, and grew up in Yorkville, about fifty miles southwest of Chicago. His father Jeff raised him on tapes of JJ Redick's shooting form. Jaden would sit in the basement with his brothers and study the release, the footwork, the way Redick moved without the ball. Duke was the dream before he was old enough to understand what a dream cost.\nAt Yorkville Christian, Schutt was a four-year starter under coach Aaron Sovern. He averaged 26.2 points, 7.9 rebounds, 3.9 assists, and 3.6 steals as a junior. As a senior, he averaged 24.6 points and 6.3 rebounds, shooting 52 percent from the field, and led Yorkville Christian to the Class 1A state championship. He finished his career with over 1,400 points and 217 three-pointers in three full seasons. He was named the Illinois Gatorade Player of the Year. On the AAU circuit with the Illinois Wolves, he led the team to the Under Armour Association 17U championship in the summer of 2021, and his national ranking began to catch up with what Illinois coaches already knew.\nThe Duke connection was personal. Jon Scheyer, assembling his first recruiting class as head coach, had been the last great Illinois high school basketball star to play at Duke — a McDonald's All-American from Glenbrook North who led the Blue Devils to a national championship in 2010. Now here was another Illinois kid, another shooter, another kid who had grown up watching Duke and dreaming about Cameron Indoor. \"He said that Jaden reminded him a lot of himself,\" Jeff Schutt told the Chicago Sun-Times, \"and that he could help Jaden avoid a lot of the pitfalls.\"\nSchutt committed on September 2, 2021, choosing Duke over Michigan State, Illinois, Iowa, and Florida. He was the third member of Scheyer's first class, joining Kyle Filipowski and Dariq Whitehead. \"It's an honor to be a part of this class; the belief he has in me is real,\" Schutt said. \"They've had some great shooters and know how to utilize those shooters. They have had a lot of players like me that have gone through Duke that have had a lot of success, both in college and the NBA.\"\nOn signing day, surrounded by family and teammates, Schutt said what Scheyer had said sixteen years earlier: \"It's always been a dream of mine to play at Duke.\" ",
+        "duke": "The reality of Duke in 2022-23 was that Schutt arrived as the lowest-ranked member of the number-one recruiting class in the country, a four-star shooter walking into a roster full of five-star lottery picks. Dereck Lively II, Dariq Whitehead, Kyle Filipowski, and Mark Mitchell commanded the attention. Tyrese Proctor had reclassified to join a year early. Jeremy Roach was the returning captain. Schutt was the guy everyone liked but nobody needed.\nHe appeared in 14 games as a freshman, averaging 2.1 points in 7.0 minutes per contest. He went 7-for-20 from three-point range — a 35 percent clip that, on low volume, told you very little about whether he could shoot at this level. His best game came against Maryland Eastern Shore, when he connected on all three of his three-pointers for nine points, five rebounds, and an assist in 19 minutes. He scored his first ACC basket on a three-pointer against NC State. He played eight minutes in the ACC Tournament quarterfinal against Pittsburgh.\nIt was not nothing. But it was not what anyone had imagined when they watched him drain 17 threes in a high school game.\nThen came the knee. In the fall of 2023, before his sophomore season, Schutt tore his meniscus. Scheyer announced the redshirt in November, telling reporters: \"He has a long journey ahead of him. I love Jaden, and I'm going to keep private for now.\" Schutt underwent left knee surgery and spent the entire 2023-24 season in street clothes, watching Duke go 27-9 and reach the Elite Eight without him.\nWhen the season ended and Cooper Flagg, Kon Knueppel, and Khaman Maluach arrived for 2024-25, the path to minutes vanished. Schutt entered the transfer portal in April 2024 — the fourth of what would become seven Duke departures that spring. His statement was generous: \"Forever grateful for my time in Durham. I appreciate Coach Scheyer for giving me an opportunity to be a part of his first ever recruiting class. Duke is a special place and I have nothing but good things to say about the place I have called home for the last two years.\"\nDuke Basketball Report noted something: none of the departing players' statements appeared to be written by the program. Yet every single one praised Scheyer and Duke. \"We hate to see them leave,\" DBR wrote, \"but how cool is that?\" ",
+        "after": "Virginia Tech's Mike Young called. Even with a cast on Schutt's leg and hand — he was still recovering from the knee surgery — Young saw the potential. Schutt committed to the Hokies on May 11, 2024, staying in the ACC.\n\"I had no doubt in my mind that I wanted to be in Blacksburg,\" Schutt wrote in a piece he titled \"599 Days.\" The number referred to the gap between his last game action in March 2023 and his Virginia Tech debut in November 2024 — five hundred and ninety-nine days without competitive basketball. \"Having basketball taken away in an instant makes you understand what a privilege it is to be out there on the court.\"\nWhen he finally suited up on November 4, 2024, against Delaware State, Schutt was a different player. He led the Hokies in minutes played (839) and three-pointers made (57) in 2024-25, averaging 7.7 points and 2.8 rebounds while shooting 35.6 percent from beyond the arc. He reached double figures twelve times. His career high of 20 points came against Syracuse on 6-for-7 shooting. He scored 17 against NC State, hitting clutch free throws to seal the win — the kind of moment that never came at Duke because the minutes never came at Duke.\nHe announced his return to Virginia Tech for the 2025-26 season, his redshirt junior year.",
+        "now": "In his second season in Blacksburg, Schutt is averaging 8.9 points per game through 22 games, shooting 40.8 percent from three — by far the best mark of his career and a validation of the shooting talent that had been obvious since he was fifteen years old draining 17 threes in a single game at Yorkville Christian. Virginia Tech is 16-6. Schutt is a starter. He plays thirty-plus minutes regularly. He is, finally, a featured player.\nThe story of Jaden Schutt at Duke is the story of what happens when you are very good at one thing — shooting — and you arrive at a school where five other players are very good at everything. He played 14 games. He redshirted a season. He never complained. He left with gratitude and class. And now, at Virginia Tech, he is doing exactly what he always could have done: spacing the floor, draining threes, leading a team.\nHis father Jeff used to play tapes of JJ Redick in the basement. Scheyer said Schutt reminded him of himself. Both comparisons were about the same thing — the craft of shooting, the discipline of repetition, the belief that if you can get open, you can change a game. Schutt needed 599 days and a transfer to prove it. He is proving it now."
+      },
       "seasons": [
         "2022-23",
         "2023-24"
       ],
       "nba": null,
-      "sources": [],
+      "sources": [
+        {
+          "title": "Jaden Schutt — Duke Athletics Bio (2023-24)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/jaden-schutt/19451"
+        },
+        {
+          "title": "Yorkville Christian's Jaden Schutt commits to Duke — Chicago Sun-Times",
+          "url": "https://chicago.suntimes.com/2021/9/2/22652216/jaden-schutt-duke-yorkville-christian-basketball"
+        },
+        {
+          "title": "Jaden Schutt spent years dreaming of Duke, just like Scheyer — Chicago Sun-Times",
+          "url": "https://chicago.suntimes.com/2021/11/10/22775046/jaden-schutt-duke-yorkville-christian-signing-day"
+        },
+        {
+          "title": "Jaden Schutt 2022 4-star commits to Duke — On3",
+          "url": "https://www.on3.com/news/jaden-schutt-2022-4-star-commits-to-duke/"
+        },
+        {
+          "title": "Duke guard Jaden Schutt to enter transfer portal — On3",
+          "url": "https://www.on3.com/college/duke-blue-devils/news/duke-guard-jaden-schutt-former-4-star-to-enter-transfer-portal/"
+        },
+        {
+          "title": "Jaden Schutt enters portal, commits to Virginia Tech — Duke Chronicle",
+          "url": "https://www.dukechronicle.com/article/2024/04/duke-mens-basketball-guard-jaden-schutt-transfers-jon-scheyer-christian-reeves-portal-virginia-tech"
+        },
+        {
+          "title": "Report: Jaden Schutt Enters The Transfer Portal — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2024/4/15/24131440/jaden-schutt-transfer-portal-duke-basketball-jon-scheyer-mark-mitchell-jaylen-blakes-christian-reeve"
+        },
+        {
+          "title": "Jaden Schutt On Why He Left Duke For Virginia Tech — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2024/5/18/24159557/jaden-schutt-transfer-duke-basketball-virginia-tech-chicago-tribune-hunter-cattoor-sean-pedulla-acc"
+        },
+        {
+          "title": "Hokie Spotlight: Jaden Schutt — Virginia Tech Athletics",
+          "url": "https://hokiesports.com/news/2024/12/20/virginia-tech-mens-basketball-hokie-spotlight-jaden-schutt"
+        },
+        {
+          "title": "Jaden Schutt — Virginia Tech Athletics Bio (2025-26)",
+          "url": "https://hokiesports.com/sports/mens-basketball/roster/player/jaden-schutt"
+        },
+        {
+          "title": "Jaden Schutt Announces Return to Virginia Tech — SI",
+          "url": "https://www.si.com/college/virginiatech/virginia-tech-basketball-jaden-schutt-announces-return-to-virginia-tech-for-the-2025-26-season-01jr8ztfpz44"
+        },
+        {
+          "title": "Jaden Schutt — Sports-Reference.com",
+          "url": "https://www.sports-reference.com/cbb/players/jaden-schutt-1.html"
+        }
+      ],
       "hometown": "Yorkville, IL",
       "jersey": "14",
       "highSchool": "Yorkville Christian",
       "rsci": "59",
       "weight": "185",
-      "dob": "2004-04-10",
-      "twitter": "JadenSchutt"
+      "dob": "2003-04-20",
+      "twitter": "JadenSchutt",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "christian_reeves",
@@ -16367,29 +16595,61 @@
       "era": "scheyer",
       "name": "Neal Begovich",
       "pos": "Forward",
-      "years": "2022–25",
-      "classOf": "",
+      "years": "2023–25",
+      "classOf": "2023",
       "height": "6'9\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "tagline": "Three brothers, two programs, one family — the San Francisco walk-on who followed his brother's coaching career to Durham.",
+      "status": "done",
+      "now": "Graduate student at Duke; walk-on forward across two seasons (2023-25); brother Daniel is a Duke coaching staff GA",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "~20 games at Duke • 0.7 PPG career • 36 career college games (Stanford + Duke) • 1 career three-pointer",
+      "bio": {
+        "road": "The Begovich family tree reads like a Bay Area basketball genealogy. Dan Begovich played at the University of California in the 1970s. His sons Daniel and Joseph both played at Stanford. Daniel then became a graduate assistant on Jon Scheyer's coaching staff at Duke. And Neal — the youngest, the tallest at 6-foot-9, the one who grew up watching his brothers suit up for the Cardinal — followed his own path through the same Bay Area gyms before ending up in Durham too, though by a route nobody would have predicted.\nNeal Begovich graduated from St. Ignatius College Prep in San Francisco in 2019, a Jesuit school with a basketball tradition that punches well above its enrollment. He was named to the San Francisco Chronicle All-Metro team, the Bay Area News Group All-Area team, and the San Francisco Examiner All-City team as a senior. He was the MVP of the San Francisco City Basketball All-Star Game and was selected to the Bay Area squad for the All-NorCal Games. He helped lead St. Ignatius to the West Catholic Athletic League title as a junior. On the AAU circuit, he played for the Oakland Soldiers, one of Northern California's premier grassroots programs.\nHe was not a ranked recruit. He was not a four-star or a three-star. He walked on at Stanford, following his brothers into the Cardinal program, and spent four years in Palo Alto trying to turn work ethic into opportunity.",
+        "duke": "At Stanford, Begovich appeared in just 15 games across four seasons. He redshirted as a freshman. He totaled 16 career points on 14 field goal attempts — a stat line so spare it almost looks like a typo. As a junior in 2022-23, he started two games and grabbed nine rebounds in eight appearances, his most productive season. He earned a scholarship after arriving as a walk-on, which in the context of Stanford basketball is its own kind of achievement.\nThen his brother Daniel, already embedded on Scheyer's staff as a graduate assistant, helped facilitate a connection. In May 2023, Begovich transferred to Duke as a walk-on — tweeting \"My Next Chapter: The Brotherhood\" with a blue devil emoji. Duke Basketball Report was honest about the move: \"No offense to anyone, but when Neal Begovich transferred from Stanford to Duke, we didn't get it.\" The general consensus was that he would be a practice body, not a game contributor. But DBR also noted: \"A practice player can have an incredible impact on a team.\"\nThe Duke Chronicle's preview compared him to previous walk-on transfers like Max Johns from Princeton and Kale Catchings from Harvard — veteran presences who would never headline a box score but whose leadership and maturity shaped a locker room full of freshmen. \"He will play behind the likes of sophomore Mark Mitchell and freshmen Sean Stewart and TJ Power,\" the Chronicle wrote. \"Tragedy would have to strike for Begovich to be a role player on the squad.\"\nTragedy did not strike, and Begovich was not a role player. In 2023-24, he made his Duke debut against Dartmouth — two minutes, one rebound. He logged a season-high four minutes against Bucknell. He scored his first Duke points on two made free throws at Miami. In 2024-25, alongside Cooper Flagg and Kon Knueppel, he tallied field goals against Cal Poly and Green Bay and secured a career-best three rebounds against Washington. Across two seasons in Durham, he appeared in roughly twenty games, almost always in the final minutes of decided contests.\nHis career stat line at Duke, combined with Stanford: 36 games, 0.7 points per game, 0.7 rebounds per game. He made one three-pointer in his entire college career.",
+        "now": "Neal Begovich is a basketball player in the same way that Stanley Borden is a basketball player — the stat line is almost beside the point. His father played at Cal. His brothers played at Stanford. His brother coached at Duke. He walked on at Stanford, earned a scholarship, transferred to Duke, and spent two years practicing against players who will be in the NBA. He has a degree from Stanford and graduate work at Duke. He was part of an ACC Tournament championship team and an Elite Eight team as a freshman, and then part of a team that went 32-3 and won the ACC regular-season title in his senior year.\nThe Brotherhood has room for the walk-ons who carry water, set culture, and make the stars better in practice. Begovich was that player at two of the most prestigious basketball programs in the country — first at Stanford, then at Duke. Three Begovich brothers played college basketball. Two of them played at Stanford. One of them coached at Duke. And the youngest, the 6-foot-9 kid from St. Ignatius Prep who was never ranked by anyone, played at both."
+      },
       "seasons": [
-        "2022-23",
         "2023-24",
         "2024-25"
       ],
       "nba": null,
-      "sources": [],
+      "sources": [
+        {
+          "title": "Neal Begovich — Duke Athletics Bio (2024-25)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/neal-begovich/20751"
+        },
+        {
+          "title": "Duke men's basketball 2023-24 player preview: Neal Begovich — Duke Chronicle",
+          "url": "https://www.dukechronicle.com/article/2023/10/duke-mens-basketball-2023-2024-player-preview-neal-begovich"
+        },
+        {
+          "title": "Former Stanford forward Neal Begovich commits to Duke — On3",
+          "url": "https://www.on3.com/transfer-portal/news/former-stanford-forward-neal-begovich-commits-to-duke/"
+        },
+        {
+          "title": "The Chronicle Zooms In On This Year's Only Transfer Into Duke — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2023/7/5/23784090/the-chronicle-stanford-cardinal-transfer-neal-begovich-duke-basketball-jon-scheyer"
+        },
+        {
+          "title": "Neal Begovich — Sports-Reference.com",
+          "url": "https://www.sports-reference.com/cbb/players/neal-begovich-1.html"
+        }
+      ],
       "hometown": "San Francisco, CA",
       "jersey": "20",
       "highSchool": "St. Ignatius College Prep",
       "rsci": "",
       "weight": "225",
-      "dob": null,
-      "twitter": ""
+      "dob": "",
+      "twitter": "",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "ifeanyi_ufochukwu",
@@ -16784,27 +17044,93 @@
       "era": "scheyer",
       "name": "TJ Power",
       "pos": "Forward",
-      "years": "2024–25",
-      "classOf": "",
-      "height": "6'8\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "years": "2023–24",
+      "classOf": "2023",
+      "height": "6'9\"",
+      "tagline": "From Duke's bench to 44 points in the Ivy League championship — the five-star who found his stage.",
+      "status": "done",
+      "now": "Junior at Penn; 16.4 PPG, 7.6 RPG; All-Ivy 2025-26; Ivy League Tournament MVP; NCAA Tournament (14-seed)",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "26 games at Duke • 2.1 PPG in 6.7 MPG • Now 16.4 PPG at Penn • 44 pts in Ivy League title game",
+      "bio": {
+        "road": "TJ Power and his father Tom used to search out empty gyms at night in Worcester, Massachusetts, to shoot hoops. At Worcester Academy, the Shrewsbury teenager would gather teammates for late Friday and Saturday night shootarounds in Daniels Gymnasium, supervised by Tom. The court was the family church. Tom had played quarterback at Westborough and later with the Marlboro Shamrocks in the Eastern Football League. Tom's brother Mike played quarterback at Boston College, where their uncle Frank Power was such a revered assistant coach that BC named its gym after him. TJ's maternal grandfather, Tom McHugh, played basketball at Saint Bonaventure. Sport was the family language.\nTJ Power was born on December 14, 2003 — the same birthday, incidentally, as Christian Reeves, the Duke center he would later be recruited alongside. He grew up in Shrewsbury, a suburb west of Worcester, and starred at St. John's High School as a freshman and sophomore, averaging 18.1 points and leading the team to the Massachusetts Division I state semifinals. When COVID-19 shut down his junior season, Power reclassified and transferred to Worcester Academy, where coach Jamie Sullivan had been watching him since middle school. \"I always kept my eye on him,\" Sullivan said, \"and I always knew that he would come to Worcester Academy. It just depended on when.\"\nThe when turned out to be transformative. As a junior at Worcester, Power won the Massachusetts Gatorade Player of the Year award, averaging 13.1 points, 7.2 rebounds, 2.7 assists, and 1.5 steals per game. He dropped 26 points and 11 boards in an 85-83 title-game victory over Bradford Christian Academy to win the NEPSAC Class AA championship, earning tournament MVP. As a senior, he led Worcester to a second consecutive NEPSAC title while averaging 23.7 points and shooting 45 percent from three in the final Nike EYBL session in Kansas City — including a 41-point, 15-rebound, 5-assist eruption against Houston Hoops that turned him from a four-star prospect into a five-star one.\nHe was also a standout baseball pitcher — 1.69 ERA, 31 strikeouts, just three walks across 20.2 innings, winning a CNEPSBL championship with Worcester Academy in May 2023. Duke's staff told him both programs would welcome him.\nPower committed to Duke on September 7, 2022, announcing on the same Worcester Academy court where he and Tom had spent all those late nights. \"Ever since I was little, I wanted to play on the biggest stage in college, and Duke is the biggest stage,\" he said. He chose the Blue Devils over North Carolina, Virginia, Iowa, Boston College, and Notre Dame, becoming the fifth and final member of Scheyer's top-ranked 2023 recruiting class — joining Caleb Foster, Jared McCain, Mackenzie Mgbako, and Sean Stewart. Sullivan, his prep coach, saw it coming: \"He never got down when he scored six points and eight rebounds and seven assists, and we won. That's TJ, the consummate teammate.\"\nHere is the detail that makes the story ache: Virginia was in his final group of schools. He chose Duke over Virginia. Two years later, he would transfer to Virginia. Two years after that, he would leave Virginia too.",
+        "duke": "TJ Power arrived at Duke in the fall of 2023 as a five-star forward walking into a roster loaded with five-star forwards. Kyle Filipowski was the reigning ACC Rookie of the Year. Mark Mitchell was a returning lottery-level talent. Jeremy Roach was back for a fifth-year victory lap. Jared McCain and Caleb Foster — Power's Worcester Academy teammate — were the headline freshmen. Power was the fifth commit in a five-man class, the lowest-ranked member, and the one without a clear path to the rotation.\nHe played 26 of Duke's 36 games. He averaged 2.1 points in 6.7 minutes per contest, shooting 33.3 percent from the field and 35.7 percent from three. His season high was nine points against La Salle, when he went 3-for-4 from beyond the arc in five minutes — a five-minute window that showed exactly what he could be if the leash were longer. He scored seven points against North Carolina in the regular-season finale, his best ACC performance. He played a career-high 16 minutes at Georgia Tech.\nBut the minutes were never consistent, and the role never expanded. Duke went 27-9, won an ACC Tournament game, reached the Elite Eight, and lost to NC State with a Final Four berth on the line. Power did not play in either of the final two NCAA Tournament games. He watched from the bench in a suit as Duke's season ended.\nThe thing that coaches and teammates noticed was the work. Matt Giles of SI documented a scene from February 2024: after every home game, when the media had cleared out and Scheyer had finished his press conference, Power was the player still on the court, alone, draining threes. Giles watched him go 9-for-10 one night. The talent was obvious. The opportunity was not.\nIn April 2024, with Cooper Flagg, Kon Knueppel, and Khaman Maluach arriving, Power entered the transfer portal. His goodbye was gracious: \"This past year in Durham has been one of the best years of my life and I'm forever grateful for all the great relationships that I've built here. Duke will always have a place in my heart, but it's time to do what is best for me.\" He was the first of seven Blue Devils to leave that spring. He had three years of eligibility remaining and a silky three-point stroke that every coach in America knew was underutilized.",
+        "after": "Power committed to Virginia — the school he had chosen Duke over two years earlier. The irony was sharp enough to draw blood. But before he played a single game for the Cavaliers, Tony Bennett, one of the most respected coaches in college basketball and the architect of Virginia's 2019 national championship, shocked the sport by retiring in October 2024.\nPenn assistant coach Tristan Spurlock captured the absurdity of Power's journey in a single exchange. When Power signed, Spurlock called him: \"I was Tony Bennett's first recruit at Virginia.\" Power laughed and replied: \"Well, I was Tony Bennett's last recruit.\"\nUnder new coach Ron Sanchez, Power appeared in 24 games, including five starts, but averaged just 1.3 points and 1.0 rebounds per game. The production was even thinner than Duke — fewer minutes, fewer shots, a program in transition under a first-year staff. His best game was five points against Villanova. He went 8-for-8 from the free throw line all season, proving he could shoot but never getting the chance to prove it consistently.\nAfter the season, Power entered the transfer portal for a second time. Two blue-blood programs, two seasons, a combined 3.4 minutes per game worth of opportunity. The five-star label felt like a relic from another life.\nThen Fran McCaffery called. The former Iowa coach had just taken over at Penn, his alma mater, and he had been tracking Power since his junior year at Worcester Academy. \"When he called me and told me he was coming,\" McCaffery told Hoops HQ, \"I said, 'Okay, we can win this league.'\" ",
+        "now": "Forty-four points. Fourteen rebounds. Seven three-pointers. Nine-for-nine from the free throw line. Two threes in the final seven seconds of regulation to force overtime. Ivy League Tournament MVP. A record for the most points scored in the tournament's eight-year history.\nThat was TJ Power on March 15, 2026, carrying Penn past top-seeded Yale 88-84 in overtime to send the Quakers to the NCAA Tournament for the first time since 2018. He scored half of Penn's points. His teammate Cam Thrower said Power was in a \"flow state.\" McCaffery's preseason prophecy — \"we can win this league\" — came true on the back of the kid who averaged 2.1 points at Duke.\n\"I want to credit God first,\" Power said afterward. \"This year, my journey at Penn's been a faith journey as much as anything else. I let go of that attachment to performance, or anything like that, and he delivered.\"\nIn his first season as a Quaker, Power led the Ivy League in minutes played (35.0 per game) and three-point accuracy (42.7 percent) while averaging 16.4 points and 7.6 rebounds — numbers that earned him All-Ivy honors and, ultimately, tournament MVP. He made up for two years of sitting by never sitting again.\nPenn drew No. 3 Illinois as a 14-seed in the NCAA Tournament South Regional. Power was battling illness in the days before the game, unable to speak to media at open practice. But the story by then had written itself: from the number-one recruiting class in the country to 6.7 minutes a game to the transfer portal twice to 44 points in a championship game.\nHis Worcester Academy coach Sullivan said it best, years before any of this happened, explaining why Power would thrive wherever he landed: \"He never got down.\" Power said it his own way, standing on that gym floor in Shrewsbury at age eighteen, committing to Duke: \"I'm about to be that one in a million.\" It just took three schools, two transfers, and a faith journey to get there."
+      },
       "seasons": [
-        "2024-25"
+        "2023-24"
       ],
       "nba": null,
-      "sources": [],
+      "sources": [
+        {
+          "title": "TJ Power — Duke Athletics Bio (2023-24)",
+          "url": "https://goduke.com/sports/mens-basketball/roster/tj-power/19456"
+        },
+        {
+          "title": "Duke is the pick for Worcester Academy star TJ Power — Boston Globe",
+          "url": "https://www.bostonglobe.com/2022/09/07/sports/duke-is-pick-worcester-academy-basketball-star-tj-power/"
+        },
+        {
+          "title": "From Worcester Academy to Duke, TJ Power and Oluchi Okananwa — Duke Chronicle",
+          "url": "https://www.dukechronicle.com/article/2024/03/duke-mens-womens-basketball-ncaa-tournament-oluchi-okananwa-tj-power-worcester-academy"
+        },
+        {
+          "title": "TJ Power commits to Duke — CBS Sports",
+          "url": "https://www.cbssports.com/college-basketball/news/duke-basketball-recruiting-four-star-pf-tj-power-commits-to-blue-devils-top-ranked-2023-class/"
+        },
+        {
+          "title": "TJ Power Gatorade Player of the Year — Massachusetts",
+          "url": "https://playeroftheyear.gatorade.com/winner/tj-power/39014"
+        },
+        {
+          "title": "Blueblood Program Contacts Duke Freshman TJ Power — SI",
+          "url": "https://www.si.com/college/duke/blueblood-contacts-basketball-tj-power-4-24"
+        },
+        {
+          "title": "TJ Power commits to Virginia — On3",
+          "url": "https://www.on3.com/news/former-duke-forward-tj-power-commits-virginia-basketball/"
+        },
+        {
+          "title": "TJ Power — Virginia Cavaliers Official Bio",
+          "url": "https://virginiasports.com/player/tj-power/"
+        },
+        {
+          "title": "After Stops at Duke and Virginia, TJ Power Finds a Home at Penn — Hoops HQ",
+          "url": "https://www.hoopshq.com/mid-majors/tj-power-penn-ncaa-tournament"
+        },
+        {
+          "title": "TJ Power drops 44 to lead Penn over Yale in Ivy final — ESPN",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/48216037/tj-power-drops-44-lead-penn-yale-ivy-final"
+        },
+        {
+          "title": "Penn men's basketball upsets Yale in Ivy Madness final — Daily Pennsylvanian",
+          "url": "https://www.thedp.com/article/2026/03/penn-mens-basketball-win-ivy-league-tournament-2026-tj-power"
+        },
+        {
+          "title": "Penn wins Ivy League tourney — Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/college-sports/penn/tj-power-ncaa-basketball-tournament-ivy-league-championship-20260315.html"
+        },
+        {
+          "title": "TJ Power — Sports-Reference.com",
+          "url": "https://www.sports-reference.com/cbb/players/tj-power-2.html"
+        }
+      ],
       "jersey": "12",
       "hometown": "Shrewsbury, MA",
       "highSchool": "Worcester Academy",
       "rsci": "21",
       "weight": "216",
-      "dob": "2005-12-02",
-      "twitter": "tjpower_"
+      "dob": "2003-12-14",
+      "twitter": "TJPower14",
+      "lastUpdated": "2026-03-23",
+      "charity": {
+        "name": "Emily Krzyzewski Center",
+        "label": "Emily K Center",
+        "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
+        "url": "https://www.emilyk.org/donate",
+        "isDefault": true
+      }
     },
     {
       "id": "sion_james",
