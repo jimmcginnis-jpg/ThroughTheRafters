@@ -220,7 +220,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "taylor_v",
@@ -298,7 +301,10 @@
         "isDefault": true
       },
       "dob": "1960-09-11",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "engelland",
@@ -387,7 +393,10 @@
         "isDefault": true
       },
       "dob": "1961-05-09",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dawkins",
@@ -501,12 +510,26 @@
       "twitter": "Coach_Dawkins",
       "allAmerican": [
         {
-          "year": 1985,
-          "team": 1
+          "season": "1984-85",
+          "team": "First"
         },
         {
-          "year": 1986,
-          "team": 1
+          "season": "1985-86",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "1985-86",
+          "awards": [
+            "Naismith"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "1985-86"
         }
       ]
     },
@@ -606,7 +629,15 @@
         "isDefault": true
       },
       "dob": "1963-12-11",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": [
+        {
+          "season": "1985-86",
+          "team": "First"
+        }
+      ]
     },
     {
       "id": "bilas",
@@ -697,7 +728,10 @@
         "isDefault": true
       },
       "dob": "1963-12-24",
-      "twitter": "JayBilas"
+      "twitter": "JayBilas",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "henderson_d",
@@ -779,7 +813,10 @@
         "isDefault": true
       },
       "dob": "1964-07-21",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "amaker",
@@ -878,7 +915,10 @@
         "isDefault": true
       },
       "dob": "1965-06-29",
-      "twitter": "TommyAmaker"
+      "twitter": "TommyAmaker",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "nessley",
@@ -960,7 +1000,10 @@
         "isDefault": true
       },
       "dob": "1965-03-10",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "king",
@@ -1042,7 +1085,10 @@
         "isDefault": true
       },
       "dob": "1966-12-27",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "smith",
@@ -1124,7 +1170,10 @@
         "isDefault": true
       },
       "dob": "1967-02-15",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tom_emma",
@@ -1155,7 +1204,10 @@
       "rsci": "",
       "weight": "185",
       "dob": "1960-09-05",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dan_meagher",
@@ -1245,7 +1297,10 @@
         "isDefault": true
       },
       "dob": "1962-11-12",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "richard_ford",
@@ -1277,7 +1332,10 @@
       "rsci": "",
       "weight": "155",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mike_tissaw",
@@ -1308,7 +1366,10 @@
       "rsci": "",
       "weight": "231",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ned_franke",
@@ -1339,7 +1400,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "doug_mcneely",
@@ -1370,7 +1434,10 @@
       "rsci": "",
       "weight": "195",
       "dob": "1962-04-07",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "gordon_whitted",
@@ -1400,7 +1467,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "allen_williams",
@@ -1430,7 +1500,10 @@
       "rsci": "",
       "weight": "220",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "kenny_dennard",
@@ -1559,7 +1632,10 @@
         "url": "https://www.cancer.org/involved/fundraise/coaches-vs-cancer.html",
         "isDefault": false
       },
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jim_suddath",
@@ -1588,7 +1664,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jay_bryan",
@@ -1619,7 +1698,10 @@
       "rsci": "",
       "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "todd_anderson",
@@ -1649,7 +1731,10 @@
       "rsci": "",
       "weight": "225",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "greg_wendt",
@@ -1678,7 +1763,10 @@
       "rsci": "",
       "weight": "205",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "loel_payne",
@@ -1707,7 +1795,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "weldon_williams",
@@ -1738,7 +1829,10 @@
       "rsci": "",
       "weight": "190",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "kevin_strickland",
@@ -1769,7 +1863,10 @@
       "rsci": "",
       "weight": "195",
       "dob": "1964-11-11",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "bill_jackman",
@@ -1800,7 +1897,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "george_burgin",
@@ -1864,7 +1964,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "rey_essex",
@@ -1893,7 +1996,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andy_berndt",
@@ -1922,7 +2028,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dave_colonna",
@@ -1951,7 +2060,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ferry",
@@ -2077,12 +2189,25 @@
       "twitter": "",
       "allAmerican": [
         {
-          "year": 1988,
-          "team": 2
+          "season": "1988-89",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "1988-89",
+          "awards": [
+            "NABC"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "1987-88"
         },
         {
-          "year": 1989,
-          "team": 1
+          "season": "1988-89"
         }
       ]
     },
@@ -2183,7 +2308,10 @@
         "isDefault": true
       },
       "dob": "1966-10-30",
-      "twitter": "QSnyder"
+      "twitter": "QSnyder",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "abdelnaby",
@@ -2297,7 +2425,10 @@
         "isDefault": true
       },
       "dob": "1968-06-24",
-      "twitter": "AlaaAbdelnaby"
+      "twitter": "AlaaAbdelnaby",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "henderson_p",
@@ -2386,7 +2517,10 @@
         "isDefault": true
       },
       "dob": "1968-07-11",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "brickey",
@@ -2552,7 +2686,10 @@
         "isDefault": true
       },
       "dob": "1967-08-20",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "laettner",
@@ -2690,12 +2827,31 @@
       "twitter": "CLaettner",
       "allAmerican": [
         {
-          "year": 1991,
-          "team": 2
+          "season": "1990-91",
+          "team": "First"
         },
         {
-          "year": 1992,
-          "team": 1
+          "season": "1991-92",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "1991-92",
+          "awards": [
+            "Sporting News",
+            "AP",
+            "Oscar Robertson",
+            "Naismith",
+            "NABC",
+            "Wooden"
+          ],
+          "consensus": true
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "1991-92"
         }
       ]
     },
@@ -2792,7 +2948,10 @@
         "isDefault": true
       },
       "dob": "1970-06-21",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "hurley",
@@ -2909,10 +3068,12 @@
       "twitter": "BobbyHurley11",
       "allAmerican": [
         {
-          "year": 1993,
-          "team": 1
+          "season": "1992-93",
+          "team": "First"
         }
-      ]
+      ],
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "hill_t",
@@ -3008,7 +3169,10 @@
         "isDefault": true
       },
       "dob": "1969-03-18",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mccaffrey",
@@ -3130,7 +3294,10 @@
         "isDefault": true
       },
       "dob": "1971-03-07",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "hill",
@@ -3272,12 +3439,14 @@
       "twitter": "RealGrantHill33",
       "allAmerican": [
         {
-          "year": 1993,
-          "team": 2
-        },
+          "season": "1993-94",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": null,
+      "accPOY": [
         {
-          "year": 1994,
-          "team": 1
+          "season": "1993-94"
         }
       ]
     },
@@ -3387,7 +3556,10 @@
         "isDefault": true
       },
       "dob": "1972-05-15",
-      "twitter": "ALang21"
+      "twitter": "ALang21",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "blakeney",
@@ -3531,7 +3703,10 @@
         "isDefault": true
       },
       "dob": "1971-08-11",
-      "twitter": "KennyBlakeney"
+      "twitter": "KennyBlakeney",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "parks",
@@ -3640,7 +3815,10 @@
         "isDefault": true
       },
       "dob": "1972-10-11",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "collins_c",
@@ -3754,7 +3932,10 @@
         "isDefault": true
       },
       "dob": "1975-01-30",
-      "twitter": "Coach_Collins"
+      "twitter": "Coach_Collins",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jon_goodman",
@@ -3783,7 +3964,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "greg_koubek",
@@ -3814,7 +3998,10 @@
       "rsci": "",
       "weight": "205",
       "dob": "1969-08-29",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "clay_buckley",
@@ -3845,7 +4032,10 @@
       "rsci": "",
       "weight": "245",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "joe_cook",
@@ -3875,7 +4065,10 @@
       "rsci": "",
       "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "crawford_palmer",
@@ -3906,7 +4099,10 @@
       "rsci": "",
       "weight": "235",
       "dob": "1969-09-21",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ron_burt",
@@ -3937,7 +4133,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "christian_ast",
@@ -3968,7 +4167,10 @@
       "rsci": "",
       "weight": "205",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "marty_clark",
@@ -3999,7 +4201,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "erik_meek",
@@ -4030,7 +4235,10 @@
       "rsci": "",
       "weight": "",
       "dob": "1973-05-14",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "kenney_brown",
@@ -4059,7 +4267,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "stan_brunson",
@@ -4091,7 +4302,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tony_moore",
@@ -4122,7 +4336,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "baker_perry",
@@ -4153,36 +4370,92 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "joey_beard",
       "slug": "joey-beard",
       "era": "dynasty1",
       "name": "Joey Beard",
-      "pos": "Center",
+      "pos": "Forward/Center",
       "years": "1993–95",
-      "classOf": "",
+      "classOf": "1998",
       "height": "6'10\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "tagline": "He outscored Grant Hill. Then the ground shifted.",
+      "status": "done",
+      "now": "Retired from professional basketball (~2008); Italian dual citizen; lives in Atlanta area",
+      "drafted": "Undrafted",
+      "stat": "16 games, 1.3 ppg — McDonald's All-American who transferred after mono derailed sophomore year",
+      "bio": {
+        "road": "Grant Hill is not the all-time leading scorer in South Lakes High School history. Joey Beard is. By exactly 110 points.\n\nThat fact — buried in the record books of a public high school in Reston, Virginia — tells you everything about the trajectory Joey Beard was on before things went sideways. Born and raised in Reston, a planned community in Fairfax County, Beard was 6-foot-3 by the time he was twelve and playing for Irvin Greene's Reston Select Seahawks in travel ball. \"He was a big old bean pole,\" Greene remembered. By his freshman year at South Lakes, head coach Wendell Byrd pulled him away from the freshman tryouts and steered him toward the varsity gym — the same path Grant Hill had walked a few years earlier. \"Wendell grabbed me and said 'no, you are over here,'\" Beard recalled. \"I had a lot more fear than excitement.\"\n\nFear gave way to dominance. Over four years, Beard racked up 2,138 career points, won two district championships and three regional titles, reached the state tournament three times, and was named Regional Player of the Year twice. As a junior, he averaged 22.5 points, 10 rebounds, 4 assists, and 2.5 blocks. As a senior, he averaged 26 points, 10 rebounds, and 5 assists, earning Virginia State Player of the Year honors — beating out, among others, a young Allen Iverson and future #1 NBA draft pick Joe Smith. He was a McDonald's All-American and a third-team Parade All-American in the class of 1993, alongside Rasheed Wallace, Jerry Stackhouse, and Jacque Vaughn.\n\nThe recruiting battle had been raging since eighth grade. Beard narrowed his choices to Duke, North Carolina, Notre Dame, and Virginia. He visited Duke, and that was it. He gave his verbal commitment and never looked back. The connection was personal: he had followed Grant Hill's path from South Lakes to Durham, and the comparison was irresistible — another long, athletic, versatile forward from Reston, heading to Coach K.",
+        "duke": "The comparison to Grant Hill was unfair from the start, and Duke's roster made it cruel. Beard arrived in the fall of 1993 as a freshman on the team that would reach the 1994 NCAA championship game — the last hurrah of the first dynasty. The forward spots were locked down by seniors Grant Hill, Antonio Lang, and Marty Clark — three experienced players on a team that went 28-6 and lost to Arkansas in the title game. Beard played 16 games, averaging 1.3 points and 0.5 rebounds in limited minutes behind three upperclassmen who had won back-to-back championships in 1991 and 1992. For a McDonald's All-American who had averaged 26 points per game in high school, it was a humbling introduction to the difference between being the best player in Virginia and being a freshman at Duke.\n\nBut the path seemed clear. Hill, Lang, and Clark were all graduating. Cherokee Parks and Erik Meek were centers, not wing forwards. Beard, entering his sophomore year, appeared to be the natural heir to the starting lineup — the McDonald's All-American who had paid his dues and was ready to step into the void left by three departing seniors. On paper, the 1994–95 season was supposed to be his.\n\nThen everything collapsed at once. Beard developed mononucleosis in the preseason and missed Duke's first three games. While he was out, Krzyzewski — who was himself battling the debilitating back pain that would sideline him for most of the season and ultimately require surgery — committed to a twin-towers lineup with Parks and Meek at the forward and center spots. Freshman Ricky Price, a top-ten recruit from the class of 1994, looked good on the wing. There was no obvious path back for a sophomore recovering from mono on a team that was unraveling in real time. Duke would go 13-18 that season — the worst record in forty years, with assistant Pete Gaudet coaching most of the games in Krzyzewski's absence.\n\n\"I really lost my confidence and I didn't think I would be able to regain it at Duke,\" Beard later told the Connection Newspapers. It was an honest and painful admission from a player who had been Virginia's best high schooler two years earlier. In December 1994, he announced his transfer. He would not travel with the team to Chicago for the Illinois game. His departure opened the 13th roster spot that a walk-on named Todd Singleton — a kid from Severn, Maryland who had seen a tryout ad in the student newspaper — would fill.\n\nThe Duke Basketball Report would later note the irony: Krzyzewski lost Beard and didn't sign anyone to replace him in the fall of 1994, managing only one recruit, center Taymon Domzalski. But Beard's departure eventually created the roster flexibility that allowed K to land Roshown McLeod as a transfer from St. John's — a move that would pay dividends for years. \"No offense to Joey Beard,\" the DBR wrote, \"but Duke clearly got an upgrade with McLeod.\"\n\nBeard's Duke career: 16 games, one season, one trip to the championship game, and a lesson in how quickly the ground can shift underneath even a McDonald's All-American.",
+        "after": "Joey Beard transferred to Boston University, sat out a year per NCAA rules, and then did exactly what the people back in Reston always knew he could do. Over three seasons with the Terriers, he scored 958 points and averaged 11.6 points per game, shooting 53.3 percent from the field — a mark that still places him fourth all-time in BU history. He earned two All-America East selections and became the program's best player, the kind of dominant force he was always meant to be.\n\nAfter going undrafted in 1998, Beard went overseas — and stayed for a decade. His European career reads like a passport stamp collection: Chorale Roanne in France (1998–99), MTV Giessen in Germany (1999–2000), then Italy, where he found a home. He played for Basket Rimini on loan from Benetton Treviso, moved to CSF Sevilla in Spain for a season, then returned to Italy for Virtus Bologna and Viola Reggio Calabria. A detour to BC Oostende in Belgium preceded his return to Benetton Treviso, where he won the 2005 Italian National Cup — a legitimate professional championship on one of Europe's most storied basketball clubs.\n\nHe played EuroLeague basketball. He earned Italian dual citizenship. He suited up for Pallacanestro Reggiana, returned to Treviso a third time, then finished with Veroli Basket around 2008. Over roughly a decade in European professional basketball, the McDonald's All-American who couldn't crack Duke's rotation became a well-traveled, well-respected professional who made a living doing what he loved in some of the most beautiful cities on the continent.",
+        "now": "When Joey Beard and his wife Elizabeth — a professional beach volleyball player and physical therapist — are in the United States, they have been based in Atlanta. Beard holds Italian dual citizenship, a souvenir from the years he spent playing in Serie A and the EuroLeague, living in Treviso and Bologna and Reggio Calabria and Seville.\n\nHis post-basketball life has been largely private. But the facts of his basketball life are remarkable enough. He outscored Grant Hill at the same high school. He was a McDonald's All-American in a class with Rasheed Wallace and Jerry Stackhouse. He beat out Allen Iverson for Virginia State Player of the Year. He went to Duke and sat behind three seniors on a championship game team, then lost his confidence, lost his health to mono, and lost his roster spot in the worst season in modern Duke history. He rebuilt himself at Boston University, went overseas, won a championship in Italy, and played professional basketball for a decade across five countries.\n\nThe kid from Reston who had more fear than excitement when Wendell Byrd pointed him toward the varsity gym found his way — just not on the path anyone had drawn for him. His departure from Duke opened a roster spot for a walk-on who would stay four years. His arrival at Boston University turned a mid-major program into a conference contender. His decade in Europe proved that the talent was always real, even if Durham wasn't the right place to show it.\n\nJoey Beard scored 2,138 points at South Lakes High School. Grant Hill scored 2,028. Some records speak for themselves."
+      },
       "seasons": [
         "1993-94",
         "1994-95"
       ],
       "nba": null,
-      "sources": [],
-      "jersey": "",
-      "hometown": "",
-      "highSchool": "",
+      "sources": [
+        {
+          "title": "Top 100: Joey Beard, South Lakes, 1993 — Connection Newspapers",
+          "url": "https://www.connectionnewspapers.com/news/2012/aug/06/top-100-joey-beard-south-lakes-1993/"
+        },
+        {
+          "title": "Beard Quits Duke's Basketball Team — Greensboro News & Record",
+          "url": "https://greensboro.com/article_f11c69ec-00e7-58be-8c5c-b6021a8068a5.html"
+        },
+        {
+          "title": "Joey Beard — 1993-94 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/joey-beard/13430"
+        },
+        {
+          "title": "Joey Beard College Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/players/joey-beard-1.html"
+        },
+        {
+          "title": "Joey Beard EuroLeague Profile",
+          "url": "https://www.euroleaguebasketball.net/euroleague/players/joey-beard/profile/ahs/"
+        },
+        {
+          "title": "Duke Basketball: Analyzing the Blue Devils' Transfer Trend — Bleacher Report",
+          "url": "https://bleacherreport.com/articles/342469-duke-basketball-analyzing-the-devils-transfer-trend"
+        },
+        {
+          "title": "Part II Of Jim's Look At Duke Transfers — Duke Basketball Report",
+          "url": "https://www.dukebasketballreport.com/2021/4/17/22388895/transfers-part-ii-the-k-era-roshown-mccleod-seth-curry-dahntay-jones"
+        },
+        {
+          "title": "U.VA. Briefs: Virginia Loses Hoops Recruit — Daily Press",
+          "url": "https://www.dailypress.com/news/dp-xpm-19920929-1992-09-29-9209290134-story.html"
+        },
+        {
+          "title": "1993 McDonald's All-American Boys Game — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1993_McDonald%27s_All-American_Boys_Game"
+        }
+      ],
+      "jersey": "42",
+      "hometown": "Reston, VA",
+      "highSchool": "South Lakes High School",
       "rsci": "",
-      "weight": "",
+      "weight": "220",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "charity": {
+        "name": "South Lakes High School Basketball",
+        "label": "South Lakes HS Basketball",
+        "description": "The Reston, Virginia program where Beard set the all-time scoring record (2,138 points) under coach Wendell Byrd, surpassing Grant Hill's mark.",
+        "url": "",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "capel",
@@ -4289,7 +4562,10 @@
         "isDefault": true
       },
       "dob": "1975-02-13",
-      "twitter": "JeffCapel"
+      "twitter": "JeffCapel",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "newton",
@@ -4409,7 +4685,10 @@
         "isDefault": true
       },
       "dob": "1974-08-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "wallace_c",
@@ -4495,7 +4774,10 @@
         "isDefault": true
       },
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "wojo",
@@ -4589,7 +4871,10 @@
         "isDefault": true
       },
       "dob": "1976-08-09",
-      "twitter": "Wojo22"
+      "twitter": "Wojo22",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "langdon",
@@ -4698,12 +4983,9 @@
       },
       "dob": "1976-05-13",
       "twitter": "",
-      "allAmerican": [
-        {
-          "year": 1999,
-          "team": 2
-        }
-      ]
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "price",
@@ -4790,7 +5072,10 @@
         "isDefault": true
       },
       "dob": "1976-04-12",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "carrawell",
@@ -4887,10 +5172,11 @@
       },
       "dob": "1977-11-17",
       "twitter": "CCarrawell",
-      "allAmerican": [
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": [
         {
-          "year": 2000,
-          "team": 1
+          "season": "1999-00"
         }
       ]
     },
@@ -5025,7 +5311,10 @@
         "isDefault": true
       },
       "dob": "1975-11-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "james_n",
@@ -5195,7 +5484,10 @@
         "isDefault": true
       },
       "dob": "1978-01-20",
-      "twitter": "CoachNateJames"
+      "twitter": "CoachNateJames",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jay_heaps",
@@ -5227,37 +5519,82 @@
       "rsci": "",
       "weight": "",
       "dob": "1976-08-02",
-      "twitter": "JayHeaps"
+      "twitter": "JayHeaps",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "todd_singleton",
       "slug": "todd-singleton",
       "era": "transition",
       "name": "Todd Singleton",
-      "pos": "Guard",
-      "years": "1994–97",
-      "classOf": "",
+      "pos": "Forward",
+      "years": "1994–98",
+      "classOf": "1998",
       "height": "6'4\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
+      "tagline": "He saw an ad in the paper. He gave it a shot.",
+      "status": "done",
+      "now": "Technology executive (Google, Microsoft, Intel); Duke Kenan Institute board member",
       "drafted": "",
-      "stat": "",
-      "bio": {},
+      "stat": "42 games, 0.9 ppg — walk-on who rode the arc from 13-18 to the Elite Eight",
+      "bio": {
+        "road": "Todd Singleton never planned to play basketball at Duke. He planned to study engineering there. Basketball was something he had done at Old Mill High School in Millersville, Maryland — two years of varsity, 10.0 points and 6.5 rebounds per game on a 12-9 team. Respectable, but not the kind of numbers that get you recruited by anyone in the ACC. Yale, maybe. Cornell. Not Duke.\n\nBorn and raised in Severn, Maryland, a quiet community in Anne Arundel County wedged between Baltimore and Annapolis, Singleton was the kind of kid who excelled at everything he touched. He carried a 4.0 GPA at Old Mill. His SAT score was 1,270. He won a Maryland state championship in the high jump as a junior — his coach, Paul Bunting, called his athletic ability exceptional despite the modest basketball resume. He volunteered for the Special Olympics, worked in homeless shelters, and served as a therapeutic counselor for the mentally challenged. The National Achievement Scholarship Program recognized him as an Outstanding Negro Student. He was listed in Who's Who Among American High School Students.\n\n\"When I decided on Duke, I pretty much reserved myself to playing rec ball, playground ball around Durham and didn't think I would ever get a chance to play for the big team,\" Singleton later told the Baltimore Sun. Then, in late October of his freshman year, injuries ravaged Duke's roster during the worst season in program history, and Coach K's staff posted an ad for open tryouts. \"I saw an ad in the paper for tryouts and my friends encouraged me to give it a shot,\" Singleton said. \"I went out in early November with about 80 others and got to play a little. When they called me afterward to be pretty much a practice player, I couldn't believe it.\"",
+        "duke": "The timing was brutal and perfect. Singleton walked on during the 1994–95 season — the year Coach K missed most of the schedule with back surgery, the year Duke went 13-18 and finished last in the ACC, the lowest point in the modern history of the program. He initially sat on the bench in a coat and tie. When Joey Beard transferred to Boston University at the semester break, Singleton was elevated to the 13th roster spot and put in uniform for the first time.\n\nHe was a walk-on on the worst Duke team in forty years. And he stayed.\n\nThat is the essential fact of Todd Singleton's Duke basketball career. He didn't leave when the program was at its nadir. He was there for the 13-18 season. He was there for the recovery — the 1995–96 team that went 18-13, the 1996–97 squad that surged back to 24-9, and the 1997–98 team that earned a top seed in the NCAA Tournament before falling to Kentucky in the Elite Eight. Four years, beginning at rock bottom and ending near the summit. The walk-on from Old Mill rode the entire arc.\n\nHis career stats tell one story: 42 games, 0.9 points per game, a fixture at the end of the bench. But the people inside the program told a different one. Krzyzewski praised what Singleton brought to practice every day: \"More than anything else, Todd gives a consistent presence on defense. Much of the improvement of Jeff Capel, Trajan Langdon and Ricky Price is due to Todd's defense on them in practice. His work ethic is an example for a lot of our guys.\"\n\nSteve Wojciechowski, Singleton's fellow Maryland native — Wojo had been a blue-chip recruit from Cardinal Gibbons in Severna Park while Singleton was averaging 10 points at Old Mill down the road — offered his own assessment: \"He's a great guy to have around. He brings a positive attitude and we're really lucky that he's a part of our team. He has really improved. He is a legitimate college basketball player.\"\n\nSingleton understood his role with a clarity that was itself a gift. \"Coach K asked me to be on the team to help reach team goals,\" he said. \"Not so much to develop into a game-time player, but so that I can push my teammates to the best they can be for game day.\" Through it all, he carried a 3.5 GPA as an electrical engineering major — one of the most demanding academic programs at one of the most demanding universities in the country, while practicing two hours a day with some of the best basketball players in America.\n\n\"It's definitely been by far my best class at Duke, to best understand myself and how I operate,\" he said of the basketball experience. \"I'm learning more and more to dig deep, push myself and be a part of something bigger than myself.\"",
+        "after": "If Todd Singleton's Duke basketball career was about learning to push himself and be part of something bigger, his post-Duke career has been about applying those lessons at scale.\n\nAfter graduating from Duke with his electrical engineering degree, Singleton went to Stanford University for a master's degree in engineering. From there, he built a career in technology that reads like a who's who of Silicon Valley and enterprise computing. He worked as a product and engineering leader at IBM, where he served as a chief evangelist. He moved into capital markets technology at Calypso Technology, then joined Mashery — an API management company later acquired by Intel — where he rose from director of sales engineering to global sales director to global director of solutions. At Intel, he became an entrepreneur in residence for new business initiatives.\n\nThe résumé kept climbing. Singleton served as head of cloud customer engineering at Google, then became a general manager for go-to-market digital app innovation at Microsoft. Along the way, he taught API strategy at General Assembly, explaining with characteristic warmth that he was \"passionate about the cross section of technology and business\" and that he loved to \"teach, learn, collaborate, and meet new people.\" He also returned to Duke as a board member of the university's Kenan Institute for Ethics — a fitting appointment for a man whose high school years were defined as much by homeless shelter volunteering and Special Olympics coaching as by basketball.",
+        "now": "There is a specific kind of person who sees an ad in a college newspaper for basketball tryouts — knowing he averaged 10 points per game at a mid-level Maryland high school, knowing he's walking into a gym with 80 other hopefuls, knowing the team just went 13-18 and the whole thing might be cursed — and thinks, I should give this a shot.\n\nThat person, it turns out, is the same one who goes from Duke to Stanford to IBM to Intel to Google to Microsoft. The same one who carries a 3.92 GPA as a freshman while practicing with Division I athletes, and a 3.5 GPA as a junior electrical engineering major while guarding Trajan Langdon every day in practice.\n\nTodd Singleton played 42 games and scored 38 points in four years at Duke. Those numbers will never appear on a highlight reel. But Krzyzewski himself said that the improvement of three of his best players was due to Singleton's defense in practice. Wojciechowski called him a legitimate college basketball player. He was there for the worst season and the best, for the bottom and the climb back, for the coat-and-tie bench and the Cameron Indoor roar.\n\n\"My experience has been a time of tremendous growth and blessings,\" he said during his junior year. \"I have had incredible ups and incredible downs.\"\n\nHe meant basketball. But he could have been talking about the whole arc of a remarkable life — one that began with a tryout ad in a student newspaper and has never stopped climbing."
+      },
       "seasons": [
         "1994-95",
         "1995-96",
-        "1996-97"
+        "1996-97",
+        "1997-98"
       ],
       "nba": null,
-      "sources": [],
-      "jersey": "",
-      "hometown": "",
-      "highSchool": "",
+      "sources": [
+        {
+          "title": "Old Mill grad Singleton earns Duke roster spot — Baltimore Sun",
+          "url": "https://www.baltimoresun.com/news/bs-xpm-1995-01-03-1995003125-story.html"
+        },
+        {
+          "title": "Duke's perfect role player — Baltimore Sun",
+          "url": "https://www.baltimoresun.com/news/bs-xpm-1997-03-05-1997064056-story.html"
+        },
+        {
+          "title": "Todd Singleton — 1997-98 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/todd-singleton/13282"
+        },
+        {
+          "title": "Todd Singleton — 1995-96 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/todd-singleton/13373"
+        },
+        {
+          "title": "Todd Singleton College Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/players/todd-singleton-1.html"
+        },
+        {
+          "title": "Todd Singleton instructor bio — General Assembly",
+          "url": "https://generalassemb.ly/instructors/todd-singleton/1988"
+        }
+      ],
+      "jersey": "15",
+      "hometown": "Severn, MD",
+      "highSchool": "Old Mill High School",
       "rsci": "",
-      "weight": "",
+      "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "charity": {
+        "name": "Special Olympics",
+        "label": "Special Olympics",
+        "description": "Singleton volunteered with the Special Olympics in high school and has maintained a lifelong commitment to service for people with special needs.",
+        "url": "https://www.specialolympics.org/",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "taymon_domzalski",
@@ -5287,7 +5624,10 @@
       "rsci": "",
       "weight": "",
       "dob": "1976-10-28",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "justin_caldbeck",
@@ -5318,7 +5658,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": "justincaldbeck"
+      "twitter": "justincaldbeck",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jeremy_hall",
@@ -5347,38 +5690,92 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mike_chappell",
       "slug": "mike-chappell",
       "era": "transition",
       "name": "Mike Chappell",
-      "pos": "Forward",
-      "years": "1996–00",
-      "classOf": "",
+      "pos": "Guard/Forward",
+      "years": "1996–98",
+      "classOf": "2001",
       "height": "6'9\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "tagline": "Duke never really left him.",
+      "status": "done",
+      "now": "Retired from professional basketball (~2011); private life post-career",
+      "drafted": "Undrafted",
+      "stat": "36 games, 7.1 ppg, .434 3FG% (team-best) as a sophomore — then transferred to Michigan State and won the 2000 national title",
+      "bio": {
+        "road": "Of the three freshmen who arrived at Duke in the fall of 1996, Mike Chappell was considered the best. Not Chris Carrawell, who would become the 2000 ACC Player of the Year. Not Nate James, the steady wing who would anchor two Final Four teams. Chappell — the 6-foot-9 forward from Southfield-Lathrup High School outside Detroit — was the one the recruiting services circled.\n\nBorn on January 21, 1978, in Southfield, Michigan, Chappell grew up in a basketball-saturated suburb on the northern edge of Metro Detroit. At Southfield-Lathrup, he developed a game that was unusual for his size: a silky three-point stroke, sharp court sense, and an ability to play both forward positions. He earned third-team Parade All-American honors as a senior — the kind of national recognition that puts a kid on every blueblood's radar. Duke, Michigan State, and the rest of the Midwest power programs all came calling.\n\nHe chose Durham. Coach K was rebuilding from the wreckage of the 1994–95 season — the 4-15 nightmare when back surgery had sidelined Krzyzewski and nearly sunk the program. By 1996, the recovery was underway, powered by upperclassmen like Jeff Capel, Steve Wojciechowski, and Trajan Langdon. Chappell, Carrawell, and James were the next wave, the class that would be asked to carry Duke back to championship contention. The kid from Southfield was supposed to be the headliner.",
+        "duke": "Chappell contributed immediately. As a freshman in 1996–97, he appeared in 32 of Duke's 33 games, providing perimeter shooting off the bench as the Blue Devils went 24–9 and reached the second round of the NCAA Tournament. It was a respectable season for a program still climbing back, and Chappell looked like a player whose role would only grow.\n\nHis sophomore year confirmed it — at least statistically. In 1997–98, Chappell played in all 36 games and started 21 of Duke's first 22 contests. He averaged 7.1 points in 14.4 minutes per game and led the entire team in three-point shooting, connecting on 36 of 83 attempts for a scalding .434 percentage. He was a double-figure scorer in 13 games and hit at least one three in 19. His career high came early, 18 points against Mercer on December 21, 1997. In the NCAA Tournament, he shot 85.7 percent from three-point range across four games — at the time, one of the best marks in tournament history.\n\nThat 1997–98 team was loaded. Langdon, Wojciechowski, Roshown McLeod, and Ricky Price formed the veteran core, with Carrawell and Chappell emerging as the sophomores who could swing games. Duke entered the NCAA Tournament as a top seed before falling to Kentucky in the Elite Eight. Chappell started that game — on February 5, 1998, he had also started at #2 North Carolina in a 97–73 loss that still rang in his ears years later.\n\nBut as the season ended, the ground shifted under Chappell's feet. Duke landed a commitment from Corey Maggette, a five-star small forward who would arrive that fall. Chappell saw the writing on the wall: his minutes, already limited to 14 per game even as a starter, would shrink further on a roster now crowded with wing talent. There was also a simpler pull — home. Michigan was where his family and friends were, and Michigan State, under Tom Izzo, was building something special just a few hours from Southfield. \"I was comfortable from day one,\" he later said of arriving in East Lansing. \"This is a great group of guys. I knew a lot of them from when I came here on my recruiting visit in high school and from growing up in Michigan and playing in a lot of tournaments. They really made me feel at home right away.\"\n\nSo Mike Chappell left Duke — not in anger, not in failure, but with a clear-eyed assessment of where his career would flourish. He had been part of the recovery. He had started games for Coach K at the age of nineteen. And now he was going home.",
+        "after": "What happened next is one of the more remarkable second acts in the history of college basketball transfers.\n\nChappell sat out the 1998–99 season at Michigan State per NCAA transfer rules, watching Tom Izzo's Spartans reach the Final Four without him. \"It definitely had to be what I went through last year — just sitting out and waiting for this year to come,\" he said of the experience. \"I was just looking forward to this year.\" When he was finally eligible for 1999–2000, he walked into one of the most talented rosters in college basketball: Mateen Cleaves, Morris Peterson, Charlie Bell, A.J. Granger, and a young Jason Richardson.\n\nChappell didn't start. He didn't need to. Coming off the bench, he provided exactly what Izzo needed: floor-spacing, shooting, and veteran composure. UNC coach Bill Guthridge marveled at the depth: \"I'm surprised Chappell isn't starting at Michigan State, which shows that Michigan State is pretty darned good.\"\n\nAnd then came the moment that justified every frustrating minute of that transfer sit-out year. In the 2000 NCAA Championship game against Florida at the RCA Dome in Indianapolis, Cleaves — the heart and soul of the Spartans — went down with a sprained ankle with 16:18 left to play. Florida had trimmed Michigan State's lead to 50–44. The championship was slipping. Chappell came off the bench and buried a three-pointer from the top of the key, pushing the lead to 53–44. Moments later, he grabbed a fast-break rebound and finished with a layup: 55–44. Five straight points, from a Duke transfer, in the biggest game of the year. Cleaves returned minutes later, limping and crying and magnificent, and Michigan State cruised to an 89–76 victory.\n\n\"To realize that dream and actually achieve that, is very surreal,\" Chappell said afterward.\n\nHe had won an NCAA championship — just not at Duke. He returned for his senior year in 2000–01, averaging seven points and three rebounds per game as the Spartans reached another Final Four. Over his college career across both schools, he played 140 games and shot 34.7 percent from three.\n\nUndrafted in 2001, Chappell did what the best mid-level talents do: he went overseas and built a career that lasted a decade across four continents. He debuted with the Wollongong Hawks in Australia's NBL, averaging 14.3 points and 6.3 rebounds. With the Canberra Cannons in 2002–03, he became a star, averaging 21.3 points per game. Then came the New Zealand Breakers, where Chappell wrote himself into NBL history: on January 28, 2004, he erupted for 44 points against the Perth Wildcats — shooting 13-for-20 from two and 5-for-8 from three — setting a league record and earning All-NBL Third Team honors.\n\nThat 44-point explosion got him invited to the 2004 NBA Summer League with the Toronto Raptors. The NBA door didn't open, but Chappell kept playing: Portugal, Lebanon, Japan's Sendai 89ers, back to Australia with the Adelaide 36ers (where he reunited with MSU teammate Adam Ballinger), Puerto Rico's Bayamon Cowboys, Ukraine's Budivelnik Kyiv, and finally the Tokyo Apache in Japan's B-League, where his professional career wound down around 2010–11. In one surreal episode during the 2002 off-season, Chappell's Canberra Cannons team toured the United States and played against Michigan State at the Breslin Center — with Magic Johnson suiting up for the Cannons in a game celebrating Johnson's Hall of Fame induction. The Cannons won 104–85.",
+        "now": "Somewhere between the Breslin Center and the Budokan, between Durham and Kyiv, Mike Chappell's basketball life became one of the most geographically ambitious in the history of the Duke Brotherhood. Two years at Duke. Two years at Michigan State. A decade hopscotching from Australia to New Zealand to Portugal to Lebanon to Japan to Puerto Rico to Ukraine and back to Japan. His son Isaiah was born in Auckland in 2005 and holds dual American-New Zealand citizenship — a detail that prompted the New Zealand Tall Blacks to joke that they had an open roster spot whenever the kid was ready.\n\nSince retiring from professional basketball around 2011, Chappell has maintained a low public profile. He is believed to be back in the United States, though his post-basketball career remains largely private. What is not private is the record: he played in three Final Fours across two schools, won an NCAA championship, scored five points in a title game when his team needed them most, set a professional league scoring record on the other side of the world, and suited up alongside Magic Johnson in an exhibition game. Not bad for a kid who left Duke because Corey Maggette was coming.\n\nChappell's story is a reminder that the Brotherhood doesn't end when a player transfers. He left Duke on good terms, with Coach K's system and coaching in his bones, and carried that foundation to every stop that followed — East Lansing, Wollongong, Auckland, Sendai, Tokyo. The three-point stroke he sharpened as a sophomore Blue Devil, the one that led the team at .434, was the same stroke that buried a three in the title game and later torched the Perth Wildcats for 44.\n\nMike Chappell left Duke, but Duke never really left him."
+      },
       "seasons": [
         "1996-97",
-        "1997-98",
-        "1998-99",
-        "1999-00"
+        "1997-98"
       ],
       "nba": null,
-      "sources": [],
-      "jersey": "",
-      "hometown": "",
-      "highSchool": "",
+      "sources": [
+        {
+          "title": "Mike Chappell — 1997-98 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/mike-chappell/13262"
+        },
+        {
+          "title": "Chappell Returns to Triangle — Greensboro News & Record",
+          "url": "https://greensboro.com/chappell-returns-to-triangle-duke-transfer-mike-chappell-isn-t/article_dbe1ca3c-db69-5543-8a2d-25ec12c43c19.html"
+        },
+        {
+          "title": "Maintaining Focus With Mike Chappell — Michigan State Athletics",
+          "url": "https://msuspartans.com/news/2000/11/28/maintaining_focus_with_mike_chappell"
+        },
+        {
+          "title": "Mike Chappell — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mike_Chappell"
+        },
+        {
+          "title": "Mike Chappell College Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/players/mike-chappell-1.html"
+        },
+        {
+          "title": "Mike Chappell Player Profile — Aussie Hoopla",
+          "url": "https://aussiehoopla.com/mike-chappell/"
+        },
+        {
+          "title": "Mike Chappell Basketball (personal blog)",
+          "url": "http://mikechappellbasketball.blogspot.com/"
+        },
+        {
+          "title": "'You knew that we were gonna win' — Spartans reminisce on 2000 title — Detroit News",
+          "url": "https://eu.detroitnews.com/story/sports/college/michigan-state-university/2020/04/02/you-knew-we-were-gonna-win-championship-spartans-reminisce-2000-title/5111161002/"
+        },
+        {
+          "title": "Duke Basketball: 5 Most Unlikely Success Stories — Bleacher Report",
+          "url": "https://syndication.bleacherreport.com/amp/1708740-duke-basketball-the-5-most-unlikely-success-stories-in-blue-devils-history.amp.html"
+        }
+      ],
+      "jersey": "0",
+      "hometown": "Southfield, MI",
+      "highSchool": "Southfield-Lathrup",
       "rsci": "",
-      "weight": "",
-      "dob": null,
-      "twitter": ""
+      "weight": "195",
+      "dob": "1978-01-21",
+      "twitter": "",
+      "charity": {
+        "name": "Michigan State University Athletic Fund",
+        "label": "MSU Athletic Fund",
+        "description": "Supports Michigan State student-athletes through scholarships, facilities, and programming.",
+        "url": "https://msuspartans.com/sports/2017/6/16/giving.aspx",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jd_simpson",
@@ -5409,7 +5806,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "chris_burgess",
@@ -5438,7 +5838,10 @@
       "rsci": "",
       "weight": "",
       "dob": "1979-10-27",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ryan_caldbeck",
@@ -5469,7 +5872,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": "ryancaldbeck"
+      "twitter": "ryancaldbeck",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "battier",
@@ -5600,12 +6006,26 @@
       "twitter": "ShaneBattier",
       "allAmerican": [
         {
-          "year": 2000,
-          "team": 2
-        },
+          "season": "2000-01",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
         {
-          "year": 2001,
-          "team": 1
+          "season": "2000-01",
+          "awards": [
+            "Sporting News",
+            "AP",
+            "Oscar Robertson",
+            "Naismith",
+            "Wooden"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "2000-01"
         }
       ]
     },
@@ -5748,8 +6168,27 @@
       "twitter": "EltonBrand",
       "allAmerican": [
         {
-          "year": 1999,
-          "team": 1
+          "season": "1998-99",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "1998-99",
+          "awards": [
+            "Sporting News",
+            "AP",
+            "Oscar Robertson",
+            "Naismith",
+            "NABC",
+            "Wooden"
+          ],
+          "consensus": true
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "1998-99"
         }
       ]
     },
@@ -5879,7 +6318,10 @@
         "isDefault": true
       },
       "dob": "1979-08-16",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "maggette",
@@ -6011,7 +6453,10 @@
       "weight": "225",
       "lastUpdated": "2026-02-20",
       "dob": "1979-11-12",
-      "twitter": "CoreyMaggette"
+      "twitter": "CoreyMaggette",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jwilliams",
@@ -6110,14 +6555,32 @@
       "twitter": "RealJayWilliams",
       "allAmerican": [
         {
-          "year": 2001,
-          "team": 1
+          "season": "2000-01",
+          "team": "First"
         },
         {
-          "year": 2002,
-          "team": 1
+          "season": "2001-02",
+          "team": "First"
         }
-      ]
+      ],
+      "nationalPOY": [
+        {
+          "season": "2000-01",
+          "awards": [
+            "NABC"
+          ],
+          "consensus": false
+        },
+        {
+          "season": "2001-02",
+          "awards": [
+            "Naismith",
+            "Wooden"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": null
     },
     {
       "id": "boozer",
@@ -6244,7 +6707,10 @@
       "weight": "258",
       "lastUpdated": "2026-02-24",
       "dob": "1981-11-07",
-      "twitter": "MisterCBooz"
+      "twitter": "MisterCBooz",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dunleavy",
@@ -6382,12 +6848,9 @@
       },
       "dob": "1980-09-15",
       "twitter": "",
-      "allAmerican": [
-        {
-          "year": 2002,
-          "team": 2
-        }
-      ]
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "duhon",
@@ -6507,7 +6970,10 @@
       "weight": "185",
       "lastUpdated": "2026-02-24",
       "dob": "1982-08-31",
-      "twitter": "ChrisDuhon"
+      "twitter": "ChrisDuhon",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jones_d",
@@ -6678,7 +7144,10 @@
         "isDefault": true
       },
       "dob": "1980-12-27",
-      "twitter": "dahntay1"
+      "twitter": "dahntay1",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "deng",
@@ -6820,7 +7289,10 @@
       "weight": "220",
       "lastUpdated": "2026-02-20",
       "dob": "1985-04-16",
-      "twitter": "LuolDeng9"
+      "twitter": "LuolDeng9",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "casey_sanders",
@@ -6852,7 +7324,10 @@
       "rsci": "16",
       "weight": "235",
       "dob": "1981-01-25",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "matt_christensen",
@@ -6884,7 +7359,10 @@
       "rsci": "",
       "weight": "265",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "d_bryant",
@@ -6913,7 +7391,10 @@
       "rsci": "",
       "weight": "",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andre_buckner",
@@ -6944,7 +7425,10 @@
       "rsci": "",
       "weight": "170",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andy_borman",
@@ -6976,7 +7460,10 @@
       "rsci": "",
       "weight": "190",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "nick_horvath",
@@ -7007,7 +7494,10 @@
       "rsci": "",
       "weight": "250",
       "dob": "1982-07-01",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andre_sweet",
@@ -7015,28 +7505,76 @@
       "era": "dynasty2",
       "name": "Andre Sweet",
       "pos": "Forward",
-      "years": "2000–02",
-      "classOf": "",
+      "years": "2000–01",
+      "classOf": "2005",
       "height": "6'6\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "tagline": "The ring is real. So is the rest of the story.",
+      "status": "done",
+      "now": "Real estate salesperson, Metropolitan Property Group, New York City",
+      "drafted": "Undrafted",
+      "stat": "7 games as a freshman — championship ring, zero tournament minutes",
+      "bio": {
+        "road": "Four blocks from the Gauchos Gym on Gerard Avenue in the Bronx — the court where Kemba Walker, Kenny Anderson, and Rod Strickland all cut their teeth — Andre Sweet learned to play basketball the New York way: physical, positionless, and with a chip on your shoulder. Born on June 21, 1982, Sweet grew up in the Bronx surrounded by the richest grassroots basketball culture in America. By middle school he was running with the New York Gauchos, the AAU powerhouse that has produced more Division I talent per square block than any program in the country.\n\nAt Rice High School in Harlem — the Catholic school on 124th Street and Lenox Avenue that would later produce Kemba Walker before closing its doors in 2011 — Sweet played under coach Maurice Hicks alongside a murderer's row of future D-I guards: Andre Barrett, who would sign with Seton Hall; Kyle Cuffe, headed to St. John's; and Kenny Satterfield, bound for Cincinnati. They had known each other since elementary school, grown up together in the Gauchos system, and now they were winning everything in sight. Rice captured city and state championships in 1998 and 1999, and Sweet was the backbone — a 6-foot-6 forward who could rebound, block shots, and finish at the rim with either hand.\n\nAs a senior in 1999–2000, Sweet averaged 18.3 points and 12.1 rebounds per game while shooting 52 percent from the field and 77 percent from the free throw line. He added 3.0 blocks and 3.0 assists per game — the kind of stat line that screams versatility. He earned first team All-City honors and played in showcase events including the Capital Classic and the Bob Gibbons All-Star Game, rubbing shoulders with the best prep talent in the country.\n\nWhen Duke came calling, it must have felt like validation from another universe. Sweet signed his national letter of intent on May 1, 2000, joining Chris Duhon — the Morgan Wootten National Player of the Year from Slidell, Louisiana — as the two-man recruiting class. Duhon was the headliner. Sweet was the project, a raw, athletic forward from the Bronx who Coach K believed could develop into a versatile weapon. He left his neighborhood, his Gauchos family, and his childhood best friend Andre Barrett behind. Durham was a long way from Gerard Avenue.",
+        "duke": "The honest truth is that Andre Sweet's Duke career lasted seven games.\n\nHe arrived in the fall of 2000 as a freshman on what would become one of the greatest teams in college basketball history — the 2000–01 squad that featured Shane Battier, Jason Williams, Carlos Boozer, Mike Dunleavy Jr., and his fellow freshman Duhon. Sweet wore number 12 and was listed as a guard/forward at 6-foot-6 and 205 pounds. He was a raw talent surrounded by polished stars, and the gap between Bronx playground basketball and Coach K's system was wider than anyone had anticipated.\n\nSweet appeared in seven games during the first semester, logging limited minutes in non-conference play. Then academics intervened. He was placed on academic suspension for the spring semester — a painful but not uncommon reality for freshmen navigating the culture shock of elite university life, especially those coming from under-resourced schools. He continued to practice with the team through the spring, working alongside Battier and Williams every day in the gym, but he couldn't suit up. He watched from the sideline as Duke dismantled opponent after opponent on its way to a third national championship.\n\nThat spring run was one of the most dominant in tournament history. Duke beat Monmouth, Missouri, UCLA, and USC to reach the Final Four, then staged the largest comeback in Final Four history — erasing a 22-point deficit against Maryland — before defeating Arizona 82–72 for the title in Minneapolis. Sweet was there for all of it. He practiced against those players every day. He just couldn't play.\n\nHe got a championship ring. It was real — engraved, official, earned by membership on the roster even if not by minutes on the court. For a kid from the Bronx, it was a tangible piece of something extraordinary. But it also represented a complicated truth: he had been part of greatness without truly being part of the team on the floor.\n\nAfter the championship, homesickness and the academic setback pushed Sweet toward a decision. He wanted to be closer to his family. And there was another pull — his childhood best friend Andre Barrett was struggling at Seton Hall, where former Duke point guard Tommy Amaker had just left as head coach to take the Michigan job. Barrett was considering leaving the program entirely. Sweet's decision to transfer to Seton Hall, just a few miles from where he grew up, convinced Barrett to stay. The two Bronx kids who had played together since elementary school would be reunited on the same college roster.\n\nCoach Krzyzewski, characteristically, held no grudge. Years later, when asked about Sweet before a Duke–Seton Hall matchup, K offered a generous assessment: \"He's one of those guys who doesn't have a position, but knows how to play. That's what he does for Seton Hall, scores 10-12-14 points, gets six to eight rebounds, plays solid defense.\" Then he added the kind of line that reveals how K thinks about his players, even the ones who leave: \"He would have ended up being a good player for us, too, because good players usually end up being good players no matter where they are at.\"",
+        "after": "Sweet sat out the 2001–02 season per NCAA transfer rules, then suited up for the Seton Hall Pirates beginning in 2002–03. Under coach Louis Orr, he became exactly what Krzyzewski had predicted: a good player.\n\nHe started immediately and gave the Pirates three productive seasons in the Big East, one of the toughest conferences in the country. As a junior in 2003–04, he averaged 10.2 points and 6.2 rebounds per game — second on the team in rebounding — while starting all 30 games. He could drive to the basket, hit the occasional three, and defend multiple positions. On March 1, 2004, he grabbed 15 rebounds against UConn. On December 22, 2003, he exploded for a career-efficient performance in a blowout win over Davidson.\n\nHis senior year, 2004–05, brought his best individual moment: a career-high 26 points against Texas on December 4, 2004, going 11-for-15 from two-point range. He also dished a career-high 5 assists in a road win at St. John's. Over his Seton Hall career, Sweet played in 96 games and averaged 8.7 points and 5.2 rebounds while shooting 44 percent from the floor.\n\nThe numbers don't scream stardom, but they tell the story of a player who found his level and thrived there. In the Big East of the mid-2000s — a conference that featured UConn, Syracuse, Pittsburgh, and Villanova at or near their peaks — being a reliable double-figure scorer and leading rebounder was no small thing.\n\nSweet graduated from Seton Hall with a degree in Sociology and Communications. He went undrafted in the 2005 NBA Draft, and unlike some Duke transfers who chase overseas careers for years, Sweet appears to have moved on from competitive basketball relatively quickly. The game had given him a college education, a championship ring, and a lifelong brotherhood with Barrett and the Rice High School crew. That was enough.",
+        "now": "The championship ring sits in a closet somewhere in New York. Sweet used to wear it around Seton Hall's campus in South Orange, New Jersey, right after he transferred — a conversation piece, a reminder that he had once been part of something historic, even briefly. But once he became eligible to play for the Pirates, he figured he ought to put it away. You can't build a new identity while wearing jewelry from the old one.\n\nToday, Andre Sweet is back where he started — in New York City, working in real estate as a salesperson at Metropolitan Property Group in Manhattan. It's a career that rewards exactly the skills a Bronx kid who played Gauchos ball would have: hustle, knowing your territory, reading people, and never being afraid to knock on a door. The city that raised him is now his office.\n\nHis story is one of the quietest in the Duke Brotherhood — seven games, no starts, an academic suspension, a transfer, and a championship ring he earned by proximity rather than production. But it is a Brotherhood story all the same. Sweet was recruited by Coach K, practiced alongside future NBA players, and left Durham with hardware that most players spend entire careers chasing. He made a difficult, honest decision to go home when Duke wasn't working, and he landed on his feet. At Seton Hall, reunited with his childhood best friend, he became the player K always believed he could be.\n\nAndre Sweet's ring is real. So is the rest of his story."
+      },
       "seasons": [
-        "2000-01",
-        "2001-02"
+        "2000-01"
       ],
       "nba": null,
-      "sources": [],
-      "hometown": "",
-      "jersey": "",
-      "highSchool": "",
+      "sources": [
+        {
+          "title": "Andre Sweet Signs Letter-of-Intent With Duke Men's Basketball Program",
+          "url": "https://goduke.com/news/2000/5/1/140018.aspx"
+        },
+        {
+          "title": "Andre Sweet — 2000-01 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/andre-sweet/4227"
+        },
+        {
+          "title": "Former Devil Now a Pirate: Seton Hall's Andre Sweet Faces the Team He Won a Title Ring With — Greensboro News & Record",
+          "url": "https://greensboro.com/former-devil-now-a-pirate-seton-halls-andre-sweet-faces-the-team-he-won-a/article_8b318a76-03f3-5d56-b806-1577f02b81d3.html"
+        },
+        {
+          "title": "Andre Sweet Player Profile — Sports Reference / College Basketball",
+          "url": "https://www.sports-reference.com/cbb/players/andre-sweet-1.html"
+        },
+        {
+          "title": "Andre Sweet Player Profile — RealGM",
+          "url": "https://basketball.realgm.com/player/Andre-Sweet/Summary/6393"
+        },
+        {
+          "title": "Andre Sweet Player Profile — Proballers",
+          "url": "https://www.proballers.com/basketball/player/197027/andre-sweet"
+        },
+        {
+          "title": "2000–01 Duke Blue Devils Men's Basketball Team — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Duke_Blue_Devils_men%27s_basketball_team"
+        },
+        {
+          "title": "Rice High School (Manhattan) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rice_High_School_(Manhattan)"
+        }
+      ],
+      "hometown": "Bronx, NY",
+      "jersey": "12",
+      "highSchool": "Rice High School (Harlem)",
       "rsci": "",
-      "weight": "",
-      "dob": null,
-      "twitter": ""
+      "weight": "205",
+      "dob": "1982-06-21",
+      "twitter": "",
+      "charity": {
+        "name": "New York Gauchos",
+        "label": "NY Gauchos",
+        "description": "The legendary Bronx-based AAU basketball program where Sweet developed as a youth, serving hundreds of student-athletes annually since 1967.",
+        "url": "https://www.newyorkgauchos.org/",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andy_means",
@@ -7066,7 +7604,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "daniel_ewing",
@@ -7097,7 +7638,10 @@
       "rsci": "29",
       "weight": "185",
       "dob": "1983-05-22",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "reggie_love",
@@ -7174,7 +7718,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": "ReggieLove"
+      "twitter": "ReggieLove",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "michael_thompson",
@@ -7204,7 +7751,10 @@
       "rsci": "",
       "weight": "250",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mark_causey",
@@ -7233,7 +7783,10 @@
       "rsci": "",
       "weight": "210",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "shavlik_randolph",
@@ -7388,7 +7941,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "patrick_johnson",
@@ -7419,7 +7975,10 @@
       "rsci": "",
       "weight": "250",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jordan_davidson",
@@ -7453,7 +8012,10 @@
       "rsci": "",
       "weight": "180",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "joe_pagliuca",
@@ -7484,7 +8046,10 @@
       "rsci": "",
       "weight": "185",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "redick",
@@ -7633,12 +8198,30 @@
       "twitter": "jj_redick",
       "allAmerican": [
         {
-          "year": 2005,
-          "team": 1
+          "season": "2004-05",
+          "team": "First"
         },
         {
-          "year": 2006,
-          "team": 1
+          "season": "2005-06",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "2005-06",
+          "awards": [
+            "AP",
+            "Wooden"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "2004-05"
+        },
+        {
+          "season": "2005-06"
         }
       ]
     },
@@ -7761,12 +8344,9 @@
       },
       "dob": "1983-09-05",
       "twitter": "SheldenWilliam5",
-      "allAmerican": [
-        {
-          "year": 2006,
-          "team": 1
-        }
-      ]
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "nelson",
@@ -7910,7 +8490,10 @@
         "isDefault": true
       },
       "dob": "1985-12-12",
-      "twitter": "DNelson22"
+      "twitter": "DNelson22",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mcroberts",
@@ -8032,7 +8615,10 @@
         "isDefault": true
       },
       "dob": "1987-06-25",
-      "twitter": "JoshMcRoberts"
+      "twitter": "JoshMcRoberts",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "paulus",
@@ -8144,7 +8730,10 @@
         "isDefault": true
       },
       "dob": "1987-08-05",
-      "twitter": "GregPaulus"
+      "twitter": "GregPaulus",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ghenderson",
@@ -8258,7 +8847,10 @@
         "isDefault": true
       },
       "dob": "1987-12-09",
-      "twitter": "GHenderson_9"
+      "twitter": "GHenderson_9",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "scheyer",
@@ -8375,12 +8967,9 @@
       },
       "dob": "1988-05-08",
       "twitter": "jonscheyer",
-      "allAmerican": [
-        {
-          "year": 2010,
-          "team": 2
-        }
-      ]
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "nsmith",
@@ -8511,8 +9100,14 @@
       "twitter": "NolanSmith2",
       "allAmerican": [
         {
-          "year": 2011,
-          "team": 1
+          "season": "2010-11",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": null,
+      "accPOY": [
+        {
+          "season": "2010-11"
         }
       ]
     },
@@ -8656,7 +9251,10 @@
       "weight": "180",
       "lastUpdated": "2026-02-20",
       "dob": "1992-03-23",
-      "twitter": "KyrieIrving"
+      "twitter": "KyrieIrving",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "lee_melchionni",
@@ -8687,7 +9285,10 @@
       "rsci": "",
       "weight": "205",
       "dob": "1983-05-15",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sean_dockery",
@@ -8718,7 +9319,10 @@
       "rsci": "21",
       "weight": "185",
       "dob": "1984-02-05",
-      "twitter": "SeanDockery"
+      "twitter": "SeanDockery",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ross_perkins",
@@ -8749,7 +9353,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tom_novick",
@@ -8779,7 +9386,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "david_mcclure",
@@ -8787,30 +9397,87 @@
       "era": "between",
       "name": "David McClure",
       "pos": "Forward",
-      "years": "2005–09",
-      "classOf": "",
+      "years": "2004–09",
+      "classOf": "2009",
       "height": "6'6\"",
-      "tagline": "",
-      "status": "stub",
-      "now": "",
-      "drafted": "",
-      "stat": "",
-      "bio": {},
+      "tagline": "Six surgeries. Still climbing.",
+      "status": "done",
+      "now": "Assistant Coach, Memphis Grizzlies (since 2019); previously Spurs, Pacers",
+      "drafted": "Undrafted",
+      "stat": "124 games, 2.2 ppg, 3.1 rpg — six knee surgeries, three ACC titles, one buzzer-beater",
+      "bio": {
+        "road": "The recruiting class of 2004 was supposed to belong to other people. Shelden Williams was the headliner, the 6-foot-9 shot-blocker from Midwest City, Oklahoma who would become the most decorated defender in Duke history. Sean Dockery was the flashy point guard from Chicago. Lee Melchionni was the sharpshooter from Germantown, Pennsylvania. And David McClure — a 6-foot-6 forward from Ridgefield, Connecticut — was the one nobody outside New England was talking about.\n\nBorn on April 1, 1986, in Danbury, Connecticut, and raised in Ridgefield, McClure attended Trinity Catholic High School in Stamford, where he became the most dominant player in the state. Over four years, he compiled a record of 101-7, won three FCIAC tournament championships, and led Trinity Catholic to a 27-0 record and the Connecticut state title as a senior. He closed his prep career on a 52-game winning streak. As a senior, he averaged 16.2 points, 10.4 rebounds, and 3.1 blocked shots per game. Over his career at Trinity, he scored 1,367 points (fourth all-time), grabbed 1,186 rebounds (second all-time), added 389 steals and 321 blocked shots — numbers that earned him Gatorade Connecticut Player of the Year, the Connecticut Coaches Association Player of the Year, and the inaugural Dave DeBusschere Award from the New York Knicks' MSG Network.\n\nNationally, he was ranked 71st by RSCI, 13th among small forwards by Insiders, and 21st by Rivals. His final choices came down to Duke and Notre Dame. Mike Brey, the Notre Dame coach who had been a Krzyzewski assistant, could offer more immediate playing time. But McClure's high school coach, Mike Walsh, convinced him to visit Durham before committing. McClure was sold. He called Coach K directly on June 2, 2003, to give his verbal commitment. He later explained the logic with the quiet certainty that would define his career: he wanted to learn from \"the teacher, not the student.\" He was the first Connecticut player to attend Duke since three-time Academic All-American Mike Gminski from Monroe in the late 1970s.",
+        "duke": "What followed was a five-year Duke career shaped more by what David McClure endured than what he produced on the stat sheet. The numbers — 124 games, 2.2 points, 3.1 rebounds, 48 percent shooting — don't tell you about the six knee surgeries.\n\nAs a freshman in 2004–05, McClure played 31 games with three starts, averaging 1.7 points in 7.4 minutes. A modest debut, but he was a freshman on a team that won the ACC championship. Then the first knee went. Left knee surgery wiped out his entire 2005–06 season. He spent the year rehabilitating, watching from the bench in street clothes as Duke won another ACC title without him.\n\nWhen he returned for 2006–07 — technically a sophomore by eligibility — McClure had his breakout. He started 11 of 33 games and averaged 4.2 points and 4.9 rebounds in 21.7 minutes per game. He was second on the team in steals, offensive rebounds, and blocked shots, shooting 49.1 percent from the field. Against UNC Greensboro, he racked up a career-high 7 steals with 11 points and 9 rebounds. He was, as advertised, a player who could guard multiple positions and do the dirty work that wins games.\n\nThen came the moment. On January 25, 2007, against 17th-ranked Clemson in Cameron Indoor Stadium, with the game tied at 66 in the final seconds, Jon Scheyer found McClure cutting to the basket. McClure caught the pass and laid it in as the buzzer sounded. Duke 68, Clemson 66. Cameron erupted. It was the biggest shot of McClure's life, and it came from a player who most fans thought of as a role player at best.\n\nBut the knees kept betraying him. Right knee surgery before the 2007–08 season cost him the first two games, and when he returned, freshmen Kyle Singler and Taylor King had claimed his minutes. He averaged just a point per game in a diminished role. As a senior in 2008–09, his minutes rebounded somewhat — 16 per game, 50 percent shooting, a career-high 1.1 assists — but he was no longer the player he had been as a sophomore. He grabbed four rebounds and a steal in 14 minutes against West Virginia in the NCAA Tournament, his last meaningful game in a Duke uniform.\n\nFive years. Three ACC championships. Six knee surgeries. One buzzer-beater. A career that never reached the ceiling everyone saw in Stamford but was defined by something more durable than talent: the refusal to quit.",
+        "after": "McClure went undrafted in 2009 and didn't receive an invitation to the Portsmouth Invitational Tournament. But Quin Snyder — the former Duke player and coach, now running the Austin Toros in the NBA D-League — drafted him with the 60th overall pick in the fifth round of the D-League draft. McClure played one season in Austin, averaging 2.4 points in 13.4 minutes per game, his surgically rebuilt knees holding up just enough to keep him on the court.\n\nFrom there, he went overseas. He played four seasons in the Lithuanian Basketball League, suiting up for Nevezis and Siauliai. On March 31, 2012, he scored a career-high 23 points in a road win over Rytas Vilnius. He could still play. But his knees — six surgeries total, including two on each knee during his final playing season — eventually made the decision for him.\n\nThe transition to coaching came through the Brotherhood. Chip Engelland — the Duke walk-on from the Foundation era who had become the most respected shooting coach in the NBA — met McClure at a Duke fantasy camp and helped him get his foot in the door with the San Antonio Spurs. Working under Gregg Popovich, McClure served as a player development quality assurance assistant for two seasons, spending time as a video coordinator for Spurs assistant Ime Udoka and helping Manu Ginóbili recover from a stress fracture.\n\nIn 2016, Nate McMillan hired him as a player development coach with the Indiana Pacers. The players noticed immediately. Monta Ellis told the Indianapolis Star: \"When he first came in, he made his mark, set his standards, and everybody went with it.\" Paul George and Myles Turner both credited McClure with their development. He was promoted to assistant coach before the 2018–19 season and helped Indiana to three straight playoff appearances.\n\nIn 2019, Taylor Jenkins — who had been an assistant on Snyder's staff in Austin when McClure was a player there — hired him as an assistant coach for the Memphis Grizzlies. The circle closed: the Duke role player who couldn't stay healthy enough to make the NBA as a player was now coaching in it. In Memphis, he mentored Xavier Tillman on managing chronic knee pain — drawing directly from his own six-surgery experience — teaching Tillman the daily routines of stationary biking, weight control, and medical collaboration that had kept McClure on the court long after his knees should have ended his career.",
+        "now": "A coach sits on an NBA bench in Memphis, watching a young player work through a pregame knee routine that he designed from personal experience. The routine involves 30 to 40 minutes of stationary biking, careful weight management, and constant communication with the medical staff. The coach knows every detail of that routine because he lived it — through six surgeries, five years at Duke, one season in Austin, four years in Lithuania, and every step of the long road from player to coach.\n\nDavid McClure's path through the Brotherhood is one of the most quietly remarkable in the program's history. He arrived as a Connecticut state champion with a 52-game winning streak and left five years later with three ACC titles, a buzzer-beater against Clemson that Cameron Indoor has never forgotten, and knees held together by surgical thread and stubbornness. He couldn't make the NBA as a player, but he made it as a coach — with assists from Chip Engelland, Quin Snyder, Gregg Popovich, and Taylor Jenkins, every one of them connected through the web of relationships that Coach K's program spins.\n\n\"It's been a whirlwind,\" McClure wrote when he left the Pacers for the Grizzlies in 2019. \"I truly feel blessed every day.\"\n\nHe turned 40 on April 1, 2026. The knees are what they are. But the career — from Stamford to Durham to Austin to Vilnius to San Antonio to Indianapolis to Memphis — is still climbing."
+      },
       "seasons": [
-        "2005-06",
+        "2004-05",
         "2006-07",
         "2007-08",
         "2008-09"
       ],
       "nba": null,
-      "sources": [],
+      "sources": [
+        {
+          "title": "David McClure — 2008-09 Men's Basketball Roster, Duke Athletics",
+          "url": "https://goduke.com/sports/mens-basketball/roster/david-mcclure/4311"
+        },
+        {
+          "title": "David McClure (basketball) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_McClure_(basketball)"
+        },
+        {
+          "title": "David McClure College Stats — Sports Reference",
+          "url": "https://www.sports-reference.com/cbb/players/david-mcclure-1.html"
+        },
+        {
+          "title": "Where are they now? Duke basketball edition: David McClure — Kauffman Sports",
+          "url": "https://www.kauffmansports.com/david-mcclure-news/2018/8/2/where-are-they-now-duke-basketball-edition-david-mcclure"
+        },
+        {
+          "title": "David McClure — NBA Coaches Association",
+          "url": "https://nbacoaches.com/david-mcclure/"
+        },
+        {
+          "title": "Former Duke Player David McClure Joins Memphis Grizzlies Coaching Staff — The Spun",
+          "url": "https://thespun.com/acc/duke-blue-devils/david-mcclure-memphis-grizzlies-coach-indiana-pacers"
+        },
+        {
+          "title": "Former Blue Devil David McClure joins Grizzlies coaching staff — 247Sports/Devils Den",
+          "url": "https://247sports.com/college/duke/Article/david-McClure-adds-to-the-duke-alumni-roster-in-NBA-franchise-management-and-coaching-134684881/"
+        },
+        {
+          "title": "Now hiring: Pacers assistant coach; David McClure leaves for Grizzlies — 8 Points 9 Seconds",
+          "url": "https://8points9seconds.com/2019/07/24/now-hiring-indiana-pacers-assistant-coach-david-mcclure-leaves-grizzlies/"
+        },
+        {
+          "title": "Memphis Grizzlies announce assistant coaching staff — NBA.com",
+          "url": "https://www.nba.com/grizzlies/news/memphis-grizzlies-announce-assistant-coaching-staff-190805"
+        },
+        {
+          "title": "David McClure Player Profile — Proballers",
+          "url": "https://www.proballers.com/basketball/player/33137/david-mcclure"
+        }
+      ],
       "jersey": "14",
       "hometown": "Ridgefield, CT",
-      "highSchool": "Ridgefield HS",
+      "highSchool": "Trinity Catholic (Stamford, CT)",
       "rsci": "71",
       "weight": "215",
-      "dob": "1987-03-25",
-      "twitter": ""
+      "dob": "1986-04-01",
+      "twitter": "",
+      "charity": {
+        "name": "Dads for Kids Inc.",
+        "label": "Dads for Kids",
+        "description": "A nonprofit supporting fatherhood engagement that McClure volunteered with during his time at Duke, per his official GoDuke bio.",
+        "url": "",
+        "isDefault": true
+      },
+      "lastUpdated": "2026-03-24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "martynas_pocius",
@@ -8841,7 +9508,10 @@
       "rsci": "53",
       "weight": "190",
       "dob": "1986-04-13",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jamal_boykin",
@@ -8869,7 +9539,10 @@
       "rsci": "60",
       "weight": "240",
       "dob": "1986-10-07",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "eric_boateng",
@@ -8897,7 +9570,10 @@
       "rsci": "39",
       "weight": "257",
       "dob": "1987-06-02",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "brian_zoubek",
@@ -8994,7 +9670,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "lance_thomas",
@@ -9150,7 +9829,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": "LanceThomas42"
+      "twitter": "LanceThomas42",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "steve_johnson",
@@ -9180,7 +9862,10 @@
       "rsci": "",
       "weight": "210",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "nick_sutton",
@@ -9209,7 +9894,10 @@
       "rsci": "",
       "weight": "180",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "taylor_king",
@@ -9237,7 +9925,10 @@
       "rsci": "27",
       "weight": "230",
       "dob": "1988-07-10",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "elliot_williams",
@@ -9265,7 +9956,10 @@
       "rsci": "15",
       "weight": "180",
       "dob": "1989-06-20",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "olek_czyz",
@@ -9294,7 +9988,10 @@
       "rsci": "66",
       "weight": "240",
       "dob": "1989-12-23",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "singler",
@@ -9434,7 +10131,15 @@
       "weight": "230",
       "lastUpdated": "2026-03-02",
       "dob": "1988-05-04",
-      "twitter": "KyleSingler"
+      "twitter": "KyleSingler",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": [
+        {
+          "season": "2009-10",
+          "team": "First"
+        }
+      ]
     },
     {
       "id": "miles_plumlee",
@@ -9571,7 +10276,10 @@
         "isDefault": true
       },
       "dob": "1988-09-01",
-      "twitter": "MilesPlumlee"
+      "twitter": "MilesPlumlee",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mplumlee",
@@ -9728,10 +10436,12 @@
       "twitter": "MasonPlumlee",
       "allAmerican": [
         {
-          "year": 2013,
-          "team": 2
+          "season": "2012-13",
+          "team": "First"
         }
-      ]
+      ],
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "scurry",
@@ -9813,7 +10523,10 @@
         "isDefault": true
       },
       "dob": "1990-08-23",
-      "twitter": "sdotcurry"
+      "twitter": "sdotcurry",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "arivers",
@@ -9954,7 +10667,10 @@
         "isDefault": true
       },
       "dob": "1992-08-01",
-      "twitter": "AustinRivers25"
+      "twitter": "AustinRivers25",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "cook",
@@ -10036,7 +10752,10 @@
         "isDefault": true
       },
       "dob": "1993-03-23",
-      "twitter": "QCook323"
+      "twitter": "QCook323",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "marshall_p",
@@ -10147,7 +10866,10 @@
         "isDefault": true
       },
       "dob": "1992-06-19",
-      "twitter": "MarshallPlumlee"
+      "twitter": "MarshallPlumlee",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "parker_j",
@@ -10316,10 +11038,12 @@
       "twitter": "JabariParker",
       "allAmerican": [
         {
-          "year": 2014,
-          "team": 1
+          "season": "2013-14",
+          "team": "First"
         }
-      ]
+      ],
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "hood",
@@ -10458,7 +11182,10 @@
         "isDefault": true
       },
       "dob": "1992-10-20",
-      "twitter": "raborickey_hood"
+      "twitter": "raborickey_hood",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "allen",
@@ -10584,7 +11311,15 @@
       "weight": "195",
       "lastUpdated": "2026-02-20",
       "dob": "1995-10-08",
-      "twitter": "GraysonJAllen"
+      "twitter": "GraysonJAllen",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": [
+        {
+          "season": "2017-18",
+          "team": "First"
+        }
+      ]
     },
     {
       "id": "okafor",
@@ -10704,8 +11439,14 @@
       "twitter": "JahOkafor",
       "allAmerican": [
         {
-          "year": 2015,
-          "team": 1
+          "season": "2014-15",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": null,
+      "accPOY": [
+        {
+          "season": "2014-15"
         }
       ]
     },
@@ -10835,7 +11576,10 @@
       "weight": "190",
       "lastUpdated": "2026-02-20",
       "dob": "1996-05-10",
-      "twitter": "TyusJones"
+      "twitter": "TyusJones",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "winslow",
@@ -10958,7 +11702,10 @@
       "weight": "225",
       "lastUpdated": "2026-03-03",
       "dob": "1996-03-26",
-      "twitter": "IAmJustise"
+      "twitter": "IAmJustise",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "casey_peters",
@@ -10989,7 +11736,10 @@
       "rsci": "",
       "weight": "200",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "andre_dawkins",
@@ -11113,7 +11863,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ryan_kelly",
@@ -11225,7 +11978,10 @@
         "isDefault": true
       },
       "dob": "1991-03-07",
-      "twitter": "RKelly34"
+      "twitter": "RKelly34",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "todd_zafirovski",
@@ -11256,7 +12012,10 @@
       "rsci": "",
       "weight": "245",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tyler_thornton",
@@ -11287,7 +12046,10 @@
       "rsci": "",
       "weight": "190",
       "dob": "1991-09-12",
-      "twitter": "TylerThornton12"
+      "twitter": "TylerThornton12",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "josh_hairston",
@@ -11427,7 +12189,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "J_Hairston15"
+      "twitter": "J_Hairston15",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "michael_gbinije",
@@ -11455,7 +12220,10 @@
       "rsci": "28",
       "weight": "200",
       "dob": "1992-08-02",
-      "twitter": "MGbinije"
+      "twitter": "MGbinije",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sean_kelly",
@@ -11486,7 +12254,10 @@
       "rsci": "",
       "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "rasheed_sulaimon",
@@ -11516,7 +12287,10 @@
       "rsci": "12",
       "weight": "195",
       "dob": "1994-04-09",
-      "twitter": "RasheedSulaimon"
+      "twitter": "RasheedSulaimon",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "amile_jefferson",
@@ -11548,7 +12322,10 @@
       "rsci": "21",
       "weight": "215",
       "dob": "1993-05-07",
-      "twitter": "AmileJefferson"
+      "twitter": "AmileJefferson",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "alex_murphy",
@@ -11576,7 +12353,10 @@
       "rsci": "49",
       "weight": "225",
       "dob": "1994-04-01",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "semi_ojeleye",
@@ -11697,7 +12477,10 @@
         "isDefault": true
       },
       "dob": "1994-12-05",
-      "twitter": "Semi"
+      "twitter": "Semi",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "matt_jones",
@@ -11728,7 +12511,10 @@
       "rsci": "34",
       "weight": "210",
       "dob": "1995-06-13",
-      "twitter": "MattJones_13"
+      "twitter": "MattJones_13",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "nick_pagliuca",
@@ -11759,7 +12545,10 @@
       "rsci": "",
       "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ingram",
@@ -11877,7 +12666,10 @@
         "isDefault": true
       },
       "dob": "1997-09-02",
-      "twitter": "B_Ingram13"
+      "twitter": "B_Ingram13",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "kennard",
@@ -12010,7 +12802,10 @@
         "isDefault": true
       },
       "dob": "1996-06-24",
-      "twitter": "LukeKennard5"
+      "twitter": "LukeKennard5",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tatum",
@@ -12129,7 +12924,10 @@
         "isDefault": true
       },
       "dob": "1998-03-03",
-      "twitter": "jaytatum0"
+      "twitter": "jaytatum0",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "bagley",
@@ -12262,8 +13060,14 @@
       "twitter": "MB3Five",
       "allAmerican": [
         {
-          "year": 2018,
-          "team": 1
+          "season": "2017-18",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": null,
+      "accPOY": [
+        {
+          "season": "2017-18"
         }
       ]
     },
@@ -12381,7 +13185,10 @@
         "isDefault": true
       },
       "dob": "1999-04-16",
-      "twitter": "wendellcarter34"
+      "twitter": "wendellcarter34",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "zion",
@@ -12493,8 +13300,27 @@
       "twitter": "Zion",
       "allAmerican": [
         {
-          "year": 2019,
-          "team": 1
+          "season": "2018-19",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "2018-19",
+          "awards": [
+            "Sporting News",
+            "AP",
+            "Oscar Robertson",
+            "Naismith",
+            "NABC",
+            "Wooden"
+          ],
+          "consensus": true
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "2018-19"
         }
       ]
     },
@@ -12606,10 +13432,12 @@
       "twitter": "RjBarrett6",
       "allAmerican": [
         {
-          "year": 2019,
-          "team": 1
+          "season": "2018-19",
+          "team": "First"
         }
-      ]
+      ],
+      "nationalPOY": null,
+      "accPOY": null
     },
     {
       "id": "trejones",
@@ -12719,7 +13547,10 @@
         "isDefault": true
       },
       "dob": "2000-01-08",
-      "twitter": "tre3jones"
+      "twitter": "tre3jones",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "reddish",
@@ -12849,7 +13680,10 @@
       "weight": "218",
       "lastUpdated": "2026-02-20",
       "dob": "1999-09-01",
-      "twitter": "CamReddish"
+      "twitter": "CamReddish",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "roach",
@@ -12931,7 +13765,10 @@
         "isDefault": true
       },
       "dob": "2001-10-10",
-      "twitter": "jeremy_roach0"
+      "twitter": "jeremy_roach0",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "banchero",
@@ -13037,7 +13874,15 @@
         "isDefault": true
       },
       "dob": "2002-11-12",
-      "twitter": "Paolobanch5"
+      "twitter": "Paolobanch5",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": [
+        {
+          "season": "2021-22",
+          "team": "First"
+        }
+      ]
     },
     {
       "id": "griffin_aj",
@@ -13144,7 +13989,10 @@
         "isDefault": true
       },
       "dob": "2003-08-25",
-      "twitter": "AJGriffin_"
+      "twitter": "AJGriffin_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sean_obi",
@@ -13174,7 +14022,10 @@
       "rsci": "",
       "weight": "270",
       "dob": "1995-05-10",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "chase_jeter",
@@ -13203,7 +14054,10 @@
       "rsci": "14",
       "weight": "240",
       "dob": "1997-04-23",
-      "twitter": "chasejeter4"
+      "twitter": "chasejeter4",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "derryck_thornton",
@@ -13231,7 +14085,10 @@
       "rsci": "13",
       "weight": "195",
       "dob": "1997-04-07",
-      "twitter": "DerryckT_"
+      "twitter": "DerryckT_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "antonio_vrankovic",
@@ -13262,7 +14119,10 @@
       "rsci": "",
       "weight": "269",
       "dob": "1997-07-29",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "brennan_besser",
@@ -13293,7 +14153,10 @@
       "rsci": "",
       "weight": "190",
       "dob": null,
-      "twitter": "BrennanBesser"
+      "twitter": "BrennanBesser",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "javin_delaurier",
@@ -13435,7 +14298,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "JavinDeLaurier"
+      "twitter": "JavinDeLaurier",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "frank_jackson",
@@ -13463,7 +14329,10 @@
       "rsci": "14",
       "weight": "205",
       "dob": "1998-11-04",
-      "twitter": "FrankJackson_"
+      "twitter": "FrankJackson_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "harry_giles_iii",
@@ -13619,7 +14488,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "HGiiizzle"
+      "twitter": "HGiiizzle",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jack_white",
@@ -13650,7 +14522,10 @@
       "rsci": "",
       "weight": "222",
       "dob": "1997-04-12",
-      "twitter": "JackWhite41"
+      "twitter": "JackWhite41",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "marques_bolden",
@@ -13680,7 +14555,10 @@
       "rsci": "11",
       "weight": "250",
       "dob": "1999-04-14",
-      "twitter": "MarquesBolden"
+      "twitter": "MarquesBolden",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "justin_robinson",
@@ -13711,7 +14589,10 @@
       "rsci": "",
       "weight": "202",
       "dob": "1997-07-18",
-      "twitter": "JRobinson_0"
+      "twitter": "JRobinson_0",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "gary_trent_jr",
@@ -13835,7 +14716,10 @@
         "isDefault": true
       },
       "dob": "1999-01-18",
-      "twitter": "gtrentjr"
+      "twitter": "gtrentjr",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "trevon_duval",
@@ -13957,7 +14841,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "TrevonDuval"
+      "twitter": "TrevonDuval",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "alex_oconnell",
@@ -13988,7 +14875,10 @@
       "rsci": "69",
       "weight": "180",
       "dob": "1999-06-18",
-      "twitter": "AlexOConnell12"
+      "twitter": "AlexOConnell12",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jordan_goldwire",
@@ -14019,7 +14909,10 @@
       "rsci": "",
       "weight": "184",
       "dob": "1999-07-11",
-      "twitter": "JGoldwire_"
+      "twitter": "JGoldwire_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jordan_tucker",
@@ -14047,7 +14940,10 @@
       "rsci": "59",
       "weight": "220",
       "dob": "1999-10-15",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mike_buckmire",
@@ -14078,7 +14974,10 @@
       "rsci": "",
       "weight": "175",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "joey_baker",
@@ -14109,7 +15008,10 @@
       "rsci": "37",
       "weight": "201",
       "dob": "2000-03-12",
-      "twitter": "JoeyBaker_13"
+      "twitter": "JoeyBaker_13",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "bates_jones",
@@ -14140,7 +15042,10 @@
       "rsci": "",
       "weight": "225",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "cassius_stanley",
@@ -14168,7 +15073,10 @@
       "rsci": "33",
       "weight": "193",
       "dob": "2000-08-28",
-      "twitter": "cassius_stanley"
+      "twitter": "cassius_stanley",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "vernon_carey_jr",
@@ -14296,7 +15204,10 @@
         "description": "Founded by Jim Valvano, The V Foundation funds cancer research grants nationwide. Duke's Brotherhood has deep ties to the organization through Coach K's decades of involvement.",
         "url": "https://www.v.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "matthew_hurt",
@@ -14325,7 +15236,10 @@
       "rsci": "12",
       "weight": "235",
       "dob": "2001-09-27",
-      "twitter": "MatthewHurt1"
+      "twitter": "MatthewHurt1",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "wendell_moore_jr",
@@ -14461,7 +15375,10 @@
         "description": "Founded by Jim Valvano, The V Foundation funds cancer research grants nationwide. Duke's Brotherhood has deep ties to the organization through Coach K's decades of involvement.",
         "url": "https://www.v.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "michael_savarino",
@@ -14491,7 +15408,10 @@
       "rsci": "",
       "weight": "185",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "keenan_worthington",
@@ -14521,7 +15441,10 @@
       "rsci": "",
       "weight": "225",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dj_steward",
@@ -14549,7 +15472,10 @@
       "rsci": "24",
       "weight": "163",
       "dob": "2001-11-03",
-      "twitter": "DJSteward2"
+      "twitter": "DJSteward2",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jalen_johnson",
@@ -14658,7 +15584,10 @@
         "isDefault": true
       },
       "dob": "2002-12-18",
-      "twitter": "JalenJohnson1"
+      "twitter": "JalenJohnson1",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mark_williams",
@@ -14778,7 +15707,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "MarkWilliams15"
+      "twitter": "MarkWilliams15",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jaemyn_brakefield",
@@ -14806,7 +15738,10 @@
       "rsci": "33",
       "weight": "216",
       "dob": "2002-01-19",
-      "twitter": "jaemyn_b"
+      "twitter": "jaemyn_b",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "henry_coleman_iii",
@@ -14834,7 +15769,10 @@
       "rsci": "",
       "weight": "",
       "dob": "2002-08-14",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "patrick_tape",
@@ -14862,7 +15800,10 @@
       "rsci": "",
       "weight": "233",
       "dob": "1999-07-06",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "spencer_hubbard",
@@ -14935,7 +15876,10 @@
         "isDefault": true
       },
       "dob": "2002-05-14",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "trevor_keels",
@@ -15053,7 +15997,10 @@
         "description": "Founded by Jim Valvano, The V Foundation funds cancer research grants nationwide. Duke's Brotherhood has deep ties to the organization through Coach K's decades of involvement.",
         "url": "https://www.v.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "theo_john",
@@ -15135,7 +16082,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "filipowski",
@@ -15232,7 +16182,10 @@
         "isDefault": true
       },
       "dob": "2003-09-22",
-      "twitter": "kylefilipowski"
+      "twitter": "kylefilipowski",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "lively",
@@ -15332,7 +16285,10 @@
       "weight": "230",
       "lastUpdated": "2026-03-07",
       "dob": "2004-01-10",
-      "twitter": "DeijunLively"
+      "twitter": "DeijunLively",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mccain",
@@ -15432,7 +16388,10 @@
         "isDefault": true
       },
       "dob": "2004-08-21",
-      "twitter": "Jared2McCain"
+      "twitter": "Jared2McCain",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "flagg",
@@ -15529,8 +16488,22 @@
       "twitter": "cooperflagg",
       "allAmerican": [
         {
-          "year": 2025,
-          "team": 1
+          "season": "2024-25",
+          "team": "First"
+        }
+      ],
+      "nationalPOY": [
+        {
+          "season": "2024-25",
+          "awards": [
+            "Sporting News"
+          ],
+          "consensus": false
+        }
+      ],
+      "accPOY": [
+        {
+          "season": "2024-25"
         }
       ]
     },
@@ -15622,7 +16595,10 @@
         "isDefault": true
       },
       "dob": "2005-10-06",
-      "twitter": "KonKnueppel"
+      "twitter": "KonKnueppel",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "evans_isaiah",
@@ -15702,7 +16678,10 @@
         "isDefault": true
       },
       "dob": "2005-11-03",
-      "twitter": "IsaiahEvans_"
+      "twitter": "IsaiahEvans_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "cameron_boozer",
@@ -15792,10 +16771,11 @@
       "lastUpdated": "2026-03-22",
       "dob": "2007-07-18",
       "twitter": "cameronboozer_",
-      "allAmerican": [
+      "allAmerican": null,
+      "nationalPOY": null,
+      "accPOY": [
         {
-          "year": 2026,
-          "team": 1
+          "season": "2025-26"
         }
       ]
     },
@@ -15862,7 +16842,10 @@
       "weight": "205",
       "lastUpdated": "2026-02-20",
       "dob": "2006-11-04",
-      "twitter": "caydenboozer_"
+      "twitter": "caydenboozer_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jaylen_blakes",
@@ -15893,7 +16876,10 @@
       "rsci": "",
       "weight": "208",
       "dob": "2002-10-21",
-      "twitter": "jaylenblakes"
+      "twitter": "jaylenblakes",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "stanley_borden",
@@ -15978,7 +16964,10 @@
         "url": "https://ahbap.org/bagis-en",
         "isDefault": false
       },
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mark_mitchell",
@@ -16070,7 +17059,10 @@
         "isDefault": true
       },
       "dob": "2003-10-03",
-      "twitter": "MarkMitchell25"
+      "twitter": "MarkMitchell25",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tyrese_proctor",
@@ -16192,7 +17184,10 @@
         "description": "Founded by Jim Valvano, The V Foundation funds cancer research grants nationwide. Duke's Brotherhood has deep ties to the organization through Coach K's decades of involvement.",
         "url": "https://www.v.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ryan_young",
@@ -16221,7 +17216,10 @@
       "rsci": "",
       "weight": "245",
       "dob": "1999-07-21",
-      "twitter": "RyanYoung15"
+      "twitter": "RyanYoung15",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dariq_whitehead",
@@ -16321,7 +17319,10 @@
         "description": "Dariq Whitehead has volunteered as part of fundraising campaigns for pediatric cancer research and has donated his time as a basketball coach to special-needs children.",
         "url": "https://www.pcrf-kids.org/donate",
         "isDefault": false
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jacob_grandison",
@@ -16349,7 +17350,10 @@
       "rsci": "",
       "weight": "205",
       "dob": "1999-04-22",
-      "twitter": "JacobGrandison"
+      "twitter": "JacobGrandison",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jaden_schutt",
@@ -16440,7 +17444,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "christian_reeves",
@@ -16531,7 +17538,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "kale_catchings",
@@ -16559,7 +17569,10 @@
       "rsci": "",
       "weight": "220",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "max_johns",
@@ -16587,7 +17600,10 @@
       "rsci": "",
       "weight": "195",
       "dob": null,
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "neal_begovich",
@@ -16649,7 +17665,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "ifeanyi_ufochukwu",
@@ -16718,7 +17737,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "caleb_foster",
@@ -16819,7 +17841,10 @@
         "isDefault": true
       },
       "dob": "2005-04-28",
-      "twitter": "CalebFoster_4"
+      "twitter": "CalebFoster_4",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sean_stewart",
@@ -16847,7 +17872,10 @@
       "rsci": "15",
       "weight": "227",
       "dob": "2004-12-30",
-      "twitter": "SeanStewart24"
+      "twitter": "SeanStewart24",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "cameron_sheffield",
@@ -16944,7 +17972,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "jack_scott",
@@ -17036,7 +18067,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "tj_power",
@@ -17130,7 +18164,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sion_james",
@@ -17238,7 +18275,10 @@
         "description": "James completed nearly 350 hours of community service during his time at Tulane and Duke, with a focus on youth mentorship and education.",
         "url": "https://www.bgca.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "khaman_maluach",
@@ -17341,7 +18381,10 @@
         "url": ""
       },
       "dob": "2006-11-03",
-      "twitter": "KhamanMaluach"
+      "twitter": "KhamanMaluach",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "maliq_brown",
@@ -17453,7 +18496,10 @@
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
       },
-      "twitter": "MaliqBrown_"
+      "twitter": "MaliqBrown_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "patrick_ngongba_ii",
@@ -17548,7 +18594,10 @@
         "isDefault": true
       },
       "dob": "2005-05-31",
-      "twitter": "PatrickNgongba"
+      "twitter": "PatrickNgongba",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "mason_gillis",
@@ -17637,7 +18686,10 @@
         "description": "Founded by Jim Valvano, The V Foundation funds cancer research grants nationwide. Duke's Brotherhood has deep ties to the organization through Coach K's decades of involvement.",
         "url": "https://www.v.org/",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "darren_harris",
@@ -17734,7 +18786,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": "DarrenHarris_"
+      "twitter": "DarrenHarris_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "dame_sarr",
@@ -17828,7 +18883,10 @@
         "isDefault": true
       },
       "dob": "2005-09-17",
-      "twitter": "DameSarr_"
+      "twitter": "DameSarr_",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "nikolas_khamenia",
@@ -17918,7 +18976,10 @@
         "isDefault": true
       },
       "dob": "2003-12-27",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "sebastian_wilkins",
@@ -18006,7 +19067,10 @@
         "isDefault": true
       },
       "lastUpdated": "2026-03-17",
-      "twitter": ""
+      "twitter": "",
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     },
     {
       "id": "brock_davis",
@@ -18071,7 +19135,10 @@
         "description": "Founded by Coach K and his wife Mickie, the Emily Krzyzewski Center provides educational support and life skills programming to students in Durham's underserved communities.",
         "url": "https://www.emilyk.org/donate",
         "isDefault": true
-      }
+      },
+      "nationalPOY": null,
+      "accPOY": null,
+      "allAmerican": null
     }
   ]
 }
