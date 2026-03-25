@@ -9,6 +9,7 @@ const profiledCount = playersData.players.filter(p => p.status === 'done').lengt
 const totalPlayers = playersData.players.length;
 
 const lists = [
+  { slug: '../where-are-they-now', title: 'Where Are They Now?', desc: `${profiledCount} Brotherhood players grouped by what they're doing now — NBA, coaching, business, overseas, and more.`, featured: true },
   { slug: 'all-players', title: `All ${totalPlayers} Brotherhood Players (1981–Present)`, desc: `${profiledCount} profiled with full narratives · ${totalPlayers - profiledCount} more coming soon.` },
   { slug: 'currently-in-nba', title: 'Brotherhood Players Currently in the NBA', desc: `Active in the 2025–26 NBA season, among the ${profiledCount} players profiled.` },
   { slug: 'number-one-picks', title: '#1 Overall NBA Draft Picks Among the Brotherhood', desc: 'Five Brotherhood players were selected first overall — more than any program in history.' },
@@ -49,9 +50,16 @@ export default function ListsIndex() {
           {lists.map((list) => (
             <Link
               key={list.slug}
-              href={`/lists/${list.slug}`}
-              className="block p-5 border border-gray-200 rounded-lg hover:border-[#C5A258] hover:shadow-md transition-all"
+              href={list.slug.startsWith('../') ? `/${list.slug.replace('../', '')}/` : `/lists/${list.slug}`}
+              className={`block p-5 border rounded-lg hover:shadow-md transition-all ${
+                list.featured
+                  ? 'border-[#C5A258] bg-[#FDFBF5] hover:shadow-lg'
+                  : 'border-gray-200 hover:border-[#C5A258]'
+              }`}
             >
+              {list.featured && (
+                <span className="inline-block font-mono text-[10px] text-[#C5A258] uppercase tracking-wider mb-1">Featured</span>
+              )}
               <h2 className="text-xl font-semibold text-[#001A57]">{list.title}</h2>
               <p className="text-gray-500 mt-1">{list.desc}</p>
             </Link>
