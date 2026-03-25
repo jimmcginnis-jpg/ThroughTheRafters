@@ -348,26 +348,49 @@ function StatsTab({ stats, roster, playerSeasons }) {
     );
   }
 
-  const { team, leaders } = stats;
+  const { team, leaders: staticLeaders } = stats;
   const margin = (team.ppg - team.oppPpg).toFixed(1);
   const marginSign = margin > 0 ? '+' : '';
 
-  // Group leaders by category, take top 5
   const categories = ['PTS', 'REB', 'AST', 'BLK'];
   const catLabels = { PTS: 'Scoring', REB: 'Rebounding', AST: 'Assists', BLK: 'Blocks' };
   const catFields = { PTS: 'ppg', REB: 'rpg', AST: 'apg', BLK: 'bpg' };
   const catUnits = { PTS: 'ppg', REB: 'rpg', AST: 'apg', BLK: 'bpg' };
 
-  const grouped = {};
-  categories.forEach(cat => {
-    grouped[cat] = leaders
-      .filter(l => l.category === cat)
-      .slice(0, 5);
-  });
-
   // Try to resolve player slugs for linking
   const playerMap = {};
   roster.forEach(p => { playerMap[p.id] = p; });
+
+  // Derive leaders from playerSeasons when available; fall back to static leaders
+  const grouped = {};
+  if (playerSeasons && playerSeasons.length > 0) {
+    const psWithNames = playerSeasons.map(ps => {
+      const p = playerMap[ps.playerId] || {};
+      return { ...ps, name: p.name || ps.playerId };
+    });
+    // Scoring: sort by pts desc, take top 5
+    grouped['PTS'] = [...psWithNames].filter(p => p.gp >= 5)
+      .sort((a, b) => b.pts - a.pts).slice(0, 5)
+      .map(p => ({ name: p.name, playerId: p.playerId, category: 'PTS', ppg: p.pts, total: p.totalPts }));
+    // Rebounding: sort by reb desc
+    grouped['REB'] = [...psWithNames].filter(p => p.gp >= 5)
+      .sort((a, b) => b.reb - a.reb).slice(0, 5)
+      .map(p => ({ name: p.name, playerId: p.playerId, category: 'REB', rpg: p.reb, total: p.totalReb }));
+    // Assists: sort by ast desc
+    grouped['AST'] = [...psWithNames].filter(p => p.gp >= 5)
+      .sort((a, b) => b.ast - a.ast).slice(0, 5)
+      .map(p => ({ name: p.name, playerId: p.playerId, category: 'AST', apg: p.ast, total: p.totalAst }));
+    // Blocks: sort by blk desc
+    grouped['BLK'] = [...psWithNames].filter(p => p.gp >= 5)
+      .sort((a, b) => b.blk - a.blk).slice(0, 5)
+      .map(p => ({ name: p.name, playerId: p.playerId, category: 'BLK', bpg: p.blk, total: p.totalBlk }));
+  } else {
+    categories.forEach(cat => {
+      grouped[cat] = (staticLeaders || [])
+        .filter(l => l.category === cat)
+        .slice(0, 5);
+    });
+  }
 
   return (
     <div>
@@ -457,7 +480,7 @@ function StatsTab({ stats, roster, playerSeasons }) {
                         <span className="font-mono text-sm font-bold text-duke-navy">
                           {row[field]} <span className="text-gray-400 text-xs">{unit}</span>
                         </span>
-                        {row.total && (
+                        {row.total != null && (
                           <span className="font-mono text-xs text-gray-400 w-12 text-right">
                             {row.total}
                           </span>
