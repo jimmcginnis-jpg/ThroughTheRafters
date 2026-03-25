@@ -6,6 +6,12 @@ import Layout from '../../components/Layout';
 
 const vizzes = [
   {
+    slug: 'compare',
+    title: 'Flagg vs Boozer',
+    desc: 'Back-to-back generational freshmen compared — per-game stats, shooting splits, and season totals side by side.',
+    stat: 'Freshman vs Freshman',
+  },
+  {
     slug: 'height',
     title: 'All Players by Height',
     desc: '219 players visualized from 5\'8" to 7\'2" — hover to explore.',
