@@ -7,6 +7,7 @@ import Layout from '../../components/Layout';
 import LinkedText from '../../components/LinkedText';
 import teams from '../../data/teams.json';
 import playerData from '../../data/players.json';
+import playerSeasonsData from '../../data/playerseasons.json';
 
 const eraNames = {
   foundation: 'Foundation', dynasty1: 'First Dynasty', transition: 'Transition',
@@ -176,7 +177,168 @@ function StatCard({ label, value }) {
 }
 
 // ============ TAB: STATS ============
-function StatsTab({ stats, roster }) {
+const STAT_VIEWS = {
+  avg: {
+    label: 'Per Game',
+    cols: ['Player','Cl','GP','GS','MPG','PTS','REB','AST','STL','BLK','TO','FG%','3P%','FT%'],
+    keys: ['name','class','gp','gs','mpg','pts','reb','ast','stl','blk','to','fgPct','tpPct','ftPct'],
+  },
+  totals: {
+    label: 'Totals',
+    cols: ['Player','Cl','GP','PTS','REB','AST','STL','BLK','FGM','FGA','3PM','3PA','FTM','FTA'],
+    keys: ['name','class','gp','totalPts','totalReb','totalAst','totalStl','totalBlk','fgm','fga','tpm','tpa','ftm','fta'],
+  },
+  shooting: {
+    label: 'Shooting',
+    cols: ['Player','Cl','GP','FGM','FGA','FG%','3PM','3PA','3P%','FTM','FTA','FT%'],
+    keys: ['name','class','gp','fgm','fga','fgPct','tpm','tpa','tpPct','ftm','fta','ftPct'],
+  },
+};
+
+function PlayerStatsTable({ playerSeasons, roster }) {
+  const [view, setView] = useState('avg');
+  const [sortKey, setSortKey] = useState('pts');
+  const [sortDir, setSortDir] = useState(-1);
+
+  // Merge player names/positions into the stats
+  const playerMap = {};
+  roster.forEach(p => { playerMap[p.id] = p; });
+
+  const rows = playerSeasons.map(ps => {
+    const p = playerMap[ps.playerId] || {};
+    return { ...ps, name: p.name || ps.playerId, pos: p.pos || '', slug: p.slug, status: p.status };
+  });
+
+  // Sort
+  const sorted = [...rows].sort((a, b) => {
+    const av = a[sortKey] ?? 0;
+    const bv = b[sortKey] ?? 0;
+    if (typeof av === 'string') return sortDir * av.localeCompare(bv);
+    return sortDir * (av - bv);
+  });
+
+  // Find leaders (max value among players with 10+ games)
+  const vDef = STAT_VIEWS[view];
+  const maxes = {};
+  vDef.keys.forEach(k => {
+    if (k === 'name' || k === 'class') return;
+    const vals = rows.filter(r => r.gp >= 10).map(r => r[k] || 0);
+    if (vals.length > 0) maxes[k] = Math.max(...vals);
+  });
+
+  function handleSort(key) {
+    if (key === 'name' || key === 'class') return;
+    if (sortKey === key) setSortDir(d => d * -1);
+    else { setSortKey(key); setSortDir(-1); }
+  }
+
+  function handleViewChange(v) {
+    setView(v);
+    if (v === 'avg') setSortKey('pts');
+    else if (v === 'totals') setSortKey('totalPts');
+    else setSortKey('fgPct');
+    setSortDir(-1);
+  }
+
+  function fmt(val, key) {
+    if (val == null) return '—';
+    if (key.includes('Pct')) return val.toFixed(1);
+    if (typeof val === 'number' && !Number.isInteger(val)) return val.toFixed(1);
+    return val;
+  }
+
+  return (
+    <div>
+      {/* View toggle */}
+      <div className="flex gap-2 mb-4">
+        {Object.entries(STAT_VIEWS).map(([k, v]) => (
+          <button
+            key={k}
+            onClick={() => handleViewChange(k)}
+            className={`px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border transition-all ${
+              view === k
+                ? 'bg-duke-navy text-white border-duke-navy'
+                : 'bg-white text-gray-500 border-gray-200 hover:border-gray-400'
+            }`}
+          >
+            {v.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Table */}
+      <div className="overflow-x-auto -mx-4 px-4">
+        <table className="w-full text-xs min-w-[700px]">
+          <thead>
+            <tr>
+              {vDef.cols.map((col, i) => {
+                const key = vDef.keys[i];
+                const isSorted = sortKey === key;
+                const clickable = key !== 'name' && key !== 'class';
+                return (
+                  <th
+                    key={col}
+                    onClick={() => clickable && handleSort(key)}
+                    className={`py-2 px-1.5 font-mono text-[10px] uppercase tracking-wider border-b border-gray-200 ${
+                      i === 0 ? 'text-left pl-3' : 'text-right'
+                    } ${clickable ? 'cursor-pointer hover:text-duke-navy' : ''} ${
+                      isSorted ? 'text-duke-navy' : 'text-gray-400'
+                    }`}
+                    style={{ background: '#f9f9f6' }}
+                  >
+                    {col}{isSorted ? ' ▾' : ''}
+                  </th>
+                );
+              })}
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((row, ri) => (
+              <tr key={row.playerId} className="hover:bg-gray-50 transition-colors">
+                {vDef.keys.map((key, ci) => {
+                  if (key === 'name') {
+                    const nameContent = row.status === 'done' ? (
+                      <Link href={`/players/${row.slug}/`} className="text-duke-navy hover:text-duke-gold transition-colors">
+                        {row.name}
+                      </Link>
+                    ) : (
+                      <span>{row.name}</span>
+                    );
+                    return (
+                      <td key={key} className={`py-2 pl-3 pr-1.5 font-display text-xs font-semibold border-b border-gray-100 ${
+                        row.gs >= 20 ? 'border-l-2 border-l-duke-gold' : ''
+                      }`}>
+                        {nameContent}
+                        <span className="font-mono text-[10px] text-gray-400 ml-1.5">{row.pos}</span>
+                      </td>
+                    );
+                  }
+                  const val = row[key];
+                  const isLeader = maxes[key] != null && val === maxes[key] && row.gp >= 10 && val > 0;
+                  return (
+                    <td
+                      key={key}
+                      className={`py-2 px-1.5 text-right font-mono border-b border-gray-100 ${
+                        isLeader ? 'text-duke-navy font-bold' : 'text-gray-700'
+                      }`}
+                    >
+                      {fmt(val, key)}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mt-2 font-mono text-[10px] text-gray-400">
+        Gold border = starter (20+ games started) · Bold = team leader (10+ GP) · Click column to sort
+      </div>
+    </div>
+  );
+}
+
+function StatsTab({ stats, roster, playerSeasons }) {
   if (!stats) {
     return (
       <div className="text-center py-12">
@@ -309,6 +471,14 @@ function StatsTab({ stats, roster }) {
           );
         })}
       </div>
+
+      {/* Player Stats Table */}
+      {playerSeasons && playerSeasons.length > 0 && (
+        <div className="mt-8">
+          <h3 className="font-mono text-xs text-gray-500 uppercase tracking-wider mb-4">Player Stats</h3>
+          <PlayerStatsTable playerSeasons={playerSeasons} roster={roster} />
+        </div>
+      )}
     </div>
   );
 }
@@ -624,7 +794,7 @@ export default function SeasonPage({ team, roster }) {
       <section className="max-w-4xl mx-auto px-4 py-8">
         {activeTab === 'players' && <PlayersTab roster={roster} season={team.season} />}
         {activeTab === 'season' && <SeasonTab team={team} />}
-        {activeTab === 'stats' && <StatsTab stats={team.stats} roster={roster} />}
+        {activeTab === 'stats' && <StatsTab stats={team.stats} roster={roster} playerSeasons={team.playerSeasons} />}
         {activeTab === 'gthc' && <GthcTab games={team.unc} />}
         {activeTab === 'thegame' && <TheGameTab game={team.theGame} />}
         {activeTab === 'march' && <MarchTab march={team.march} accTournament={team.accTournament} ncaaTournament={team.ncaaTournament} />}
@@ -722,6 +892,9 @@ export async function getStaticProps({ params }) {
   const curIdx = allSeasons.indexOf(params.season);
   team.prevSeason = curIdx > 0 ? allSeasons[curIdx - 1] : null;
   team.nextSeason = curIdx < allSeasons.length - 1 ? allSeasons[curIdx + 1] : null;
+
+  // Attach player-level season stats if available
+  team.playerSeasons = playerSeasonsData[params.season] || null;
 
   // Build roster from players.json
   const roster = playerData.players
