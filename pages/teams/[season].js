@@ -195,7 +195,7 @@ const STAT_VIEWS = {
   },
 };
 
-function PlayerStatsTable({ playerSeasons, roster }) {
+function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals }) {
   const [view, setView] = useState('avg');
   const [sortKey, setSortKey] = useState('pts');
   const [sortDir, setSortDir] = useState(-1);
@@ -208,6 +208,31 @@ function PlayerStatsTable({ playerSeasons, roster }) {
     const p = playerMap[ps.playerId] || {};
     return { ...ps, name: p.name || ps.playerId, pos: p.pos || '', slug: p.slug, status: p.status };
   });
+
+  // Build footer row data from totals
+  function buildTotalsRow(totals, label) {
+    if (!totals || !totals.gp) return null;
+    const gp = totals.gp;
+    const safeAvg = (v) => (v && gp) ? Math.round(10 * v / gp) / 10 : 0;
+    return {
+      name: label, class: '', gp: gp, gs: '',
+      mpg: '', pts: totals.ppg || safeAvg(totals.pts),
+      reb: safeAvg(totals.reb), ast: safeAvg(totals.ast),
+      stl: safeAvg(totals.stl), blk: safeAvg(totals.blk),
+      to: safeAvg(totals.to),
+      fgPct: totals.fgPct || 0, tpPct: totals.tpPct || 0, ftPct: totals.ftPct || 0,
+      totalPts: totals.pts || 0, totalReb: totals.reb || 0,
+      totalAst: totals.ast || 0, totalStl: totals.stl || 0,
+      totalBlk: totals.blk || 0,
+      fgm: totals.fgm || 0, fga: totals.fga || 0,
+      tpm: totals.tpm || 0, tpa: totals.tpa || 0,
+      ftm: totals.ftm || 0, fta: totals.fta || 0,
+      _isFooter: true,
+    };
+  }
+
+  const teamRow = buildTotalsRow(teamTotals, 'Team Totals');
+  const oppRow = buildTotalsRow(opponentTotals, 'Opponents');
 
   // Sort
   const sorted = [...rows].sort((a, b) => {
@@ -329,6 +354,34 @@ function PlayerStatsTable({ playerSeasons, roster }) {
               </tr>
             ))}
           </tbody>
+          {(teamRow || oppRow) && (
+            <tfoot>
+              {[teamRow, oppRow].filter(Boolean).map(row => {
+                // Skip opponent row if it has no meaningful data (ppg=0 and pts=0)
+                if (row.name === 'Opponents' && !row.pts && !row.totalPts) return null;
+                return (
+                  <tr key={row.name} className={row.name === 'Team Totals' ? 'bg-duke-navy/5 font-semibold' : 'bg-gray-100/80'}>
+                    {vDef.keys.map((key, ci) => {
+                      if (key === 'name') {
+                        return (
+                          <td key={key} className="py-2 pl-3 pr-1.5 font-mono text-xs font-bold text-duke-navy border-t-2 border-duke-gold/40">
+                            {row.name}
+                          </td>
+                        );
+                      }
+                      const val = row[key];
+                      const display = (val === '' || val == null) ? '' : (typeof val === 'number' && !Number.isInteger(val)) ? val.toFixed(1) : (key.includes('Pct') && typeof val === 'number') ? val.toFixed(1) : val;
+                      return (
+                        <td key={key} className="py-2 px-1.5 text-right font-mono text-xs text-gray-700 border-t-2 border-duke-gold/40">
+                          {display || '—'}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
+            </tfoot>
+          )}
         </table>
       </div>
       <div className="mt-2 font-mono text-[10px] text-gray-400">
@@ -338,7 +391,7 @@ function PlayerStatsTable({ playerSeasons, roster }) {
   );
 }
 
-function StatsTab({ stats, roster, playerSeasons }) {
+function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) {
   if (!stats) {
     return (
       <div className="text-center py-12">
@@ -499,7 +552,7 @@ function StatsTab({ stats, roster, playerSeasons }) {
       {playerSeasons && playerSeasons.length > 0 && (
         <div className="mt-8">
           <h3 className="font-mono text-xs text-gray-500 uppercase tracking-wider mb-4">Player Stats</h3>
-          <PlayerStatsTable playerSeasons={playerSeasons} roster={roster} />
+          <PlayerStatsTable playerSeasons={playerSeasons} roster={roster} teamTotals={teamTotals} opponentTotals={opponentTotals} />
         </div>
       )}
     </div>
@@ -817,7 +870,7 @@ export default function SeasonPage({ team, roster }) {
       <section className="max-w-4xl mx-auto px-4 py-8">
         {activeTab === 'players' && <PlayersTab roster={roster} season={team.season} />}
         {activeTab === 'season' && <SeasonTab team={team} />}
-        {activeTab === 'stats' && <StatsTab stats={team.stats} roster={roster} playerSeasons={team.playerSeasons} />}
+        {activeTab === 'stats' && <StatsTab stats={team.stats} roster={roster} playerSeasons={team.playerSeasons} teamTotals={team.teamTotals} opponentTotals={team.opponentTotals} />}
         {activeTab === 'gthc' && <GthcTab games={team.unc} />}
         {activeTab === 'thegame' && <TheGameTab game={team.theGame} />}
         {activeTab === 'march' && <MarchTab march={team.march} accTournament={team.accTournament} ncaaTournament={team.ncaaTournament} />}
@@ -917,7 +970,10 @@ export async function getStaticProps({ params }) {
   team.nextSeason = curIdx < allSeasons.length - 1 ? allSeasons[curIdx + 1] : null;
 
   // Attach player-level season stats if available
-  team.playerSeasons = playerSeasonsData[params.season] || null;
+  const psData = playerSeasonsData[params.season] || null;
+  team.playerSeasons = psData ? (psData.players || psData) : null;
+  team.teamTotals = psData?.teamTotals || null;
+  team.opponentTotals = psData?.opponentTotals || null;
 
   // Build roster from players.json
   const roster = playerData.players
