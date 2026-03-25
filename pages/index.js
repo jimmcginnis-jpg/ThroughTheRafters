@@ -45,6 +45,12 @@ export default function Home({ eras, recentProfiles }) {
             >
               Browse by Season
             </Link>
+            <Link
+              href="/where-are-they-now/"
+              className="border border-duke-gold text-duke-gold px-6 py-3 font-mono text-sm tracking-wider uppercase hover:bg-duke-gold/10 transition-colors"
+            >
+              Where Are They Now?
+            </Link>
           </div>
           <div className="mt-10 font-mono text-sm text-duke-goldLight">
             {totalDone} of {totalPlayers} profiles complete
