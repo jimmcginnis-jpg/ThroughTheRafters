@@ -26,7 +26,7 @@ export default function Home({ eras, recentProfiles }) {
             across eight eras of Duke basketball. How they got to Duke. What made them
             special. What happened after. Where they are now.
           </p>
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/players/"
               className="bg-duke-gold text-duke-navyDark px-6 py-3 font-mono text-sm tracking-wider uppercase hover:bg-duke-goldLight transition-colors"
@@ -38,6 +38,12 @@ export default function Home({ eras, recentProfiles }) {
               className="border border-duke-gold text-duke-gold px-6 py-3 font-mono text-sm tracking-wider uppercase hover:bg-duke-gold/10 transition-colors"
             >
               Browse by Era
+            </Link>
+            <Link
+              href="/teams/"
+              className="border border-duke-gold text-duke-gold px-6 py-3 font-mono text-sm tracking-wider uppercase hover:bg-duke-gold/10 transition-colors"
+            >
+              Browse by Season
             </Link>
           </div>
           <div className="mt-10 font-mono text-sm text-duke-goldLight">
