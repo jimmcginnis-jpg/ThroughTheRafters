@@ -149,9 +149,57 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     ? player.bio.road.substring(0, 155).replace(/\n/g, ' ') + '...'
     : `${player.name} — Duke Basketball ${player.years}. ${player.tagline}`;
 
+  // SEO title — include "Where Is He Now" for done profiles to match search intent
+  const seoTitle = player.status === 'done'
+    ? `${player.name} — Where Is He Now? | Duke Basketball ${player.years}`
+    : `${player.name} — Duke Basketball ${player.years}`;
+
+  // Build FAQ schema for done profiles (targets "where is X now" searches)
+  const faqQuestions = [];
+  if (player.status === 'done') {
+    if (player.now) {
+      faqQuestions.push({
+        '@type': 'Question',
+        name: `Where is ${player.name} now?`,
+        acceptedAnswer: { '@type': 'Answer', text: player.now },
+      });
+    }
+    if (player.nba && player.nba.teams && player.nba.teams.length > 0) {
+      const teamNames = player.nba.teams.map(t => t.team).join(', ');
+      const careerYears = player.nba.careerYears || '';
+      faqQuestions.push({
+        '@type': 'Question',
+        name: `Did ${player.name} play in the NBA?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Yes. ${player.name} played in the NBA${careerYears ? ` (${careerYears})` : ''} for ${teamNames}.`,
+        },
+      });
+    } else if (player.drafted === 'Undrafted' || (!player.nba && player.status === 'done')) {
+      faqQuestions.push({
+        '@type': 'Question',
+        name: `Did ${player.name} play in the NBA?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${player.name} was not drafted and did not play in the NBA.${player.now ? ' ' + player.now : ''}`,
+        },
+      });
+    }
+    if (player.years) {
+      faqQuestions.push({
+        '@type': 'Question',
+        name: `When did ${player.name} play at Duke?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${player.name} played for the Duke Blue Devils from ${player.years}.${player.stat ? ' ' + player.stat + '.' : ''}`,
+        },
+      });
+    }
+  }
+
   return (
     <Layout
-      title={`${player.name} — Duke Basketball ${player.years}`}
+      title={seoTitle}
       description={seoDescription}
       canonical={`/players/${player.slug}/`}
     >
@@ -391,6 +439,19 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           }),
         }}
       />
+      {/* FAQ Structured Data — targets "where is X now?" searches */}
+      {faqQuestions.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: faqQuestions,
+            }),
+          }}
+        />
+      )}
     </Layout>
   );
 }
