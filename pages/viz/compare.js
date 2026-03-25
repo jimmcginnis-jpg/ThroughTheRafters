@@ -18,7 +18,8 @@ function getPlayer(id) {
 }
 
 function getStats(id, season) {
-  const records = playerSeasonsData[season] || [];
+  const seasonData = playerSeasonsData[season] || {};
+  const records = seasonData.players || seasonData || [];
   return records.find(r => r.playerId === id) || null;
 }
 
