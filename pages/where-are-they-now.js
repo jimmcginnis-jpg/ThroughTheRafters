@@ -1,6 +1,7 @@
 // pages/where-are-they-now.js
 // Hub page grouping all done players by what they're doing now
 
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../components/Layout';
@@ -70,6 +71,71 @@ const CATEGORIES = [
   { key: 'deceased', label: 'In memoriam', icon: '🕊', desc: '' },
 ];
 
+function CategorySection({ group, defaultOpen }) {
+  const [open, setOpen] = useState(defaultOpen);
+
+  return (
+    <div className="mb-6 scroll-mt-16" id={group.key}>
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full text-left group"
+      >
+        <div className="flex items-center justify-between border-b-2 border-duke-gold pb-2 mb-1">
+          <h2 className="font-display text-xl text-duke-navy font-bold group-hover:text-duke-gold transition-colors">
+            {group.label}
+          </h2>
+          <div className="flex items-center gap-3">
+            <span className="font-mono text-xs text-gray-400">
+              {group.count} player{group.count !== 1 ? 's' : ''}
+            </span>
+            <svg
+              className={`w-5 h-5 text-duke-gold transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+              fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </div>
+        </div>
+        {group.desc && (
+          <p className="font-body text-sm text-gray-500 italic mt-1 mb-2">{group.desc}</p>
+        )}
+      </button>
+
+      {open && (
+        <div className="space-y-2 mt-3">
+          {group.players.map(p => (
+            <Link
+              key={p.id}
+              href={`/players/${p.slug}/`}
+              className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-duke-gold hover:shadow-sm transition-all group/card"
+            >
+              <div className="shrink-0 w-10 h-10 rounded-full bg-duke-navy flex items-center justify-center">
+                <span className="font-mono text-xs font-bold text-duke-gold">
+                  {p.jersey || '#'}
+                </span>
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="font-display font-semibold text-duke-navy group-hover/card:text-duke-gold transition-colors">
+                    {p.name}
+                  </span>
+                  <span className="font-mono text-[10px] text-gray-400">{p.years}</span>
+                </div>
+                <div className="font-body text-sm text-gray-600 mt-0.5 line-clamp-2">
+                  {p.now}
+                </div>
+              </div>
+              <svg className="w-4 h-4 text-gray-300 shrink-0 mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round">
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function WhereAreTheyNow({ groups, totalCount }) {
   return (
     <Layout
@@ -116,46 +182,8 @@ export default function WhereAreTheyNow({ groups, totalCount }) {
 
       {/* Sections */}
       <section className="max-w-4xl mx-auto px-4 py-8">
-        {groups.map(g => (
-          <div key={g.key} id={g.key} className="mb-12 scroll-mt-16">
-            <div className="flex items-baseline gap-3 mb-1">
-              <h2 className="font-display text-2xl text-duke-navy font-bold">{g.label}</h2>
-              <span className="font-mono text-sm text-duke-gold">{g.count}</span>
-            </div>
-            {g.desc && (
-              <p className="font-body text-gray-500 text-sm mb-4">{g.desc}</p>
-            )}
-
-            <div className="space-y-2">
-              {g.players.map(p => (
-                <Link
-                  key={p.id}
-                  href={`/players/${p.slug}/`}
-                  className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-duke-gold hover:shadow-sm transition-all group"
-                >
-                  <div className="shrink-0 w-10 h-10 rounded-full bg-duke-navy flex items-center justify-center">
-                    <span className="font-mono text-xs font-bold text-duke-gold">
-                      {p.jersey || '#'}
-                    </span>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span className="font-display font-semibold text-duke-navy group-hover:text-duke-gold transition-colors">
-                        {p.name}
-                      </span>
-                      <span className="font-mono text-[10px] text-gray-400">{p.years}</span>
-                    </div>
-                    <div className="font-body text-sm text-gray-600 mt-0.5 line-clamp-2">
-                      {p.now}
-                    </div>
-                  </div>
-                  <svg className="w-4 h-4 text-gray-300 shrink-0 mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round">
-                    <polyline points="9 18 15 12 9 6" />
-                  </svg>
-                </Link>
-              ))}
-            </div>
-          </div>
+        {groups.map((g, i) => (
+          <CategorySection key={g.key} group={g} defaultOpen={i === 0} />
         ))}
       </section>
 
