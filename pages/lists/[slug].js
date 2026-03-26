@@ -599,7 +599,11 @@ function RenderBirthdays() {
   function tweetUrl(p) {
     const age = today.getFullYear() - p.dobYear;
     const playerUrl = `${siteUrl}/players/${p.slug}/`;
-    const text = `🎂 Happy Birthday to Duke Brotherhood member ${p.name}! Born ${monthAbbr[p.dobMonth - 1]} ${p.dobDay}, ${p.dobYear} (${age} today). Read his story: ${playerUrl} #DukeBrotherhood #GoDuke`;
+    const handle = p.twitter ? ` @${p.twitter}` : '';
+    const charityLine = (p.status === 'done' && p.charity && p.charity.url)
+      ? `\n\nDonate in his honor today: ${p.charity.url}`
+      : '';
+    const text = `🎂 Happy Birthday to Duke Brotherhood member ${p.name}!${handle} Born ${monthAbbr[p.dobMonth - 1]} ${p.dobDay}, ${p.dobYear} (${age} today). Read his story: ${playerUrl}${charityLine} #DukeBrotherhood #GoDuke`;
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   }
 
