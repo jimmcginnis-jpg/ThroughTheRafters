@@ -499,7 +499,7 @@ function RenderCharities() {
                 <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Connected to</span>
                 <div className="flex flex-wrap gap-1.5 mt-1.5">
                   {c.players.map(p => (
-                    p.status === 'done' ? (
+                    p.status === 'done' || p.status === 'pledged' ? (
                       <Link key={p.slug} href={`/players/${p.slug}`} className="inline-block text-xs bg-[#001A57]/10 text-[#001A57] px-2 py-0.5 rounded-full hover:bg-[#001A57] hover:text-white transition-colors">
                         {p.name}
                       </Link>
@@ -627,7 +627,7 @@ function RenderBirthdays() {
             return (
               <div key={p.id} className="flex flex-wrap items-center justify-between gap-3 py-3 border-b last:border-0 border-[#C5A258]/30">
                 <div>
-                  {p.status === 'done' ? (
+                  {p.status === 'done' || p.status === 'pledged' ? (
                     <Link href={`/players/${p.slug}/`} className="text-lg font-bold text-[#001A57] hover:text-[#C5A258]">{p.name}</Link>
                   ) : (
                     <span className="text-lg font-bold text-gray-600">{p.name}</span>
@@ -655,7 +655,7 @@ function RenderBirthdays() {
               <div key={p.id} className="text-sm">
                 <span className="font-mono text-[#C5A258] font-bold">{monthAbbr[p.dobMonth - 1]} {p.dobDay}</span>
                 {' '}
-                {p.status === 'done' ? (
+                {p.status === 'done' || p.status === 'pledged' ? (
                   <Link href={`/players/${p.slug}/`} className="text-[#001A57] hover:text-[#C5A258] font-medium">{p.name}</Link>
                 ) : (
                   <span className="text-gray-500">{p.name}</span>
@@ -691,7 +691,7 @@ function RenderBirthdays() {
                   age,
                   p.pos,
                   p.years,
-                  p.status === 'done' ? { text: (
+                  p.status === 'done' || p.status === 'pledged' ? { text: (
                     <a href={tweetUrl(p)} target="_blank" rel="noopener noreferrer"
                        className="inline-flex items-center gap-1 px-2 py-1 rounded bg-[#001A57] text-white text-xs hover:bg-[#C5A258] transition-colors"
                        onClick={e => e.stopPropagation()}>
@@ -873,7 +873,7 @@ function RenderAllAmericans() {
         {multiYear.map(p => (
           <div key={p.name} className="flex items-center justify-between p-4 rounded-lg bg-gray-50 border border-gray-200">
             <div className="font-medium text-[#001A57]">
-              {p.player.status === 'done' ? (
+              {p.player.status === 'done' || p.player.status === 'pledged' ? (
                 <Link href={`/players/${p.player.slug}`} className="hover:text-[#C5A258]">{p.name}</Link>
               ) : p.name}
             </div>
