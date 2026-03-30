@@ -17967,7 +17967,7 @@
     {
       "season": "2025-26",
       "era": "scheyer",
-      "record": "34-2*",
+      "record": "35-3",
       "accRecord": "17-1",
       "coach": "Jon Scheyer",
       "ranking": {
@@ -18374,7 +18374,10 @@
         "actualRecord": "34-2*",
         "actualNcaa": "In progress — #1 overall seed, Sweet 16",
         "futurePros": []
-      }
+      },
+      "wins": 35,
+      "losses": 3,
+      "ncaaResult": "Elite Eight"
     }
   ]
 }
