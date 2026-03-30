@@ -26,7 +26,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
 
   // Build player name → slug lookup for auto-linking (only completed profiles, not self)
   const linkablePlayers = data.players
-    .filter(p => p.status === 'done' && p.id !== player.id)
+    .filter(p => (p.status === 'done' || p.status === 'pledged') && p.id !== player.id)
     .map(p => ({ name: p.name, href: `/players/${p.slug}/`, type: 'player' }));
 
   // Build charity/foundation name → URL lookup from all players' charity data
@@ -149,14 +149,17 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     ? player.bio.road.substring(0, 155).replace(/\n/g, ' ') + '...'
     : `${player.name} — Duke Basketball ${player.years}. ${player.tagline}`;
 
-  // SEO title — include "Where Is He Now" for done profiles to match search intent
+  // SEO title — include "Where Is He Now" for done profiles, "Road to Duke" for pledged
+  const hasProfile = player.status === 'done' || player.status === 'pledged';
   const seoTitle = player.status === 'done'
     ? `${player.name} — Where Is He Now? | Duke Basketball ${player.years}`
+    : player.status === 'pledged'
+    ? `${player.name} — Road to Duke | Duke Basketball Recruit ${player.years}`
     : `${player.name} — Duke Basketball ${player.years}`;
 
-  // Build FAQ schema for done profiles (targets "where is X now" searches)
+  // Build FAQ schema for done and pledged profiles
   const faqQuestions = [];
-  if (player.status === 'done') {
+  if (hasProfile) {
     if (player.now) {
       faqQuestions.push({
         '@type': 'Question',
@@ -244,7 +247,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           )}
 
           {/* Current Status */}
-          {player.now && player.status === 'done' && (
+          {player.now && hasProfile && (
             <div className="mt-4 pt-4 border-t border-white/10">
               <span className="font-mono text-xs text-duke-gold uppercase tracking-wider">Now: </span>
               <span className="font-body text-white/90">{player.now}</span>
