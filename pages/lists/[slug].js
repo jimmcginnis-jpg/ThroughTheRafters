@@ -128,9 +128,9 @@ const listConfigs = {
     meta: `All ${players.length} Duke Brotherhood players across 8 eras — ${profiledCount} profiled with full narratives, the rest coming soon.`,
   },
   'currently-in-nba': {
-    title: 'Brotherhood Players Currently in the NBA',
-    subtitle: `Active in the 2025–26 NBA season, among the ${profiledCount} players profiled.`,
-    meta: 'Brotherhood players currently active in the 2025-26 NBA season with stats and teams.',
+    title: 'Duke Players Currently in the NBA (2025–26 Season)',
+    subtitle: `Active Duke alumni in the 2025–26 NBA season — teams, stats, and career numbers among the ${profiledCount} Brotherhood profiles.`,
+    meta: 'Duke basketball players currently in the NBA for 2025-26: Jayson Tatum, Zion Williamson, Paolo Banchero, Cooper Flagg, Brandon Ingram, and more. Full roster with teams and stats.',
   },
   'number-one-picks': {
     title: '#1 Overall NBA Draft Picks Among the Brotherhood',
@@ -148,9 +148,9 @@ const listConfigs = {
     meta: `McDonald's All-Americans among the ${profiledCount} Duke Brotherhood players profiled.`,
   },
   'coaches': {
-    title: 'Brotherhood Players Who Became Coaches',
-    subtitle: `From NBA head coaches to college builders — coaching paths among the ${profiledCount} players profiled.`,
-    meta: 'Duke Brotherhood players who became coaches, including JJ Redick, Quin Snyder, Tommy Amaker, and Jon Scheyer.',
+    title: 'Duke Basketball Players Who Became Coaches',
+    subtitle: `From NBA head coaches to college builders — coaching careers among the ${profiledCount} Brotherhood profiles.`,
+    meta: 'Duke basketball alumni who became coaches: JJ Redick (Lakers), Jon Scheyer (Duke), Tommy Amaker (Harvard), Jeff Capel (Pitt), Bobby Hurley (Arizona State), Quin Snyder, Johnny Dawkins, and more.',
   },
   'top-nba-scorers': {
     title: 'Top NBA Scorers Among the Brotherhood',
@@ -168,9 +168,9 @@ const listConfigs = {
     meta: 'Duke Brotherhood players who went undrafted — coaches, broadcasters, executives, and more.',
   },
   'draft-history': {
-    title: 'Brotherhood NBA Draft History (1986–2025)',
-    subtitle: `Every drafted player among the ${profiledCount} Brotherhood profiles, year by year.`,
-    meta: `NBA draft history for the ${profiledCount} Duke Brotherhood players profiled, from 1986 to 2025.`,
+    title: 'Duke Basketball NBA Draft History — Every Pick from 1981 to 2025',
+    subtitle: `73 Duke players drafted into the NBA across four decades — every pick, team, and career stat among the ${profiledCount} Brotherhood profiles.`,
+    meta: `Complete Duke basketball NBA Draft history: 73 players drafted from 1981–2025, including 5 #1 overall picks (Brand, Irving, Zion, Banchero, Flagg), 18 lottery selections, and career stats for every player.`,
   },
   'by-the-numbers': {
     title: 'The Brotherhood: By the Numbers',
@@ -1013,11 +1013,64 @@ export default function ListPage({ slug, title, subtitle, meta }) {
     );
   }
 
+  // FAQ schema for high-search-volume list pages
+  const faqMap = {
+    'draft-history': [
+      { q: 'How many Duke players have been drafted into the NBA?', a: `73 Duke Brotherhood players have been drafted into the NBA from 1981 to 2025, including five #1 overall picks: Elton Brand (1999), Kyrie Irving (2011), Zion Williamson (2019), Paolo Banchero (2022), and Cooper Flagg (2025).` },
+      { q: 'Which Duke player was drafted highest?', a: 'Five Duke players have been selected #1 overall in the NBA Draft — more than any other program. The most recent was Cooper Flagg, taken first by the Dallas Mavericks in 2025.' },
+      { q: 'How many Duke players were first-round NBA picks?', a: 'Since 1986, over 50 Duke Brotherhood players have been selected in the first round of the NBA Draft, with 18 lottery picks (top 14).' },
+    ],
+    'currently-in-nba': [
+      { q: 'How many Duke players are currently in the NBA?', a: `Multiple Duke Brotherhood alumni are active in the 2025-26 NBA season, including Jayson Tatum (Boston Celtics), Zion Williamson (New Orleans Pelicans), Paolo Banchero (Orlando Magic), Brandon Ingram, and Cooper Flagg (Dallas Mavericks).` },
+      { q: 'Which Duke players are NBA All-Stars?', a: 'Active Duke alumni who have been NBA All-Stars include Jayson Tatum, Kyrie Irving, Zion Williamson, and Paolo Banchero.' },
+    ],
+    'lottery-picks': [
+      { q: 'How many Duke players have been NBA lottery picks?', a: 'Since the NBA lottery began in 1985, 18 Duke Brotherhood players have been selected in the top 14 picks, including five #1 overall selections.' },
+    ],
+    'coaches': [
+      { q: 'Which Duke basketball players became coaches?', a: 'Notable Duke players who became coaches include JJ Redick (NBA), Jon Scheyer (Duke head coach), Tommy Amaker (Harvard), Jeff Capel (Pittsburgh), Quin Snyder (NBA), Johnny Dawkins, Bobby Hurley (Arizona State), and Nolan Smith (Seton Hall).' },
+    ],
+    'number-one-picks': [
+      { q: 'Which Duke players were #1 NBA Draft picks?', a: 'Five Duke players were selected #1 overall: Elton Brand (1999, Chicago Bulls), Kyrie Irving (2011, Cleveland Cavaliers), Zion Williamson (2019, New Orleans Pelicans), Paolo Banchero (2022, Orlando Magic), and Cooper Flagg (2025, Dallas Mavericks).' },
+    ],
+    'all-americans': [
+      { q: 'How many Duke basketball All-Americans are there?', a: 'Duke has produced 23 consensus All-Americans with 30 total selections since 1985, including 22 first-team honors — more than any program since 2000.' },
+    ],
+  };
+
+  const faqItems = faqMap[slug] || [];
+  const faqSchema = faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null;
+
+  const canonicalUrl = `https://www.dukebrotherhood.com/lists/${slug}/`;
+
   return (
     <>
       <Head>
         <title>{title} | Duke&apos;s Brotherhood</title>
         <meta name="description" content={meta} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={`${title} | Duke's Brotherhood`} />
+        <meta property="og:description" content={meta} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Duke's Brotherhood" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={meta} />
+        {faqSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        )}
       </Head>
 
       <div className="max-w-5xl mx-auto px-4 py-12">
