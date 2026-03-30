@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dukebrotherhood.com/sitemap.xml
+Sitemap: https://www.dukebrotherhood.com/sitemap.xml
