@@ -165,7 +165,7 @@ export default function RecruitingMap() {
                 {intlFiltered.map(p => (
                   <div key={p.name} className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full" style={{background:eraColors[p.era]}} />
-                    {p.status==='done' ? <a href={`/players/${p.slug}/`} className="font-body text-sm text-duke-gold hover:text-duke-goldLight">{p.name}</a> : <span className="font-body text-sm text-white/60">{p.name}</span>}
+                    {p.status==='done' || p.status==='pledged' ? <a href={`/players/${p.slug}/`} className="font-body text-sm text-duke-gold hover:text-duke-goldLight">{p.name}</a> : <span className="font-body text-sm text-white/60">{p.name}</span>}
                     <span className="font-mono text-xs text-white/40">{p.hometown}</span>
                   </div>
                 ))}
