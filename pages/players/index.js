@@ -98,12 +98,13 @@ export default function PlayersIndex({ eras, players }) {
           {filtered.map(player => {
             const era = eras.find(e => e.key === player.era);
             const isDone = player.status === 'done';
+            const hasProfile = player.status === 'done' || player.status === 'pledged';
             return (
               <Link
                 key={player.id}
-                href={isDone ? `/players/${player.slug}/` : '#'}
+                href={hasProfile ? `/players/${player.slug}/` : '#'}
                 className={`player-card block p-4 border ${
-                  isDone
+                  hasProfile
                     ? 'bg-white border-gray-200 hover:border-duke-gold cursor-pointer'
                     : 'bg-gray-50 border-gray-100 cursor-default opacity-70'
                 }`}
@@ -112,9 +113,11 @@ export default function PlayersIndex({ eras, players }) {
                   <span className="font-mono text-xs text-duke-gold">{era?.name}</span>
                   <span className={`font-mono text-[10px] px-2 py-0.5 rounded-full ${
                     player.status === 'done' ? 'badge-done' :
+                    player.status === 'pledged' ? 'badge-pledged' :
                     player.status === 'soon' ? 'badge-soon' : 'badge-coming'
                   }`}>
                     {player.status === 'done' ? 'Complete' :
+                     player.status === 'pledged' ? 'Pledged' :
                      player.status === 'soon' ? 'Priority Next' : 'Coming Soon'}
                   </span>
                 </div>
@@ -122,7 +125,7 @@ export default function PlayersIndex({ eras, players }) {
                 <div className="font-mono text-xs text-gray-400 mt-1">
                   {player.pos} &bull; {player.height} &bull; {player.years}
                 </div>
-                {isDone && player.tagline && (
+                {hasProfile && player.tagline && (
                   <p className="font-body text-sm text-gray-500 italic mt-2 line-clamp-2">
                     {player.tagline}
                   </p>
