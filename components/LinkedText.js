@@ -53,6 +53,7 @@ const ALIASES = {
   'Duhon': 'chris-duhon',
   'Abdelnaby': 'alaa-abdelnaby',
   'Boozer': 'carlos-boozer',
+  'Cameron Williams': 'cam-williams',
   'Maggette': 'corey-maggette',
   'Carrawell': 'chris-carrawell',
 
