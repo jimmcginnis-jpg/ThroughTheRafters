@@ -8,14 +8,14 @@ import playerData from '../data/players.json';
 
 // Generate all Duke season strings (1980-81 through 2025-26) without importing huge teams.json
 const ALL_DUKE_SEASONS = [];
-for (let y = 1980; y <= 2025; y++) {
+for (let y = 1980; y <= 2026; y++) {
   const end = String(y + 1).slice(-2);
   ALL_DUKE_SEASONS.push(`${y}-${end}`);
 }
 
 // Build lookup of profiled players, sorted longest name first to avoid partial matches
 const profiledPlayers = playerData.players
-  .filter(p => p.status === 'done')
+  .filter(p => p.status === 'done' || p.status === 'pledged')
   .map(p => ({ name: p.name, slug: p.slug }))
   .sort((a, b) => b.name.length - a.name.length);
 
