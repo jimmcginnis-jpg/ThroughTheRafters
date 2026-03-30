@@ -31,7 +31,7 @@ function formatDate(dateStr) {
 
 // ============ TAB: PLAYERS ============
 function PlayersTab({ roster, season }) {
-  const profiled = roster.filter(p => p.status === 'done');
+  const profiled = roster.filter(p => p.status === 'done' || p.status === 'pledged');
   const stubs = roster.filter(p => p.status === 'stub');
 
   // Detect recruits (first season in their seasons array)
@@ -93,17 +93,18 @@ function PlayersTab({ roster, season }) {
 
 function PlayerRow({ player, isNew }) {
   const p = player;
+  const hasProfile = p.status === 'done' || p.status === 'pledged';
   const inner = (
     <div className={`flex items-center gap-3 p-3 rounded-lg border transition-all ${
-      p.status === 'done'
+      hasProfile
         ? 'border-gray-200 bg-white hover:border-duke-gold hover:shadow-sm cursor-pointer'
         : 'border-gray-100 bg-gray-50 opacity-70'
     }`}>
       <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center ${
-        p.status === 'done' ? 'bg-duke-navy' : 'bg-gray-200'
+        hasProfile ? 'bg-duke-navy' : 'bg-gray-200'
       }`}>
         <span className={`font-mono text-xs font-bold ${
-          p.status === 'done' ? 'text-duke-gold' : 'text-gray-500'
+          hasProfile ? 'text-duke-gold' : 'text-gray-500'
         }`}>
           {p.jersey || '#'}
         </span>
@@ -111,16 +112,16 @@ function PlayerRow({ player, isNew }) {
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">
           <span className={`font-display font-semibold truncate ${
-            p.status === 'done' ? 'text-duke-navy' : 'text-gray-600'
+            hasProfile ? 'text-duke-navy' : 'text-gray-600'
           }`}>{p.name}</span>
           {isNew && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-green-100 text-green-700">New</span>}
-          {p.status === 'done' && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-duke-gold/10 text-duke-gold">Profile</span>}
+          {hasProfile && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-duke-gold/10 text-duke-gold">Profile</span>}
         </div>
         <div className="font-mono text-xs text-gray-400">
           {p.pos} {p.height ? `\u2022 ${p.height}` : ''} {p.hometown ? `\u2022 ${p.hometown}` : ''}
         </div>
       </div>
-      {p.status === 'done' && (
+      {hasProfile && (
         <svg className="w-4 h-4 text-gray-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round">
           <polyline points="9 18 15 12 9 6" />
         </svg>
@@ -128,7 +129,7 @@ function PlayerRow({ player, isNew }) {
     </div>
   );
 
-  return p.status === 'done'
+  return hasProfile
     ? <Link href={`/players/${p.slug}/`}>{inner}</Link>
     : inner;
 }
@@ -322,7 +323,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
               <tr key={row.playerId} className="hover:bg-gray-50 transition-colors">
                 {vDef.keys.map((key, ci) => {
                   if (key === 'name') {
-                    const nameContent = row.status === 'done' ? (
+                    const nameContent = row.status === 'done' || row.status === 'pledged' ? (
                       <Link href={`/players/${row.slug}/`} className="text-duke-navy hover:text-duke-gold transition-colors">
                         {row.name}
                       </Link>
@@ -515,7 +516,7 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
               <div className="divide-y divide-gray-100">
                 {rows.map((row, i) => {
                   const player = playerMap[row.playerId];
-                  const nameEl = player && player.slug && player.status === 'done' ? (
+                  const nameEl = player && player.slug && (player.status === 'done' || player.status === 'pledged') ? (
                     <Link href={`/players/${player.slug}/`} className="text-duke-navy hover:text-duke-gold transition-colors">
                       {row.name}
                     </Link>
@@ -990,8 +991,10 @@ export async function getStaticProps({ params }) {
       seasons: p.seasons || [],
     }))
     .sort((a, b) => {
-      // Profiled first, then by name
-      if (a.status !== b.status) return a.status === 'done' ? -1 : 1;
+      // Profiled first (done and pledged), then by name
+      const aHas = a.status === 'done' || a.status === 'pledged';
+      const bHas = b.status === 'done' || b.status === 'pledged';
+      if (aHas !== bHas) return aHas ? -1 : 1;
       return a.name.localeCompare(b.name);
     });
 
