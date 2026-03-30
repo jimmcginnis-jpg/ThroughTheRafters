@@ -82,3 +82,9 @@ body {
 .badge-coming {
   @apply bg-gray-200 text-gray-600;
 }
+
+.badge-pledged {
+  background: rgba(197, 162, 88, 0.15);
+  color: #C5A258;
+  border: 1px solid rgba(197, 162, 88, 0.4);
+}
