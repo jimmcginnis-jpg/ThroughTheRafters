@@ -82,6 +82,30 @@ const prospects = [
       { name: 'Kyle Singler', year: 2011, pick: '#33 Overall', dukeStat: '148 games, 2010 Champion', nbaStat: '5 NBA seasons, 261 games', match: 55, slug: 'kyle-singler' },
     ],
   },
+  {
+    name: 'Patrick Ngongba II', pos: 'C', height: '6\'11"', classYear: 'So.', jersey: 21,
+    projection: { range: '#15-22', round: 'Late 1st Round', confidence: 65 },
+    dukeStats: { ppg: 10.2, rpg: 5.8, apg: 2.0, 'fg%': 60.6 },
+    awards: ['5-star recruit (ESPN #19)', 'USA U18 Gold Medal', '22 starts'],
+    analysis: 'Ngongba\'s sophomore breakout has been one of the biggest storylines of Duke\'s season. From a 4.0 ppg reserve as a freshman to a 10.2/5.8 starter shooting 60.6% from the field — the development arc is exactly what NBA teams want to see. His per-36 numbers (16.8 ppg, 9.6 rpg) project as a starting center. Duke Chronicle compared him to Nic Claxton. Tankathon currently mocks him at #17. The Brotherhood comps are encouraging: Duke centers with his profile tend to go in the late first round.',
+    analogues: [
+      { name: 'Wendell Carter Jr.', year: 2018, pick: '#7 Overall', dukeStat: '13.5 ppg / 9.1 rpg / 56.1% FG', nbaStat: '7 NBA seasons, Magic starter', match: 65, slug: 'wendell-carter-jr' },
+      { name: 'Mark Williams', year: 2022, pick: '#15 Overall', dukeStat: '11.2 ppg / 7.4 rpg / ACC DPOY', nbaStat: 'Hornets starting center', match: 78, slug: 'mark-williams' },
+      { name: 'Dereck Lively II', year: 2023, pick: '#12 Overall', dukeStat: '5.2 ppg / 5.4 rpg / 65.8% FG', nbaStat: 'Mavericks starter, rising star', match: 72, slug: 'dereck-lively-ii' },
+    ],
+  },
+  {
+    name: 'Nikolas Khamenia', pos: 'G/F', height: '6\'8"', classYear: 'Fr.', jersey: 14,
+    projection: { range: '#35-Undrafted', round: 'Return / 2nd Rd', confidence: 30 },
+    dukeStats: { ppg: 5.7, rpg: 3.3, apg: 1.0, '3pt%': 34.0 },
+    awards: ['5-star recruit (ESPN #15)', '3x USA Gold Medalist', 'FIBA 3x3 U18 MVP'],
+    analysis: 'Khamenia is the ultimate "stock riser or returner" — a five-star recruit with elite basketball IQ, 3x USA gold medals, and FIBA 3x3 World Cup MVP honors, but just 5.7 ppg as a Duke freshman. The tools are undeniable: 6\'8" with point-forward passing instincts, 34% from three, and Scheyer called him the best competitor in his recruiting class. But NBA scouts need production, not potential. The smart path is returning to Duke for a sophomore breakout — think Luke Kennard, who went from 5.5 ppg as a freshman to 19.5 ppg and #12 pick as a sophomore. If Khamenia declares, he\'s a late second-rounder at best.',
+    analogues: [
+      { name: 'Luke Kennard', year: 2017, pick: '#12 Overall', dukeStat: '19.5 ppg sophomore (after 5.5 ppg Fr.)', nbaStat: '8 NBA seasons, $56M contract', match: 60, slug: 'luke-kennard' },
+      { name: 'Justise Winslow', year: 2015, pick: '#10 Overall', dukeStat: '12.6 ppg / high IQ wing', nbaStat: '8 NBA seasons, versatile role player', match: 50, slug: 'justise-winslow' },
+      { name: 'Jack White', year: 2020, pick: 'Undrafted', dukeStat: '4.1 ppg / IQ + defense role', nbaStat: 'Australian NBL career', match: 45, slug: 'jack-white' },
+    ],
+  },
 ];
 
 function ConfidenceBar({ value }) {
@@ -246,7 +270,7 @@ export default function DraftProjections2026() {
             </div>
             <div className="w-px bg-white/10" />
             <div className="text-center">
-              <div className="font-mono text-xl font-extrabold text-duke-gold">4-6</div>
+              <div className="font-mono text-xl font-extrabold text-duke-gold">5-7</div>
               <div className="font-mono text-[9px] text-white/50 uppercase tracking-wider">Projected 2026</div>
             </div>
           </div>
