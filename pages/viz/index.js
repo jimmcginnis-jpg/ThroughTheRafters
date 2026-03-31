@@ -45,7 +45,7 @@ const vizzes = [
     slug: 'draft-2026',
     title: '2026 Draft Projections',
     desc: 'Where will this roster land in the 2026 NBA Draft? Brotherhood analogues for every prospect — powered by 45 years of draft data.',
-    stat: '6 prospects',
+    stat: '8 prospects',
   },
 ];
 
