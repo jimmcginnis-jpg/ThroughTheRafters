@@ -178,9 +178,9 @@ function ChainLink({ fromId, toId, index, isLast }) {
           <div
             className="w-9 h-9 rounded-full flex items-center justify-center font-mono text-sm font-bold shrink-0"
             style={{
-              background: from?.status === "done" ? "rgba(197,162,88,0.2)" : "rgba(42,74,127,0.3)",
-              color: from?.status === "done" ? "#C5A258" : "#8ba4c7",
-              border: `2px solid ${from?.status === "done" ? "rgba(197,162,88,0.5)" : "rgba(42,74,127,0.5)"}`,
+              background: from?.status === "done" || from?.status === "pledged" ? "rgba(197,162,88,0.2)" : "rgba(42,74,127,0.3)",
+              color: from?.status === "done" || from?.status === "pledged" ? "#C5A258" : "#8ba4c7",
+              border: `2px solid ${from?.status === "done" || from?.status === "pledged" ? "rgba(197,162,88,0.5)" : "rgba(42,74,127,0.5)"}`,
             }}
           >
             {index}
@@ -192,7 +192,7 @@ function ChainLink({ fromId, toId, index, isLast }) {
 
         {/* Player info */}
         <div className="pb-4 flex-1" style={{ minHeight: isLast ? "auto" : 70 }}>
-          {from?.status === "done" ? (
+          {from?.status === "done" || from?.status === "pledged" ? (
             <a href={`/players/${from.slug}/`} className="font-display text-lg font-bold hover:underline" style={{ color: "#C5A258" }}>
               {from?.name}
             </a>
