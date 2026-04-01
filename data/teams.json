@@ -113,15 +113,15 @@
     {
       "season": "2024-25",
       "era": "pope",
-      "record": "",
+      "record": "24-12",
       "coach": "Mark Pope",
       "ranking": {
         "preseason": null,
-        "final": null
+        "final": 12
       },
-      "ncaaTournament": "",
-      "tagline": "Year One of the Pope era. A new beginning built on old roots.",
-      "overview": "Mark Pope returns to Lexington as head coach, bringing a transfer-heavy roster and a new identity to Kentucky basketball.",
+      "ncaaTournament": "Sweet Sixteen (Lost to #2 Tennessee, 78-65)",
+      "tagline": "Year One of the Pope era. A transfer-heavy roster, key wins over Gonzaga, Duke, Louisville, and Florida, and a Sweet Sixteen run that announced Kentucky was back.",
+      "overview": "Mark Pope's first season exceeded expectations. Built almost entirely from the transfer portal after John Calipari's departure to Arkansas, the Wildcats went 24-12 with signature wins over Gonzaga, Duke in the Champions Classic, and rivals Louisville, Florida, and Tennessee. As a #3 seed, Kentucky beat Troy and Illinois before falling to Tennessee in the Sweet Sixteen. Otega Oweh led the team in scoring as the transfer from Oklahoma became the face of the Pope era's first chapter.",
       "unc": [],
       "march": {
         "confTourney": [],
@@ -129,8 +129,29 @@
         "nit": [],
         "accTourney": []
       },
-      "accRecord": "",
-      "accTournament": ""
+      "accRecord": "10-8",
+      "accTournament": "SEC Tournament"
+    },
+    {
+      "season": "2025-26",
+      "era": "pope",
+      "record": "21-13",
+      "accRecord": "7th in SEC",
+      "coach": "Mark Pope",
+      "ranking": {
+        "preseason": null,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "In progress",
+      "tagline": "Pope Year 2. Oweh emerges as a star, freshmen Aberdeen and Moreno anchor the lineup, and Kentucky fights through injuries all season.",
+      "overview": "Mark Pope's second season was defined by resilience. Jaland Lowe and Jayden Quaintance \u2014 two of the team's most talented players \u2014 missed significant time with injuries, forcing Pope to lean on a core of Otega Oweh (18.2 ppg), freshman Denzel Aberdeen (13.2 ppg), and sophomore center Malachi Moreno (8.0 ppg, 6.4 rpg, 1.6 bpg). Collin Chandler shot 42.7% from three and provided steady perimeter scoring. The Wildcats finished 21-13 in a brutally competitive SEC.",
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
     }
   ]
 }
