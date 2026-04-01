@@ -393,6 +393,32 @@
         "totalReb": 1,
         "totalAst": 1
       }
-    ]
+    ],
+    "teamTotals": {
+      "gp": 34,
+      "mpg": null,
+      "pts": 80.8,
+      "reb": 37.5,
+      "ast": 16.0,
+      "stl": 7.1,
+      "blk": 4.4,
+      "to": 10.5,
+      "fgPct": 46.4,
+      "tpPct": 34.1,
+      "ftPct": 72.8
+    },
+    "opponentTotals": {
+      "gp": 34,
+      "mpg": null,
+      "pts": 74.5,
+      "reb": 33.0,
+      "ast": 14.0,
+      "stl": null,
+      "blk": null,
+      "to": null,
+      "fgPct": null,
+      "tpPct": null,
+      "ftPct": null
+    }
   }
 }

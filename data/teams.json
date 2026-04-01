@@ -151,6 +151,48 @@
         "accTourney": [],
         "ncaaTourney": [],
         "nit": []
+      },
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 80.8,
+          "oppPpg": 74.5,
+          "rpg": 37.5,
+          "apg": 16.0,
+          "spg": 7.1,
+          "bpg": 4.4,
+          "topg": 10.5,
+          "fgPct": 46.4,
+          "threePct": 34.1,
+          "ftPct": 72.8
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 80.8,
+        "reb": 37.5,
+        "ast": 16.0,
+        "stl": 7.1,
+        "blk": 4.4,
+        "to": 10.5,
+        "fgPct": 46.4,
+        "tpPct": 34.1,
+        "ftPct": 72.8
+      },
+      "opponentTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 74.5,
+        "reb": 33.0,
+        "ast": 14.0,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
       }
     }
   ]
