@@ -20,7 +20,7 @@ const TABS = [
   { key: 'players', label: 'Players' },
   { key: 'season', label: 'Season' },
   { key: 'stats', label: 'Stats' },
-  { key: 'gthc', label: 'GTHC' },
+  { key: 'gthc', label: 'Louisville' },
   { key: 'thegame', label: 'The Game' },
   { key: 'march', label: 'March' },
 ];
@@ -584,7 +584,7 @@ function GthcTab({ games }) {
   if (!games || games.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="font-display text-xl text-gray-400">UNC game data coming soon</p>
+        <p className="font-display text-xl text-gray-400">Louisville game data coming soon</p>
       </div>
     );
   }
@@ -597,10 +597,10 @@ function GthcTab({ games }) {
       <div className="flex items-center gap-6 mb-8 p-4 rounded-lg" style={{ background: '#001A57' }}>
         <div className="text-center">
           <div className="font-display text-3xl text-school-accent font-bold">{wins}-{losses}</div>
-          <div className="font-mono text-xs text-school-accentLight">vs UNC</div>
+          <div className="font-mono text-xs text-school-accentLight">vs Louisville</div>
         </div>
         <div className="font-display text-2xl text-white font-bold tracking-wider">
-          GTHC
+          Louisville
         </div>
       </div>
 
@@ -622,8 +622,8 @@ function GthcTab({ games }) {
                 {game.ukRank && (
                   <span className="font-mono text-xs text-gray-500">#{game.ukRank} Kentucky</span>
                 )}
-                {game.uncRank && (
-                  <span className="font-mono text-xs text-gray-500">vs #{game.uncRank} UNC</span>
+                {game.rivalRank && (
+                  <span className="font-mono text-xs text-gray-500">vs #{game.rivalRank} Louisville</span>
                 )}
               </div>
               <span className="font-mono text-xs text-gray-400">{formatDate(game.date)}</span>

@@ -130,7 +130,23 @@
         "accTourney": []
       },
       "accRecord": "10-8",
-      "accTournament": "SEC Tournament"
+      "accTournament": "SEC Tournament",
+      "stats": {
+        "team": {
+          "gp": 36,
+          "ppg": 84.4,
+          "oppPpg": 77.2,
+          "rpg": 37.9,
+          "apg": 16.9,
+          "spg": 6.9,
+          "bpg": 4.0,
+          "topg": 10.9,
+          "fgPct": 48.2,
+          "threePct": 37.5,
+          "ftPct": 73.1
+        },
+        "leaders": []
+      }
     },
     {
       "season": "2025-26",
