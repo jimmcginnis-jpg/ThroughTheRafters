@@ -1,154 +1,6 @@
 {
   "seasons": [
     {
-      "season": "2011-12",
-      "era": "calipari",
-      "record": "38-2",
-      "coach": "John Calipari",
-      "ranking": {
-        "preseason": 2,
-        "final": 1
-      },
-      "ncaaTournament": "National Champions",
-      "tagline": "The most dominant college basketball team in a generation. Anthony Davis, MKG, and the 2012 national championship.",
-      "overview": "Led by Anthony Davis \u2014 the consensus national player of the year \u2014 Kentucky went 38-2, ran through the SEC undefeated, and beat Kansas 67-59 for the program's eighth national championship.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "16-0",
-      "accTournament": "SEC Tournament Champions"
-    },
-    {
-      "season": "2014-15",
-      "era": "calipari",
-      "record": "38-1",
-      "coach": "John Calipari",
-      "ranking": {
-        "preseason": 1,
-        "final": 2
-      },
-      "ncaaTournament": "Final Four (Lost to Wisconsin)",
-      "tagline": "38-0. The perfect season that wasn't. Karl-Anthony Towns, Devin Booker, and the heartbreak in Indianapolis.",
-      "overview": "Kentucky entered the 2015 NCAA Tournament as the first undefeated team in decades, riding a 38-0 record. The dream ended in the Final Four against Wisconsin.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "18-0",
-      "accTournament": "SEC Tournament Champions"
-    },
-    {
-      "season": "1995-96",
-      "era": "pitino",
-      "record": "34-2",
-      "coach": "Rick Pitino",
-      "ranking": {
-        "preseason": 2,
-        "final": 1
-      },
-      "ncaaTournament": "National Champions",
-      "tagline": "The Untouchables. Tony Delk's seven threes in the title game. Kentucky's sixth national championship.",
-      "overview": "Rick Pitino's masterpiece. Kentucky ran through the SEC undefeated and dominated the NCAA Tournament, with Tony Delk hitting seven three-pointers in the championship game victory over Syracuse.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "16-0",
-      "accTournament": "SEC Tournament Champions"
-    },
-    {
-      "season": "1997-98",
-      "era": "tubby",
-      "record": "35-4",
-      "coach": "Tubby Smith",
-      "ranking": {
-        "preseason": 6,
-        "final": 1
-      },
-      "ncaaTournament": "National Champions",
-      "tagline": "Tubby Smith's first year. The Comeback Cats. Kentucky's seventh national championship, won by a team nobody expected.",
-      "overview": "In his first season replacing Rick Pitino, Tubby Smith led Kentucky to the national championship. Jeff Sheppard was named Final Four MOP as Kentucky became the Comeback Cats.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "14-2",
-      "accTournament": "SEC Tournament Champions"
-    },
-    {
-      "season": "2009-10",
-      "era": "calipari",
-      "record": "35-3",
-      "coach": "John Calipari",
-      "ranking": {
-        "preseason": 4,
-        "final": 3
-      },
-      "ncaaTournament": "Elite Eight",
-      "tagline": "Year One of the Calipari era. John Wall, DeMarcus Cousins, and the announcement that Kentucky was back.",
-      "overview": "John Calipari's arrival in Lexington brought an immediate turnaround. John Wall and DeMarcus Cousins led the Wildcats to a 35-3 record and the Elite Eight.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "14-2",
-      "accTournament": "SEC Tournament Champions"
-    },
-    {
-      "season": "2024-25",
-      "era": "pope",
-      "record": "24-12",
-      "coach": "Mark Pope",
-      "ranking": {
-        "preseason": null,
-        "final": 12
-      },
-      "ncaaTournament": "Sweet Sixteen (Lost to #2 Tennessee, 78-65)",
-      "tagline": "Year One of the Pope era. A transfer-heavy roster, key wins over Gonzaga, Duke, Louisville, and Florida, and a Sweet Sixteen run that announced Kentucky was back.",
-      "overview": "Mark Pope's first season exceeded expectations. Built almost entirely from the transfer portal after John Calipari's departure to Arkansas, the Wildcats went 24-12 with signature wins over Gonzaga, Duke in the Champions Classic, and rivals Louisville, Florida, and Tennessee. As a #3 seed, Kentucky beat Troy and Illinois before falling to Tennessee in the Sweet Sixteen. Otega Oweh led the team in scoring as the transfer from Oklahoma became the face of the Pope era's first chapter.",
-      "unc": [],
-      "march": {
-        "confTourney": [],
-        "ncaaTourney": [],
-        "nit": [],
-        "accTourney": []
-      },
-      "accRecord": "10-8",
-      "accTournament": "SEC Tournament",
-      "stats": {
-        "team": {
-          "gp": 36,
-          "ppg": 84.4,
-          "oppPpg": 77.2,
-          "rpg": 37.9,
-          "apg": 16.9,
-          "spg": 6.9,
-          "bpg": 4.0,
-          "topg": 10.9,
-          "fgPct": 48.2,
-          "threePct": 37.5,
-          "ftPct": 73.1
-        },
-        "leaders": []
-      }
-    },
-    {
       "season": "2025-26",
       "era": "pope",
       "record": "21-13",
@@ -209,6 +61,44 @@
         "fgPct": null,
         "tpPct": null,
         "ftPct": null
+      }
+    },
+    {
+      "season": "2024-25",
+      "era": "pope",
+      "record": "24-12",
+      "coach": "Mark Pope",
+      "ranking": {
+        "preseason": null,
+        "final": 12
+      },
+      "ncaaTournament": "Sweet Sixteen (Lost to #2 Tennessee, 78-65)",
+      "tagline": "Year One of the Pope era. A transfer-heavy roster, key wins over Gonzaga, Duke, Louisville, and Florida, and a Sweet Sixteen run that announced Kentucky was back.",
+      "overview": "Mark Pope's first season exceeded expectations. Built almost entirely from the transfer portal after John Calipari's departure to Arkansas, the Wildcats went 24-12 with signature wins over Gonzaga, Duke in the Champions Classic, and rivals Louisville, Florida, and Tennessee. As a #3 seed, Kentucky beat Troy and Illinois before falling to Tennessee in the Sweet Sixteen. Otega Oweh led the team in scoring as the transfer from Oklahoma became the face of the Pope era's first chapter.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "10-8",
+      "accTournament": "SEC Tournament",
+      "stats": {
+        "team": {
+          "gp": 36,
+          "ppg": 84.4,
+          "oppPpg": 77.2,
+          "rpg": 37.9,
+          "apg": 16.9,
+          "spg": 6.9,
+          "bpg": 4.0,
+          "topg": 10.9,
+          "fgPct": 48.2,
+          "threePct": 37.5,
+          "ftPct": 73.1
+        },
+        "leaders": []
       }
     },
     {
@@ -284,6 +174,116 @@
         "ncaaTourney": [],
         "nit": []
       }
+    },
+    {
+      "season": "2014-15",
+      "era": "calipari",
+      "record": "38-1",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 1,
+        "final": 2
+      },
+      "ncaaTournament": "Final Four (Lost to Wisconsin)",
+      "tagline": "38-0. The perfect season that wasn't. Karl-Anthony Towns, Devin Booker, and the heartbreak in Indianapolis.",
+      "overview": "Kentucky entered the 2015 NCAA Tournament as the first undefeated team in decades, riding a 38-0 record. The dream ended in the Final Four against Wisconsin.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "18-0",
+      "accTournament": "SEC Tournament Champions"
+    },
+    {
+      "season": "2011-12",
+      "era": "calipari",
+      "record": "38-2",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 2,
+        "final": 1
+      },
+      "ncaaTournament": "National Champions",
+      "tagline": "The most dominant college basketball team in a generation. Anthony Davis, MKG, and the 2012 national championship.",
+      "overview": "Led by Anthony Davis \u2014 the consensus national player of the year \u2014 Kentucky went 38-2, ran through the SEC undefeated, and beat Kansas 67-59 for the program's eighth national championship.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "16-0",
+      "accTournament": "SEC Tournament Champions"
+    },
+    {
+      "season": "2009-10",
+      "era": "calipari",
+      "record": "35-3",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 4,
+        "final": 3
+      },
+      "ncaaTournament": "Elite Eight",
+      "tagline": "Year One of the Calipari era. John Wall, DeMarcus Cousins, and the announcement that Kentucky was back.",
+      "overview": "John Calipari's arrival in Lexington brought an immediate turnaround. John Wall and DeMarcus Cousins led the Wildcats to a 35-3 record and the Elite Eight.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "14-2",
+      "accTournament": "SEC Tournament Champions"
+    },
+    {
+      "season": "1997-98",
+      "era": "tubby",
+      "record": "35-4",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 6,
+        "final": 1
+      },
+      "ncaaTournament": "National Champions",
+      "tagline": "Tubby Smith's first year. The Comeback Cats. Kentucky's seventh national championship, won by a team nobody expected.",
+      "overview": "In his first season replacing Rick Pitino, Tubby Smith led Kentucky to the national championship. Jeff Sheppard was named Final Four MOP as Kentucky became the Comeback Cats.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "14-2",
+      "accTournament": "SEC Tournament Champions"
+    },
+    {
+      "season": "1995-96",
+      "era": "pitino",
+      "record": "34-2",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 2,
+        "final": 1
+      },
+      "ncaaTournament": "National Champions",
+      "tagline": "The Untouchables. Tony Delk's seven threes in the title game. Kentucky's sixth national championship.",
+      "overview": "Rick Pitino's masterpiece. Kentucky ran through the SEC undefeated and dominated the NCAA Tournament, with Tony Delk hitting seven three-pointers in the championship game victory over Syracuse.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "accRecord": "16-0",
+      "accTournament": "SEC Tournament Champions"
     }
   ]
 }
