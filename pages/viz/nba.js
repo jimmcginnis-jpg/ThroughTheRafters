@@ -131,8 +131,8 @@ export default function NBAViz() {
               <div className="font-mono text-xs text-white/60">Current ({currentSeason?.label})</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-uk-white text-2xl font-bold">{peak.count}</div>
-              <div className="font-mono text-xs text-white/60">Peak ({peak.label})</div>
+              <div className="font-display text-uk-white text-2xl font-bold">{peak?.count || 0}</div>
+              <div className="font-mono text-xs text-white/60">Peak ({peak?.label || "N/A"})</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
               <div className="font-display text-uk-white text-2xl font-bold">{totalPlayerSeasons}</div>
