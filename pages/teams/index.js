@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/teams/index.js
 // All seasons landing page — collapsible eras with descriptions
 
@@ -31,7 +32,7 @@ function outcomeColor(outcome) {
   if (outcome.includes('Runner-Up')) return 'text-gray-300';
   if (outcome.includes('Final Four')) return 'text-blue-300';
   if (outcome.includes('Elite')) return 'text-blue-400';
-  return 'text-uk-silver';
+  return 'text-school-accentLight';
 }
 
 function EraSection({ era, seasons, defaultOpen }) {
@@ -46,14 +47,14 @@ function EraSection({ era, seasons, defaultOpen }) {
         onClick={() => setOpen(!open)}
         className="w-full text-left group"
       >
-        <div className="flex items-center justify-between border-b-2 border-uk-white pb-2 mb-1">
-          <h2 className="font-display text-xl text-uk-blue font-bold group-hover:text-uk-white transition-colors">
+        <div className="flex items-center justify-between border-b-2 border-school-accent pb-2 mb-1">
+          <h2 className="font-display text-xl text-school-primary font-bold group-hover:text-school-accent transition-colors">
             {label}
           </h2>
           <div className="flex items-center gap-3">
             <span className="font-mono text-xs text-gray-400">{seasons.length} season{seasons.length !== 1 ? 's' : ''}</span>
             <svg
-              className={`w-5 h-5 text-uk-white transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+              className={`w-5 h-5 text-school-accent transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
               fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round"
             >
               <polyline points="6 9 12 15 18 9" />
@@ -71,15 +72,15 @@ function EraSection({ era, seasons, defaultOpen }) {
             <Link
               key={s.season}
               href={`/teams/${s.season}/`}
-              className="group flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-uk-white hover:shadow-md transition-all bg-white"
+              className="group flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-school-accent hover:shadow-md transition-all bg-white"
             >
               <div className="shrink-0 w-16 text-center">
-                <div className="font-mono text-lg text-uk-blue font-bold">{s.season.split('-')[0]}</div>
+                <div className="font-mono text-lg text-school-primary font-bold">{s.season.split('-')[0]}</div>
                 <div className="font-mono text-xs text-gray-400">–{s.season.split('-')[1]}</div>
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-3">
-                  <span className="font-display text-uk-blue font-semibold group-hover:text-uk-white transition-colors">
+                  <span className="font-display text-school-primary font-semibold group-hover:text-school-accent transition-colors">
                     {s.record}
                   </span>
                   <span className="font-mono text-xs text-gray-400">({s.accRecord} ACC)</span>
@@ -120,10 +121,10 @@ export default function TeamsIndex({ seasons }) {
       description="Every Kentucky basketball season from 1981 to present — rosters, results, UNC games, and March stories."
       canonical="/teams/"
     >
-      <section className="bg-uk-slate text-white py-12">
+      <section className="bg-school-dark text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="font-display text-4xl font-bold mb-2">Teams</h1>
-          <p className="font-body text-uk-silver text-lg">
+          <p className="font-body text-school-accentLight text-lg">
             Every season, every roster, every March. {seasons.length} seasons documented.
           </p>
         </div>

@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/compare.js
 // Freshman comparison: Kentucky freshmen
 
@@ -35,7 +36,7 @@ function StatCard({ label, val1, val2, unit }) {
       <div className="font-mono text-[10px] text-gray-400 uppercase tracking-wider mb-2">{label}</div>
       <div className="flex justify-center items-end gap-4">
         <div>
-          <div className={`font-display text-xl font-bold ${leader1 && !tied ? 'text-uk-blue' : 'text-gray-400'}`}>
+          <div className={`font-display text-xl font-bold ${leader1 && !tied ? 'text-school-primary' : 'text-gray-400'}`}>
             {val1}
           </div>
           <div className="font-mono text-[10px] text-gray-400">{unit}</div>
@@ -152,48 +153,48 @@ export default function ComparePage() {
       </Head>
 
       {/* Hero */}
-      <div className="bg-uk-slate py-12 md:py-16">
+      <div className="bg-school-dark py-12 md:py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/viz/" className="hover:text-uk-white">Viz</Link>
+            <Link href="/viz/" className="hover:text-school-accent">Viz</Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Freshman Comparison</span>
+            <span className="text-school-accent">Freshman Comparison</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
             Flagg vs Boozer
           </h1>
-          <p className="font-body text-uk-silver text-lg italic mb-6">
+          <p className="font-body text-school-accentLight text-lg italic mb-6">
             Back-to-back generational freshmen. Who had the better debut?
           </p>
 
           {/* Player cards */}
           <div className="grid grid-cols-2 gap-4 md:gap-8">
             <div className="rounded-lg p-4 md:p-6" style={{ background: 'rgba(255,255,255,0.06)' }}>
-              <div className="font-mono text-xs text-uk-white uppercase tracking-wider mb-1">2024–25</div>
-              <Link href={`/players/${flaggP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-uk-white transition-colors">
+              <div className="font-mono text-xs text-school-accent uppercase tracking-wider mb-1">2024–25</div>
+              <Link href={`/players/${flaggP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-school-accent transition-colors">
                 Cooper Flagg
               </Link>
-              <div className="font-mono text-xs text-uk-silver mt-1">
+              <div className="font-mono text-xs text-school-accentLight mt-1">
                 Fr · Forward · 6&apos;9&quot; · #2 · 37 GP · 35-4
               </div>
               <div className="font-display text-3xl text-white font-bold mt-3">
-                {flagg.pts}<span className="text-sm text-uk-silver font-normal ml-1">ppg</span>
+                {flagg.pts}<span className="text-sm text-school-accentLight font-normal ml-1">ppg</span>
               </div>
             </div>
 
             <div className="rounded-lg p-4 md:p-6" style={{ background: 'rgba(196,162,62,0.1)' }}>
               <div className="font-mono text-xs uppercase tracking-wider mb-1" style={{ color: GOLD }}>2025–26</div>
-              <Link href={`/players/${boozerP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-uk-white transition-colors">
+              <Link href={`/players/${boozerP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-school-accent transition-colors">
                 Cameron Boozer
               </Link>
-              <div className="font-mono text-xs text-uk-silver mt-1">
+              <div className="font-mono text-xs text-school-accentLight mt-1">
                 Fr · Forward · 6&apos;9&quot; · #12 · {boozer.gp} GP · 34-2*
               </div>
               <div className="font-display text-3xl text-white font-bold mt-3">
-                {boozer.pts}<span className="text-sm text-uk-silver font-normal ml-1">ppg</span>
+                {boozer.pts}<span className="text-sm text-school-accentLight font-normal ml-1">ppg</span>
               </div>
             </div>
           </div>
@@ -202,15 +203,15 @@ export default function ComparePage() {
           <div className="flex items-center justify-center gap-6 mt-6 mb-2">
             <div className="text-center">
               <div className="font-display text-2xl text-white font-bold">{fWins}</div>
-              <div className="font-mono text-[10px] text-uk-silver">Flagg leads</div>
+              <div className="font-mono text-[10px] text-school-accentLight">Flagg leads</div>
             </div>
             <div className="text-center">
-              <div className="font-display text-2xl text-uk-white font-bold">{ties}</div>
-              <div className="font-mono text-[10px] text-uk-silver">Tied</div>
+              <div className="font-display text-2xl text-school-accent font-bold">{ties}</div>
+              <div className="font-mono text-[10px] text-school-accentLight">Tied</div>
             </div>
             <div className="text-center">
               <div className="font-display text-2xl text-white font-bold">{bWins}</div>
-              <div className="font-mono text-[10px] text-uk-silver">Boozer leads</div>
+              <div className="font-mono text-[10px] text-school-accentLight">Boozer leads</div>
             </div>
           </div>
         </div>
@@ -220,7 +221,7 @@ export default function ComparePage() {
       <div className="max-w-5xl mx-auto px-4 py-8">
 
         {/* Per-game stat cards */}
-        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Per game averages</h2>
+        <h2 className="font-display text-xl text-school-primary font-bold mb-3">Per game averages</h2>
         <div className="flex items-center gap-4 mb-4">
           <div className="flex items-center gap-1.5">
             <span className="inline-block w-2.5 h-2.5 rounded-sm" style={{ background: NAVY }} />
@@ -242,7 +243,7 @@ export default function ComparePage() {
         </div>
 
         {/* Head-to-head bars */}
-        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Head-to-head by category</h2>
+        <h2 className="font-display text-xl text-school-primary font-bold mb-3">Head-to-head by category</h2>
         <div className="mb-8">
           {categories.map(c => (
             <ComparisonBar key={c.label} label={c.label} val1={c.f} val2={c.b} />
@@ -250,7 +251,7 @@ export default function ComparePage() {
         </div>
 
         {/* Shooting chart */}
-        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Shooting efficiency</h2>
+        <h2 className="font-display text-xl text-school-primary font-bold mb-3">Shooting efficiency</h2>
         <div className="mb-8">
           <ChartCanvas id="shootChart" height={280} renderFn={(canvas) => {
             return new window.Chart(canvas, {
@@ -275,7 +276,7 @@ export default function ComparePage() {
         </div>
 
         {/* Season totals chart */}
-        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Season totals</h2>
+        <h2 className="font-display text-xl text-school-primary font-bold mb-3">Season totals</h2>
         <div className="mb-8">
           <ChartCanvas id="totalsChart" height={280} renderFn={(canvas) => {
             return new window.Chart(canvas, {
@@ -301,7 +302,7 @@ export default function ComparePage() {
 
         {/* Analysis */}
         <div className="prose max-w-none mb-8">
-          <h2 className="font-display text-xl text-uk-blue font-bold mb-3">The verdict</h2>
+          <h2 className="font-display text-xl text-school-primary font-bold mb-3">The verdict</h2>
           <p className="font-body text-gray-700 leading-relaxed mb-4">
             Boozer leads in scoring (22.5 vs 19.2), rebounding (10.2 vs 7.5), and field goal percentage
             (56.5% vs 48.1%). He&apos;s averaging a double-double as a freshman — only the second Kentucky player
@@ -325,7 +326,7 @@ export default function ComparePage() {
         <div className="border-t border-gray-200 pt-4 mb-8">
           <p className="font-mono text-[11px] text-gray-400">
             *2025-26 stats through Sweet 16 (34 games). Source: UKAthletics.com official cumulative statistics, ESPN.
-            Built by <a href="/" className="text-uk-white hover:underline">DukeThrough the Rafters.com</a>.
+            Built by <a href="/" className="text-school-accent hover:underline">DukeThrough the Rafters.com</a>.
           </p>
         </div>
       </div>

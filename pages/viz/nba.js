@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/nba.js
 // Kentucky Players in the NBA by Season — bar chart visualization
 
@@ -107,39 +108,39 @@ export default function NBAViz() {
       description="Kentucky has had NBA players on opening-day rosters every season since 1983. Track how many Wildcats were in the league each year, from Johnny Dawkins to Cooper Flagg."
       canonical="/viz/nba/"
     >
-      <div className="bg-uk-slate py-12">
+      <div className="bg-school-dark py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <a href="/" className="hover:text-uk-white">Home</a>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <a href="/" className="hover:text-school-accent">Home</a>
             <span className="mx-2">/</span>
-            <a href="/viz/" className="hover:text-uk-white">Viz</a>
+            <a href="/viz/" className="hover:text-school-accent">Viz</a>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Kentucky in the NBA</span>
+            <span className="text-school-accent">Kentucky in the NBA</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-1">
             Kentucky Players in the NBA: {currentSeason?.count} Active in {currentSeason?.label}
           </h1>
-          <p className="font-body text-uk-silver text-lg mb-6">
+          <p className="font-body text-school-accentLight text-lg mb-6">
             {uniqueNBAPlayers} total Through the Rafters members have played in the NBA across {seasonData.length} consecutive seasons of representation
           </p>
 
           {/* Stat cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-uk-white text-2xl font-bold">{currentSeason?.count}</div>
+              <div className="font-display text-school-accent text-2xl font-bold">{currentSeason?.count}</div>
               <div className="font-mono text-xs text-white/60">Current ({currentSeason?.label})</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-uk-white text-2xl font-bold">{peak?.count || 0}</div>
+              <div className="font-display text-school-accent text-2xl font-bold">{peak?.count || 0}</div>
               <div className="font-mono text-xs text-white/60">Peak ({peak?.label || "N/A"})</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-uk-white text-2xl font-bold">{totalPlayerSeasons}</div>
+              <div className="font-display text-school-accent text-2xl font-bold">{totalPlayerSeasons}</div>
               <div className="font-mono text-xs text-white/60">Total Player-Seasons</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-uk-white text-2xl font-bold">{seasonData.length}</div>
+              <div className="font-display text-school-accent text-2xl font-bold">{seasonData.length}</div>
               <div className="font-mono text-xs text-white/60">Consecutive Seasons</div>
             </div>
           </div>
@@ -231,7 +232,7 @@ export default function NBAViz() {
             {hoveredData ? (
               <>
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="font-display text-xl text-uk-white font-bold">{hoveredData.season}</span>
+                  <span className="font-display text-xl text-school-accent font-bold">{hoveredData.season}</span>
                   <span className="font-mono text-sm text-white/60">{hoveredData.count} Kentucky players in the NBA</span>
                 </div>
                 <div className="flex flex-wrap gap-2">
@@ -240,7 +241,7 @@ export default function NBAViz() {
                       <a
                         key={i}
                         href={`/players/${p.slug}/`}
-                        className="inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-mono transition-colors bg-uk-white/10 text-uk-white hover:bg-uk-white/20"
+                        className="inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-mono transition-colors bg-school-accent/10 text-school-accent hover:bg-school-accent/20"
                       >
                         {p.name}
                       </a>
@@ -266,7 +267,7 @@ export default function NBAViz() {
 
       {/* ─── SEO PROSE SECTION ─── */}
       <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="font-display text-2xl md:text-3xl text-uk-blue font-bold mb-4">
+        <h2 className="font-display text-2xl md:text-3xl text-school-primary font-bold mb-4">
           How Many Kentucky Players Are in the NBA?
         </h2>
         <div className="font-body text-gray-700 leading-relaxed space-y-4">
@@ -285,7 +286,7 @@ export default function NBAViz() {
             streak that spans more than four decades.
           </p>
 
-          <h3 className="font-display text-xl text-uk-blue font-bold mt-8 mb-2">
+          <h3 className="font-display text-xl text-school-primary font-bold mt-8 mb-2">
             Kentucky's #1 Overall NBA Draft Picks
           </h3>
           <p>
@@ -294,7 +295,7 @@ export default function NBAViz() {
             who have gone on to become NBA All-Stars, All-NBA selections, and franchise cornerstones.
           </p>
 
-          <h3 className="font-display text-xl text-uk-blue font-bold mt-8 mb-2">
+          <h3 className="font-display text-xl text-school-primary font-bold mt-8 mb-2">
             NBA Lottery Picks from Kentucky
           </h3>
           <p>
@@ -304,7 +305,7 @@ export default function NBAViz() {
             four decades of elite NBA talent development.
           </p>
 
-          <h3 className="font-display text-xl text-uk-blue font-bold mt-8 mb-2">
+          <h3 className="font-display text-xl text-school-primary font-bold mt-8 mb-2">
             Kentucky Players Currently in the NBA ({currentSeason?.label || '2025-26'})
           </h3>
           <p>
@@ -315,10 +316,10 @@ export default function NBAViz() {
             })()} different franchises. Multiple NBA teams roster more than one former Blue Devil, reflecting
             the breadth of Kentucky's pipeline into professional basketball. For the full list of current Kentucky
             NBA players with stats and team information, visit
-            the <a href="/lists/currently-in-nba/" className="text-uk-white hover:text-uk-blue underline">Currently in the NBA</a> page.
+            the <a href="/lists/currently-in-nba/" className="text-school-accent hover:text-school-primary underline">Currently in the NBA</a> page.
           </p>
 
-          <h3 className="font-display text-xl text-uk-blue font-bold mt-8 mb-2">
+          <h3 className="font-display text-xl text-school-primary font-bold mt-8 mb-2">
             Kentucky's NBA Representation Over Time
           </h3>
           <p>
@@ -335,7 +336,7 @@ export default function NBAViz() {
             drafted, marking one of the most complete roster-to-NBA transitions in college basketball history.
           </p>
 
-          <h3 className="font-display text-xl text-uk-blue font-bold mt-8 mb-2">
+          <h3 className="font-display text-xl text-school-primary font-bold mt-8 mb-2">
             Kentucky's NBA Legacy Beyond Players
           </h3>
           <p>
@@ -349,8 +350,8 @@ export default function NBAViz() {
           <p>
             For complete player profiles, career narratives, and &ldquo;Where Are They Now?&rdquo; stories on every
             Through the Rafters member who played in the NBA, explore
-            the <a href="/lists/all-players/" className="text-uk-white hover:text-uk-blue underline">full player directory</a> or
-            browse by <a href="/lists/draft-history/" className="text-uk-white hover:text-uk-blue underline">draft history</a>.
+            the <a href="/lists/all-players/" className="text-school-accent hover:text-school-primary underline">full player directory</a> or
+            browse by <a href="/lists/draft-history/" className="text-school-accent hover:text-school-primary underline">draft history</a>.
           </p>
         </div>
       </section>

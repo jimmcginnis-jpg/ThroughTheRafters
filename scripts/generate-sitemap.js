@@ -1,114 +1,55 @@
-// scripts/generate-sitemap.js
-// Generates public/sitemap.xml from players.json, teams.json
-// Priority tiers: done profiles > stubs, high-traffic lists > low-traffic
-// Trailing slashes on all URLs to match canonical tags
-// Uses lastUpdated from player data when available
-
 const fs = require('fs');
 const path = require('path');
+const config = require('../school.config');
+const data = require('../data/players.json');
+const teams = require('../data/teams.json');
 
-const playersData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '..', 'data', 'players.json'), 'utf8')
-);
-const DATA_DIR = path.join(__dirname, '..', 'data');
-const players = playersData.players;
+const BASE = config.siteUrl;
 
-const BASE_URL = 'https://www.throughtherafters.com';
-const today = new Date().toISOString().split('T')[0];
+function today() {
+  return new Date().toISOString().split('T')[0];
+}
+
+const staticPages = [
+  { loc: '/', priority: '1.0', changefreq: 'weekly' },
+  { loc: '/players/', priority: '0.9', changefreq: 'weekly' },
+  { loc: '/eras/', priority: '0.8', changefreq: 'monthly' },
+  { loc: '/teams/', priority: '0.8', changefreq: 'monthly' },
+  { loc: '/lists/', priority: '0.7', changefreq: 'monthly' },
+  { loc: '/viz/', priority: '0.6', changefreq: 'monthly' },
+  { loc: '/about/', priority: '0.5', changefreq: 'monthly' },
+  { loc: '/methodology/', priority: '0.4', changefreq: 'monthly' },
+  { loc: '/search/', priority: '0.3', changefreq: 'monthly' },
+  { loc: '/bracket/', priority: '0.5', changefreq: 'monthly' },
+  { loc: '/what-if/', priority: '0.5', changefreq: 'monthly' },
+  { loc: '/where-are-they-now/', priority: '0.7', changefreq: 'weekly' },
+];
 
 const urls = [];
 
-// ── Static pages ──
-urls.push({ loc: '/', priority: '1.0', changefreq: 'weekly', lastmod: today });
-urls.push({ loc: '/players/', priority: '0.9', changefreq: 'weekly', lastmod: today });
-urls.push({ loc: '/eras/', priority: '0.8', changefreq: 'monthly', lastmod: today });
-urls.push({ loc: '/lists/', priority: '0.9', changefreq: 'weekly', lastmod: today });
-urls.push({ loc: '/where-are-they-now/', priority: '0.9', changefreq: 'weekly', lastmod: today });
-urls.push({ loc: '/about/', priority: '0.5', changefreq: 'monthly', lastmod: '2026-03-01' });
-urls.push({ loc: '/methodology/', priority: '0.4', changefreq: 'monthly', lastmod: '2026-03-01' });
-urls.push({ loc: '/search/', priority: '0.6', changefreq: 'monthly', lastmod: '2026-03-01' });
-
-// ── Viz pages ──
-['', '/height', '/map', '/nba', '/nba-teams'].forEach(sub => {
-  urls.push({ loc: '/viz' + sub + '/', priority: '0.7', changefreq: 'monthly', lastmod: '2026-03-01' });
+// Static pages
+staticPages.forEach(p => {
+  urls.push(`  <url>\n    <loc>${BASE}${p.loc}</loc>\n    <lastmod>${today()}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`);
 });
 
-// ── Teams hub + individual seasons ──
-let teamsData;
-try { teamsData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'teams.json'), 'utf8')); } catch(e) {}
-if (teamsData && teamsData.seasons) {
-  urls.push({ loc: '/teams/', priority: '0.8', changefreq: 'monthly', lastmod: today });
-  teamsData.seasons.forEach(s => {
-    const endYear = parseInt(s.season.split('-')[0]) + 1;
-    const pri = endYear >= 2024 ? '0.8' : endYear >= 2000 ? '0.7' : '0.6';
-    urls.push({ loc: '/teams/' + s.season + '/', priority: pri, changefreq: 'monthly', lastmod: today });
-  });
-}
-
-// ── List pages — all of them, tiered by search value ──
-const highValueLists = [
-  'draft-history', 'currently-in-nba', 'lottery-picks', 'number-one-picks',
-  'coaches', 'all-americans', 'all-players',
-];
-const medValueLists = [
-  'top-nba-scorers', 'nba-iron-men', 'undrafted', 'mcdonalds-all-americans',
-  'by-the-numbers', 'birthdays',
-];
-const lowValueLists = [
-  'charities', 'x-handles',
-];
-
-highValueLists.forEach(slug => {
-  urls.push({ loc: '/lists/' + slug + '/', priority: '0.9', changefreq: 'weekly', lastmod: today });
-});
-medValueLists.forEach(slug => {
-  urls.push({ loc: '/lists/' + slug + '/', priority: '0.8', changefreq: 'weekly', lastmod: today });
-});
-lowValueLists.forEach(slug => {
-  urls.push({ loc: '/lists/' + slug + '/', priority: '0.7', changefreq: 'monthly', lastmod: today });
+// Era pages
+data.eras.forEach(era => {
+  urls.push(`  <url>\n    <loc>${BASE}/eras/${era.key}/</loc>\n    <lastmod>${today()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>`);
 });
 
-// ── Era pages ──
-const eras = [...new Set(players.map(p => p.era))];
-eras.forEach(era => {
-  urls.push({ loc: '/eras/' + era + '/', priority: '0.8', changefreq: 'weekly', lastmod: today });
+// Player pages
+data.players.forEach(p => {
+  const lastmod = p.lastUpdated || today();
+  const priority = p.status === 'done' ? '0.8' : '0.4';
+  urls.push(`  <url>\n    <loc>${BASE}/players/${p.slug}/</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
 });
 
-// ── Individual player pages — done profiles get higher priority than stubs ──
-players.forEach(p => {
-  const isDone = p.status === 'done';
-  const hasNBA = p.nba && p.nba.draftPick;
-  const isCurrentPlayer = p.seasons && p.seasons.includes('2025-26');
-
-  let pri = '0.5';
-  if (isDone && hasNBA) pri = '0.8';
-  else if (isDone) pri = '0.7';
-  else if (isCurrentPlayer) pri = '0.6';
-
-  const lastmod = p.lastUpdated || (isDone ? '2026-03-15' : '2026-01-01');
-
-  urls.push({
-    loc: '/players/' + p.slug + '/',
-    priority: pri,
-    changefreq: isDone ? 'monthly' : 'yearly',
-    lastmod: lastmod,
-  });
+// Team/season pages
+teams.seasons.forEach(s => {
+  urls.push(`  <url>\n    <loc>${BASE}/teams/${s.season}/</loc>\n    <lastmod>${today()}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`);
 });
 
-// ── Build XML ──
-const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  urls.map(u => '  <url>\n    <loc>' + BASE_URL + u.loc + '</loc>\n    <lastmod>' + u.lastmod + '</lastmod>\n    <changefreq>' + u.changefreq + '</changefreq>\n    <priority>' + u.priority + '</priority>\n  </url>').join('\n') +
-  '\n</urlset>\n';
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>`;
 
-const outputPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
-fs.writeFileSync(outputPath, xml);
-
-const doneCount = players.filter(p => p.status === 'done').length;
-const stubCount = players.length - doneCount;
-
-console.log('Sitemap generated: ' + urls.length + ' URLs -> public/sitemap.xml');
-console.log('   Static/hub pages: 13');
-console.log('   Team pages: ' + (teamsData ? teamsData.seasons.length + 1 : 0));
-console.log('   List pages: ' + (highValueLists.length + medValueLists.length + lowValueLists.length));
-console.log('   Era pages: ' + eras.length);
-console.log('   Player pages: ' + players.length + ' (' + doneCount + ' done @ 0.7-0.8, ' + stubCount + ' stubs @ 0.5-0.6)');
+fs.writeFileSync(path.join(__dirname, '..', 'public', 'sitemap.xml'), sitemap);
+console.log(`Sitemap generated: ${urls.length} URLs for ${config.domain}`);

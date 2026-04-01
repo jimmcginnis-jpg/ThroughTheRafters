@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/index.js
 // Viz landing page — links to all visualizations
 
@@ -56,10 +57,10 @@ export default function VizIndex() {
       description="Interactive data visualizations of Through the Rafters — height charts, recruiting maps, and more."
       canonical="/viz/"
     >
-      <section className="bg-uk-slate text-white py-12">
+      <section className="bg-school-dark text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="font-display text-4xl font-bold mb-2">Viz</h1>
-          <p className="font-body text-uk-silver text-lg">
+          <p className="font-body text-school-accentLight text-lg">
             Interactive explorations of Through the Rafters data.
           </p>
         </div>
@@ -71,10 +72,10 @@ export default function VizIndex() {
             <Link
               key={v.slug}
               href={`/viz/${v.slug}/`}
-              className="group block p-6 border border-gray-200 rounded-lg hover:border-uk-white hover:shadow-lg transition-all bg-white"
+              className="group block p-6 border border-gray-200 rounded-lg hover:border-school-accent hover:shadow-lg transition-all bg-white"
             >
-              <div className="font-mono text-xs text-uk-white uppercase tracking-wider mb-2">{v.stat}</div>
-              <h2 className="font-display text-xl text-uk-blue font-bold group-hover:text-uk-white transition-colors mb-2">
+              <div className="font-mono text-xs text-school-accent uppercase tracking-wider mb-2">{v.stat}</div>
+              <h2 className="font-display text-xl text-school-primary font-bold group-hover:text-school-accent transition-colors mb-2">
                 {v.title}
               </h2>
               <p className="font-body text-gray-500 text-sm">{v.desc}</p>

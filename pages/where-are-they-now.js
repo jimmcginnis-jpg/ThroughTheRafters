@@ -1,3 +1,4 @@
+import config from '../school.config';
 // pages/where-are-they-now.js
 // Hub page grouping all done players by what they're doing now
 
@@ -80,8 +81,8 @@ function CategorySection({ group, defaultOpen }) {
         onClick={() => setOpen(!open)}
         className="w-full text-left group"
       >
-        <div className="flex items-center justify-between border-b-2 border-uk-white pb-2 mb-1">
-          <h2 className="font-display text-xl text-uk-blue font-bold group-hover:text-uk-white transition-colors">
+        <div className="flex items-center justify-between border-b-2 border-school-accent pb-2 mb-1">
+          <h2 className="font-display text-xl text-school-primary font-bold group-hover:text-school-accent transition-colors">
             {group.label}
           </h2>
           <div className="flex items-center gap-3">
@@ -89,7 +90,7 @@ function CategorySection({ group, defaultOpen }) {
               {group.count} player{group.count !== 1 ? 's' : ''}
             </span>
             <svg
-              className={`w-5 h-5 text-uk-white transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+              className={`w-5 h-5 text-school-accent transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
               fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round"
             >
               <polyline points="6 9 12 15 18 9" />
@@ -107,16 +108,16 @@ function CategorySection({ group, defaultOpen }) {
             <Link
               key={p.id}
               href={`/players/${p.slug}/`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-uk-white hover:shadow-sm transition-all group/card"
+              className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-school-accent hover:shadow-sm transition-all group/card"
             >
-              <div className="shrink-0 w-10 h-10 rounded-full bg-uk-blue flex items-center justify-center">
-                <span className="font-mono text-xs font-bold text-uk-white">
+              <div className="shrink-0 w-10 h-10 rounded-full bg-school-primary flex items-center justify-center">
+                <span className="font-mono text-xs font-bold text-school-accent">
                   {p.jersey || '#'}
                 </span>
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="font-display font-semibold text-uk-blue group-hover/card:text-uk-white transition-colors">
+                  <span className="font-display font-semibold text-school-primary group-hover/card:text-school-accent transition-colors">
                     {p.name}
                   </span>
                   <span className="font-mono text-[10px] text-gray-400">{p.years}</span>
@@ -149,15 +150,15 @@ export default function WhereAreTheyNow({ groups, totalCount }) {
       </Head>
 
       {/* Hero */}
-      <section className="bg-uk-slate text-white py-12">
+      <section className="bg-school-dark text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Where Are They Now?</span>
+            <span className="text-school-accent">Where Are They Now?</span>
           </nav>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-3">Where Are They Now?</h1>
-          <p className="font-body text-uk-silver text-lg italic">
+          <p className="font-body text-school-accentLight text-lg italic">
             {totalCount} Through the Rafters players tracked — from the NBA to the boardroom.
           </p>
         </div>
@@ -171,9 +172,9 @@ export default function WhereAreTheyNow({ groups, totalCount }) {
               <a
                 key={g.key}
                 href={`#${g.key}`}
-                className="shrink-0 px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border border-gray-200 text-gray-500 hover:border-uk-white hover:text-uk-blue transition-all"
+                className="shrink-0 px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border border-gray-200 text-gray-500 hover:border-school-accent hover:text-school-primary transition-all"
               >
-                {g.label} <span className="text-uk-white">{g.count}</span>
+                {g.label} <span className="text-school-accent">{g.count}</span>
               </a>
             ))}
           </div>

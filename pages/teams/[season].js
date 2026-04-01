@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/teams/[season].js
 // Individual season page with four tabs
 
@@ -42,19 +43,19 @@ function PlayersTab({ roster, season }) {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
         <div className="rounded-lg text-center py-3" style={{ background: '#f5f5f0' }}>
-          <div className="font-display text-uk-blue text-2xl font-bold">{roster.length}</div>
+          <div className="font-display text-school-primary text-2xl font-bold">{roster.length}</div>
           <div className="font-mono text-xs text-gray-500">Total Roster</div>
         </div>
         <div className="rounded-lg text-center py-3" style={{ background: '#f5f5f0' }}>
-          <div className="font-display text-uk-blue text-2xl font-bold">{profiled.length}</div>
+          <div className="font-display text-school-primary text-2xl font-bold">{profiled.length}</div>
           <div className="font-mono text-xs text-gray-500">Profiled</div>
         </div>
         <div className="rounded-lg text-center py-3" style={{ background: '#f5f5f0' }}>
-          <div className="font-display text-uk-blue text-2xl font-bold">{recruits.length}</div>
+          <div className="font-display text-school-primary text-2xl font-bold">{recruits.length}</div>
           <div className="font-mono text-xs text-gray-500">New Arrivals</div>
         </div>
         <div className="rounded-lg text-center py-3" style={{ background: '#f5f5f0' }}>
-          <div className="font-display text-uk-blue text-2xl font-bold">{returning.length}</div>
+          <div className="font-display text-school-primary text-2xl font-bold">{returning.length}</div>
           <div className="font-mono text-xs text-gray-500">Returning</div>
         </div>
       </div>
@@ -62,7 +63,7 @@ function PlayersTab({ roster, season }) {
       {/* Recruits */}
       {recruits.length > 0 && (
         <div className="mb-6">
-          <h3 className="font-mono text-xs text-uk-white uppercase tracking-wider mb-3 flex items-center gap-2">
+          <h3 className="font-mono text-xs text-school-accent uppercase tracking-wider mb-3 flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-green-500" />
             New Arrivals
           </h3>
@@ -97,14 +98,14 @@ function PlayerRow({ player, isNew }) {
   const inner = (
     <div className={`flex items-center gap-3 p-3 rounded-lg border transition-all ${
       hasProfile
-        ? 'border-gray-200 bg-white hover:border-uk-white hover:shadow-sm cursor-pointer'
+        ? 'border-gray-200 bg-white hover:border-school-accent hover:shadow-sm cursor-pointer'
         : 'border-gray-100 bg-gray-50 opacity-70'
     }`}>
       <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center ${
-        hasProfile ? 'bg-uk-blue' : 'bg-gray-200'
+        hasProfile ? 'bg-school-primary' : 'bg-gray-200'
       }`}>
         <span className={`font-mono text-xs font-bold ${
-          hasProfile ? 'text-uk-white' : 'text-gray-500'
+          hasProfile ? 'text-school-accent' : 'text-gray-500'
         }`}>
           {p.jersey || '#'}
         </span>
@@ -112,10 +113,10 @@ function PlayerRow({ player, isNew }) {
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">
           <span className={`font-display font-semibold truncate ${
-            hasProfile ? 'text-uk-blue' : 'text-gray-600'
+            hasProfile ? 'text-school-primary' : 'text-gray-600'
           }`}>{p.name}</span>
           {isNew && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-green-100 text-green-700">New</span>}
-          {hasProfile && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-uk-white/10 text-uk-white">Profile</span>}
+          {hasProfile && <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-school-accent/10 text-school-accent">Profile</span>}
         </div>
         <div className="font-mono text-xs text-gray-400">
           {p.pos} {p.height ? `\u2022 ${p.height}` : ''} {p.hometown ? `\u2022 ${p.hometown}` : ''}
@@ -148,11 +149,11 @@ function SeasonTab({ team }) {
       <div className="grid md:grid-cols-2 gap-4 mb-8">
         <div className="p-4 rounded-lg border border-gray-200 bg-white">
           <div className="font-mono text-xs text-gray-500 uppercase tracking-wider mb-1">ACC Tournament</div>
-          <div className="font-display text-lg text-uk-blue font-bold">{team.accTournament}</div>
+          <div className="font-display text-lg text-school-primary font-bold">{team.accTournament}</div>
         </div>
         <div className="p-4 rounded-lg border border-gray-200 bg-white">
           <div className="font-mono text-xs text-gray-500 uppercase tracking-wider mb-1">NCAA Tournament</div>
-          <div className="font-display text-lg text-uk-blue font-bold">{team.ncaaTournament}</div>
+          <div className="font-display text-lg text-school-primary font-bold">{team.ncaaTournament}</div>
         </div>
       </div>
 
@@ -175,7 +176,7 @@ function SeasonTab({ team }) {
       )}
 
       <div className="prose max-w-none">
-        <h3 className="font-display text-xl text-uk-blue font-bold mb-3">Season Overview</h3>
+        <h3 className="font-display text-xl text-school-primary font-bold mb-3">Season Overview</h3>
         {team.overview.split('\n').map((para, i) => (
           <p key={i} className="font-body text-gray-700 leading-relaxed mb-4">
             <LinkedText text={para} />
@@ -189,7 +190,7 @@ function SeasonTab({ team }) {
 function StatCard({ label, value }) {
   return (
     <div className="rounded-lg text-center py-4 border border-gray-200 bg-white">
-      <div className="font-display text-uk-blue text-2xl font-bold">{value}</div>
+      <div className="font-display text-school-primary text-2xl font-bold">{value}</div>
       <div className="font-mono text-xs text-gray-500">{label}</div>
     </div>
   );
@@ -301,7 +302,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
             onClick={() => handleViewChange(k)}
             className={`px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border transition-all ${
               view === k
-                ? 'bg-uk-blue text-white border-uk-blue'
+                ? 'bg-school-primary text-white border-school-primary'
                 : 'bg-white text-gray-500 border-gray-200 hover:border-gray-400'
             }`}
           >
@@ -325,8 +326,8 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                     onClick={() => clickable && handleSort(key)}
                     className={`py-2 px-1.5 font-mono text-[10px] uppercase tracking-wider border-b border-gray-200 ${
                       i === 0 ? 'text-left pl-3' : 'text-right'
-                    } ${clickable ? 'cursor-pointer hover:text-uk-blue' : ''} ${
-                      isSorted ? 'text-uk-blue' : 'text-gray-400'
+                    } ${clickable ? 'cursor-pointer hover:text-school-primary' : ''} ${
+                      isSorted ? 'text-school-primary' : 'text-gray-400'
                     }`}
                     style={{ background: '#f9f9f6' }}
                   >
@@ -342,7 +343,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                 {vDef.keys.map((key, ci) => {
                   if (key === 'name') {
                     const nameContent = row.status === 'done' || row.status === 'pledged' ? (
-                      <Link href={`/players/${row.slug}/`} className="text-uk-blue hover:text-uk-white transition-colors">
+                      <Link href={`/players/${row.slug}/`} className="text-school-primary hover:text-school-accent transition-colors">
                         {row.name}
                       </Link>
                     ) : (
@@ -350,7 +351,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                     );
                     return (
                       <td key={key} className={`py-2 pl-3 pr-1.5 font-display text-xs font-semibold border-b border-gray-100 ${
-                        row.gs >= 20 ? 'border-l-2 border-l-uk-white' : ''
+                        row.gs >= 20 ? 'border-l-2 border-l-school-accent' : ''
                       }`}>
                         {nameContent}
                         <span className="font-mono text-[10px] text-gray-400 ml-1.5">{row.pos}</span>
@@ -363,7 +364,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                     <td
                       key={key}
                       className={`py-2 px-1.5 text-right font-mono border-b border-gray-100 ${
-                        isLeader ? 'text-uk-blue font-bold' : 'text-gray-700'
+                        isLeader ? 'text-school-primary font-bold' : 'text-gray-700'
                       }`}
                     >
                       {fmt(val, key)}
@@ -379,11 +380,11 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                 // Skip opponent row if it has no meaningful data (ppg=0 and pts=0)
                 if (row.name === 'Opponents' && !row.pts && !row.totalPts) return null;
                 return (
-                  <tr key={row.name} className={row.name === 'Team Totals' ? 'bg-uk-blue/5 font-semibold' : 'bg-gray-100/80'}>
+                  <tr key={row.name} className={row.name === 'Team Totals' ? 'bg-school-primary/5 font-semibold' : 'bg-gray-100/80'}>
                     {vDef.keys.map((key, ci) => {
                       if (key === 'name') {
                         return (
-                          <td key={key} className="py-2 pl-3 pr-1.5 font-mono text-xs font-bold text-uk-blue border-t-2 border-uk-white/40">
+                          <td key={key} className="py-2 pl-3 pr-1.5 font-mono text-xs font-bold text-school-primary border-t-2 border-school-accent/40">
                             {row.name}
                           </td>
                         );
@@ -391,7 +392,7 @@ function PlayerStatsTable({ playerSeasons, roster, teamTotals, opponentTotals })
                       const val = row[key];
                       const display = (val === '' || val == null) ? '' : (typeof val === 'number' && !Number.isInteger(val)) ? val.toFixed(1) : (key.includes('Pct') && typeof val === 'number') ? val.toFixed(1) : val;
                       return (
-                        <td key={key} className="py-2 px-1.5 text-right font-mono text-xs text-gray-700 border-t-2 border-uk-white/40">
+                        <td key={key} className="py-2 px-1.5 text-right font-mono text-xs text-gray-700 border-t-2 border-school-accent/40">
                           {display || '—'}
                         </td>
                       );
@@ -470,7 +471,7 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
       <h3 className="font-mono text-xs text-gray-500 uppercase tracking-wider mb-3">Team Averages</h3>
       <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-4">
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.ppg}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.ppg}</div>
           <div className="font-mono text-[10px] text-gray-400">PPG</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
@@ -484,11 +485,11 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
           <div className="font-mono text-[10px] text-gray-400">Margin</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.rpg}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.rpg}</div>
           <div className="font-mono text-[10px] text-gray-400">RPG</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.apg}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.apg}</div>
           <div className="font-mono text-[10px] text-gray-400">APG</div>
         </div>
       </div>
@@ -496,23 +497,23 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
       {/* Shooting + defense row */}
       <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-8">
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.fgPct}%</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.fgPct}%</div>
           <div className="font-mono text-[10px] text-gray-400">FG%</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.threePct ? `${team.threePct}%` : '—'}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.threePct ? `${team.threePct}%` : '—'}</div>
           <div className="font-mono text-[10px] text-gray-400">3PT%</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.ftPct}%</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.ftPct}%</div>
           <div className="font-mono text-[10px] text-gray-400">FT%</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.spg}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.spg}</div>
           <div className="font-mono text-[10px] text-gray-400">SPG</div>
         </div>
         <div className="rounded-lg text-center py-3 border border-gray-200 bg-white">
-          <div className="font-display text-uk-blue text-xl font-bold">{team.bpg}</div>
+          <div className="font-display text-school-primary text-xl font-bold">{team.bpg}</div>
           <div className="font-mono text-[10px] text-gray-400">BPG</div>
         </div>
       </div>
@@ -535,7 +536,7 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
                 {rows.map((row, i) => {
                   const player = playerMap[row.playerId];
                   const nameEl = player && player.slug && (player.status === 'done' || player.status === 'pledged') ? (
-                    <Link href={`/players/${player.slug}/`} className="text-uk-blue hover:text-uk-white transition-colors">
+                    <Link href={`/players/${player.slug}/`} className="text-school-primary hover:text-school-accent transition-colors">
                       {row.name}
                     </Link>
                   ) : (
@@ -549,7 +550,7 @@ function StatsTab({ stats, roster, playerSeasons, teamTotals, opponentTotals }) 
                         <span className="font-display text-sm font-semibold">{nameEl}</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <span className="font-mono text-sm font-bold text-uk-blue">
+                        <span className="font-mono text-sm font-bold text-school-primary">
                           {row[field]} <span className="text-gray-400 text-xs">{unit}</span>
                         </span>
                         {row.total != null && (
@@ -595,8 +596,8 @@ function GthcTab({ games }) {
     <div>
       <div className="flex items-center gap-6 mb-8 p-4 rounded-lg" style={{ background: '#001A57' }}>
         <div className="text-center">
-          <div className="font-display text-3xl text-uk-white font-bold">{wins}-{losses}</div>
-          <div className="font-mono text-xs text-uk-silver">vs UNC</div>
+          <div className="font-display text-3xl text-school-accent font-bold">{wins}-{losses}</div>
+          <div className="font-mono text-xs text-school-accentLight">vs UNC</div>
         </div>
         <div className="font-display text-2xl text-white font-bold tracking-wider">
           GTHC
@@ -704,8 +705,8 @@ function TheGameTab({ game }) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {game.performances.map((perf, i) => (
               <div key={i} className="p-4 rounded-lg border border-gray-200 bg-white">
-                <div className="font-display text-uk-blue font-semibold">{perf.player}</div>
-                <div className="font-mono text-sm text-uk-white">{perf.line}</div>
+                <div className="font-display text-school-primary font-semibold">{perf.player}</div>
+                <div className="font-mono text-sm text-school-accent">{perf.line}</div>
               </div>
             ))}
           </div>
@@ -714,8 +715,8 @@ function TheGameTab({ game }) {
 
       {/* Why this game */}
       {game.significance && (
-        <div className="mt-8 p-5 rounded-lg border-l-4 border-l-uk-white bg-amber-50">
-          <h3 className="font-mono text-xs text-uk-white uppercase tracking-wider mb-2">Why This Game Matters</h3>
+        <div className="mt-8 p-5 rounded-lg border-l-4 border-l-school-accent bg-amber-50">
+          <h3 className="font-mono text-xs text-school-accent uppercase tracking-wider mb-2">Why This Game Matters</h3>
           <p className="font-body text-gray-700 leading-relaxed">
             <LinkedText text={game.significance} />
           </p>
@@ -741,8 +742,8 @@ function MarchTab({ march, accTournament, ncaaTournament }) {
       {march.accTourney && march.accTourney.length > 0 && (
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-4">
-            <h3 className="font-display text-xl text-uk-blue font-bold">ACC Tournament</h3>
-            <span className="font-mono text-xs px-2 py-1 rounded-full bg-uk-blue text-white">{accTournament}</span>
+            <h3 className="font-display text-xl text-school-primary font-bold">ACC Tournament</h3>
+            <span className="font-mono text-xs px-2 py-1 rounded-full bg-school-primary text-white">{accTournament}</span>
           </div>
           <div className="space-y-3">
             {march.accTourney.map((game, i) => (
@@ -756,9 +757,9 @@ function MarchTab({ march, accTournament, ncaaTournament }) {
       {march.ncaaTourney && march.ncaaTourney.length > 0 && (
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <h3 className="font-display text-xl text-uk-blue font-bold">NCAA Tournament</h3>
+            <h3 className="font-display text-xl text-school-primary font-bold">NCAA Tournament</h3>
             <span className={`font-mono text-xs px-2 py-1 rounded-full ${
-              ncaaTournament.includes('Champions') ? 'bg-yellow-500 text-uk-blueDark' : 'bg-uk-blue text-white'
+              ncaaTournament.includes('Champions') ? 'bg-yellow-500 text-school-primaryDark' : 'bg-school-primary text-white'
             }`}>{ncaaTournament}</span>
           </div>
           <div className="relative">
@@ -777,7 +778,7 @@ function MarchTab({ march, accTournament, ncaaTournament }) {
       {march.nit && march.nit.length > 0 && (
         <div className={march.ncaaTourney && march.ncaaTourney.length > 0 ? 'mt-10' : ''}>
           <div className="flex items-center gap-3 mb-4">
-            <h3 className="font-display text-xl text-uk-blue font-bold">NIT</h3>
+            <h3 className="font-display text-xl text-school-primary font-bold">NIT</h3>
             <span className="font-mono text-xs px-2 py-1 rounded-full bg-gray-600 text-white">{ncaaTournament}</span>
           </div>
           <div className="relative">
@@ -806,7 +807,7 @@ function GameCard({ game, isBracket }) {
           <span className={`font-mono text-sm font-bold ${isWin ? 'text-green-700' : 'text-red-600'}`}>
             {game.result} {game.score}
           </span>
-          <span className="font-display text-sm text-uk-blue">
+          <span className="font-display text-sm text-school-primary">
             vs {game.seed ? `(${game.seed}) ` : ''}{game.opponent}
           </span>
         </div>
@@ -829,8 +830,8 @@ export default function SeasonPage({ team, roster }) {
     return (
       <Layout title="Season Not Found" canonical="/teams/">
         <div className="max-w-4xl mx-auto px-4 py-20 text-center">
-          <h1 className="font-display text-3xl text-uk-blue font-bold mb-4">Season Not Found</h1>
-          <Link href="/teams/" className="text-uk-white hover:underline">Browse all seasons</Link>
+          <h1 className="font-display text-3xl text-school-primary font-bold mb-4">Season Not Found</h1>
+          <Link href="/teams/" className="text-school-accent hover:underline">Browse all seasons</Link>
         </div>
       </Layout>
     );
@@ -843,22 +844,22 @@ export default function SeasonPage({ team, roster }) {
       canonical={`/teams/${team.season}/`}
     >
       {/* Hero */}
-      <section className="bg-uk-slate text-white py-12">
+      <section className="bg-school-dark text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/teams/" className="hover:text-uk-white">Teams</Link>
+            <Link href="/teams/" className="hover:text-school-accent">Teams</Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">{team.season}</span>
+            <span className="text-school-accent">{team.season}</span>
           </nav>
 
           <div className="flex items-end gap-6 mb-4">
             <h1 className="font-display text-4xl md:text-5xl font-bold">{team.season}</h1>
-            <div className="font-display text-2xl text-uk-white font-bold">{team.record}</div>
+            <div className="font-display text-2xl text-school-accent font-bold">{team.record}</div>
           </div>
-          <p className="font-body text-uk-silver text-lg italic">{team.tagline}</p>
-          <div className="font-mono text-xs text-uk-silver mt-2">
+          <p className="font-body text-school-accentLight text-lg italic">{team.tagline}</p>
+          <div className="font-mono text-xs text-school-accentLight mt-2">
             Coach: {team.coach} &bull; {eraNames[team.era]} &bull; {team.ncaaTournament}
           </div>
         </div>
@@ -874,7 +875,7 @@ export default function SeasonPage({ team, roster }) {
                 onClick={() => setActiveTab(tab.key)}
                 className={`px-5 py-3 font-mono text-sm tracking-wider transition-all border-b-2 ${
                   activeTab === tab.key
-                    ? 'border-uk-white text-uk-blue font-bold'
+                    ? 'border-school-accent text-school-primary font-bold'
                     : 'border-transparent text-gray-400 hover:text-gray-600'
                 }`}
               >
@@ -899,7 +900,7 @@ export default function SeasonPage({ team, roster }) {
       {team.sources && team.sources.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-8">
           <details className="group">
-            <summary className="font-mono text-xs text-gray-400 uppercase tracking-wider cursor-pointer hover:text-uk-white transition-colors">
+            <summary className="font-mono text-xs text-gray-400 uppercase tracking-wider cursor-pointer hover:text-school-accent transition-colors">
               Sources ({team.sources.length})
             </summary>
             <ul className="mt-3 space-y-1">
@@ -909,7 +910,7 @@ export default function SeasonPage({ team, roster }) {
                     href={src.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-body text-sm text-uk-white hover:text-uk-blue transition-colors"
+                    className="font-body text-sm text-school-accent hover:text-school-primary transition-colors"
                   >
                     {src.title}
                   </a>
@@ -924,12 +925,12 @@ export default function SeasonPage({ team, roster }) {
       <section className="max-w-4xl mx-auto px-4 pb-12">
         <div className="flex justify-between border-t border-gray-200 pt-6">
           {team.prevSeason ? (
-            <Link href={`/teams/${team.prevSeason}/`} className="font-mono text-sm text-uk-white hover:underline">
+            <Link href={`/teams/${team.prevSeason}/`} className="font-mono text-sm text-school-accent hover:underline">
               &larr; {team.prevSeason}
             </Link>
           ) : <div />}
           {team.nextSeason ? (
-            <Link href={`/teams/${team.nextSeason}/`} className="font-mono text-sm text-uk-white hover:underline">
+            <Link href={`/teams/${team.nextSeason}/`} className="font-mono text-sm text-school-accent hover:underline">
               {team.nextSeason} &rarr;
             </Link>
           ) : <div />}

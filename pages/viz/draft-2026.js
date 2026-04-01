@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/draft-2026.js
 // 2026 NBA Draft Projections — Through the Rafters Analogues
 
@@ -133,14 +134,14 @@ function ProspectCard({ prospect, isSelected, onClick }) {
       onClick={onClick}
       className={`text-left w-full rounded-xl p-5 border transition-all duration-200 ${
         isSelected
-          ? 'border-uk-blue bg-uk-blue/5 shadow-lg ring-2 ring-uk-blue/20'
-          : 'border-gray-200 bg-white hover:border-uk-blue/40 hover:shadow-md'
+          ? 'border-school-primary bg-school-primary/5 shadow-lg ring-2 ring-school-primary/20'
+          : 'border-gray-200 bg-white hover:border-school-primary/40 hover:shadow-md'
       }`}
     >
       <div className="flex justify-between items-start mb-3">
         <div>
           <div className="font-mono text-[10px] tracking-widest uppercase" style={{ color: GOLD }}>{p.projection.round}</div>
-          <div className="font-display text-xl font-bold text-uk-blue mt-1">{p.name}</div>
+          <div className="font-display text-xl font-bold text-school-primary mt-1">{p.name}</div>
           <div className="font-mono text-xs text-gray-400 mt-0.5">#{p.jersey} · {p.pos} · {p.height} · {p.classYear}</div>
         </div>
         <div className="rounded-lg px-3 py-2 text-center" style={{ background: NAVY }}>
@@ -151,7 +152,7 @@ function ProspectCard({ prospect, isSelected, onClick }) {
       <div className="flex gap-4 mb-3">
         {Object.entries(p.ukStats).map(([key, val]) => (
           <div key={key} className="text-center">
-            <div className="font-mono text-lg font-bold text-uk-blue">{val}</div>
+            <div className="font-mono text-lg font-bold text-school-primary">{val}</div>
             <div className="font-mono text-[9px] text-gray-400 uppercase tracking-wider">{key}</div>
           </div>
         ))}
@@ -184,7 +185,7 @@ function AnaloguePanel({ prospect }) {
       <div className="flex flex-col sm:flex-row justify-between items-start gap-4 mb-5">
         <div>
           <div className="font-mono text-[10px] tracking-widest uppercase" style={{ color: GOLD }}>Through the Rafters Analogues</div>
-          <div className="font-display text-2xl font-bold text-uk-blue mt-1">{p.name}</div>
+          <div className="font-display text-2xl font-bold text-school-primary mt-1">{p.name}</div>
         </div>
         <div className="rounded-lg px-4 py-2" style={{ background: NAVY }}>
           <div className="font-mono text-lg font-extrabold text-white">{p.projection.range}</div>
@@ -199,7 +200,7 @@ function AnaloguePanel({ prospect }) {
           <div key={i} className="bg-gray-50 rounded-lg p-4 border border-gray-100">
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-3 items-center">
               <div>
-                <Link href={`/players/${a.slug}`} className="font-display text-base font-bold text-uk-blue hover:underline">
+                <Link href={`/players/${a.slug}`} className="font-display text-base font-bold text-school-primary hover:underline">
                   {a.name}
                 </Link>
                 <div className="font-mono text-xs font-semibold" style={{ color: GOLD }}>{a.pick} · {a.year}</div>
@@ -246,13 +247,13 @@ export default function DraftProjections2026() {
         />
       </Head>
 
-      <section className="bg-uk-slate text-white py-14 md:py-20">
+      <section className="bg-school-dark text-white py-14 md:py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="font-mono text-uk-white text-[11px] tracking-[0.3em] uppercase mb-3">
+          <div className="font-mono text-school-accent text-[11px] tracking-[0.3em] uppercase mb-3">
             DukeThrough the Rafters.com &bull; 2026 NBA Draft
           </div>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">
-            Through the Rafters <span className="text-uk-white">Draft Board</span>
+            Through the Rafters <span className="text-school-accent">Draft Board</span>
           </h1>
           <p className="font-body text-lg text-white/80 max-w-2xl mx-auto leading-relaxed mb-8">
             We used 45 years of Through the Rafters data — every Kentucky player drafted since 1981 — to find the closest
@@ -260,17 +261,17 @@ export default function DraftProjections2026() {
           </p>
           <div className="inline-flex gap-6 bg-white/5 backdrop-blur rounded-lg px-6 py-3 border border-white/10">
             <div className="text-center">
-              <div className="font-mono text-xl font-extrabold text-uk-white">77</div>
+              <div className="font-mono text-xl font-extrabold text-school-accent">77</div>
               <div className="font-mono text-[9px] text-white/50 uppercase tracking-wider">Players Drafted</div>
             </div>
             <div className="w-px bg-white/10" />
             <div className="text-center">
-              <div className="font-mono text-xl font-extrabold text-uk-white">5</div>
+              <div className="font-mono text-xl font-extrabold text-school-accent">5</div>
               <div className="font-mono text-[9px] text-white/50 uppercase tracking-wider">#1 Overall Picks</div>
             </div>
             <div className="w-px bg-white/10" />
             <div className="text-center">
-              <div className="font-mono text-xl font-extrabold text-uk-white">5-7</div>
+              <div className="font-mono text-xl font-extrabold text-school-accent">5-7</div>
               <div className="font-mono text-[9px] text-white/50 uppercase tracking-wider">Projected 2026</div>
             </div>
           </div>
@@ -291,7 +292,7 @@ export default function DraftProjections2026() {
             Projections based on statistical comparison to 77 drafted Kentucky players (1981&ndash;2025).
             <br />Match percentages reflect similarity in Kentucky stats, physical profile, draft position, and era context.
             <br />
-            <Link href="/viz" className="text-uk-blue hover:underline mt-2 inline-block">
+            <Link href="/viz" className="text-school-primary hover:underline mt-2 inline-block">
               &larr; Back to Visualizations
             </Link>
           </div>

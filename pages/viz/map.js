@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/map.js
 // Recruiting map with US state borders
 
@@ -91,27 +92,27 @@ export default function RecruitingMap() {
 
   return (
     <Layout title="Recruiting Map" description="Where Kentucky gets its players — hometown map of all 200+ Through the Rafters members." canonical="/viz/map/">
-      <div className="bg-uk-slate py-12">
+      <div className="bg-school-dark py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <a href="/" className="hover:text-uk-white">Home</a><span className="mx-2">/</span>
-            <a href="/viz/" className="hover:text-uk-white">Viz</a><span className="mx-2">/</span>
-            <span className="text-uk-white">Recruiting Map</span>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <a href="/" className="hover:text-school-accent">Home</a><span className="mx-2">/</span>
+            <a href="/viz/" className="hover:text-school-accent">Viz</a><span className="mx-2">/</span>
+            <span className="text-school-accent">Recruiting Map</span>
           </nav>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-1">Where Kentucky Gets Its Players</h1>
-          <p className="font-body text-uk-silver text-lg mb-6">{filtered.length} players mapped by hometown, 1981&ndash;2026</p>
+          <p className="font-body text-school-accentLight text-lg mb-6">{filtered.length} players mapped by hometown, 1981&ndash;2026</p>
 
           <div className="flex flex-wrap gap-2 mb-8">
-            <button onClick={() => setFilterEra('all')} className={`px-3 py-1 font-mono text-xs rounded-full transition-colors ${filterEra==='all'?'bg-uk-blue text-white':'bg-white/10 text-uk-silver hover:bg-white/20'}`}>All Eras</button>
+            <button onClick={() => setFilterEra('all')} className={`px-3 py-1 font-mono text-xs rounded-full transition-colors ${filterEra==='all'?'bg-school-primary text-white':'bg-white/10 text-school-accentLight hover:bg-white/20'}`}>All Eras</button>
             {Object.entries(eraNames).map(([k,v]) => (
-              <button key={k} onClick={() => setFilterEra(k)} className={`px-3 py-1 font-mono text-xs rounded-full transition-colors ${filterEra===k?'text-white':'bg-white/10 text-uk-silver hover:bg-white/20'}`} style={filterEra===k?{background:eraColors[k]}:{}}>{v}</button>
+              <button key={k} onClick={() => setFilterEra(k)} className={`px-3 py-1 font-mono text-xs rounded-full transition-colors ${filterEra===k?'text-white':'bg-white/10 text-school-accentLight hover:bg-white/20'}`} style={filterEra===k?{background:eraColors[k]}:{}}>{v}</button>
             ))}
           </div>
 
           <div className="relative rounded-lg overflow-hidden" style={{background:'#0d1f3c'}}>
             {loading ? (
               <div className="flex items-center justify-center" style={{height:500}}>
-                <span className="font-mono text-uk-silver text-sm animate-pulse">Loading map...</span>
+                <span className="font-mono text-school-accentLight text-sm animate-pulse">Loading map...</span>
               </div>
             ) : (
               <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" style={{maxHeight:'70vh'}}>
@@ -151,7 +152,7 @@ export default function RecruitingMap() {
               const flipR = xP > 70, flipD = yP < 15;
               return (
                 <div className="absolute pointer-events-none px-3 py-2 rounded-lg shadow-xl" style={{left:`${flipR?xP-2:xP+2}%`,top:`${flipD?yP+4:yP-2}%`,transform:`translate(${flipR?'-100%':'0'},${flipD?'0':'-100%'})`,background:'#1a2d4d',border:'1px solid #2a4a7f',zIndex:100}}>
-                  <div className="font-mono text-xs text-uk-white font-bold">{pin.hometown}</div>
+                  <div className="font-mono text-xs text-school-accent font-bold">{pin.hometown}</div>
                   {pin.players.map(p => <div key={p.name} className="font-body text-xs text-white/80">{p.name} <span className="text-white/40">({p.years})</span></div>)}
                 </div>
               );
@@ -160,12 +161,12 @@ export default function RecruitingMap() {
 
           {intlFiltered.length > 0 && (
             <div className="mt-6 rounded-lg p-4" style={{background:'#111d33',border:'1px solid #2a4a7f'}}>
-              <h3 className="font-mono text-xs text-uk-white uppercase tracking-wider mb-3">International ({intlFiltered.length})</h3>
+              <h3 className="font-mono text-xs text-school-accent uppercase tracking-wider mb-3">International ({intlFiltered.length})</h3>
               <div className="flex flex-wrap gap-3">
                 {intlFiltered.map(p => (
                   <div key={p.name} className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full" style={{background:eraColors[p.era]}} />
-                    {p.status==='done' || p.status==='pledged' ? <a href={`/players/${p.slug}/`} className="font-body text-sm text-uk-white hover:text-uk-silver">{p.name}</a> : <span className="font-body text-sm text-white/60">{p.name}</span>}
+                    {p.status==='done' || p.status==='pledged' ? <a href={`/players/${p.slug}/`} className="font-body text-sm text-school-accent hover:text-school-accentLight">{p.name}</a> : <span className="font-body text-sm text-white/60">{p.name}</span>}
                     <span className="font-mono text-xs text-white/40">{p.hometown}</span>
                   </div>
                 ))}
@@ -176,16 +177,16 @@ export default function RecruitingMap() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
             {topStates.map(([st,c]) => (
               <div key={st} className="rounded-lg text-center py-3" style={{background:'#111d33'}}>
-                <div className="font-display text-uk-white text-2xl font-bold">{c}</div>
+                <div className="font-display text-school-accent text-2xl font-bold">{c}</div>
                 <div className="font-mono text-xs text-white/60">{st}</div>
               </div>
             ))}
           </div>
 
           <div className="flex flex-wrap gap-4 mt-6 justify-center">
-            <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-uk-white" /><span className="font-mono text-xs text-uk-silver">Profiled</span></div>
+            <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-school-accent" /><span className="font-mono text-xs text-school-accentLight">Profiled</span></div>
             <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full" style={{background:'#4a7ab5'}} /><span className="font-mono text-xs text-white/60">Roster</span></div>
-            <div className="flex items-center gap-2"><svg width="16" height="16"><circle cx="8" cy="8" r="5" fill="#C5A258" opacity="0.5" stroke="#C5A258" strokeWidth="1.5" /></svg><span className="font-mono text-xs text-uk-white">Lexington</span></div>
+            <div className="flex items-center gap-2"><svg width="16" height="16"><circle cx="8" cy="8" r="5" fill="#C5A258" opacity="0.5" stroke="#C5A258" strokeWidth="1.5" /></svg><span className="font-mono text-xs text-school-accent">Lexington</span></div>
           </div>
         </div>
       </div>

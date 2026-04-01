@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const school = require('./school.config');
+
 module.exports = {
   content: [
     './pages/**/*.{js,jsx}',
@@ -7,19 +9,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        uk: {
-          blue: '#0033A0',
-          blueDark: '#001A50',
-          white: '#FFFFFF',
-          silver: '#C8C9C7',
-          cream: '#F5F7FA',
-          slate: '#0033A0',
+        school: {
+          primary: school.colors.primary,
+          accent: school.colors.accent,
+          accentLight: school.colors.accentLight,
+          dark: school.colors.dark,
+          cream: school.colors.cream,
+          text: school.colors.text,
         },
       },
       fontFamily: {
-        display: ['Oswald', 'Arial', 'sans-serif'],
-        body: ['Source Sans 3', 'Arial', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        display: [school.fonts.display, school.fonts.displayFallback],
+        body: [school.fonts.body, school.fonts.bodyFallback],
+        mono: [school.fonts.mono, school.fonts.monoFallback],
       },
     },
   },

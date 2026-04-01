@@ -1,3 +1,4 @@
+import config from '../../school.config';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import data from '../../data/players.json';
@@ -14,21 +15,21 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
       canonical={`/eras/${era.key}/`}
     >
       {/* HERO */}
-      <section className="bg-uk-slate text-white py-12 md:py-16">
+      <section className="bg-school-dark text-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/eras/" className="hover:text-uk-white">Eras</Link>
+            <Link href="/eras/" className="hover:text-school-accent">Eras</Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Era {era.num}</span>
+            <span className="text-school-accent">Era {era.num}</span>
           </nav>
 
-          <div className="font-mono text-uk-white text-sm tracking-widest mb-2">
+          <div className="font-mono text-school-accent text-sm tracking-widest mb-2">
             ERA {era.num} &bull; {era.years}
           </div>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">{era.name}</h1>
-          <p className="font-body text-lg text-uk-silver italic">{era.desc}</p>
+          <p className="font-body text-lg text-school-accentLight italic">{era.desc}</p>
           <div className="mt-4 font-mono text-sm text-white/60">
             {doneCount} of {players.length} profiles complete
           </div>
@@ -46,7 +47,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                 href={hasProfile ? `/players/${player.slug}/` : '#'}
                 className={`player-card block p-5 border ${
                   hasProfile
-                    ? 'bg-white border-gray-200 hover:border-uk-white'
+                    ? 'bg-white border-gray-200 hover:border-school-accent'
                     : 'bg-gray-50 border-gray-100 opacity-70 cursor-default'
                 }`}
               >
@@ -61,7 +62,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                      player.status === 'soon' ? 'Priority Next' : 'Coming Soon'}
                   </span>
                 </div>
-                <h3 className="font-display text-xl text-uk-blue mt-2">{player.name}</h3>
+                <h3 className="font-display text-xl text-school-primary mt-2">{player.name}</h3>
                 <div className="font-mono text-xs text-gray-400 mt-1 mb-2">
                   {player.pos} &bull; {player.height} &bull; {player.years}
                 </div>
@@ -82,7 +83,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
           {prevEra ? (
             <Link href={`/eras/${prevEra.key}/`} className="group text-left">
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">&larr; Previous Era</span>
-              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
+              <div className="font-display text-school-primary group-hover:text-school-accent transition-colors">
                 {prevEra.num}. {prevEra.name}
               </div>
             </Link>
@@ -90,7 +91,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
           {nextEra ? (
             <Link href={`/eras/${nextEra.key}/`} className="group text-right">
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">Next Era &rarr;</span>
-              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
+              <div className="font-display text-school-primary group-hover:text-school-accent transition-colors">
                 {nextEra.num}. {nextEra.name}
               </div>
             </Link>

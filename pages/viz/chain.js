@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/chain.js
 // Wildcats Chain — Degrees of Separation between any two Kentucky players
 
@@ -264,22 +265,22 @@ export default function ChainViz() {
         <meta property="og:title" content="Wildcats Chain — Degrees of Separation | Through the Rafters" />
       </Head>
 
-      <div className="bg-uk-slate py-12 md:py-16">
+      <div className="bg-school-dark py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4">
 
           {/* Header */}
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <a href="/" className="hover:text-uk-white">Home</a>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <a href="/" className="hover:text-school-accent">Home</a>
             <span className="mx-2">/</span>
-            <a href="/viz/" className="hover:text-uk-white">Viz</a>
+            <a href="/viz/" className="hover:text-school-accent">Viz</a>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Wildcats Chain</span>
+            <span className="text-school-accent">Wildcats Chain</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
             Wildcats Chain
           </h1>
-          <p className="font-body text-uk-silver text-lg mb-2">
+          <p className="font-body text-school-accentLight text-lg mb-2">
             Degrees of separation between any two Kentucky players
           </p>
           <p className="font-body text-sm mb-8" style={{ color: "#6b83a5" }}>
@@ -346,7 +347,7 @@ export default function ChainViz() {
             <div className="animate-fadeIn">
               {/* Degree count hero */}
               <div className="text-center mb-8 py-6 rounded-xl" style={{ background: "#111d33" }}>
-                <div className="font-display text-6xl md:text-7xl font-bold text-uk-white mb-1">
+                <div className="font-display text-6xl md:text-7xl font-bold text-school-accent mb-1">
                   {degrees}
                 </div>
                 <div className="font-mono text-sm" style={{ color: "#8ba4c7" }}>
@@ -384,7 +385,7 @@ export default function ChainViz() {
           {/* Empty state */}
           {playerA && playerB && !chain && (
             <div className="text-center py-12" style={{ color: "#6b83a5" }}>
-              <div className="font-display text-2xl text-uk-white mb-2">No Connection Found</div>
+              <div className="font-display text-2xl text-school-accent mb-2">No Connection Found</div>
               <p className="font-body text-sm">
                 These two players don&rsquo;t appear to be connected through shared rosters.
                 This shouldn&rsquo;t happen in Through the Rafters &mdash; let us know if you think this is an error.
@@ -403,7 +404,7 @@ export default function ChainViz() {
               ].map((s) => (
                 <div key={s.label} className="rounded-lg text-center py-3 px-2" style={{ background: "#111d33" }}>
                   <div className="font-mono text-xs uppercase tracking-wider" style={{ color: "#6b83a5" }}>{s.label}</div>
-                  <div className="font-display text-uk-white text-2xl font-bold my-1">{s.value}</div>
+                  <div className="font-display text-school-accent text-2xl font-bold my-1">{s.value}</div>
                   <div className="font-mono text-xs" style={{ color: "#8ba4c7" }}>{s.sub}</div>
                 </div>
               ))}

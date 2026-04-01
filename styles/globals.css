@@ -2,21 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;700&display=swap');
-
-/* ============================================================
-   THROUGH THE RAFTERS — Global Styles
-   Blue: #0033A0  |  White: #FFFFFF  |  Cream: #F5F7FA
-   ============================================================ */
+/* Font import is handled dynamically in _app.js via school.config */
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Source Sans 3', Arial, sans-serif;
-  background-color: #F8F9FA;
-  color: #0A1628;
+  font-family: var(--font-body), Arial, sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-text);
 }
 
 /* Bio content formatting */
@@ -36,11 +31,11 @@ body {
 }
 
 .tab-button.active {
-  @apply border-uk-white text-uk-blue font-bold;
+  @apply border-school-accent text-school-primary font-bold;
 }
 
 .tab-button:not(.active) {
-  @apply border-transparent text-gray-500 hover:text-uk-blue hover:border-uk-white/40;
+  @apply border-transparent text-gray-500 hover:text-school-primary hover:border-school-accent/40;
 }
 
 /* Player card hover */
@@ -54,7 +49,7 @@ body {
 
 /* Era section divider */
 .era-divider {
-  background: linear-gradient(90deg, transparent, #0033A0, transparent);
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
   height: 1px;
 }
 
@@ -72,11 +67,11 @@ body {
 
 /* Status badges */
 .badge-done {
-  @apply bg-uk-blue text-white;
+  @apply bg-school-primary text-white;
 }
 
 .badge-soon {
-  @apply bg-uk-white text-uk-blueDark;
+  @apply bg-school-accent text-school-dark;
 }
 
 .badge-coming {
@@ -85,6 +80,6 @@ body {
 
 .badge-pledged {
   background: rgba(0, 51, 160, 0.15);
-  color: #0033A0;
+  color: var(--color-primary);
   border: 1px solid rgba(0, 51, 160, 0.4);
 }

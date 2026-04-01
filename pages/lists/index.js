@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/lists/index.js
 
 import Head from 'next/head';
@@ -11,19 +12,19 @@ const totalPlayers = playersData.players.length;
 const lists = [
   { slug: '../where-are-they-now', title: 'Where Are They Now?', desc: `${profiledCount} Through the Rafters players grouped by what they're doing now — NBA, coaching, business, overseas, and more.`, featured: true },
   { slug: 'all-players', title: `All ${totalPlayers} Through the Rafters Players (1930–Present)`, desc: `${profiledCount} profiled with full narratives · ${totalPlayers - profiledCount} more coming soon.` },
-  { slug: 'currently-in-nba', title: 'Through the Rafters Players Currently in the NBA', desc: `Active in the 2025–26 NBA season, among the ${profiledCount} players profiled.` },
+  { slug: 'currently-in-nba', title: config.siteName + ' Players Currently in the NBA', desc: `Active in the 2025–26 NBA season, among the ${profiledCount} players profiled.` },
   { slug: 'number-one-picks', title: '#1 Overall NBA Draft Picks Among Through the Rafters', desc: 'Five Through the Rafters players were selected first overall — more than any program in history.' },
   { slug: 'lottery-picks', title: `NBA Lottery Picks Among the ${profiledCount} Through the Rafters Players`, desc: 'Every Brotherhood player drafted in the top 14, from the greatest Kentucky players in NBA Draft history.' },
-  { slug: 'mcdonalds-all-americans', title: "McDonald's All-Americans Among Through the Rafters", desc: "Through the Rafters players who earned McDonald's All-American honors before arriving at Duke." },
+  { slug: 'mcdonalds-all-americans', title: "McDonald's All-Americans Among Through the Rafters", desc: config.siteName + " players who earned McDonald's All-American honors before arriving at Duke." },
   { slug: 'all-americans', title: 'Kentucky Consensus All-Americans', desc: '23 players, 30 selections — more consensus first-team All-Americans since 2000 than any program in basketball.' },
-  { slug: 'coaches', title: 'Through the Rafters Players Who Became Coaches', desc: `From NBA head coaches to college builders — coaching paths among the ${profiledCount} players profiled.` },
+  { slug: 'coaches', title: config.siteName + ' Players Who Became Coaches', desc: `From NBA head coaches to college builders — coaching paths among the ${profiledCount} players profiled.` },
   { slug: 'top-nba-scorers', title: 'Top NBA Scorers Among Through the Rafters', desc: `Career PPG leaders among the ${profiledCount} Through the Rafters players (min. 50 games).` },
-  { slug: 'nba-iron-men', title: 'Through the Rafters Iron Men: 500+ NBA Games', desc: 'Through the Rafters players who logged 500 or more NBA games.' },
+  { slug: 'nba-iron-men', title: config.siteName + ' Iron Men: 500+ NBA Games', desc: config.siteName + ' players who logged 500 or more NBA games.' },
   { slug: 'undrafted', title: 'Undrafted Through the Rafters Players', desc: 'Not every Through the Rafters player went to the NBA. Their stories are just as compelling.' },
-  { slug: 'draft-history', title: 'Through the Rafters NBA Draft History (1986–2025)', desc: `Every drafted player among the ${profiledCount} Through the Rafters profiles, year by year.` },
-  { slug: 'by-the-numbers', title: 'Through the Rafters: By the Numbers', desc: `Key stats and milestones across all ${totalPlayers} players — ${profiledCount} profiled so far.` },
+  { slug: 'draft-history', title: config.siteName + ' NBA Draft History (1986–2025)', desc: `Every drafted player among the ${profiledCount} Through the Rafters profiles, year by year.` },
+  { slug: 'by-the-numbers', title: config.siteName + ': By the Numbers', desc: `Key stats and milestones across all ${totalPlayers} players — ${profiledCount} profiled so far.` },
   { slug: 'charities', title: 'Charities Through the Rafters Supports', desc: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.` },
-  { slug: 'birthdays', title: 'Through the Rafters Birthdays', desc: `${profiledCount}+ birthdays tracked — tweet happy birthday to your favorite Wildcat and link to their story.` },
+  { slug: 'birthdays', title: config.siteName + ' Birthdays', desc: `${profiledCount}+ birthdays tracked — tweet happy birthday to your favorite Wildcat and link to their story.` },
 ];
 
 export default function ListsIndex() {

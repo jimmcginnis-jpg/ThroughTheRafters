@@ -1,3 +1,4 @@
+import config from '../../school.config';
 import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
@@ -96,7 +97,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <Link
               key={`${paragraphIndex}-${keyCounter++}`}
               href={earliestMatch.href}
-              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
+              className="text-school-primary underline decoration-school-accent/40 hover:decoration-school-accent transition-colors"
             >
               {earliestMatch.name}
             </Link>
@@ -106,7 +107,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <Link
               key={`${paragraphIndex}-${keyCounter++}`}
               href={earliestMatch.href}
-              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
+              className="text-school-primary underline decoration-school-accent/40 hover:decoration-school-accent transition-colors"
               title={`${earliestMatch.name} Kentucky Wildcats season`}
             >
               {earliestMatch.name}
@@ -119,7 +120,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               href={earliestMatch.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
+              className="text-school-primary underline decoration-school-accent/40 hover:decoration-school-accent transition-colors"
               title={`Donate to ${earliestMatch.name}`}
             >
               {earliestMatch.name}
@@ -207,19 +208,19 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
       canonical={`/players/${player.slug}/`}
     >
       {/* HERO */}
-      <section className="bg-uk-slate text-white py-12 md:py-16">
+      <section className="bg-school-dark text-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           {/* Breadcrumb */}
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/players/" className="hover:text-uk-white">Players</Link>
+            <Link href="/players/" className="hover:text-school-accent">Players</Link>
             <span className="mx-2">/</span>
-            <Link href={`/eras/${player.era}/`} className="hover:text-uk-white">
+            <Link href={`/eras/${player.era}/`} className="hover:text-school-accent">
               Era {era?.num}: {era?.name}
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">{player.name}</span>
+            <span className="text-school-accent">{player.name}</span>
           </nav>
 
           {/* Player Name & Info */}
@@ -227,12 +228,12 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             {player.name}
           </h1>
 
-          <p className="font-body text-lg md:text-xl text-uk-silver italic mb-6">
+          <p className="font-body text-lg md:text-xl text-school-accentLight italic mb-6">
             {player.tagline}
           </p>
 
           {/* Quick Facts Row */}
-          <div className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-sm text-uk-silver">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-sm text-school-accentLight">
             <span>{player.pos}</span>
             <span>{player.height}</span>
             <span>{player.years}</span>
@@ -249,7 +250,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           {/* Current Status */}
           {player.now && hasProfile && (
             <div className="mt-4 pt-4 border-t border-white/10">
-              <span className="font-mono text-xs text-uk-white uppercase tracking-wider">Now: </span>
+              <span className="font-mono text-xs text-school-accent uppercase tracking-wider">Now: </span>
               <span className="font-body text-white/90">{player.now}</span>
             </div>
           )}
@@ -274,7 +275,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             </div>
 
             {/* Tab Content */}
-            <article className="bio-content font-body text-uk-slate leading-relaxed">
+            <article className="bio-content font-body text-school-dark leading-relaxed">
               {renderBio(player.bio[activeTab], activeTab)}
             </article>
 
@@ -290,7 +291,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                       setActiveTab(nextTab.key);
                       document.getElementById('bio-tabs')?.scrollIntoView({ behavior: 'smooth' });
                     }}
-                    className="font-mono text-sm text-uk-blue hover:text-uk-white transition-colors cursor-pointer"
+                    className="font-mono text-sm text-school-primary hover:text-school-accent transition-colors cursor-pointer"
                   >
                     Continue to: {nextTab.label} &rarr;
                   </button>
@@ -300,7 +301,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           </>
         ) : (
           <div className="text-center py-16">
-            <p className="font-display text-2xl text-uk-blue mb-2">Profile Coming Soon</p>
+            <p className="font-display text-2xl text-school-primary mb-2">Profile Coming Soon</p>
             <p className="font-body text-gray-500">
               {player.name}&rsquo;s full documentary profile is in development.
             </p>
@@ -316,7 +317,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                 <li key={i} className="font-body text-sm text-gray-500 leading-relaxed">
                   {source.url ? (
                     <a href={source.url} target="_blank" rel="noopener noreferrer"
-                       className="hover:text-uk-blue transition-colors underline decoration-gray-300 hover:decoration-uk-white">
+                       className="hover:text-school-primary transition-colors underline decoration-gray-300 hover:decoration-school-accent">
                       {source.title}
                     </a>
                   ) : (
@@ -327,7 +328,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             </ul>
             <p className="font-body text-xs text-gray-400 mt-4 italic">
               All quotes are sourced from published interviews and reporting. 
-              <Link href="/methodology/" className="underline hover:text-uk-blue ml-1">
+              <Link href="/methodology/" className="underline hover:text-school-primary ml-1">
                 Read about our research methodology.
               </Link>
             </p>
@@ -337,8 +338,8 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
         {/* GIVE BACK */}
         {player.status === 'done' && (
           <div className="mt-12 pt-6 border-t border-gray-200">
-            <div className="bg-uk-cream border border-uk-white/30 p-6">
-              <h3 className="font-display text-lg text-uk-blue mb-2">
+            <div className="bg-school-cream border border-school-accent/30 p-6">
+              <h3 className="font-display text-lg text-school-primary mb-2">
                 {player.charity ? player.charity.label : 'Support Through the Rafters'}
               </h3>
               <p className="font-body text-sm text-gray-600 leading-relaxed mb-4">
@@ -350,7 +351,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                 href={player.charity ? player.charity.url : 'https://www.ukhealthcare.uky.edu/giving'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-uk-blue text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 hover:bg-uk-blueDark transition-colors"
+                className="inline-block bg-school-primary text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 hover:bg-school-primaryDark transition-colors"
               >
                 {player.charity ? `Donate to ${player.charity.name}` : 'Donate to Kentucky Children\u2019s Hospital'}
               </a>
@@ -366,7 +367,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               className="group text-left"
             >
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">&larr; Previous</span>
-              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
+              <div className="font-display text-school-primary group-hover:text-school-accent transition-colors">
                 {prevPlayer.name}
               </div>
             </Link>
@@ -378,7 +379,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               className="group text-right"
             >
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">Next &rarr;</span>
-              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
+              <div className="font-display text-school-primary group-hover:text-school-accent transition-colors">
                 {nextPlayer.name}
               </div>
             </Link>

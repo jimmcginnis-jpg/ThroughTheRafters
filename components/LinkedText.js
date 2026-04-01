@@ -1,3 +1,4 @@
+import config from '../school.config';
 // components/LinkedText.js
 // Automatically links player names and season references in text
 // Player names link to profile pages; seasons link to team pages
@@ -111,7 +112,7 @@ export default function LinkedText({ text, className }) {
             <Link
               key={i}
               href={`/players/${match.slug}/`}
-              className="text-uk-white hover:text-uk-blue border-b border-uk-white/30 hover:border-uk-blue transition-colors"
+              className="text-school-accent hover:text-school-primary border-b border-school-accent/30 hover:border-school-primary transition-colors"
             >
               {part}
             </Link>
@@ -122,7 +123,7 @@ export default function LinkedText({ text, className }) {
             <Link
               key={i}
               href={`/teams/${match.slug}/`}
-              className="text-uk-white hover:text-uk-blue border-b border-uk-white/30 hover:border-uk-blue transition-colors"
+              className="text-school-accent hover:text-school-primary border-b border-school-accent/30 hover:border-school-primary transition-colors"
               title={`${match.slug} Kentucky Wildcats season`}
             >
               {part}

@@ -1,3 +1,4 @@
+import config from '../school.config';
 // pages/what-if.js
 // "What If They Stayed?" — hypothetical rosters if no one left early
 
@@ -17,7 +18,7 @@ const ERA_LABELS = {
 function PlayerLink({ id, name }) {
   const p = playerData.players.find(pl => pl.id === id);
   if (p && p.status === 'done') {
-    return <Link href={`/players/${p.slug}/`} className="text-uk-blue hover:text-uk-white transition-colors font-semibold">{name}</Link>;
+    return <Link href={`/players/${p.slug}/`} className="text-school-primary hover:text-school-accent transition-colors font-semibold">{name}</Link>;
   }
   return <span className="text-gray-600">{name}</span>;
 }
@@ -28,7 +29,7 @@ function PickBadge({ pick }) {
   const isTop3 = pick <= 3;
   return (
     <span className={`font-mono text-[10px] px-1.5 py-0.5 rounded-full ${
-      isTop3 ? 'bg-uk-white/20 text-uk-white font-bold' :
+      isTop3 ? 'bg-school-accent/20 text-school-accent font-bold' :
       isLottery ? 'bg-blue-50 text-blue-700' :
       'bg-gray-100 text-gray-500'
     }`}>
@@ -57,19 +58,19 @@ function SeasonCard({ season }) {
         <div className="flex items-start justify-between">
           <div>
             <Link href={`/teams/${season.season}/`} className="group">
-              <h3 className={`font-display text-2xl font-bold ${lotteryCount >= 3 ? 'text-white' : 'text-uk-blue'} group-hover:text-uk-white transition-colors`}>
+              <h3 className={`font-display text-2xl font-bold ${lotteryCount >= 3 ? 'text-white' : 'text-school-primary'} group-hover:text-school-accent transition-colors`}>
                 {season.season}
               </h3>
             </Link>
-            <div className={`font-mono text-xs mt-1 ${lotteryCount >= 3 ? 'text-uk-silver' : 'text-gray-500'}`}>
+            <div className={`font-mono text-xs mt-1 ${lotteryCount >= 3 ? 'text-school-accentLight' : 'text-gray-500'}`}>
               {ERA_LABELS[season.era]} · Actual: {season.record} · {season.ncaaTournament}
             </div>
           </div>
           <div className="text-right">
-            <div className={`font-display text-lg font-bold ${lotteryCount >= 3 ? 'text-uk-white' : 'text-uk-white'}`}>
+            <div className={`font-display text-lg font-bold ${lotteryCount >= 3 ? 'text-school-accent' : 'text-school-accent'}`}>
               {stars}
             </div>
-            <div className={`font-mono text-[10px] ${lotteryCount >= 3 ? 'text-uk-silver' : 'text-gray-400'}`}>
+            <div className={`font-mono text-[10px] ${lotteryCount >= 3 ? 'text-school-accentLight' : 'text-gray-400'}`}>
               {lotteryCount} lottery · {whatIf.firstRoundCount} 1st-round
             </div>
           </div>
@@ -80,7 +81,7 @@ function SeasonCard({ season }) {
       <div className="p-5">
         {returnees.length > 0 && (
           <>
-            <div className="font-mono text-[10px] text-uk-white uppercase tracking-wider mb-3 font-bold">
+            <div className="font-mono text-[10px] text-school-accent uppercase tracking-wider mb-3 font-bold">
               If they had stayed
             </div>
             <div className="space-y-2">
@@ -129,7 +130,7 @@ function SeasonCard({ season }) {
                     <div className="font-mono text-xs text-gray-400 text-right">
                       <span>{fp.classYear}</span>
                       <span className="text-gray-300 mx-1">·</span>
-                      <span className="text-uk-white">{fp.lastSeason ? 'left after' : `drafted '${String(fp.draftYear).slice(-2)}`}</span>
+                      <span className="text-school-accent">{fp.lastSeason ? 'left after' : `drafted '${String(fp.draftYear).slice(-2)}`}</span>
                     </div>
                   </div>
                 ))}
@@ -175,36 +176,36 @@ export default function WhatIfPage({ seasons }) {
       </Head>
 
       {/* Hero */}
-      <section className="bg-uk-slate text-white py-12">
+      <section className="bg-school-dark text-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <Link href="/" className="hover:text-uk-white">Home</Link>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <Link href="/" className="hover:text-school-accent">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">What If They Stayed?</span>
+            <span className="text-school-accent">What If They Stayed?</span>
           </nav>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-2">
             What If They Stayed?
           </h1>
-          <p className="font-body text-uk-silver text-lg italic max-w-2xl">
+          <p className="font-body text-school-accentLight text-lg italic max-w-2xl">
             The most terrifying college basketball rosters that never existed. Every season, rebuilt with
             the players who left early for the NBA Draft — as if they&apos;d played out their full eligibility.
           </p>
           <div className="flex gap-6 mt-6 font-mono text-sm">
             <div>
-              <span className="text-uk-white font-bold text-2xl">{filtered.length}</span>
-              <span className="text-uk-silver ml-1">seasons</span>
+              <span className="text-school-accent font-bold text-2xl">{filtered.length}</span>
+              <span className="text-school-accentLight ml-1">seasons</span>
             </div>
             <div>
-              <span className="text-uk-white font-bold text-2xl">{totalReturnees}</span>
-              <span className="text-uk-silver ml-1">what-if returnees</span>
+              <span className="text-school-accent font-bold text-2xl">{totalReturnees}</span>
+              <span className="text-school-accentLight ml-1">what-if returnees</span>
             </div>
             <div>
-              <span className="text-uk-white font-bold text-2xl">{totalLottery}</span>
-              <span className="text-uk-silver ml-1">lottery picks</span>
+              <span className="text-school-accent font-bold text-2xl">{totalLottery}</span>
+              <span className="text-school-accentLight ml-1">lottery picks</span>
             </div>
             <div>
-              <span className="text-uk-white font-bold text-2xl">{totalFuturePros}</span>
-              <span className="text-uk-silver ml-1">future pros on rosters</span>
+              <span className="text-school-accent font-bold text-2xl">{totalFuturePros}</span>
+              <span className="text-school-accentLight ml-1">future pros on rosters</span>
             </div>
           </div>
         </div>
@@ -222,7 +223,7 @@ export default function WhatIfPage({ seasons }) {
           ].map(f => (
             <button key={f.value} onClick={() => setMinLottery(f.value)}
               className={`px-3 py-1 rounded-full text-xs font-mono font-semibold transition-all ${
-                minLottery === f.value ? 'bg-uk-blue text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                minLottery === f.value ? 'bg-school-primary text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
               }`}
             >
               {f.label}
@@ -250,9 +251,9 @@ export default function WhatIfPage({ seasons }) {
 
       {/* The crown jewel callout */}
       <section className="max-w-3xl mx-auto px-4 pb-12">
-        <div className="p-6 rounded-xl border-2 border-uk-white bg-uk-white/5 text-center">
-          <div className="font-mono text-[10px] text-uk-white uppercase tracking-wider mb-2">The ultimate what-if</div>
-          <h2 className="font-display text-2xl font-bold text-uk-blue mb-2">
+        <div className="p-6 rounded-xl border-2 border-school-accent bg-school-accent/5 text-center">
+          <div className="font-mono text-[10px] text-school-accent uppercase tracking-wider mb-2">The ultimate what-if</div>
+          <h2 className="font-display text-2xl font-bold text-school-primary mb-2">
             2019-20: Eight NBA players. One roster.
           </h2>
           <p className="font-body text-gray-600 text-sm max-w-xl mx-auto">
@@ -267,10 +268,10 @@ export default function WhatIfPage({ seasons }) {
       {/* Footer nav */}
       <section className="max-w-5xl mx-auto px-4 pb-12">
         <div className="flex justify-between border-t border-gray-200 pt-6">
-          <Link href="/bracket/" className="font-mono text-sm text-uk-white hover:underline">
+          <Link href="/bracket/" className="font-mono text-sm text-school-accent hover:underline">
             &larr; Bracket Simulator
           </Link>
-          <Link href="/lists/" className="font-mono text-sm text-uk-white hover:underline">
+          <Link href="/lists/" className="font-mono text-sm text-school-accent hover:underline">
             All Lists &rarr;
           </Link>
         </div>

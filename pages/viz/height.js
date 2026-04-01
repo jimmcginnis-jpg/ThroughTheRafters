@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/viz/height.js
 // Drop this into pages/viz/
 
@@ -63,26 +64,26 @@ export default function HeightViz() {
         <meta property="og:title" content="Kentucky Through the Rafters — All Players by Height" />
       </Head>
 
-      <div className="bg-uk-slate py-12 md:py-16">
+      <div className="bg-school-dark py-12 md:py-16">
         <div className="max-w-5xl mx-auto px-4">
           {/* Header */}
-          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
-            <a href="/" className="hover:text-uk-white">Home</a>
+          <nav className="font-mono text-xs text-school-accentLight mb-6 tracking-wider">
+            <a href="/" className="hover:text-school-accent">Home</a>
             <span className="mx-2">/</span>
-            <span className="text-uk-white">Height Visualization</span>
+            <span className="text-school-accent">Height Visualization</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-1">
             All Players by Height
           </h1>
-          <p className="font-body text-uk-silver text-lg mb-6">
+          <p className="font-body text-school-accentLight text-lg mb-6">
             {totalMeasured} Kentucky basketball players measured, 1981&ndash;2026
           </p>
 
           <div className="flex gap-5 mb-8">
             <div className="flex items-center gap-2">
-              <div className="w-3.5 h-3.5 bg-uk-white rounded-sm" />
-              <span className="font-mono text-xs text-uk-white">Profiled ({totalProfiled})</span>
+              <div className="w-3.5 h-3.5 bg-school-accent rounded-sm" />
+              <span className="font-mono text-xs text-school-accent">Profiled ({totalProfiled})</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3.5 h-3.5 rounded-sm" style={{ background: "#2a4a7f" }} />
@@ -154,7 +155,7 @@ export default function HeightViz() {
           </div>
           {active !== null && (
             <div className="rounded-lg p-4 md:p-5 mt-2" style={{ background: "#111d33", border: "1px solid #2a4a7f" }}>
-              <div className="font-display text-uk-white text-lg font-bold mb-3">
+              <div className="font-display text-school-accent text-lg font-bold mb-3">
                 {dist[active].label} &mdash; {dist[active].count} player{dist[active].count !== 1 ? "s" : ""}
               </div>
               <div className="flex flex-wrap gap-1.5">
@@ -206,7 +207,7 @@ export default function HeightViz() {
             ].map(s => (
               <div key={s.label} className="rounded-lg text-center py-3 px-2" style={{ background: "#111d33" }}>
                 <div className="font-mono text-xs uppercase tracking-wider" style={{ color: "#6b83a5" }}>{s.label}</div>
-                <div className="font-display text-uk-white text-2xl font-bold my-1">{s.value}</div>
+                <div className="font-display text-school-accent text-2xl font-bold my-1">{s.value}</div>
                 <div className="font-mono text-xs" style={{ color: "#8ba4c7" }}>{s.sub}</div>
               </div>
             ))}

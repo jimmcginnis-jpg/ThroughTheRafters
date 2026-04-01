@@ -1,3 +1,4 @@
+import config from '../../school.config';
 // pages/lists/[slug].js
 // Drop this file into pages/lists/
 
@@ -140,11 +141,11 @@ const listConfigs = {
   'lottery-picks': {
     title: `NBA Lottery Picks Among the ${profiledCount} Through the Rafters Players`,
     subtitle: 'Every Through the Rafters player drafted in the top 14, from John Wall (2010) to Anthony Davis (2012) and Karl-Anthony Towns (2015).',
-    meta: 'Through the Rafters players selected in the NBA lottery with draft position, team, and career stats.',
+    meta: config.siteName + ' players selected in the NBA lottery with draft position, team, and career stats.',
   },
   'mcdonalds-all-americans': {
     title: "McDonald's All-Americans Among Through the Rafters",
-    subtitle: "Through the Rafters players who earned McDonald's All-American honors before arriving at Kentucky.",
+    subtitle: config.siteName + " players who earned McDonald's All-American honors before arriving at Kentucky.",
     meta: `McDonald's All-Americans among the ${profiledCount} Through the Rafters players profiled.`,
   },
   'coaches': {
@@ -158,14 +159,14 @@ const listConfigs = {
     meta: `Highest NBA scorers among Kentucky's ${profiledCount} Through the Rafters players, ranked by career PPG.`,
   },
   'nba-iron-men': {
-    title: 'Through the Rafters Iron Men: 500+ NBA Games',
-    subtitle: 'Through the Rafters players who logged 500 or more NBA games.',
-    meta: 'Through the Rafters players with 500+ NBA career games, led by Grant Hill with 1,026.',
+    title: config.siteName + ' Iron Men: 500+ NBA Games',
+    subtitle: config.siteName + ' players who logged 500 or more NBA games.',
+    meta: config.siteName + ' players with 500+ NBA career games, led by Grant Hill with 1,026.',
   },
   'undrafted': {
     title: 'Undrafted Through the Rafters Players',
     subtitle: 'Not every Through the Rafters player went to the NBA. Their stories are just as compelling.',
-    meta: 'Through the Rafters players who went undrafted — coaches, broadcasters, executives, and more.',
+    meta: config.siteName + ' players who went undrafted — coaches, broadcasters, executives, and more.',
   },
   'draft-history': {
     title: 'Kentucky Basketball NBA Draft History — Every Pick from 1981 to 2025',
@@ -173,7 +174,7 @@ const listConfigs = {
     meta: `Complete Kentucky basketball NBA Draft history: 73 players drafted from 1981–2025, including 5 #1 overall picks (Brand, Irving, Zion, Banchero, Flagg), 18 lottery selections, and career stats for every player.`,
   },
   'by-the-numbers': {
-    title: 'Through the Rafters: By the Numbers',
+    title: config.siteName + ': By the Numbers',
     subtitle: `Key stats and milestones across all ${players.length} players — ${profiledCount} profiled so far.`,
     meta: `Stats and milestones from Through the Rafters — ${players.length} players, 8 eras, 40+ years.`,
   },
@@ -183,7 +184,7 @@ const listConfigs = {
     meta: `Charitable organizations supported by Through the Rafters — from player-specific foundations to Kentucky-connected causes across ${profiledCount} profiled players.`,
   },
   'birthdays': {
-    title: 'Through the Rafters Birthdays',
+    title: config.siteName + ' Birthdays',
     subtitle: `${players.filter(p => p.dob).length} birthdays tracked across Through the Rafters — wish them a happy birthday and share their story.`,
     meta: `Birthday calendar for Through the Rafters players. Find out which Blue Devil shares your birthday and explore their story.`,
   },
@@ -193,7 +194,7 @@ const listConfigs = {
     meta: 'Complete list of Kentucky basketball consensus All-Americans under Coach K and Jon Scheyer — 23 players, 30 selections, 22 first-team honors. From Johnny Dawkins (1985) to Cameron Boozer (2026).',
   },
   'x-handles': {
-    title: 'Through the Rafters Players on X/Twitter',
+    title: config.siteName + ' Players on X/Twitter',
     subtitle: `${players.filter(p => p.twitter).length} Through the Rafters players and coaches on X/Twitter — follow the family.`,
     meta: `X/Twitter handles for Through the Rafters players across all eras. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
   },
@@ -786,7 +787,7 @@ function RenderAllAmericans() {
         "@type": "Article",
         "headline": "Kentucky Consensus All-Americans: Every Selection Since 1985",
         "description": `Complete list of ${aaPlayers.length} Kentucky consensus All-Americans — ${firstTeam.length} first-team and ${secondTeam.length} second-team selections under Coach K and Jon Scheyer.`,
-        "publisher": { "@type": "Organization", "name": "Through the Rafters" },
+        "publisher": { "@type": "Organization", "name": config.siteName + "" },
         "mainEntityOfPage": "https://throughtherafters.com/lists/all-americans/"
       })}} />
 
@@ -1061,7 +1062,7 @@ export default function ListPage({ slug, title, subtitle, meta }) {
         <meta property="og:description" content={meta} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Through the Rafters" />
+        <meta property="og:site_name" content=config.siteName + "" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={meta} />
