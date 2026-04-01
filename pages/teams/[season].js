@@ -156,6 +156,24 @@ function SeasonTab({ team }) {
         </div>
       </div>
 
+      {team.image && (
+        <div className="mb-8">
+          <div className="rounded-lg overflow-hidden border border-gray-200 bg-white">
+            <img
+              src={team.image.url}
+              alt={team.image.alt || `${team.season} Duke Blue Devils`}
+              className="w-full h-auto"
+              loading="lazy"
+            />
+            {team.image.caption && (
+              <div className="px-4 py-2 bg-gray-50 border-t border-gray-200">
+                <p className="font-mono text-xs text-gray-500 text-center">{team.image.caption}</p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="prose max-w-none">
         <h3 className="font-display text-xl text-duke-navy font-bold mb-3">Season Overview</h3>
         {team.overview.split('\n').map((para, i) => (
