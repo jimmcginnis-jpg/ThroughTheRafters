@@ -39,13 +39,13 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
       <section className="max-w-5xl mx-auto px-4 py-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {players.map(player => {
-            const isDone = player.status === 'done';
+            const hasProfile = player.status === 'done' || player.status === 'pledged';
             return (
               <Link
                 key={player.id}
-                href={isDone ? `/players/${player.slug}/` : '#'}
+                href={hasProfile ? `/players/${player.slug}/` : '#'}
                 className={`player-card block p-5 border ${
-                  isDone
+                  hasProfile
                     ? 'bg-white border-gray-200 hover:border-duke-gold'
                     : 'bg-gray-50 border-gray-100 opacity-70 cursor-default'
                 }`}
@@ -53,9 +53,11 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                 <div className="flex justify-between items-start mb-1">
                   <span className={`font-mono text-[10px] px-2 py-0.5 rounded-full ${
                     player.status === 'done' ? 'badge-done' :
+                    player.status === 'pledged' ? 'badge-pledged' :
                     player.status === 'soon' ? 'badge-soon' : 'badge-coming'
                   }`}>
                     {player.status === 'done' ? 'Complete' :
+                     player.status === 'pledged' ? 'Pledged' :
                      player.status === 'soon' ? 'Priority Next' : 'Coming Soon'}
                   </span>
                 </div>
@@ -63,7 +65,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                 <div className="font-mono text-xs text-gray-400 mt-1 mb-2">
                   {player.pos} &bull; {player.height} &bull; {player.years}
                 </div>
-                {isDone && (
+                {hasProfile && (
                   <p className="font-body text-sm text-gray-500 italic line-clamp-2">
                     {player.tagline}
                   </p>
