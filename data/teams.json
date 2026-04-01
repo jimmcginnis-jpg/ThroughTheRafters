@@ -176,6 +176,228 @@
       }
     },
     {
+      "season": "2021-22",
+      "era": "calipari",
+      "record": "26-8",
+      "accRecord": "14-4",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 10,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "First Round (Lost to #15 Saint Peter's, 79-85)",
+      "tagline": "Oscar Tshiebwe's national player of the year season. TyTy Washington's brilliance. And the most shocking first-round upset in tournament history.",
+      "overview": "Oscar Tshiebwe transferred from West Virginia and put together one of the greatest individual seasons in Kentucky history \u2014 17.4 ppg, 15.1 rpg, consensus National Player of the Year. TyTy Washington ran the point as a freshman (12.5 ppg). Kellan Grady transferred in and shot 41.5% from three. Kentucky earned a #2 seed but was stunned by 15-seed Saint Peter's in one of the most iconic upsets in NCAA Tournament history.",
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 76.6,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2020-21",
+      "era": "calipari",
+      "record": "9-16",
+      "accRecord": "8-9",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 10,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "Did not qualify",
+      "tagline": "The 9-16 season. COVID, injuries, Terrence Clarke's tragic death, and the worst record in modern Kentucky history.",
+      "overview": "The most painful season in modern Kentucky history. Projected as a top-10 team, the Wildcats went 9-16 \u2014 the program's worst record since 1926-27. Brandon Boston and Davion Mintz led the scoring, but nothing clicked. Terrence Clarke, who missed most of the season with a leg injury, was tragically killed in a car accident in April 2021 after declaring for the NBA Draft. The season was a low point, but it set the stage for Oscar Tshiebwe's transfer and the program's rebound.",
+      "stats": {
+        "team": {
+          "gp": 25,
+          "ppg": 69.8,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2019-20",
+      "era": "calipari",
+      "record": "25-6",
+      "accRecord": "15-3",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 2,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "Cancelled (COVID-19)",
+      "tagline": "Immanuel Quickley's breakout. Nick Richards' transformation. Tyrese Maxey's one-and-done brilliance. And the season COVID stole.",
+      "overview": "Kentucky was 25-6, ranked #8, and on track for a #2 or #3 seed when the NCAA Tournament was cancelled due to COVID-19. Immanuel Quickley won SEC Player of the Year after transforming from a role player into a 16.1 ppg scorer who shot 92.3% from the free throw line. Nick Richards became a dominant center (14.0 ppg, 7.8 rpg, 2.1 bpg). Tyrese Maxey was electric as a freshman (13.9 ppg). It remains one of the great what-if seasons in Kentucky history.",
+      "stats": {
+        "team": {
+          "gp": 31,
+          "ppg": 68.0,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2018-19",
+      "era": "calipari",
+      "record": "30-7",
+      "accRecord": "15-3",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 2,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight (Lost to #5 Auburn, 71-77 OT)",
+      "tagline": "PJ Washington's breakout. Tyler Herro's clutch shooting. The Elite Eight run that ended in Auburn heartbreak.",
+      "overview": "PJ Washington returned for his sophomore season and became the team's best player (15.2 ppg, 7.6 rpg). Tyler Herro was electric as a freshman (14.0 ppg, 93.5% FT). Keldon Johnson provided another scoring punch (13.5 ppg). Ashton Hagans ran the point with 160 assists. Kentucky reached the Elite Eight as a #2 seed before Auburn's controversial no-call in overtime ended the season.",
+      "stats": {
+        "team": {
+          "gp": 37,
+          "ppg": 72.2,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2017-18",
+      "era": "calipari",
+      "record": "26-11",
+      "accRecord": "12-6",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 3,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "Sweet Sixteen (Lost to #5 Kansas State, 58-61)",
+      "tagline": "Shai Gilgeous-Alexander's breakout. Kevin Knox's scoring. PJ Washington's arrival. The Sweet Sixteen run that built the 2019 team.",
+      "overview": "Shai Gilgeous-Alexander emerged as a star, averaging 14.4 ppg and 5.1 apg as a freshman \u2014 numbers that would make him the 11th pick and, eventually, an MVP candidate. Kevin Knox led the team in scoring (15.6 ppg). PJ Washington showed flashes of what was to come (10.8 ppg). Hamidou Diallo was electric athletically (10.0 ppg). Kentucky reached the Sweet Sixteen as a #5 seed before falling to Kansas State.",
+      "stats": {
+        "team": {
+          "gp": 37,
+          "ppg": 73.4,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2016-17",
+      "era": "calipari",
+      "record": "32-6",
+      "accRecord": "14-4",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 2,
+        "final": null
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight (Lost to #1 North Carolina, 73-75)",
+      "tagline": "Malik Monk's 47-point explosion. De'Aaron Fox burying Lonzo Ball. Bam Adebayo's dominance inside. The Elite Eight heartbreak against UNC.",
+      "overview": "Malik Monk scored 19.8 ppg with a 47-point game against North Carolina in February. De'Aaron Fox ran the show (16.7 ppg, 4.6 apg) and delivered a legendary 39-point performance to eliminate Lonzo Ball's UCLA in the Sweet Sixteen. Bam Adebayo anchored the frontcourt (13.0 ppg, 8.0 rpg). Isaiah Briscoe was the glue guy (12.1 ppg, 5.4 rpg, 4.2 apg). Kentucky reached the Elite Eight as a #2 seed before falling to North Carolina 75-73 on a Luke Maye buzzer-beater.",
+      "stats": {
+        "team": {
+          "gp": 38,
+          "ppg": 79.2,
+          "oppPpg": 0,
+          "rpg": 0,
+          "apg": 0,
+          "spg": 0,
+          "bpg": 0,
+          "topg": 0,
+          "fgPct": 0,
+          "threePct": 0,
+          "ftPct": 0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
       "season": "2014-15",
       "era": "calipari",
       "record": "38-1",
