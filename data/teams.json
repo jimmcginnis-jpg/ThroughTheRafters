@@ -210,6 +210,80 @@
         "tpPct": null,
         "ftPct": null
       }
+    },
+    {
+      "season": "2023-24",
+      "era": "calipari",
+      "record": "23-10",
+      "accRecord": "13-5",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 17,
+        "final": 12
+      },
+      "accTournament": "SEC Tournament (Lost in QF to Texas A&M)",
+      "ncaaTournament": "First Round (Lost to #14 Oakland, 76-80)",
+      "tagline": "Calipari's last season. Antonio Reeves' 20-point scoring. Reed Sheppard's record-breaking efficiency. Rob Dillingham's instant-offense magic. And an Oakland-shaped ending nobody saw coming.",
+      "overview": "John Calipari's 15th and final season at Kentucky was a study in extremes. Antonio Reeves scored 20.2 points per game with elite three-point shooting. Reed Sheppard put up one of the most efficient freshman stat lines in program history \u2014 52.1% from three, 2.5 steals per game \u2014 and was named SEC Freshman of the Year. Rob Dillingham provided instant offense off the bench. But the defense was historically bad for a Calipari team, and it caught up with Kentucky in the NCAA Tournament when Oakland's upset in the first round ended the season and, effectively, the Calipari era.",
+      "stats": {
+        "team": {
+          "gp": 33,
+          "ppg": 75.4,
+          "oppPpg": 79.7,
+          "rpg": 38.0,
+          "apg": 15.1,
+          "spg": 7.5,
+          "bpg": 6.2,
+          "topg": 10.7,
+          "fgPct": 49.5,
+          "threePct": 40.9,
+          "ftPct": 77.0
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
+    },
+    {
+      "season": "2022-23",
+      "era": "calipari",
+      "record": "22-12",
+      "accRecord": "12-6",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 4,
+        "final": null
+      },
+      "accTournament": "SEC Tournament (Lost in QF to Vanderbilt)",
+      "ncaaTournament": "Second Round (Lost to #4 Kansas State, 69-75)",
+      "tagline": "Oscar Tshiebwe's encore season. Antonio Reeves' breakout. Cason Wallace's freshman brilliance. And a second-round exit that left Kentucky wanting more.",
+      "overview": "Oscar Tshiebwe returned as the reigning National Player of the Year and averaged another double-double (16.4 ppg, 13.1 rpg), but missed time with a knee procedure. Antonio Reeves transferred in from Illinois State and scored 14.2 per game, earning SEC Co-Sixth Man of the Year honors. Freshman Cason Wallace ran the point with poise (11.7 ppg, 4.2 apg, 1.9 spg). Kentucky earned a #6 seed but fell to Kansas State in the second round.",
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 74.5,
+          "oppPpg": 67.7,
+          "rpg": 38.6,
+          "apg": 15.0,
+          "spg": 6.4,
+          "bpg": 5.3,
+          "topg": 10.6,
+          "fgPct": 45.4,
+          "threePct": 34.7,
+          "ftPct": 70.4
+        },
+        "leaders": []
+      },
+      "unc": [],
+      "march": {
+        "accTourney": [],
+        "ncaaTourney": [],
+        "nit": []
+      }
     }
   ]
 }
