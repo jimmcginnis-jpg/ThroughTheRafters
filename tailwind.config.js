@@ -13,7 +13,7 @@ module.exports = {
           white: '#FFFFFF',
           silver: '#C8C9C7',
           cream: '#F5F7FA',
-          slate: '#0A1628',
+          slate: '#0033A0',
         },
       },
       fontFamily: {
