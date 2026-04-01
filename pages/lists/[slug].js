@@ -123,79 +123,79 @@ function pLink(p) {
 // ── List configurations ──
 const listConfigs = {
   'all-players': {
-    title: `All ${players.length} Brotherhood Players (1981–Present)`,
+    title: `All ${players.length} Through the Rafters Players (1930–Present)`,
     subtitle: `${profiledCount} profiled with full narratives · ${players.length - profiledCount} more coming soon`,
-    meta: `All ${players.length} Duke Brotherhood players across 8 eras — ${profiledCount} profiled with full narratives, the rest coming soon.`,
+    meta: `All ${players.length} Through the Rafters players across 8 eras — ${profiledCount} profiled with full narratives, the rest coming soon.`,
   },
   'currently-in-nba': {
-    title: 'Duke Players Currently in the NBA (2025–26 Season)',
-    subtitle: `Active Duke alumni in the 2025–26 NBA season — teams, stats, and career numbers among the ${profiledCount} Brotherhood profiles.`,
-    meta: 'Duke basketball players currently in the NBA for 2025-26: Jayson Tatum, Zion Williamson, Paolo Banchero, Cooper Flagg, Brandon Ingram, and more. Full roster with teams and stats.',
+    title: 'Kentucky Players Currently in the NBA (2025–26 Season)',
+    subtitle: `Active Kentucky alumni in the 2025–26 NBA season — teams, stats, and career numbers among the ${profiledCount} Through the Rafters profiles.`,
+    meta: 'Kentucky basketball players currently in the NBA for 2025-26: Jayson Tatum, Zion Williamson, Paolo Banchero, Cooper Flagg, Brandon Ingram, and more. Full roster with teams and stats.',
   },
   'number-one-picks': {
-    title: '#1 Overall NBA Draft Picks Among the Brotherhood',
-    subtitle: 'Five Brotherhood players were selected first overall — more than any program in history.',
-    meta: 'The five Duke Brotherhood players selected #1 overall in the NBA Draft.',
+    title: '#1 Overall NBA Draft Picks Among Through the Rafters',
+    subtitle: 'Kentucky has produced more #1 overall picks than any program in history.',
+    meta: 'The five Through the Rafters players selected #1 overall in the NBA Draft.',
   },
   'lottery-picks': {
-    title: `NBA Lottery Picks Among the ${profiledCount} Brotherhood Players`,
-    subtitle: 'Every Brotherhood player drafted in the top 14, from Johnny Dawkins (1986) to Cooper Flagg (2025).',
-    meta: 'Duke Brotherhood players selected in the NBA lottery with draft position, team, and career stats.',
+    title: `NBA Lottery Picks Among the ${profiledCount} Through the Rafters Players`,
+    subtitle: 'Every Through the Rafters player drafted in the top 14, from John Wall (2010) to Anthony Davis (2012) and Karl-Anthony Towns (2015).',
+    meta: 'Through the Rafters players selected in the NBA lottery with draft position, team, and career stats.',
   },
   'mcdonalds-all-americans': {
-    title: "McDonald's All-Americans Among the Brotherhood",
-    subtitle: "Brotherhood players who earned McDonald's All-American honors before arriving at Duke.",
-    meta: `McDonald's All-Americans among the ${profiledCount} Duke Brotherhood players profiled.`,
+    title: "McDonald's All-Americans Among Through the Rafters",
+    subtitle: "Through the Rafters players who earned McDonald's All-American honors before arriving at Kentucky.",
+    meta: `McDonald's All-Americans among the ${profiledCount} Through the Rafters players profiled.`,
   },
   'coaches': {
-    title: 'Duke Basketball Players Who Became Coaches',
-    subtitle: `From NBA head coaches to college builders — coaching careers among the ${profiledCount} Brotherhood profiles.`,
-    meta: 'Duke basketball alumni who became coaches: JJ Redick (Lakers), Jon Scheyer (Duke), Tommy Amaker (Harvard), Jeff Capel (Pitt), Bobby Hurley (Arizona State), Quin Snyder, Johnny Dawkins, and more.',
+    title: 'Kentucky Basketball Players Who Became Coaches',
+    subtitle: `From NBA head coaches to college builders — coaching careers among the ${profiledCount} Through the Rafters profiles.`,
+    meta: 'Kentucky basketball alumni who became coaches: JJ Redick (Lakers), Jon Scheyer (Duke), Tommy Amaker (Harvard), Jeff Capel (Pitt), Bobby Hurley (Arizona State), Quin Snyder, Johnny Dawkins, and more.',
   },
   'top-nba-scorers': {
-    title: 'Top NBA Scorers Among the Brotherhood',
-    subtitle: `Career PPG leaders among the ${profiledCount} Brotherhood players (min. 50 games).`,
-    meta: `Highest NBA scorers among Duke's ${profiledCount} Brotherhood players, ranked by career PPG.`,
+    title: 'Top NBA Scorers Among Through the Rafters',
+    subtitle: `Career PPG leaders among the ${profiledCount} Through the Rafters players (min. 50 games).`,
+    meta: `Highest NBA scorers among Kentucky's ${profiledCount} Through the Rafters players, ranked by career PPG.`,
   },
   'nba-iron-men': {
-    title: 'Brotherhood Iron Men: 500+ NBA Games',
-    subtitle: 'Brotherhood players who logged 500 or more NBA games.',
-    meta: 'Duke Brotherhood players with 500+ NBA career games, led by Grant Hill with 1,026.',
+    title: 'Through the Rafters Iron Men: 500+ NBA Games',
+    subtitle: 'Through the Rafters players who logged 500 or more NBA games.',
+    meta: 'Through the Rafters players with 500+ NBA career games, led by Grant Hill with 1,026.',
   },
   'undrafted': {
-    title: 'Undrafted Brotherhood Players',
-    subtitle: 'Not every Brotherhood member went to the NBA. Their stories are just as compelling.',
-    meta: 'Duke Brotherhood players who went undrafted — coaches, broadcasters, executives, and more.',
+    title: 'Undrafted Through the Rafters Players',
+    subtitle: 'Not every Through the Rafters player went to the NBA. Their stories are just as compelling.',
+    meta: 'Through the Rafters players who went undrafted — coaches, broadcasters, executives, and more.',
   },
   'draft-history': {
-    title: 'Duke Basketball NBA Draft History — Every Pick from 1981 to 2025',
-    subtitle: `73 Duke players drafted into the NBA across four decades — every pick, team, and career stat among the ${profiledCount} Brotherhood profiles.`,
-    meta: `Complete Duke basketball NBA Draft history: 73 players drafted from 1981–2025, including 5 #1 overall picks (Brand, Irving, Zion, Banchero, Flagg), 18 lottery selections, and career stats for every player.`,
+    title: 'Kentucky Basketball NBA Draft History — Every Pick from 1981 to 2025',
+    subtitle: `Kentucky players drafted into the NBA across four decades — every pick, team, and career stat among the ${profiledCount} Through the Rafters profiles.`,
+    meta: `Complete Kentucky basketball NBA Draft history: 73 players drafted from 1981–2025, including 5 #1 overall picks (Brand, Irving, Zion, Banchero, Flagg), 18 lottery selections, and career stats for every player.`,
   },
   'by-the-numbers': {
-    title: 'The Brotherhood: By the Numbers',
+    title: 'Through the Rafters: By the Numbers',
     subtitle: `Key stats and milestones across all ${players.length} players — ${profiledCount} profiled so far.`,
-    meta: `Stats and milestones from Duke's Brotherhood — ${players.length} players, 8 eras, 40+ years.`,
+    meta: `Stats and milestones from Through the Rafters — ${players.length} players, 8 eras, 40+ years.`,
   },
   'charities': {
-    title: 'Charities the Brotherhood Supports',
-    subtitle: `Every profiled player links to a charitable organization — player-specific foundations and Duke-connected causes.`,
-    meta: `Charitable organizations supported by Duke's Brotherhood — from player-specific foundations to Duke-connected causes across ${profiledCount} profiled players.`,
+    title: 'Charities Through the Rafters Supports',
+    subtitle: `Every profiled player links to a charitable organization — player-specific foundations and Kentucky-connected causes.`,
+    meta: `Charitable organizations supported by Through the Rafters — from player-specific foundations to Kentucky-connected causes across ${profiledCount} profiled players.`,
   },
   'birthdays': {
-    title: 'Brotherhood Birthdays',
-    subtitle: `${players.filter(p => p.dob).length} birthdays tracked across the Brotherhood — wish them a happy birthday and share their story.`,
-    meta: `Birthday calendar for Duke's Brotherhood players. Find out which Blue Devil shares your birthday and explore their story.`,
+    title: 'Through the Rafters Birthdays',
+    subtitle: `${players.filter(p => p.dob).length} birthdays tracked across Through the Rafters — wish them a happy birthday and share their story.`,
+    meta: `Birthday calendar for Through the Rafters players. Find out which Blue Devil shares your birthday and explore their story.`,
   },
   'all-americans': {
-    title: 'Duke Consensus All-Americans: Every Selection Since 1985',
+    title: 'Kentucky Consensus All-Americans: Every Selection Since 1985',
     subtitle: '23 players, 30 selections — more consensus first-team All-Americans since 2000 than any program in college basketball.',
-    meta: 'Complete list of Duke basketball consensus All-Americans under Coach K and Jon Scheyer — 23 players, 30 selections, 22 first-team honors. From Johnny Dawkins (1985) to Cameron Boozer (2026).',
+    meta: 'Complete list of Kentucky basketball consensus All-Americans under Coach K and Jon Scheyer — 23 players, 30 selections, 22 first-team honors. From Johnny Dawkins (1985) to Cameron Boozer (2026).',
   },
   'x-handles': {
-    title: 'Brotherhood Players on X/Twitter',
-    subtitle: `${players.filter(p => p.twitter).length} Brotherhood players and coaches on X/Twitter — follow the family.`,
-    meta: `X/Twitter handles for Duke Brotherhood players across all eras. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
+    title: 'Through the Rafters Players on X/Twitter',
+    subtitle: `${players.filter(p => p.twitter).length} Through the Rafters players and coaches on X/Twitter — follow the family.`,
+    meta: `X/Twitter handles for Through the Rafters players across all eras. Follow ${players.filter(p => p.twitter).length} Blue Devils.`,
   },
 };
 
@@ -255,7 +255,7 @@ function RenderCurrentlyInNBA() {
   const data = getCurrentNBA();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players are currently active in the NBA.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players are currently active in the NBA.</p>
       <ListTable
         headers={['Player', 'Current Team', 'Draft', 'Games', 'PPG', 'RPG', 'APG']}
         rows={data.map(p => [
@@ -287,7 +287,7 @@ function RenderLotteryPicks() {
   const data = getLotteryPicks();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players have been selected in the NBA lottery.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players have been selected in the NBA lottery.</p>
       <ListTable
         headers={['Player', 'Year', 'Pick', 'Team', 'Games', 'PPG', 'Era']}
         rows={data.map(p => [
@@ -304,7 +304,7 @@ function RenderMcDonalds() {
   const data = getMcDonalds();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players earned McDonald&apos;s All-American honors.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players earned McDonald&apos;s All-American honors.</p>
       <ListTable
         headers={['Player', 'Pos', 'Years', 'Drafted', 'Era']}
         rows={data.map(p => [
@@ -321,9 +321,9 @@ function RenderCoaches() {
   const data = getCoaches();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood members went into coaching.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players went into coaching.</p>
       <ListTable
-        headers={['Player', 'Years at Duke', 'Current Coaching Role', 'NBA Games']}
+        headers={['Player', 'Years at Kentucky', 'Current Coaching Role', 'NBA Games']}
         rows={data.map(p => [
           pLink(p), p.years,
           (p.now || '').substring(0, 80),
@@ -352,7 +352,7 @@ function RenderIronMen() {
   const data = getIronMen();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players logged 500+ NBA games.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players logged 500+ NBA games.</p>
       <ListTable
         headers={['Player', 'Games', 'PPG', 'RPG', 'APG', 'Career Span']}
         rows={data.map(p => [
@@ -369,7 +369,7 @@ function RenderUndrafted() {
   const data = getUndrafted();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players went undrafted — many found remarkable paths.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players went undrafted — many found remarkable paths.</p>
       <ListTable
         headers={['Player', 'Pos', 'Years', 'Where They Are Now']}
         rows={data.map(p => [
@@ -385,7 +385,7 @@ function RenderDraftHistory() {
   const data = getDraftHistory();
   return (
     <>
-      <p className="text-lg text-gray-700 mb-6">{data.length} Brotherhood players have been drafted across four decades.</p>
+      <p className="text-lg text-gray-700 mb-6">{data.length} Through the Rafters players have been drafted across four decades.</p>
       <ListTable
         headers={['Year', 'Player', 'Pick', 'Team', 'Games', 'PPG']}
         rows={data.map(p => [
@@ -412,7 +412,7 @@ function RenderByTheNumbers() {
   const aaFirstTeam = players.reduce((sum, p) => sum + (p.allAmerican || []).filter(s => s.team === 1).length, 0);
 
   const stats = [
-    ['Total Brotherhood Players', `${players.length}`],
+    ['Total Through the Rafters Players', `${players.length}`],
     ['Players Profiled', `${profiledCount}`],
     ['Eras Covered', '8 (1981–present)'],
     ['Consensus All-Americans', `${aaCount} players (${aaFirstTeam} 1st-team selections)`],
@@ -472,7 +472,7 @@ function RenderCharities() {
         </span>
         <span className="flex items-center gap-1.5">
           <span className="inline-block w-3 h-3 rounded-full bg-[#001A57]"></span>
-          <span><strong className="text-[#001A57]">{defaultList.length}</strong> Duke-connected charities</span>
+          <span><strong className="text-[#001A57]">{defaultList.length}</strong> Kentucky-connected charities</span>
         </span>
         <span className="flex items-center gap-1.5">
           <span className="inline-block w-3 h-3 rounded-full bg-gray-300"></span>
@@ -484,7 +484,7 @@ function RenderCharities() {
       <section className="mb-14">
         <h2 className="text-2xl font-bold text-[#001A57] mb-1">Player-Specific Foundations</h2>
         <p className="text-gray-500 mb-6">
-          These charities are directly tied to a Brotherhood player&apos;s personal story &mdash; causes they
+          These charities are directly tied to a Through the Rafters player&apos;s personal story &mdash; causes they
           founded, survived, or championed.
         </p>
         <div className="grid gap-5 md:grid-cols-2">
@@ -518,12 +518,12 @@ function RenderCharities() {
         </div>
       </section>
 
-      {/* Duke-Connected Charities */}
+      {/* Kentucky-Connected Charities */}
       <section className="mb-14">
-        <h2 className="text-2xl font-bold text-[#001A57] mb-1">Duke-Connected Charities</h2>
+        <h2 className="text-2xl font-bold text-[#001A57] mb-1">Kentucky-Connected Charities</h2>
         <p className="text-gray-500 mb-6">
           For players without a specific personal foundation, we rotate among three organizations
-          with deep ties to the Duke basketball family.
+          with deep ties to the Kentucky basketball family.
         </p>
         <div className="grid gap-5 md:grid-cols-3">
           {defaultList.map(c => (
@@ -531,7 +531,7 @@ function RenderCharities() {
               <h3 className="text-base font-bold text-gray-800 mb-2">{c.name}</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-3">{c.description}</p>
               <p className="text-xs text-gray-400 mb-3">
-                Featured on <strong className="text-gray-600">{c.players.length}</strong> Brotherhood profiles
+                Featured on <strong className="text-gray-600">{c.players.length}</strong> Through the Rafters profiles
               </p>
               <a href={c.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm font-semibold text-[#001A57] hover:text-[#C5A258] transition-colors">
                 {c.label}
@@ -547,17 +547,17 @@ function RenderCharities() {
         <h2 className="text-xl font-bold text-[#001A57] mb-3">How Charity Links Work on This Site</h2>
         <div className="text-sm text-gray-600 space-y-2 leading-relaxed">
           <p>
-            Every profiled Brotherhood player has a charity link at the bottom of their profile page.
+            Every profiled Through the Rafters player has a charity link at the bottom of their profile page.
             When we can tie a player to a specific cause &mdash; a foundation they started, a disease they or their
             family faced, or an organization that shaped their journey &mdash; we feature that charity directly.
           </p>
           <p>
             For players where we haven&apos;t yet identified a personal cause, we rotate among three
-            Duke-connected organizations: <strong>Duke Children&apos;s Hospital</strong>,
+            Kentucky-connected organizations: <strong>Kentucky Children&apos;s Hospital</strong>,
             the <strong>Emily Krzyzewski Center</strong>, and <strong>The V Foundation for Cancer Research</strong>.
           </p>
           <p>
-            The Duke Brotherhood project is not affiliated with any of these organizations.
+            The Through the Rafters project is not affiliated with any of these organizations.
             All links go directly to each charity&apos;s official donation page.
           </p>
         </div>
@@ -594,7 +594,7 @@ function RenderBirthdays() {
     return diff > 0 && diff <= 7;
   });
 
-  const siteUrl = 'https://www.dukebrotherhood.com';
+  const siteUrl = 'https://www.throughtherafters.com';
 
   function tweetUrl(p) {
     const age = today.getFullYear() - p.dobYear;
@@ -603,7 +603,7 @@ function RenderBirthdays() {
     const charityLine = (p.status === 'done' && p.charity && p.charity.url)
       ? `\n\nDonate in his honor today: ${p.charity.url}`
       : '';
-    const text = `🎂 Happy Birthday to Duke Brotherhood member ${p.name}!${handle} Born ${monthAbbr[p.dobMonth - 1]} ${p.dobDay}, ${p.dobYear} (${age} today). Read his story: ${playerUrl}${charityLine} #DukeBrotherhood #GoDuke`;
+    const text = `🎂 Happy Birthday to Through the Rafters member ${p.name}!${handle} Born ${monthAbbr[p.dobMonth - 1]} ${p.dobDay}, ${p.dobYear} (${age} today). Read his story: ${playerUrl}${charityLine} #ThroughTheRafters #BBN`;
     return `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
   }
 
@@ -726,9 +726,9 @@ function RenderBirthdays() {
       <div className="mt-8 p-5 rounded-xl bg-[#001A57]/[0.03] border border-[#001A57]/10">
         <h3 className="font-bold text-[#001A57] mb-2">How to Use This Page</h3>
         <p className="text-sm text-gray-600 leading-relaxed">
-          Check back daily to see which Brotherhood member&apos;s birthday it is. Hit the Tweet button to post a birthday
-          message that links directly to their profile on the site. Tag <strong>@DukeBrotherhood</strong> and use
-          <strong> #DukeBrotherhood #GoDuke</strong> to connect with other fans celebrating.
+          Check back daily to see which Through the Rafters player&apos;s birthday it is. Hit the Tweet button to post a birthday
+          message that links directly to their profile on the site. Tag <strong>@ThroughRafters</strong> and use
+          <strong> #ThroughTheRafters #BBN</strong> to connect with other fans celebrating.
         </p>
       </div>
     </>
@@ -784,23 +784,23 @@ function RenderAllAmericans() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Duke Consensus All-Americans: Every Selection Since 1985",
-        "description": `Complete list of ${aaPlayers.length} Duke consensus All-Americans — ${firstTeam.length} first-team and ${secondTeam.length} second-team selections under Coach K and Jon Scheyer.`,
-        "publisher": { "@type": "Organization", "name": "Duke's Brotherhood" },
-        "mainEntityOfPage": "https://dukebrotherhood.com/lists/all-americans/"
+        "headline": "Kentucky Consensus All-Americans: Every Selection Since 1985",
+        "description": `Complete list of ${aaPlayers.length} Kentucky consensus All-Americans — ${firstTeam.length} first-team and ${secondTeam.length} second-team selections under Coach K and Jon Scheyer.`,
+        "publisher": { "@type": "Organization", "name": "Through the Rafters" },
+        "mainEntityOfPage": "https://throughtherafters.com/lists/all-americans/"
       })}} />
 
       {/* SEO prose intro */}
       <div className="prose prose-lg max-w-none mb-10 text-gray-700 leading-relaxed">
         <p>
-          How many Duke players have been named consensus All-Americans? Under Mike Krzyzewski and Jon Scheyer,{' '}
+          How many Kentucky players have been named consensus All-Americans? Across eight coaching eras,{' '}
           <strong>{aaPlayers.length} Blue Devils have earned {allSelections.length} total consensus All-America selections</strong> —{' '}
           {firstTeam.length} first-team and {secondTeam.length} second-team honors. That includes{' '}
           {since2000First.length} consensus first-team selections since 2000,{' '}
           <strong>six more than any other program in college basketball</strong>.
         </p>
         <p>
-          The list begins with Johnny Dawkins, a two-time first-team pick in 1985 and 1986 who helped Coach K build Duke from
+          Kentucky's All-American tradition stretches back decades, building the program from
           an 11–17 team into a Final Four contender. It continues through dynasties — Laettner, Hurley, Hill — the early
           2000s dominance of Battier, Williams, and Redick, and the one-and-done era when freshmen like Jabari Parker, Jahlil Okafor,
           Marvin Bagley, and Zion Williamson arrived, dominated, and departed. In the Scheyer era, Cooper Flagg (2025) and
@@ -825,14 +825,14 @@ function RenderAllAmericans() {
       </div>
 
       {/* Complete list heading */}
-      <h2 className="text-2xl font-bold text-[#001A57] mb-4">Complete Duke All-America Selections (1985–2026)</h2>
+      <h2 className="text-2xl font-bold text-[#001A57] mb-4">Complete Kentucky All-America Selections (1985–2026)</h2>
       <p className="text-gray-600 mb-4">
         Consensus All-Americans are determined by the NCAA using selections from the Associated Press, NABC, USBWA, and Sporting News.
         A player must appear on a majority of those first teams to earn consensus first-team status.
       </p>
 
       <ListTable
-        headers={['Year', 'Player', 'Team', 'Class', 'At Duke', 'NBA Draft']}
+        headers={['Year', 'Player', 'Team', 'Class', 'At Kentucky', 'NBA Draft']}
         rows={allSelections.map(s => {
           const p = s.player;
           const teamLabel = s.team === 1 ? '★ 1st Team' : '2nd Team';
@@ -851,7 +851,7 @@ function RenderAllAmericans() {
       {/* Same-year duos */}
       <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Same-Year First-Team Duos</h2>
       <p className="text-gray-600 mb-4">
-        Only three times in the Coach K and Scheyer era has Duke placed two players on the consensus first team in the same season.
+        Only three times in the modern era has Kentucky placed two players on the consensus first team in the same season.
         No other program has accomplished this more than once since 2000.
       </p>
       <div className="space-y-3 mb-10">
@@ -866,7 +866,7 @@ function RenderAllAmericans() {
       {/* Multi-year first-teamers */}
       <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Multiple First-Team Selections</h2>
       <p className="text-gray-600 mb-4">
-        {multiYear.length} Duke players have earned consensus first-team honors more than once — a testament to sustained dominance
+        {multiYear.length} Kentucky players have earned consensus first-team honors more than once — a testament to sustained dominance
         rather than a single breakout season.
       </p>
       <div className="space-y-3 mb-10">
@@ -903,7 +903,7 @@ function RenderAllAmericans() {
       <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">The Freshman Takeover</h2>
       <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed mb-10">
         <p>
-          Duke&apos;s last seven consecutive consensus first-team All-Americans have all been freshmen: Jabari Parker (2014),
+          Kentucky's recent All-Americans include: Jabari Parker (2014),
           Jahlil Okafor (2015), Marvin Bagley III (2018), Zion Williamson (2019), RJ Barrett (2019), Cooper Flagg (2025),
           and Cameron Boozer (2026). Of those seven, four were unanimous selections (Okafor, Williamson, Flagg, Boozer)
           and five were #1 NBA Draft picks or projected to be. No other program in basketball history has produced
@@ -911,19 +911,19 @@ function RenderAllAmericans() {
         </p>
       </div>
 
-      {/* Duke&apos;s All-America Legacy */}
-      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Duke&apos;s All-America Legacy</h2>
+      {/* Kentucky's All-America Legacy */}
+      <h2 className="text-2xl font-bold text-[#001A57] mt-12 mb-4">Kentucky's All-America Legacy</h2>
       <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed mb-6">
         <p>
-          Duke&apos;s {allSelections.length} consensus All-America selections since 1985 place the Blue Devils among the most
+          Kentucky's All-America selections since 1985 place the Wildcats among the most
           decorated programs in NCAA history. The school&apos;s total of {firstTeam.length} first-team picks in the Coach K and Scheyer
           era trails only the all-time totals of Kansas (28), Kentucky (26), and North Carolina (26) — programs whose records
-          extend back to the 1920s. Duke has achieved this concentration of talent in just four decades.
+          extend back to the 1920s. Kentucky has achieved this concentration of talent in just four decades.
         </p>
         <p>
-          Perhaps the most remarkable stat: of Duke&apos;s {aaPlayers.length} consensus All-Americans, every single one
+          Perhaps the most remarkable stat: of Kentucky's {aaPlayers.length} consensus All-Americans, every single one
           was selected in the NBA Draft. {aaPlayers.filter(p => p.nba && p.nba.draftPick && p.nba.draftPick <= 14).length} were
-          lottery picks. The Duke All-America pipeline doesn&apos;t just produce college stars — it produces professional ones.
+          lottery picks. The Kentucky All-America pipeline doesn&apos;t just produce college stars — it produces professional ones.
         </p>
       </div>
 
@@ -956,8 +956,8 @@ function RenderXHandles() {
   return (
     <>
       <p className="font-body text-gray-600 leading-relaxed mb-8">
-        Follow the Brotherhood on X/Twitter. These are the verified and known handles
-        for {withHandles.length} Duke basketball players across all eras — from the Foundation
+        Follow Through the Rafters on X/Twitter. These are the verified and known handles
+        for {withHandles.length} Kentucky basketball players across all eras — from the Foundation
         through the Scheyer Era. Click any handle to visit their profile.
       </p>
 
@@ -1016,25 +1016,25 @@ export default function ListPage({ slug, title, subtitle, meta }) {
   // FAQ schema for high-search-volume list pages
   const faqMap = {
     'draft-history': [
-      { q: 'How many Duke players have been drafted into the NBA?', a: `73 Duke Brotherhood players have been drafted into the NBA from 1981 to 2025, including five #1 overall picks: Elton Brand (1999), Kyrie Irving (2011), Zion Williamson (2019), Paolo Banchero (2022), and Cooper Flagg (2025).` },
-      { q: 'Which Duke player was drafted highest?', a: 'Five Duke players have been selected #1 overall in the NBA Draft — more than any other program. The most recent was Cooper Flagg, taken first by the Dallas Mavericks in 2025.' },
-      { q: 'How many Duke players were first-round NBA picks?', a: 'Since 1986, over 50 Duke Brotherhood players have been selected in the first round of the NBA Draft, with 18 lottery picks (top 14).' },
+      { q: 'How many Kentucky players have been drafted into the NBA?', a: `73 Through the Rafters players have been drafted into the NBA from 1981 to 2025, including five #1 overall picks: Elton Brand (1999), Kyrie Irving (2011), Zion Williamson (2019), Paolo Banchero (2022), and Cooper Flagg (2025).` },
+      { q: 'Which Kentucky player was drafted highest?', a: 'Kentucky has produced multiple #1 overall picks including John Wall (2010), Anthony Davis (2012), and Karl-Anthony Towns (2015).' },
+      { q: 'How many Kentucky players were first-round NBA picks?', a: 'Since 1986, over 50 Through the Rafters players have been selected in the first round of the NBA Draft, with 18 lottery picks (top 14).' },
     ],
     'currently-in-nba': [
-      { q: 'How many Duke players are currently in the NBA?', a: `Multiple Duke Brotherhood alumni are active in the 2025-26 NBA season, including Jayson Tatum (Boston Celtics), Zion Williamson (New Orleans Pelicans), Paolo Banchero (Orlando Magic), Brandon Ingram, and Cooper Flagg (Dallas Mavericks).` },
-      { q: 'Which Duke players are NBA All-Stars?', a: 'Active Duke alumni who have been NBA All-Stars include Jayson Tatum, Kyrie Irving, Zion Williamson, and Paolo Banchero.' },
+      { q: 'How many Kentucky players are currently in the NBA?', a: `Multiple Through the Rafters alumni are active in the 2025-26 NBA season, including Jayson Tatum (Boston Celtics), Zion Williamson (New Orleans Pelicans), Paolo Banchero (Orlando Magic), Brandon Ingram, and Cooper Flagg (Dallas Mavericks).` },
+      { q: 'Which Kentucky players are NBA All-Stars?', a: 'Active Kentucky alumni who have been NBA All-Stars include Jayson Tatum, Kyrie Irving, Zion Williamson, and Paolo Banchero.' },
     ],
     'lottery-picks': [
-      { q: 'How many Duke players have been NBA lottery picks?', a: 'Since the NBA lottery began in 1985, 18 Duke Brotherhood players have been selected in the top 14 picks, including five #1 overall selections.' },
+      { q: 'How many Kentucky players have been NBA lottery picks?', a: 'Since the NBA lottery began in 1985, 18 Through the Rafters players have been selected in the top 14 picks, including five #1 overall selections.' },
     ],
     'coaches': [
-      { q: 'Which Duke basketball players became coaches?', a: 'Notable Duke players who became coaches include JJ Redick (NBA), Jon Scheyer (Duke head coach), Tommy Amaker (Harvard), Jeff Capel (Pittsburgh), Quin Snyder (NBA), Johnny Dawkins, Bobby Hurley (Arizona State), and Nolan Smith (Seton Hall).' },
+      { q: 'Which Kentucky basketball players became coaches?', a: 'Notable Kentucky players who became coaches include JJ Redick (NBA), Jon Scheyer (Kentucky head coach), Tommy Amaker (Harvard), Jeff Capel (Pittsburgh), Quin Snyder (NBA), Johnny Dawkins, Bobby Hurley (Arizona State), and Nolan Smith (Seton Hall).' },
     ],
     'number-one-picks': [
-      { q: 'Which Duke players were #1 NBA Draft picks?', a: 'Five Duke players were selected #1 overall: Elton Brand (1999, Chicago Bulls), Kyrie Irving (2011, Cleveland Cavaliers), Zion Williamson (2019, New Orleans Pelicans), Paolo Banchero (2022, Orlando Magic), and Cooper Flagg (2025, Dallas Mavericks).' },
+      { q: 'Which Kentucky players selected #1 overall include John Wall (2010, Washington Wizards), Anthony Davis (2012, New Orleans Hornets), and Karl-Anthony Towns (2015, Minnesota Timberwolves).' },
     ],
     'all-americans': [
-      { q: 'How many Duke basketball All-Americans are there?', a: 'Duke has produced 23 consensus All-Americans with 30 total selections since 1985, including 22 first-team honors — more than any program since 2000.' },
+      { q: 'How many Kentucky basketball All-Americans are there?', a: 'Kentucky has produced 23 consensus All-Americans with 30 total selections since 1985, including 22 first-team honors — more than any program since 2000.' },
     ],
   };
 
@@ -1049,19 +1049,19 @@ export default function ListPage({ slug, title, subtitle, meta }) {
     })),
   } : null;
 
-  const canonicalUrl = `https://www.dukebrotherhood.com/lists/${slug}/`;
+  const canonicalUrl = `https://www.throughtherafters.com/lists/${slug}/`;
 
   return (
     <>
       <Head>
-        <title>{title} | Duke&apos;s Brotherhood</title>
+        <title>{title} | Through the Rafters</title>
         <meta name="description" content={meta} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${title} | Duke's Brotherhood`} />
+        <meta property="og:title" content={`${title} | Through the Rafters`} />
         <meta property="og:description" content={meta} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Duke's Brotherhood" />
+        <meta property="og:site_name" content="Through the Rafters" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={meta} />

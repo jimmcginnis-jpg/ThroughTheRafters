@@ -1,5 +1,5 @@
 // pages/viz/nba-teams.js
-// Duke Players by NBA Team — all-time and current roster
+// Kentucky Players by NBA Team — all-time and current roster
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
@@ -116,43 +116,43 @@ export default function NBATeamsViz() {
 
   return (
     <Layout
-      title="Duke Players by NBA Team"
-      description="Every NBA team's Duke connection — all-time roster and current players."
+      title="Kentucky Players by NBA Team"
+      description="Every NBA team's Kentucky connection — all-time roster and current players."
       canonical="/viz/nba-teams/"
     >
-      <div className="bg-duke-slate py-12">
+      <div className="bg-uk-slate py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <a href="/" className="hover:text-duke-gold">Home</a>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <a href="/" className="hover:text-uk-white">Home</a>
             <span className="mx-2">/</span>
-            <a href="/viz/" className="hover:text-duke-gold">Viz</a>
+            <a href="/viz/" className="hover:text-uk-white">Viz</a>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Duke by NBA Team</span>
+            <span className="text-uk-white">Kentucky by NBA Team</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-1">
-            Duke Players by NBA Team
+            Kentucky Players by NBA Team
           </h1>
-          <p className="font-body text-duke-goldLight text-lg mb-6">
-            The Brotherhood&rsquo;s footprint across the league
+          <p className="font-body text-uk-silver text-lg mb-6">
+            The Through the Rafters&rsquo;s footprint across the league
           </p>
 
           {/* Stat cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-duke-gold text-2xl font-bold">{sorted.length}</div>
+              <div className="font-display text-uk-white text-2xl font-bold">{sorted.length}</div>
               <div className="font-mono text-xs text-white/60">NBA Franchises</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-duke-gold text-2xl font-bold">{totalCurrent}</div>
+              <div className="font-display text-uk-white text-2xl font-bold">{totalCurrent}</div>
               <div className="font-mono text-xs text-white/60">Active Now</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-duke-gold text-2xl font-bold">{teamsWithCurrent}</div>
-              <div className="font-mono text-xs text-white/60">Teams w/ Duke Player</div>
+              <div className="font-display text-uk-white text-2xl font-bold">{teamsWithCurrent}</div>
+              <div className="font-mono text-xs text-white/60">Teams w/ Kentucky Player</div>
             </div>
             <div className="rounded-lg text-center py-3" style={{ background: '#111d33' }}>
-              <div className="font-display text-duke-gold text-2xl font-bold">{maxAllTime}</div>
+              <div className="font-display text-uk-white text-2xl font-bold">{maxAllTime}</div>
               <div className="font-mono text-xs text-white/60">Most All-Time (1 team)</div>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function NBATeamsViz() {
                 key={opt.key}
                 onClick={() => setSortBy(opt.key)}
                 className={`px-3 py-1 font-mono text-xs rounded-full transition-colors ${
-                  sortBy === opt.key ? 'bg-duke-gold text-duke-navyDark' : 'bg-white/10 text-duke-goldLight hover:bg-white/20'
+                  sortBy === opt.key ? 'bg-uk-blue text-white' : 'bg-white/10 text-uk-silver hover:bg-white/20'
                 }`}
               >
                 {opt.label}
@@ -188,7 +188,7 @@ export default function NBATeamsViz() {
                 <div
                   key={t.team}
                   className={`rounded-lg overflow-hidden cursor-pointer transition-all duration-200 ${
-                    isSelected ? 'ring-2 ring-duke-gold' : ''
+                    isSelected ? 'ring-2 ring-uk-white' : ''
                   }`}
                   style={{ background: '#111d33', border: '1px solid ' + (isSelected ? '#C5A258' : '#1e3a5f') }}
                   onClick={() => setSelectedTeam(isSelected ? null : t.team)}
@@ -205,7 +205,7 @@ export default function NBATeamsViz() {
                             {t.current.length} now
                           </span>
                         )}
-                        <span className="font-mono text-xs text-duke-gold font-bold">{t.allTime.length}</span>
+                        <span className="font-mono text-xs text-uk-white font-bold">{t.allTime.length}</span>
                       </div>
                     </div>
 
@@ -238,8 +238,8 @@ export default function NBATeamsViz() {
                   {/* Expanded detail */}
                   {isSelected && (
                     <div className="px-4 pb-4 border-t border-white/10">
-                      <h4 className="font-mono text-xs text-duke-gold uppercase tracking-wider mt-3 mb-2">
-                        All-Time Duke Players ({t.allTime.length})
+                      <h4 className="font-mono text-xs text-uk-white uppercase tracking-wider mt-3 mb-2">
+                        All-Time Kentucky Players ({t.allTime.length})
                       </h4>
                       <div className="space-y-1">
                         {t.allTime.map(p => {
@@ -251,7 +251,7 @@ export default function NBATeamsViz() {
                               className="flex items-center justify-between py-1 px-2 rounded hover:bg-white/5 transition-colors"
                               onClick={e => e.stopPropagation()}
                             >
-                              <span className="font-body text-sm text-duke-gold">{p.name}</span>
+                              <span className="font-body text-sm text-uk-white">{p.name}</span>
                               <div className="flex items-center gap-2">
                                 {isCurrent && <span className="text-[9px] font-mono px-1.5 py-0.5 rounded-full bg-green-900/50 text-green-400">Active</span>}
                                 <span className="font-mono text-[10px] text-white/30">{p.seasons}</span>
@@ -279,7 +279,7 @@ export default function NBATeamsViz() {
           <div className="flex flex-wrap gap-4 mt-6 justify-center">
             <div className="flex items-center gap-2">
               <div className="w-4 h-3 rounded-sm" style={{ background: '#22c55e' }} />
-              <span className="font-mono text-xs text-duke-goldLight">Current roster</span>
+              <span className="font-mono text-xs text-uk-silver">Current roster</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-3 rounded-sm" style={{ background: '#555', opacity: 0.6 }} />

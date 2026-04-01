@@ -14,7 +14,7 @@ function categorize(p) {
   // Deceased — check first
   if (now.includes('died') || now.includes('deceased')) return 'deceased';
 
-  // Current Duke players/staff/students
+  // Current Kentucky players/staff/students
   if (now.includes('duke blue devils') || now.includes('active —') || now.includes('senior —') ||
       now.includes('senior at duke') || now.includes('graduate student at duke') ||
       now.includes('duke freshman') || now.includes('duke\'s fuqua') ||
@@ -60,8 +60,8 @@ function categorize(p) {
 
 const CATEGORIES = [
   { key: 'nba', label: 'In the NBA', icon: '🏀', desc: 'Active on NBA rosters right now' },
-  { key: 'current', label: 'Still at Duke', icon: '🔵', desc: 'Current players, grad students, and staff in Durham' },
-  { key: 'college_transfer', label: 'Still playing college ball', icon: '🎓', desc: 'Duke transfers still competing at other programs' },
+  { key: 'current', label: 'Still at Kentucky', icon: '🔵', desc: 'Current players, grad students, and staff in Lexington' },
+  { key: 'college_transfer', label: 'Still playing college ball', icon: '🎓', desc: 'Kentucky transfers still competing at other programs' },
   { key: 'head_coach', label: 'Head coaches', icon: '📋', desc: 'Running their own programs' },
   { key: 'asst_coach', label: 'Coaching staffs', icon: '🏟', desc: 'Assistant coaches and player development' },
   { key: 'front_office_media', label: 'Front office & media', icon: '🎙', desc: 'GMs, analysts, and broadcasters' },
@@ -80,8 +80,8 @@ function CategorySection({ group, defaultOpen }) {
         onClick={() => setOpen(!open)}
         className="w-full text-left group"
       >
-        <div className="flex items-center justify-between border-b-2 border-duke-gold pb-2 mb-1">
-          <h2 className="font-display text-xl text-duke-navy font-bold group-hover:text-duke-gold transition-colors">
+        <div className="flex items-center justify-between border-b-2 border-uk-white pb-2 mb-1">
+          <h2 className="font-display text-xl text-uk-blue font-bold group-hover:text-uk-white transition-colors">
             {group.label}
           </h2>
           <div className="flex items-center gap-3">
@@ -89,7 +89,7 @@ function CategorySection({ group, defaultOpen }) {
               {group.count} player{group.count !== 1 ? 's' : ''}
             </span>
             <svg
-              className={`w-5 h-5 text-duke-gold transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+              className={`w-5 h-5 text-uk-white transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
               fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round"
             >
               <polyline points="6 9 12 15 18 9" />
@@ -107,16 +107,16 @@ function CategorySection({ group, defaultOpen }) {
             <Link
               key={p.id}
               href={`/players/${p.slug}/`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-duke-gold hover:shadow-sm transition-all group/card"
+              className="flex items-start gap-3 p-3 rounded-lg border border-gray-200 bg-white hover:border-uk-white hover:shadow-sm transition-all group/card"
             >
-              <div className="shrink-0 w-10 h-10 rounded-full bg-duke-navy flex items-center justify-center">
-                <span className="font-mono text-xs font-bold text-duke-gold">
+              <div className="shrink-0 w-10 h-10 rounded-full bg-uk-blue flex items-center justify-center">
+                <span className="font-mono text-xs font-bold text-uk-white">
                   {p.jersey || '#'}
                 </span>
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="font-display font-semibold text-duke-navy group-hover/card:text-duke-gold transition-colors">
+                  <span className="font-display font-semibold text-uk-blue group-hover/card:text-uk-white transition-colors">
                     {p.name}
                   </span>
                   <span className="font-mono text-[10px] text-gray-400">{p.years}</span>
@@ -139,26 +139,26 @@ function CategorySection({ group, defaultOpen }) {
 export default function WhereAreTheyNow({ groups, totalCount }) {
   return (
     <Layout
-      title="Where Are They Now? — Every Duke Brotherhood Player"
-      description={`What happened after Duke? ${totalCount} Brotherhood players tracked — NBA stars, head coaches, CEOs, and everyone in between.`}
+      title="Where Are They Now? — Every Kentucky Through the Rafters Player"
+      description={`What happened after Duke? ${totalCount} Through the Rafters players tracked — NBA stars, head coaches, CEOs, and everyone in between.`}
       canonical="/where-are-they-now/"
     >
       <Head>
-        <meta property="og:title" content="Duke Brotherhood — Where Are They Now?" />
-        <meta property="og:description" content={`${totalCount} Duke basketball players from 1981 to today. Where they came from, what they did at Duke, and where life took them next.`} />
+        <meta property="og:title" content="Kentucky Through the Rafters — Where Are They Now?" />
+        <meta property="og:description" content={`${totalCount} Kentucky basketball players from 1981 to today. Where they came from, what they did at Duke, and where life took them next.`} />
       </Head>
 
       {/* Hero */}
-      <section className="bg-duke-slate text-white py-12">
+      <section className="bg-uk-slate text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <Link href="/" className="hover:text-duke-gold">Home</Link>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <Link href="/" className="hover:text-uk-white">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Where Are They Now?</span>
+            <span className="text-uk-white">Where Are They Now?</span>
           </nav>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-3">Where Are They Now?</h1>
-          <p className="font-body text-duke-goldLight text-lg italic">
-            {totalCount} Brotherhood players tracked — from the NBA to the boardroom.
+          <p className="font-body text-uk-silver text-lg italic">
+            {totalCount} Through the Rafters players tracked — from the NBA to the boardroom.
           </p>
         </div>
       </section>
@@ -171,9 +171,9 @@ export default function WhereAreTheyNow({ groups, totalCount }) {
               <a
                 key={g.key}
                 href={`#${g.key}`}
-                className="shrink-0 px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border border-gray-200 text-gray-500 hover:border-duke-gold hover:text-duke-navy transition-all"
+                className="shrink-0 px-3 py-1.5 font-mono text-xs tracking-wider rounded-md border border-gray-200 text-gray-500 hover:border-uk-white hover:text-uk-blue transition-all"
               >
-                {g.label} <span className="text-duke-gold">{g.count}</span>
+                {g.label} <span className="text-uk-white">{g.count}</span>
               </a>
             ))}
           </div>
@@ -194,10 +194,10 @@ export default function WhereAreTheyNow({ groups, totalCount }) {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'Where Are They Now? — Duke Brotherhood',
-            description: `${totalCount} Duke basketball players from 1981 to today, grouped by what they're doing now.`,
-            url: 'https://www.dukebrotherhood.com/where-are-they-now/',
-            publisher: { '@type': 'Organization', name: 'Duke Brotherhood', url: 'https://www.dukebrotherhood.com' },
+            name: 'Where Are They Now? — Kentucky Through the Rafters',
+            description: `${totalCount} Kentucky basketball players from 1981 to today, grouped by what they're doing now.`,
+            url: 'https://www.throughtherafters.com/where-are-they-now/',
+            publisher: { '@type': 'Organization', name: 'Kentucky Through the Rafters', url: 'https://www.throughtherafters.com' },
           }),
         }}
       />

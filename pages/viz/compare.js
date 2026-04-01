@@ -1,5 +1,5 @@
 // pages/viz/compare.js
-// Freshman comparison: Cooper Flagg (2024-25) vs Cameron Boozer (2025-26)
+// Freshman comparison: Kentucky freshmen
 
 import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
@@ -34,7 +34,7 @@ function StatCard({ label, val1, val2, unit }) {
       <div className="font-mono text-[10px] text-gray-400 uppercase tracking-wider mb-2">{label}</div>
       <div className="flex justify-center items-end gap-4">
         <div>
-          <div className={`font-display text-xl font-bold ${leader1 && !tied ? 'text-duke-navy' : 'text-gray-400'}`}>
+          <div className={`font-display text-xl font-bold ${leader1 && !tied ? 'text-uk-blue' : 'text-gray-400'}`}>
             {val1}
           </div>
           <div className="font-mono text-[10px] text-gray-400">{unit}</div>
@@ -142,57 +142,57 @@ export default function ComparePage() {
   return (
     <Layout
       title="Flagg vs Boozer — Freshman Comparison"
-      description="Cooper Flagg (2024-25) vs Cameron Boozer (2025-26): a side-by-side comparison of Duke's back-to-back freshman stars."
+      description="Kentucky freshmen: a side-by-side comparison of Kentucky's back-to-back freshman stars."
       canonical="/viz/compare/"
     >
       <Head>
-        <meta property="og:title" content="Duke Brotherhood — Flagg vs Boozer Freshman Comparison" />
+        <meta property="og:title" content="Kentucky Through the Rafters — Flagg vs Boozer Freshman Comparison" />
         <meta property="og:description" content="Two generational freshmen, two different profiles. Per-game stats, shooting splits, and season totals compared." />
       </Head>
 
       {/* Hero */}
-      <div className="bg-duke-slate py-12 md:py-16">
+      <div className="bg-uk-slate py-12 md:py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <Link href="/" className="hover:text-duke-gold">Home</Link>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <Link href="/" className="hover:text-uk-white">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/viz/" className="hover:text-duke-gold">Viz</Link>
+            <Link href="/viz/" className="hover:text-uk-white">Viz</Link>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Freshman Comparison</span>
+            <span className="text-uk-white">Freshman Comparison</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
             Flagg vs Boozer
           </h1>
-          <p className="font-body text-duke-goldLight text-lg italic mb-6">
+          <p className="font-body text-uk-silver text-lg italic mb-6">
             Back-to-back generational freshmen. Who had the better debut?
           </p>
 
           {/* Player cards */}
           <div className="grid grid-cols-2 gap-4 md:gap-8">
             <div className="rounded-lg p-4 md:p-6" style={{ background: 'rgba(255,255,255,0.06)' }}>
-              <div className="font-mono text-xs text-duke-gold uppercase tracking-wider mb-1">2024–25</div>
-              <Link href={`/players/${flaggP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-duke-gold transition-colors">
+              <div className="font-mono text-xs text-uk-white uppercase tracking-wider mb-1">2024–25</div>
+              <Link href={`/players/${flaggP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-uk-white transition-colors">
                 Cooper Flagg
               </Link>
-              <div className="font-mono text-xs text-duke-goldLight mt-1">
+              <div className="font-mono text-xs text-uk-silver mt-1">
                 Fr · Forward · 6&apos;9&quot; · #2 · 37 GP · 35-4
               </div>
               <div className="font-display text-3xl text-white font-bold mt-3">
-                {flagg.pts}<span className="text-sm text-duke-goldLight font-normal ml-1">ppg</span>
+                {flagg.pts}<span className="text-sm text-uk-silver font-normal ml-1">ppg</span>
               </div>
             </div>
 
             <div className="rounded-lg p-4 md:p-6" style={{ background: 'rgba(196,162,62,0.1)' }}>
               <div className="font-mono text-xs uppercase tracking-wider mb-1" style={{ color: GOLD }}>2025–26</div>
-              <Link href={`/players/${boozerP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-duke-gold transition-colors">
+              <Link href={`/players/${boozerP.slug}/`} className="font-display text-xl md:text-2xl font-bold text-white hover:text-uk-white transition-colors">
                 Cameron Boozer
               </Link>
-              <div className="font-mono text-xs text-duke-goldLight mt-1">
+              <div className="font-mono text-xs text-uk-silver mt-1">
                 Fr · Forward · 6&apos;9&quot; · #12 · {boozer.gp} GP · 34-2*
               </div>
               <div className="font-display text-3xl text-white font-bold mt-3">
-                {boozer.pts}<span className="text-sm text-duke-goldLight font-normal ml-1">ppg</span>
+                {boozer.pts}<span className="text-sm text-uk-silver font-normal ml-1">ppg</span>
               </div>
             </div>
           </div>
@@ -201,15 +201,15 @@ export default function ComparePage() {
           <div className="flex items-center justify-center gap-6 mt-6 mb-2">
             <div className="text-center">
               <div className="font-display text-2xl text-white font-bold">{fWins}</div>
-              <div className="font-mono text-[10px] text-duke-goldLight">Flagg leads</div>
+              <div className="font-mono text-[10px] text-uk-silver">Flagg leads</div>
             </div>
             <div className="text-center">
-              <div className="font-display text-2xl text-duke-gold font-bold">{ties}</div>
-              <div className="font-mono text-[10px] text-duke-goldLight">Tied</div>
+              <div className="font-display text-2xl text-uk-white font-bold">{ties}</div>
+              <div className="font-mono text-[10px] text-uk-silver">Tied</div>
             </div>
             <div className="text-center">
               <div className="font-display text-2xl text-white font-bold">{bWins}</div>
-              <div className="font-mono text-[10px] text-duke-goldLight">Boozer leads</div>
+              <div className="font-mono text-[10px] text-uk-silver">Boozer leads</div>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function ComparePage() {
       <div className="max-w-5xl mx-auto px-4 py-8">
 
         {/* Per-game stat cards */}
-        <h2 className="font-display text-xl text-duke-navy font-bold mb-3">Per game averages</h2>
+        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Per game averages</h2>
         <div className="flex items-center gap-4 mb-4">
           <div className="flex items-center gap-1.5">
             <span className="inline-block w-2.5 h-2.5 rounded-sm" style={{ background: NAVY }} />
@@ -241,7 +241,7 @@ export default function ComparePage() {
         </div>
 
         {/* Head-to-head bars */}
-        <h2 className="font-display text-xl text-duke-navy font-bold mb-3">Head-to-head by category</h2>
+        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Head-to-head by category</h2>
         <div className="mb-8">
           {categories.map(c => (
             <ComparisonBar key={c.label} label={c.label} val1={c.f} val2={c.b} />
@@ -249,7 +249,7 @@ export default function ComparePage() {
         </div>
 
         {/* Shooting chart */}
-        <h2 className="font-display text-xl text-duke-navy font-bold mb-3">Shooting efficiency</h2>
+        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Shooting efficiency</h2>
         <div className="mb-8">
           <ChartCanvas id="shootChart" height={280} renderFn={(canvas) => {
             return new window.Chart(canvas, {
@@ -274,7 +274,7 @@ export default function ComparePage() {
         </div>
 
         {/* Season totals chart */}
-        <h2 className="font-display text-xl text-duke-navy font-bold mb-3">Season totals</h2>
+        <h2 className="font-display text-xl text-uk-blue font-bold mb-3">Season totals</h2>
         <div className="mb-8">
           <ChartCanvas id="totalsChart" height={280} renderFn={(canvas) => {
             return new window.Chart(canvas, {
@@ -300,10 +300,10 @@ export default function ComparePage() {
 
         {/* Analysis */}
         <div className="prose max-w-none mb-8">
-          <h2 className="font-display text-xl text-duke-navy font-bold mb-3">The verdict</h2>
+          <h2 className="font-display text-xl text-uk-blue font-bold mb-3">The verdict</h2>
           <p className="font-body text-gray-700 leading-relaxed mb-4">
             Boozer leads in scoring (22.5 vs 19.2), rebounding (10.2 vs 7.5), and field goal percentage
-            (56.5% vs 48.1%). He&apos;s averaging a double-double as a freshman — only the second Duke player
+            (56.5% vs 48.1%). He&apos;s averaging a double-double as a freshman — only the second Kentucky player
             to do that since Zion Williamson in 2018-19. He also gets there on better efficiency, shooting
             nearly 57% from the field.
           </p>
@@ -316,15 +316,15 @@ export default function ComparePage() {
             The real differentiator? Flagg was a two-way force who could switch 1-5, block shots, and run
             the offense. Boozer is a scoring and rebounding machine who does his damage between the paint
             and the three-point line. Different builds, different skill sets, same result: generational
-            Duke freshmen.
+            Kentucky freshmen.
           </p>
         </div>
 
         {/* Footer note */}
         <div className="border-t border-gray-200 pt-4 mb-8">
           <p className="font-mono text-[11px] text-gray-400">
-            *2025-26 stats through Sweet 16 (34 games). Source: GoDuke.com official cumulative statistics, ESPN.
-            Built by <a href="/" className="text-duke-gold hover:underline">DukeBrotherhood.com</a>.
+            *2025-26 stats through Sweet 16 (34 games). Source: UKAthletics.com official cumulative statistics, ESPN.
+            Built by <a href="/" className="text-uk-white hover:underline">DukeThrough the Rafters.com</a>.
           </p>
         </div>
       </div>
@@ -336,10 +336,10 @@ export default function ComparePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Flagg vs Boozer: Duke Freshman Comparison',
-            description: 'Cooper Flagg (2024-25) vs Cameron Boozer (2025-26) — a side-by-side statistical comparison of Duke\'s back-to-back generational freshmen.',
-            url: 'https://www.dukebrotherhood.com/viz/compare/',
-            publisher: { '@type': 'Organization', name: 'Duke Brotherhood', url: 'https://www.dukebrotherhood.com' },
+            headline: 'Flagg vs Boozer: Kentucky Freshman Comparison',
+            description: 'Kentucky freshmen — a side-by-side statistical comparison of Duke\'s back-to-back generational freshmen.',
+            url: 'https://www.throughtherafters.com/viz/compare/',
+            publisher: { '@type': 'Organization', name: 'Kentucky Through the Rafters', url: 'https://www.throughtherafters.com' },
           }),
         }}
       />

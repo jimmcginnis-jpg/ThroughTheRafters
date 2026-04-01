@@ -30,19 +30,19 @@ export default function PlayersIndex({ eras, players }) {
   return (
     <Layout
       title="All Players"
-      description="Complete roster of Duke's Brotherhood — every significant player across eight eras of Duke basketball."
+      description="Complete roster of Through the Rafters — every significant player across eight eras of Kentucky basketball."
       canonical="/players/"
     >
-      <section className="bg-duke-slate text-white py-12">
+      <section className="bg-uk-slate text-white py-12">
         <div className="max-w-5xl mx-auto px-4">
           <h1 className="font-display text-4xl font-bold mb-4">All Players</h1>
-          <p className="font-body text-duke-goldLight text-lg">
+          <p className="font-body text-uk-silver text-lg">
             {players.filter(p => p.status === 'done').length} profiles complete
             &bull; {players.length} total players
           </p>
           <button
             onClick={goToRandomPlayer}
-            className="mt-4 bg-duke-gold text-duke-navyDark px-4 py-2 font-mono text-xs tracking-wider uppercase hover:bg-duke-goldLight transition-colors cursor-pointer"
+            className="mt-4 bg-uk-blue text-white px-4 py-2 font-mono text-xs tracking-wider uppercase hover:bg-uk-blue/80 transition-colors cursor-pointer"
             title="Random Player Generator — inspired by Wilco"
           >
             &#9861; Random Player
@@ -105,12 +105,12 @@ export default function PlayersIndex({ eras, players }) {
                 href={hasProfile ? `/players/${player.slug}/` : '#'}
                 className={`player-card block p-4 border ${
                   hasProfile
-                    ? 'bg-white border-gray-200 hover:border-duke-gold cursor-pointer'
+                    ? 'bg-white border-gray-200 hover:border-uk-white cursor-pointer'
                     : 'bg-gray-50 border-gray-100 cursor-default opacity-70'
                 }`}
               >
                 <div className="flex justify-between items-start mb-1">
-                  <span className="font-mono text-xs text-duke-gold">{era?.name}</span>
+                  <span className="font-mono text-xs text-uk-white">{era?.name}</span>
                   <span className={`font-mono text-[10px] px-2 py-0.5 rounded-full ${
                     player.status === 'done' ? 'badge-done' :
                     player.status === 'pledged' ? 'badge-pledged' :
@@ -121,7 +121,7 @@ export default function PlayersIndex({ eras, players }) {
                      player.status === 'soon' ? 'Priority Next' : 'Coming Soon'}
                   </span>
                 </div>
-                <h3 className="font-display text-lg text-duke-navy">{player.name}</h3>
+                <h3 className="font-display text-lg text-uk-blue">{player.name}</h3>
                 <div className="font-mono text-xs text-gray-400 mt-1">
                   {player.pos} &bull; {player.height} &bull; {player.years}
                 </div>

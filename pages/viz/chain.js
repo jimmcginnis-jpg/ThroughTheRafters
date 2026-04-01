@@ -1,5 +1,5 @@
 // pages/viz/chain.js
-// Brotherhood Chain — Degrees of Separation between any two Duke players
+// Wildcats Chain — Degrees of Separation between any two Kentucky players
 
 import { useState, useMemo, useRef, useEffect } from "react";
 import Head from "next/head";
@@ -76,7 +76,7 @@ function sharedSeasons(id1, id2) {
 
 const FAMOUS_PAIRS = [
   { label: "Vince Taylor → Cooper Flagg", a: "taylor_v", b: "flagg", desc: "The Full Chain (1978 to 2025)" },
-  { label: "Dawkins → Flagg", a: "dawkins", b: "flagg", desc: "The entire Coach K era" },
+  { label: "Dawkins → Flagg", a: "dawkins", b: "flagg", desc: "The entire Calipari era" },
   { label: "Laettner → Zion", a: "laettner", b: "zion", desc: "Villain to phenomenon" },
   { label: "Hurley → Redick", a: "hurley", b: "redick", desc: "Point guard to shooter" },
   { label: "Grant Hill → Scheyer", a: "hill", b: "scheyer", desc: "Player to coach" },
@@ -256,36 +256,36 @@ export default function ChainViz() {
 
   return (
     <Layout
-      title="Brotherhood Chain — Degrees of Separation"
-      description={`Every Duke basketball player since 1978 is connected through shared rosters. Find the shortest chain of teammates between any two Blue Devils.`}
+      title="Wildcats Chain — Degrees of Separation"
+      description={`Every Kentucky basketball player since 1978 is connected through shared rosters. Find the shortest chain of teammates between any two Wildcats.`}
       canonical="/viz/chain/"
     >
       <Head>
-        <meta property="og:title" content="Brotherhood Chain — Degrees of Separation | Duke's Brotherhood" />
+        <meta property="og:title" content="Wildcats Chain — Degrees of Separation | Through the Rafters" />
       </Head>
 
-      <div className="bg-duke-slate py-12 md:py-16">
+      <div className="bg-uk-slate py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4">
 
           {/* Header */}
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <a href="/" className="hover:text-duke-gold">Home</a>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <a href="/" className="hover:text-uk-white">Home</a>
             <span className="mx-2">/</span>
-            <a href="/viz/" className="hover:text-duke-gold">Viz</a>
+            <a href="/viz/" className="hover:text-uk-white">Viz</a>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Brotherhood Chain</span>
+            <span className="text-uk-white">Wildcats Chain</span>
           </nav>
 
           <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
-            Brotherhood Chain
+            Wildcats Chain
           </h1>
-          <p className="font-body text-duke-goldLight text-lg mb-2">
-            Degrees of separation between any two Duke players
+          <p className="font-body text-uk-silver text-lg mb-2">
+            Degrees of separation between any two Kentucky players
           </p>
           <p className="font-body text-sm mb-8" style={{ color: "#6b83a5" }}>
-            Every Duke basketball player since 1978 is connected through shared rosters.
+            Every Kentucky basketball player since 1978 is connected through shared rosters.
             Pick two players and see the shortest chain of teammates linking them &mdash;
-            the living proof that the Brotherhood is real.
+            the living proof that Through the Rafters is real.
           </p>
 
           {/* Player selectors */}
@@ -346,7 +346,7 @@ export default function ChainViz() {
             <div className="animate-fadeIn">
               {/* Degree count hero */}
               <div className="text-center mb-8 py-6 rounded-xl" style={{ background: "#111d33" }}>
-                <div className="font-display text-6xl md:text-7xl font-bold text-duke-gold mb-1">
+                <div className="font-display text-6xl md:text-7xl font-bold text-uk-white mb-1">
                   {degrees}
                 </div>
                 <div className="font-mono text-sm" style={{ color: "#8ba4c7" }}>
@@ -375,7 +375,7 @@ export default function ChainViz() {
 
               {/* Explanation */}
               <p className="font-body text-xs text-center mt-6 italic" style={{ color: "#6b83a5" }}>
-                Each link represents players who shared at least one season on the same Duke roster.
+                Each link represents players who shared at least one season on the same Kentucky roster.
                 The chain shows the shortest path of teammates connecting the two players.
               </p>
             </div>
@@ -384,10 +384,10 @@ export default function ChainViz() {
           {/* Empty state */}
           {playerA && playerB && !chain && (
             <div className="text-center py-12" style={{ color: "#6b83a5" }}>
-              <div className="font-display text-2xl text-duke-gold mb-2">No Connection Found</div>
+              <div className="font-display text-2xl text-uk-white mb-2">No Connection Found</div>
               <p className="font-body text-sm">
                 These two players don&rsquo;t appear to be connected through shared rosters.
-                This shouldn&rsquo;t happen in the Brotherhood &mdash; let us know if you think this is an error.
+                This shouldn&rsquo;t happen in Through the Rafters &mdash; let us know if you think this is an error.
               </p>
             </div>
           )}
@@ -403,7 +403,7 @@ export default function ChainViz() {
               ].map((s) => (
                 <div key={s.label} className="rounded-lg text-center py-3 px-2" style={{ background: "#111d33" }}>
                   <div className="font-mono text-xs uppercase tracking-wider" style={{ color: "#6b83a5" }}>{s.label}</div>
-                  <div className="font-display text-duke-gold text-2xl font-bold my-1">{s.value}</div>
+                  <div className="font-display text-uk-white text-2xl font-bold my-1">{s.value}</div>
                   <div className="font-mono text-xs" style={{ color: "#8ba4c7" }}>{s.sub}</div>
                 </div>
               ))}

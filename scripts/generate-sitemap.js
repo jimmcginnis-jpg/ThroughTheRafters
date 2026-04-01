@@ -13,7 +13,7 @@ const playersData = JSON.parse(
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const players = playersData.players;
 
-const BASE_URL = 'https://www.dukebrotherhood.com';
+const BASE_URL = 'https://www.throughtherafters.com';
 const today = new Date().toISOString().split('T')[0];
 
 const urls = [];

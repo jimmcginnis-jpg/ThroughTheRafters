@@ -14,14 +14,14 @@ if (playerData.eras) {
 }
 
 const eraDescriptions = {
-  foundation: 'Coach K builds from scratch. The Godfather Class arrives. Duke becomes relevant again.',
-  dynasty1: 'Back-to-back titles. The Shot. The Dream Team. The greatest run in program history.',
-  transition: "Coach K's back surgery. The 4-15 season. The players who stayed when Duke was mortal.",
-  dynasty2: "The 2001 title. Battier's legacy. Brand, Boozer, Jay Williams, Deng.",
-  between: 'The longest title drought of the K era. The players who kept Duke in the conversation.',
-  resurgence: "The 2010 and 2015 championships. Coach K's 4th and 5th rings.",
-  superteam: "The most NBA talent ever assembled in college. No titles. Coach K's farewell.",
-  scheyer: 'The post-K era begins. Cooper Flagg. Can the Brotherhood continue?',
+  rupp: 'Four national championships. The Baron of the Bluegrass. The man who built Kentucky basketball into a religion.',
+  hall: 'Following a legend. The 1978 national championship. The burden and the glory of being next.',
+  sutton: 'Elite Eight runs, NCAA violations, and the scandal that nearly destroyed the program.',
+  pitino: 'From probation to the 1996 national championship. Full-court press. The Unforgettables. Kentucky reborn.',
+  tubby: 'A title in year one. Ten straight NCAA tournaments. Never enough for the most demanding fanbase in America.',
+  gillispie: 'Two seasons. No NCAA tournament. The lowest point in modern Kentucky basketball.',
+  calipari: 'One-and-done factory. The 2012 national championship. 38-0. The most polarizing era in program history.',
+  pope: 'The former Wildcat returns home. A new beginning built on old roots.',
 };
 
 // Color-code NCAA outcomes
@@ -31,7 +31,7 @@ function outcomeColor(outcome) {
   if (outcome.includes('Runner-Up')) return 'text-gray-300';
   if (outcome.includes('Final Four')) return 'text-blue-300';
   if (outcome.includes('Elite')) return 'text-blue-400';
-  return 'text-duke-goldLight';
+  return 'text-uk-silver';
 }
 
 function EraSection({ era, seasons, defaultOpen }) {
@@ -46,14 +46,14 @@ function EraSection({ era, seasons, defaultOpen }) {
         onClick={() => setOpen(!open)}
         className="w-full text-left group"
       >
-        <div className="flex items-center justify-between border-b-2 border-duke-gold pb-2 mb-1">
-          <h2 className="font-display text-xl text-duke-navy font-bold group-hover:text-duke-gold transition-colors">
+        <div className="flex items-center justify-between border-b-2 border-uk-white pb-2 mb-1">
+          <h2 className="font-display text-xl text-uk-blue font-bold group-hover:text-uk-white transition-colors">
             {label}
           </h2>
           <div className="flex items-center gap-3">
             <span className="font-mono text-xs text-gray-400">{seasons.length} season{seasons.length !== 1 ? 's' : ''}</span>
             <svg
-              className={`w-5 h-5 text-duke-gold transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+              className={`w-5 h-5 text-uk-white transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
               fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round"
             >
               <polyline points="6 9 12 15 18 9" />
@@ -71,15 +71,15 @@ function EraSection({ era, seasons, defaultOpen }) {
             <Link
               key={s.season}
               href={`/teams/${s.season}/`}
-              className="group flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-duke-gold hover:shadow-md transition-all bg-white"
+              className="group flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-uk-white hover:shadow-md transition-all bg-white"
             >
               <div className="shrink-0 w-16 text-center">
-                <div className="font-mono text-lg text-duke-navy font-bold">{s.season.split('-')[0]}</div>
+                <div className="font-mono text-lg text-uk-blue font-bold">{s.season.split('-')[0]}</div>
                 <div className="font-mono text-xs text-gray-400">–{s.season.split('-')[1]}</div>
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-3">
-                  <span className="font-display text-duke-navy font-semibold group-hover:text-duke-gold transition-colors">
+                  <span className="font-display text-uk-blue font-semibold group-hover:text-uk-white transition-colors">
                     {s.record}
                   </span>
                   <span className="font-mono text-xs text-gray-400">({s.accRecord} ACC)</span>
@@ -117,13 +117,13 @@ export default function TeamsIndex({ seasons }) {
   return (
     <Layout
       title="Teams by Season"
-      description="Every Duke basketball season from 1981 to present — rosters, results, UNC games, and March stories."
+      description="Every Kentucky basketball season from 1981 to present — rosters, results, UNC games, and March stories."
       canonical="/teams/"
     >
-      <section className="bg-duke-slate text-white py-12">
+      <section className="bg-uk-slate text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="font-display text-4xl font-bold mb-2">Teams</h1>
-          <p className="font-body text-duke-goldLight text-lg">
+          <p className="font-body text-uk-silver text-lg">
             Every season, every roster, every March. {seasons.length} seasons documented.
           </p>
         </div>

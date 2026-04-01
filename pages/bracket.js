@@ -1,5 +1,5 @@
 // pages/bracket.js
-// Brotherhood Bracket Simulator — pick 16 Duke teams, seed by margin, simulate
+// Through the Rafters Bracket Simulator — pick 16 Kentucky teams, seed by margin, simulate
 
 import { useState, useCallback } from 'react';
 import Head from 'next/head';
@@ -81,13 +81,13 @@ function TeamCard({ team, selected, onClick }) {
       onClick={() => onClick(team.season)}
       className={`w-full text-left p-3 rounded-lg border-2 transition-all relative ${
         selected
-          ? 'border-duke-gold bg-duke-gold/5'
+          ? 'border-uk-white bg-uk-white/5'
           : 'border-gray-100 bg-white hover:border-gray-300'
       }`}
     >
       {isChamp && <span className="absolute top-2 right-2 text-xs">🏆</span>}
       <div className="flex items-center gap-2">
-        <span className={`font-display font-bold text-base ${selected ? 'text-duke-navy' : 'text-gray-800'}`}>
+        <span className={`font-display font-bold text-base ${selected ? 'text-uk-blue' : 'text-gray-800'}`}>
           {team.season}
         </span>
         <span className={`font-mono text-xs px-1.5 py-0.5 rounded ${
@@ -119,18 +119,18 @@ function MatchupBox({ game }) {
     return (
       <div className={`flex items-center justify-between px-3 py-2 ${
         isTop ? 'border-b border-gray-100' : ''
-      } ${isWinner ? 'bg-duke-gold/5' : ''}`}>
+      } ${isWinner ? 'bg-uk-white/5' : ''}`}>
         <div className="flex items-center gap-2 flex-1 min-w-0">
           <span className="font-mono text-xs text-gray-400 w-4 text-center shrink-0">{seed}</span>
           <span className={`font-display text-sm truncate ${
-            isWinner ? 'font-bold text-duke-navy' : team ? 'text-gray-600' : 'text-gray-300'
+            isWinner ? 'font-bold text-uk-blue' : team ? 'text-gray-600' : 'text-gray-300'
           }`}>
             {team ? team.season : 'TBD'}
           </span>
           {isWinner && CHAMP_SEASONS.includes(team.season) && <span className="text-[10px]">🏆</span>}
         </div>
         {score !== null && (
-          <span className={`font-mono text-sm ${isWinner ? 'font-bold text-duke-navy' : 'text-gray-400'}`}>
+          <span className={`font-mono text-sm ${isWinner ? 'font-bold text-uk-blue' : 'text-gray-400'}`}>
             {score}
           </span>
         )}
@@ -143,7 +143,7 @@ function MatchupBox({ game }) {
       <Row team={teamA} seed={game.seeds?.[0]} isTop />
       <Row team={teamB} seed={game.seeds?.[1]} isTop={false} />
       {result && (
-        <div className="px-3 py-1 text-[10px] text-duke-gold font-mono border-t border-gray-50 bg-gray-50/50 italic">
+        <div className="px-3 py-1 text-[10px] text-uk-white font-mono border-t border-gray-50 bg-gray-50/50 italic">
           {result.star} — {result.starPts} pts
         </div>
       )}
@@ -241,29 +241,29 @@ export default function BracketPage({ allTeams }) {
   return (
     <Layout
       title="Bracket Simulator"
-      description="Pit any 16 Duke teams against each other across 45 seasons. Who's the greatest team in Brotherhood history?"
+      description="Pit any 16 Kentucky teams against each other across 45 seasons. Who's the greatest team in Through the Rafters history?"
       canonical="/bracket/"
     >
       <Head>
-        <meta property="og:title" content="Brotherhood Bracket Simulator | Duke's Brotherhood" />
-        <meta property="og:description" content="Pick 16 Duke teams from 45 seasons. Simulate a tournament. Settle the debate." />
+        <meta property="og:title" content="Through the Rafters Bracket Simulator | Through the Rafters" />
+        <meta property="og:description" content="Pick 16 Kentucky teams from 45 seasons. Simulate a tournament. Settle the debate." />
       </Head>
 
       {/* Hero */}
-      <section className="bg-duke-slate text-white py-12">
+      <section className="bg-uk-slate text-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <Link href="/" className="hover:text-duke-gold">Home</Link>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <Link href="/" className="hover:text-uk-white">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Bracket Simulator</span>
+            <span className="text-uk-white">Bracket Simulator</span>
           </nav>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-2">
-            {champion ? `🏆 ${champion.season}` : 'Brotherhood Bracket'}
+            {champion ? `🏆 ${champion.season}` : 'Through the Rafters Bracket'}
           </h1>
-          <p className="font-body text-duke-goldLight text-lg italic">
+          <p className="font-body text-uk-silver text-lg italic">
             {champion
-              ? `The ${champion.record} squad from the ${ERA_LABELS[champion.era]} era wins the Brotherhood Title.`
-              : 'Pick 16 Duke teams from 45 seasons. Seed them by scoring margin. Simulate the tournament.'
+              ? `The ${champion.record} squad from the ${ERA_LABELS[champion.era]} era wins Through the Rafters Title.`
+              : 'Pick 16 Kentucky teams from 45 seasons. Seed them by scoring margin. Simulate the tournament.'
             }
           </p>
         </div>
@@ -281,7 +281,7 @@ export default function BracketPage({ allTeams }) {
               { label: 'Clear All', fn: () => setSelected([]) },
             ].map(p => (
               <button key={p.label} onClick={p.fn}
-                className="px-3 py-1.5 rounded-md border border-gray-200 text-xs font-mono font-semibold text-gray-600 hover:border-duke-gold hover:text-duke-navy transition-all"
+                className="px-3 py-1.5 rounded-md border border-gray-200 text-xs font-mono font-semibold text-gray-600 hover:border-uk-white hover:text-uk-blue transition-all"
               >
                 {p.label}
               </button>
@@ -293,7 +293,7 @@ export default function BracketPage({ allTeams }) {
             {['All', ...Object.values(ERA_LABELS)].map(era => (
               <button key={era} onClick={() => setFilterEra(era)}
                 className={`px-3 py-1 rounded-full text-xs font-mono font-semibold transition-all ${
-                  filterEra === era ? 'bg-duke-navy text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                  filterEra === era ? 'bg-uk-blue text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                 }`}
               >
                 {era}
@@ -304,7 +304,7 @@ export default function BracketPage({ allTeams }) {
           {/* Count + Start */}
           <div className="flex items-center justify-between mb-4 p-3 rounded-lg bg-gray-50 border border-gray-200">
             <span className={`font-mono text-sm font-bold ${
-              selected.length === 16 ? 'text-green-600' : 'text-duke-gold'
+              selected.length === 16 ? 'text-green-600' : 'text-uk-white'
             }`}>
               {selected.length} / 16 selected
             </span>
@@ -313,7 +313,7 @@ export default function BracketPage({ allTeams }) {
               onClick={initBracket}
               className={`px-6 py-2 rounded-lg font-mono text-sm font-bold tracking-wider uppercase transition-all ${
                 selected.length === 16
-                  ? 'bg-duke-navy text-white hover:bg-duke-gold hover:text-duke-navy cursor-pointer'
+                  ? 'bg-uk-blue text-white hover:bg-uk-white hover:text-uk-blue cursor-pointer'
                   : 'bg-gray-200 text-gray-400 cursor-not-allowed'
               }`}
             >
@@ -336,19 +336,19 @@ export default function BracketPage({ allTeams }) {
           {/* Controls */}
           <div className="flex flex-wrap gap-2 mb-6">
             <button onClick={() => { setPhase('select'); setBracket(null); setChampion(null); }}
-              className="px-4 py-2 rounded-lg border border-gray-200 font-mono text-xs font-semibold text-gray-600 hover:border-duke-gold transition-all"
+              className="px-4 py-2 rounded-lg border border-gray-200 font-mono text-xs font-semibold text-gray-600 hover:border-uk-white transition-all"
             >
               ← Reselect Teams
             </button>
             {!champion && (
               <>
                 <button onClick={simulateRound}
-                  className="px-4 py-2 rounded-lg bg-duke-navy text-white font-mono text-xs font-bold hover:bg-duke-gold hover:text-duke-navy transition-all"
+                  className="px-4 py-2 rounded-lg bg-uk-blue text-white font-mono text-xs font-bold hover:bg-uk-white hover:text-uk-blue transition-all"
                 >
                   Simulate {roundLabels[currentRound]}
                 </button>
                 <button onClick={simulateAll}
-                  className="px-4 py-2 rounded-lg bg-duke-gold text-duke-navy font-mono text-xs font-bold hover:bg-duke-navy hover:text-white transition-all"
+                  className="px-4 py-2 rounded-lg bg-uk-white text-uk-blue font-mono text-xs font-bold hover:bg-uk-blue hover:text-white transition-all"
                 >
                   Simulate All →
                 </button>
@@ -356,7 +356,7 @@ export default function BracketPage({ allTeams }) {
             )}
             {champion && (
               <button onClick={initBracket}
-                className="px-4 py-2 rounded-lg bg-duke-gold text-duke-navy font-mono text-xs font-bold hover:bg-duke-navy hover:text-white transition-all"
+                className="px-4 py-2 rounded-lg bg-uk-white text-uk-blue font-mono text-xs font-bold hover:bg-uk-blue hover:text-white transition-all"
               >
                 Run It Again
               </button>
@@ -368,7 +368,7 @@ export default function BracketPage({ allTeams }) {
             {roundLabels.map((label, i) => (
               <div key={label} className={`px-3 py-1.5 rounded text-xs font-mono font-semibold ${
                 bracket && bracket[i]?.some(g => g.result)
-                  ? 'bg-duke-navy/10 text-duke-navy'
+                  ? 'bg-uk-blue/10 text-uk-blue'
                   : 'bg-gray-50 text-gray-400'
               }`}>
                 {label}
@@ -396,22 +396,22 @@ export default function BracketPage({ allTeams }) {
 
           {/* Champion Card */}
           {champion && (
-            <div className="max-w-lg mx-auto mt-10 p-6 rounded-xl border-2 border-duke-gold bg-duke-gold/5 text-center">
+            <div className="max-w-lg mx-auto mt-10 p-6 rounded-xl border-2 border-uk-white bg-uk-white/5 text-center">
               <div className="text-5xl mb-2">🏆</div>
-              <div className="font-display text-3xl font-bold text-duke-navy">{champion.season}</div>
+              <div className="font-display text-3xl font-bold text-uk-blue">{champion.season}</div>
               <div className="font-mono text-sm text-gray-500 mt-1">
                 {champion.record} · {ERA_LABELS[champion.era]}
               </div>
               <div className="flex justify-center gap-6 mt-4">
                 {champion.scorers.slice(0, 3).map((s, i) => (
                   <div key={i} className="text-center">
-                    <div className="font-display text-sm font-bold text-duke-navy">{s.name}</div>
-                    <div className="font-mono text-xs text-duke-gold">{s.ppg} ppg</div>
+                    <div className="font-display text-sm font-bold text-uk-blue">{s.name}</div>
+                    <div className="font-mono text-xs text-uk-white">{s.ppg} ppg</div>
                   </div>
                 ))}
               </div>
               <div className="font-mono text-xs text-gray-400 mt-4 italic tracking-wider uppercase">
-                Brotherhood Champion
+                Through the Rafters Champion
               </div>
             </div>
           )}
@@ -425,9 +425,9 @@ export default function BracketPage({ allTeams }) {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebApplication',
-            name: 'Brotherhood Bracket Simulator',
-            url: 'https://www.dukebrotherhood.com/bracket/',
-            description: 'Pit any 16 Duke teams against each other across 45 seasons of Coach K and Scheyer basketball.',
+            name: 'Through the Rafters Bracket Simulator',
+            url: 'https://www.throughtherafters.com/bracket/',
+            description: 'Pit any 16 Kentucky teams against each other across 45 seasons of Coach K and Scheyer basketball.',
             applicationCategory: 'GameApplication',
           }),
         }}

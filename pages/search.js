@@ -51,10 +51,10 @@ export default function SearchPage() {
   return (
     <Layout
       title="Search Players"
-      description="Search all 238 Duke basketball players by name, hometown, high school, position, and more."
+      description="Search all 238 Kentucky basketball players by name, hometown, high school, position, and more."
       canonical="/search/"
     >
-      <section className="bg-duke-slate text-white py-12">
+      <section className="bg-uk-slate text-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="font-display text-4xl font-bold mb-4">Search Players</h1>
           <div className="relative">
@@ -67,10 +67,10 @@ export default function SearchPage() {
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder="Search by name, hometown, high school, position, era..."
-              className="w-full pl-12 pr-4 py-4 text-lg font-body text-duke-slate rounded-lg outline-none"
+              className="w-full pl-12 pr-4 py-4 text-lg font-body text-uk-slate rounded-lg outline-none"
             />
           </div>
-          <p className="font-mono text-xs text-duke-goldLight mt-3">
+          <p className="font-mono text-xs text-uk-silver mt-3">
             {q.length >= 2
               ? `${results.length} result${results.length !== 1 ? 's' : ''} for \u201C${query}\u201D`
               : `${data.players.length} players available \u2014 type at least 2 characters`
@@ -82,7 +82,7 @@ export default function SearchPage() {
       <section className="max-w-4xl mx-auto px-4 py-8">
         {q.length >= 2 && results.length === 0 && (
           <div className="text-center py-12">
-            <p className="font-display text-2xl text-duke-navy mb-2">No results found</p>
+            <p className="font-display text-2xl text-uk-blue mb-2">No results found</p>
             <p className="font-body text-gray-500">
               Try searching by name, hometown, high school, or position.
             </p>
@@ -100,15 +100,15 @@ export default function SearchPage() {
                 <Link
                   key={player.id}
                   href={`/players/${player.slug}/`}
-                  className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-duke-gold transition-all bg-white"
+                  className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:border-uk-white transition-all bg-white"
                 >
-                  <div className="shrink-0 w-12 h-12 rounded-full bg-duke-navy flex items-center justify-center">
-                    <span className="font-mono text-sm text-duke-gold font-bold">
+                  <div className="shrink-0 w-12 h-12 rounded-full bg-uk-blue flex items-center justify-center">
+                    <span className="font-mono text-sm text-uk-white font-bold">
                       {player.jersey || '#'}
                     </span>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-display text-lg text-duke-navy font-semibold truncate">
+                    <div className="font-display text-lg text-uk-blue font-semibold truncate">
                       {player.name}
                     </div>
                     <div className="font-mono text-xs text-gray-400">
@@ -168,7 +168,7 @@ export default function SearchPage() {
                 <button
                   key={suggestion}
                   onClick={() => setQuery(suggestion)}
-                  className="px-3 py-1.5 border border-gray-200 rounded-full font-mono text-xs text-gray-600 hover:border-duke-gold hover:text-duke-navy transition-colors"
+                  className="px-3 py-1.5 border border-gray-200 rounded-full font-mono text-xs text-gray-600 hover:border-uk-white hover:text-uk-blue transition-colors"
                 >
                   {suggestion}
                 </button>

@@ -11,9 +11,9 @@ for (let y = 1980; y <= 2025; y++) {
 }
 
 const BIO_TABS = [
-  { key: 'road', label: 'Road to Duke' },
-  { key: 'duke', label: 'At Duke' },
-  { key: 'after', label: 'After Duke' },
+  { key: 'road', label: 'Road to Kentucky' },
+  { key: 'kentucky', label: 'At Kentucky' },
+  { key: 'after', label: 'After Kentucky' },
   { key: 'now', label: 'Where Is He Now' },
 ];
 
@@ -22,7 +22,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
 
   if (!player) return null;
 
-  const hasBio = player.bio && (player.bio.road || player.bio.duke || player.bio.after || player.bio.now);
+  const hasBio = player.bio && (player.bio.road || player.bio.kentucky || player.bio.after || player.bio.now);
 
   // Build player name → slug lookup for auto-linking (only completed profiles, not self)
   const linkablePlayers = data.players
@@ -42,7 +42,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     { name: 'Ronald McDonald House', href: 'https://www.rmhc.org/donate', type: 'charity' },
     { name: 'Susan G. Komen Foundation', href: 'https://www.komen.org/donate/', type: 'charity' },
     { name: 'Susan G. Komen', href: 'https://www.komen.org/donate/', type: 'charity' },
-    { name: 'Duke Children\u2019s Hospital', href: 'https://www.dukechildrens.org/giving', type: 'charity' },
+    { name: 'Kentucky Children\u2019s Hospital', href: 'https://www.ukhealthcare.uky.edu/giving', type: 'charity' },
   ];
 
   // Build season → team page lookup for auto-linking
@@ -62,7 +62,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     .sort((a, b) => b.name.length - a.name.length);
 
   // Convert paragraph text into React elements with auto-linked player names AND charity links
-  // tabKey controls whether season links are active (only on 'road' and 'duke')
+  // tabKey controls whether season links are active (only on 'road' and 'kentucky')
   const linkifyParagraph = (text, paragraphIndex, tabKey) => {
     if (!allLinkable.length) return text;
 
@@ -96,7 +96,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <Link
               key={`${paragraphIndex}-${keyCounter++}`}
               href={earliestMatch.href}
-              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
             >
               {earliestMatch.name}
             </Link>
@@ -106,8 +106,8 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             <Link
               key={`${paragraphIndex}-${keyCounter++}`}
               href={earliestMatch.href}
-              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
-              title={`${earliestMatch.name} Duke Blue Devils season`}
+              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
+              title={`${earliestMatch.name} Kentucky Wildcats season`}
             >
               {earliestMatch.name}
             </Link>
@@ -119,7 +119,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               href={earliestMatch.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-duke-navy underline decoration-duke-gold/40 hover:decoration-duke-gold transition-colors"
+              className="text-uk-blue underline decoration-uk-white/40 hover:decoration-uk-white transition-colors"
               title={`Donate to ${earliestMatch.name}`}
             >
               {earliestMatch.name}
@@ -147,15 +147,15 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
   // Build SEO description from first ~160 chars of road bio
   const seoDescription = player.bio?.road
     ? player.bio.road.substring(0, 155).replace(/\n/g, ' ') + '...'
-    : `${player.name} — Duke Basketball ${player.years}. ${player.tagline}`;
+    : `${player.name} — Kentucky Basketball ${player.years}. ${player.tagline}`;
 
-  // SEO title — include "Where Is He Now" for done profiles, "Road to Duke" for pledged
+  // SEO title — include "Where Is He Now" for done profiles, "Road to Kentucky" for pledged
   const hasProfile = player.status === 'done' || player.status === 'pledged';
   const seoTitle = player.status === 'done'
-    ? `${player.name} — Where Is He Now? | Duke Basketball ${player.years}`
+    ? `${player.name} — Where Is He Now? | Kentucky Basketball ${player.years}`
     : player.status === 'pledged'
-    ? `${player.name} — Road to Duke | Duke Basketball Recruit ${player.years}`
-    : `${player.name} — Duke Basketball ${player.years}`;
+    ? `${player.name} — Road to Kentucky | Kentucky Basketball Recruit ${player.years}`
+    : `${player.name} — Kentucky Basketball ${player.years}`;
 
   // Build FAQ schema for done and pledged profiles
   const faqQuestions = [];
@@ -191,10 +191,10 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
     if (player.years) {
       faqQuestions.push({
         '@type': 'Question',
-        name: `When did ${player.name} play at Duke?`,
+        name: `When did ${player.name} play at Kentucky?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `${player.name} played for the Duke Blue Devils from ${player.years}.${player.stat ? ' ' + player.stat + '.' : ''}`,
+          text: `${player.name} played for the Kentucky Wildcats from ${player.years}.${player.stat ? ' ' + player.stat + '.' : ''}`,
         },
       });
     }
@@ -207,19 +207,19 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
       canonical={`/players/${player.slug}/`}
     >
       {/* HERO */}
-      <section className="bg-duke-slate text-white py-12 md:py-16">
+      <section className="bg-uk-slate text-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           {/* Breadcrumb */}
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <Link href="/" className="hover:text-duke-gold">Home</Link>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <Link href="/" className="hover:text-uk-white">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/players/" className="hover:text-duke-gold">Players</Link>
+            <Link href="/players/" className="hover:text-uk-white">Players</Link>
             <span className="mx-2">/</span>
-            <Link href={`/eras/${player.era}/`} className="hover:text-duke-gold">
+            <Link href={`/eras/${player.era}/`} className="hover:text-uk-white">
               Era {era?.num}: {era?.name}
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">{player.name}</span>
+            <span className="text-uk-white">{player.name}</span>
           </nav>
 
           {/* Player Name & Info */}
@@ -227,12 +227,12 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             {player.name}
           </h1>
 
-          <p className="font-body text-lg md:text-xl text-duke-goldLight italic mb-6">
+          <p className="font-body text-lg md:text-xl text-uk-silver italic mb-6">
             {player.tagline}
           </p>
 
           {/* Quick Facts Row */}
-          <div className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-sm text-duke-goldLight">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-sm text-uk-silver">
             <span>{player.pos}</span>
             <span>{player.height}</span>
             <span>{player.years}</span>
@@ -249,7 +249,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           {/* Current Status */}
           {player.now && hasProfile && (
             <div className="mt-4 pt-4 border-t border-white/10">
-              <span className="font-mono text-xs text-duke-gold uppercase tracking-wider">Now: </span>
+              <span className="font-mono text-xs text-uk-white uppercase tracking-wider">Now: </span>
               <span className="font-body text-white/90">{player.now}</span>
             </div>
           )}
@@ -274,7 +274,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             </div>
 
             {/* Tab Content */}
-            <article className="bio-content font-body text-duke-slate leading-relaxed">
+            <article className="bio-content font-body text-uk-slate leading-relaxed">
               {renderBio(player.bio[activeTab], activeTab)}
             </article>
 
@@ -290,7 +290,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                       setActiveTab(nextTab.key);
                       document.getElementById('bio-tabs')?.scrollIntoView({ behavior: 'smooth' });
                     }}
-                    className="font-mono text-sm text-duke-navy hover:text-duke-gold transition-colors cursor-pointer"
+                    className="font-mono text-sm text-uk-blue hover:text-uk-white transition-colors cursor-pointer"
                   >
                     Continue to: {nextTab.label} &rarr;
                   </button>
@@ -300,7 +300,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
           </>
         ) : (
           <div className="text-center py-16">
-            <p className="font-display text-2xl text-duke-navy mb-2">Profile Coming Soon</p>
+            <p className="font-display text-2xl text-uk-blue mb-2">Profile Coming Soon</p>
             <p className="font-body text-gray-500">
               {player.name}&rsquo;s full documentary profile is in development.
             </p>
@@ -316,7 +316,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
                 <li key={i} className="font-body text-sm text-gray-500 leading-relaxed">
                   {source.url ? (
                     <a href={source.url} target="_blank" rel="noopener noreferrer"
-                       className="hover:text-duke-navy transition-colors underline decoration-gray-300 hover:decoration-duke-gold">
+                       className="hover:text-uk-blue transition-colors underline decoration-gray-300 hover:decoration-uk-white">
                       {source.title}
                     </a>
                   ) : (
@@ -327,7 +327,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             </ul>
             <p className="font-body text-xs text-gray-400 mt-4 italic">
               All quotes are sourced from published interviews and reporting. 
-              <Link href="/methodology/" className="underline hover:text-duke-navy ml-1">
+              <Link href="/methodology/" className="underline hover:text-uk-blue ml-1">
                 Read about our research methodology.
               </Link>
             </p>
@@ -337,22 +337,22 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
         {/* GIVE BACK */}
         {player.status === 'done' && (
           <div className="mt-12 pt-6 border-t border-gray-200">
-            <div className="bg-duke-cream border border-duke-gold/30 p-6">
-              <h3 className="font-display text-lg text-duke-navy mb-2">
-                {player.charity ? player.charity.label : 'Support the Brotherhood'}
+            <div className="bg-uk-cream border border-uk-white/30 p-6">
+              <h3 className="font-display text-lg text-uk-blue mb-2">
+                {player.charity ? player.charity.label : 'Support Through the Rafters'}
               </h3>
               <p className="font-body text-sm text-gray-600 leading-relaxed mb-4">
                 {player.charity ? player.charity.description : (
-                  `Duke\u2019s Brotherhood Run supports Duke Children\u2019s Hospital, continuing the program\u2019s long-standing commitment to the Durham community. Consider making a donation in honor of ${player.name} and the Brotherhood.`
+                  `Duke\u2019s Through the Rafters Run supports Kentucky Children\u2019s Hospital, continuing the program\u2019s long-standing commitment to the Durham community. Consider making a donation in honor of ${player.name} and the Through the Rafters.`
                 )}
               </p>
               <a
-                href={player.charity ? player.charity.url : 'https://www.dukechildrens.org/giving'}
+                href={player.charity ? player.charity.url : 'https://www.ukhealthcare.uky.edu/giving'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-duke-navy text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 hover:bg-duke-navyDark transition-colors"
+                className="inline-block bg-uk-blue text-white font-mono text-xs tracking-wider uppercase px-5 py-2.5 hover:bg-uk-blueDark transition-colors"
               >
-                {player.charity ? `Donate to ${player.charity.name}` : 'Donate to Duke Children\u2019s Hospital'}
+                {player.charity ? `Donate to ${player.charity.name}` : 'Donate to Kentucky Children\u2019s Hospital'}
               </a>
             </div>
           </div>
@@ -366,7 +366,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               className="group text-left"
             >
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">&larr; Previous</span>
-              <div className="font-display text-duke-navy group-hover:text-duke-gold transition-colors">
+              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
                 {prevPlayer.name}
               </div>
             </Link>
@@ -378,7 +378,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
               className="group text-right"
             >
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">Next &rarr;</span>
-              <div className="font-display text-duke-navy group-hover:text-duke-gold transition-colors">
+              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
                 {nextPlayer.name}
               </div>
             </Link>
@@ -395,13 +395,13 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             '@type': 'Person',
             name: player.name,
             description: seoDescription,
-            url: `https://www.dukebrotherhood.com/players/${player.slug}/`,
+            url: `https://www.throughtherafters.com/players/${player.slug}/`,
             ...(player.hometown && { birthPlace: { '@type': 'Place', name: player.hometown } }),
             ...(player.height && { height: player.height }),
             alumniOf: {
               '@type': 'CollegeOrUniversity',
-              name: 'Duke University',
-              sameAs: 'https://en.wikipedia.org/wiki/Duke_University',
+              name: 'the University of Kentucky',
+              sameAs: 'https://en.wikipedia.org/wiki/University_of_Kentucky',
             },
             ...(player.now && { jobTitle: player.now }),
             ...(player.nba && player.nba.teams && player.nba.teams.length > 0 && {
@@ -420,7 +420,7 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             }),
             ...(player.sources && player.sources.length > 0 && {
               sameAs: player.sources
-                .filter(s => s.url && (s.url.includes('wikipedia') || s.url.includes('basketball-reference') || s.url.includes('goduke.com')))
+                .filter(s => s.url && (s.url.includes('wikipedia') || s.url.includes('basketball-reference') || s.url.includes('ukathletics.com')))
                 .map(s => s.url),
             }),
           }),
@@ -434,10 +434,10 @@ export default function PlayerPage({ player, era, prevPlayer, nextPlayer }) {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.dukebrotherhood.com/' },
-              { '@type': 'ListItem', position: 2, name: 'Players', item: 'https://www.dukebrotherhood.com/players/' },
-              { '@type': 'ListItem', position: 3, name: era?.name || player.era, item: `https://www.dukebrotherhood.com/eras/${player.era}/` },
-              { '@type': 'ListItem', position: 4, name: player.name, item: `https://www.dukebrotherhood.com/players/${player.slug}/` },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.throughtherafters.com/' },
+              { '@type': 'ListItem', position: 2, name: 'Players', item: 'https://www.throughtherafters.com/players/' },
+              { '@type': 'ListItem', position: 3, name: era?.name || player.era, item: `https://www.throughtherafters.com/eras/${player.era}/` },
+              { '@type': 'ListItem', position: 4, name: player.name, item: `https://www.throughtherafters.com/players/${player.slug}/` },
             ],
           }),
         }}

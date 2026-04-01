@@ -111,7 +111,7 @@ export default function LinkedText({ text, className }) {
             <Link
               key={i}
               href={`/players/${match.slug}/`}
-              className="text-duke-gold hover:text-duke-navy border-b border-duke-gold/30 hover:border-duke-navy transition-colors"
+              className="text-uk-white hover:text-uk-blue border-b border-uk-white/30 hover:border-uk-blue transition-colors"
             >
               {part}
             </Link>
@@ -122,8 +122,8 @@ export default function LinkedText({ text, className }) {
             <Link
               key={i}
               href={`/teams/${match.slug}/`}
-              className="text-duke-gold hover:text-duke-navy border-b border-duke-gold/30 hover:border-duke-navy transition-colors"
-              title={`${match.slug} Duke Blue Devils season`}
+              className="text-uk-white hover:text-uk-blue border-b border-uk-white/30 hover:border-uk-blue transition-colors"
+              title={`${match.slug} Kentucky Wildcats season`}
             >
               {part}
             </Link>

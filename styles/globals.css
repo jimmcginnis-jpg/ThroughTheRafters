@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;700&display=swap');
 
 /* ============================================================
-   DUKE'S BROTHERHOOD — Global Styles
-   Navy: #00009C  |  Gold: #CBB677  |  Cream: #FAF8F3
+   THROUGH THE RAFTERS — Global Styles
+   Blue: #0033A0  |  White: #FFFFFF  |  Cream: #F5F7FA
    ============================================================ */
 
 html {
@@ -14,9 +14,9 @@ html {
 }
 
 body {
-  font-family: 'EB Garamond', Georgia, serif;
-  background-color: #FAF8F3;
-  color: #1a1a2e;
+  font-family: 'Source Sans 3', Arial, sans-serif;
+  background-color: #F5F7FA;
+  color: #0A1628;
 }
 
 /* Bio content formatting */
@@ -36,11 +36,11 @@ body {
 }
 
 .tab-button.active {
-  @apply border-duke-gold text-duke-navy font-bold;
+  @apply border-uk-white text-uk-blue font-bold;
 }
 
 .tab-button:not(.active) {
-  @apply border-transparent text-gray-500 hover:text-duke-navy hover:border-duke-gold/40;
+  @apply border-transparent text-gray-500 hover:text-uk-blue hover:border-uk-white/40;
 }
 
 /* Player card hover */
@@ -54,7 +54,7 @@ body {
 
 /* Era section divider */
 .era-divider {
-  background: linear-gradient(90deg, transparent, #CBB677, transparent);
+  background: linear-gradient(90deg, transparent, #0033A0, transparent);
   height: 1px;
 }
 
@@ -72,11 +72,11 @@ body {
 
 /* Status badges */
 .badge-done {
-  @apply bg-duke-navy text-white;
+  @apply bg-uk-blue text-white;
 }
 
 .badge-soon {
-  @apply bg-duke-gold text-duke-navyDark;
+  @apply bg-uk-white text-uk-blueDark;
 }
 
 .badge-coming {
@@ -84,7 +84,7 @@ body {
 }
 
 .badge-pledged {
-  background: rgba(197, 162, 88, 0.15);
-  color: #C5A258;
-  border: 1px solid rgba(197, 162, 88, 0.4);
+  background: rgba(0, 51, 160, 0.15);
+  color: #0033A0;
+  border: 1px solid rgba(0, 51, 160, 0.4);
 }

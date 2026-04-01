@@ -92,7 +92,7 @@ export default function SearchOverlay({ isOpen, onClose }) {
             value={query}
             onChange={e => setQuery(e.target.value)}
             placeholder="Search players by name, hometown, school, position..."
-            className="w-full py-4 text-lg outline-none font-body text-duke-slate placeholder-gray-400"
+            className="w-full py-4 text-lg outline-none font-body text-uk-slate placeholder-gray-400"
           />
           {query && (
             <button onClick={() => setQuery('')} className="text-gray-400 hover:text-gray-600 ml-2 shrink-0">
@@ -126,15 +126,15 @@ export default function SearchOverlay({ isOpen, onClose }) {
                 onClick={onClose}
                 className="flex items-center gap-4 px-4 py-3 hover:bg-gray-50 border-b border-gray-100 transition-colors"
               >
-                <div className="shrink-0 w-10 h-10 rounded-full bg-duke-navy flex items-center justify-center">
-                  <span className="font-mono text-xs text-duke-gold font-bold">
+                <div className="shrink-0 w-10 h-10 rounded-full bg-uk-blue flex items-center justify-center">
+                  <span className="font-mono text-xs text-uk-white font-bold">
                     {player.jersey || '#'}
                   </span>
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
-                    <span className="font-display text-duke-navy font-semibold truncate">{player.name}</span>
-                    <span className="shrink-0 text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-duke-gold/10 text-duke-gold">
+                    <span className="font-display text-uk-blue font-semibold truncate">{player.name}</span>
+                    <span className="shrink-0 text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-uk-white/10 text-uk-white">
                       Profile
                     </span>
                   </div>

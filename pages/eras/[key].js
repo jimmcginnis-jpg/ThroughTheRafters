@@ -10,25 +10,25 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
   return (
     <Layout
       title={`Era ${era.num}: ${era.name} (${era.years})`}
-      description={`${era.desc} — ${players.length} players profiled from the ${era.name} era of Duke basketball.`}
+      description={`${era.desc} — ${players.length} players profiled from the ${era.name} era of Kentucky basketball.`}
       canonical={`/eras/${era.key}/`}
     >
       {/* HERO */}
-      <section className="bg-duke-slate text-white py-12 md:py-16">
+      <section className="bg-uk-slate text-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="font-mono text-xs text-duke-goldLight mb-6 tracking-wider">
-            <Link href="/" className="hover:text-duke-gold">Home</Link>
+          <nav className="font-mono text-xs text-uk-silver mb-6 tracking-wider">
+            <Link href="/" className="hover:text-uk-white">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/eras/" className="hover:text-duke-gold">Eras</Link>
+            <Link href="/eras/" className="hover:text-uk-white">Eras</Link>
             <span className="mx-2">/</span>
-            <span className="text-duke-gold">Era {era.num}</span>
+            <span className="text-uk-white">Era {era.num}</span>
           </nav>
 
-          <div className="font-mono text-duke-gold text-sm tracking-widest mb-2">
+          <div className="font-mono text-uk-white text-sm tracking-widest mb-2">
             ERA {era.num} &bull; {era.years}
           </div>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">{era.name}</h1>
-          <p className="font-body text-lg text-duke-goldLight italic">{era.desc}</p>
+          <p className="font-body text-lg text-uk-silver italic">{era.desc}</p>
           <div className="mt-4 font-mono text-sm text-white/60">
             {doneCount} of {players.length} profiles complete
           </div>
@@ -46,7 +46,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                 href={hasProfile ? `/players/${player.slug}/` : '#'}
                 className={`player-card block p-5 border ${
                   hasProfile
-                    ? 'bg-white border-gray-200 hover:border-duke-gold'
+                    ? 'bg-white border-gray-200 hover:border-uk-white'
                     : 'bg-gray-50 border-gray-100 opacity-70 cursor-default'
                 }`}
               >
@@ -61,7 +61,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
                      player.status === 'soon' ? 'Priority Next' : 'Coming Soon'}
                   </span>
                 </div>
-                <h3 className="font-display text-xl text-duke-navy mt-2">{player.name}</h3>
+                <h3 className="font-display text-xl text-uk-blue mt-2">{player.name}</h3>
                 <div className="font-mono text-xs text-gray-400 mt-1 mb-2">
                   {player.pos} &bull; {player.height} &bull; {player.years}
                 </div>
@@ -82,7 +82,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
           {prevEra ? (
             <Link href={`/eras/${prevEra.key}/`} className="group text-left">
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">&larr; Previous Era</span>
-              <div className="font-display text-duke-navy group-hover:text-duke-gold transition-colors">
+              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
                 {prevEra.num}. {prevEra.name}
               </div>
             </Link>
@@ -90,7 +90,7 @@ export default function EraPage({ era, players, prevEra, nextEra }) {
           {nextEra ? (
             <Link href={`/eras/${nextEra.key}/`} className="group text-right">
               <span className="font-mono text-xs text-gray-400 uppercase tracking-wider">Next Era &rarr;</span>
-              <div className="font-display text-duke-navy group-hover:text-duke-gold transition-colors">
+              <div className="font-display text-uk-blue group-hover:text-uk-white transition-colors">
                 {nextEra.num}. {nextEra.name}
               </div>
             </Link>
