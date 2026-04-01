@@ -150,9 +150,9 @@ export async function getStaticProps() {
         season: s.season,
         era: s.era,
         record: s.record,
-        accRecord: s.accRecord,
-        ncaaTournament: s.ncaaTournament,
-        tagline: s.tagline,
+        accRecord: s.accRecord || "",
+        ncaaTournament: s.ncaaTournament || "",
+        tagline: s.tagline || "",
       })),
     },
   };

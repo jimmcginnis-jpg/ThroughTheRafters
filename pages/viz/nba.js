@@ -70,12 +70,12 @@ export default function NBAViz() {
       }));
   }, []);
 
-  const maxCount = Math.max(...seasonData.map(s => s.count));
+  const maxCount = seasonData.length > 0 ? Math.max(...seasonData.map(s => s.count)) : 1;
   const hoveredData = hoveredSeason ? seasonData.find(s => s.season === hoveredSeason) : null;
 
   // Stats
-  const currentSeason = seasonData[seasonData.length - 1];
-  const peak = seasonData.reduce((a, b) => b.count > a.count ? b : a, seasonData[0]);
+  const currentSeason = seasonData.length > 0 ? seasonData[seasonData.length - 1] : null;
+  const peak = seasonData.length > 0 ? seasonData.reduce((a, b) => b.count > a.count ? b : a, seasonData[0]) : null;
   const totalPlayerSeasons = seasonData.reduce((sum, s) => sum + s.count, 0);
 
   // SEO prose stats
