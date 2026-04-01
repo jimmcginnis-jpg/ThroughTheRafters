@@ -7,19 +7,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        duke: {
-          navy: '#00009C',
-          navyDark: '#000066',
-          gold: '#CBB677',
-          goldLight: '#E5D9B5',
-          cream: '#FAF8F3',
-          slate: '#1a1a2e',
+        uk: {
+          blue: '#0033A0',
+          blueDark: '#001A50',
+          white: '#FFFFFF',
+          silver: '#C8C9C7',
+          cream: '#F5F7FA',
+          slate: '#0A1628',
         },
       },
       fontFamily: {
-        display: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['EB Garamond', 'Georgia', 'serif'],
-        mono: ['Space Mono', 'monospace'],
+        display: ['Oswald', 'Arial', 'sans-serif'],
+        body: ['Source Sans 3', 'Arial', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
     },
   },
