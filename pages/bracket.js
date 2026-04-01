@@ -246,7 +246,7 @@ export default function BracketPage({ allTeams }) {
       canonical="/bracket/"
     >
       <Head>
-        <meta property="og:title" content=config.siteName + " Bracket Simulator | Through the Rafters" />
+        <meta property="og:title" content={`${config.siteName} Bracket Simulator`} />
         <meta property="og:description" content="Pick 16 Kentucky teams from 45 seasons. Simulate a tournament. Settle the debate." />
       </Head>
 

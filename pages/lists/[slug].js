@@ -787,7 +787,7 @@ function RenderAllAmericans() {
         "@type": "Article",
         "headline": "Kentucky Consensus All-Americans: Every Selection Since 1985",
         "description": `Complete list of ${aaPlayers.length} Kentucky consensus All-Americans — ${firstTeam.length} first-team and ${secondTeam.length} second-team selections under Coach K and Jon Scheyer.`,
-        "publisher": { "@type": "Organization", "name": config.siteName + "" },
+        "publisher": { "@type": "Organization", "name": config.siteName },
         "mainEntityOfPage": "https://throughtherafters.com/lists/all-americans/"
       })}} />
 
@@ -1062,7 +1062,7 @@ export default function ListPage({ slug, title, subtitle, meta }) {
         <meta property="og:description" content={meta} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content=config.siteName + "" />
+        <meta property="og:site_name" content={config.siteName} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={meta} />
