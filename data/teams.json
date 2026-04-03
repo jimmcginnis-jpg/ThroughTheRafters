@@ -1801,6 +1801,326 @@
         "tpPct": 31.9,
         "ftPct": 68.3
       }
+    },
+    {
+      "season": "1993-94",
+      "era": "pitino",
+      "record": "27-7",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 7
+      },
+      "accTournament": "",
+      "ncaaTournament": "Second Round",
+      "tagline": "Post-Mashburn transition year. Tony Delk and Travis Ford led the offense, Rodney Dent went down with injury, and Marquette upset Kentucky in the second round.",
+      "overview": "The 1993-94 Wildcats went 27-7 in the first season after Jamal Mashburn's departure. Tony Delk stepped into the lead role with 16.6 points, while senior Travis Ford ran the show with 193 assists and was named SEC Tournament MVP. Rodney Dent averaged 10.5 points but was lost to injury after 11 games. Jared Prickett contributed 8.2 points and 7.0 rebounds. Andre Riddick blocked 83 shots. Kentucky won the SEC Tournament, beating #1 Arkansas along the way, but was upset by Marquette 75-63 in the second round of the NCAAs.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 86.9,
+          "oppPpg": 74.6,
+          "rpg": 38.3,
+          "apg": 19.1,
+          "spg": 11.6,
+          "bpg": 5.7,
+          "topg": 15.7,
+          "fgPct": 46.8,
+          "threePct": 35.1,
+          "ftPct": 68.2
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 86.9,
+        "reb": 38.3,
+        "ast": 19.1,
+        "stl": 11.6,
+        "blk": 5.7,
+        "to": 15.7,
+        "fgPct": 46.8,
+        "tpPct": 35.1,
+        "ftPct": 68.2
+      },
+      "opponentTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 74.6,
+        "reb": 39.0,
+        "ast": 13.6,
+        "stl": 7.4,
+        "blk": 3.3,
+        "to": 20.4,
+        "fgPct": 42.2,
+        "tpPct": 33.4,
+        "ftPct": 68.0
+      }
+    },
+    {
+      "season": "1992-93",
+      "era": "pitino",
+      "record": "30-4",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 2
+      },
+      "accTournament": "",
+      "ncaaTournament": "Final Four",
+      "tagline": "Jamal Mashburn's masterpiece \u2014 consensus All-American, SEC Player of the Year. Travis Ford shot 53% from three. A 30-win team that reached the Final Four before losing to Michigan's Fab Five in overtime.",
+      "overview": "The 1992-93 Wildcats went 30-4 behind consensus first-team All-American Jamal Mashburn, who averaged 21.0 points, 8.4 rebounds, and 3.6 assists while earning SEC Player of the Year. Travis Ford was lethal from deep, shooting 52.9% from three with 101 makes. Dale Brown added 9.4 points in his senior year. Freshman Rodrick Rhodes contributed 9.1. Kentucky won the SEC Tournament and reached the Final Four as a #1 seed, dominating Wake Forest 103-69 and Florida State 106-81 in the regional, before falling to Michigan's Fab Five 81-78 in overtime in the national semifinal.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 87.5,
+          "oppPpg": 69.8,
+          "rpg": 40.1,
+          "apg": 19.6,
+          "spg": 9.5,
+          "bpg": 4.7,
+          "topg": 15.9,
+          "fgPct": 48.0,
+          "threePct": 39.4,
+          "ftPct": 68.8
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 87.5,
+        "reb": 40.1,
+        "ast": 19.6,
+        "stl": 9.5,
+        "blk": 4.7,
+        "to": 15.9,
+        "fgPct": 48.0,
+        "tpPct": 39.4,
+        "ftPct": 68.8
+      },
+      "opponentTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 69.8,
+        "reb": 34.1,
+        "ast": 11.7,
+        "stl": 7.9,
+        "blk": 3.4,
+        "to": 18.2,
+        "fgPct": 42.1,
+        "tpPct": 33.1,
+        "ftPct": 66.1
+      }
+    },
+    {
+      "season": "1991-92",
+      "era": "pitino",
+      "record": "29-7",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 6
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight",
+      "tagline": "The Unforgettables. Pelphrey, Feldhaus, Farmer, and Woods took the program from probation to within one shot of the Final Four. Christian Laettner's buzzer-beater ended it 104-103 in overtime.",
+      "overview": "The 1991-92 Wildcats went 29-7 in a magical season. Jamal Mashburn led with 21.3 points as a sophomore. The four senior captains \u2014 John Pelphrey, Deron Feldhaus, Richie Farmer, and Sean Woods \u2014 became known as 'The Unforgettables' for staying with the program through NCAA sanctions. Kentucky won the SEC Tournament and advanced to the Elite Eight as a #2 seed, where they lost to #1 Duke 104-103 in overtime on Christian Laettner's legendary turnaround jumper \u2014 widely considered the greatest game in NCAA Tournament history.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 36,
+          "ppg": 85.7,
+          "oppPpg": 74.4,
+          "rpg": 34.1,
+          "apg": 18.4,
+          "spg": 10.2,
+          "bpg": 3.4,
+          "topg": 15.1,
+          "fgPct": 47.8,
+          "threePct": 35.7,
+          "ftPct": 72.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": 85.7,
+        "reb": 34.1,
+        "ast": 18.4,
+        "stl": 10.2,
+        "blk": 3.4,
+        "to": 15.1,
+        "fgPct": 47.8,
+        "tpPct": 35.7,
+        "ftPct": 72.3
+      },
+      "opponentTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": 74.4,
+        "reb": 35.8,
+        "ast": 11.9,
+        "stl": 7.8,
+        "blk": 4.1,
+        "to": 19.7,
+        "fgPct": 45.7,
+        "tpPct": 30.1,
+        "ftPct": 70.2
+      }
+    },
+    {
+      "season": "1990-91",
+      "era": "pitino",
+      "record": "22-6",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 9
+      },
+      "accTournament": "",
+      "ncaaTournament": "Ineligible (Probation)",
+      "tagline": "Still banned from the postseason, Pitino's Wildcats went 22-6 with the best record in the SEC. Freshman Mashburn arrived. Reggie Hanson's senior season. The program was back.",
+      "overview": "In Pitino's second season, Kentucky went 22-6 despite remaining ineligible for postseason play due to NCAA probation. The Wildcats posted the SEC's best conference record at 14-4. Senior Reggie Hanson led with 14.4 points and 7.2 rebounds, while junior John Pelphrey matched him at 14.4 points. Freshman Jamal Mashburn arrived with 12.9 points and 7.0 rebounds per game. Deron Feldhaus (10.8) and Richie Farmer (10.1) gave Kentucky five double-figure scorers. Sean Woods dished 151 assists. Pitino won Sporting News National Coach of the Year and AP SEC Coach of the Year.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 28,
+          "ppg": 85.9,
+          "oppPpg": 78.1,
+          "rpg": 37.5,
+          "apg": 17.2,
+          "spg": 10.4,
+          "bpg": 4.3,
+          "topg": 15.6,
+          "fgPct": 44.2,
+          "threePct": 33.8,
+          "ftPct": 72.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 28,
+        "mpg": null,
+        "pts": 85.9,
+        "reb": 37.5,
+        "ast": 17.2,
+        "stl": 10.4,
+        "blk": 4.3,
+        "to": 15.6,
+        "fgPct": 44.2,
+        "tpPct": 33.8,
+        "ftPct": 72.3
+      },
+      "opponentTotals": {
+        "gp": 28,
+        "mpg": null,
+        "pts": 78.1,
+        "reb": 40.2,
+        "ast": 12.5,
+        "stl": 7.6,
+        "blk": 3.9,
+        "to": 20.8,
+        "fgPct": 45.8,
+        "tpPct": 32.6,
+        "ftPct": 70.4
+      }
+    },
+    {
+      "season": "1989-90",
+      "era": "pitino",
+      "record": "14-14",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "Ineligible (Probation)",
+      "tagline": "Pitino's first year. No scholarships, no postseason, no problem \u2014 he won National Coach of the Year anyway. The 150-95 loss at Kansas became the rallying cry. The rebuild had begun.",
+      "overview": "Rick Pitino arrived at Kentucky in 1989 to a program devastated by NCAA sanctions. With limited scholarships and a postseason ban, the Wildcats went 14-14. Derrick Miller led with 19.2 points per game. Reggie Hanson added 16.4 points and 7.1 rebounds. The four future 'Unforgettables' \u2014 sophomores Pelphrey (13.0), Feldhaus (14.4), Farmer (7.0), and Woods (9.1) \u2014 formed the core. The 150-95 loss at Kansas became a galvanizing moment. Despite the record, Pitino won National Coach of the Year from Basketball Times and SEC Coach of the Year from UPI for the transformation he had begun.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 28,
+          "ppg": 88.8,
+          "oppPpg": 87.9,
+          "rpg": 35.6,
+          "apg": 17.5,
+          "spg": 11.0,
+          "bpg": 3.7,
+          "topg": 14.4,
+          "fgPct": 43.9,
+          "threePct": 34.7,
+          "ftPct": 73.0
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 28,
+        "mpg": null,
+        "pts": 88.8,
+        "reb": 35.6,
+        "ast": 17.5,
+        "stl": 11.0,
+        "blk": 3.7,
+        "to": 14.4,
+        "fgPct": 43.9,
+        "tpPct": 34.7,
+        "ftPct": 73.0
+      },
+      "opponentTotals": {
+        "gp": 28,
+        "mpg": null,
+        "pts": 87.9,
+        "reb": 43.2,
+        "ast": 17.6,
+        "stl": 7.4,
+        "blk": 3.4,
+        "to": 21.2,
+        "fgPct": 49.2,
+        "tpPct": 38.3,
+        "ftPct": 71.4
+      }
     }
   ]
 }
