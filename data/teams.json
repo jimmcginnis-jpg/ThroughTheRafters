@@ -1419,17 +1419,145 @@
       }
     },
     {
+      "season": "1999-00",
+      "era": "tubby",
+      "record": "23-10",
+      "accRecord": "",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 0,
+        "final": 19
+      },
+      "accTournament": "",
+      "ncaaTournament": "Second Round",
+      "tagline": "Jamaal Magloire's senior year, freshman Keith Bogans arrived, and Tayshaun Prince emerged. SEC co-champs but a second-round NCAA exit to Syracuse.",
+      "overview": "The 1999-00 Wildcats went 23-10 behind senior Jamaal Magloire, who earned All-SEC First Team with 13.2 points, 9.1 rebounds, and 1.7 blocks. Sophomore Tayshaun Prince led scoring at 13.3 points. Freshman Keith Bogans showed promise with 12.5 points per game. Kentucky shared the SEC regular season title and reached the NCAAs as a #5 seed but fell to Syracuse 52-50 in the second round.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 33,
+          "ppg": 69.1,
+          "oppPpg": 62.8,
+          "rpg": 39.3,
+          "apg": 12.9,
+          "spg": 6.1,
+          "bpg": 5.6,
+          "topg": 15.1,
+          "fgPct": 42.3,
+          "threePct": 29.2,
+          "ftPct": 68.8
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": 69.1,
+        "reb": 39.3,
+        "ast": 12.9,
+        "stl": 6.1,
+        "blk": 5.6,
+        "to": 15.1,
+        "fgPct": 42.3,
+        "tpPct": 29.2,
+        "ftPct": 68.8
+      },
+      "opponentTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": 62.8,
+        "reb": 34.5,
+        "ast": 10.7,
+        "stl": 6.9,
+        "blk": 2.0,
+        "to": 14.2,
+        "fgPct": 39.0,
+        "tpPct": 32.6,
+        "ftPct": 64.6
+      }
+    },
+    {
+      "season": "1998-99",
+      "era": "tubby",
+      "record": "28-9",
+      "accRecord": "",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 0,
+        "final": 8
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight",
+      "tagline": "Defending champs returned without Sheppard, Mohammed, Edwards, and Mills. Padgett, Turner, and Evans led a 28-win squad to another Elite Eight before falling to Michigan State.",
+      "overview": "The 1998-99 Wildcats went 28-9 defending their national title. Scott Padgett led with 12.6 points and was named SEC Tournament MVP. Heshimu Evans contributed 11.8 points and 5.1 rebounds, while Wayne Turner ran the offense with 145 assists. Freshman Tayshaun Prince showed flashes with 5.8 points per game. Kentucky won the SEC Tournament, beating Mississippi, Auburn, and Arkansas. As a #3 seed, they beat New Mexico State, Kansas in overtime, and Miami (OH) before falling to Michigan State 73-66 in the Elite Eight.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 37,
+          "ppg": 75.4,
+          "oppPpg": 62.7,
+          "rpg": 39.7,
+          "apg": 16.4,
+          "spg": 7.7,
+          "bpg": 5.4,
+          "topg": 14.8,
+          "fgPct": 47.8,
+          "threePct": 33.4,
+          "ftPct": 63.9
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 37,
+        "mpg": null,
+        "pts": 75.4,
+        "reb": 39.7,
+        "ast": 16.4,
+        "stl": 7.7,
+        "blk": 5.4,
+        "to": 14.8,
+        "fgPct": 47.8,
+        "tpPct": 33.4,
+        "ftPct": 63.9
+      },
+      "opponentTotals": {
+        "gp": 37,
+        "mpg": null,
+        "pts": 62.7,
+        "reb": 33.6,
+        "ast": 11.4,
+        "stl": 6.9,
+        "blk": 2.8,
+        "to": 16.1,
+        "fgPct": 38.1,
+        "tpPct": 33.0,
+        "ftPct": 65.9
+      }
+    },
+    {
       "season": "1997-98",
       "era": "tubby",
       "record": "35-4",
       "coach": "Tubby Smith",
       "ranking": {
-        "preseason": 6,
-        "final": 1
+        "preseason": 0,
+        "final": 5
       },
       "ncaaTournament": "National Champions",
-      "tagline": "Tubby Smith's first year. The Comeback Cats. Kentucky's seventh national championship, won by a team nobody expected.",
-      "overview": "In his first season replacing Rick Pitino, Tubby Smith led Kentucky to the national championship. Jeff Sheppard was named Final Four MOP as Kentucky became the Comeback Cats.",
+      "tagline": "Tubby Smith's first season, Kentucky's eighth national championship. Jeff Sheppard was Final Four MOP, and the Cats beat Duke 86-84 in the regional final before topping Utah for the title.",
+      "overview": "In Tubby Smith's debut season, the Wildcats went 35-4 and won the national championship. Jeff Sheppard earned Final Four Most Outstanding Player, averaging 13.7 points. Nazr Mohammed dominated inside with 12.0 points and 7.2 rebounds. Scott Padgett contributed 11.5 points and 6.5 rebounds. Wayne Turner ran the floor with 173 assists and was named Regional MOP. Kentucky beat Duke 86-84 in the Elite Eight, edged Stanford 86-85 in overtime in the semis, and defeated Utah 78-69 for the title in San Antonio.",
       "unc": [],
       "march": {
         "confTourney": [],
@@ -1438,7 +1566,113 @@
         "accTourney": []
       },
       "accRecord": "14-2",
-      "accTournament": "SEC Tournament Champions"
+      "accTournament": "SEC Tournament Champions",
+      "stats": {
+        "team": {
+          "gp": 39,
+          "ppg": 80.1,
+          "oppPpg": 67.0,
+          "rpg": 42.1,
+          "apg": 17.7,
+          "spg": 8.7,
+          "bpg": 6.0,
+          "topg": 14.7,
+          "fgPct": 48.2,
+          "threePct": 36.7,
+          "ftPct": 67.5
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 39,
+        "mpg": null,
+        "pts": 80.1,
+        "reb": 42.1,
+        "ast": 17.7,
+        "stl": 8.7,
+        "blk": 6.0,
+        "to": 14.7,
+        "fgPct": 48.2,
+        "tpPct": 36.7,
+        "ftPct": 67.5
+      },
+      "opponentTotals": {
+        "gp": 39,
+        "mpg": null,
+        "pts": 67.0,
+        "reb": 33.9,
+        "ast": 12.4,
+        "stl": 6.9,
+        "blk": 2.8,
+        "to": 16.3,
+        "fgPct": 38.4,
+        "tpPct": 34.6,
+        "ftPct": 68.0
+      }
+    },
+    {
+      "season": "1996-97",
+      "era": "pitino",
+      "record": "35-5",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 5
+      },
+      "accTournament": "",
+      "ncaaTournament": "Runner-Up",
+      "tagline": "Pitino's last ride. Ron Mercer was consensus All-American. Derek Anderson tore his ACL mid-season, but UK still reached the title game before falling to Arizona in overtime.",
+      "overview": "The 1996-97 Wildcats went 35-5 in Rick Pitino's final season. Ron Mercer earned consensus first-team All-American and SEC Player of the Year honors with 18.1 points. Derek Anderson averaged 17.7 before a devastating ACL tear in January. Anthony Epps distributed 193 assists from the point. Nazr Mohammed and Jamaal Magloire anchored the post. Kentucky won the SEC Tournament and advanced to the national championship game as a #1 seed, beating Utah in the Elite Eight and Minnesota in the semis before losing to Arizona 84-79 in overtime.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 40,
+          "ppg": 83.1,
+          "oppPpg": 62.8,
+          "rpg": 39.4,
+          "apg": 19.4,
+          "spg": 12.0,
+          "bpg": 5.1,
+          "topg": 14.7,
+          "fgPct": 47.1,
+          "threePct": 36.9,
+          "ftPct": 68.2
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 40,
+        "mpg": null,
+        "pts": 83.1,
+        "reb": 39.4,
+        "ast": 19.4,
+        "stl": 12.0,
+        "blk": 5.1,
+        "to": 14.7,
+        "fgPct": 47.1,
+        "tpPct": 36.9,
+        "ftPct": 68.2
+      },
+      "opponentTotals": {
+        "gp": 40,
+        "mpg": null,
+        "pts": 62.8,
+        "reb": 34.2,
+        "ast": 12.1,
+        "stl": 6.4,
+        "blk": 2.5,
+        "to": 22.7,
+        "fgPct": 39.8,
+        "tpPct": 31.4,
+        "ftPct": 67.1
+      }
     },
     {
       "season": "1995-96",
@@ -1446,12 +1680,12 @@
       "record": "34-2",
       "coach": "Rick Pitino",
       "ranking": {
-        "preseason": 2,
-        "final": 1
+        "preseason": 0,
+        "final": 2
       },
       "ncaaTournament": "National Champions",
-      "tagline": "The Untouchables. Tony Delk's seven threes in the title game. Kentucky's sixth national championship.",
-      "overview": "Rick Pitino's masterpiece. Kentucky ran through the SEC undefeated and dominated the NCAA Tournament, with Tony Delk hitting seven three-pointers in the championship game victory over Syracuse.",
+      "tagline": "The Untouchables. Tony Delk hit seven threes in the championship game. 34-2, 16-0 in the SEC. Kentucky's sixth national title.",
+      "overview": "The 1995-96 Wildcats went 34-2 and won Kentucky's sixth national championship. Tony Delk earned Final Four MOP and SEC Player of the Year, averaging 17.8 points. Antoine Walker added 15.2 points and 8.4 rebounds as a sophomore. Walter McCarty contributed 11.3 points and 5.7 rebounds. Kentucky went 16-0 in the SEC, the first undefeated conference season since 1970. Delk hit seven three-pointers in the championship game as Kentucky beat Syracuse 76-67 in East Rutherford.",
       "unc": [],
       "march": {
         "confTourney": [],
@@ -1460,7 +1694,113 @@
         "accTourney": []
       },
       "accRecord": "16-0",
-      "accTournament": "SEC Tournament Champions"
+      "accTournament": "SEC Tournament Champions",
+      "stats": {
+        "team": {
+          "gp": 36,
+          "ppg": 91.4,
+          "oppPpg": 69.4,
+          "rpg": 41.7,
+          "apg": 21.8,
+          "spg": 12.1,
+          "bpg": 4.9,
+          "topg": 15.4,
+          "fgPct": 48.7,
+          "threePct": 39.7,
+          "ftPct": 71.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": 91.4,
+        "reb": 41.7,
+        "ast": 21.8,
+        "stl": 12.1,
+        "blk": 4.9,
+        "to": 15.4,
+        "fgPct": 48.7,
+        "tpPct": 39.7,
+        "ftPct": 71.3
+      },
+      "opponentTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": 69.4,
+        "reb": 35.8,
+        "ast": 13.5,
+        "stl": 7.1,
+        "blk": 3.9,
+        "to": 22.2,
+        "fgPct": 41.5,
+        "tpPct": 33.6,
+        "ftPct": 67.1
+      }
+    },
+    {
+      "season": "1994-95",
+      "era": "pitino",
+      "record": "28-5",
+      "accRecord": "",
+      "coach": "Rick Pitino",
+      "ranking": {
+        "preseason": 0,
+        "final": 2
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight",
+      "tagline": "Tony Delk, Rodrick Rhodes, Walter McCarty, and freshman Antoine Walker. SEC champs and tourney champs, but fell to North Carolina in the Elite Eight.",
+      "overview": "The 1994-95 Wildcats went 28-5 under Rick Pitino. Tony Delk led with 16.7 points per game, while Rodrick Rhodes added 12.9. Walter McCarty contributed 10.5 points and 5.6 rebounds. Freshman Antoine Walker made an immediate impact as SEC Tournament MVP with 7.8 points per game. Mark Pope anchored the interior with 8.2 points and 6.3 rebounds. Anthony Epps ran the point with 138 assists. Kentucky won the SEC regular season and tournament, then advanced to the Elite Eight as a #1 seed before falling to North Carolina 74-61.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 33,
+          "ppg": 87.4,
+          "oppPpg": 69.0,
+          "rpg": 40.5,
+          "apg": 19.6,
+          "spg": 10.5,
+          "bpg": 5.3,
+          "topg": 14.8,
+          "fgPct": 46.0,
+          "threePct": 37.5,
+          "ftPct": 71.9
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": 87.4,
+        "reb": 40.5,
+        "ast": 19.6,
+        "stl": 10.5,
+        "blk": 5.3,
+        "to": 14.8,
+        "fgPct": 46.0,
+        "tpPct": 37.5,
+        "ftPct": 71.9
+      },
+      "opponentTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": 69.0,
+        "reb": 37.0,
+        "ast": 12.7,
+        "stl": 6.7,
+        "blk": 4.2,
+        "to": 20.9,
+        "fgPct": 40.4,
+        "tpPct": 31.9,
+        "ftPct": 68.3
+      }
     }
   ]
 }
