@@ -587,6 +587,70 @@
       }
     },
     {
+      "season": "2012-13",
+      "era": "calipari",
+      "record": "21-12",
+      "accRecord": "",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "NIT (First Round)",
+      "tagline": "The hangover season. Nerlens Noel tore his ACL, the Wildcats missed the NCAA Tournament, and landed in the NIT.",
+      "overview": "Coming off the national championship, Kentucky's 2012-13 season was defined by adversity. Nerlens Noel was the centerpiece — averaging 10.5 points, 9.5 rebounds, and 4.4 blocks — but tore his ACL in February against Florida. Without him, the Wildcats stumbled to a 21-12 record and missed the NCAA Tournament for the first time under Calipari, losing in the first round of the NIT to Robert Morris.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 33,
+          "ppg": 72.6,
+          "oppPpg": 0,
+          "rpg": 35.2,
+          "apg": 13.4,
+          "spg": 5.6,
+          "bpg": 6.5,
+          "topg": 13.0,
+          "fgPct": 47.5,
+          "threePct": 34.6,
+          "ftPct": 64.2
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": 72.6,
+        "reb": 35.2,
+        "ast": 13.4,
+        "stl": 5.6,
+        "blk": 6.5,
+        "to": 13.0,
+        "fgPct": 47.5,
+        "tpPct": 34.6,
+        "ftPct": 64.2
+      },
+      "opponentTotals": {
+        "gp": 33,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
       "season": "2011-12",
       "era": "calipari",
       "record": "38-2",
@@ -606,7 +670,113 @@
         "accTourney": []
       },
       "accRecord": "16-0",
-      "accTournament": "SEC Tournament Champions"
+      "accTournament": "SEC Tournament Champions",
+      "stats": {
+        "team": {
+          "gp": 40,
+          "ppg": 77.4,
+          "oppPpg": 0,
+          "rpg": 36.1,
+          "apg": 13.3,
+          "spg": 6.1,
+          "bpg": 8.7,
+          "topg": 11.1,
+          "fgPct": 48.8,
+          "threePct": 37.8,
+          "ftPct": 72.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 40,
+        "mpg": null,
+        "pts": 77.4,
+        "reb": 36.1,
+        "ast": 13.3,
+        "stl": 6.1,
+        "blk": 8.7,
+        "to": 11.1,
+        "fgPct": 48.8,
+        "tpPct": 37.8,
+        "ftPct": 72.3
+      },
+      "opponentTotals": {
+        "gp": 40,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2010-11",
+      "era": "calipari",
+      "record": "29-9",
+      "accRecord": "",
+      "coach": "John Calipari",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "Final Four (Lost to Connecticut)",
+      "tagline": "Calipari's second team. Brandon Knight, Terrence Jones, and a Final Four run that announced Kentucky was back.",
+      "overview": "John Calipari's second Kentucky team featured freshman Brandon Knight, who averaged 17.3 points per game and hit the shot that beat Ohio State in the Sweet 16. Terrence Jones led the team in rebounds with 8.8 per game. Josh Harrellson emerged as a fan favorite and rebounding force. The Wildcats reached the Final Four before falling to Connecticut, who went on to win the national championship.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 38,
+          "ppg": 74.9,
+          "oppPpg": 0,
+          "rpg": 34.9,
+          "apg": 12.7,
+          "spg": 5.5,
+          "bpg": 6.3,
+          "topg": 10.6,
+          "fgPct": 45.9,
+          "threePct": 39.7,
+          "ftPct": 71.0
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 38,
+        "mpg": null,
+        "pts": 74.9,
+        "reb": 34.9,
+        "ast": 12.7,
+        "stl": 5.5,
+        "blk": 6.3,
+        "to": 10.6,
+        "fgPct": 45.9,
+        "tpPct": 39.7,
+        "ftPct": 71.0
+      },
+      "opponentTotals": {
+        "gp": 38,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
     },
     {
       "season": "2009-10",
@@ -628,7 +798,369 @@
         "accTourney": []
       },
       "accRecord": "14-2",
-      "accTournament": "SEC Tournament Champions"
+      "accTournament": "SEC Tournament Champions",
+      "stats": {
+        "team": {
+          "gp": 38,
+          "ppg": 79.3,
+          "oppPpg": 0,
+          "rpg": 38.6,
+          "apg": 15.1,
+          "spg": 7.5,
+          "bpg": 7.1,
+          "topg": 14.3,
+          "fgPct": 47.9,
+          "threePct": 33.1,
+          "ftPct": 66.8
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 38,
+        "mpg": null,
+        "pts": 79.3,
+        "reb": 38.6,
+        "ast": 15.1,
+        "stl": 7.5,
+        "blk": 7.1,
+        "to": 14.3,
+        "fgPct": 47.9,
+        "tpPct": 33.1,
+        "ftPct": 66.8
+      },
+      "opponentTotals": {
+        "gp": 38,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2008-09",
+      "era": "gillispie",
+      "record": "22-14",
+      "accRecord": "",
+      "coach": "Billy Gillispie",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "NIT (Second Round)",
+      "tagline": "Jodie Meeks scored 54 against Tennessee. Patterson returned. Gillispie was fired. The season ended in the NIT.",
+      "overview": "The 2008-09 season was defined by extremes. Jodie Meeks erupted for 54 points against Tennessee — the most by any SEC player in a conference game — and Patrick Patterson continued his development into an All-SEC force. But Gillispie lost the locker room, the Wildcats stumbled to 22-14, and missed the NCAA Tournament. Gillispie was fired after the season and replaced by John Calipari.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 36,
+          "ppg": 74.1,
+          "oppPpg": 0,
+          "rpg": 34.0,
+          "apg": 15.7,
+          "spg": 6.6,
+          "bpg": 6.6,
+          "topg": 16.7,
+          "fgPct": 48.1,
+          "threePct": 35.3,
+          "ftPct": 77.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": 74.1,
+        "reb": 34.0,
+        "ast": 15.7,
+        "stl": 6.6,
+        "blk": 6.6,
+        "to": 16.7,
+        "fgPct": 48.1,
+        "tpPct": 35.3,
+        "ftPct": 77.3
+      },
+      "opponentTotals": {
+        "gp": 36,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2007-08",
+      "era": "gillispie",
+      "record": "18-13",
+      "accRecord": "",
+      "coach": "Billy Gillispie",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "First Round",
+      "tagline": "Billy Gillispie's first season. Joe Crawford, Patrick Patterson, and a first-round exit.",
+      "overview": "Billy Gillispie arrived from Texas A&M to replace Tubby Smith and inherited a roster led by seniors Joe Crawford and Ramel Bradley. Freshman Patrick Patterson showed immediate star potential, averaging 16.4 points and 7.7 rebounds. Jodie Meeks was limited to 11 games with a hip injury. The Wildcats went 18-13 and lost to Marquette in the first round of the NCAA Tournament.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 31,
+          "ppg": 68.5,
+          "oppPpg": 0,
+          "rpg": 31.3,
+          "apg": 12.7,
+          "spg": 6.7,
+          "bpg": 4.7,
+          "topg": 15.5,
+          "fgPct": 46.9,
+          "threePct": 36.9,
+          "ftPct": 73.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 31,
+        "mpg": null,
+        "pts": 68.5,
+        "reb": 31.3,
+        "ast": 12.7,
+        "stl": 6.7,
+        "blk": 4.7,
+        "to": 15.5,
+        "fgPct": 46.9,
+        "tpPct": 36.9,
+        "ftPct": 73.3
+      },
+      "opponentTotals": {
+        "gp": 31,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2006-07",
+      "era": "tubby",
+      "record": "22-12",
+      "accRecord": "",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "Second Round",
+      "tagline": "Tubby Smith's final season. Randolph Morris, Joe Crawford, and Ramel Bradley led a second-round exit before Smith departed for Minnesota.",
+      "overview": "The 2006-07 season was Tubby Smith's last in Lexington. Randolph Morris led the team at 16.1 points and 7.8 rebounds. Joe Crawford and Ramel Bradley formed a potent backcourt. Freshman Jodie Meeks showed flashes of the scorer he'd become, averaging 8.7 points. Kentucky went 22-12 and lost to Kansas in the second round of the NCAA Tournament. Smith resigned shortly after to take the Minnesota job, ending a 10-year run that included a national championship in 1998.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 73.4,
+          "oppPpg": 0,
+          "rpg": 33.0,
+          "apg": 15.8,
+          "spg": 5.9,
+          "bpg": 4.8,
+          "topg": 14.3,
+          "fgPct": 47.6,
+          "threePct": 35.5,
+          "ftPct": 70.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 73.4,
+        "reb": 33.0,
+        "ast": 15.8,
+        "stl": 5.9,
+        "blk": 4.8,
+        "to": 14.3,
+        "fgPct": 47.6,
+        "tpPct": 35.5,
+        "ftPct": 70.3
+      },
+      "opponentTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2005-06",
+      "era": "tubby",
+      "record": "22-13",
+      "accRecord": "",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "Second Round",
+      "tagline": "Rondo's breakout. Randolph Morris returned midseason. A second-round exit ended Tubby's penultimate year.",
+      "overview": "Rajon Rondo took over as the engine of the 2005-06 team, averaging 11.2 points, 6.1 rebounds, and 4.9 assists. Randolph Morris missed the first half of the season due to an NCAA suspension but returned to average 13.3 points in 21 games. Patrick Sparks provided veteran scoring. The Wildcats went 22-13 and fell in the second round of the NCAA Tournament to Connecticut.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 35,
+          "ppg": 70.8,
+          "oppPpg": 0,
+          "rpg": 33.0,
+          "apg": 14.1,
+          "spg": 5.9,
+          "bpg": 2.9,
+          "topg": 12.7,
+          "fgPct": 44.7,
+          "threePct": 35.0,
+          "ftPct": 67.6
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 35,
+        "mpg": null,
+        "pts": 70.8,
+        "reb": 33.0,
+        "ast": 14.1,
+        "stl": 5.9,
+        "blk": 2.9,
+        "to": 12.7,
+        "fgPct": 44.7,
+        "tpPct": 35.0,
+        "ftPct": 67.6
+      },
+      "opponentTotals": {
+        "gp": 35,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
+    },
+    {
+      "season": "2004-05",
+      "era": "tubby",
+      "record": "28-6",
+      "accRecord": "",
+      "coach": "Tubby Smith",
+      "ranking": {
+        "preseason": 0,
+        "final": 0
+      },
+      "accTournament": "",
+      "ncaaTournament": "Elite Eight",
+      "tagline": "Tubby's last Elite Eight. Chuck Hayes, Kelenna Azubuike, a freshman Rajon Rondo, and Patrick Sparks' miracle three against Michigan State.",
+      "overview": "The 2004-05 Wildcats were led by senior Chuck Hayes, who won SEC Defensive Player of the Year, and junior Kelenna Azubuike, who averaged 14.7 points. Freshman Rajon Rondo made an immediate impact with 87 steals and 118 assists. Patrick Sparks hit a legendary contested three-pointer from NBA range to force overtime against Michigan State in a double-overtime Elite Eight classic. Kentucky fell just short, losing 94-88 in the regional final.",
+      "unc": [],
+      "march": {
+        "confTourney": [],
+        "ncaaTourney": [],
+        "nit": [],
+        "accTourney": []
+      },
+      "stats": {
+        "team": {
+          "gp": 34,
+          "ppg": 73.6,
+          "oppPpg": 0,
+          "rpg": 32.6,
+          "apg": 15.0,
+          "spg": 9.1,
+          "bpg": 4.4,
+          "topg": 12.6,
+          "fgPct": 46.4,
+          "threePct": 34.3,
+          "ftPct": 66.3
+        },
+        "leaders": []
+      },
+      "teamTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": 73.6,
+        "reb": 32.6,
+        "ast": 15.0,
+        "stl": 9.1,
+        "blk": 4.4,
+        "to": 12.6,
+        "fgPct": 46.4,
+        "tpPct": 34.3,
+        "ftPct": 66.3
+      },
+      "opponentTotals": {
+        "gp": 34,
+        "mpg": null,
+        "pts": null,
+        "reb": null,
+        "ast": null,
+        "stl": null,
+        "blk": null,
+        "to": null,
+        "fgPct": null,
+        "tpPct": null,
+        "ftPct": null
+      }
     },
     {
       "season": "1997-98",
