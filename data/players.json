@@ -475,7 +475,79 @@
           "url": "https://www.basketball-reference.com/players/m/mashbja01.html"
         }
       ],
-      "lastUpdated": "2026-04-03"
+      "lastUpdated": "2026-04-03",
+      "nba": {
+        "draftYear": 1993,
+        "draftRound": 1,
+        "draftPick": 4,
+        "draftTeam": "Dallas Mavericks",
+        "careerYears": "1993-2004",
+        "games": 611,
+        "ppg": 19.1,
+        "rpg": 5.4,
+        "apg": 4.0,
+        "teams": [
+          {
+            "team": "Dallas Mavericks",
+            "seasons": [
+              "1993-94",
+              "1994-95",
+              "1995-96",
+              "1996-97"
+            ]
+          },
+          {
+            "team": "Miami Heat",
+            "seasons": [
+              "1996-97",
+              "1997-98",
+              "1998-99",
+              "1999-00"
+            ]
+          },
+          {
+            "team": "Charlotte Hornets",
+            "seasons": [
+              "2000-01",
+              "2001-02"
+            ]
+          },
+          {
+            "team": "New Orleans Hornets",
+            "seasons": [
+              "2002-03",
+              "2003-04"
+            ]
+          }
+        ],
+        "highlights": [
+          {
+            "season": "1993-94",
+            "note": "NBA All-Rookie First Team (19.2 ppg)"
+          },
+          {
+            "season": "1994-95",
+            "note": "Averaged 24.1 ppg, 50-point game vs Chicago Bulls"
+          },
+          {
+            "season": "1996-97",
+            "note": "Traded to Miami; reached Eastern Conference Finals"
+          },
+          {
+            "season": "2002-03",
+            "note": "NBA All-Star, averaged 21.6 ppg in 82 games"
+          },
+          {
+            "season": "2003-04",
+            "note": "Final season \u2014 20.8 ppg, one of six players since 1970 to average 20+ in final NBA season"
+          }
+        ],
+        "lastSeason": "2003-04",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": "Entrepreneur and franchise mogul. Owns 90+ businesses including Outback Steakhouses, Papa John's, car dealerships. Net worth estimated at $100 million."
+      }
     },
     {
       "id": "tony_delk",
@@ -801,11 +873,11 @@
       "years": "2011\u201312",
       "classOf": "2012",
       "height": "6'10\"",
-      "tagline": "He was a 6-foot-2 guard going into his junior year of high school. Then he grew eight inches \u2014 and became the most dominant college player of his generation.",
-      "status": "stub",
-      "now": "Center, Los Angeles Lakers",
-      "drafted": "1st Rd, 1st \u2014 New Orleans Hornets",
-      "stat": "568 pts \u2022 14.2 ppg \u2022 10.4 rpg \u2022 4.7 bpg \u2022 #1 pick \u2022 Naismith POY",
+      "tagline": "The little guy who shot threes from the corner \u2014 until he grew ten inches and changed everything.",
+      "status": "complete",
+      "now": "Currently with the Washington Wizards after blockbuster trades from the Lakers to Dallas to Washington. 10x NBA All-Star, 2020 NBA Champion, 3x Olympic gold medalist. Sidelined with a left hand injury, expected to return April 2026.",
+      "drafted": "1st Rd, 1st Overall \u2014 New Orleans Hornets (2012)",
+      "stat": "14.2 ppg \u2022 10.4 rpg \u2022 4.7 bpg \u2022 National Player of the Year \u2022 NCAA Champion",
       "seasons": [
         "2011-12"
       ],
@@ -815,9 +887,130 @@
       "weight": "253",
       "rsci": "1",
       "dob": "1993-03-11",
-      "bio": {},
-      "sources": [],
-      "lastUpdated": null
+      "bio": {
+        "road": "Anthony Davis grew up in Englewood, one of Chicago's most dangerous neighborhoods, where poverty rates doubled the city average and the sound of gunfire was part of the evening routine. His parents \u2014 Anthony Sr., a carpenter, and Erainer, a nurse \u2014 made a decision that shaped everything that followed: they enrolled their son at Perspectives Charter School, a math and science academy seven miles from home. Perspectives had a strong academic reputation and almost no athletic infrastructure. There was no gymnasium. The middle school basketball teams practiced at the nearby Second Presbyterian Church.\n\nDavis was, by every account, unremarkable as a basketball prospect. He ended his freshman year at six feet tall \u2014 a guard who liked to shoot threes from the corner. His twin sister Antoinette and older sister Iesha were part of a tight family unit that kept him focused while Englewood pulled other kids in darker directions. Then his body changed. He grew an inch by sophomore year, then kept going \u2014 six-four, six-eight, six-ten. A ten-inch growth spurt across three years, with no knee pain, transforming a perimeter shooter into something no one in Chicago had ever seen: a near-seven-footer who still moved and thought like a point guard.\n\nFor three years of Chicago Public League play, nobody noticed. Perspectives played in the Blue Division, which the city's basketball media ignored. His junior year, the team went 8-15. His family considered transferring him to a powerhouse, but Hyde Park Career Academy coach Donnie Kirksey advised against it: \"If you're good enough, they'll find you wherever you are.\"\n\nThey found him. In the spring of his junior year, Davis joined Tai Streets' Meanstreets AAU program, and suddenly the basketball world realized what had been hiding in a gymnasium-less charter school on the South Side. Syracuse was the first high-major program to visit Perspectives. Within weeks, every blue blood in the country was calling. By the time he was done \u2014 32 points, 22 rebounds, and 7 blocks per game as a senior, McDonald's All-American, Parade first-team All-American, Jordan Brand Classic co-MVP \u2014 he was the number one recruit in America.\n\nHe committed to Kentucky on August 13, 2010, choosing the Wildcats over Ohio State, Syracuse, and DePaul. John Calipari described him simply: \"A tremendous shot blocker with great size and length. He can make three-pointers, dribble the ball, and he can get up and down the court faster than some of our guards.\" The little guy who shot threes from the corner was about to become the most dominant player in college basketball.",
+        "kentucky": "The 2011-12 Kentucky Wildcats were loaded \u2014 Michael Kidd-Gilchrist, Terrence Jones, Doron Lamb, Marquis Teague, Darius Miller \u2014 but Anthony Davis was the reason they were historic. He started all 40 games and led the team in both scoring (14.2 ppg) and rebounding (10.4 rpg) while blocking a staggering 186 shots, an NCAA-leading 4.7 per game that shattered Kentucky's single-season record.\n\nThe numbers alone don't capture what Davis did to opposing offenses. He altered shots without touching them. He erased driving lanes by existing in them. He turned Rupp Arena into a no-fly zone and made the SEC's best players reconsider their life choices in the paint. Kentucky went 16-0 in conference play \u2014 a perfect league season \u2014 and rolled through the SEC Tournament without breaking a sweat.\n\nIn the NCAA Tournament, Davis was the difference between very good and immortal. He had 15 points, 12 rebounds, and 5 assists against Iowa State. He had 18 points and 11 rebounds against Louisville in the Final Four. And in the national championship game against Kansas \u2014 a matchup that pitted him against fellow Player of the Year finalist Thomas Robinson \u2014 Davis put up a line that will live forever in Kentucky basketball: 6 points, 16 rebounds, 6 blocks, 5 assists, and 3 steals. He scored almost nothing and dominated everything. Kansas couldn't get a clean look at the rim all night. Kentucky won 67-59, and Davis cut down the nets as the most complete player college basketball had seen in a generation.\n\nHe swept every individual award: Naismith Player of the Year, Wooden Award, AP Player of the Year (only the second freshman ever, after Kevin Durant), NABC Defensive Player of the Year, SEC Player of the Year, and Final Four Most Outstanding Player. He was consensus first-team All-American. He led Kentucky to a 38-2 record and the program's eighth national championship.\n\nOne season. One title. One of the most dominant individual years in the history of college basketball. Davis didn't just wear the jersey \u2014 he added a banner to the rafters.",
+        "after": "The New Orleans Hornets selected Davis first overall in the 2012 NBA Draft \u2014 a foregone conclusion since before his college season began. Before he played his first professional game, he was already an Olympic gold medalist, having been the youngest player on the 2012 Team USA roster that dominated in London.\n\nDavis announced himself immediately in New Orleans, averaging 13.5 points and 8.2 rebounds as a rookie and earning All-Rookie First Team honors. His second season was a leap: 20.8 points, 10.0 rebounds, and a league-leading 2.8 blocks per game, earning his first All-Star selection at age 20. By his third year he was averaging 24.4 points and 10.2 rebounds, carrying the now-renamed Pelicans to their first playoff appearance of the Davis era.\n\nThe accolades accumulated at a rate reserved for the truly elite. He led the NBA in blocks three times. In the 2017 All-Star Game, he scored a record 52 points and was named MVP. In February 2016, he poured in a career-high 59 points against the Detroit Pistons. He was named All-NBA First Team four times. Through seven seasons in New Orleans, he established himself as one of the most devastating two-way players in basketball \u2014 a rim protector who could score 40 on any given night.\n\nIn 2019, Davis requested a trade to the Los Angeles Lakers, where he formed a partnership with LeBron James that produced immediate results. In the COVID-shortened 2020 season, Davis averaged 26.1 points, 9.3 rebounds, and 2.3 blocks as the Lakers won the NBA championship \u2014 Davis's first ring. He averaged 25.0 points and 10.7 rebounds in the Finals against, of all teams, the Miami Heat. LeBron James told Sports Illustrated that Davis held him accountable on defense, saying the team's championship identity \"starts and ends\" with the two of them.\n\nDavis won the inaugural NBA Cup with the Lakers in 2023 and continued to be one of the league's most dominant players when healthy \u2014 the caveat that has followed his career. Injuries limited his availability in multiple seasons, but his per-game production remained elite.\n\nIn February 2025, Davis was part of one of the most stunning trades in NBA history: sent to the Dallas Mavericks alongside Max Christie and a first-round pick in exchange for Luka Doncic. It was the first time two reigning All-NBA players had been traded for each other midseason. Davis made an immediate impact in Dallas \u2014 26 points, 16 rebounds, and 7 assists in his debut \u2014 before an adductor strain sidelined him. He returned in late March 2025 and nearly willed the Mavericks into the playoffs, scoring 40 in a Play-In game against Memphis. That summer, he underwent surgery to repair a detached retina and was fitted with protective goggles he'll wear for the rest of his career.\n\nIn the 2025-26 season, Davis was traded again \u2014 this time to the Washington Wizards. Through his career: 10 All-Star selections, 4 All-NBA First Team honors, 3 NBA blocks titles, an NBA championship, an NBA Cup title, and three Olympic gold medals (2012, 2014 FIBA World Cup, 2024 Paris Olympics).",
+        "now": "Anthony Davis is currently with the Washington Wizards, sidelined since January 2026 with a left hand injury suffered against the Utah Jazz. He is expected to return in April 2026.\n\nHe is 33 years old. His career averages hover around 23 points, 10 rebounds, and 2.3 blocks per game across 13 NBA seasons. He has earned more than $300 million in NBA salary, including the richest annual contract extension in league history at the time \u2014 three years, $186 million with the Lakers in 2023. He has played for four franchises: New Orleans, Los Angeles, Dallas, and Washington.\n\nThe trajectory has been extraordinary and turbulent. Davis is one of the most talented players of his generation \u2014 a legitimate top-75 all-time player as selected by the NBA in 2021 \u2014 whose career narrative has been shaped as much by what injuries took away as by what his body allowed him to do when healthy. He has never played a full 82-game season. He has also never been anything less than dominant when on the floor.\n\nHe remains deeply connected to Kentucky. He returns to Lexington, attends games, and his championship banner \u2014 2012, the eighth in program history \u2014 hangs from the rafters at Rupp Arena alongside the banners of Rupp's Fabulous Five, the Fiddlin' Five, the '78 team, the '96 team, the '98 team. His jersey number 23 is not officially retired but might as well be.\n\nDavis was the ultimate expression of the Calipari model \u2014 the one-and-done who came, conquered, and left as the best player in the country. But he was also something more specific to the Kentucky tradition. He was a kid who grew up invisible in a charter school without a gymnasium, and Kentucky was the place that put him on the stage. Every scout in America missed him until he was seventeen. Calipari didn't miss him. The jersey didn't miss him.\n\nThe little guy who shot threes from the corner grew ten inches, won a national championship, went first in the draft, won an NBA title, won three Olympic golds, and is still playing. Somewhere in Englewood, there's a kid practicing at a church because his school doesn't have a gym. Anthony Davis was that kid. And then he wore Kentucky across his chest, and nothing was invisible anymore."
+      },
+      "sources": [
+        {
+          "title": "Anthony Davis \u2014 Walter's Wildcat World",
+          "url": "https://www.wildcatworld.com/player/anthony-davis/"
+        },
+        {
+          "title": "Anthony Davis \u2014 UK Athletics",
+          "url": "https://ukathletics.com/sports/mbball/roster/player/anthony-davis/"
+        },
+        {
+          "title": "Anthony Davis \u2014 Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anthony_Davis"
+        },
+        {
+          "title": "Anthony Davis \u2014 Britannica",
+          "url": "https://www.britannica.com/biography/Anthony-Davis-basketball"
+        },
+        {
+          "title": "Anthony Davis \u2014 Sky Sports Feature",
+          "url": "https://www.skysports.com/nba/news/36226/11553705/anthony-davis-and-his-journey-from-high-school-point-guard-to-feared-nba-big-man"
+        },
+        {
+          "title": "Anthony Davis \u2014 247Sports Recruiting Profile",
+          "url": "https://247sports.com/player/anthony-davis-1332/college-24907/"
+        },
+        {
+          "title": "Anthony Davis \u2014 Basketball Reference",
+          "url": "https://www.basketball-reference.com/players/d/davisan02.html"
+        },
+        {
+          "title": "Anthony Davis \u2014 Grokipedia",
+          "url": "https://grokipedia.com/page/Anthony_Davis"
+        }
+      ],
+      "lastUpdated": "2026-04-03",
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 1,
+        "draftPick": 1,
+        "draftTeam": "New Orleans Hornets",
+        "careerYears": "2012-present",
+        "games": 830,
+        "ppg": 23.9,
+        "rpg": 10.1,
+        "apg": 2.4,
+        "teams": [
+          {
+            "team": "New Orleans Hornets/Pelicans",
+            "seasons": [
+              "2012-13",
+              "2013-14",
+              "2014-15",
+              "2015-16",
+              "2016-17",
+              "2017-18",
+              "2018-19"
+            ]
+          },
+          {
+            "team": "Los Angeles Lakers",
+            "seasons": [
+              "2019-20",
+              "2020-21",
+              "2021-22",
+              "2022-23",
+              "2023-24",
+              "2024-25"
+            ]
+          },
+          {
+            "team": "Dallas Mavericks",
+            "seasons": [
+              "2024-25"
+            ]
+          },
+          {
+            "team": "Washington Wizards",
+            "seasons": [
+              "2025-26"
+            ]
+          }
+        ],
+        "highlights": [
+          {
+            "season": "2012-13",
+            "note": "NBA All-Rookie First Team"
+          },
+          {
+            "season": "2013-14",
+            "note": "First All-Star selection; led NBA in blocks (2.8 bpg)"
+          },
+          {
+            "season": "2016-17",
+            "note": "28.0 ppg, 11.8 rpg; All-NBA First Team"
+          },
+          {
+            "season": "2016-17",
+            "note": "All-Star Game MVP \u2014 record 52 points"
+          },
+          {
+            "season": "2019-20",
+            "note": "NBA Champion with Lakers (25.0 ppg, 10.7 rpg in Finals)"
+          },
+          {
+            "season": "2022-23",
+            "note": "25.9 ppg; Lakers reached Western Conference Finals"
+          },
+          {
+            "season": "2024-25",
+            "note": "Traded to Dallas Mavericks for Luka Doncic in historic midseason swap"
+          }
+        ],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": "Active player. 10x All-Star, 4x All-NBA First Team, 3x blocks leader, NBA champion (2020), 3x Olympic gold medalist (2012, 2014 FIBA World Cup, 2024)."
+      }
     },
     {
       "id": "michael_kidd_gilchrist",
