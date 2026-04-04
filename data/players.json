@@ -83,7 +83,25 @@
       "dob": "1948-10-25",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1970,
+        "draftRound": 8,
+        "draftPick": 122,
+        "draftTeam": "",
+        "careerYears": "1971-1985",
+        "games": 1218,
+        "ppg": 22.6,
+        "rpg": 9.1,
+        "apg": 2.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1984-85",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "pat_riley",
@@ -110,7 +128,25 @@
       "dob": "1945-03-20",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1967,
+        "draftRound": 1,
+        "draftPick": 7,
+        "draftTeam": "",
+        "careerYears": "1968-1976",
+        "games": 528,
+        "ppg": 7.4,
+        "rpg": 1.6,
+        "apg": 1.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1975-76",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ralph_beard",
@@ -137,7 +173,25 @@
       "dob": "1927-12-02",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1949,
+        "draftRound": 1,
+        "draftPick": 10,
+        "draftTeam": "",
+        "careerYears": "1950-1951",
+        "games": 126,
+        "ppg": 15.9,
+        "rpg": 3.8,
+        "apg": 4.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1950-51",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "alex_groza",
@@ -164,7 +218,25 @@
       "dob": "1926-10-07",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1949,
+        "draftRound": 1,
+        "draftPick": 2,
+        "draftTeam": "",
+        "careerYears": "1950-1951",
+        "games": 130,
+        "ppg": 22.5,
+        "rpg": 10.7,
+        "apg": 2.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1950-51",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "cliff_hagan",
@@ -191,7 +263,25 @@
       "dob": "1931-12-09",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1953,
+        "draftRound": 3,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "1957-1970",
+        "games": 839,
+        "ppg": 17.7,
+        "rpg": 6.6,
+        "apg": 3.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1969-70",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "frank_ramsey",
@@ -218,7 +308,25 @@
       "dob": "1931-07-13",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1953,
+        "draftRound": 1,
+        "draftPick": 6,
+        "draftTeam": "",
+        "careerYears": "1955-1964",
+        "games": 623,
+        "ppg": 13.4,
+        "rpg": 5.5,
+        "apg": 1.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1963-64",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "cotton_nash",
@@ -245,7 +353,25 @@
       "dob": "1942-07-24",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1964,
+        "draftRound": 2,
+        "draftPick": 14,
+        "draftTeam": "",
+        "careerYears": "1965-1968",
+        "games": 84,
+        "ppg": 5.6,
+        "rpg": 3.3,
+        "apg": 0.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1967-68",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "louie_dampier",
@@ -272,7 +398,25 @@
       "dob": "1944-11-20",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1967,
+        "draftRound": 4,
+        "draftPick": 38,
+        "draftTeam": "",
+        "careerYears": "1968-1979",
+        "games": 960,
+        "ppg": 15.9,
+        "rpg": 2.6,
+        "apg": 4.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1978-79",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jack_givens",
@@ -299,7 +443,25 @@
       "dob": "1956-09-21",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1978,
+        "draftRound": 1,
+        "draftPick": 16,
+        "draftTeam": "",
+        "careerYears": "1979-1980",
+        "games": 156,
+        "ppg": 6.7,
+        "rpg": 2.9,
+        "apg": 0.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1979-80",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "kyle_macy",
@@ -326,7 +488,25 @@
       "dob": "1957-04-18",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1979,
+        "draftRound": 1,
+        "draftPick": 22,
+        "draftTeam": "",
+        "careerYears": "1981-1987",
+        "games": 551,
+        "ppg": 9.5,
+        "rpg": 2.2,
+        "apg": 4.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1986-87",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "sam_bowie",
@@ -353,7 +533,25 @@
       "dob": "1961-03-17",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1984,
+        "draftRound": 1,
+        "draftPick": 2,
+        "draftTeam": "",
+        "careerYears": "1985-1995",
+        "games": 511,
+        "ppg": 10.9,
+        "rpg": 7.5,
+        "apg": 2.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1994-95",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "kenny_walker",
@@ -380,7 +578,25 @@
       "dob": "1964-08-18",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1986,
+        "draftRound": 1,
+        "draftPick": 5,
+        "draftTeam": "",
+        "careerYears": "1987-1995",
+        "games": 448,
+        "ppg": 7.0,
+        "rpg": 4.0,
+        "apg": 0.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1994-95",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "rex_chapman",
@@ -408,7 +624,25 @@
       "dob": "1967-10-05",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1988,
+        "draftRound": 1,
+        "draftPick": 8,
+        "draftTeam": "",
+        "careerYears": "1989-2000",
+        "games": 666,
+        "ppg": 14.6,
+        "rpg": 2.5,
+        "apg": 2.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1999-00",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jamal_mashburn",
@@ -577,7 +811,25 @@
       "dob": "1974-01-28",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1996,
+        "draftRound": 1,
+        "draftPick": 16,
+        "draftTeam": "",
+        "careerYears": "1997-2006",
+        "games": 545,
+        "ppg": 9.1,
+        "rpg": 2.5,
+        "apg": 1.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2005-06",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "antoine_walker",
@@ -605,7 +857,25 @@
       "dob": "1976-08-12",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1996,
+        "draftRound": 1,
+        "draftPick": 6,
+        "draftTeam": "",
+        "careerYears": "1997-2008",
+        "games": 893,
+        "ppg": 17.5,
+        "rpg": 7.7,
+        "apg": 3.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2007-08",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ron_mercer",
@@ -633,7 +903,25 @@
       "dob": "1976-05-18",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1997,
+        "draftRound": 1,
+        "draftPick": 6,
+        "draftTeam": "",
+        "careerYears": "1998-2005",
+        "games": 432,
+        "ppg": 13.6,
+        "rpg": 3.1,
+        "apg": 2.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2004-05",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "derek_anderson",
@@ -661,7 +949,25 @@
       "dob": "1974-07-18",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1997,
+        "draftRound": 1,
+        "draftPick": 13,
+        "draftTeam": "",
+        "careerYears": "1998-2008",
+        "games": 615,
+        "ppg": 12.0,
+        "rpg": 3.2,
+        "apg": 3.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2007-08",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jeff_sheppard",
@@ -692,7 +998,25 @@
       "dob": "1974-10-26",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "1999-1999",
+        "games": 18,
+        "ppg": 2.2,
+        "rpg": 1.2,
+        "apg": 0.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1998-99",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "tayshaun_prince",
@@ -722,7 +1046,25 @@
       "dob": "1980-01-28",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2002,
+        "draftRound": 1,
+        "draftPick": 23,
+        "draftTeam": "",
+        "careerYears": "2003-2016",
+        "games": 1017,
+        "ppg": 11.1,
+        "rpg": 4.3,
+        "apg": 2.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2015-16",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "rajon_rondo",
@@ -750,7 +1092,25 @@
       "dob": "1986-02-22",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2006,
+        "draftRound": 1,
+        "draftPick": 21,
+        "draftTeam": "",
+        "careerYears": "2007-2022",
+        "games": 957,
+        "ppg": 9.8,
+        "rpg": 4.5,
+        "apg": 7.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jodie_meeks",
@@ -779,7 +1139,25 @@
       "dob": "1987-08-21",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2009,
+        "draftRound": 2,
+        "draftPick": 41,
+        "draftTeam": "",
+        "careerYears": "2010-2019",
+        "games": 539,
+        "ppg": 9.3,
+        "rpg": 2.1,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "patrick_patterson",
@@ -808,7 +1186,25 @@
       "dob": "1989-03-14",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2010,
+        "draftRound": 1,
+        "draftPick": 14,
+        "draftTeam": "",
+        "careerYears": "2011-2021",
+        "games": 719,
+        "ppg": 6.7,
+        "rpg": 3.9,
+        "apg": 1.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2020-21",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "john_wall",
@@ -835,7 +1231,25 @@
       "dob": "1990-09-06",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2010,
+        "draftRound": 1,
+        "draftPick": 1,
+        "draftTeam": "",
+        "careerYears": "2011-2023",
+        "games": 647,
+        "ppg": 18.7,
+        "rpg": 4.2,
+        "apg": 8.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2022-23",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "demarcus_cousins",
@@ -862,7 +1276,25 @@
       "dob": "1990-08-13",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2010,
+        "draftRound": 1,
+        "draftPick": 5,
+        "draftTeam": "",
+        "careerYears": "2011-2022",
+        "games": 654,
+        "ppg": 19.6,
+        "rpg": 10.2,
+        "apg": 3.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "anthony_davis",
@@ -934,10 +1366,10 @@
         "draftPick": 1,
         "draftTeam": "New Orleans Hornets",
         "careerYears": "2012-present",
-        "games": 830,
-        "ppg": 23.9,
-        "rpg": 10.1,
-        "apg": 2.4,
+        "games": 807,
+        "ppg": 24.0,
+        "rpg": 10.7,
+        "apg": 2.6,
         "teams": [
           {
             "team": "New Orleans Hornets/Pelicans",
@@ -1037,7 +1469,25 @@
       "dob": "1993-09-26",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 1,
+        "draftPick": 2,
+        "draftTeam": "",
+        "careerYears": "2013-2020",
+        "games": 446,
+        "ppg": 8.4,
+        "rpg": 5.4,
+        "apg": 1.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2019-20",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "julius_randle",
@@ -1064,7 +1514,25 @@
       "dob": "1994-11-29",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2014,
+        "draftRound": 1,
+        "draftPick": 7,
+        "draftTeam": "",
+        "careerYears": "2015-present",
+        "games": 787,
+        "ppg": 19.2,
+        "rpg": 8.9,
+        "apg": 3.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "karl_anthony_towns",
@@ -1091,7 +1559,25 @@
       "dob": "1995-11-15",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 1,
+        "draftPick": 1,
+        "draftTeam": "",
+        "careerYears": "2016-present",
+        "games": 717,
+        "ppg": 22.8,
+        "rpg": 11.1,
+        "apg": 3.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "devin_booker",
@@ -1118,7 +1604,25 @@
       "dob": "1996-10-30",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 1,
+        "draftPick": 13,
+        "draftTeam": "",
+        "careerYears": "2016-present",
+        "games": 734,
+        "ppg": 24.6,
+        "rpg": 4.0,
+        "apg": 5.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jamal_murray",
@@ -1145,7 +1649,25 @@
       "dob": "1997-02-23",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2016,
+        "draftRound": 1,
+        "draftPick": 7,
+        "draftTeam": "",
+        "careerYears": "2017-present",
+        "games": 608,
+        "ppg": 18.9,
+        "rpg": 3.8,
+        "apg": 5.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "deaaron_fox",
@@ -1172,7 +1694,25 @@
       "dob": "1997-12-20",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2017,
+        "draftRound": 1,
+        "draftPick": 5,
+        "draftTeam": "",
+        "careerYears": "2018-present",
+        "games": 598,
+        "ppg": 21.1,
+        "rpg": 3.9,
+        "apg": 6.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "bam_adebayo",
@@ -1199,7 +1739,25 @@
       "dob": "1997-07-18",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2017,
+        "draftRound": 1,
+        "draftPick": 14,
+        "draftTeam": "",
+        "careerYears": "2018-present",
+        "games": 635,
+        "ppg": 16.2,
+        "rpg": 9.0,
+        "apg": 3.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "shai_gilgeous_alexander",
@@ -1226,7 +1784,25 @@
       "dob": "1998-07-12",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2018,
+        "draftRound": 1,
+        "draftPick": 11,
+        "draftTeam": "",
+        "careerYears": "2019-present",
+        "games": 527,
+        "ppg": 25.3,
+        "rpg": 4.7,
+        "apg": 5.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "tyler_herro",
@@ -1253,7 +1829,25 @@
       "dob": "2000-01-20",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2019,
+        "draftRound": 1,
+        "draftPick": 13,
+        "draftTeam": "",
+        "careerYears": "2020-present",
+        "games": 391,
+        "ppg": 19.5,
+        "rpg": 5.0,
+        "apg": 4.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "oscar_tshiebwe",
@@ -1281,7 +1875,25 @@
       "dob": "1999-11-28",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2024-present",
+        "games": 45,
+        "ppg": 6.3,
+        "rpg": 5.9,
+        "apg": 0.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "reed_sheppard",
@@ -1308,7 +1920,25 @@
       "dob": "2004-11-08",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2024,
+        "draftRound": 1,
+        "draftPick": 3,
+        "draftTeam": "",
+        "careerYears": "2025-present",
+        "games": 129,
+        "ppg": 9.9,
+        "rpg": 2.4,
+        "apg": 2.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "otega_oweh",
@@ -1744,7 +2374,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2025,
+        "draftRound": 2,
+        "draftPick": 41,
+        "draftTeam": "",
+        "careerYears": "2026-present",
+        "games": 9,
+        "ppg": 2.4,
+        "rpg": 0.2,
+        "apg": 0.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "lamont_butler",
@@ -1798,7 +2446,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2025,
+        "draftRound": 2,
+        "draftPick": 46,
+        "draftTeam": "",
+        "careerYears": "2026-present",
+        "games": 21,
+        "ppg": 1.3,
+        "rpg": 1.9,
+        "apg": 0.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "andrew_carr",
@@ -1934,7 +2600,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2024,
+        "draftRound": 2,
+        "draftPick": 47,
+        "draftTeam": "",
+        "careerYears": "2025-present",
+        "games": 54,
+        "ppg": 6.1,
+        "rpg": 1.3,
+        "apg": 0.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "rob_dillingham",
@@ -1961,7 +2645,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2024,
+        "draftRound": 1,
+        "draftPick": 8,
+        "draftTeam": "",
+        "careerYears": "2025-present",
+        "games": 109,
+        "ppg": 5.0,
+        "rpg": 1.4,
+        "apg": 2.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "tre_mitchell",
@@ -2042,7 +2744,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2025-present",
+        "games": 103,
+        "ppg": 7.8,
+        "rpg": 2.3,
+        "apg": 1.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "adou_thiero",
@@ -2070,7 +2790,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2025,
+        "draftRound": 2,
+        "draftPick": 36,
+        "draftTeam": "",
+        "careerYears": "2026-present",
+        "games": 21,
+        "ppg": 1.4,
+        "rpg": 1.0,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "zvonimir_ivisic",
@@ -2206,7 +2944,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2023,
+        "draftRound": 1,
+        "draftPick": 10,
+        "draftTeam": "",
+        "careerYears": "2024-present",
+        "games": 224,
+        "ppg": 7.9,
+        "rpg": 2.9,
+        "apg": 2.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "chris_livingston",
@@ -2233,7 +2989,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2023,
+        "draftRound": 2,
+        "draftPick": 58,
+        "draftTeam": "",
+        "careerYears": "2024-present",
+        "games": 45,
+        "ppg": 1.4,
+        "rpg": 1.3,
+        "apg": 0.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "sahvir_wheeler",
@@ -2290,7 +3064,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2024-present",
+        "games": 31,
+        "ppg": 1.4,
+        "rpg": 0.7,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "cj_fredrick",
@@ -2563,7 +3355,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2022-present",
+        "games": 47,
+        "ppg": 4.8,
+        "rpg": 3.4,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "terrence_clarke",
@@ -2617,7 +3427,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2021,
+        "draftRound": 1,
+        "draftPick": 22,
+        "draftTeam": "",
+        "careerYears": "2022-present",
+        "games": 218,
+        "ppg": 7.1,
+        "rpg": 4.5,
+        "apg": 0.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "devin_askew",
@@ -2699,7 +3527,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2020,
+        "draftRound": 1,
+        "draftPick": 25,
+        "draftTeam": "",
+        "careerYears": "2021-present",
+        "games": 391,
+        "ppg": 14.5,
+        "rpg": 3.5,
+        "apg": 4.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "nick_richards",
@@ -2728,7 +3574,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2020,
+        "draftRound": 2,
+        "draftPick": 42,
+        "draftTeam": "",
+        "careerYears": "2021-present",
+        "games": 305,
+        "ppg": 7.1,
+        "rpg": 5.8,
+        "apg": 0.6,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "tyrese_maxey",
@@ -2755,7 +3619,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2020,
+        "draftRound": 1,
+        "draftPick": 21,
+        "draftTeam": "",
+        "careerYears": "2021-present",
+        "games": 383,
+        "ppg": 21.1,
+        "rpg": 3.2,
+        "apg": 4.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ashton_hagans",
@@ -2783,7 +3665,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2021-2024",
+        "games": 21,
+        "ppg": 3.8,
+        "rpg": 2.1,
+        "apg": 2.6,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2023-24",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ej_montgomery",
@@ -2865,7 +3765,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2023-present",
+        "games": 123,
+        "ppg": 6.9,
+        "rpg": 2.2,
+        "apg": 0.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "pj_washington",
@@ -2920,7 +3838,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2019,
+        "draftRound": 1,
+        "draftPick": 29,
+        "draftTeam": "",
+        "careerYears": "2020-present",
+        "games": 447,
+        "ppg": 15.1,
+        "rpg": 5.4,
+        "apg": 2.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "reid_travis",
@@ -2974,7 +3910,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2018,
+        "draftRound": 1,
+        "draftPick": 9,
+        "draftTeam": "",
+        "careerYears": "2019-2025",
+        "games": 320,
+        "ppg": 7.3,
+        "rpg": 2.8,
+        "apg": 0.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2024-25",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "hamidou_diallo",
@@ -3001,7 +3955,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2018,
+        "draftRound": 2,
+        "draftPick": 45,
+        "draftTeam": "",
+        "careerYears": "2019-2024",
+        "games": 265,
+        "ppg": 8.6,
+        "rpg": 3.8,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2023-24",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "quade_green",
@@ -3056,7 +4028,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2020-2024",
+        "games": 150,
+        "ppg": 4.4,
+        "rpg": 3.4,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2023-24",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jarred_vanderbilt",
@@ -3083,7 +4073,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2018,
+        "draftRound": 2,
+        "draftPick": 41,
+        "draftTeam": "",
+        "careerYears": "2019-present",
+        "games": 369,
+        "ppg": 5.6,
+        "rpg": 6.0,
+        "apg": 1.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "malik_monk",
@@ -3110,7 +4118,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2017,
+        "draftRound": 1,
+        "draftPick": 11,
+        "draftTeam": "",
+        "careerYears": "2018-present",
+        "games": 582,
+        "ppg": 12.4,
+        "rpg": 2.6,
+        "apg": 3.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2025-26",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "isaiah_briscoe",
@@ -3138,7 +4164,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2019-2019",
+        "games": 39,
+        "ppg": 3.5,
+        "rpg": 1.9,
+        "apg": 2.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "derek_willis",
@@ -3226,7 +4270,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2019-2019",
+        "games": 5,
+        "ppg": 3.0,
+        "rpg": 2.2,
+        "apg": 0.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "james_young",
@@ -3253,7 +4315,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2014,
+        "draftRound": 1,
+        "draftPick": 17,
+        "draftTeam": "",
+        "careerYears": "2015-2018",
+        "games": 95,
+        "ppg": 2.3,
+        "rpg": 1.0,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2017-18",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "aaron_harrison",
@@ -3281,7 +4361,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2016-2018",
+        "games": 35,
+        "ppg": 2.3,
+        "rpg": 1.2,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2017-18",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "andrew_harrison",
@@ -3309,7 +4407,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 2,
+        "draftPick": 44,
+        "draftTeam": "",
+        "careerYears": "2017-2019",
+        "games": 145,
+        "ppg": 7.0,
+        "rpg": 2.0,
+        "apg": 2.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "willie_cauley_stein",
@@ -3338,7 +4454,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 1,
+        "draftPick": 6,
+        "draftTeam": "",
+        "careerYears": "2016-2022",
+        "games": 422,
+        "ppg": 8.7,
+        "rpg": 5.9,
+        "apg": 1.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "alex_poythress",
@@ -3368,7 +4502,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2017-2019",
+        "games": 52,
+        "ppg": 3.8,
+        "rpg": 2.3,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "dakari_johnson",
@@ -3396,7 +4548,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 2,
+        "draftPick": 48,
+        "draftTeam": "",
+        "careerYears": "2018-2018",
+        "games": 31,
+        "ppg": 1.8,
+        "rpg": 1.1,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2017-18",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "marcus_lee",
@@ -3631,7 +4801,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2015,
+        "draftRound": 1,
+        "draftPick": 12,
+        "draftTeam": "",
+        "careerYears": "2016-2025",
+        "games": 650,
+        "ppg": 7.6,
+        "rpg": 4.3,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2024-25",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "tyler_ulis",
@@ -3659,7 +4847,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2016,
+        "draftRound": 2,
+        "draftPick": 34,
+        "draftTeam": "",
+        "careerYears": "2017-2019",
+        "games": 133,
+        "ppg": 7.5,
+        "rpg": 1.7,
+        "apg": 4.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "skal_labissiere",
@@ -3740,7 +4946,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2020-2022",
+        "games": 84,
+        "ppg": 5.8,
+        "rpg": 1.3,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jonny_david",
@@ -3848,7 +5072,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2011,
+        "draftRound": 1,
+        "draftPick": 8,
+        "draftTeam": "",
+        "careerYears": "2012-2022",
+        "games": 451,
+        "ppg": 14.0,
+        "rpg": 3.1,
+        "apg": 3.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "terrence_jones",
@@ -3876,7 +5118,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 1,
+        "draftPick": 18,
+        "draftTeam": "",
+        "careerYears": "2013-2019",
+        "games": 234,
+        "ppg": 10.4,
+        "rpg": 5.7,
+        "apg": 1.0,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2018-19",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "doron_lamb",
@@ -3904,7 +5164,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 2,
+        "draftPick": 42,
+        "draftTeam": "",
+        "careerYears": "2013-2014",
+        "games": 100,
+        "ppg": 3.5,
+        "rpg": 1.0,
+        "apg": 0.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2013-14",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "darius_miller",
@@ -3934,7 +5212,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 2,
+        "draftPick": 46,
+        "draftTeam": "",
+        "careerYears": "2013-2021",
+        "games": 271,
+        "ppg": 5.9,
+        "rpg": 1.6,
+        "apg": 1.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2020-21",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "deandre_liggins",
@@ -3963,7 +5259,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2011,
+        "draftRound": 2,
+        "draftPick": 53,
+        "draftTeam": "",
+        "careerYears": "2012-2018",
+        "games": 177,
+        "ppg": 2.0,
+        "rpg": 1.4,
+        "apg": 0.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2017-18",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "josh_harrellson",
@@ -3992,7 +5306,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2011,
+        "draftRound": 2,
+        "draftPick": 45,
+        "draftTeam": "",
+        "careerYears": "2012-2014",
+        "games": 75,
+        "ppg": 3.5,
+        "rpg": 3.0,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2013-14",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "eloy_vargas",
@@ -4130,7 +5462,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2012,
+        "draftRound": 1,
+        "draftPick": 29,
+        "draftTeam": "",
+        "careerYears": "2013-2018",
+        "games": 91,
+        "ppg": 2.4,
+        "rpg": 1.0,
+        "apg": 1.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2017-18",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "kyle_wiltjer",
@@ -4158,7 +5508,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2017-2017",
+        "games": 14,
+        "ppg": 0.9,
+        "rpg": 0.7,
+        "apg": 0.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2016-17",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ryan_harrow",
@@ -4213,7 +5581,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2013,
+        "draftRound": 1,
+        "draftPick": 29,
+        "draftTeam": "",
+        "careerYears": "2014-2017",
+        "games": 165,
+        "ppg": 6.3,
+        "rpg": 2.0,
+        "apg": 1.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2016-17",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "nerlens_noel",
@@ -4240,7 +5626,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2013,
+        "draftRound": 1,
+        "draftPick": 6,
+        "draftTeam": "",
+        "careerYears": "2015-2023",
+        "games": 467,
+        "ppg": 7.1,
+        "rpg": 6.1,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2022-23",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "julius_mays",
@@ -4297,7 +5701,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2008,
+        "draftRound": 2,
+        "draftPick": 58,
+        "draftTeam": "",
+        "careerYears": "2009-2009",
+        "games": 2,
+        "ppg": 4.5,
+        "rpg": 2.0,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2008-09",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ramel_bradley",
@@ -4832,7 +6254,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2010,
+        "draftRound": 1,
+        "draftPick": 18,
+        "draftTeam": "",
+        "careerYears": "2011-2022",
+        "games": 756,
+        "ppg": 13.7,
+        "rpg": 3.9,
+        "apg": 4.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2021-22",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "darnell_dodson",
@@ -4886,7 +6326,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2010,
+        "draftRound": 1,
+        "draftPick": 29,
+        "draftTeam": "",
+        "careerYears": "2012-2014",
+        "games": 51,
+        "ppg": 2.8,
+        "rpg": 2.5,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2013-14",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "kelenna_azubuike",
@@ -4915,7 +6373,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2007-2012",
+        "games": 208,
+        "ppg": 10.5,
+        "rpg": 4.0,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2011-12",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "patrick_sparks",
@@ -4974,7 +6450,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2006-2016",
+        "games": 644,
+        "ppg": 3.7,
+        "rpg": 5.0,
+        "apg": 1.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2015-16",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "randolph_morris",
@@ -5003,7 +6497,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2007-2010",
+        "games": 74,
+        "ppg": 1.9,
+        "rpg": 1.4,
+        "apg": 0.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2009-10",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ravi_moss",
@@ -5326,7 +6838,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2006-2006",
+        "games": 18,
+        "ppg": 4.7,
+        "rpg": 1.7,
+        "apg": 1.8,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2005-06",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "erik_daniels",
@@ -5356,7 +6886,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2005-2005",
+        "games": 21,
+        "ppg": 0.6,
+        "rpg": 0.9,
+        "apg": 0.2,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2004-05",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "cliff_hawkins",
@@ -5502,7 +7050,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2003,
+        "draftRound": 2,
+        "draftPick": 43,
+        "draftTeam": "",
+        "careerYears": "2004-2014",
+        "games": 671,
+        "ppg": 6.3,
+        "rpg": 2.7,
+        "apg": 1.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2013-14",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "marquis_estill",
@@ -5820,7 +7386,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1998,
+        "draftRound": 1,
+        "draftPick": 29,
+        "draftTeam": "",
+        "careerYears": "1999-2016",
+        "games": 1005,
+        "ppg": 5.8,
+        "rpg": 4.7,
+        "apg": 0.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2015-16",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "scott_padgett",
@@ -5850,7 +7434,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1999,
+        "draftRound": 1,
+        "draftPick": 28,
+        "draftTeam": "",
+        "careerYears": "2000-2007",
+        "games": 448,
+        "ppg": 4.2,
+        "rpg": 2.7,
+        "apg": 0.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2006-07",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "wayne_turner",
@@ -5880,7 +7482,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "2000-2000",
+        "games": 3,
+        "ppg": 1.3,
+        "rpg": 1.0,
+        "apg": 1.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1999-00",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "allen_edwards",
@@ -5969,7 +7589,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2000,
+        "draftRound": 1,
+        "draftPick": 19,
+        "draftTeam": "",
+        "careerYears": "2001-2012",
+        "games": 680,
+        "ppg": 7.2,
+        "rpg": 6.5,
+        "apg": 0.6,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2011-12",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "cameron_mills",
@@ -6027,7 +7665,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 2001,
+        "draftRound": 1,
+        "draftPick": 17,
+        "draftTeam": "",
+        "careerYears": "2002-2006",
+        "games": 173,
+        "ppg": 2.8,
+        "rpg": 3.4,
+        "apg": 0.5,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2005-06",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "myron_anthony",
@@ -6224,7 +7880,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1997,
+        "draftRound": 1,
+        "draftPick": 24,
+        "draftTeam": "",
+        "careerYears": "1998-2000",
+        "games": 72,
+        "ppg": 5.3,
+        "rpg": 1.2,
+        "apg": 1.7,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1999-00",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "walter_mccarty",
@@ -6254,7 +7928,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1996,
+        "draftRound": 1,
+        "draftPick": 19,
+        "draftTeam": "",
+        "careerYears": "1997-2006",
+        "games": 593,
+        "ppg": 5.2,
+        "rpg": 2.6,
+        "apg": 1.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2005-06",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "mark_pope",
@@ -6283,7 +7975,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1996,
+        "draftRound": 2,
+        "draftPick": 52,
+        "draftTeam": "",
+        "careerYears": "1998-2005",
+        "games": 153,
+        "ppg": 1.9,
+        "rpg": 1.7,
+        "apg": 0.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2004-05",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "jared_prickett",
@@ -6901,7 +8611,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "1998-1998",
+        "games": 8,
+        "ppg": 0.8,
+        "rpg": 0.8,
+        "apg": 0.1,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1997-98",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "johnathon_davis",
@@ -7123,7 +8851,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1988,
+        "draftRound": 3,
+        "draftPick": 64,
+        "draftTeam": "",
+        "careerYears": "1990-1992",
+        "games": 136,
+        "ppg": 4.8,
+        "rpg": 3.0,
+        "apg": 0.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1991-92",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "ed_davender",
@@ -7404,7 +9150,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 0,
+        "draftRound": 0,
+        "draftPick": 0,
+        "draftTeam": "",
+        "careerYears": "1991-1991",
+        "games": 26,
+        "ppg": 1.8,
+        "rpg": 1.2,
+        "apg": 0.4,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1990-91",
+        "undrafted": true,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "terry_shigg",
@@ -7543,7 +9307,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1991,
+        "draftRound": 1,
+        "draftPick": 22,
+        "draftTeam": "",
+        "careerYears": "1992-1996",
+        "games": 91,
+        "ppg": 3.0,
+        "rpg": 2.4,
+        "apg": 0.3,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "1995-96",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "sean_sutton",
@@ -7598,7 +9380,25 @@
       "dob": "",
       "bio": {},
       "sources": [],
-      "lastUpdated": null
+      "lastUpdated": null,
+      "nba": {
+        "draftYear": 1993,
+        "draftRound": 1,
+        "draftPick": 22,
+        "draftTeam": "",
+        "careerYears": "1994-2003",
+        "games": 568,
+        "ppg": 11.2,
+        "rpg": 4.9,
+        "apg": 1.9,
+        "teams": [],
+        "highlights": [],
+        "lastSeason": "2002-03",
+        "undrafted": false,
+        "overseas": [],
+        "coaching": [],
+        "postCareer": ""
+      }
     },
     {
       "id": "chris_jones",
